@@ -1,0 +1,84 @@
+name: GG Economics daily
+on:
+  schedule:
+    - cron: "30 0 * * *"        # 03:30 Bahrain
+  workflow_dispatch:
+    inputs:
+      date:
+        description: "Target date YYYY-MM-DD (empty = today UTC)"
+        required: false
+concurrency: { group: daily, cancel-in-progress: false }
+permissions: { contents: write }
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    timeout-minutes: 170
+    env:
+      BUFFER_API_KEY: ${{ secrets.BUFFER_API_KEY }}
+      CLAUDE_CODE_OAUTH_TOKEN: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
+      MEDIA_REPO_DIR: ${{ github.workspace }}/../media
+      HF_HOME: ${{ github.workspace }}/../hf
+    steps:
+      - uses: actions/checkout@v4
+      - name: Date
+        run: |
+          D="${{ inputs.date }}"; [ -z "$D" ] && D=$(date -u +%F); echo "D=$D" >> $GITHUB_ENV
+      - name: Skip if done
+        id: skip
+        run: |
+          if [ -f "autopilot/queue/$D/buffer_ids.json" ] || grep -q "^mode: paused" autopilot/CONTROL.md; then echo "skip=1" >> $GITHUB_OUTPUT; fi
+      - name: System packages
+        if: steps.skip.outputs.skip != '1'
+        run: sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg zsh espeak-ng > /dev/null
+      - uses: actions/setup-python@v5
+        if: steps.skip.outputs.skip != '1'
+        with: { python-version: "3.11", cache: pip, cache-dependency-path: requirements.txt }
+      - uses: actions/setup-node@v4
+        if: steps.skip.outputs.skip != '1'
+        with: { node-version: "20", cache: npm, cache-dependency-path: studio/package-lock.json }
+      - uses: actions/cache@v4
+        if: steps.skip.outputs.skip != '1'
+        with: { path: "${{ github.workspace }}/../hf", key: hf-models-v1 }
+      - name: Install
+        if: steps.skip.outputs.skip != '1'
+        run: |
+          python -m venv .venv && .venv/bin/pip install -q -r requirements.txt
+          .venv/bin/python -m spacy download en_core_web_sm -q || true
+          pip install -q yt-dlp && (cd studio && npm ci --silent) && npm i -g @anthropic-ai/claude-code --silent
+          (cd studio && npx remotion browser ensure)
+      - name: Secrets to files
+        if: steps.skip.outputs.skip != '1'
+        env: { YT: "${{ secrets.YT_TOKEN_JSON }}", MK: "${{ secrets.MEDIA_DEPLOY_KEY }}" }
+        run: |
+          mkdir -p autopilot/keys ~/.ssh && printf '%s' "$YT" > autopilot/keys/youtube-token.json
+          printf '%s\n' "$MK" > ~/.ssh/media && chmod 600 ~/.ssh/media
+          echo "GIT_SSH_COMMAND=ssh -i $HOME/.ssh/media -o StrictHostKeyChecking=accept-new" >> $GITHUB_ENV
+          git config --global user.name "GG Economics bot" && git config --global user.email "bot@users.noreply.github.com"
+      - name: Media repo
+        if: steps.skip.outputs.skip != '1'
+        run: git clone -q git@github.com:hussainnasser1996-stack/savestate-media.git "$MEDIA_REPO_DIR"
+      - name: Claude runs the routine
+        if: steps.skip.outputs.skip != '1'
+        run: |
+          mkdir -p autopilot/log/runs
+          claude -p "You are the GG Economics autopilot, running unattended on a GitHub Actions Linux runner (no Mac, no browser). Target date D = $D. Follow autopilot/ROUTINE.md exactly, end to end, then stop." \
+            --permission-mode bypassPermissions --model claude-opus-5-5 --output-format stream-json --verbose > autopilot/log/runs/$D.jsonl 2>&1
+          tail -c 3000 autopilot/log/runs/$D.jsonl
+          test -f "autopilot/queue/$D/buffer_ids.json" || { echo "no buffer_ids.json -> not scheduled"; exit 1; }
+      - name: Save state
+        if: always() && steps.skip.outputs.skip != '1'
+        run: |
+          rm -f autopilot/keys/youtube-token.json
+          git add -A autopilot && git commit -qm "autopilot $D" || exit 0
+          for i in 1 2 3; do git pull -q --rebase && git push -q && break; sleep 5; done
+      - uses: actions/upload-artifact@v4
+        if: always() && steps.skip.outputs.skip != '1'
+        with:
+          name: run-${{ env.D }}
+          retention-days: 14
+          path: |
+            autopilot/log/runs/
+            autopilot/queue/${{ env.D }}/
+      - name: Alert on failure
+        if: failure()
+        run: python3 autopilot/scripts/notify.py "Daily run FAILED for $D. GitHub → ggeconomics-autopilot → Actions" high

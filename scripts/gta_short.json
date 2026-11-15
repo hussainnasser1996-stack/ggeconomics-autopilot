@@ -1,0 +1,37 @@
+{
+ "id": "gta_short",
+ "voice": "am_liam",
+ "speed": 1.1,
+ "gap": 0.18,
+ "lines": [
+  {
+   "id": "hook",
+   "text": "GTA Six isn't even out yet. And it's already made a billion dollars."
+  },
+  {
+   "id": "pre",
+   "text": "That's the estimate from Sensor Tower, for digital pre-orders alone. Take-Two hasn't confirmed it."
+  },
+  {
+   "id": "price",
+   "text": "The price? Eighty dollars. The Ultimate Edition, a hundred.",
+   "say": "The price? Eighty dollars. And the ultimate version, a hundred."
+  },
+  {
+   "id": "bet",
+   "text": "And Take-Two needs it. Last quarter, bookings fell eighteen percent."
+  },
+  {
+   "id": "guide",
+   "text": "This quarter, they're guiding three point three five to three point five billion. More than double."
+  },
+  {
+   "id": "quote",
+   "text": "Even the CEO is careful. Quote: we tend to avoid claiming success before it occurs."
+  },
+  {
+   "id": "out",
+   "text": "November nineteenth. Save your game."
+  }
+ ]
+}

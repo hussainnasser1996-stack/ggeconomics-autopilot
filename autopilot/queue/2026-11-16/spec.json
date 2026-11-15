@@ -1,0 +1,182 @@
+{
+ "spec": {
+  "tag": "GTA VI · BY THE NUMBERS",
+  "topic": "GTA V's $1B in 3 days vs GTA VI pre-orders",
+  "vo": "vo/d_2026_11_16/vo.wav",
+  "timelinePath": "vo/d_2026_11_16/timeline.json",
+  "timeline": {
+   "duration": 1,
+   "lines": [],
+   "words": []
+  },
+  "noBed": true,
+  "clips": [
+   {
+    "src": "d_2026_11_16",
+    "from": 52.45,
+    "dur": 1.0,
+    "shot": 22
+   },
+   {
+    "src": "d_2026_11_16",
+    "from": 45.52,
+    "dur": 2.2,
+    "shot": 21
+   },
+   {
+    "src": "d_2026_11_16",
+    "from": 2.12,
+    "dur": 2.2,
+    "shot": 1
+   },
+   {
+    "src": "d_2026_11_16",
+    "from": 54.65,
+    "dur": 1.67,
+    "shot": 24
+   },
+   {
+    "src": "d_2026_11_16",
+    "from": 25.85,
+    "dur": 1.27,
+    "shot": 9
+   },
+   {
+    "src": "d_2026_11_16",
+    "from": 11.39,
+    "dur": 2.06,
+    "shot": 4
+   },
+   {
+    "src": "d_2026_11_16",
+    "from": 6.45,
+    "dur": 2.2,
+    "shot": 2
+   },
+   {
+    "src": "d_2026_11_16",
+    "from": 9.45,
+    "dur": 1.6,
+    "shot": 3
+   },
+   {
+    "src": "d_2026_11_16",
+    "from": 18.45,
+    "dur": 2.0,
+    "shot": 7
+   },
+   {
+    "src": "d_2026_11_16",
+    "from": 39.92,
+    "dur": 1.67,
+    "shot": 18
+   },
+   {
+    "src": "d_2026_11_16",
+    "from": 27.32,
+    "dur": 1.33,
+    "shot": 10
+   },
+   {
+    "src": "d_2026_11_16",
+    "from": 61.19,
+    "dur": 1.26,
+    "shot": 29
+   },
+   {
+    "src": "d_2026_11_16",
+    "from": 64.32,
+    "dur": 1.4,
+    "shot": 32
+   },
+   {
+    "src": "d_2026_11_16",
+    "from": 56.52,
+    "dur": 1.27,
+    "shot": 25
+   },
+   {
+    "src": "d_2026_11_16",
+    "from": 35.92,
+    "dur": 1.33,
+    "shot": 15
+   },
+   {
+    "src": "d_2026_11_16",
+    "from": 66.52,
+    "dur": 1.27,
+    "shot": 33
+   },
+   {
+    "src": "d_2026_11_16",
+    "from": 34.52,
+    "dur": 1.2,
+    "shot": 14
+   },
+   {
+    "src": "d_2026_11_16",
+    "from": 57.99,
+    "dur": 1.2,
+    "shot": 26
+   },
+   {
+    "src": "d_2026_11_16",
+    "from": 67.99,
+    "dur": 1.2,
+    "shot": 34
+   },
+   {
+    "src": "d_2026_11_16",
+    "from": 48.52,
+    "dur": 1.9,
+    "shot": 21
+   }
+  ],
+  "credit": "FOOTAGE: ROCKSTAR GAMES · DATA: TAKE-TWO (2013), SENSOR TOWER",
+  "endLine": "LAUNCH WEEK · FOLLOW FOR DAY ONE",
+  "cards": [
+   {
+    "kind": "big",
+    "line": "hook",
+    "value": "$1B+",
+    "label": "before you can play",
+    "note": "Sensor Tower estimate · digital pre-orders",
+    "color": "#D4FF3A"
+   },
+   {
+    "kind": "pair",
+    "line": "then",
+    "a": {
+     "value": "$800M",
+     "label": "DAY ONE"
+    },
+    "b": {
+     "value": "$1B+",
+     "label": "DAY THREE"
+    },
+    "note": "GTA V · Take-Two, September 2013"
+   },
+   {
+    "kind": "big",
+    "line": "rec",
+    "value": "#1",
+    "label": "fastest to $1B",
+    "note": "any entertainment product, at the time",
+    "color": "#3AE0FF"
+   },
+   {
+    "kind": "date",
+    "line": "now",
+    "small": "STILL TO GO",
+    "big": "3 DAYS"
+   },
+   {
+    "kind": "date",
+    "line": "conf",
+    "small": "YOUR COPY UNLOCKS",
+    "big": "NOV 19"
+   }
+  ],
+  "headline": "GTA 6 COULD MAKE |$1 BILLION| BEFORE YOU PLAY IT"
+ }
+}

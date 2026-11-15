@@ -1,0 +1,33 @@
+{
+ "id": "d_2026_11_16",
+ "voice": "am_liam",
+ "speed": 1.25,
+ "gap": 0.12,
+ "lines": [
+  {
+   "id": "hook",
+   "text": "GTA Six might make a billion dollars before you can even play it."
+  },
+  {
+   "id": "then",
+   "text": "In 2013, GTA Five made eight hundred million on day one, and passed a billion by day three."
+  },
+  {
+   "id": "rec",
+   "text": "At the time, the fastest any entertainment product had ever hit a billion."
+  },
+  {
+   "id": "now",
+   "text": "GTA Six? Sensor Tower estimates more than a billion in digital pre-orders, with three days still to go."
+  },
+  {
+   "id": "conf",
+   "text": "Take-Two hasn't confirmed it. Your copy unlocks November nineteenth."
+  },
+  {
+   "id": "out",
+   "text": "That's the game. GG.",
+   "say": "That's the game. Gee gee."
+  }
+ ]
+}

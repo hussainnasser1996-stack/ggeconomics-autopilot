@@ -1,0 +1,11 @@
+.venv/
+work/
+out/
+studio/node_modules/
+studio/public/footage/
+studio/public/vo/d_*/
+__pycache__/
+autopilot/keys/
+autopilot/queue/*/*.mp4
+autopilot/queue/*/ovsafe/
+autopilot/log/runs/

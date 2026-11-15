@@ -1,0 +1,21 @@
+{
+ "id": "gta_long", "voice": "am_liam", "speed": 1.05, "gap": 0.32,
+ "lines": [
+  {"id": "c1",  "text": "One. The pre-order."},
+  {"id": "l1",  "text": "In four days, Grand Theft Auto Six launches on PlayStation Five and Xbox Series X and S."},
+  {"id": "l2",  "text": "Sensor Tower estimates digital pre-orders have already passed a billion dollars. Take-Two hasn't confirmed that number. But its CEO says pre-orders are running far in excess of expectations."},
+  {"id": "l3",  "text": "And it isn't cheap. Seventy-nine ninety-nine for the standard edition. Ninety-nine ninety-nine for the Ultimate.", "say": "And it isn't cheap. Seventy-nine ninety-nine for the standard version. Ninety-nine ninety-nine for the ultimate."},
+  {"id": "c2",  "text": "Two. The budget."},
+  {"id": "l4",  "text": "Nobody outside Rockstar knows what it cost. Rockstar told Bloomberg it was not quite as much as the Burj Khalifa, a building estimated at one and a half billion dollars."},
+  {"id": "l5",  "text": "Rockstar now has more than four thousand seven hundred employees. Nearly double the headcount from when work began."},
+  {"id": "l6",  "text": "That's a bet you only make with a hit behind you. The series has sold half a billion copies. GTA Five alone, more than two hundred and thirty million."},
+  {"id": "c3",  "text": "Three. The quarter."},
+  {"id": "l7",  "text": "Take-Two needs this. In the three months to September, its net bookings fell eighteen percent, to one point six billion dollars."},
+  {"id": "l8",  "text": "For October to December, it's guiding three point three five to three point five billion. More than double. Mostly on one game."},
+  {"id": "l9",  "text": "The CEO, Strauss Zelnick, is careful about it. Quote: we tend to avoid claiming success before it occurs."},
+  {"id": "c4",  "text": "Four. What to watch."},
+  {"id": "l10", "text": "Three things on launch day. Whether Xbox cloud streaming holds up when it opens at one A.M. Eastern. The thirty frames per second target on both consoles. And whether pre-orders turn into real sales."},
+  {"id": "l11", "text": "Then the long game. Bloomberg reports GTA Online earned around half a billion dollars a year for GTA Five. The online mode for Six comes later."},
+  {"id": "out", "text": "That's the money behind the biggest launch of the year. Save your game."}
+ ]
+}

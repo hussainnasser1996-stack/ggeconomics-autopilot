@@ -1,0 +1,57 @@
+{
+  "brand": "GG Economics",
+  "youtube_handle": "@ggeconomics",
+  "instagram_handle": "@ggeconomics",
+  "buffer_organization_id": "6af9f7c6d5b4ae0adbe5e446",
+  "buffer_channels": {
+    "youtube": "6af9f8caece6dfde5fd6053d",
+    "instagram": "6afa2b15ece6dfde5fd90c9e"
+  },
+  "buffer_key_keychain": {
+    "service": "ggeconomics-buffer",
+    "account": "buffer"
+  },
+  "media_repo": "hussainnasser1996-stack/savestate-media",
+  "media_repo_local": "~/Developer/savestate-media",
+  "youtube_category_id": "20",
+  "official_channels": [
+    "Rockstar Games",
+    "PlayStation",
+    "Xbox",
+    "Nintendo of America",
+    "Bandai Namco Entertainment America",
+    "Ubisoft",
+    "Electronic Arts",
+    "EA SPORTS FC",
+    "Bethesda Softworks",
+    "CD PROJEKT RED",
+    "Capcom USA",
+    "SEGA",
+    "Square Enix",
+    "Activision",
+    "Call of Duty",
+    "Blizzard Entertainment",
+    "Riot Games",
+    "Epic Games",
+    "FromSoftware",
+    "Warner Bros. Games",
+    "2K",
+    "Take-Two Interactive",
+    "IGN",
+    "GameSpot",
+    "The Game Awards",
+    "Bloomberg Originals",
+    "Bloomberg Television"
+  ],
+  "news_sources": [
+    "https://www.gamesindustry.biz/feed",
+    "https://www.videogameschronicle.com/feed/",
+    "https://www.eurogamer.net/feed",
+    "https://www.gamespot.com/feeds/news/",
+    "https://feeds.feedburner.com/ign/games-all",
+    "https://www.theverge.com/rss/games/index.xml"
+  ],
+  "buffer_account_email": "financesimplified92@gmail.com (separate Buffer account, Google sign-in)",
+  "youtube_channel_id": "UCpsoR_hS2XJT-Yv7UN0qZbQ",
+  "ntfy_topic": "ggeconomics-cbd4939b5df0"
+}

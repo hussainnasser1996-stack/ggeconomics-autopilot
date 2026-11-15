@@ -1,0 +1,10 @@
+{
+ "id": "elden_short", "voice": "am_liam", "speed": 1.1, "gap": 0.2,
+ "lines": [
+  {"id": "hook",  "text": "Starting Elden Ring? Do these three things in your first hour."},
+  {"id": "one",   "text": "One. Rest at a Site of Grace. Golden rays point to where you go next."},
+  {"id": "two",   "text": "Two. Find the merchant at the Church of Elleh, and buy the Crafting Kit."},
+  {"id": "three", "text": "Three. Keep your Stonesword Keys. They open the imp-statue seals."},
+  {"id": "out",   "text": "That's your first hour. Save your game."}
+ ]
+}

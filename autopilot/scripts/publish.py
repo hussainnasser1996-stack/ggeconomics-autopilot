@@ -1,0 +1,79 @@
+#!/usr/bin/env python3
+"""publish.py <date> [--dry]
+Hosts queue/<date>/short.mp4 (+ carousel PNGs) in the public media repo, then schedules them in Buffer:
+YouTube Short + Instagram Reel (+ Instagram carousel on carousel days). Writes queue/<date>/buffer_ids.json.
+Never runs twice for the same date (buffer_ids.json guard). Key: macOS keychain (config.json → buffer_key_keychain)."""
+import sys, json, os, subprocess, shutil, urllib.request
+from pathlib import Path
+from datetime import datetime
+AP = Path(__file__).resolve().parents[1]
+cfg = json.load(open(AP / "config.json"))
+D = sys.argv[1]; dry = "--dry" in sys.argv
+Q = AP / "queue" / D
+post = json.load(open(Q / "post.json"))          # {title, caption, hashtags, carousel: bool}
+ctl = (AP / "CONTROL.md").read_text()
+mode = next((l.split(":", 1)[1].split("#")[0].strip() for l in ctl.splitlines() if l.startswith("mode:")), "dry_run")
+if mode != "auto": dry = True
+if (Q / "buffer_ids.json").exists(): sys.exit("already scheduled (buffer_ids.json exists)")
+hh, mm = cfg.get("publish_time_utc", "23:00").split(":") if "publish_time_utc" in cfg else \
+    next(l.split('"')[1] for l in ctl.splitlines() if l.startswith("publish_time_utc")).split(":")
+due = f"{D}T{hh}:{mm}:00.000Z"
+
+# ---- 1. host media
+repo = Path(os.path.expanduser(os.environ.get("MEDIA_REPO_DIR") or cfg["media_repo_local"]))
+raw = f"https://raw.githubusercontent.com/{cfg['media_repo']}/main"
+import hashlib
+sha = hashlib.sha1(open(Q / "short.mp4", "rb").read()).hexdigest()[:8]
+vname = f"video/{D}-{sha}.mp4"; urls = {"video": f"{raw}/{vname}", "images": []}
+slides = sorted(Q.glob("slide_*.png")) if post.get("carousel") else []
+if not dry:
+    shutil.copy(Q / "short.mp4", repo / vname)
+    for s in slides:
+        shutil.copy(s, repo / f"img/{D}-{sha}-{s.name}"); urls["images"].append(f"{raw}/img/{D}-{sha}-{s.name}")
+    subprocess.run(["git", "-C", str(repo), "add", "-A"], check=True)
+    subprocess.run(["git", "-C", str(repo), "commit", "-qm", f"media {D}"], check=True)
+    subprocess.run(["git", "-C", str(repo), "push", "-q"], check=True)
+    for u in [urls["video"]] + urls["images"]:
+        code = subprocess.run(["curl", "-s", "-o", "/dev/null", "-w", "%{http_code}", "-I", u], capture_output=True, text=True).stdout
+        if code != "200": sys.exit(f"media not reachable yet: {u} -> {code}")
+
+# ---- 2. Buffer
+def key():
+    if os.environ.get("BUFFER_API_KEY"): return os.environ["BUFFER_API_KEY"]
+    k = cfg["buffer_key_keychain"]
+    return subprocess.run(["security", "find-generic-password", "-s", k["service"], "-a", k["account"], "-w"],
+                          capture_output=True, text=True).stdout.strip()
+def gql(q, v):
+    req = urllib.request.Request("https://api.buffer.com", data=json.dumps({"query": q, "variables": v}).encode(),
+          headers={"Content-Type": "application/json", "Authorization": "Bearer " + key()}, method="POST")
+    body = json.loads(urllib.request.urlopen(req, timeout=60).read())
+    if body.get("errors"): sys.exit("GraphQL error: " + json.dumps(body["errors"]))
+    return body["data"]
+MUT = """mutation($i: CreatePostInput!){ createPost(input:$i){ __typename
+  ... on PostActionSuccess { post { id dueAt } } ... on MutationError { message } } }"""
+text = post["caption"].strip() + "\n\n" + " ".join(post.get("hashtags", []))
+jobs = []
+ch = cfg["buffer_channels"]
+if ch.get("youtube"):
+    jobs.append(("youtube_short", {"text": post["caption"].strip() + "\n\n" + " ".join(post.get("hashtags", [])[:3]), "channelId": ch["youtube"],
+        "schedulingType": "automatic", "mode": "customScheduled", "dueAt": due, "assets": [{"video": {"url": urls["video"]}}],
+        "metadata": {"youtube": {"title": post["title"][:100], "categoryId": cfg["youtube_category_id"], "privacy": "public",
+                                 "madeForKids": False, "notifySubscribers": True}}}))
+if ch.get("instagram"):
+    jobs.append(("instagram_reel", {"text": text[:2200], "channelId": ch["instagram"], "schedulingType": "automatic",
+        "mode": "customScheduled", "dueAt": due, "assets": [{"video": {"url": urls["video"], "metadata": {"thumbnailOffset": 1500}}}],
+        "metadata": {"instagram": {"type": "reel", "shouldShareToFeed": True}}}))
+    if slides:
+        due2 = f"{D}T{(int(hh) - 8) % 24:02d}:{mm}:00.000Z"   # carousel ~8h before the Reel
+        jobs.append(("instagram_carousel", {"text": text[:2200], "channelId": ch["instagram"], "schedulingType": "automatic",
+            "mode": "customScheduled", "dueAt": due2, "assets": [{"image": {"url": u}} for u in urls["images"]],
+            "metadata": {"instagram": {"type": "post", "shouldShareToFeed": True}}}))
+if dry:
+    print(json.dumps({"mode": mode, "dry": True, "due": due, "jobs": [j[0] for j in jobs] or "no Buffer channels configured yet"}, indent=1)); sys.exit(0)
+ids = {}
+for name, inp in jobs:
+    res = gql(MUT, {"i": inp})["createPost"]
+    if res["__typename"] != "PostActionSuccess": sys.exit(f"Buffer rejected {name}: {res.get('message')}")
+    ids[name] = res["post"]["id"]
+json.dump({"due": due, "ids": ids, "urls": urls}, open(Q / "buffer_ids.json", "w"), indent=1)
+print("scheduled", ids)
