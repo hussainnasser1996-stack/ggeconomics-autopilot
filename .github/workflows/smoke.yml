@@ -4,7 +4,7 @@ jobs:
   smoke:
     runs-on: ubuntu-latest
     timeout-minutes: 90
-    env: { HF_HOME: "${{ github.workspace }}/../hf" }
+    env: { HF_HOME: "${{ github.workspace }}/../hf", GH_TOKEN: "${{ github.token }}" }
     steps:
       - uses: actions/checkout@v4
       - run: sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg zsh espeak-ng > /dev/null
@@ -22,10 +22,12 @@ jobs:
       - name: YouTube via yt-dlp
         continue-on-error: true
         run: .venv/bin/yt-dlp --flat-playlist -J "ytsearch3:elden ring official trailer" | python3 -c "import json,sys;print([e['id'] for e in json.load(sys.stdin)['entries']])" && PATH=$PWD/.venv/bin:$PATH timeout 600 python3 autopilot/scripts/fetch_footage.py "elden ring official trailer" yt_test --pick E3Huy2cdih0
+      - name: Library footage
+        run: python3 autopilot/scripts/library.py && python3 autopilot/scripts/library.py gta6_trailer_VQRLujxTm3c.mp4 && PATH=$PWD/.venv/bin:$PATH python3 autopilot/scripts/fetch_footage.py "gta6 library" d_2026_11_16 --url work/lib/gta6_trailer_VQRLujxTm3c.mp4
       - name: Steam fallback footage
         run: |
           U=$(python3 autopilot/scripts/steam_footage.py "elden ring" | grep -m1 m3u8 | xargs)
-          PATH=$PWD/.venv/bin:$PATH python3 autopilot/scripts/fetch_footage.py "elden ring steam" d_2026_11_16 --url "$U"
+          PATH=$PWD/.venv/bin:$PATH python3 autopilot/scripts/fetch_footage.py "elden ring steam" steam_test --url "$U"
       - name: Build the 16 Nov short in the cloud
         run: |
           mkdir -p autopilot/queue/smoke && cp autopilot/queue/2026-11-16/{script,spec,post}.json autopilot/queue/smoke/

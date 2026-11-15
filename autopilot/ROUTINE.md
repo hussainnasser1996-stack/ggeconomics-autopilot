@@ -38,7 +38,10 @@ Use `say` for pronunciation fixes (captions follow `say`).
 ## 3. Footage
 `autopilot/scripts/fetch_footage.py "<game> official trailer" d_<D>` → read the table → rerun with `--pick <VIDEO_ID>`
 (official channel first; footage_policy in CONTROL.md allows any source).
-If YouTube is blocked on this machine (search returns nothing / "confirm you're not a bot"), use official Steam trailers:
+YouTube BLOCKS downloads from the cloud runner ("confirm you're not a bot"; search still works). So, in order:
+(a) the footage library: `autopilot/scripts/library.py` lists it, `library.py <file>` downloads it → `fetch_footage.py "<label>" d_<D> --url work/lib/<file>`
+    (GTA VI trailers + a long GTA VI compilation are there; vary the shots day to day: check history.md and pick different shot ids);
+(b) official Steam trailers:
 `autopilot/scripts/steam_footage.py "<game>"` → `fetch_footage.py "<game> steam" d_<D> --url "<hls url>"`. If neither has footage for the
 story's game, pick another verified story whose game does. Then LOOK at `work/d_<D>/top.jpg`.
 Choose 12–16 shot ids with action and no burned-in text, then `.venv/bin/python src/pick.py d_<D> autopilot/queue/D/clips.json <ids…>`

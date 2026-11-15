@@ -37,7 +37,7 @@ else:
     subprocess.run(["yt-dlp", "-f", "bv*[height<=1080]+ba/b[height<=1080]", "--merge-output-format", "mp4", "-o", str(src),
                     f"https://www.youtube.com/watch?v={x['id']}"], check=True)
 subprocess.run([str(GN / "src/proxy.sh"), str(src), str(GN / f"work/{tag}.mp4")], check=True)
-pub = GN / f"studio/public/footage/{tag}.mp4"
+pub = GN / f"studio/public/footage/{tag}.mp4"; pub.parent.mkdir(parents=True, exist_ok=True)
 if pub.exists(): pub.unlink()
 os.link(GN / f"work/{tag}.mp4", pub)
 py = str(GN / ".venv/bin/python")
