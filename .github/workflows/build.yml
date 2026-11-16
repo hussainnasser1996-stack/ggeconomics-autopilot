@@ -55,12 +55,25 @@ jobs:
       - uses: actions/cache@v4
         if: steps.d.outputs.go == '1'
         with: { path: "${{ github.workspace }}/../hf", key: hf-models-v1 }
+      - name: Cache venv + node_modules + footage library   # saves ~2-3 min per build
+        if: steps.d.outputs.go == '1'
+        uses: actions/cache@v4
+        with:
+          path: |
+            .venv
+            studio/node_modules
+            ~/.cache/remotion
+            work/lib
+          key: deps-v1-${{ hashFiles('requirements.txt', 'studio/package-lock.json') }}
       - name: Install
         if: steps.d.outputs.go == '1'
         run: |
-          python -m venv .venv && .venv/bin/pip install -q -r requirements.txt
-          .venv/bin/python -m spacy download en_core_web_sm -q || true
-          (cd studio && npm ci --silent && npx remotion browser ensure)
+          if [ ! -x .venv/bin/python ]; then
+            python -m venv .venv && .venv/bin/pip install -q -r requirements.txt
+            .venv/bin/python -m spacy download en_core_web_sm -q || true
+          fi
+          [ -d studio/node_modules/remotion ] || (cd studio && npm ci --silent)
+          (cd studio && npx remotion browser ensure)
       - name: Secrets to files
         if: steps.d.outputs.go == '1'
         env: { YT: "${{ secrets.YT_TOKEN_JSON }}", MK: "${{ secrets.MEDIA_DEPLOY_KEY }}" }

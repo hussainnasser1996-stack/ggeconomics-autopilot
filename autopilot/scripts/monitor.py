@@ -52,7 +52,21 @@ if sent_yt and (AP / "keys/youtube-token.json").exists():
     py = str(AP.parent / ".venv/bin/python") if (AP.parent / ".venv/bin/python").exists() else "python3"
     r = subprocess.run([py, str(AP / "scripts/yt_after.py")], input=json.dumps(sent_yt), capture_output=True, text=True)
     actions += [l for l in (r.stdout + r.stderr[-300:]).splitlines() if l.strip() and "nothing new" not in l]
+# GitHub Actions minutes this month (private repo free tier = 2,000): sum of job durations, rounded up per job
+mins = 0
+try:
+    month = now.strftime("%Y-%m")
+    runs = json.loads(subprocess.run(["gh", "run", "list", "-R", os.environ["GITHUB_REPOSITORY"], "--limit", "300", "--json",
+                      "createdAt,startedAt,updatedAt,status"], capture_output=True, text=True).stdout or "[]")
+    for r in runs:
+        if r["createdAt"].startswith(month) and r["status"] == "completed" and r.get("startedAt"):
+            a = datetime.datetime.fromisoformat(r["startedAt"].replace("Z", "+00:00")); b = datetime.datetime.fromisoformat(r["updatedAt"].replace("Z", "+00:00"))
+            mins += max(1, -(-int((b - a).total_seconds()) // 60))
+    days_left = (datetime.date(today.year + (today.month == 12), today.month % 12 + 1, 1) - today).days
+    if mins > 1700: problems.append(f"GitHub Actions minutes this month ≈ {mins}/2000: CEO must lower posts_per_day")
+except Exception as e: mins = f"unknown ({e})"
 out = [f"# Delivery check · {now:%Y-%m-%d %H:%M} UTC", "", "## Problems", *(["- " + p for p in problems] or ["- none"]),
+       "", f"GitHub Actions minutes used this month: ~{mins} of 2,000 (free tier, private repo)",
        "", "## Actions taken", *(["- " + a for a in actions] or ["- none"]), "",
        "| post | channel | status | sent/due | link | title |", "|---|---|---|---|---|---|", *rows, ""]
 (AP / "log/delivery.md").write_text("\n".join(out)); print("\n".join(out[:12]))

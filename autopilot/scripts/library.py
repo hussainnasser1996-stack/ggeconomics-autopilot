@@ -11,5 +11,6 @@ if len(sys.argv) < 2:
     for x in a["assets"]: print(f"{x['name']:50s} {x['size']/1e6:8.0f} MB")
     sys.exit()
 d = Path(__file__).resolve().parents[2] / "work/lib"; d.mkdir(parents=True, exist_ok=True)
-subprocess.run(["gh", "release", "download", "footage-library", "-R", R, "-p", sys.argv[1], "-D", str(d), "--clobber"], check=True)
+if not (d / sys.argv[1]).exists():          # cached between builds (actions/cache: work/lib)
+    subprocess.run(["gh", "release", "download", "footage-library", "-R", R, "-p", sys.argv[1], "-D", str(d), "--clobber"], check=True)
 print(d / sys.argv[1])

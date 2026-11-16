@@ -20,7 +20,7 @@ Read: `log/scoreboard.md`, `log/delivery.md`, `log/history.md` (last 14 days), `
 - Any platform rule changes (YouTube Shorts, Instagram Reels) that affect reach.
 
 ## 3. Decide and change (commit the edits)
-You may edit: `STRATEGY.md`, `CONTROL.md` (posts_per_day 1–4, slots, carousel days, launch_window_until, focus),
+You may edit: `STRATEGY.md`, `CONTROL.md` (posts_per_day 1–3: each post costs ~17 GitHub Actions minutes and the free tier is 2,000/month; delivery.md shows minutes used; slots, carousel days, launch_window_until, focus),
 `BRAIN.md` (format menu, hook/title rules, story selection), `research/topics.md` (stock 10+ dated topics for the next
 2 weeks: launches, earnings dates, events, price changes), `BENCHMARK.md`, `PARTNERSHIPS.md`.
 Do not edit scripts or workflows. If the pipeline itself needs an engineering change (new format renderer, new platform,
