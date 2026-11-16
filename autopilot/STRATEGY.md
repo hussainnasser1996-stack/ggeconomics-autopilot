@@ -1,27 +1,52 @@
-# GG Economics: growth strategy (v1, 2026-11-15)
+# GG Economics: growth strategy (v2, 16 Nov 2026)
 
-**Position:** gaming news through the money. Prices, budgets, sales, earnings, deals: the business side
-of the games people play. Few gaming channels do this well, and Husain's finance background (FMVA, fund work,
-the Singular Link Gaming research folder) makes it credible. Tagline: GAMES · MONEY · NEWS.
+**Goal:** followers and reach on YouTube + Instagram (not ad revenue), so gaming companies want to partner.
+Benchmark: Shorts convert ~1.5–2 subscribers per 1,000 views → 10k subscribers ≈ 5–6M Shorts views. Volume of
+good posts and series that give a reason to subscribe are the levers.
 
-**Cadence (consistency beats volume):**
-- 1 Short a day → YouTube Shorts + Instagram Reels (same file), 23:00 UTC (6 PM ET).
-- Mon/Wed/Fri: an Instagram carousel of the day's story (saves and shares are IG's strongest signal).
-- Sun (phase 2): a 2–4 min long-form "The Week in Games & Money", with chapters and an end screen.
+**Position:** gaming news told through the money: prices, budgets, sales, earnings, what it costs YOU. Original
+numbers (our own calculations, rankings, verdicts) keep us clear of YouTube's "inauthentic content" rule and Instagram's
+April-2026 aggregator crackdown, which cut reach for accounts that mostly repost.
 
-**Pillars (rotate; never two of the same in a row):**
-0. **Your wallet (lead pillar, from the benchmark):** what to buy, what it costs you, cheapest way, trade-ins, deals, whether it runs on your console.
-1. Breaking news with a number: prices, sales, layoffs, deals, earnings.
-2. Launch coverage: big releases, day-one numbers, first-week sales.
-3. By the numbers: budgets, player counts, "how X makes money".
-4. Evergreen tips: "3 things in your first hour" from walkthrough footage (keeps the channel alive on slow days).
+## Cadence
+- YouTube Shorts + Instagram Reels: **2 a day** (16:00 + 23:00 UTC = 11 AM + 6 PM New York), **3 a day** in launch windows
+  (adds 12:00 UTC). Above ~5/day risks spam throttling.
+- Instagram carousels Mon/Wed/Fri (Sunday = the weekly money scoreboard). Carousels get a second showing (slide 2) to
+  people who didn't swipe, and sends are Instagram's strongest signal for reaching non-followers.
+- Re-tune times after 30 days of our own analytics (published "best time" studies contradict each other).
 
-**Every Short:** a hook in the first 1.5 s with a number on screen · ≤35 s · word-by-word captions · every
-figure has a source on screen · estimates labelled as estimates · end card with the brand.
+## Formats (rotate; the format menu in BRAIN.md)
+1. Daily series: "GTA VI: Day N after launch", "N days to <launch>". Reason to subscribe.
+2. Cost per hour verdict: price ÷ hours to beat vs a movie. Our own number.
+3. Ranked 5 → 1 with #1 held to the end. Feeds "viewed vs swiped away".
+4. Real or rumour? quiz. Comments + sends.
+5. Weekly money scoreboard (Sunday carousel + Short).
+6. Breaking news with a number / your wallet.
 
-**Feedback loop (weekly, Sunday):** pull the last 7 days' views, average view %, likes, shares and follows per post.
-Double down on the top pillar and hook style, drop the weakest. Log it in `log/weekly.md`.
+## Every Short
+Number on screen from frame 0 and in the first words · title ≤ 50 chars "<game> + number + stakes" · 20–30 s · last line
+loops into the first · word-by-word captions · sources on screen · estimates labelled · a question at the end of the caption
+· 3–5 descriptive hashtags (Instagram caps at 5).
 
-**What not to do:** no clickbait the video doesn't pay off; no fake leaks or AI "gameplay"; no spoilers in
-titles or thumbnails (Take-Two removes ending/major-story spoilers regardless of commentary); no raw re-uploads
-without our layer.
+## Sound
+Music bed rotates through a CC-BY library (Kevin MacLeod) and starts on the drop, snapped to a beat; ducks under the voice;
+master −14 LUFS. No commercial songs baked in: claims can block a Short in whole countries and Instagram mutes them, which
+kills reach. Next: Instagram's own trending audio can be attached via Meta's Graph API (`ig_audio`) when Reels are published
+directly instead of through Buffer; Buffer's API has no audio field yet.
+
+## Growth levers (ranked)
+1. GTA VI launch window (now → ~10 Dec): 3 posts a day, answer launch questions within hours.
+2. Numbered series + playlists so a viewer can binge and has a reason to subscribe.
+3. Cross-post the same renders to TikTok (biggest free extra reach; needs a TikTok account in Buffer's free 3rd slot).
+4. A question in every caption; YouTube community poll before each series episode (when the tab unlocks).
+5. Weekly 3–5 min long-form roll-up (long-form converts ~35% better to subscribers): phase 2.
+
+## Feedback loop
+Nightly: analytics.py → scoreboard.md; the brain's daily review explains each post's numbers and writes learned.md rules
+(3+ posts before a rule). Sunday: weekly.md with totals, best/worst post, pillar + format ranking, 3 changes.
+
+## What not to do
+No clickbait the video doesn't pay off; no fake leaks or AI "gameplay"; no spoilers; no raw re-uploads without our layer;
+never present a rumour as fact.
+
+Partnerships plan: `PARTNERSHIPS.md`.
