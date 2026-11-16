@@ -37,7 +37,8 @@ def ocr_words(f):
     """confident words tesseract reads in the frame (title cards, logos, 'PLAY NOW', rating cards)"""
     g = cv2.cvtColor(cv2.resize(f, (960, 540)), cv2.COLOR_BGR2GRAY)
     n = 0
-    for img in (g, 255 - g):                       # light-on-dark and dark-on-light
+    small = cv2.resize(g, (480, 270))               # giant stylised words only read at a smaller scale
+    for img in (g, 255 - g, small, 255 - small):    # light-on-dark and dark-on-light, two scales
         fd, p = tempfile.mkstemp(suffix=".png"); os.close(fd); cv2.imwrite(p, img)
         try:
             out = subprocess.run(["tesseract", p, "-", "--psm", "11", "tsv"], capture_output=True, text=True, timeout=30).stdout
