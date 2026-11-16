@@ -30,7 +30,7 @@ for item in json.load(sys.stdin):            # [{"queue": name, "link": url}] fr
     except Exception as e: rec["playlist"] = f"error: {e}"[:200]
     cap = json.load(open(q / "post.json"))["caption"]
     question = next((l.strip() for l in cap.splitlines() if l.strip().endswith("?")), None)
-    if question:
+    if question and cfg.get("youtube_comment_enabled"):   # needs the youtube.force-ssl scope (token lacks it); question stays in the caption
         try:
             yt.commentThreads().insert(part="snippet", body={"snippet": {"videoId": vid, "topLevelComment": {"snippet": {"textOriginal": question + " 👇"}}}}).execute()
             rec["comment"] = "ok"
