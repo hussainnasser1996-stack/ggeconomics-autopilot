@@ -69,7 +69,7 @@ Launch Trailer, Features Trailer, Pre-Load spot); the build takes the least-rece
 they carry other creators' voices and burned-in text).
   Confirm the game has Steam trailers with WebFetch on
   `https://store.steampowered.com/api/storesearch/?cc=us&l=en&term=<game>` then
-  `https://store.steampowered.com/api/appdetails?appids=<id>&filters=movies` (needs a non-empty `movies`).
+  `https://store.steampowered.com/api/appdetails?appids=<id>&filters=movies&cc=us&l=english` (always cc=us: without it Steam serves the runner region's rated trailers, e.g. German USK with German subtitles) (needs a non-empty `movies`).
   A story about a company or the industry can use the trailer of its biggest game. No footage → pick another story.
 - Mark the topics.md line `Status: used D`. Keep the topic bank stocked: if fewer than 5 `open` lines remain, add new ones
   (dated `Use:` windows, the hook, what to verify) for the coming week: launches, earnings dates, price changes, events.

@@ -24,4 +24,7 @@ for name in sys.argv[1:]:
     sp = q / "spec.json"
     if sp.exists():
         s = json.load(open(sp)); s["spec"]["clips"] = []; json.dump(s, open(sp, "w"), indent=1)
+    up = AP / "log/used_shots.json"            # the shots it used are free again for its own rebuild
+    if up.exists():
+        u = json.load(open(up)); u.pop(name, None); json.dump(u, open(up, "w"), indent=1)
     print(name, "unbooked")

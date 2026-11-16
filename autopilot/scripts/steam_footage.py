@@ -9,7 +9,7 @@ get = lambda u: json.loads(urllib.request.urlopen(urllib.request.Request(u, head
 items = get("https://store.steampowered.com/api/storesearch/?cc=us&l=en&term=" + urllib.parse.quote(q))["items"][:4]
 if not items: sys.exit("no Steam match")
 for it in items:
-    d = get(f"https://store.steampowered.com/api/appdetails?appids={it['id']}&filters=movies").get(str(it["id"]), {})
+    d = get(f"https://store.steampowered.com/api/appdetails?appids={it['id']}&filters=movies&cc=us&l=english").get(str(it["id"]), {})
     movies = (d.get("data") or {}).get("movies") or []
     print(f"\n{it['name']} (app {it['id']}): {len(movies)} trailers")
     for m in movies[:8]:

@@ -14,14 +14,14 @@ get = lambda u: json.loads(urllib.request.urlopen(urllib.request.Request(u, head
 used = json.load(open(GN / "autopilot/log/used_shots.json")) if (GN / "autopilot/log/used_shots.json").exists() else {}
 recent_src = [u["src_id"] for d in sorted(used)[-3:] for u in used[d][:1]]
 
-BAD = ("online", "dlc", "update", "season", "expansion", "pack", "bundle", "usk", " de ", "soundtrack",
+BAD = ("pegi", "esrb", "online", "dlc", "update", "season", "expansion", "pack", "bundle", "usk", " de ", "soundtrack",
        "(kr)", "(jp)", "(de)", "(fr)", "(es)", "(br)", "(ru)", "(cn)", " kr ", " jp ")
 GOOD = ("launch", "gameplay", "official", "trailer", "story", "reveal")
 def steam(c):
     """all trailers of the best-matching Steam app, most promising first"""
     items = get("https://store.steampowered.com/api/storesearch/?cc=us&l=en&term=" + urllib.parse.quote(c["game"]))["items"][:3]
     for it in items:
-        d = get(f"https://store.steampowered.com/api/appdetails?appids={it['id']}&filters=movies").get(str(it["id"]), {})
+        d = get(f"https://store.steampowered.com/api/appdetails?appids={it['id']}&filters=movies&cc=us&l=english").get(str(it["id"]), {})
         movies = [m for m in ((d.get("data") or {}).get("movies") or []) if m.get("hls_h264")]
         if not movies: continue
         pref = (c.get("prefer") or "").lower()
@@ -29,6 +29,8 @@ def steam(c):
             n = " " + m["name"].lower() + " "
             return (bool(pref) and pref not in n, sum(b in n for b in BAD), f"steam:{m['id']}" in recent_src,
                     -sum(g in n for g in GOOD), not m.get("highlight"))
+        clean = [m for m in movies if not any(b in " " + m["name"].lower() + " " for b in BAD)]
+        movies = clean or movies                  # never a regional/DLC trailer while a clean one exists
         return [{"id": f"steam:{m['id']}", "label": f"{it['name']} — {m['name']}", "url": m["hls_h264"]} for m in sorted(movies, key=rank)[:4]]
     return []
 def library(c):
