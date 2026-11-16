@@ -44,6 +44,14 @@ for q in sorted(Qd.iterdir()):
 for d in [today + datetime.timedelta(days=i) for i in range(0, 2)]:
     if not (Qd / d.isoformat() / "script.json").exists() and now.hour >= 2 and d == today:
         problems.append(f"{d}: the brain wrote nothing for today (routine did not run or stopped)")
+sent_yt = []
+for r in rows:
+    c = [x.strip() for x in r.strip("|").split("|")]
+    if c[1] == "youtube_short" and c[2] == "sent" and c[4]: sent_yt.append({"queue": c[0], "link": c[4]})
+if sent_yt and (AP / "keys/youtube-token.json").exists():
+    py = str(AP.parent / ".venv/bin/python") if (AP.parent / ".venv/bin/python").exists() else "python3"
+    r = subprocess.run([py, str(AP / "scripts/yt_after.py")], input=json.dumps(sent_yt), capture_output=True, text=True)
+    actions += [l for l in (r.stdout + r.stderr[-300:]).splitlines() if l.strip() and "nothing new" not in l]
 out = [f"# Delivery check · {now:%Y-%m-%d %H:%M} UTC", "", "## Problems", *(["- " + p for p in problems] or ["- none"]),
        "", "## Actions taken", *(["- " + a for a in actions] or ["- none"]), "",
        "| post | channel | status | sent/due | link | title |", "|---|---|---|---|---|---|", *rows, ""]

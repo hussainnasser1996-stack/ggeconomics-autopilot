@@ -11,7 +11,13 @@ jobs:
     env: { BUFFER_API_KEY: "${{ secrets.BUFFER_API_KEY }}", GH_TOKEN: "${{ github.token }}" }
     steps:
       - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.11" }
+      - name: YouTube token
+        env: { YT: "${{ secrets.YT_TOKEN_JSON }}" }
+        run: mkdir -p autopilot/keys && printf '%s' "$YT" > autopilot/keys/youtube-token.json && pip install -q google-api-python-client google-auth
       - run: python3 autopilot/scripts/monitor.py
+      - run: rm -f autopilot/keys/youtube-token.json
       - name: Save
         run: |
           git config user.name "GG Economics bot" && git config user.email "bot@users.noreply.github.com"

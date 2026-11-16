@@ -89,7 +89,7 @@ First candidate = best fit. For GTA VI use the library files (alternate them day
 ## 6. Post copy → `autopilot/queue/D/post.json`
 `{"title": "<≤ 60 chars, a claim with you/your + the number (BENCHMARK.md); no clickbait the video doesn't pay off>",
 "caption": "<2–3 lines: the fact, why it matters, a question to drive comments>\n\nSources: <names>",
-"hashtags": ["#gaming", "#<game>", "#gamingnews", "#<2 more>"], "carousel": <true if D's weekday is in CONTROL.md carousel_days>}`
+"hashtags": ["#gaming", "#<game>", "#gamingnews", "#<2 more>"], "series": "<gta6|cost_per_hour|top5|real_or_rumour|scoreboard|news>", "carousel": <true if D's weekday is in CONTROL.md carousel_days>}`
 Carousel days also need `autopilot/queue/D/carousel.json` = 5 slides, same shape as
 `autopilot/queue/2026-11-16/slide_props_1.json` but WITHOUT `i`, and every slide's `"bg": {"at": null}` (the build fills
 in footage frames): slide 1 = the hook (`kicker`, `head` with |highlight|, `sub` ending "→"), slides 2–4 = one card each,

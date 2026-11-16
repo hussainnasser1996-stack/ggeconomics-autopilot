@@ -53,5 +53,13 @@
   ],
   "buffer_account_email": "financesimplified92@gmail.com (separate Buffer account, Google sign-in)",
   "youtube_channel_id": "UCpsoR_hS2XJT-Yv7UN0qZbQ",
-  "ntfy_topic": "ggeconomics-cbd4939b5df0"
+  "ntfy_topic": "ggeconomics-cbd4939b5df0",
+  "youtube_playlists": {
+    "gta6": "PLSX3l6sIJpGg",
+    "cost_per_hour": "PLdtxkyFcEuOg",
+    "top5": "PLDARwgHEZpv4",
+    "real_or_rumour": "PLd3lXMCIYDA0",
+    "scoreboard": "PLaB8H2FE-Od4",
+    "news": "PLQuyHzm12JFc"
+  }
 }
