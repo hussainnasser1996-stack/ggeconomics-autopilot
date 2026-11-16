@@ -3,7 +3,7 @@
 ## For the owner
 - Optional, only you can do these (each unlocks something real; none is needed for daily posting):
   1. TikTok account → connect it in the GG Economics Buffer (free 3rd slot) = the same videos reach TikTok.
-  2. Re-authorise the YouTube token with the `youtube.force-ssl` scope (one Google consent click) → exact captions upload + auto question comment + comment replies.
+  2. Re-authorise the YouTube token with the `youtube.force-ssl` + `yt-analytics.readonly` scopes (one Google consent click) → exact captions upload + auto question comment + comment replies + per-video analytics (currently HTTP 403).
   3. A free Meta developer app for @ggeconomics → Instagram Trial Reels (test a 2nd hook on non-followers), custom cover frame, collab posts.
   4. Keymailer, Terminals.io, Steam Curator page, Ubisoft Creators Program → free game keys. See PARTNERSHIPS.md. No milestone reached yet (0 subscribers, log/metrics/2026-11-16.json), so nothing new.
 
@@ -13,6 +13,29 @@
 3. Beat grid per library track (Beat This!, MIT; compute once offline → assets/music/lib/*.beats.json); snap clip cuts to beats in autopick.
 4. Saliency 9:16 reframe (OpenCV spectral-residual + MediaPipe faces) instead of centre crop; smooth the crop path.
 5. Chatterbox Turbo voice trial vs Kokoro: adopt only if a 30 s VO renders < 3 min on the runner AND gates VO similarity ≥ 0.9.
+
+## 2026-11-16 (16:51 UTC) · addendum, second run on the same day
+
+**What happened (since the 10:51 review)**
+- Delivery: the earlier engineering request is resolved. log/delivery.md (16:48 UTC) shows 11-16c sent 12:22 UTC (YT 2lyn0JAlPoU, IG DfzWFNchCUT) and 11-16b sent 16:01 UTC (YT ct7tlizYNYQ, IG DfzvK0aNWmC); 11-16 carousel sent 15:04 UTC; main 11-16 Short/Reel scheduled 23:00 UTC. Problems: none. gates.txt PASS for 11-16b (VO 0.95, 23.9 s) and 11-16c (VO 0.96, 24.9 s).
+- First numbers: log/metrics/2026-11-16.json + scoreboard.md: 11-16c (top-5 ranked, "Rockstar Made 2 of the 5 Best-Selling Games Ever") 145 views, 1 like, 0 comments; channel 0 subscribers. YouTube Analytics returns HTTP 403 (avg % viewed, subs per video unavailable). Instagram metrics all empty. 11-16b not in metrics yet (published after the metrics run). 1 post with data, < 1 day: **too early**.
+- Music / edit-vs-narrated comparison (1a): no data. yt_done.json has `music: null` for 11-16b and no `music` key for 11-16c; no `mode: edit` post has published (2026-12-31c is a dry test).
+- Packaging review (1b): blocked. No post.json in queue/2026-11-16..19 contains `title_candidates`, `hook_style` or `keywords` (keys present: title, caption, hashtags, carousel, publish_time_utc, localized), although BRAIN.md 5b says to store all five candidates + scores. Without them the top-vs-bottom-third comparison cannot be done next week.
+- Budget: ~470 of 2,000 Actions minutes used this month (delivery.md). At 3 posts/day × ~17 min until 23 Nov plus monitor runs, the month should still fit, but watch the figure daily.
+
+**Market**
+- The Game Awards 2026 nominees: still not confirmed. Search (16 Nov) found the official page "coming mid-November" and one unverified geekchamp report that they are out; last year's list came on a Monday (17 Nov 2025, Game Informer). The topics.md TGA lines stay as they are: use only after the list is on thegameawards.com.
+- Nothing else re-searched: the 10:51 review covered trending, platform rules and peers 6 hours ago; research/outliers.md (16 Nov) shows GTA 6 humour/relatable Shorts as the 5–17x outliers, consistent with that review.
+
+**Decisions**
+- No changes. One post with 145 views is not evidence; this morning's decision 1 (BRAIN step 3, no pure narration) stands and is judged next week.
+
+**Engineering requests**
+- post.json is missing `title_candidates` (with scores), `hook_style` and `keywords` on every post 11-16..11-19. Either the brain is skipping BRAIN.md 5b step 2 or a script drops the keys when it writes post.json. Fix so the Sunday packaging review has data.
+- YouTube Analytics 403 (scoreboard.md notes): the token likely lacks the `yt-analytics.readonly` scope or the API is not enabled on the project. Without it, avg % viewed and subs per video stay blank and the weekly ranking can't run. If it needs a consent click, add it to the owner's item 2 below.
+- yt_done.json: record `music` for every post (11-16b null, 11-16c missing) so 1a can compare game vs library music.
+
+**For the owner**: unchanged (list at the top). No milestone reached (0 subscribers).
 
 ## 2026-11-16 · first review (pipeline went live today)
 
