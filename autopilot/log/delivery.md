@@ -1,11 +1,11 @@
-# Delivery check · 2026-11-16 16:51 UTC
+# Delivery check · 2026-11-16 18:50 UTC
 
 ## Problems
 - none
 
-Buffer scheduled per channel: youtube_short 4, instagram_reel 4, instagram_carousel 1
+Buffer scheduled per channel: youtube_short 6, instagram_reel 6, instagram_carousel 1
 
-GitHub Actions minutes used this month: ~472 of 2,000 (free tier, private repo)
+GitHub Actions minutes used this month: ~613 of 2,000 (free tier, private repo)
 
 ## Actions taken
 - none
@@ -21,6 +21,10 @@ GitHub Actions minutes used this month: ~472 of 2,000 (free tier, private repo)
 | 2026-11-16c | instagram_reel | sent | 2026-11-16T12:22:59.481Z | https://www.instagram.com/reel/DfzWFNchCUT/ | Rockstar Made 2 of the 5 Best-Selling Games Ever |
 | 2026-11-17 | youtube_short | scheduled | 2026-11-17T23:00:00.000Z |  | Your 2013 Xbox One Can Play GTA 6 on Day One |
 | 2026-11-17 | instagram_reel | scheduled | 2026-11-17T23:00:00.000Z |  | Your 2013 Xbox One Can Play GTA 6 on Day One |
+| 2026-11-17b | youtube_short | scheduled | 2026-11-17T16:00:00.000Z |  | GTA 6: Take-Two Bets $8 Billion on Your $80 |
+| 2026-11-17b | instagram_reel | scheduled | 2026-11-17T16:00:00.000Z |  | GTA 6: Take-Two Bets $8 Billion on Your $80 |
+| 2026-11-17c | youtube_short | scheduled | 2026-11-17T12:00:00.000Z |  | Elden Ring Costs You $1 an Hour. Worth It? |
+| 2026-11-17c | instagram_reel | scheduled | 2026-11-17T12:00:00.000Z |  | Elden Ring Costs You $1 an Hour. Worth It? |
 | 2026-11-18 | youtube_short | scheduled | 2026-11-18T23:00:00.000Z |  | GTA 6 Unlocks Tonight: You Need 212 GB Free |
 | 2026-11-18 | instagram_reel | scheduled | 2026-11-18T23:00:00.000Z |  | GTA 6 Unlocks Tonight: You Need 212 GB Free |
 | 2026-11-18 | instagram_carousel | scheduled | 2026-11-18T15:00:00.000Z |  | GTA 6 Unlocks Tonight: You Need 212 GB Free |
