@@ -1,7 +1,7 @@
 {
  "spec": {
-  "tag": "GTA VI · 3 DAYS TO GO",
-  "headline": "GTA 6 IS |$6.50 CHEAPER| THAN GTA 5 WAS",
+  "tag": "GTA VI \u00b7 3 DAYS TO GO",
+  "headline": "GTA 6 IS |$6.50\u00a0CHEAPER| THAN GTA 5 WAS",
   "topic": "GTA 6's $79.99 vs GTA 5's 2013 $59.99 adjusted for inflation (BLS CPI-U)",
   "vo": "vo/d_2026_11_16b/vo.wav",
   "timelinePath": "vo/d_2026_11_16b/timeline.json",
@@ -11,14 +11,99 @@
    "words": []
   },
   "noBed": true,
-  "clips": [],
+  "clips": [
+   {
+    "src": "d_2026_11_16b",
+    "from": 96.25,
+    "dur": 1.34,
+    "shot": 36
+   },
+   {
+    "src": "d_2026_11_16b",
+    "from": 45.39,
+    "dur": 2.2,
+    "shot": 15
+   },
+   {
+    "src": "d_2026_11_16b",
+    "from": 77.85,
+    "dur": 1.6,
+    "shot": 24
+   },
+   {
+    "src": "d_2026_11_16b",
+    "from": 120.85,
+    "dur": 2.0,
+    "shot": 55
+   },
+   {
+    "src": "d_2026_11_16b",
+    "from": 38.52,
+    "dur": 2.2,
+    "shot": 13
+   },
+   {
+    "src": "d_2026_11_16b",
+    "from": 141.99,
+    "dur": 1.66,
+    "shot": 66
+   },
+   {
+    "src": "d_2026_11_16b",
+    "from": 129.52,
+    "dur": 2.2,
+    "shot": 61
+   },
+   {
+    "src": "d_2026_11_16b",
+    "from": 33.32,
+    "dur": 1.2,
+    "shot": 11
+   },
+   {
+    "src": "d_2026_11_16b",
+    "from": 83.25,
+    "dur": 1.8,
+    "shot": 28
+   },
+   {
+    "src": "d_2026_11_16b",
+    "from": 27.45,
+    "dur": 2.2,
+    "shot": 9
+   },
+   {
+    "src": "d_2026_11_16b",
+    "from": 132.0,
+    "dur": 2.0,
+    "shot": 61
+   },
+   {
+    "src": "d_2026_11_16b",
+    "from": 29.93,
+    "dur": 2.0,
+    "shot": 9
+   },
+   {
+    "src": "d_2026_11_16b",
+    "from": 47.67,
+    "dur": 2.0,
+    "shot": 15
+   },
+   {
+    "src": "d_2026_11_16b",
+    "from": 40.1,
+    "dur": 1.42,
+    "shot": 13
+   }
+  ],
   "cards": [
    {
     "kind": "big",
     "line": "hook",
     "value": "$79.99",
     "label": "GTA 6 Standard, your price",
-    "note": "Rockstar · out Nov 19",
+    "note": "Rockstar \u00b7 out Nov 19",
     "color": "#D4FF3A"
    },
    {
@@ -32,7 +117,7 @@
     "line": "adj",
     "value": "$86",
     "label": "GTA 5's price in today's money",
-    "note": "our calculation · BLS CPI-U, Sep 2013 → Oct 2026",
+    "note": "our calculation \u00b7 BLS CPI-U, Sep 2013 \u2192 Oct 2026",
     "color": "#D4FF3A"
    },
    {
@@ -55,7 +140,7 @@
     "big": "NOV 19"
    }
   ],
-  "credit": "GAMEPLAY: ROCKSTAR GAMES · DATA: ROCKSTAR, US BLS, TECHNOBEZZ",
-  "endLine": "GTA 6 COUNTDOWN · FOLLOW FOR DAY 2"
+  "credit": "GAMEPLAY: ROCKSTAR GAMES \u00b7 DATA: ROCKSTAR, US BLS, TECHNOBEZZ",
+  "endLine": "GTA 6 COUNTDOWN \u00b7 FOLLOW FOR DAY 2"
  }
 }

@@ -1,0 +1,4 @@
+VO similarity 0.74
+duration 23.8s
+FAIL
+VO similarity 0.74 < 0.80 (heard: GTA 6 costs you $79 .99, GTA 5 actually costs more. In 2013, GTA 5 launched at $59 .99. Run that through US government inflation data, and it's about $86 in today's money. So GTA 6 is about $6 .50 che)
