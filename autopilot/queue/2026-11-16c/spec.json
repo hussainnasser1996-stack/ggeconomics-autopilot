@@ -1,7 +1,7 @@
 {
  "spec": {
-  "tag": "TOP 5 · ALL-TIME SALES",
-  "headline": "ROCKSTAR MADE |2 OF THE 5| BEST-SELLING GAMES",
+  "tag": "TOP 5 \u00b7 ALL-TIME SALES",
+  "headline": "ROCKSTAR MADE |2\u00a0OF\u00a0THE\u00a05| BEST-SELLING GAMES",
   "topic": "The five best-selling video games ever, ranked 5 to 1",
   "vo": "vo/d_2026_11_16c/vo.wav",
   "timelinePath": "vo/d_2026_11_16c/timeline.json",
@@ -11,7 +11,104 @@
    "words": []
   },
   "noBed": true,
-  "clips": [],
+  "clips": [
+   {
+    "src": "d_2026_11_16c",
+    "from": 39.92,
+    "dur": 1.33,
+    "shot": 22
+   },
+   {
+    "src": "d_2026_11_16c",
+    "from": 27.59,
+    "dur": 1.33,
+    "shot": 14
+   },
+   {
+    "src": "d_2026_11_16c",
+    "from": 19.32,
+    "dur": 1.33,
+    "shot": 9
+   },
+   {
+    "src": "d_2026_11_16c",
+    "from": 6.65,
+    "dur": 1.74,
+    "shot": 3
+   },
+   {
+    "src": "d_2026_11_16c",
+    "from": 55.12,
+    "dur": 2.13,
+    "shot": 33
+   },
+   {
+    "src": "d_2026_11_16c",
+    "from": 70.39,
+    "dur": 2.2,
+    "shot": 44
+   },
+   {
+    "src": "d_2026_11_16c",
+    "from": 21.85,
+    "dur": 1.34,
+    "shot": 11
+   },
+   {
+    "src": "d_2026_11_16c",
+    "from": 72.99,
+    "dur": 2.2,
+    "shot": 45
+   },
+   {
+    "src": "d_2026_11_16c",
+    "from": 23.39,
+    "dur": 1.4,
+    "shot": 12
+   },
+   {
+    "src": "d_2026_11_16c",
+    "from": 35.79,
+    "dur": 1.6,
+    "shot": 20
+   },
+   {
+    "src": "d_2026_11_16c",
+    "from": 74.8,
+    "dur": 1.65,
+    "shot": 45
+   },
+   {
+    "src": "d_2026_11_16c",
+    "from": 34.25,
+    "dur": 1.34,
+    "shot": 19
+   },
+   {
+    "src": "d_2026_11_16c",
+    "from": 37.59,
+    "dur": 2.13,
+    "shot": 21
+   },
+   {
+    "src": "d_2026_11_16c",
+    "from": 22.15,
+    "dur": 1.2,
+    "shot": 11
+   },
+   {
+    "src": "d_2026_11_16c",
+    "from": 37.89,
+    "dur": 1.8299999999999998,
+    "shot": 21
+   },
+   {
+    "src": "d_2026_11_16c",
+    "from": 22.45,
+    "dur": 1.2,
+    "shot": 11
+   }
+  ],
   "cards": [
    {
     "kind": "big",
@@ -25,40 +122,40 @@
     "kind": "big",
     "line": "r5",
     "value": "82.9M",
-    "label": "#5 · Wii Sports",
+    "label": "#5 \u00b7 Wii Sports",
     "note": "Nintendo"
    },
    {
     "kind": "big",
     "line": "r4",
     "value": "89M+",
-    "label": "#4 · Red Dead Redemption 2",
+    "label": "#4 \u00b7 Red Dead Redemption 2",
     "note": "Take-Two, to Sep 30 2026"
    },
    {
     "kind": "big",
     "line": "r3",
     "value": "235M",
-    "label": "#3 · GTA V",
-    "note": "nearly · Take-Two, to Sep 30 2026"
+    "label": "#3 \u00b7 GTA V",
+    "note": "nearly \u00b7 Take-Two, to Sep 30 2026"
    },
    {
     "kind": "big",
     "line": "r2",
     "value": "425M+",
-    "label": "#2 · Minecraft",
+    "label": "#2 \u00b7 Minecraft",
     "note": "Xbox, Sep 2026"
    },
    {
     "kind": "big",
     "line": "r1",
     "value": "520M",
-    "label": "#1 · Tetris",
-    "note": "all versions combined · The Tetris Company",
+    "label": "#1 \u00b7 Tetris",
+    "note": "all versions combined \u00b7 The Tetris Company",
     "color": "#D4FF3A"
    }
   ],
-  "credit": "GAMEPLAY: ROCKSTAR GAMES · DATA: TAKE-TWO, NINTENDO, XBOX, THE TETRIS COMPANY",
+  "credit": "GAMEPLAY: ROCKSTAR GAMES \u00b7 DATA: TAKE-TWO, NINTENDO, XBOX, THE TETRIS COMPANY",
   "endLine": "FOLLOW FOR THE GTA 6 NUMBERS"
  }
 }
