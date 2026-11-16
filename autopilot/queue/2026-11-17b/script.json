@@ -1,0 +1,38 @@
+{
+ "id": "d_2026_11_17b",
+ "voice": "am_liam",
+ "speed": 1.25,
+ "gap": 0.12,
+ "lines": [
+  {
+   "id": "hook",
+   "text": "2 days to GTA 6: Take-Two bets $8 billion on you.",
+   "say": "Two days to GTA Six: Take-Two bets eight billion dollars on you."
+  },
+  {
+   "id": "q2",
+   "text": "Last quarter, before GTA 6, they brought in $1.6 billion. Down 18 percent.",
+   "say": "Last quarter, before GTA Six, they brought in one point six billion dollars. Down eighteen percent."
+  },
+  {
+   "id": "year",
+   "text": "For the full year, they still promised investors at least $8 billion.",
+   "say": "For the full year, they still promised investors at least eight billion dollars."
+  },
+  {
+   "id": "next3",
+   "text": "And for the quarter GTA 6 launches in, up to $3.5 billion. More than double.",
+   "say": "And for the quarter GTA Six launches in, up to three and a half billion. More than double."
+  },
+  {
+   "id": "verdict",
+   "text": "That gap gets filled at $79.99 a copy. 1 day to go, tomorrow.",
+   "say": "That gap gets filled at seventy-nine ninety-nine a copy. One day to go, tomorrow."
+  },
+  {
+   "id": "out",
+   "text": "That's the game. GG.",
+   "say": "That's the game. Gee gee."
+  }
+ ]
+}

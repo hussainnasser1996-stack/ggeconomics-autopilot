@@ -1,0 +1,49 @@
+{
+ "spec": {
+  "tag": "ELDEN RING · COST PER HOUR",
+  "headline": "ELDEN RING COSTS |$1 AN HOUR|",
+  "topic": "Elden Ring $59.99 on Steam ÷ HowLongToBeat main story 60 h = $1.00/h; completionist 136 h = $0.44/h; vs ~$12 movie for 2 h = $6/h",
+  "vo": "vo/d_2026_11_17c/vo.wav",
+  "timelinePath": "vo/d_2026_11_17c/timeline.json",
+  "timeline": {
+   "duration": 1,
+   "lines": [],
+   "words": []
+  },
+  "noBed": true,
+  "clips": [],
+  "cards": [
+   {
+    "kind": "big",
+    "line": "hook",
+    "value": "$1/HR",
+    "label": "Elden Ring, main story",
+    "note": "$59.99 Steam ÷ 60 h HowLongToBeat · our math",
+    "color": "#D4FF3A"
+   },
+   {
+    "kind": "pair",
+    "line": "movie",
+    "a": {
+     "value": "$1/HR",
+     "label": "ELDEN RING"
+    },
+    "b": {
+     "value": "$6/HR",
+     "label": "MOVIE TICKET"
+    },
+    "note": "~$12 ticket for a 2-hour film"
+   },
+   {
+    "kind": "big",
+    "line": "full",
+    "value": "44¢/HR",
+    "label": "if you go 100%",
+    "note": "136 h completionist · HowLongToBeat",
+    "color": "#D4FF3A"
+   }
+  ],
+  "credit": "GAMEPLAY: BANDAI NAMCO / FROMSOFTWARE · DATA: STEAM, HOWLONGTOBEAT",
+  "endLine": "FOLLOW FOR COST PER HOUR"
+ }
+}

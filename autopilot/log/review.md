@@ -1,5 +1,11 @@
 # Review log (newest first; written nightly by the autopilot)
 
+## 2026-11-16 (run for 2026-11-17, extra slots b + c)
+- Too early: the scoreboard has one YouTube row (11-16c at 145 views, no retention yet; YouTube Analytics still 403s) and no Instagram numbers. Nothing to diagnose.
+- 11-17 main already existed (GTA 6 on Xbox One via cloud, wallet). Wrote b (16:00) = countdown series "2 days to GTA 6": Take-Two's 9 Nov results, $1.6B net bookings (-18%) vs an $8.0-8.2B full-year outlook and a $3.35-3.5B guide for the launch quarter (SEC 8-K + Finviz copy of the release; Motley Fool for the $8B).
+- c (12:00) is the day's non-GTA post and the first live music-only edit: Elden Ring cost per hour ($59.99 on Steam ÷ 60 h HowLongToBeat main story = $1/h vs a $6/h movie; 136 h completionist = 44¢/h). HLTB blocks WebFetch, but curl with a browser user agent returns the numbers.
+- Dropped the Sensor Tower pre-order angle for the c slot: estimates I found range from 7.71M to 12.13M copies, and they include a figure the 11-16 review already flagged ($751M). It needs one dated Sensor Tower source before use.
+
 ## 2026-11-16 (run for 2026-11-16, extra slots b + c)
 - No data yet: scoreboard.md is still empty, so it's too early to diagnose anything.
 - Launch window = 3 posts/day. The main slot (11-16, $1B before launch) already existed, so only 16:00 (b) and 12:00 (c) were written, each with a different story and format: b = daily series "3 days to GTA 6" (GTA 5's $59.99 in 2013 ≈ $86 today vs GTA 6's $79.99, our own CPI calculation), c = ranked 5 → 1 best-selling games ever (Take-Two 9 Nov report: GTA V nearly 235M, RDR2 89M+).
