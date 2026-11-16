@@ -11,9 +11,12 @@ Gaming news told through the money. Strategy: `autopilot/STRATEGY.md`. Switches:
 | on that push | **GitHub Actions** `build.yml` | Downloads the trailer (Steam store or the `footage-library` release; YouTube blocks cloud runners), Kokoro voice + Whisper check, auto-picks clips (OCR rejects title/logo cards), renders in Remotion, renders the carousel, runs the gates, hosts media in `savestate-media`, books it in Buffer, logs `history.md`, refreshes analytics, commits state. ~15 min. |
 | 04:00 / 12:00 / 19:00 | GitHub Actions (safety net) | Builds anything the brain wrote for today/tomorrow that is still unscheduled. |
 | 12:00 / 16:00 / 23:00 (+15:00 carousel) | Buffer | Publishes 2–3 Shorts/day (`posts_per_day` in CONTROL.md). 23:00 UTC = 6 PM New York. |
-| every 6 h | GitHub Actions `monitor.yml` | Real Buffer status of every post, re-builds anything unbooked once, files published Shorts into series playlists, tracks Actions minutes → `log/delivery.md`; phone alert only on unresolved problems. |
+| every 6 h (:40) | Anthropic routine "heartbeat" (`trig_011E5KV9KpkxVrrjRXNZ1imh`) | Pushes `log/heartbeat.txt`, which starts the monitor + safety-net build. GitHub's own cron did not fire on this new repo (16 Nov), so nothing depends on it. |
+| on each heartbeat | GitHub Actions `monitor.yml` | Real Buffer status of every post, re-builds anything unbooked once, files published Shorts into series playlists, tracks Actions minutes → `log/delivery.md`; phone alert only on unresolved problems. |
 | Sun 03:00 | Anthropic routine "weekly CEO review" (`trig_01GUBK7jxKYzWgeN72KJSCQD`) | Evidence-based review + market research (may use sub-agents) → edits strategy/format mix/cadence/topics → `log/ceo.md`. Instructions: `autopilot/CEO.md`. |
 | Sun 06:00 | Anthropic routine "weekly engineering pass" (`trig_01DhHpmt4FD9hgcSFEAUBJsC`) | Fixes recurring failures / CEO requests on a branch `eng/<date>`; `eng-test.yml` dry-builds it and merges only if it passes → `log/engineering.md`. |
+
+Formats: narrated Shorts (Kokoro am_liam ×1.25) and music-only "edits" (`"mode": "edit"`: on-screen text over gameplay, the trailer's own soundtrack). Footage: official only (Steam store trailers; for GTA VI the `footage-library` release holds Rockstar/PlayStation trailers). Music: rotating CC-BY library or the official trailer audio, always a speech-free window. Budget: $0.
 
 Gates (`autopilot/scripts/gates.py`): voice heard back ≥ 80% word match, overlays clear of the Shorts/Reels UI,
 contrast + caption legibility, 15–40 s. A failed gate leaves `queue/<D>/gates_failed` and does not publish.
