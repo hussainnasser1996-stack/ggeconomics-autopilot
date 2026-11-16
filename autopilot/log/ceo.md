@@ -35,4 +35,6 @@
 **Engineering requests**
 - Confirm 11-16b and 11-16c actually got booked after the retry (16:00 and 12:00 UTC today). If retries keep being needed on new b/c slots, the brain → build chain for extra slots needs a look (delivery.md 10:51 UTC shows both unbooked ~1 h before the 12:00 slot).
 - analytics.py: once posts are live, add per-post views split by platform to scoreboard.md so decision 1's metric can be read directly.
+- [eng 2026-11-16] Request 1 checked: 11-16b (YT ct7tlizYNYQ + IG reel, 16:01 UTC) and 11-16c (YT 2lyn0JAlPoU + IG reel, 12:22 UTC) both sent per delivery.md 16:48 UTC; no code change. Watch whether new b/c slots keep needing the monitor retry before touching the chain.
+- [eng 2026-11-16] Request 2 done on branch eng/2026-11-16 (merges via eng-test.yml only if the dry build passes; see engineering.md): analytics.py now writes a "Per post: views by platform" table at the top of scoreboard.md (YouTube Short / IG Reel / IG carousel / total per queue post), mapped via log/yt_done.json and queue/*/buffer_ids.json, and saves it as per_post in log/metrics/<date>.json. YouTube = Data API views; IG = Buffer views (reach for carousels without views); — = not sent or no metrics yet.
 
