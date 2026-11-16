@@ -63,7 +63,9 @@ If trending.md shows a gaming story clearly blowing up that fits the pillars, it
 `{"id": "d_<D with dashes → underscores>", "voice": "am_liam", "speed": 1.25, "gap": 0.12, "lines": [{"id": "hook", "text": "..."}, ...]}`
 4–6 lines, 20–28 s spoken (~55–90 words at this speed). Line 1 = the hook WITH the number, under 12 words, about the viewer
 (you / your / your money). Last line: `{"id": "out", "text": "That's the game. GG.", "say": "That's the game. Gee gee."}`.
-Write for the ear: short sentences; numbers as words where a TTS could misread ("seventy-nine ninety-nine",
+Originality (YouTube's 1 Oct 2026 Shorts update cuts reach for re-uploads; its Creator Liaison said narration that only
+describes the footage does not count as original): every line must add a number, a calculation, a comparison or a verdict.
+Never narrate what the trailer shows. Write for the ear: short sentences; numbers as words where a TTS could misread ("seventy-nine ninety-nine",
 "GTA Six"); use `say` for pronunciation fixes (captions follow `say`). The build checks that Whisper hears your words
 back at >= 80% similarity, so avoid odd spellings in `say`.
 
