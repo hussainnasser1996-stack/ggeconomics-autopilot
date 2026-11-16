@@ -12,6 +12,14 @@ Target date D = the date in the prompt (UTC). Paths are relative to the repo roo
 same five files minus carousel.json, script id `d_<D_>b` / `d_<D_>c`. Every post on a day must be a DIFFERENT story AND a
 different format (see the format menu). Do steps 2–6 once per post.
 
+## Game mix (hard rule)
+- Until `launch_window_until` (CONTROL.md): at most 2 of the day's posts on GTA VI; the other is a different game or the
+  wider industry. After it, at most 1 GTA post a day (raise only if the CEO's data shows GTA still outperforms 2:1).
+- Across any 7 days: at least 4 different games/companies. Rotate the money calendar: console prices and deals (Black Friday
+  27 Nov), The Game Awards (10 Dec), Steam Winter Sale (17 Dec), earnings (Tencent, NetEase, Ubisoft, EA, Take-Two, Sony,
+  Nintendo), big launches, layoffs/acquisitions, live-service economies (Fortnite, Roblox, CoD, EA FC Ultimate Team).
+- Use research/outliers.md + trending.md to pick which non-GTA game the audience wants this week.
+
 ## Format menu (growth research 16 Nov 2026; rotate, and let scoreboard.md decide the mix after ~2 weeks)
 1. **Daily series with a number:** "GTA VI: Day N after launch" / "N days to <big launch>": one money fact a day; the last
    line teases tomorrow ("Day N+1 tomorrow"). Series give people a reason to subscribe. Tag `<GAME> · DAY N`.
