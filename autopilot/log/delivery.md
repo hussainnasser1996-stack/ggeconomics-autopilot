@@ -1,11 +1,11 @@
-# Delivery check · 2026-11-16 13:58 UTC
+# Delivery check · 2026-11-16 15:05 UTC
 
 ## Problems
 - none
 
-Buffer scheduled per channel: youtube_short 5, instagram_reel 5, instagram_carousel 2
+Buffer scheduled per channel: youtube_short 5, instagram_reel 5, instagram_carousel 1
 
-GitHub Actions minutes used this month: ~416 of 2,000 (free tier, private repo)
+GitHub Actions minutes used this month: ~469 of 2,000 (free tier, private repo)
 
 ## Actions taken
 - none
@@ -14,7 +14,7 @@ GitHub Actions minutes used this month: ~416 of 2,000 (free tier, private repo)
 |---|---|---|---|---|---|
 | 2026-11-16 | youtube_short | scheduled | 2026-11-16T23:00:00.000Z |  | GTA 6 Might Make $1 Billion Before You Can Even Pl |
 | 2026-11-16 | instagram_reel | scheduled | 2026-11-16T23:00:00.000Z |  | GTA 6 Might Make $1 Billion Before You Can Even Pl |
-| 2026-11-16 | instagram_carousel | scheduled | 2026-11-16T15:00:00.000Z |  | GTA 6 Might Make $1 Billion Before You Can Even Pl |
+| 2026-11-16 | instagram_carousel | sent | 2026-11-16T15:04:59.652Z | https://www.instagram.com/p/DfzokZxES-1/ | GTA 6 Might Make $1 Billion Before You Can Even Pl |
 | 2026-11-16b | youtube_short | scheduled | 2026-11-16T16:00:00.000Z |  | GTA 6 Costs You $79.99. GTA 5 Cost More |
 | 2026-11-16b | instagram_reel | scheduled | 2026-11-16T16:00:00.000Z |  | GTA 6 Costs You $79.99. GTA 5 Cost More |
 | 2026-11-16c | youtube_short | sent | 2026-11-16T12:22:05.525Z | https://www.youtube.com/shorts/2lyn0JAlPoU | Rockstar Made 2 of the 5 Best-Selling Games Ever |
