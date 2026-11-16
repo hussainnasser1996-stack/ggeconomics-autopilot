@@ -1,0 +1,36 @@
+name: GG Economics engineering gate
+# The weekly engineering routine pushes code changes to a branch eng/<date>. This runs a full no-publish build of the
+# test post (queue/2026-12-31) on that branch; only if it passes is the branch fast-forwarded into main.
+on:
+  push:
+    branches: ["eng/**"]
+permissions: { contents: write, actions: write }
+concurrency: { group: eng, cancel-in-progress: true }
+jobs:
+  gate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 100
+    env: { GH_TOKEN: "${{ github.token }}" }
+    steps:
+      - uses: actions/checkout@v4
+        with: { fetch-depth: 0 }
+      - name: Dry build on the branch
+        run: |
+          B="${{ github.ref_name }}"; before=$(date -u +%Y-%m-%dT%H:%M:%SZ)
+          gh workflow run build.yml --ref "$B" -f date=2026-12-31 -f dry=true; sleep 15
+          ID=$(gh run list --workflow build.yml --branch "$B" --limit 1 --json databaseId -q '.[0].databaseId')
+          gh run watch "$ID" --exit-status --interval 30
+      - name: Merge into main
+        run: |
+          git config user.name "GG Economics bot" && git config user.email "bot@users.noreply.github.com"
+          git fetch -q origin main "${{ github.ref_name }}"
+          git checkout -q main && git merge -q --no-edit "origin/${{ github.ref_name }}" && git push -q origin main
+          echo "- $(date -u +%F): merged ${{ github.ref_name }} after a passing dry build" >> autopilot/log/engineering.md
+          git add autopilot/log/engineering.md && git commit -qm "eng log" && git push -q origin main
+      - name: Report failure
+        if: failure()
+        run: |
+          git config user.name "GG Economics bot" && git config user.email "bot@users.noreply.github.com"
+          git fetch -q origin main && git checkout -q main
+          echo "- $(date -u +%F): ${{ github.ref_name }} NOT merged: dry build failed (run ${{ github.run_id }})" >> autopilot/log/engineering.md
+          git add autopilot/log/engineering.md && git commit -qm "eng log" && git push -q origin main || true

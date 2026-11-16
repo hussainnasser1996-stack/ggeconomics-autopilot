@@ -23,7 +23,7 @@ jobs:
       HF_HOME: ${{ github.workspace }}/../hf
     steps:
       - uses: actions/checkout@v4
-        with: { ref: main, fetch-depth: 0 }
+        with: { ref: "${{ github.event_name == 'workflow_dispatch' && github.ref_name || 'main' }}", fetch-depth: 0 }
       - name: Bring in the brain's branch
         if: github.event_name == 'push' && github.ref_name != 'main'
         run: |
@@ -107,7 +107,8 @@ jobs:
         run: |
           rm -f autopilot/keys/youtube-token.json
           git add -A autopilot && git commit -qm "build ${D:-noop}" || true
-          for i in 1 2 3; do git pull -q --rebase -X ours origin main && git push -q origin HEAD:main && break; sleep 5; done
+          B=main; [ "${{ github.event_name }}" = "workflow_dispatch" ] && [ "${{ github.ref_name }}" != "main" ] && B="${{ github.ref_name }}"
+          for i in 1 2 3; do git pull -q --rebase -X ours origin $B && git push -q origin HEAD:$B && break; sleep 5; done
       - name: Next pending post (2+ posts a day)
         if: success() && steps.d.outputs.go == '1' && inputs.dry != true
         run: |
