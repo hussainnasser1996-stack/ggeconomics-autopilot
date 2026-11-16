@@ -1,0 +1,68 @@
+{
+ "spec": {
+  "tag": "GTA VI \u00b7 YOUR WALLET",
+  "headline": "YOUR |2013\u00a0XBOX\u00a0ONE| CAN PLAY GTA 6",
+  "topic": "GTA 6 streams to Xbox One via Xbox Cloud Gaming at launch",
+  "vo": "vo/d_2026_12_31b/vo.wav",
+  "timelinePath": "vo/d_2026_12_31b/timeline.json",
+  "timeline": {
+   "duration": 1,
+   "lines": [],
+   "words": []
+  },
+  "noBed": true,
+  "clips": [],
+  "cards": [
+   {
+    "kind": "big",
+    "line": "hook",
+    "value": "2013",
+    "label": "your Xbox One, on day one",
+    "note": "via Xbox Cloud Gaming \u00b7 Rockstar, 10 Nov",
+    "color": "#D4FF3A"
+   },
+   {
+    "kind": "date",
+    "line": "how",
+    "small": "STREAMS FROM",
+    "big": "NOV 19"
+   },
+   {
+    "kind": "quote",
+    "line": "look",
+    "text": "utilizing XBOX Series S graphics settings",
+    "who": "Rockstar Games",
+    "note": "connection speed affects performance"
+   },
+   {
+    "kind": "date",
+    "line": "conf",
+    "small": "CONFIRMED BY ROCKSTAR",
+    "big": "NOV 10"
+   },
+   {
+    "kind": "pair",
+    "line": "catch",
+    "a": {
+     "value": "$79.99",
+     "label": "BUY THE GAME"
+    },
+    "b": {
+     "value": "+ CLOUD",
+     "label": "GAME PASS OR PAID HOURS"
+    },
+    "note": "Rockstar pricing \u00b7 Xbox Cloud Gaming terms"
+   },
+   {
+    "kind": "big",
+    "line": "hours",
+    "value": "5 HRS",
+    "label": "cloud a month on Game Pass Essential",
+    "note": "Premium 10 \u00b7 Ultimate 15 (Digital Trends)",
+    "color": "#D4FF3A"
+   }
+  ],
+  "credit": "FOOTAGE: ROCKSTAR GAMES \u00b7 DATA: ROCKSTAR, XBOX, DEXERTO, DIGITAL TRENDS",
+  "endLine": "LAUNCH WEEK \u00b7 FOLLOW FOR DAY ONE"
+ }
+}

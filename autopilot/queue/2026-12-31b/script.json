@@ -1,0 +1,40 @@
+{
+ "id": "d_2026_12_31b",
+ "voice": "am_liam",
+ "speed": 1.25,
+ "gap": 0.12,
+ "lines": [
+  {
+   "id": "hook",
+   "text": "Your 2013 Xbox One can play GTA Six on day one.",
+   "say": "Your twenty-thirteen Xbox One can play GTA Six on day one."
+  },
+  {
+   "id": "how",
+   "text": "It doesn't install. It streams through Xbox Cloud Gaming, from November nineteenth."
+  },
+  {
+   "id": "look",
+   "text": "You get Series S graphics, and your internet speed decides the rest."
+  },
+  {
+   "id": "conf",
+   "text": "Rockstar confirmed it on November tenth, so this one's official.",
+   "say": "Rockstar confirmed it on November tenth, so this one's official."
+  },
+  {
+   "id": "catch",
+   "text": "The catch: you still buy the game, $79.99, and the stream needs Game Pass or paid cloud hours.",
+   "say": "The catch: you still buy the game, seventy-nine ninety-nine, and the stream needs Game Pass or paid cloud hours."
+  },
+  {
+   "id": "hours",
+   "text": "Game Pass Essential gives you five cloud hours a month."
+  },
+  {
+   "id": "out",
+   "text": "That's the game. GG.",
+   "say": "That's the game. Gee gee."
+  }
+ ]
+}
