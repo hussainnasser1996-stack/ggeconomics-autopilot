@@ -60,7 +60,8 @@ MUT = """mutation($i: CreatePostInput!){ createPost(input:$i){ __typename
 if (Q / "music.json").exists():                       # CC BY credit for the music bed
     post["caption"] = post["caption"].rstrip() + "\n" + json.load(open(Q / "music.json"))["credit"]
 post["caption"] = post["caption"].rstrip() + "\nNarrated with an AI voice."           # transparency (no AI persona)
-text = post["caption"].strip() + "\n\n" + " ".join(post.get("hashtags", []))
+ig_caption = (post["ig_first_line"].strip() + "\n" + post["caption"].strip()) if post.get("ig_first_line") else post["caption"].strip()
+text = ig_caption + "\n\n" + " ".join([h for h in post.get("hashtags", []) if h.lower() != "#shorts"][:5])
 jobs = []
 ch = cfg["buffer_channels"]
 if ch.get("youtube"):

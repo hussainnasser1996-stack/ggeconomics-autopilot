@@ -13,6 +13,11 @@ Read: `log/scoreboard.md`, `log/delivery.md`, `log/history.md` (last 14 days), `
 - Performance: views, avg % viewed, subs/followers gained, IG saves/shares per post; rank formats and pillars.
   With < 10 posts or < 7 days of analytics, call it "too early" and change at most one thing.
 
+## 1b. Packaging review (titles, hooks, hashtags)
+Join scoreboard.md with each post's post.json (`title`, `title_candidates`, `keywords`, `hook_style`, hashtags). Compare the
+top third vs bottom third by views AND by subs gained: which hook styles, title lengths, search phrases and hashtags
+won? Update the packaging rubric in BRAIN.md step 5b only when a pattern holds on 3+ posts (log it in learned.md).
+
 ## 2. The market (use the Agent tool to delegate in parallel when it helps; 15 searches max yourself)
 - What gaming stories and formats are winning on Shorts/Reels this week (YouTube trending gaming, top gaming news accounts,
   big launches/earnings/events in the next 14 days).

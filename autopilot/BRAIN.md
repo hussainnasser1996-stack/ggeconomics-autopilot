@@ -86,10 +86,24 @@ Every number on a card must be in the script and verified in step 2. Short card 
   "credit": "GAMEPLAY: <PUBLISHER>"}`
 First candidate = best fit. For GTA VI use the library files (alternate them day to day; check history.md).
 
+## 5b. Packaging (title, caption, hashtags): the part that earns the click. Do it for every post.
+1. **Search demand:** `python3 autopilot/scripts/keywords.py "<game>" "<topic words>"` → what people type into YouTube now.
+   Also read `research/trending.md` (top gaming videos by views) for live title patterns.
+2. **Five title candidates**, then score each 0–10 and keep the best (store all five + scores in post.json `title_candidates`):
+   number or $ amount (+2) · "you/your" or a direct stake for the viewer (+2) · a top search phrase from step 1 verbatim in
+   the first 40 characters (+2) · ≤ 50 characters (+1) · open loop/stakes the video pays off (+2) · matches a winner pattern
+   from BENCHMARK.md or trending.md (+1). Never clickbait the video doesn't pay off.
+3. **YouTube:** title = winner. The first 3 hashtags in the description show above the title: `#<game>`, `#gaming`, `#shorts`.
+4. **Instagram caption:** first line ≤ 125 characters (what shows before "more") = a DIFFERENT hook from the title, with the
+   number; then 1–2 lines of facts; then the question; then sources. Hashtags (Instagram caps at 5): 1 broad (#gaming),
+   1–2 game (#GTA6), 1 niche (#gamingnews), 1 from the search phrase (e.g. #gta6price).
+5. Write `"keywords": [top 3 phrases used]` and `"hook_style": "<number|you|versus|ranking|question|news>"` into post.json so
+   analytics can learn which packaging wins.
+
 ## 6. Post copy → `autopilot/queue/D/post.json`
 `{"title": "<≤ 60 chars, a claim with you/your + the number (BENCHMARK.md); no clickbait the video doesn't pay off>",
 "caption": "<2–3 lines: the fact, why it matters, a question to drive comments>\n\nSources: <names>",
-"hashtags": ["#gaming", "#<game>", "#gamingnews", "#<2 more>"], "series": "<gta6|cost_per_hour|top5|real_or_rumour|scoreboard|news>", "carousel": <true if D's weekday is in CONTROL.md carousel_days>}`
+"hashtags": ["#<game>", "#gaming", "#shorts", "#gamingnews", "#<search phrase>"], "ig_first_line": "<≤125 chars>", "title_candidates": [{"t": "...", "score": 9}], "keywords": [...], "hook_style": "...", "series": "<gta6|cost_per_hour|top5|real_or_rumour|scoreboard|news>", "carousel": <true if D's weekday is in CONTROL.md carousel_days>}`
 Carousel days also need `autopilot/queue/D/carousel.json` = 5 slides, same shape as
 `autopilot/queue/2026-11-16/slide_props_1.json` but WITHOUT `i`, and every slide's `"bg": {"at": null}` (the build fills
 in footage frames): slide 1 = the hook (`kicker`, `head` with |highlight|, `sub` ending "→"), slides 2–4 = one card each,
