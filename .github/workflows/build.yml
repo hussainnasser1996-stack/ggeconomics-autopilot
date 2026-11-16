@@ -11,7 +11,7 @@ on:
       date: { description: "Target date YYYY-MM-DD (empty = first unscheduled)", required: false }
       dry: { description: "Build everything but do not publish (test)", type: boolean, default: false }
 concurrency: { group: build, cancel-in-progress: false }
-permissions: { contents: write }
+permissions: { contents: write, actions: write }
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -36,7 +36,7 @@ jobs:
           if [ -z "$D" ]; then
             T=$(date -u +%F); T2=$(date -u -d "+3 days" +%F)
             for q in autopilot/queue/*/; do q=${q%/}; d=${q##*/}
-              [[ "$d" < "$T" || "$d" > "$T2" ]] && continue      # only today..+3 days are ever auto-built
+              [[ "${d:0:10}" < "$T" || "${d:0:10}" > "$T2" ]] && continue      # only today..+3 days are ever auto-built
               [ -f "$q/script.json" ] && [ -f "$q/post.json" ] && [ ! -f "$q/buffer_ids.json" ] && [ ! -f "$q/gates_failed" ] && { D=$d; break; }
             done
           fi
@@ -107,6 +107,15 @@ jobs:
           rm -f autopilot/keys/youtube-token.json
           git add -A autopilot && git commit -qm "build ${D:-noop}" || true
           for i in 1 2 3; do git pull -q --rebase -X ours origin main && git push -q origin HEAD:main && break; sleep 5; done
+      - name: Next pending post (2+ posts a day)
+        if: success() && steps.d.outputs.go == '1' && inputs.dry != true
+        run: |
+          T=$(date -u +%F); T2=$(date -u -d "+3 days" +%F)
+          for q in autopilot/queue/*/; do q=${q%/}; d=${q##*/}
+            [[ "${d:0:10}" < "$T" || "${d:0:10}" > "$T2" ]] && continue
+            if [ -f "$q/script.json" ] && [ -f "$q/post.json" ] && [ ! -f "$q/buffer_ids.json" ] && [ ! -f "$q/gates_failed" ] && [ ! -f "$q/dry" ]; then
+              gh workflow run build.yml -R "$GITHUB_REPOSITORY" -f date="$d"; echo "queued $d"; break; fi
+          done
       - uses: actions/upload-artifact@v4
         if: always() && steps.d.outputs.go == '1'
         with:

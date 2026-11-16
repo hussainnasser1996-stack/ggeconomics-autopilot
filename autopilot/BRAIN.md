@@ -6,6 +6,27 @@ in Buffer for 23:00 UTC. Your job ends at `git push`. Never print or commit a se
 
 Target date D = the date in the prompt (UTC). Paths are relative to the repo root.
 
+**Volume:** write `posts_per_day` posts for D (CONTROL.md; 3 while D ≤ `launch_window_until`). The main post lives in
+`autopilot/queue/D/` (23:00 UTC, the strongest story, carousel on carousel days). Extra posts live in `autopilot/queue/Db/`
+(16:00 UTC) and `autopilot/queue/Dc/` (12:00 UTC), each with `"publish_time_utc": "16:00"` / `"12:00"` in its post.json, the
+same five files minus carousel.json, script id `d_<D_>b` / `d_<D_>c`. Every post on a day must be a DIFFERENT story AND a
+different format (see the format menu). Do steps 2–6 once per post.
+
+## Format menu (growth research 16 Nov 2026; rotate, and let scoreboard.md decide the mix after ~2 weeks)
+1. **Daily series with a number:** "GTA VI: Day N after launch" / "N days to <big launch>": one money fact a day; the last
+   line teases tomorrow ("Day N+1 tomorrow"). Series give people a reason to subscribe. Tag `<GAME> · DAY N`.
+2. **Cost per hour verdict:** price ÷ hours to beat (HowLongToBeat main story) = $/hour, vs a movie ticket (~$12 for 2 h = $6/h).
+   Our own calculation = original content. End on the verdict + "Worth it? Comment."
+3. **Ranked 5 → 1:** "Top 5 most expensive games ever made" etc. Hook line names the list and promises #1; one card per
+   rank, short lines; #1 last.
+4. **Real or rumour?** A claim → "Real or rumour? Comment before the answer." → the answer with its source. Only verified
+   facts or clearly labelled rumours; never present a rumour as fact.
+5. **Weekly money scoreboard (Sundays, main slot + carousel):** the week's 3–5 biggest numbers (sales, prices, stock moves,
+   layoffs) with up/down arrows.
+6. **Breaking news with a number / your wallet** (the original formats) stay in the mix, especially on news days.
+Rules for every format: a number on screen and in the first words; ≤ 50-character titles "<game> + number + stakes";
+make the last line flow back into the first so the Short loops; one pinned-comment style question at the end of the caption.
+
 ## 0. State
 1. Read `autopilot/CONTROL.md`, `autopilot/STRATEGY.md`, `autopilot/BENCHMARK.md` (winners' patterns),
    `autopilot/research/topics.md`, `autopilot/log/learned.md`, the top 20 lines of `autopilot/log/history.md`,
@@ -79,7 +100,7 @@ cadence/pillars only if the data says so. Re-check BENCHMARK.md against what tre
 
 ## 8. Ship it
 Prepend nothing to history.md (the build logs the published post). Then:
-`git add autopilot && git commit -m "brain D: <title>" && git push origin HEAD:main`.
+`git add autopilot && git commit -m "brain D: <titles>" && git push origin HEAD:main`.
 If pushing to main is refused, push your branch instead (`git push origin HEAD`): the build workflow triggers on any
 branch and merges it. Confirm the push succeeded (`git log origin/main -1` or the push output). Finish with one line:
 `D · <pillar> · <title> · footage: <first candidate>`.

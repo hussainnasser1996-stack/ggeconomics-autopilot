@@ -17,7 +17,9 @@ if mode != "auto": dry = True
 if (Q / "buffer_ids.json").exists(): sys.exit("already scheduled (buffer_ids.json exists)")
 hh, mm = cfg.get("publish_time_utc", "23:00").split(":") if "publish_time_utc" in cfg else \
     next(l.split('"')[1] for l in ctl.splitlines() if l.startswith("publish_time_utc")).split(":")
-due = f"{D}T{hh}:{mm}:00.000Z"
+if post.get("publish_time_utc"): hh, mm = post["publish_time_utc"].split(":")   # extra daily slots (queue/<date>b, c…)
+DATE = D[:10]
+due = f"{DATE}T{hh}:{mm}:00.000Z"
 
 # ---- 1. host media
 repo = Path(os.path.expanduser(os.environ.get("MEDIA_REPO_DIR") or cfg["media_repo_local"]))
@@ -64,7 +66,7 @@ if ch.get("instagram"):
         "mode": "customScheduled", "dueAt": due, "assets": [{"video": {"url": urls["video"], "metadata": {"thumbnailOffset": 1500}}}],
         "metadata": {"instagram": {"type": "reel", "shouldShareToFeed": True}}}))
     if slides:
-        due2 = f"{D}T{(int(hh) - 8) % 24:02d}:{mm}:00.000Z"   # carousel ~8h before the Reel
+        due2 = f"{DATE}T{(int(hh) - 8) % 24:02d}:{mm}:00.000Z"   # carousel ~8h before the Reel
         jobs.append(("instagram_carousel", {"text": text[:2200], "channelId": ch["instagram"], "schedulingType": "automatic",
             "mode": "customScheduled", "dueAt": due2, "assets": [{"image": {"url": u}} for u in urls["images"]],
             "metadata": {"instagram": {"type": "post", "shouldShareToFeed": True}}}))

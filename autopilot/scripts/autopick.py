@@ -22,7 +22,7 @@ shots = json.load(open(GN / f"work/{tag}/shots.json"))
 total = max(s["end"] for s in shots)
 used_p = GN / "autopilot/log/used_shots.json"
 used = json.load(open(used_p)) if used_p.exists() else {}
-cut = (datetime.date.fromisoformat(D) - datetime.timedelta(days=14)).isoformat()
+cut = (datetime.date.fromisoformat(D[:10]) - datetime.timedelta(days=14)).isoformat()
 recent = {(u["src_id"], round(u["start"], 1)) for d, lst in used.items() if d >= cut and d != D for u in lst}
 
 cap = cv2.VideoCapture(str(GN / f"work/{tag}.mp4"))
