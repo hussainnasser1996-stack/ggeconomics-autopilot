@@ -1,18 +1,18 @@
-SCORE 68.6/100 (11/17)
-  PASS [major   ] VALUE_BIMODAL          mean midtone mass 0.060 (want <0.30)
-  PASS [major   ] FOCAL_PRESENT          mean bright fraction 0.1190 (want 0.004–0.14)
-  PASS [critical] CONTRAST_MIN           0/20 content frames below 4.5:1
-  PASS [major   ] CAPTION_LEGIBLE        0/20 content frames have sub-text under 3:1 (mean 16.67:1)
-  FAIL [minor   ] PALETTE_LOCK           worst content frame 9.86% off-palette (want <2%)
+SCORE 74.3/100 (12/17)
+  PASS [major   ] VALUE_BIMODAL          mean midtone mass 0.119 (want <0.30)
+  PASS [major   ] FOCAL_PRESENT          mean bright fraction 0.0684 (want 0.004–0.14)
+  PASS [critical] CONTRAST_MIN           0/9 content frames below 4.5:1
+  PASS [major   ] CAPTION_LEGIBLE        0/9 content frames have sub-text under 3:1 (mean 14.12:1)
+  FAIL [minor   ] PALETTE_LOCK           worst content frame 6.30% off-palette (want <2%)
   PASS [critical] SAFE_BOTTOM            bottom zone ink 0.00% (want <1%)
-  FAIL [critical] SAFE_RIGHT             right zone ink 23.23% (want <1%)
-  FAIL [major   ] HOLDS_EXIST            6.0% of frames are holds (4 holds)
-  FAIL [major   ] IMPACTS_PUNCTUATED     7/8 impacts not punctuated: [8, 71, 313, 341, 435, 514, 562]
-  PASS [major   ] NO_LINEAR_EASING       0 frames (0.0%) in constant-velocity moves, 0 segments
-  FAIL [major   ] NO_DEAD_AIR            1 stalls: [[707, 733]]
+  FAIL [critical] SAFE_RIGHT             right zone ink 15.38% (want <1%)
+  FAIL [major   ] HOLDS_EXIST            1.2% of frames are holds (1 holds)
+  FAIL [major   ] IMPACTS_PUNCTUATED     15/15 impacts not punctuated: [56, 104, 178, 209, 223, 270, 310, 368]
+  PASS [major   ] NO_LINEAR_EASING       19 frames (2.6%) in constant-velocity moves, 1 segments
+  PASS [major   ] NO_DEAD_AIR            0 stalls: []
   PASS [major   ] NO_MICRO_CHURN         0 frames (0.0%) of micro-churn in 0 runs: []
-  PASS [major   ] HOOK_ENERGY            hook energy 5.69× median (want >1.15)
+  PASS [major   ] HOOK_ENERGY            hook energy 1.59× median (want >1.15)
   PASS [critical] NO_SCENE_TAIL_STALL    0 scenes stall for 0.0s total (0% of runtime): 
   PASS [major   ] NO_DEAD_OPENING        0 scenes open dead: 
-  PASS [minor   ] OPENS_POPULATED        0/20 sampled frames have <0.4% bright content
-  FAIL [minor   ] USES_FRAME_HEIGHT      lowest focal centroid across content frames is 0.45 of frame height (want some content past 0.55)
+  PASS [minor   ] OPENS_POPULATED        0/9 sampled frames have <0.4% bright content
+  FAIL [minor   ] USES_FRAME_HEIGHT      lowest focal centroid across content frames is 0.37 of frame height (want some content past 0.55)
