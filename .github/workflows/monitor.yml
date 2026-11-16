@@ -1,6 +1,8 @@
 name: GG Economics delivery monitor
 on:
-  schedule: [{ cron: "40 */6 * * *" }]
+  schedule: [{ cron: "40 */6 * * *" }]     # GitHub's scheduler is unreliable on new repos (16 Nov: 0 of 2 fired) ...
+  push:                                      # ... so the Anthropic "heartbeat" routine also pushes this file every 6 h
+    paths: ["autopilot/log/heartbeat.txt"]
   workflow_dispatch:
 concurrency: { group: monitor, cancel-in-progress: false }
 permissions: { contents: write, actions: write }

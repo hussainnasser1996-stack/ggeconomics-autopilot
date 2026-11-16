@@ -3,7 +3,7 @@ name: GG Economics build + publish
 # That push triggers this job: footage → voice → clips → render → gates → Buffer. No Mac anywhere.
 on:
   push:
-    paths: ["autopilot/queue/*/footage.json", "autopilot/queue/*/script.json", "autopilot/queue/*/go"]
+    paths: ["autopilot/queue/*/footage.json", "autopilot/queue/*/script.json", "autopilot/queue/*/go", "autopilot/log/heartbeat.txt"]
   schedule:
     - cron: "0 4,12,19 * * *"     # safety net: build anything the brain wrote that is still unscheduled
   workflow_dispatch:
