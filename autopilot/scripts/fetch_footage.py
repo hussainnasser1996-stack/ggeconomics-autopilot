@@ -31,7 +31,28 @@ if pick is None:
 x = {"id": url, "title": q, "uploader": "direct", "official": True} if url else next((r for r in rows if r["id"] == pick), None) or (rows[int(pick)] if pick.isdigit() else {"id": pick, "title": "?", "uploader": "?", "official": False})
 dl = GN / "work/dl"; dl.mkdir(parents=True, exist_ok=True)
 src = dl / f"{tag}.mp4"
-if url:
+if url and os.path.exists(url):
+    import shutil; shutil.copy(url, src)
+elif url and ".m3u8" in url:   # Steam HLS master: fetch the 1080p fMP4 video + audio segments ourselves, then mux
+    import re, urllib.request
+    ua = {"User-Agent": "Mozilla/5.0"}
+    get = lambda u: urllib.request.urlopen(urllib.request.Request(u, headers=ua), timeout=60).read()
+    base, qs = url.split("?")[0].rsplit("/", 1)[0] + "/", ("?" + url.split("?", 1)[1]) if "?" in url else ""
+    master = get(url).decode().splitlines()
+    vids = [(int(re.search(r"RESOLUTION=\d+x(\d+)", m).group(1)), master[i + 1]) for i, m in enumerate(master) if m.startswith("#EXT-X-STREAM-INF")]
+    vpl = max((v for v in vids if v[0] <= 1080), default=vids[0])[1]
+    apl = next((re.search(r'URI="([^"]+)"', m).group(1) for m in master if m.startswith("#EXT-X-MEDIA:TYPE=AUDIO")), None)
+    def grab(pl, out):
+        lines = get(base + pl + qs).decode().splitlines()
+        init = next(re.search(r'URI="([^"]+)"', l).group(1) for l in lines if l.startswith("#EXT-X-MAP"))
+        segs = [l for l in lines if l and not l.startswith("#")]
+        with open(out, "wb") as f:
+            for u in [init] + segs: f.write(get(base + u + qs))
+    grab(vpl, str(src) + ".v.mp4")
+    ins = ["-i", str(src) + ".v.mp4"]
+    if apl: grab(apl, str(src) + ".a.mp4"); ins += ["-i", str(src) + ".a.mp4"]
+    subprocess.run(["ffmpeg", "-v", "error", "-y"] + ins + ["-c", "copy", str(src)], check=True)
+elif url:
     subprocess.run(["ffmpeg", "-v", "error", "-y", "-i", url, "-c", "copy", str(src)], check=True)
 else:
     subprocess.run(["yt-dlp", "-f", "bv*[height<=1080]+ba/b[height<=1080]", "--merge-output-format", "mp4", "-o", str(src),

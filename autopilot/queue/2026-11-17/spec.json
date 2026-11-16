@@ -1,0 +1,165 @@
+{
+ "spec": {
+  "tag": "GTA VI · YOUR WALLET",
+  "headline": "YOUR |2013 XBOX ONE| CAN PLAY GTA 6",
+  "topic": "GTA 6 streams to Xbox One via Xbox Cloud Gaming at launch",
+  "vo": "vo/d_2026_11_17/vo.wav",
+  "timelinePath": "vo/d_2026_11_17/timeline.json",
+  "timeline": {
+   "duration": 1,
+   "lines": [],
+   "words": []
+  },
+  "noBed": true,
+  "clips": [
+   {
+    "src": "d_2026_11_17",
+    "from": 23.39,
+    "dur": 1.4,
+    "shot": 12
+   },
+   {
+    "src": "d_2026_11_17",
+    "from": 27.59,
+    "dur": 1.33,
+    "shot": 14
+   },
+   {
+    "src": "d_2026_11_17",
+    "from": 32.72,
+    "dur": 1.33,
+    "shot": 18
+   },
+   {
+    "src": "d_2026_11_17",
+    "from": 24.99,
+    "dur": 2.4,
+    "shot": 13
+   },
+   {
+    "src": "d_2026_11_17",
+    "from": 35.79,
+    "dur": 1.6,
+    "shot": 20
+   },
+   {
+    "src": "d_2026_11_17",
+    "from": 60.59,
+    "dur": 1.86,
+    "shot": 36
+   },
+   {
+    "src": "d_2026_11_17",
+    "from": 2.79,
+    "dur": 2.13,
+    "shot": 1
+   },
+   {
+    "src": "d_2026_11_17",
+    "from": 21.85,
+    "dur": 1.34,
+    "shot": 11
+   },
+   {
+    "src": "d_2026_11_17",
+    "from": 70.39,
+    "dur": 2.4,
+    "shot": 44
+   },
+   {
+    "src": "d_2026_11_17",
+    "from": 68.79,
+    "dur": 1.4,
+    "shot": 43
+   },
+   {
+    "src": "d_2026_11_17",
+    "from": 31.19,
+    "dur": 1.33,
+    "shot": 17
+   },
+   {
+    "src": "d_2026_11_17",
+    "from": 5.12,
+    "dur": 1.33,
+    "shot": 2
+   },
+   {
+    "src": "d_2026_11_17",
+    "from": 34.25,
+    "dur": 1.34,
+    "shot": 19
+   },
+   {
+    "src": "d_2026_11_17",
+    "from": 6.65,
+    "dur": 1.74,
+    "shot": 3
+   },
+   {
+    "src": "d_2026_11_17",
+    "from": 19.32,
+    "dur": 1.33,
+    "shot": 9
+   },
+   {
+    "src": "d_2026_11_17",
+    "from": 72.99,
+    "dur": 3.46,
+    "shot": 45
+   }
+  ],
+  "cards": [
+   {
+    "kind": "big",
+    "line": "hook",
+    "value": "2013",
+    "label": "your Xbox One, on day one",
+    "note": "via Xbox Cloud Gaming · Rockstar, 10 Nov",
+    "color": "#D4FF3A"
+   },
+   {
+    "kind": "date",
+    "line": "how",
+    "small": "STREAMS FROM",
+    "big": "NOV 19"
+   },
+   {
+    "kind": "quote",
+    "line": "look",
+    "text": "utilizing XBOX Series S graphics settings",
+    "who": "Rockstar Games",
+    "note": "connection speed affects performance"
+   },
+   {
+    "kind": "date",
+    "line": "conf",
+    "small": "CONFIRMED BY ROCKSTAR",
+    "big": "NOV 10"
+   },
+   {
+    "kind": "pair",
+    "line": "catch",
+    "a": {
+     "value": "$79.99",
+     "label": "BUY THE GAME"
+    },
+    "b": {
+     "value": "+ CLOUD",
+     "label": "GAME PASS OR PAID HOURS"
+    },
+    "note": "Rockstar pricing · Xbox Cloud Gaming terms"
+   },
+   {
+    "kind": "big",
+    "line": "hours",
+    "value": "5 HRS",
+    "label": "cloud a month on Game Pass Essential",
+    "note": "Premium 10 · Ultimate 15 (Digital Trends)",
+    "color": "#D4FF3A"
+   }
+  ],
+  "credit": "FOOTAGE: ROCKSTAR GAMES · DATA: ROCKSTAR, XBOX, DEXERTO, DIGITAL TRENDS",
+  "endLine": "LAUNCH WEEK · FOLLOW FOR DAY ONE"
+ }
+}

@@ -72,12 +72,12 @@ def buffer_key():
 key = buffer_key()
 if key and cfg["buffer_channels"].get("instagram"):
     q = """query($o: OrganizationId!, $c: [ChannelId!]){ posts(first: 50, input:{organizationId:$o, filter:{status:[sent], channelIds:$c}},
-           sort:[{field: dueAt, direction: desc}]){ edges{ node{ id text sentAt externalLink metrics{ type value } } } } }"""
+           ){ edges{ node{ id text sentAt externalLink metrics{ type value } } } } }"""
     req = urllib.request.Request("https://api.buffer.com", data=json.dumps({"query": q, "variables": {"o": cfg["buffer_organization_id"],
           "c": [cfg["buffer_channels"]["instagram"]]}}).encode(), headers={"Content-Type": "application/json", "Authorization": "Bearer " + key})
     try:
         body = json.loads(urllib.request.urlopen(req, timeout=60).read())
-        for e in body.get("data", {}).get("posts", {}).get("edges", []):
+        for e in ((body.get("data") or {}).get("posts") or {}).get("edges", []):
             n = e["node"]; m = {x["type"]: x["value"] for x in (n.get("metrics") or [])}
             out["instagram"][n["id"]] = {"sent": (n.get("sentAt") or "")[:10], "text": n["text"][:60], "link": n.get("externalLink"), **m}
         if body.get("errors"): out["notes"].append("Buffer: " + json.dumps(body["errors"])[:200])

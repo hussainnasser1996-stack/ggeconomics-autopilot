@@ -1,28 +1,27 @@
-# Trending in Gaming on YouTube (US), 2026-11-15
+# Trending in Gaming on YouTube (US), 2026-11-16
 
 | # | views | channel | title |
 |---|---|---|---|
-| 1 | 6,909,836 | LoL Esports | GEN vs BLG | WORLDS 2026 | Finals |
-| 2 | 924,431 | Summoning Salt | The History of Minecraft World Records |
-| 3 | 759,580 | TGG | GTA 6: Everything You NEED To Know (3 Days Left) |
-| 4 | 655,095 | CaseOh | Scawy Game |
-| 5 | 1,483,374 | League of Legends | League of Legends: New Dawn Teaser |
-| 6 | 1,481,314 | gameranx | GTA 6: 25 Things You NEED TO KNOW |
-| 7 | 1,432,599 | Joe Bartolozzi | GTA6 Launch Day Will Be INSANE |
-| 8 | 531,158 | Joe Bart Games | The Fortnite Pirate Token Podcast |
-| 9 | 947,357 | WolfeyVGC | I Entered a Tournament with a Never Used Pokemon |
-| 10 | 880,991 | Foltyn | The Real Ending Of Pranking My Teacher until She Quits.. |
-| 11 | 2,678,856 | Typical Gamer | 🔴 LIVE! - FINDING the *PIRATE TOKEN* in FORTNITE!! |
-| 12 | 306,461 | special edd | The Most Satisfying Game - Potatoes Please [FULL GAME] |
-| 13 | 2,566,413 | SMii7Y | You CAN'T Win At This Casino |
-| 14 | 372,083 | Aphmau | My NEIGHBOR's FACE Is Always COVERED: The MOVIE! |
-| 15 | 783,192 | T5G | GTA 6 - EVERYTHING YOU NEED TO KNOW! |
-| 16 | 461,607 | Caedrel | THE WORLDS FINALS 2026 - BLG VS GENG |
-| 17 | 1,720,369 | Minecraft | NEW WEAPON AND OFF-HAND FOR BEDROCK! | TwitchCon San Diego |
-| 18 | 1,963,812 | BLAST Premier | BLAST Rivals Hong Kong 2026, GRAND FINAL - Team Spirit vs FURIA |
-| 19 | 678,692 | Flamingo | ROBLOX DON’T SPLASH |
-| 20 | 390,812 | PrestonPlayz | I Built a Secret Base Inside A VILLAGER'S NOSE In Minecraft.. |
-| 21 | 576,651 | Cash | Kidnapped by an ANGEL GIRL in Minecraft! |
-| 22 | 332,858 | steak | Becoming the MIMIC in HE ATE THEM.. |
-| 23 | 430,043 | Techy Plays | Roblox GET STUCK IN TRAFFIC... |
-| 24 | 400,030 | TechyCrew | We Survived a RAINBOW TSUNAMI in GTA 5... |
+| 1 | 1,425,592 | SMii7Yplus | Your Favorite YouTubers are Addicted to Crack |
+| 2 | 239,838 | SMii7Yminus | We are Going to Sweep... THE MOON! |
+| 3 | 1,745,644 | TGG | GTA 6: Everything You NEED To Know (3 Days Left) |
+| 4 | 375,624 | Joe Bart Games | I Am The Tiger Woods Of Videogame Golf |
+| 5 | 399,557 | SSundeePlus | Making a Black Hole - Sky Factory Season 7 EP 10 |
+| 6 | 942,955 | Grian | I Learned to Speedrun Minecraft in 1 Week |
+| 7 | 294,060 | CaseOh | We Beat The Dragon… |
+| 8 | 186,352 | MMG | We Played Our TOUGHEST Opponent Yet! Wheel of MUT! Ep. #15 |
+| 9 | 580,400 | Jynxzi | FINDING THE PIRATE TOKEN |
+| 10 | 253,073 | Cutie The Bunny | ESCAPE The HAUNTED HOTEL Obby! (Roblox) |
+| 11 | 1,623,291 | Summoning Salt | The History of Minecraft World Records |
+| 12 | 517,223 | Jynxzi Live | BEST R6 UPDATE EVER! |
+| 13 | 195,522 | WILDCAT Reacts | Classic Vanoss Crew GTA 5 Clips Before GTA 6 |
+| 14 | 151,837 | Clooless Gaming | THE NEW REPO UPDATE IS TERRIFYING |
+| 15 | 1,026,814 | Asmongold TV   | So I Tried Bodycam Zombies.. |
+| 16 | 270,179 | StinkyAsher | IS PINKY PROMISE THE BEST GAME ON ROBLOX?! |
+| 17 | 2,513,703 | Typical Gamer | 🔴 LIVE! - NOT ENDING UNTIL I FIND THE PIRATE TOKEN!!! |
+| 18 | 270,828 | Treyten | Stealing My Last Car In GTA 5 RP |
+| 19 | 145,355 | Jefe | My GANG Got ARRESTED.. So We Did a PRISON BREAK in GTA 5 RP.. |
+| 20 | 395,546 | TechyCraft | I Pretended to be a REALISTIC DOG in Minecraft... |
+| 21 | 6,998,494 | LoL Esports | GEN vs BLG | WORLDS 2026 | Finals |
+| 22 | 420,946 | TechyCrew | Drinking The Entire GTA 5 Ocean With a Straw... |
+| 23 | 481,211 | Willjum | I Built a self sustaining solo fortress in vanilla rust... |
