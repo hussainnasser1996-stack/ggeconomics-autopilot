@@ -1,0 +1,64 @@
+{
+ "spec": {
+  "tag": "TOP 5 · ALL-TIME SALES",
+  "headline": "ROCKSTAR MADE |2 OF THE 5| BEST-SELLING GAMES",
+  "topic": "The five best-selling video games ever, ranked 5 to 1",
+  "vo": "vo/d_2026_11_16c/vo.wav",
+  "timelinePath": "vo/d_2026_11_16c/timeline.json",
+  "timeline": {
+   "duration": 1,
+   "lines": [],
+   "words": []
+  },
+  "noBed": true,
+  "clips": [],
+  "cards": [
+   {
+    "kind": "big",
+    "line": "hook",
+    "value": "TOP 5",
+    "label": "best-selling games ever",
+    "note": "copies sold, publisher figures",
+    "color": "#D4FF3A"
+   },
+   {
+    "kind": "big",
+    "line": "r5",
+    "value": "82.9M",
+    "label": "#5 · Wii Sports",
+    "note": "Nintendo"
+   },
+   {
+    "kind": "big",
+    "line": "r4",
+    "value": "89M+",
+    "label": "#4 · Red Dead Redemption 2",
+    "note": "Take-Two, to Sep 30 2026"
+   },
+   {
+    "kind": "big",
+    "line": "r3",
+    "value": "235M",
+    "label": "#3 · GTA V",
+    "note": "nearly · Take-Two, to Sep 30 2026"
+   },
+   {
+    "kind": "big",
+    "line": "r2",
+    "value": "425M+",
+    "label": "#2 · Minecraft",
+    "note": "Xbox, Sep 2026"
+   },
+   {
+    "kind": "big",
+    "line": "r1",
+    "value": "520M",
+    "label": "#1 · Tetris",
+    "note": "all versions combined · The Tetris Company",
+    "color": "#D4FF3A"
+   }
+  ],
+  "credit": "GAMEPLAY: ROCKSTAR GAMES · DATA: TAKE-TWO, NINTENDO, XBOX, THE TETRIS COMPANY",
+  "endLine": "FOLLOW FOR THE GTA 6 NUMBERS"
+ }
+}

@@ -1,0 +1,38 @@
+{
+ "id": "d_2026_11_16b",
+ "voice": "am_liam",
+ "speed": 1.25,
+ "gap": 0.12,
+ "lines": [
+  {
+   "id": "hook",
+   "text": "GTA 6 costs you $79.99. GTA 5 actually cost more.",
+   "say": "GTA Six costs you seventy-nine ninety-nine. GTA Five actually cost more."
+  },
+  {
+   "id": "then",
+   "text": "In 2013, GTA 5 launched at $59.99.",
+   "say": "In twenty-thirteen, GTA Five launched at fifty-nine ninety-nine."
+  },
+  {
+   "id": "adj",
+   "text": "Run that through US government inflation data, and it's about $86 in today's money.",
+   "say": "Run that through US government inflation data, and it's about eighty-six dollars in today's money."
+  },
+  {
+   "id": "diff",
+   "text": "So GTA 6 is about $6.50 cheaper in real terms. It just doesn't feel that way.",
+   "say": "So GTA Six is about six fifty cheaper in real terms. It just doesn't feel that way."
+  },
+  {
+   "id": "next",
+   "text": "3 days to GTA 6. Two days, and a new number, tomorrow.",
+   "say": "Three days to GTA Six. Two days, and a new number, tomorrow."
+  },
+  {
+   "id": "out",
+   "text": "That's the game. GG.",
+   "say": "That's the game. Gee gee."
+  }
+ ]
+}

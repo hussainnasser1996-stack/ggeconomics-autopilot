@@ -1,5 +1,11 @@
 # Review log (newest first; written nightly by the autopilot)
 
+## 2026-11-16 (run for 2026-11-16, extra slots b + c)
+- No data yet: scoreboard.md is still empty, so it's too early to diagnose anything.
+- Launch window = 3 posts/day. The main slot (11-16, $1B before launch) already existed, so only 16:00 (b) and 12:00 (c) were written, each with a different story and format: b = daily series "3 days to GTA 6" (GTA 5's $59.99 in 2013 ≈ $86 today vs GTA 6's $79.99, our own CPI calculation), c = ranked 5 → 1 best-selling games ever (Take-Two 9 Nov report: GTA V nearly 235M, RDR2 89M+).
+- Flag for the main 11-16 post: one search summary (ITC.ua, 10 Nov) quotes Sensor Tower at ~$751M in GTA 6 pre-sales, while the 11-16 script says "more than a billion". I didn't open a source either way. Check before reusing that number.
+- Countdown series continues: topics.md now has an open "2 days / 1 day to GTA 6" line for the b slots on 11-17 and 11-18.
+
 ## 2026-11-16 (run for 2026-11-19)
 - No data yet: the scoreboard is still empty (11-16 goes live tonight, and YouTube Analytics lags 1-3 days). Too early to diagnose.
 - Pillar rotation: the last entry (11-18) was launch, so 11-19 takes the bank's wallet topic for launch day: GTA 6 runs at 30 fps on every console, and a PS5 Pro buys looks, not frames. Benchmark support: Runtime Caffeine's "GTA 6 Runs at 30 FPS" did 1.9M.

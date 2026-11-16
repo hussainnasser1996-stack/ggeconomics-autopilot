@@ -6,6 +6,9 @@
 - [launch] GTA 6 unlocks tonight, you need up to 212 GB free (Rockstar 3 Nov, VGC, Game Informer); pre-load open since 10 Nov; discs are code-in-box; Xbox Cloud from 1 AM ET (Xbox Wire). Use: 2026-11-18. Status: used 2026-11-18
 - [launch] GTA 6 day-one numbers / first-week sales once Take-Two or trackers report. Use: 2026-11-20+. Status: open
 
+- [series] 3 days to GTA 6: $79.99 vs GTA 5's $59.99 (2013) = ~$86 today (BLS CPI-U). Use: 2026-11-16. Status: used 2026-11-16
+- [ranked] Top 5 best-selling games ever (Tetris 520M, Minecraft 425M+, GTA V ~235M, RDR2 89M+, Wii Sports 82.9M). Use: 2026-11-16. Status: used 2026-11-16
+- [series] 2 days to GTA 6 / 1 day to GTA 6: one money fact each (continue the countdown: Db slot). Use: 2026-11-17..2026-11-18. Status: open
 - GTA VI launch week: day-by-day numbers. Use: 2026-11-16..2026-11-22. Status: open
 - GTA VI first-week sales / Take-Two stock reaction after 19 Nov. Use: 2026-11-20+. Status: open
 - Tencent results 18 Nov; NetEase and Ubisoft 19 Nov (from Singular Link Gaming/07 Getting In). Use: on the day. Status: open

@@ -1,0 +1,18 @@
+{
+ "candidates": [
+  {
+   "source": "steam",
+   "game": "Grand Theft Auto V Enhanced"
+  },
+  {
+   "source": "steam",
+   "game": "Red Dead Redemption 2",
+   "prefer": "Launch"
+  },
+  {
+   "source": "library",
+   "file": "gta6_trailer_QdBZY2fkU-0.mp4"
+  }
+ ],
+ "credit": "GAMEPLAY: ROCKSTAR GAMES"
+}

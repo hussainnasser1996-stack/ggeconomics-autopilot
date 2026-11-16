@@ -1,0 +1,61 @@
+{
+ "spec": {
+  "tag": "GTA VI · 3 DAYS TO GO",
+  "headline": "GTA 6 IS |$6.50 CHEAPER| THAN GTA 5 WAS",
+  "topic": "GTA 6's $79.99 vs GTA 5's 2013 $59.99 adjusted for inflation (BLS CPI-U)",
+  "vo": "vo/d_2026_11_16b/vo.wav",
+  "timelinePath": "vo/d_2026_11_16b/timeline.json",
+  "timeline": {
+   "duration": 1,
+   "lines": [],
+   "words": []
+  },
+  "noBed": true,
+  "clips": [],
+  "cards": [
+   {
+    "kind": "big",
+    "line": "hook",
+    "value": "$79.99",
+    "label": "GTA 6 Standard, your price",
+    "note": "Rockstar · out Nov 19",
+    "color": "#D4FF3A"
+   },
+   {
+    "kind": "big",
+    "line": "then",
+    "value": "$59.99",
+    "label": "GTA 5 at launch, Sept 2013"
+   },
+   {
+    "kind": "big",
+    "line": "adj",
+    "value": "$86",
+    "label": "GTA 5's price in today's money",
+    "note": "our calculation · BLS CPI-U, Sep 2013 → Oct 2026",
+    "color": "#D4FF3A"
+   },
+   {
+    "kind": "pair",
+    "line": "diff",
+    "a": {
+     "value": "$79.99",
+     "label": "GTA 6 NOW"
+    },
+    "b": {
+     "value": "$86",
+     "label": "GTA 5, INFLATION-ADJUSTED"
+    },
+    "note": "about $6.50 cheaper in real terms"
+   },
+   {
+    "kind": "date",
+    "line": "next",
+    "small": "3 DAYS TO GO",
+    "big": "NOV 19"
+   }
+  ],
+  "credit": "GAMEPLAY: ROCKSTAR GAMES · DATA: ROCKSTAR, US BLS, TECHNOBEZZ",
+  "endLine": "GTA 6 COUNTDOWN · FOLLOW FOR DAY 2"
+ }
+}

@@ -1,0 +1,43 @@
+{
+ "id": "d_2026_11_16c",
+ "voice": "am_liam",
+ "speed": 1.25,
+ "gap": 0.12,
+ "lines": [
+  {
+   "id": "hook",
+   "text": "The 5 best-selling games ever. Rockstar made two of them.",
+   "say": "The five best-selling games ever. Rockstar made two of them."
+  },
+  {
+   "id": "r5",
+   "text": "Number five: Wii Sports, 82.9 million copies.",
+   "say": "Number five: Wii Sports, eighty-two point nine million copies."
+  },
+  {
+   "id": "r4",
+   "text": "Four: Red Dead Redemption 2, over 89 million.",
+   "say": "Four: Red Dead Redemption Two, over eighty-nine million."
+  },
+  {
+   "id": "r3",
+   "text": "Three: GTA 5, nearly 235 million, and still selling.",
+   "say": "Three: GTA Five, nearly two hundred thirty-five million, and still selling."
+  },
+  {
+   "id": "r2",
+   "text": "Two: Minecraft, over 425 million.",
+   "say": "Two: Minecraft, over four hundred twenty-five million."
+  },
+  {
+   "id": "r1",
+   "text": "And number one: Tetris, 520 million, counting every version since 1984. Can GTA 6 crack the top five?",
+   "say": "And number one: Tetris, five hundred twenty million, counting every version since nineteen eighty-four. Can GTA Six crack the top five?"
+  },
+  {
+   "id": "out",
+   "text": "That's the game. GG.",
+   "say": "That's the game. Gee gee."
+  }
+ ]
+}
