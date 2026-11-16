@@ -1,14 +1,14 @@
-# Delivery check · 2026-11-16 16:48 UTC
+# Delivery check · 2026-11-16 16:51 UTC
 
 ## Problems
 - none
 
 Buffer scheduled per channel: youtube_short 4, instagram_reel 4, instagram_carousel 1
 
-GitHub Actions minutes used this month: ~470 of 2,000 (free tier, private repo)
+GitHub Actions minutes used this month: ~472 of 2,000 (free tier, private repo)
 
 ## Actions taken
-- 2026-11-16b: {'video': 'ct7tlizYNYQ', 'series': 'gta6', 'playlist': 'ok', 'blocked_in': 0, 'allowed_only': None, 'music': None}
+- none
 
 | post | channel | status | sent/due | link | title |
 |---|---|---|---|---|---|
