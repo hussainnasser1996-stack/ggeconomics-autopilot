@@ -1,0 +1,37 @@
+{
+ "id": "d_2026_11_19",
+ "voice": "am_liam",
+ "speed": 1.25,
+ "gap": 0.12,
+ "lines": [
+  {
+   "id": "hook",
+   "text": "GTA 6 is out, and your console runs it at 30 frames.",
+   "say": "GTA Six is out, and your console runs it at thirty frames."
+  },
+  {
+   "id": "all",
+   "text": "Rockstar targets 30 frames a second on PS5 and on Xbox Series X and S.",
+   "say": "Rockstar targets thirty frames a second on PS Five and on Xbox Series X and S."
+  },
+  {
+   "id": "pro",
+   "text": "There's no 60 frames mode at launch, not even on a PS5 Pro.",
+   "say": "There's no sixty frames mode at launch, not even on a PS Five Pro."
+  },
+  {
+   "id": "extra",
+   "text": "The Pro gets sharper upscaling, called PSSR, plus ray-traced shadows no other console gets.",
+   "say": "The Pro gets sharper upscaling, called P S S R, plus ray-traced shadows no other console gets."
+  },
+  {
+   "id": "buy",
+   "text": "So if you're eyeing a Pro tonight, you're paying for looks, not smoothness."
+  },
+  {
+   "id": "out",
+   "text": "That's the game. GG.",
+   "say": "That's the game. Gee gee."
+  }
+ ]
+}

@@ -1,5 +1,13 @@
 # Review log (newest first; written nightly by the autopilot)
 
+## 2026-11-16 (run for 2026-11-19)
+- No data yet: the scoreboard is still empty (11-16 goes live tonight, and YouTube Analytics lags 1-3 days). Too early to diagnose.
+- Pillar rotation: the last entry (11-18) was launch, so 11-19 takes the bank's wallet topic for launch day: GTA 6 runs at 30 fps on every console, and a PS5 Pro buys looks, not frames. Benchmark support: Runtime Caffeine's "GTA 6 Runs at 30 FPS" did 1.9M.
+- Verified on Shacknews and Insider Gaming (both quote Rockstar's 10 Nov Newswire post): 30 fps target on PS5 and Xbox Series X|S, PSSR and Pro-only ray-traced shadows, no 60 fps mode at launch.
+- Dropped "Xbox Cloud uses Series S settings" from this script because only one source I opened states it. It already ran on 11-17.
+- Written days early, so every line has to hold at 23:00 UTC on the 19th: "is out" and "tonight" only, with no unlock times and no sales numbers.
+- Footage: library Trailer 1 (QdBZY2fkU-0) first, alternating with 11-18's Trailer 2.
+
 ## 2026-11-16 (run for 2026-11-18)
 - No data yet: the scoreboard is empty (11-16 and 11-17 posts not live or not yet in analytics). Too early to diagnose.
 - Pillar rotation: the bank's 11-18 topic (Standard vs Ultimate) is wallet, same as 11-17, so it moved to 11-21..24. Today is launch coverage instead: GTA 6 unlocks tonight and needs up to 212 GB.

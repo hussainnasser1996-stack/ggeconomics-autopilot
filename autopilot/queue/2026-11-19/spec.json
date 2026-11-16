@@ -1,0 +1,73 @@
+{
+ "spec": {
+  "tag": "GTA VI · LAUNCH DAY",
+  "headline": "GTA 6 RUNS AT |30 FPS| ON YOUR CONSOLE",
+  "topic": "GTA 6 launch day: Rockstar targets 30 fps on PS5, PS5 Pro and Xbox Series X|S; no 60 fps mode at launch; PS5 Pro adds PSSR and Pro-only ray-traced shadows",
+  "vo": "vo/d_2026_11_19/vo.wav",
+  "timelinePath": "vo/d_2026_11_19/timeline.json",
+  "timeline": {
+   "duration": 1,
+   "lines": [],
+   "words": []
+  },
+  "noBed": true,
+  "clips": [],
+  "cards": [
+   {
+    "kind": "big",
+    "line": "hook",
+    "value": "30 FPS",
+    "label": "on your console, day one",
+    "note": "Rockstar target · 10 Nov",
+    "color": "#D4FF3A"
+   },
+   {
+    "kind": "pair",
+    "line": "all",
+    "a": {
+     "value": "30",
+     "label": "PS5"
+    },
+    "b": {
+     "value": "30",
+     "label": "XBOX SERIES X|S"
+    },
+    "note": "frames per second target · Rockstar"
+   },
+   {
+    "kind": "pair",
+    "line": "pro",
+    "a": {
+     "value": "60",
+     "label": "NOT AT LAUNCH"
+    },
+    "b": {
+     "value": "30",
+     "label": "EVEN ON PS5 PRO"
+    },
+    "note": "no 60 fps mode announced · Shacknews, Insider Gaming"
+   },
+   {
+    "kind": "quote",
+    "line": "extra",
+    "text": "ray-traced shadows only available on PlayStation 5 Pro",
+    "who": "Rockstar Games",
+    "note": "plus PSSR upscaling"
+   },
+   {
+    "kind": "pair",
+    "line": "buy",
+    "a": {
+     "value": "LOOKS",
+     "label": "WHAT A PRO ADDS"
+    },
+    "b": {
+     "value": "SAME FPS",
+     "label": "30 ON EVERY CONSOLE"
+    }
+   }
+  ],
+  "credit": "GAMEPLAY: ROCKSTAR GAMES · DATA: ROCKSTAR, SHACKNEWS, INSIDER GAMING",
+  "endLine": "LAUNCH DAY · FOLLOW FOR THE FIRST-WEEK NUMBERS"
+ }
+}
