@@ -10,7 +10,7 @@ if python3 -c "import json,sys;sys.exit(0 if not json.load(open('$Q/spec.json'))
   .venv/bin/python autopilot/scripts/autopick.py "$D"
 fi
 cd studio
-nice -n 5 npx remotion render src/index.ts DailyShort "$Q/raw.mp4" --props="$Q/spec.json" --log=error --concurrency=4
+nice -n 5 npx remotion render src/index.ts DailyShort "$Q/raw.mp4" --props="$Q/spec.json" --log=error --concurrency=$(( $(getconf _NPROCESSORS_ONLN) < 4 ? $(getconf _NPROCESSORS_ONLN) : 4 ))
 cd "$GN"
 python3 src/mix.py "$Q/raw.mp4" assets/music/synthwavehouse.ogg "$Q/short.mp4" --start 16 --gain -13 && rm "$Q/raw.mp4"
 .venv/bin/python src/critic.py "$Q/short.mp4" "studio/public/vo/$ID/timeline.json" "daily_$D" 2>&1 | grep -v objc > "$Q/critic.txt" || true
