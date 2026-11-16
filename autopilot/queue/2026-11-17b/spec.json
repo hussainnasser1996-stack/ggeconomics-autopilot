@@ -1,7 +1,7 @@
 {
  "spec": {
-  "tag": "GTA VI · 2 DAYS TO GO",
-  "headline": "TAKE-TWO BETS |$8 BILLION| ON GTA 6",
+  "tag": "GTA VI \u00b7 2 DAYS TO GO",
+  "headline": "TAKE-TWO BETS |$8\u00a0BILLION| ON GTA 6",
   "topic": "Take-Two Q2 FY27: $1.6B net bookings (-18%), FY27 outlook $8.0-8.2B reiterated, Q3 guide $3.35-3.5B (9 Nov 2026 release)",
   "vo": "vo/d_2026_11_17b/vo.wav",
   "timelinePath": "vo/d_2026_11_17b/timeline.json",
@@ -11,99 +11,14 @@
    "words": []
   },
   "noBed": true,
-  "clips": [
-   {
-    "src": "d_2026_11_17b",
-    "from": 41.72,
-    "dur": 2.2,
-    "shot": 14
-   },
-   {
-    "src": "d_2026_11_17b",
-    "from": 18.99,
-    "dur": 1.4,
-    "shot": 6
-   },
-   {
-    "src": "d_2026_11_17b",
-    "from": 77.85,
-    "dur": 1.6,
-    "shot": 24
-   },
-   {
-    "src": "d_2026_11_17b",
-    "from": 129.52,
-    "dur": 2.2,
-    "shot": 61
-   },
-   {
-    "src": "d_2026_11_17b",
-    "from": 49.99,
-    "dur": 1.8,
-    "shot": 16
-   },
-   {
-    "src": "d_2026_11_17b",
-    "from": 96.25,
-    "dur": 1.34,
-    "shot": 36
-   },
-   {
-    "src": "d_2026_11_17b",
-    "from": 120.85,
-    "dur": 2.0,
-    "shot": 55
-   },
-   {
-    "src": "d_2026_11_17b",
-    "from": 23.39,
-    "dur": 2.2,
-    "shot": 8
-   },
-   {
-    "src": "d_2026_11_17b",
-    "from": 13.79,
-    "dur": 2.2,
-    "shot": 5
-   },
-   {
-    "src": "d_2026_11_17b",
-    "from": 45.39,
-    "dur": 2.2,
-    "shot": 15
-   },
-   {
-    "src": "d_2026_11_17b",
-    "from": 83.25,
-    "dur": 1.8,
-    "shot": 28
-   },
-   {
-    "src": "d_2026_11_17b",
-    "from": 38.52,
-    "dur": 2.2,
-    "shot": 13
-   },
-   {
-    "src": "d_2026_11_17b",
-    "from": 33.32,
-    "dur": 1.2,
-    "shot": 11
-   },
-   {
-    "src": "d_2026_11_17b",
-    "from": 27.45,
-    "dur": 1.2,
-    "shot": 9
-   }
-  ],
+  "clips": [],
   "cards": [
    {
     "kind": "big",
     "line": "hook",
     "value": "$8B",
     "label": "Take-Two's target this year",
-    "note": "FY27 outlook $8.0–8.2B · Take-Two, 9 Nov",
+    "note": "FY27 outlook $8.0\u20138.2B \u00b7 Take-Two, 9 Nov",
     "color": "#D4FF3A"
    },
    {
@@ -125,18 +40,18 @@
      "value": "$3.5B",
      "label": "GTA 6 QUARTER (TOP OF GUIDE)"
     },
-    "note": "guidance $3.35–3.5B · Take-Two"
+    "note": "guidance $3.35\u20133.5B \u00b7 Take-Two"
    },
    {
     "kind": "big",
     "line": "verdict",
     "value": "$79.99",
     "label": "per copy fills the gap",
-    "note": "GTA 6 Standard · Rockstar",
+    "note": "GTA 6 Standard \u00b7 Rockstar",
     "color": "#D4FF3A"
    }
   ],
-  "credit": "FOOTAGE: ROCKSTAR GAMES · DATA: TAKE-TWO (SEC 8-K), MOTLEY FOOL",
-  "endLine": "2 DAYS TO GO · FOLLOW FOR LAUNCH"
+  "credit": "FOOTAGE: ROCKSTAR GAMES \u00b7 DATA: TAKE-TWO (SEC 8-K), MOTLEY FOOL",
+  "endLine": "2 DAYS TO GO \u00b7 FOLLOW FOR LAUNCH"
  }
 }
