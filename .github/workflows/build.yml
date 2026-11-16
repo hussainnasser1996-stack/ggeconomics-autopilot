@@ -34,9 +34,9 @@ jobs:
         run: |
           D="${{ inputs.date }}"
           if [ -z "$D" ]; then
-            T=$(date -u +%F); T2=$(date -u -d tomorrow +%F)
+            T=$(date -u +%F); T2=$(date -u -d "+3 days" +%F)
             for q in autopilot/queue/*/; do q=${q%/}; d=${q##*/}
-              [[ "$d" < "$T" || "$d" > "$T2" ]] && continue      # only today / tomorrow are ever auto-built
+              [[ "$d" < "$T" || "$d" > "$T2" ]] && continue      # only today..+3 days are ever auto-built
               [ -f "$q/script.json" ] && [ -f "$q/post.json" ] && [ ! -f "$q/buffer_ids.json" ] && [ ! -f "$q/gates_failed" ] && { D=$d; break; }
             done
           fi
