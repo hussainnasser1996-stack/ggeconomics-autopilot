@@ -1,0 +1,18 @@
+{
+ "due": "2026-11-18T23:00:00.000Z",
+ "ids": {
+  "youtube_short": "6afad3d0ff465c57daec385d",
+  "instagram_reel": "6afad3d060a910801c857dab",
+  "instagram_carousel": "6afad3d18e87c256a3cb077e"
+ },
+ "urls": {
+  "video": "https://raw.githubusercontent.com/hussainnasser1996-stack/savestate-media/main/video/2026-11-18-248d2917.mp4",
+  "images": [
+   "https://raw.githubusercontent.com/hussainnasser1996-stack/savestate-media/main/img/2026-11-18-248d2917-slide_1.png",
+   "https://raw.githubusercontent.com/hussainnasser1996-stack/savestate-media/main/img/2026-11-18-248d2917-slide_2.png",
+   "https://raw.githubusercontent.com/hussainnasser1996-stack/savestate-media/main/img/2026-11-18-248d2917-slide_3.png",
+   "https://raw.githubusercontent.com/hussainnasser1996-stack/savestate-media/main/img/2026-11-18-248d2917-slide_4.png",
+   "https://raw.githubusercontent.com/hussainnasser1996-stack/savestate-media/main/img/2026-11-18-248d2917-slide_5.png"
+  ]
+ }
+}

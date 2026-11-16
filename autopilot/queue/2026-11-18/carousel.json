@@ -2,62 +2,67 @@
  "slides": [
   {
    "bg": {
-    "at": null
+    "at": 92.52,
+    "src": "d_2026_11_18"
    },
-   "kicker": "GTA VI · LAUNCH NIGHT",
-   "head": "YOU NEED\n|212 GB| FREE",
-   "sub": "GTA 6 unlocks tonight. Get ready before midnight →"
+   "kicker": "GTA VI \u00b7 LAUNCH NIGHT",
+   "head": "YOU NEED\n|212\u00a0GB| FREE",
+   "sub": "GTA 6 unlocks tonight. Get ready before midnight \u2192"
   },
   {
    "bg": {
-    "at": null
+    "at": 42.12,
+    "src": "d_2026_11_18"
    },
-   "kicker": "01 · THE DOWNLOAD",
+   "kicker": "01 \u00b7 THE DOWNLOAD",
    "card": {
     "kind": "big",
     "line": "",
     "value": "212 GB",
     "label": "pre-load size, up to",
-    "note": "varies by device · Rockstar, 3 Nov",
+    "note": "varies by device \u00b7 Rockstar, 3 Nov",
     "color": "#D4FF3A"
    }
   },
   {
    "bg": {
-    "at": null
+    "at": 66.72,
+    "src": "d_2026_11_18"
    },
-   "kicker": "02 · THE DISC",
+   "kicker": "02 \u00b7 THE DISC",
    "card": {
     "kind": "big",
     "line": "",
     "value": "CODE",
     "label": "in the box, not a disc",
-    "note": "physical copies still download · VGC, Game Informer",
+    "note": "physical copies still download \u00b7 VGC, Game Informer",
     "color": "#3AE0FF"
    }
   },
   {
    "bg": {
-    "at": null
+    "at": 14.19,
+    "src": "d_2026_11_18"
    },
-   "kicker": "03 · NO ROOM?",
+   "kicker": "03 \u00b7 NO ROOM?",
    "card": {
     "kind": "date",
     "line": "",
-    "small": "XBOX CLOUD · NOV 19",
+    "small": "XBOX CLOUD \u00b7 NOV 19",
     "big": "1 AM ET",
-    "note": "no install · Game Pass or paid cloud time · Xbox Wire"
+    "note": "no install \u00b7 Game Pass or paid cloud time \u00b7 Xbox Wire"
    }
   },
   {
    "bg": {
-    "at": null
+    "at": 23.79,
+    "src": "d_2026_11_18"
    },
-   "kicker": "04 · TONIGHT",
+   "kicker": "04 \u00b7 TONIGHT",
    "card": {
     "kind": "date",
     "line": "",
-    "small": "PS5 · XBOX SERIES X|S",
+    "small": "PS5 \u00b7 XBOX SERIES X|S",
     "big": "NOV 19"
    },
    "sub": "Start the pre-load now. Follow for the day-one numbers."

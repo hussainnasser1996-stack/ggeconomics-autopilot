@@ -1,7 +1,7 @@
 {
  "spec": {
-  "tag": "GTA VI · LAUNCH NIGHT",
-  "headline": "GTA 6 NEEDS |212 GB| OF YOUR SPACE",
+  "tag": "GTA VI \u00b7 LAUNCH NIGHT",
+  "headline": "GTA 6 NEEDS |212\u00a0GB| OF YOUR SPACE",
   "topic": "GTA 6 unlocks tonight: up to 212 GB download, pre-load open since Nov 10, discs are code-in-box, Xbox Cloud from 1 AM ET",
   "vo": "vo/d_2026_11_18/vo.wav",
   "timelinePath": "vo/d_2026_11_18/timeline.json",
@@ -11,14 +11,99 @@
    "words": []
   },
   "noBed": true,
-  "clips": [],
+  "clips": [
+   {
+    "src": "d_2026_11_18",
+    "from": 117.25,
+    "dur": 1.54,
+    "shot": 52
+   },
+   {
+    "src": "d_2026_11_18",
+    "from": 140.19,
+    "dur": 1.6,
+    "shot": 65
+   },
+   {
+    "src": "d_2026_11_18",
+    "from": 49.99,
+    "dur": 1.8,
+    "shot": 16
+   },
+   {
+    "src": "d_2026_11_18",
+    "from": 18.99,
+    "dur": 1.4,
+    "shot": 6
+   },
+   {
+    "src": "d_2026_11_18",
+    "from": 92.12,
+    "dur": 2.2,
+    "shot": 35
+   },
+   {
+    "src": "d_2026_11_18",
+    "from": 41.72,
+    "dur": 2.2,
+    "shot": 14
+   },
+   {
+    "src": "d_2026_11_18",
+    "from": 66.32,
+    "dur": 2.2,
+    "shot": 19
+   },
+   {
+    "src": "d_2026_11_18",
+    "from": 13.79,
+    "dur": 2.2,
+    "shot": 5
+   },
+   {
+    "src": "d_2026_11_18",
+    "from": 23.39,
+    "dur": 2.2,
+    "shot": 8
+   },
+   {
+    "src": "d_2026_11_18",
+    "from": 100.99,
+    "dur": 1.4,
+    "shot": 40
+   },
+   {
+    "src": "d_2026_11_18",
+    "from": 127.92,
+    "dur": 1.4,
+    "shot": 60
+   },
+   {
+    "src": "d_2026_11_18",
+    "from": 76.05,
+    "dur": 1.6,
+    "shot": 23
+   },
+   {
+    "src": "d_2026_11_18",
+    "from": 111.45,
+    "dur": 2.2,
+    "shot": 50
+   },
+   {
+    "src": "d_2026_11_18",
+    "from": 115.72,
+    "dur": 1.2,
+    "shot": 51
+   }
+  ],
   "cards": [
    {
     "kind": "big",
     "line": "hook",
     "value": "212 GB",
     "label": "free space you need",
-    "note": "up to, by device · Rockstar, 3 Nov",
+    "note": "up to, by device \u00b7 Rockstar, 3 Nov",
     "color": "#D4FF3A"
    },
    {
@@ -32,18 +117,18 @@
     "line": "disc",
     "value": "CODE",
     "label": "in the box, not a disc",
-    "note": "physical copies still download · VGC, Game Informer",
+    "note": "physical copies still download \u00b7 VGC, Game Informer",
     "color": "#3AE0FF"
    },
    {
     "kind": "date",
     "line": "cloud",
-    "small": "XBOX CLOUD · NOV 19",
+    "small": "XBOX CLOUD \u00b7 NOV 19",
     "big": "1 AM ET",
-    "note": "Game Pass or paid cloud time · Xbox Wire"
+    "note": "Game Pass or paid cloud time \u00b7 Xbox Wire"
    }
   ],
-  "credit": "FOOTAGE: ROCKSTAR GAMES · DATA: ROCKSTAR, XBOX WIRE, VGC, GAME INFORMER",
-  "endLine": "LAUNCH NIGHT · FOLLOW FOR DAY ONE"
+  "credit": "FOOTAGE: ROCKSTAR GAMES \u00b7 DATA: ROCKSTAR, XBOX WIRE, VGC, GAME INFORMER",
+  "endLine": "LAUNCH NIGHT \u00b7 FOLLOW FOR DAY ONE"
  }
 }
