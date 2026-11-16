@@ -1,0 +1,8 @@
+{
+ "2026-11-16c": {
+  "video": "2lyn0JAlPoU",
+  "series": "top5",
+  "playlist": "ok",
+  "comment": "error: <HttpError 403 when requesting https://youtube.googleapis.com/youtube/v3/commentThreads?part=snippet&alt=json returned \"Request had insufficient authentication scopes.\". Details: \"[{'message': "
+ }
+}
