@@ -31,6 +31,7 @@ jobs:
         if: failure()
         run: |
           git config user.name "GG Economics bot" && git config user.email "bot@users.noreply.github.com"
-          git fetch -q origin main && git checkout -q main
+          git merge --abort 2>/dev/null || true
+          git fetch -q origin main && git checkout -q -f main && git reset -q --hard origin/main
           echo "- $(date -u +%F): ${{ github.ref_name }} NOT merged: dry build failed (run ${{ github.run_id }})" >> autopilot/log/engineering.md
           git add autopilot/log/engineering.md && git commit -qm "eng log" && git push -q origin main || true

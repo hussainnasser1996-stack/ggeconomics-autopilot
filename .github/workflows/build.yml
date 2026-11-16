@@ -99,11 +99,11 @@ jobs:
           P
           python3 autopilot/scripts/notify.py "$D: $T — scheduled 23:00 UTC (YouTube + Instagram)" || true
       - name: Analytics (for tomorrow's brain)
-        if: always() && steps.d.outputs.go == '1'
+        if: always() && steps.d.outputs.go == '1' && inputs.dry != true
         continue-on-error: true
         run: .venv/bin/python autopilot/scripts/analytics.py
       - name: Save state
-        if: always()
+        if: always() && inputs.dry != true
         run: |
           rm -f autopilot/keys/youtube-token.json
           git add -A autopilot && git commit -qm "build ${D:-noop}" || true
