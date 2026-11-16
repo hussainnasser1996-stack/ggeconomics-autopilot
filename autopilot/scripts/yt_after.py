@@ -25,7 +25,8 @@ for item in json.load(sys.stdin):            # [{"queue": name, "link": url}] fr
     if not m or item["queue"] in done: continue
     vid = m.group(1); s = series(q); rec = {"video": vid, "series": s}
     try:
-        yt.playlistItems().insert(part="snippet", body={"snippet": {"playlistId": PL[s], "resourceId": {"kind": "youtube#video", "videoId": vid}}}).execute()
+        have = {i["snippet"]["resourceId"]["videoId"] for i in yt.playlistItems().list(part="snippet", playlistId=PL[s], maxResults=50).execute().get("items", [])}
+        if vid not in have: yt.playlistItems().insert(part="snippet", body={"snippet": {"playlistId": PL[s], "resourceId": {"kind": "youtube#video", "videoId": vid}}}).execute()
         rec["playlist"] = "ok"
     except Exception as e: rec["playlist"] = f"error: {e}"[:200]
     loc = json.load(open(q / "post.json")).get("localized") or {}

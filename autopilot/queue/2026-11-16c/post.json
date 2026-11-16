@@ -9,5 +9,22 @@
   "#RDR2"
  ],
  "carousel": false,
- "publish_time_utc": "12:00"
+ "publish_time_utc": "12:00",
+ "localized": {
+  "es": {
+   "title": "Rockstar hizo 2 de los 5 juegos m\u00e1s vendidos de la historia"
+  },
+  "pt-BR": {
+   "title": "A Rockstar fez 2 dos 5 jogos mais vendidos de todos os tempos"
+  },
+  "ar": {
+   "title": "\u0631\u0648\u0643\u0633\u062a\u0627\u0631 \u0635\u0646\u0639\u062a \u0644\u0639\u0628\u062a\u064a\u0646 \u0645\u0646 \u0623\u0643\u062b\u0631 5 \u0623\u0644\u0639\u0627\u0628 \u0645\u0628\u064a\u0639\u0627\u064b \u0641\u064a \u0627\u0644\u062a\u0627\u0631\u064a\u062e"
+  },
+  "hi": {
+   "title": "\u0907\u0924\u093f\u0939\u093e\u0938 \u0915\u0947 5 \u0938\u092c\u0938\u0947 \u091c\u093c\u094d\u092f\u093e\u0926\u093e \u092c\u093f\u0915\u0928\u0947 \u0935\u093e\u0932\u0947 \u0917\u0947\u092e \u092e\u0947\u0902 \u0938\u0947 2 Rockstar \u0915\u0947 \u0939\u0948\u0902"
+  },
+  "id": {
+   "title": "Rockstar membuat 2 dari 5 game terlaris sepanjang masa"
+  }
+ }
 }
