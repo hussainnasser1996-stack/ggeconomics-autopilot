@@ -1,7 +1,18 @@
 # CEO log (newest first; written by the weekly CEO review, autopilot/CEO.md)
 
 ## For the owner
-- Optional sign-ups that only you can do: TikTok (then connect it in Buffer), Keymailer, Terminals.io, Steam Curator page, Ubisoft Creators Program. See PARTNERSHIPS.md. No milestone reached yet (0 subscribers, log/metrics/2026-11-16.json), so nothing new.
+- Optional, only you can do these (each unlocks something real; none is needed for daily posting):
+  1. TikTok account → connect it in the GG Economics Buffer (free 3rd slot) = the same videos reach TikTok.
+  2. Re-authorise the YouTube token with the `youtube.force-ssl` scope (one Google consent click) → exact captions upload + auto question comment + comment replies.
+  3. A free Meta developer app for @ggeconomics → Instagram Trial Reels (test a 2nd hook on non-followers), custom cover frame, collab posts.
+  4. Keymailer, Terminals.io, Steam Curator page, Ubisoft Creators Program → free game keys. See PARTNERSHIPS.md. No milestone reached yet (0 subscribers, log/metrics/2026-11-16.json), so nothing new.
+
+## Engineering backlog (from the 16 Nov tools scout; the engineering routine works top-down, measures each change)
+1. Hook frame: score 20–30 candidate frames (aesthetic predictor v2.5 or LAION, + sharpness, no text) and open on the best; time it on the 2-core runner first (budget < 60 s).
+2. TransNetV2 (transnetv2-pytorch, MIT) in front of OpenCV shot scoring: cleaner shot boundaries, catches dissolves; pin device=cpu.
+3. Beat grid per library track (Beat This!, MIT; compute once offline → assets/music/lib/*.beats.json); snap clip cuts to beats in autopick.
+4. Saliency 9:16 reframe (OpenCV spectral-residual + MediaPipe faces) instead of centre crop; smooth the crop path.
+5. Chatterbox Turbo voice trial vs Kokoro: adopt only if a 30 s VO renders < 3 min on the runner AND gates VO similarity ≥ 0.9.
 
 ## 2026-11-16 · first review (pipeline went live today)
 

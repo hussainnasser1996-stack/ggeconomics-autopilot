@@ -18,6 +18,12 @@ Join scoreboard.md with each post's post.json (`title`, `title_candidates`, `key
 top third vs bottom third by views AND by subs gained: which hook styles, title lengths, search phrases and hashtags
 won? Update the packaging rubric in BRAIN.md step 5b only when a pattern holds on 3+ posts (log it in learned.md).
 
+Toolkit (vendored, vetted, `.claude/skills/`): performance-report (weekly report shape), competitive-brief (rival
+channels), brand-review (check a sample of last week's posts against STRATEGY.md voice), youtube-growth (Shorts/algorithm
+playbooks), social + influencer-marketing (Instagram + partnerships). Read `research/outliers.md` for what is breaking out.
+Posting times: rotate the extra slots (CONTROL.md extra_slots_utc) across 12:00–02:00 UTC for 2 weeks, then keep the two
+best by 48-hour views + subs per post; keep exploring with one.
+
 ## 2. The market (use the Agent tool to delegate in parallel when it helps; 15 searches max yourself)
 - What gaming stories and formats are winning on Shorts/Reels this week (YouTube trending gaming, top gaming news accounts,
   big launches/earnings/events in the next 14 days).

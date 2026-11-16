@@ -97,7 +97,14 @@ First candidate = best fit. For GTA VI use the library files (alternate them day
 4. **Instagram caption:** first line ≤ 125 characters (what shows before "more") = a DIFFERENT hook from the title, with the
    number; then 1–2 lines of facts; then the question; then sources. Hashtags (Instagram caps at 5): 1 broad (#gaming),
    1–2 game (#GTA6), 1 niche (#gamingnews), 1 from the search phrase (e.g. #gta6price).
-5. Write `"keywords": [top 3 phrases used]` and `"hook_style": "<number|you|versus|ranking|question|news>"` into post.json so
+5. **Other languages:** add `"localized": {"es": {"title": "..."}, "pt-BR": {...}, "ar": {...}, "hi": {...}, "id": {...}}`: natural
+   translations of the winning title (keep numbers, game names and $ as they are; ≤ 70 chars). The monitor applies them on
+   YouTube after publishing so the Short is found in those languages.
+6. **What's working this week:** read `research/outliers.md` (gaming Shorts far above their channel's normal views, last 72 h).
+   Borrow the ANGLE or emotion (relatable, humour, buyer anxiety), never the content. Expert guidance when unsure:
+   `.claude/skills/youtube-growth/references/shorts-playbook.md`, `.claude/skills/marketing-psychology/SKILL.md` (hooks),
+   `.claude/skills/copywriting/SKILL.md`.
+7. Write `"keywords": [top 3 phrases used]` and `"hook_style": "<number|you|versus|ranking|question|news>"` into post.json so
    analytics can learn which packaging wins.
 
 ## 6. Post copy → `autopilot/queue/D/post.json`

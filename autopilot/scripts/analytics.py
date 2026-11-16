@@ -62,7 +62,31 @@ if yt:
                         "views": int(v["statistics"].get("viewCount", 0)), "published": v["snippet"]["publishedAt"][:10]} for v in tr["items"]]
     lines = [f"# Trending in Gaming on YouTube (US), {today}\n", "| # | views | channel | title |", "|---|---|---|---|"]
     lines += [f"| {i+1} | {t['views']:,} | {t['channel']} | {t['title']} |" for i, t in enumerate(out["trending"])]
-    (AP / "research/trending.md").write_text("\n".join(lines) + "\n")
+    # Outliers: gaming Shorts from the last 72 h with views far above their channel's typical video (what's working NOW)
+    try:
+        import datetime as _dt, statistics as _st
+        since = (_dt.datetime.utcnow() - _dt.timedelta(hours=72)).strftime("%Y-%m-%dT%H:%M:%SZ")
+        focus = [l.split(":", 1)[1].split("#")[0].strip().strip('"') for l in (AP / "CONTROL.md").read_text().splitlines() if l.startswith("focus_this_week")]
+        qs = ["gaming news", "gta 6"] + ([focus[0].split()[0] + " " + focus[0].split()[1]] if focus and len(focus[0].split()) > 1 else [])
+        found = {}
+        for q in dict.fromkeys(qs):
+            r = yt.search().list(part="snippet", q=q, type="video", videoDuration="short", order="viewCount", publishedAfter=since,
+                                 regionCode="US", relevanceLanguage="en", maxResults=15).execute()
+            for it in r.get("items", []): found[it["id"]["videoId"]] = it["snippet"]
+        vs = yt.videos().list(part="statistics,snippet", id=",".join(list(found)[:50])).execute().get("items", [])
+        chans = list({v["snippet"]["channelId"] for v in vs})[:50]
+        cs = {c["id"]: c for c in yt.channels().list(part="statistics", id=",".join(chans)).execute().get("items", [])} if chans else {}
+        rows = []
+        for v in vs:
+            views = int(v["statistics"].get("viewCount", 0)); c = cs.get(v["snippet"]["channelId"], {}).get("statistics", {})
+            avg = int(c.get("viewCount", 0)) / max(1, int(c.get("videoCount", 1)))
+            rows.append((views / max(avg, 1), views, int(c.get("subscriberCount", 0) or 0), v["snippet"]["channelTitle"], v["snippet"]["title"]))
+        rows.sort(reverse=True)
+        L = [f"# Outlier gaming Shorts, last 72 h ({today}): views ÷ channel's average views per video", "",
+             "| x avg | views | channel subs | channel | title |", "|---|---|---|---|---|"]
+        L += [f"| {r[0]:.1f}x | {r[1]:,} | {r[2]:,} | {r[3]} | {r[4]} |" for r in rows[:20]]
+        (AP / "research/outliers.md").write_text("\n".join(L) + "\n"); out["outliers"] = rows[:20]
+    except Exception as e: out["notes"].append(f"outliers failed: {e}")
 
 # ---------------- Instagram via Buffer ----------------
 def buffer_key():

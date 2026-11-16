@@ -28,6 +28,17 @@ for item in json.load(sys.stdin):            # [{"queue": name, "link": url}] fr
         yt.playlistItems().insert(part="snippet", body={"snippet": {"playlistId": PL[s], "resourceId": {"kind": "youtube#video", "videoId": vid}}}).execute()
         rec["playlist"] = "ok"
     except Exception as e: rec["playlist"] = f"error: {e}"[:200]
+    loc = json.load(open(q / "post.json")).get("localized") or {}
+    if loc:                                   # titles/descriptions in other languages: found by + shown to non-English viewers
+        try:
+            v = yt.videos().list(part="snippet,localizations", id=vid).execute()["items"][0]
+            sn = v["snippet"]; sn["defaultLanguage"] = "en"
+            L = v.get("localizations", {}) | {k: {"title": x["title"][:100], "description": (x.get("description") or sn["description"])[:4900]}
+                                             for k, x in loc.items() if x.get("title")}
+            yt.videos().update(part="snippet,localizations", body={"id": vid, "snippet": {k: sn[k] for k in
+                ("title", "description", "categoryId", "tags", "defaultLanguage") if k in sn}, "localizations": L}).execute()
+            rec["localized"] = sorted(L)
+        except Exception as e: rec["localized"] = f"error: {e}"[:200]
     cap = json.load(open(q / "post.json"))["caption"]
     question = next((l.strip() for l in cap.splitlines() if l.strip().endswith("?")), None)
     if question and cfg.get("youtube_comment_enabled"):   # needs the youtube.force-ssl scope (token lacks it); question stays in the caption
