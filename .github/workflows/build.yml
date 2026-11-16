@@ -10,7 +10,7 @@ on:
     inputs:
       date: { description: "Target date YYYY-MM-DD (empty = first unscheduled)", required: false }
       dry: { description: "Build everything but do not publish (test)", type: boolean, default: false }
-concurrency: { group: build, cancel-in-progress: false }
+concurrency: { group: "build-${{ inputs.dry && 'dry' || 'live' }}", cancel-in-progress: false }
 permissions: { contents: write, actions: write }
 jobs:
   build:
