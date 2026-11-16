@@ -19,11 +19,12 @@ Gaming news told through the money. Strategy: `autopilot/STRATEGY.md`. Switches:
 Formats: narrated Shorts (Kokoro am_liam ×1.25) and music-only "edits" (`"mode": "edit"`: on-screen text over gameplay, the trailer's own soundtrack). Footage: official only (Steam store trailers; for GTA VI the `footage-library` release holds Rockstar/PlayStation trailers). Music: rotating CC-BY library or the official trailer audio, always a speech-free window. Budget: $0.
 
 Gates (`autopilot/scripts/gates.py`): voice heard back ≥ 80% word match, overlays clear of the Shorts/Reels UI,
-contrast + caption legibility, 15–40 s. A failed gate leaves `queue/<D>/gates_failed` and does not publish.
+contrast + caption legibility, 15–40 s, countdowns that agree across voice and screen. Autopick drops any shot with a near-black frame and opens on a bright one. A failed gate leaves `queue/<D>/gates_failed` and does not publish.
 
 ## Operate
 - Pause everything: set `mode: paused` in `autopilot/CONTROL.md`. Skip a day: add it to `skip_dates`.
 - Re-run a day's build: Actions → *GG Economics build + publish* → Run workflow → date.
+- Fix a booked post before it goes out: edit its `script.json`/`spec.json` on main, then Actions → *GG Economics unbook + rebuild* → names (e.g. `2026-11-17b 2026-11-17c`). It deletes the Buffer posts and rebuilds.
 - Test without publishing: same, with **dry** ticked (or put an empty `dry` file in the queue folder).
 - Brain routine: https://claude.ai/code/routines/trig_012CubYQ8spUB3BSjDANQiJE
 
