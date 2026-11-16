@@ -2,7 +2,8 @@
  "slides": [
   {
    "bg": {
-    "at": null
+    "at": 50.32,
+    "src": "d_2026_12_31"
    },
    "kicker": "GTA VI \u00b7 BY THE NUMBERS",
    "head": "|$1B| IN 3 DAYS.\nCAN VI BEAT IT?",
@@ -10,7 +11,8 @@
   },
   {
    "bg": {
-    "at": null
+    "at": 32.65,
+    "src": "d_2026_12_31"
    },
    "kicker": "01 \u00b7 2013",
    "card": {
@@ -29,7 +31,8 @@
   },
   {
    "bg": {
-    "at": null
+    "at": 45.19,
+    "src": "d_2026_12_31"
    },
    "kicker": "02 \u00b7 THE RECORD",
    "card": {
@@ -43,7 +46,8 @@
   },
   {
    "bg": {
-    "at": null
+    "at": 50.32,
+    "src": "d_2026_12_31"
    },
    "kicker": "03 \u00b7 2026",
    "card": {
@@ -56,7 +60,8 @@
   },
   {
    "bg": {
-    "at": null
+    "at": 32.65,
+    "src": "d_2026_12_31"
    },
    "kicker": "04 \u00b7 THE SCOREBOARD",
    "card": {
