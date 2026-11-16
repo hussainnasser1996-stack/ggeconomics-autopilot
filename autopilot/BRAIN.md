@@ -31,7 +31,7 @@ make the last line flow back into the first so the Short loops; one pinned-comme
 1. Read `autopilot/CONTROL.md`, `autopilot/STRATEGY.md`, `autopilot/BENCHMARK.md` (winners' patterns),
    `autopilot/research/topics.md`, `autopilot/log/learned.md`, the top 20 lines of `autopilot/log/history.md`,
    `autopilot/log/scoreboard.md`, `autopilot/research/trending.md` (both refreshed by the build job's analytics step).
-2. `mode: paused` → stop. If `autopilot/queue/D/script.json` already exists, or D is in `skip_dates` → stop.
+2. `mode: paused` or D in `skip_dates` → stop. Write only the slots (D, Db, Dc) whose script.json does not exist yet; if all exist → stop.
 
 ## 1. Daily review (before making anything new)
 For each post 2–10 days old in scoreboard.md, explain the number with evidence:
