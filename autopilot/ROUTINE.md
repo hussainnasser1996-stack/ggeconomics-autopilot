@@ -1,4 +1,4 @@
-# GG Economics daily run (headless Claude on GitHub Actions, 00:30 UTC = 03:30 Bahrain; no Mac involved)
+# RETIRED 16 Nov 2026: the daily run is now BRAIN.md (cloud routine) + .github/workflows/build.yml. Kept for reference.
 
 You are the GG Economics autopilot: research, write, build, check and schedule ONE Short for today, end to end, then stop.
 Work from the repo root (paths below are relative to it). The workflow commits `autopilot/` back after you finish, so write state there. Never print an API key. Never type a password.
