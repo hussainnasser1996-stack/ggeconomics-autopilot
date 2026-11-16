@@ -110,12 +110,33 @@ if key and cfg["buffer_channels"].get("instagram"):
 else:
     out["notes"].append("no Buffer key / Instagram channel configured yet")
 
+# ---------------- Per post, views split by platform (queue post → YouTube video + Buffer Instagram posts) ----------------
+yt_done = json.load(open(AP / "log/yt_done.json")) if (AP / "log/yt_done.json").exists() else {}
+per_post = {}
+for q in sorted((AP / "queue").iterdir(), reverse=True):
+    if not (q / "buffer_ids.json").exists() or (q / "dry").exists() or q.name[:10] > today: continue
+    ids = json.load(open(q / "buffer_ids.json")).get("ids", {})
+    title = json.load(open(q / "post.json")).get("title", "?") if (q / "post.json").exists() else "?"
+    yv = (out["youtube"].get("videos") or {}).get((yt_done.get(q.name) or {}).get("video"))
+    def ig(name):
+        p = out["instagram"].get(ids.get(name) or "")
+        v = None if p is None else p.get("views", p.get("reach"))
+        return None if v is None else int(float(v))
+    per_post[q.name] = {"title": title, "youtube_short": yv["views"] if yv else None,
+                        "instagram_reel": ig("instagram_reel"), "instagram_carousel": ig("instagram_carousel")}
+out["per_post"] = per_post
+
 (AP / "log/metrics").mkdir(parents=True, exist_ok=True)
 json.dump(out, open(AP / f"log/metrics/{today}.json", "w"), indent=1)
 
 # ---------------- Scoreboard ----------------
 rows = ["# Scoreboard (rewritten daily by analytics.py)\n", f"Updated {today}. YouTube Analytics lags 1-3 days.\n",
-        "## YouTube", "| published | views | avg view % | avg view s | likes | shares | subs+ | title |", "|---|---|---|---|---|---|---|---|"]
+        "## Per post: views by platform", "(— = not sent yet / no metrics yet; carousel shows reach when Buffer gives no views)",
+        "| post | YouTube Short | IG Reel | IG carousel | total | title |", "|---|---|---|---|---|---|"]
+for name, p in per_post.items():
+    nums = [p[k] for k in ("youtube_short", "instagram_reel", "instagram_carousel")]
+    rows.append(f"| {name} | " + " | ".join("—" if n is None else str(n) for n in nums) + f" | {sum(n for n in nums if n)} | {p['title'][:60]} |")
+rows += ["", "## YouTube", "| published | views | avg view % | avg view s | likes | shares | subs+ | title |", "|---|---|---|---|---|---|---|---|"]
 for vid, v in sorted(out["youtube"].get("videos", {}).items(), key=lambda kv: kv[1]["published"], reverse=True):
     rows.append(f"| {v['published']} | {v['views']} | {v.get('avg_view_pct','—')} | {v.get('avg_view_s','—')} | {v['likes']} | {v.get('shares','—')} | {v.get('subs','—')} | {v['title'][:60]} |")
 if out["youtube"].get("traffic_sources"):
