@@ -68,10 +68,14 @@ for s in shots:
     if t_dark > 2.2: continue                      # title/rating card: white type on black
     ends = [fr for fr in (mid, frame(s["start"] + 0.15), frame(s["end"] - 0.15)) if fr is not None]
     lum = [float(cv2.cvtColor(fr, cv2.COLOR_BGR2GRAY).mean()) for fr in ends]
-    if min(lum) < 38: continue                     # near-black moments read as a dead frame on a phone (17c, 16 Nov)
+    if min(lum) < 14: continue                     # truly black moments never
     if any(ocr_words(fr) >= 2 for fr in ends): continue
     score = (s["motion"] + 2) * math.log10(s["sharp"] + 10) * (0.7 + min(s["sat"], 140) / 200)
     cands.append({**s, "score": score, "lum": min(lum), "used": last_used.get(key, "")})
+# near-black moments read as a dead frame on a phone (17c, 16 Nov): drop shots with a frame under 38 brightness, but a
+# dark game (Elden Ring) may have few bright shots, so keep at least the 10 brightest rather than failing the build
+lit = [c for c in cands if c["lum"] >= 38]
+cands = lit if len(lit) >= 10 else sorted(cands, key=lambda c: -c["lum"])[: max(10, len(lit))]
 fresh = [c for c in cands if not c["used"]]
 # fresh shots first; if the trailer is running dry (several posts a day on one game), add back the shots used longest ago
 cands = fresh if len(fresh) >= 10 else fresh + sorted([c for c in cands if c["used"]], key=lambda c: c["used"])[: max(0, 14 - len(fresh))]
