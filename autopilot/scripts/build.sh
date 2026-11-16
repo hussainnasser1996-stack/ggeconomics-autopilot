@@ -12,7 +12,8 @@ fi
 cd studio
 nice -n 5 npx remotion render src/index.ts DailyShort "$Q/raw.mp4" --props="$Q/spec.json" --log=error --concurrency=$(( $(getconf _NPROCESSORS_ONLN) < 4 ? $(getconf _NPROCESSORS_ONLN) : 4 ))
 cd "$GN"
-[ -f "$Q/music.json" ] || .venv/bin/python autopilot/scripts/pick_music.py "$D"
+# re-pick when there is no music.json OR its extracted file is gone (a rebuild on a fresh runner: work/ is not kept)
+[ -f "$Q/music.json" ] && [ -f "$(python3 -c "import json;m=json.load(open('$Q/music.json'));print(m.get('path') or 'assets/music/lib/'+m['file'])")" ] || .venv/bin/python autopilot/scripts/pick_music.py "$D"
 MP=$(python3 -c "import json;m=json.load(open('$Q/music.json'));print(m.get('path') or 'assets/music/lib/'+m['file'])"); MS=$(python3 -c "import json;print(json.load(open('$Q/music.json'))['start'])")
 MG=$(python3 -c "import json;m=json.load(open('$Q/music.json'));e=json.load(open('$Q/script.json')).get('mode')=='edit';print(-2 if e else (-10 if m.get('game') else -12))")
 python3 src/mix.py "$Q/raw.mp4" "$MP" "$Q/short.mp4" --start "$MS" --gain "$MG" && rm "$Q/raw.mp4"

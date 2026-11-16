@@ -20,7 +20,7 @@ for name in sys.argv[1:]:
             r = gql("mutation($i: DeletePostInput!){ deletePost(input:$i){ __typename ... on MutationError { message } } }", {"i": {"id": pid}})
             print(name, ch, pid, status, "->", json.dumps(r.get("data") or r.get("errors"))[:200])
         b.unlink()
-    (q / "gates_failed").unlink(missing_ok=True)
+    for f in ("gates_failed", "music.json"): (q / f).unlink(missing_ok=True)   # music re-picked on the rebuild runner
     sp = q / "spec.json"
     if sp.exists():
         s = json.load(open(sp)); s["spec"]["clips"] = []; json.dump(s, open(sp, "w"), indent=1)
