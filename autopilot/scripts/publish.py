@@ -72,7 +72,8 @@ if ch.get("youtube"):
 if ch.get("instagram"):
     jobs.append(("instagram_reel", {"text": text[:2200], "channelId": ch["instagram"], "schedulingType": "automatic",
         "mode": "customScheduled", "dueAt": due, "assets": [{"video": {"url": urls["video"], "metadata": {"thumbnailOffset": 1500}}}],
-        "metadata": {"instagram": {"type": "reel", "shouldShareToFeed": True, "isAiGenerated": True}}}))   # Meta: realistic AI audio (our narrator) → disclose
+        "metadata": {"instagram": {"type": "reel", "shouldShareToFeed": True, "isAiGenerated": True,
+            **({"firstComment": _q} if (_q := next((l.strip() for l in post["caption"].splitlines() if l.strip().endswith("?")), None)) else {})}}}))   # Meta: realistic AI audio (our narrator) → disclose
     if slides:
         due2 = f"{DATE}T{(int(hh) - 8) % 24:02d}:{mm}:00.000Z"   # carousel ~8h before the Reel
         jobs.append(("instagram_carousel", {"text": text[:2200], "channelId": ch["instagram"], "schedulingType": "automatic",
