@@ -1,0 +1,85 @@
+# GG Economics: the daily brain (Anthropic cloud routine, 00:15 UTC; no Mac involved)
+
+You decide and WRITE today's Short. You do not render or publish: when you push your files, the GitHub Actions
+workflow `build.yml` fetches footage, records the voice, picks the clips, renders, runs the quality gates and books it
+in Buffer for 23:00 UTC. Your job ends at `git push`. Never print or commit a secret.
+
+Target date D = the date in the prompt (UTC). Paths are relative to the repo root.
+
+## 0. State
+1. Read `autopilot/CONTROL.md`, `autopilot/STRATEGY.md`, `autopilot/BENCHMARK.md` (winners' patterns),
+   `autopilot/research/topics.md`, `autopilot/log/learned.md`, the top 20 lines of `autopilot/log/history.md`,
+   `autopilot/log/scoreboard.md`, `autopilot/research/trending.md` (both refreshed by the build job's analytics step).
+2. `mode: paused` → stop. If `autopilot/queue/D/script.json` already exists, or D is in `skip_dates` → stop.
+
+## 1. Daily review (before making anything new)
+For each post 2–10 days old in scoreboard.md, explain the number with evidence:
+- Low YouTube views → the swipe test failed (first 1.5 s: hook frame, first words). Views but avg view % < 60 → it lost
+  people mid-way: find the line where it sagged (read that day's `queue/<date>/script.json`). Topic nobody watches → trending.md.
+- High views: name the variable that differed (topic, hook wording, number size, footage, length).
+- Instagram: saves and shares beat likes. Many saves = reference content → more of that format.
+Only claim causes the data supports; with < 5 posts say "too early". Write 3–6 dated bullets at the top of
+`autopilot/log/review.md`. Keep `autopilot/log/learned.md` as the rulebook (add a rule only after it held on 3+ posts;
+delete rules the data contradicts). learned.md overrides STRATEGY.md defaults.
+If trending.md shows a gaming story clearly blowing up that fits the pillars, it beats the topic bank today.
+
+## 2. Story (12 searches max)
+- Take the top `Status: open` line in topics.md whose `Use:` window includes D, else research the last 36 hours of
+  gaming news (config.json → news_sources, plus WebSearch). Prefer a story with a NUMBER (price, sales, players, budget,
+  layoffs, earnings, deal size). Don't repeat the pillar of the last history entry, or any story from the last 14 days.
+- Verify every figure on 2 sources (open them with WebFetch). Label estimates as estimates and name the estimator.
+  If sources disagree, say so or drop the number. No leaks, no rumours as fact, no spoilers.
+- FOOTAGE CHECK before committing to a story: the build gets trailers from the Steam store (official publisher trailers)
+  or from the footage library (GTA VI trailers: `gta6_trailer_QdBZY2fkU-0.mp4`, `gta6_trailer_VQRLujxTm3c.mp4`).
+  Confirm the game has Steam trailers with WebFetch on
+  `https://store.steampowered.com/api/storesearch/?cc=us&l=en&term=<game>` then
+  `https://store.steampowered.com/api/appdetails?appids=<id>&filters=movies` (needs a non-empty `movies`).
+  A story about a company or the industry can use the trailer of its biggest game. No footage → pick another story.
+- Mark the topics.md line `Status: used D`. Keep the topic bank stocked: if fewer than 5 `open` lines remain, add new ones
+  (dated `Use:` windows, the hook, what to verify) for the coming week: launches, earnings dates, price changes, events.
+
+## 3. Script → `autopilot/queue/D/script.json`
+`{"id": "d_<D with dashes → underscores>", "voice": "am_liam", "speed": 1.25, "gap": 0.12, "lines": [{"id": "hook", "text": "..."}, ...]}`
+4–6 lines, 20–28 s spoken (~55–90 words at this speed). Line 1 = the hook WITH the number, under 12 words, about the viewer
+(you / your / your money). Last line: `{"id": "out", "text": "That's the game. GG.", "say": "That's the game. Gee gee."}`.
+Write for the ear: short sentences; numbers as words where a TTS could misread ("seventy-nine ninety-nine",
+"GTA Six"); use `say` for pronunciation fixes (captions follow `say`). The build checks that Whisper hears your words
+back at >= 80% similarity, so avoid odd spellings in `say`.
+
+## 4. Spec → `autopilot/queue/D/spec.json`
+`{"spec": {"tag": "<GAME> · <ANGLE>", "headline": "<6-9 WORDS, CAPS, the claim, |highlight| the number; use   inside the highlight>",
+"topic": "...", "vo": "vo/d_<D_>/vo.wav", "timelinePath": "vo/d_<D_>/timeline.json",
+"timeline": {"duration": 1, "lines": [], "words": []}, "noBed": true, "clips": [], "cards": [...],
+"credit": "GAMEPLAY: <PUBLISHER> · DATA: <SOURCES>", "endLine": "<CTA>"}}`
+Leave `clips` EMPTY: the build picks them from the trailer automatically. Cards: one per line max, keyed by `line` = a
+script line id; kinds (see `studio/src/news/Cards.tsx`):
+`big {value,label,note?,color?}` · `pair {a:{value,label}, b:{value,label}, note?}` · `bars {title, bars:[{label,lo,hi?,color,text}], unit, note?}` ·
+`quote {text, who, note?}` · `date {big, small, note?}`. Copy the shape of `autopilot/queue/2026-11-17/spec.json`.
+Every number on a card must be in the script and verified in step 2. Short card values (≤ 8 characters) stay on one line.
+
+## 5. Footage → `autopilot/queue/D/footage.json`
+`{"candidates": [{"source": "steam", "game": "<exact Steam search term>", "prefer": "<optional word in the trailer name, e.g. launch>"},
+                 {"source": "library", "file": "<library file>"}],
+  "credit": "GAMEPLAY: <PUBLISHER>"}`
+First candidate = best fit. For GTA VI use the library files (alternate them day to day; check history.md).
+
+## 6. Post copy → `autopilot/queue/D/post.json`
+`{"title": "<≤ 60 chars, a claim with you/your + the number (BENCHMARK.md); no clickbait the video doesn't pay off>",
+"caption": "<2–3 lines: the fact, why it matters, a question to drive comments>\n\nSources: <names>",
+"hashtags": ["#gaming", "#<game>", "#gamingnews", "#<2 more>"], "carousel": <true if D's weekday is in CONTROL.md carousel_days>}`
+Carousel days also need `autopilot/queue/D/carousel.json` = 5 slides, same shape as
+`autopilot/queue/2026-11-16/slide_props_1.json` but WITHOUT `i`, and every slide's `"bg": {"at": null}` (the build fills
+in footage frames): slide 1 = the hook (`kicker`, `head` with |highlight|, `sub` ending "→"), slides 2–4 = one card each,
+slide 5 = the takeaway + "Follow for …". Plus `"credit": "FOOTAGE: <PUBLISHER>"`.
+
+## 7. Sunday extras (D is a Sunday)
+Write `autopilot/log/weekly.md` (newest week on top): totals from scoreboard.md (views, subs, followers, avg view %,
+saves), best and worst post with the reason, pillar ranking, and the 3 changes for next week. Update STRATEGY.md
+cadence/pillars only if the data says so. Re-check BENCHMARK.md against what trending.md shows is winning.
+
+## 8. Ship it
+Prepend nothing to history.md (the build logs the published post). Then:
+`git add autopilot && git commit -m "brain D: <title>" && git push origin HEAD:main`.
+If pushing to main is refused, push your branch instead (`git push origin HEAD`): the build workflow triggers on any
+branch and merges it. Confirm the push succeeded (`git log origin/main -1` or the push output). Finish with one line:
+`D · <pillar> · <title> · footage: <first candidate>`.
