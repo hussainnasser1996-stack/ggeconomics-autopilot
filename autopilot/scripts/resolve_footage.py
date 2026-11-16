@@ -32,11 +32,14 @@ def steam(c):
         return [{"id": f"steam:{m['id']}", "label": f"{it['name']} — {m['name']}", "url": m["hls_h264"]} for m in sorted(movies, key=rank)[:4]]
     return []
 def library(c):
-    f = c.get("file")
-    if not f:
+    f = c.get("file") or ""
+    if not f.endswith(".mp4"):     # no file, or a prefix like "gta6_comp": take the least-recently-used matching asset
         a = json.loads(subprocess.run(["gh", "release", "view", "footage-library", "--json", "assets"], capture_output=True, text=True, cwd=GN).stdout)["assets"]
-        a = [x for x in a if f"lib:{x['name']}" not in recent_src] or a
-        f = a[0]["name"]
+        a = [x["name"] for x in a if x["name"].startswith(f)] or [x["name"] for x in a]
+        last = {}
+        for d in sorted(used):
+            for u in used[d][:1]: last[u["src_id"]] = d
+        f = sorted(a, key=lambda n: (last.get(f"lib:{n}", ""), n))[0]
     p = subprocess.run(["python3", "autopilot/scripts/library.py", f], capture_output=True, text=True, cwd=GN, check=True).stdout.strip().splitlines()[-1]
     return [{"id": f"lib:{f}", "label": f, "url": p}]
 def usable():
