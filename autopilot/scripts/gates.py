@@ -1,5 +1,4 @@
 #!/usr/bin/env python3
-# (engineering gate test 16 Nov)
 """gates.py <D>  — the publish gates, machine-checked (the cloud build has no human or LLM looking).
 1. VO: what Whisper HEARD must match the script (word similarity >= 0.80) — catches mispronounced names/numbers.
 2. OVERLAY SAFE: PASS (overlays clear of the Shorts/Reels UI).
