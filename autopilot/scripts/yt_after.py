@@ -19,6 +19,11 @@ def series(q):
     if "SCOREBOARD" in tag: return "scoreboard"
     if "GTA" in tag or "GTA" in title: return "gta6"
     return "news"
+def music_of(q):                              # "game" (trailer soundtrack) | "library" (CC-BY track) | "none"
+    if (q / "music.json").exists(): return "game" if json.load(open(q / "music.json")).get("game") else "library"
+    return "none"
+for k, r in done.items():                     # backfill records written before music was tracked
+    if r.get("music") not in ("game", "library", "none") and (AP / "queue" / k).exists(): r["music"] = music_of(AP / "queue" / k)
 out = []
 for item in json.load(sys.stdin):            # [{"queue": name, "link": url}] from monitor.py
     q = AP / "queue" / item["queue"]; m = re.search(r"(?:shorts/|v=|youtu\.be/)([\w-]{11})", item["link"] or "")
@@ -33,7 +38,7 @@ for item in json.load(sys.stdin):            # [{"queue": name, "link": url}] fr
         cd = yt.videos().list(part="contentDetails,status", id=vid).execute()["items"][0]
         rr = cd["contentDetails"].get("regionRestriction") or {}
         rec["blocked_in"] = len(rr.get("blocked", [])); rec["allowed_only"] = len(rr.get("allowed", [])) if rr.get("allowed") else None
-        rec["music"] = json.load(open(q / "music.json")).get("game") if (q / "music.json").exists() else None
+        rec["music"] = music_of(q)
     except Exception as e: rec["blocked_in"] = f"error: {e}"[:120]
     loc = json.load(open(q / "post.json")).get("localized") or {}
     if loc:                                   # titles/descriptions in other languages: found by + shown to non-English viewers

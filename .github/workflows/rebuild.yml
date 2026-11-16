@@ -1,0 +1,27 @@
+name: GG Economics unbook + rebuild
+# Take booked (not yet published) posts out of Buffer, then rebuild them from the queue files on main.
+# Fix script.json/spec.json first (commit to main), then run this with the queue names, e.g. "2026-11-17b 2026-11-17c".
+on:
+  workflow_dispatch:
+    inputs:
+      names: { description: "queue folder names, space separated", required: true }
+concurrency: { group: rebuild, cancel-in-progress: false }
+permissions: { contents: write, actions: write }
+jobs:
+  unbook:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    env: { BUFFER_API_KEY: "${{ secrets.BUFFER_API_KEY }}", GH_TOKEN: "${{ github.token }}" }
+    steps:
+      - uses: actions/checkout@v4
+      - name: Unbook
+        run: python3 autopilot/scripts/unbook.py ${{ inputs.names }}
+      - name: Save
+        run: |
+          git config user.name "GG Economics bot" && git config user.email "bot@users.noreply.github.com"
+          git add -A autopilot && git commit -qm "unbook ${{ inputs.names }}" || true
+          for i in 1 2 3; do git pull -q --rebase && git push -q && break; sleep 5; done
+      - name: Start the rebuild (the build chain picks up the other unbooked dates)
+        run: |
+          first=$(echo "${{ inputs.names }}" | awk '{print $1}')
+          gh workflow run build.yml -f date="$first"

@@ -1,7 +1,7 @@
 {
  "spec": {
-  "tag": "GTA VI \u00b7 2 DAYS TO GO",
-  "headline": "TAKE-TWO BETS |$8\u00a0BILLION| ON GTA 6",
+  "tag": "GTA VI · 2 DAYS TO GO",
+  "headline": "TAKE-TWO BETS |$8 BILLION| ON GTA 6",
   "topic": "Take-Two Q2 FY27: $1.6B net bookings (-18%), FY27 outlook $8.0-8.2B reiterated, Q3 guide $3.35-3.5B (9 Nov 2026 release)",
   "vo": "vo/d_2026_11_17b/vo.wav",
   "timelinePath": "vo/d_2026_11_17b/timeline.json",
@@ -103,7 +103,7 @@
     "line": "hook",
     "value": "$8B",
     "label": "Take-Two's target this year",
-    "note": "FY27 outlook $8.0\u20138.2B \u00b7 Take-Two, 9 Nov",
+    "note": "FY27 outlook $8.0–8.2B · Take-Two, 9 Nov",
     "color": "#D4FF3A"
    },
    {
@@ -125,18 +125,18 @@
      "value": "$3.5B",
      "label": "GTA 6 QUARTER (TOP OF GUIDE)"
     },
-    "note": "guidance $3.35\u20133.5B \u00b7 Take-Two"
+    "note": "guidance $3.35–3.5B · Take-Two"
    },
    {
     "kind": "big",
     "line": "verdict",
     "value": "$79.99",
     "label": "per copy fills the gap",
-    "note": "GTA 6 Standard \u00b7 Rockstar",
+    "note": "GTA 6 Standard · Rockstar",
     "color": "#D4FF3A"
    }
   ],
-  "credit": "FOOTAGE: ROCKSTAR GAMES \u00b7 DATA: TAKE-TWO (SEC 8-K), MOTLEY FOOL",
-  "endLine": "1 DAY TO GO \u00b7 FOLLOW FOR LAUNCH"
+  "credit": "FOOTAGE: ROCKSTAR GAMES · DATA: TAKE-TWO (SEC 8-K), MOTLEY FOOL",
+  "endLine": "2 DAYS TO GO · FOLLOW FOR LAUNCH"
  }
 }

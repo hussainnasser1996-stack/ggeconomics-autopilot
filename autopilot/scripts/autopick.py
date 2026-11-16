@@ -5,7 +5,8 @@ studio/public/vo/<id>/timeline.json, and writes spec.clips (+ carousel slide bac
 
 Rules (what the old LOOK step enforced):
 - skip the first 7% and last 12% of the trailer (rating cards, logos, end slates, release-date text)
-- skip black / white-flash shots and soft (blurry) shots; drop shots with heavy text (edge-dense flat areas)
+- skip black / white-flash shots and any shot with a near-black frame (start/mid/end); hook opens on a bright shot
+- skip soft (blurry) shots; drop shots with heavy text (edge-dense flat areas)
 - prefer motion + sharpness; spread picks across the trailer; never two neighbouring shots back to back
 - avoid shots this source already used in the last 14 days (autopilot/log/used_shots.json)
 - clip length 1.2-2.4 s, total >= VO + 2 s"""
@@ -65,9 +66,12 @@ for s in shots:
     if mid is None: continue
     t_dark, t_all = textiness(mid)
     if t_dark > 2.2: continue                      # title/rating card: white type on black
-    if any(ocr_words(fr) >= 2 for fr in (mid, frame(s["start"] + 0.15), frame(s["end"] - 0.15)) if fr is not None): continue
+    ends = [fr for fr in (mid, frame(s["start"] + 0.15), frame(s["end"] - 0.15)) if fr is not None]
+    lum = [float(cv2.cvtColor(fr, cv2.COLOR_BGR2GRAY).mean()) for fr in ends]
+    if min(lum) < 38: continue                     # near-black moments read as a dead frame on a phone (17c, 16 Nov)
+    if any(ocr_words(fr) >= 2 for fr in ends): continue
     score = (s["motion"] + 2) * math.log10(s["sharp"] + 10) * (0.7 + min(s["sat"], 140) / 200)
-    cands.append({**s, "score": score, "used": last_used.get(key, "")})
+    cands.append({**s, "score": score, "lum": min(lum), "used": last_used.get(key, "")})
 fresh = [c for c in cands if not c["used"]]
 # fresh shots first; if the trailer is running dry (several posts a day on one game), add back the shots used longest ago
 cands = fresh if len(fresh) >= 10 else fresh + sorted([c for c in cands if c["used"]], key=lambda c: c["used"])[: max(0, 14 - len(fresh))]
@@ -100,7 +104,9 @@ while t < need and picked:                                # still short: reuse a
     s = dict(picked[(k * 3 + len(picked) // 2) % len(picked)]); s["from"] = round(s["from"] + 0.3, 2); s["dur"] = max(1.2, s["dur"] - 0.3)
     picked.append(s); t += s["dur"]; k += 1
 # hook first: the single highest-scoring shot opens the video
-best = max(picked, key=lambda c: next(x["score"] for x in cands if x["id"] == c["shot"]) if any(x["id"] == c["shot"] for x in cands) else 0)
+info = {x["id"]: x for x in cands}
+bright = [c for c in picked if info.get(c["shot"], {}).get("lum", 0) >= 60]   # the hook frame must read instantly
+best = max(bright or picked, key=lambda c: info[c["shot"]]["score"] if c["shot"] in info else 0)
 picked.remove(best); picked.insert(0, best)
 for i in range(1, len(picked) - 1):                       # no neighbouring shot ids back to back
     if abs(picked[i]["shot"] - picked[i - 1]["shot"]) <= 1:

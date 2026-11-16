@@ -3,7 +3,7 @@
 ## For the owner
 - Optional, only you can do these (each unlocks something real; none is needed for daily posting):
   1. TikTok account → connect it in the GG Economics Buffer (free 3rd slot) = the same videos reach TikTok.
-  2. Re-authorise the YouTube token with the `youtube.force-ssl` + `yt-analytics.readonly` scopes (one Google consent click) → exact captions upload + auto question comment + comment replies + per-video analytics (currently HTTP 403).
+  2. YouTube Analytics is switched OFF on the Google Cloud project that owns the YouTube token (verified 16 Nov: HTTP 403 "YouTube Analytics API has not been used in project 61620770607 before or it is disabled"). One click while signed in as the GG Economics Google account: https://console.developers.google.com/apis/api/youtubeanalytics.googleapis.com/overview?project=61620770607 → Enable. That unlocks avg % viewed + subs per video for the weekly review. Optional, separately: re-authorise the YouTube token with the `youtube.force-ssl` + `yt-analytics.readonly` scopes (one Google consent click) → exact captions upload + auto question comment + comment replies + per-video analytics (currently HTTP 403).
   3. A free Meta developer app for @ggeconomics → Instagram Trial Reels (test a 2nd hook on non-followers), custom cover frame, collab posts.
   4. Keymailer, Terminals.io, Steam Curator page, Ubisoft Creators Program → free game keys. See PARTNERSHIPS.md. No milestone reached yet (0 subscribers, log/metrics/2026-11-16.json), so nothing new.
 

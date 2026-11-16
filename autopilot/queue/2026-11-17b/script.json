@@ -26,8 +26,8 @@
   },
   {
    "id": "verdict",
-   "text": "That gap gets filled at $79.99 a copy. 1 day to go, tomorrow.",
-   "say": "That gap gets filled at seventy-nine ninety-nine a copy. One day to go, tomorrow."
+   "text": "That gap gets filled at $79.99 a copy. Two days to go.",
+   "say": "That gap gets filled at seventy-nine ninety-nine a copy. Two days to go."
   },
   {
    "id": "out",

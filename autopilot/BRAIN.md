@@ -80,7 +80,7 @@ they carry other creators' voices and burned-in text).
 (you / your / your money). Last line: `{"id": "out", "text": "That's the game. GG.", "say": "That's the game. Gee gee."}`.
 Originality (YouTube's 1 Oct 2026 Shorts update cuts reach for re-uploads; its Creator Liaison said narration that only
 describes the footage does not count as original): every line must add a number, a calculation, a comparison or a verdict.
-Never narrate what the trailer shows. Write for the ear: short sentences; numbers as words where a TTS could misread ("seventy-nine ninety-nine",
+Never narrate what the trailer shows. Countdowns ("2 days to go") must use ONE number across the hook, every line, the tag and endLine: count whole UTC days from the post's publish time to the launch moment (gates.py fails a post whose countdowns disagree). Write for the ear: short sentences; numbers as words where a TTS could misread ("seventy-nine ninety-nine",
 "GTA Six"); use `say` for pronunciation fixes (captions follow `say`). The build checks that Whisper hears your words
 back at >= 80% similarity, so avoid odd spellings in `say`.
 
