@@ -31,6 +31,11 @@ different format (see the format menu). Do steps 2–6 once per post.
    facts or clearly labelled rumours; never present a rumour as fact.
 5. **Weekly money scoreboard (Sundays, main slot + carousel):** the week's 3–5 biggest numbers (sales, prices, stock moves,
    layoffs) with up/down arrows.
+7. **Music-only edit** (`"mode": "edit"` in script.json; 1 of the day's posts): NO narration. Gameplay cut to the game's own
+   soundtrack with big on-screen text: 4–6 lines of 2–8 words each (e.g. "GTA 6 runs at 30 FPS" / "on every console" /
+   "PS5 Pro too" / "Is that a problem?"). Every line is read on screen, so the number goes in line 1. 12–20 s, loops.
+   Evidence (16 Nov study of 40 top gaming Shorts): music-only GTA/console Shorts had a median 6.2M views vs 3.8M narrated
+   (small sample; the CEO keeps the mix that wins on OUR data). No "say" fields; no "GG" sign-off line needed.
 6. **Breaking news with a number / your wallet** (the original formats) stay in the mix, especially on news days.
 Rules for every format: a number on screen and in the first words; ≤ 50-character titles "<game> + number + stakes";
 make the last line flow back into the first so the Short loops; one pinned-comment style question at the end of the caption.
@@ -112,6 +117,9 @@ First candidate = best fit. For GTA VI use the library files (alternate them day
    Borrow the ANGLE or emotion (relatable, humour, buyer anxiety), never the content. Expert guidance when unsure:
    `.claude/skills/youtube-growth/references/shorts-playbook.md`, `.claude/skills/marketing-psychology/SKILL.md` (hooks),
    `.claude/skills/copywriting/SKILL.md`.
+8. **Music** (owner, 16 Nov: fame over monetization): set `"music": "game"` to use the trailer's own soundtrack (credited
+   automatically) or `"library"` for a rotating CC-BY track. Alternate them for now; the CEO picks the winner from views and
+   from `log/yt_done.json` `blocked_in` (countries where YouTube blocked the video over music).
 7. Write `"keywords": [top 3 phrases used]` and `"hook_style": "<number|you|versus|ranking|question|news>"` into post.json so
    analytics can learn which packaging wins.
 

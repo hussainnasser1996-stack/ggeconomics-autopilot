@@ -13,6 +13,12 @@ Read: `log/scoreboard.md`, `log/delivery.md`, `log/history.md` (last 14 days), `
 - Performance: views, avg % viewed, subs/followers gained, IG saves/shares per post; rank formats and pillars.
   With < 10 posts or < 7 days of analytics, call it "too early" and change at most one thing.
 
+## 1a. Music policy
+Compare posts with `music: game` vs `library` (log/yt_done.json `music`, `blocked_in`): views, avg % viewed, subs. Any post
+blocked in many countries → switch that game's music back to library. Owner wants fame, not ad revenue.
+
+Also compare `mode: edit` (music-only) vs narrated posts: views, avg % viewed, subs per 1k views. Shift the daily mix toward the winner.
+
 ## 1b. Packaging review (titles, hooks, hashtags)
 Join scoreboard.md with each post's post.json (`title`, `title_candidates`, `keywords`, `hook_style`, hashtags). Compare the
 top third vs bottom third by views AND by subs gained: which hook styles, title lengths, search phrases and hashtags

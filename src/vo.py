@@ -3,6 +3,19 @@
 import sys, json, numpy as np, soundfile as sf
 from pathlib import Path
 spec = json.load(open(sys.argv[1])); out = Path(sys.argv[2]); out.mkdir(parents=True, exist_ok=True)
+if spec.get("mode") == "edit":
+    # Music-only "edit" format: no narration. On-screen text paced for reading (~0.38 s/word, 1.4-3.2 s a line),
+    # written as a silent track + a synthetic word timeline so the same renderer/captions work unchanged.
+    SR = 24000; t = 0.25; lines = []; words = []
+    for ln in spec["lines"]:
+        ws = ln["text"].split(); d = min(3.2, max(1.4, 0.38 * len(ws)))
+        lines.append({"id": ln["id"], "text": ln["text"], "start": round(t, 3), "end": round(t + d, 3)})
+        for k, w in enumerate(ws): words.append({"w": w, "s": round(t + d * k / len(ws), 3), "e": round(t + d * (k + 1) / len(ws), 3)})
+        t += d + 0.15
+    dur = t + 0.4
+    sf.write(out / "vo.wav", np.zeros(int(dur * SR)), SR)
+    json.dump({"duration": round(dur, 3), "lines": lines, "words": words}, open(out / "timeline.json", "w"), indent=1)
+    print("duration", round(dur, 2)); print("HEARD: (edit format, no voice)"); sys.exit(0)
 from kokoro import KPipeline
 kp = KPipeline(lang_code="a", repo_id="hexgrad/Kokoro-82M")
 SR = 24000; buf = []; t = 0.35; lines = []

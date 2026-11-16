@@ -13,7 +13,16 @@ for q in sorted((GN / "autopilot/queue").iterdir(), reverse=True):
     if q.name != D and (q / "music.json").exists(): recent.append(json.load(open(q / "music.json"))["file"])
     if len(recent) >= 4: break
 pool = [f for f in lib if Path(f).name not in recent] or lib
-f = random.Random(D).choice(pool)
+post = json.load(open(Q / "post.json")) if (Q / "post.json").exists() else {}
+fr = json.load(open(Q / "footage_resolved.json")) if (Q / "footage_resolved.json").exists() else {}
+is_edit = (Q / "script.json").exists() and json.load(open(Q / "script.json")).get("mode") == "edit"
+GAME = (post.get("music") == "game" or (is_edit and post.get("music") != "library")) and fr   # edits default to the game's soundtrack
+if GAME:   # the trailer's own score/song (owner's call 16 Nov: reach > monetization; credit it). monitor checks for blocks.
+    import subprocess
+    f = str(GN / f"work/{fr['tag']}_music.m4a")
+    subprocess.run(["ffmpeg", "-v", "error", "-y", "-i", str(GN / f"work/{fr['tag']}.mp4"), "-vn", "-c:a", "aac", "-b:a", "192k", f], check=True)
+else:
+    f = random.Random(D).choice(pool)
 y, sr = librosa.load(f, sr=22050, mono=True, duration=100)
 rms = librosa.feature.rms(y=y, hop_length=512)[0]; t = librosa.frames_to_time(np.arange(len(rms)), sr=sr, hop_length=512)
 win = int(2.0 * sr / 512); e = np.convolve(rms, np.ones(win) / win, mode="same")
@@ -22,6 +31,7 @@ i = int(np.argmax(np.where(lim & (e > np.percentile(e, 60)), rise, -1)))
 _, beats = librosa.beat.beat_track(y=y, sr=sr); bt = librosa.frames_to_time(beats, sr=sr)
 start = float(bt[bt <= t[i]][-1]) if len(bt[bt <= t[i]]) else float(t[i])       # snap to a beat
 title = Path(f).stem.replace("_", " ").title()
-out = {"file": Path(f).name, "start": round(max(0.0, start - 0.25), 2),
-       "credit": f'Music: "{title}" by Kevin MacLeod (incompetech.com), CC BY 4.0'}
+credit = (f"Music: from the official trailer ({fr.get('label', '')}){' · ' + fr['credit'].replace('GAMEPLAY: ', '') if fr.get('credit') else ''}"
+          if GAME else f'Music: "{title}" by Kevin MacLeod (incompetech.com), CC BY 4.0')
+out = {"file": Path(f).name, "path": str(Path(f).relative_to(GN)), "start": round(max(0.0, start - 0.25), 2), "credit": credit, "game": bool(GAME)}
 json.dump(out, open(Q / "music.json", "w"), indent=1); print("music:", out)

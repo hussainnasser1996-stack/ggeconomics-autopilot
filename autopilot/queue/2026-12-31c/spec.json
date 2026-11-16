@@ -1,0 +1,27 @@
+{
+ "spec": {
+  "tag": "GTA VI \u00b7 30 FPS",
+  "headline": "GTA 6 IS |30\u00a0FPS| ON CONSOLE",
+  "topic": "GTA 6 streams to Xbox One via Xbox Cloud Gaming at launch",
+  "vo": "vo/d_2026_12_31c/vo.wav",
+  "timelinePath": "vo/d_2026_12_31c/timeline.json",
+  "timeline": {
+   "duration": 1,
+   "lines": [],
+   "words": []
+  },
+  "noBed": true,
+  "clips": [],
+  "cards": [
+   {
+    "kind": "big",
+    "line": "hook",
+    "value": "30 FPS",
+    "label": "every console",
+    "note": "Rockstar"
+   }
+  ],
+  "credit": "FOOTAGE: ROCKSTAR GAMES \u00b7 DATA: ROCKSTAR, XBOX, DEXERTO, DIGITAL TRENDS",
+  "endLine": "Follow for launch numbers"
+ }
+}

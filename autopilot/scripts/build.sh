@@ -13,8 +13,9 @@ cd studio
 nice -n 5 npx remotion render src/index.ts DailyShort "$Q/raw.mp4" --props="$Q/spec.json" --log=error --concurrency=$(( $(getconf _NPROCESSORS_ONLN) < 4 ? $(getconf _NPROCESSORS_ONLN) : 4 ))
 cd "$GN"
 [ -f "$Q/music.json" ] || .venv/bin/python autopilot/scripts/pick_music.py "$D"
-MF=$(python3 -c "import json;print(json.load(open('$Q/music.json'))['file'])"); MS=$(python3 -c "import json;print(json.load(open('$Q/music.json'))['start'])")
-python3 src/mix.py "$Q/raw.mp4" "assets/music/lib/$MF" "$Q/short.mp4" --start "$MS" --gain -12 && rm "$Q/raw.mp4"
+MP=$(python3 -c "import json;m=json.load(open('$Q/music.json'));print(m.get('path') or 'assets/music/lib/'+m['file'])"); MS=$(python3 -c "import json;print(json.load(open('$Q/music.json'))['start'])")
+MG=$(python3 -c "import json;m=json.load(open('$Q/music.json'));e=json.load(open('$Q/script.json')).get('mode')=='edit';print(-2 if e else (-10 if m.get('game') else -12))")
+python3 src/mix.py "$Q/raw.mp4" "$MP" "$Q/short.mp4" --start "$MS" --gain "$MG" && rm "$Q/raw.mp4"
 .venv/bin/python src/critic.py "$Q/short.mp4" "studio/public/vo/$ID/timeline.json" "daily_$D" 2>&1 | grep -v objc > "$Q/critic.txt" || true
 .venv/bin/python src/overlay_safe.py "$Q/spec.json" "$Q/ovsafe" 2>&1 | grep -v objc | tee "$Q/overlay_safe.txt"
 DUR=$(ffprobe -v error -show_entries format=duration -of csv=p=0 "$Q/short.mp4")

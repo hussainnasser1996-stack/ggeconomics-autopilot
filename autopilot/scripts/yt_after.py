@@ -29,6 +29,12 @@ for item in json.load(sys.stdin):            # [{"queue": name, "link": url}] fr
         if vid not in have: yt.playlistItems().insert(part="snippet", body={"snippet": {"playlistId": PL[s], "resourceId": {"kind": "youtube#video", "videoId": vid}}}).execute()
         rec["playlist"] = "ok"
     except Exception as e: rec["playlist"] = f"error: {e}"[:200]
+    try:   # copyright blocks show up as regionRestriction: record them so the CEO can judge the music policy on data
+        cd = yt.videos().list(part="contentDetails,status", id=vid).execute()["items"][0]
+        rr = cd["contentDetails"].get("regionRestriction") or {}
+        rec["blocked_in"] = len(rr.get("blocked", [])); rec["allowed_only"] = len(rr.get("allowed", [])) if rr.get("allowed") else None
+        rec["music"] = json.load(open(q / "music.json")).get("game") if (q / "music.json").exists() else None
+    except Exception as e: rec["blocked_in"] = f"error: {e}"[:120]
     loc = json.load(open(q / "post.json")).get("localized") or {}
     if loc:                                   # titles/descriptions in other languages: found by + shown to non-English viewers
         try:
