@@ -13,6 +13,8 @@ def gql(q, v):
     return json.loads(urllib.request.urlopen(req, timeout=60).read())
 Q = 'query($i:PostId!){ post(input:{id:$i}){ status dueAt sentAt externalLink error { message } } }'
 rows, problems, actions = [], [], []
+busy = subprocess.run(["gh", "run", "list", "-R", os.environ["GITHUB_REPOSITORY"], "--workflow", "build.yml", "--json", "status",
+                       "-q", '[.[]|select(.status!="completed")]|length'], capture_output=True, text=True).stdout.strip() not in ("", "0")
 for q in sorted(Qd.iterdir()):
     d = q.name[:10]
     try: day = datetime.date.fromisoformat(d)
@@ -29,6 +31,8 @@ for q in sorted(Qd.iterdir()):
             due = p.get("dueAt")
             if st == "scheduled" and due and datetime.datetime.fromisoformat(due.replace("Z", "+00:00")) < now - datetime.timedelta(hours=1):
                 problems.append(f"{q.name} {name}: still 'scheduled' >1 h after due time")
+    elif (q / "script.json").exists() and busy:
+        actions.append(f"{q.name}: not booked yet, a build is running/queued → checked again next run")
     elif (q / "script.json").exists():
         tries = int((q / "retries").read_text()) if (q / "retries").exists() else 0
         if tries < 1:

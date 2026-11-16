@@ -41,6 +41,7 @@ jobs:
             done
           fi
           grep -q "^mode: paused" autopilot/CONTROL.md && D=""
+          [ -n "$D" ] && [ -f "autopilot/queue/$D/buffer_ids.json" ] && { echo "$D already booked"; D=""; }
           echo "D=$D" >> $GITHUB_ENV; echo "go=$([ -n "$D" ] && echo 1 || echo 0)" >> $GITHUB_OUTPUT; echo "target: ${D:-nothing to build}"
       - name: System packages
         if: steps.d.outputs.go == '1'
