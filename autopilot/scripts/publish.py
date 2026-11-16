@@ -20,6 +20,10 @@ hh, mm = cfg.get("publish_time_utc", "23:00").split(":") if "publish_time_utc" i
 if post.get("publish_time_utc"): hh, mm = post["publish_time_utc"].split(":")   # extra daily slots (queue/<date>b, c…)
 DATE = D[:10]
 due = f"{DATE}T{hh}:{mm}:00.000Z"
+from datetime import timezone, timedelta
+_now = datetime.now(timezone.utc)
+if datetime.fromisoformat(due.replace("Z", "+00:00")) < _now + timedelta(minutes=10):   # built late: post in 15 min
+    due = (_now + timedelta(minutes=15)).strftime("%Y-%m-%dT%H:%M:00.000Z")
 
 # ---- 1. host media
 repo = Path(os.path.expanduser(os.environ.get("MEDIA_REPO_DIR") or cfg["media_repo_local"]))
