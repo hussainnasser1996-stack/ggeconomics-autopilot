@@ -9,3 +9,4 @@ autopilot/keys/
 autopilot/queue/*/*.mp4
 autopilot/queue/*/ovsafe/
 autopilot/log/runs/
+.venv
