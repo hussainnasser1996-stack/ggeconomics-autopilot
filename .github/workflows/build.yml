@@ -44,7 +44,7 @@ jobs:
           echo "D=$D" >> $GITHUB_ENV; echo "go=$([ -n "$D" ] && echo 1 || echo 0)" >> $GITHUB_OUTPUT; echo "target: ${D:-nothing to build}"
       - name: System packages
         if: steps.d.outputs.go == '1'
-        run: sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg zsh espeak-ng fonts-noto-color-emoji > /dev/null
+        run: sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg zsh espeak-ng fonts-noto-color-emoji tesseract-ocr > /dev/null
       - uses: actions/setup-python@v5
         if: steps.d.outputs.go == '1'
         with: { python-version: "3.11", cache: pip, cache-dependency-path: requirements.txt }
