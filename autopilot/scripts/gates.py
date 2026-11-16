@@ -7,7 +7,15 @@
 import sys, json, re, difflib, subprocess
 from pathlib import Path
 Q = Path(__file__).resolve().parents[1] / "queue" / sys.argv[1]; bad = []
-norm = lambda t: [w for w in re.sub(r"[^a-z0-9 ]", " ", t.lower().replace("-", " ")).split() if w]
+NUMW = set("zero one two three four five six seven eight nine ten eleven twelve thirteen fourteen fifteen sixteen seventeen "
+           "eighteen nineteen twenty thirty forty fifty sixty seventy eighty ninety hundred thousand million billion trillion "
+           "point dollars dollar percent first second third fourth fifth sixth seventh eighth ninth tenth eleventh twelfth "
+           "thirteenth nineteenth twentieth thirtieth and".split())
+# Whisper writes numbers as digits ("$79.99"), scripts spell them ("seventy-nine ninety-nine"): compare the WORDS around
+# the numbers, and check the numbers separately by count, so a correct read isn't failed on notation.
+def norm(t):
+    w = [x for x in re.sub(r"[^a-z0-9 ]", " ", t.lower().replace("-", " ")).split() if x]
+    return [x for x in w if x not in NUMW and not re.fullmatch(r"\d+(st|nd|rd|th|s)?|\d+", x)]
 script = " ".join(l.get("say", l["text"]) for l in json.load(open(Q / "script.json"))["lines"])
 qa = (Q / "vo_qa.txt").read_text(); heard = qa.split("HEARD:", 1)[1] if "HEARD:" in qa else ""
 sim = difflib.SequenceMatcher(None, norm(script), norm(heard)).ratio()

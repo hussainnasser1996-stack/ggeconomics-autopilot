@@ -110,7 +110,7 @@ jobs:
           B=main; [ "${{ github.event_name }}" = "workflow_dispatch" ] && [ "${{ github.ref_name }}" != "main" ] && B="${{ github.ref_name }}"
           for i in 1 2 3; do git pull -q --rebase -X ours origin $B && git push -q origin HEAD:$B && break; sleep 5; done
       - name: Next pending post (2+ posts a day)
-        if: success() && steps.d.outputs.go == '1' && inputs.dry != true
+        if: always() && steps.d.outputs.go == '1' && inputs.dry != true
         run: |
           T=$(date -u +%F); T2=$(date -u -d "+3 days" +%F)
           for q in autopilot/queue/*/; do q=${q%/}; d=${q##*/}
