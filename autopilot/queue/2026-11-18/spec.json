@@ -1,0 +1,49 @@
+{
+ "spec": {
+  "tag": "GTA VI · LAUNCH NIGHT",
+  "headline": "GTA 6 NEEDS |212 GB| OF YOUR SPACE",
+  "topic": "GTA 6 unlocks tonight: up to 212 GB download, pre-load open since Nov 10, discs are code-in-box, Xbox Cloud from 1 AM ET",
+  "vo": "vo/d_2026_11_18/vo.wav",
+  "timelinePath": "vo/d_2026_11_18/timeline.json",
+  "timeline": {
+   "duration": 1,
+   "lines": [],
+   "words": []
+  },
+  "noBed": true,
+  "clips": [],
+  "cards": [
+   {
+    "kind": "big",
+    "line": "hook",
+    "value": "212 GB",
+    "label": "free space you need",
+    "note": "up to, by device · Rockstar, 3 Nov",
+    "color": "#D4FF3A"
+   },
+   {
+    "kind": "date",
+    "line": "load",
+    "small": "PRE-LOAD OPEN SINCE",
+    "big": "NOV 10"
+   },
+   {
+    "kind": "big",
+    "line": "disc",
+    "value": "CODE",
+    "label": "in the box, not a disc",
+    "note": "physical copies still download · VGC, Game Informer",
+    "color": "#3AE0FF"
+   },
+   {
+    "kind": "date",
+    "line": "cloud",
+    "small": "XBOX CLOUD · NOV 19",
+    "big": "1 AM ET",
+    "note": "Game Pass or paid cloud time · Xbox Wire"
+   }
+  ],
+  "credit": "FOOTAGE: ROCKSTAR GAMES · DATA: ROCKSTAR, XBOX WIRE, VGC, GAME INFORMER",
+  "endLine": "LAUNCH NIGHT · FOLLOW FOR DAY ONE"
+ }
+}

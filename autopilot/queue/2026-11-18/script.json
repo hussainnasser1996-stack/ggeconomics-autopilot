@@ -1,0 +1,36 @@
+{
+ "id": "d_2026_11_18",
+ "voice": "am_liam",
+ "speed": 1.25,
+ "gap": 0.12,
+ "lines": [
+  {
+   "id": "hook",
+   "text": "GTA Six unlocks tonight, and you need 212 gigs free.",
+   "say": "GTA Six unlocks tonight, and you need two hundred twelve gigs free."
+  },
+  {
+   "id": "size",
+   "text": "Rockstar says the download takes up to 212 gigabytes, depending on your console.",
+   "say": "Rockstar says the download takes up to two hundred twelve gigabytes, depending on your console."
+  },
+  {
+   "id": "load",
+   "text": "Pre-load has been open since November tenth, so start it now, not at midnight."
+  },
+  {
+   "id": "disc",
+   "text": "Bought the disc? It's a code in a box, so you still download it."
+  },
+  {
+   "id": "cloud",
+   "text": "No room on Xbox? Cloud streaming starts at 1 AM Eastern, nothing to install, but you need Game Pass or paid cloud time.",
+   "say": "No room on Xbox? Cloud streaming starts at one AM Eastern, nothing to install, but you need Game Pass or paid cloud time."
+  },
+  {
+   "id": "out",
+   "text": "That's the game. GG.",
+   "say": "That's the game. Gee gee."
+  }
+ ]
+}
