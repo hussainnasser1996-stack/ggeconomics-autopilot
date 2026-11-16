@@ -14,7 +14,8 @@ get = lambda u: json.loads(urllib.request.urlopen(urllib.request.Request(u, head
 used = json.load(open(GN / "autopilot/log/used_shots.json")) if (GN / "autopilot/log/used_shots.json").exists() else {}
 recent_src = [u["src_id"] for d in sorted(used)[-3:] for u in used[d][:1]]
 
-BAD = ("online", "dlc", "update", "season", "expansion", "pack", "bundle", "usk", " de ", "soundtrack")
+BAD = ("online", "dlc", "update", "season", "expansion", "pack", "bundle", "usk", " de ", "soundtrack",
+       "(kr)", "(jp)", "(de)", "(fr)", "(es)", "(br)", "(ru)", "(cn)", " kr ", " jp ")
 GOOD = ("launch", "gameplay", "official", "trailer", "story", "reveal")
 def steam(c):
     """all trailers of the best-matching Steam app, most promising first"""
@@ -40,7 +41,8 @@ def library(c):
     return [{"id": f"lib:{f}", "label": f, "url": p}]
 def usable():
     sh = json.load(open(GN / f"work/{tag}/shots.json")); tot = max(x["end"] for x in sh)
-    return sum(1 for x in sh if tot * 0.07 <= x["start"] and x["end"] <= tot * 0.88 and x["dur"] >= 1.35
+    return sum(  # NOTE: counts clean-looking shots before OCR + recency; autopick re-checks
+1 for x in sh if tot * 0.07 <= x["start"] and x["end"] <= tot * 0.88 and x["dur"] >= 1.35
                and x["sat"] >= 22 and x["motion"] >= 3 and 28 <= x["bright"] <= 225)
 
 best = None   # (usable shots, option): a trailer with 14+ clean shots is taken at once; otherwise keep the richest

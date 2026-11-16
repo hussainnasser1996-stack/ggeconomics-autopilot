@@ -23,7 +23,11 @@ total = max(s["end"] for s in shots)
 used_p = GN / "autopilot/log/used_shots.json"
 used = json.load(open(used_p)) if used_p.exists() else {}
 cut = (datetime.date.fromisoformat(D[:10]) - datetime.timedelta(days=14)).isoformat()
-recent = {(u["src_id"], round(u["start"], 1)) for d, lst in used.items() if d >= cut and d != D for u in lst}
+last_used = {}                                            # shot → most recent day it was used (within 14 days)
+for d, lst in used.items():
+    if d >= cut and d != D:
+        for u in lst: k = (u["src_id"], round(u["start"], 1)); last_used[k] = max(last_used.get(k, ""), d)
+recent = set(last_used)
 
 cap = cv2.VideoCapture(str(GN / f"work/{tag}.mp4"))
 def frame(t):
@@ -55,14 +59,17 @@ for s in shots:
     if s["start"] < total * 0.07 or s["end"] > total * 0.88: continue
     if s["dur"] < 1.35 or not (28 <= s["bright"] <= 225) or s["sharp"] < 120: continue
     if s["sat"] < 22 or s["motion"] < 3: continue          # grey logo slates / frozen holds
-    if (src["id"], round(s["start"], 1)) in recent: continue
+    key = (src["id"], round(s["start"], 1))
     mid = frame((s["start"] + s["end"]) / 2)
     if mid is None: continue
     t_dark, t_all = textiness(mid)
     if t_dark > 2.2: continue                      # title/rating card: white type on black
     if any(ocr_words(fr) >= 2 for fr in (mid, frame(s["start"] + 0.15), frame(s["end"] - 0.15)) if fr is not None): continue
     score = (s["motion"] + 2) * math.log10(s["sharp"] + 10) * (0.7 + min(s["sat"], 140) / 200)
-    cands.append({**s, "score": score})
+    cands.append({**s, "score": score, "used": last_used.get(key, "")})
+fresh = [c for c in cands if not c["used"]]
+# fresh shots first; if the trailer is running dry (several posts a day on one game), add back the shots used longest ago
+cands = fresh if len(fresh) >= 10 else fresh + sorted([c for c in cands if c["used"]], key=lambda c: c["used"])[: max(0, 14 - len(fresh))]
 if len(cands) < 6: sys.exit(f"autopick: only {len(cands)} clean shots in this trailer (need 6+)")
 if not cands: sys.exit("autopick: no usable shots")
 
