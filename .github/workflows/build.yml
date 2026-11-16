@@ -68,7 +68,7 @@ jobs:
           printf '%s\n' "$MK" > ~/.ssh/media && chmod 600 ~/.ssh/media
           echo "GIT_SSH_COMMAND=ssh -i $HOME/.ssh/media -o StrictHostKeyChecking=accept-new" >> $GITHUB_ENV
           git config --global user.name "GG Economics bot" && git config --global user.email "bot@users.noreply.github.com"
-          git clone -q git@github.com:hussainnasser1996-stack/savestate-media.git "$MEDIA_REPO_DIR"
+          GIT_SSH_COMMAND="ssh -i $HOME/.ssh/media -o StrictHostKeyChecking=accept-new" git clone -q git@github.com:hussainnasser1996-stack/savestate-media.git "$MEDIA_REPO_DIR"
       - name: Footage
         if: steps.d.outputs.go == '1'
         run: PATH=$PWD/.venv/bin:$PATH python3 autopilot/scripts/resolve_footage.py "$D"
