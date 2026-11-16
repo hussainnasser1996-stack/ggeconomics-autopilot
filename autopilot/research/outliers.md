@@ -2,23 +2,23 @@
 
 | x avg | views | channel subs | channel | title |
 |---|---|---|---|---|
-| 16.7x | 1,948,860 | 1,360 | Moshimo | GTA 6: "I'll Marry You When It Comes Out" |
-| 11.1x | 2,363,836 | 350,000 | realPOISONkill | Deleting Games for GTA6 Be Like… 😂 |
-| 9.8x | 4,926,815 | 76,700 | Sick Plays | We Bought a NEW TV For GTA 6 😎 |
-| 5.8x | 226,626 | 10,000 | MR WHAT | GTA 6 Has Its Own CARTOON SHOW?! 🤯 |
-| 5.3x | 1,134,109 | 151,000 | TonyCeno | “Physical” 💔 #gaming #gamingnews #gta6 #gta #gamingshorts #playstation  #xbox |
-| 5.0x | 30,527,577 | 102,000 | GTA6‑狂野世界 | #gta  #gta6  #shorts |
-| 5.0x | 3,310,623 | 1,510,000 | FANTIZ GAMING | Can Ai Help Me To Reach GTA 6 From GTA 5! |
-| 4.8x | 2,039,574 | 21,400 | Qatil x 2.0 | #gta #gta6 #shorts |
-| 4.6x | 1,346,691 | 40,500 | Seven Story | I Played GTA 6 Before Release 🎮😳 |
-| 1.8x | 116,329 | 24,900 | LoreZone | بلايستيشن مش هتخليك تلعب GTA 6 ؟!  #gaming #gamingnews #gta6 |
-| 1.7x | 2,468,751 | 612,000 | Void Darc | We are SO close…! 😂🔥 #comedy #videogames #gta6 #gta |
-| 1.5x | 560,075 | 34,700 | El Vikingo News | Sony esta FUNADO 💀 #gta  #gaming  #ps5 |
-| 1.5x | 167,963 | 22,900 | Biased! | Hong Lu Ego is WEIRD... #games #game #new #news #shorts #short #trending #trend #funny #fun #fyp |
-| 1.5x | 3,517,423 | 4,890,000 | TheAnimeMen | GTA 6 players rn 🤣 @StarforgeSystems |
-| 1.4x | 164,567 | 13,200 | satvikplays | How Gaming Companies Tried to STOP Piracy! 😳 |
-| 1.3x | 758,006 | 74,600 | DRAQ - Clash of Clans | Town Hall 19 is Awesome! |
-| 1.2x | 1,042,563 | 52,500 | Pop News | Камбэк Гриши в игровую индустрию 😳 | Pop news! |
-| 1.2x | 735,109 | 790,000 | FunnyBlox | He really got the GTA 6 early access 🤯 #gta6 #gaming #shorts |
-| 1.2x | 1,158,170 | 639,000 | JtheSlopFrog | People are receiving nothing with their GTA 6 #gaming #news |
-| 1.1x | 129,449 | 22,900 | Biased! | The BEST Walp IDs!  #gaming #opinion #foryou #games #new #news #short #shorts #trending #fyp #game |
+| 19.7x | 63,130 | 134 | 2d Explains | Why GTA 6 May NOT Run at 60 FPS on PS5 😳 |
+| 19.5x | 2,278,998 | 1,610 | Moshimo | GTA 6: "I'll Marry You When It Comes Out" |
+| 11.9x | 2,525,367 | 350,000 | realPOISONkill | Deleting Games for GTA6 Be Like… 😂 |
+| 11.6x | 5,865,902 | 79,400 | Sick Plays | We Bought a NEW TV For GTA 6 😎 |
+| 11.2x | 1,311,110 | 3,750 | GTA Intel | GTA 6 Police Are Smarter Than Ever... |
+| 6.0x | 234,635 | 10,100 | MR WHAT | GTA 6 Has Its Own CARTOON SHOW?! 🤯 |
+| 5.6x | 1,212,624 | 151,000 | TonyCeno | “Physical” 💔 #gaming #gamingnews #gta6 #gta #gamingshorts #playstation  #xbox |
+| 5.1x | 3,379,836 | 1,510,000 | FANTIZ GAMING | Can Ai Help Me To Reach GTA 6 From GTA 5! |
+| 5.0x | 30,593,026 | 108,000 | GTA6‑狂野世界 | #gta  #gta6  #shorts |
+| 4.9x | 2,065,606 | 21,500 | Qatil x 2.0 | #gta #gta6 #shorts |
+| 4.7x | 1,369,123 | 41,000 | Seven Story | I Played GTA 6 Before Release 🎮😳 |
+| 3.9x | 89,861 | 7,210 | Thegiacobra | The collector leviathan brought friends #subnautica2 #subnautica #gaming #gamingnews #games |
+| 1.9x | 73,325 | 55,700 | Mo'din | 🌴 LA SOUFFRANCE DES DERNIERS JEUX qu'il faut désinstaller pour libérer de l'espace  #gta6 🤣🎮 |
+| 1.9x | 121,334 | 24,900 | LoreZone | بلايستيشن مش هتخليك تلعب GTA 6 ؟!  #gaming #gamingnews #gta6 |
+| 1.8x | 47,829 | 24,800 | BBro Gaming | I Rejected Michael & Trevor On An Island Then! |
+| 1.7x | 2,567,918 | 612,000 | Void Darc | We are SO close…! 😂🔥 #comedy #videogames #gta6 #gta |
+| 1.6x | 570,082 | 34,900 | El Vikingo News | Sony esta FUNADO 💀 #gta  #gaming  #ps5 |
+| 1.5x | 3,681,099 | 4,890,000 | TheAnimeMen | GTA 6 players rn 🤣 @StarforgeSystems |
+| 1.5x | 178,251 | 13,200 | satvikplays | How Gaming Companies Tried to STOP Piracy! 😳 |
+| 1.2x | 1,191,892 | 639,000 | JtheSlopFrog | People are receiving nothing with their GTA 6 #gaming #news |
