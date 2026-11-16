@@ -1,5 +1,18 @@
-Traceback (most recent call last):
-  File "/home/runner/work/ggeconomics-autopilot/ggeconomics-autopilot/src/critic.py", line 12, in <module>
-    import re; w, h = map(int, re.findall(r"\d+", subprocess.run(["ffprobe", "-v", "error", "-select_streams", "v", "-show_entries", "stream=width,height", "-of", "csv=p=0", mp4], capture_output=True, text=True).stdout)[:2])
-               ^^^^
-ValueError: not enough values to unpack (expected 2, got 0)
+SCORE 82.9/100 (13/17)
+  PASS [major   ] VALUE_BIMODAL          mean midtone mass 0.022 (want <0.30)
+  PASS [major   ] FOCAL_PRESENT          mean bright fraction 0.0475 (want 0.004–0.14)
+  PASS [critical] CONTRAST_MIN           0/14 content frames below 4.5:1
+  PASS [major   ] CAPTION_LEGIBLE        0/14 content frames have sub-text under 3:1 (mean 17.31:1)
+  FAIL [minor   ] PALETTE_LOCK           worst content frame 22.55% off-palette (want <2%)
+  PASS [critical] SAFE_BOTTOM            bottom zone ink 0.01% (want <1%)
+  PASS [critical] SAFE_RIGHT             right zone ink 0.30% (want <1%)
+  PASS [major   ] HOLDS_EXIST            9.1% of frames are holds (1 holds)
+  FAIL [major   ] IMPACTS_PUNCTUATED     2/3 impacts not punctuated: [80, 122]
+  PASS [major   ] NO_LINEAR_EASING       0 frames (0.0%) in constant-velocity moves, 0 segments
+  FAIL [major   ] NO_DEAD_AIR            1 stalls: [[388, 426]]
+  PASS [major   ] NO_MICRO_CHURN         0 frames (0.0%) of micro-churn in 0 runs: []
+  PASS [major   ] HOOK_ENERGY            hook energy 13.41× median (want >1.15)
+  PASS [critical] NO_SCENE_TAIL_STALL    0 scenes stall for 0.0s total (0% of runtime): 
+  PASS [major   ] NO_DEAD_OPENING        0 scenes open dead: 
+  PASS [minor   ] OPENS_POPULATED        0/14 sampled frames have <0.4% bright content
+  FAIL [minor   ] USES_FRAME_HEIGHT      lowest focal centroid across content frames is 0.33 of frame height (want some content past 0.55)

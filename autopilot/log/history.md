@@ -1,5 +1,6 @@
 # Post history (newest first)
 
+- 2026-11-17c · Elden Ring Costs You $1 an Hour. Worth It? · footage: ELDEN RING — ELDEN RING Launch Trailer - DE USK · VO similarity 1.00 · youtube_short 6afb4c81d2971d5b1dc6120f · instagram_reel 6afb4c82d1e269de78f983ba · due 23:00 UTC
 - 2026-11-17b · GTA 6: Take-Two Bets $8 Billion on Your $80 · footage: gta6_trailer_VQRLujxTm3c.mp4 · VO similarity 0.87 · youtube_short 6afb41baafba1286ca7069fe · instagram_reel 6afb41ba606b091c7f621ad5 · due 23:00 UTC
 - 2026-11-17c · Elden Ring Costs You $1 an Hour. Worth It? · footage: ELDEN RING — ELDEN RING - Rise, Tarnished | Official Launch Trailer · VO similarity 1.00 · youtube_short 6afb3cfa52dae10f4b8dd788 · instagram_reel 6afb3cfbf9261a3e33932a71 · due 23:00 UTC
 - 2026-11-17b · GTA 6: Take-Two Bets $8 Billion on Your $80 · footage: gta6_trailer_VQRLujxTm3c.mp4 · VO similarity 0.95 · youtube_short 6afb39bd145e4ab7bd3dac45 · instagram_reel 6afb39be2f6896f5ef3dba82 · due 23:00 UTC
