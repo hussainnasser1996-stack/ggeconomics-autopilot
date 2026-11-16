@@ -52,6 +52,11 @@ if sent_yt and (AP / "keys/youtube-token.json").exists():
     py = str(AP.parent / ".venv/bin/python") if (AP.parent / ".venv/bin/python").exists() else "python3"
     r = subprocess.run([py, str(AP / "scripts/yt_after.py")], input=json.dumps(sent_yt), capture_output=True, text=True)
     actions += [l for l in (r.stdout + r.stderr[-300:]).splitlines() if l.strip() and "nothing new" not in l]
+# Buffer free plan caps scheduled posts per channel (~10): count what's queued per channel and warn early
+from collections import Counter
+queued = Counter(r.split("|")[2].strip() for r in rows if r.split("|")[3].strip() == "scheduled")
+for ch_name, n in queued.items():
+    if n >= 8: problems.append(f"Buffer queue for {ch_name}: {n} scheduled (free plan cap ~10) — brain must not book further ahead")
 # GitHub Actions minutes this month (private repo free tier = 2,000): sum of job durations, rounded up per job
 mins = 0
 try:
@@ -66,6 +71,7 @@ try:
     if mins > 1700: problems.append(f"GitHub Actions minutes this month ≈ {mins}/2000: CEO must lower posts_per_day")
 except Exception as e: mins = f"unknown ({e})"
 out = [f"# Delivery check · {now:%Y-%m-%d %H:%M} UTC", "", "## Problems", *(["- " + p for p in problems] or ["- none"]),
+       "", "Buffer scheduled per channel: " + (", ".join(f"{k} {v}" for k, v in queued.items()) or "0"),
        "", f"GitHub Actions minutes used this month: ~{mins} of 2,000 (free tier, private repo)",
        "", "## Actions taken", *(["- " + a for a in actions] or ["- none"]), "",
        "| post | channel | status | sent/due | link | title |", "|---|---|---|---|---|---|", *rows, ""]
