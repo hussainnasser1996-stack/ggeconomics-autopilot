@@ -34,9 +34,9 @@ jobs:
         run: |
           D="${{ inputs.date }}"
           if [ -z "$D" ]; then
-            T=$(date -u +%F)
+            T=$(date -u +%F); T2=$(date -u -d tomorrow +%F)
             for q in autopilot/queue/*/; do q=${q%/}; d=${q##*/}
-              [[ "$d" < "$T" ]] && continue
+              [[ "$d" < "$T" || "$d" > "$T2" ]] && continue      # only today / tomorrow are ever auto-built
               [ -f "$q/script.json" ] && [ -f "$q/post.json" ] && [ ! -f "$q/buffer_ids.json" ] && [ ! -f "$q/gates_failed" ] && { D=$d; break; }
             done
           fi
@@ -83,9 +83,11 @@ jobs:
         run: python3 autopilot/scripts/gates.py "$D" || { touch "autopilot/queue/$D/gates_failed"; exit 1; }
       - name: Publish (Buffer)
         if: steps.d.outputs.go == '1' && inputs.dry != true
-        run: python3 autopilot/scripts/publish.py "$D"
+        run: |
+          [ -f "autopilot/queue/$D/dry" ] && { echo "dry marker: not publishing"; exit 0; }
+          python3 autopilot/scripts/publish.py "$D"
       - name: Log
-        if: steps.d.outputs.go == '1' && inputs.dry != true
+        if: steps.d.outputs.go == '1' && inputs.dry != true && hashFiles(format('autopilot/queue/{0}/buffer_ids.json', env.D)) != ''
         run: |
           T=$(python3 -c "import json;print(json.load(open('autopilot/queue/$D/post.json'))['title'])")
           S=$(python3 -c "import json;print(json.load(open('autopilot/queue/$D/footage_resolved.json'))['label'])")
