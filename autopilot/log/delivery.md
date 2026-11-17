@@ -1,19 +1,19 @@
-# Delivery check · 2026-11-16 22:30 UTC
+# Delivery check · 2026-11-17 03:09 UTC
 
 ## Problems
 - none
 
-Buffer scheduled per channel: youtube_short 6, instagram_reel 6, instagram_carousel 1
+Buffer scheduled per channel: youtube_short 5, instagram_reel 5, instagram_carousel 1
 
-GitHub Actions minutes used this month: ~617 of 2,000 (free tier, private repo)
+GitHub Actions minutes used this month: ~619 of 2,000 (free tier, private repo)
 
 ## Actions taken
-- none
+- 2026-11-16: {'video': 'xee1vvJZ5L4', 'series': 'gta6', 'playlist': 'ok', 'blocked_in': 0, 'allowed_only': None, 'music': 'none'}
 
 | post | channel | status | sent/due | link | title |
 |---|---|---|---|---|---|
-| 2026-11-16 | youtube_short | scheduled | 2026-11-16T23:00:00.000Z |  | GTA 6 Might Make $1 Billion Before You Can Even Pl |
-| 2026-11-16 | instagram_reel | scheduled | 2026-11-16T23:00:00.000Z |  | GTA 6 Might Make $1 Billion Before You Can Even Pl |
+| 2026-11-16 | youtube_short | sent | 2026-11-16T23:01:52.045Z | https://www.youtube.com/shorts/xee1vvJZ5L4 | GTA 6 Might Make $1 Billion Before You Can Even Pl |
+| 2026-11-16 | instagram_reel | sent | 2026-11-16T23:02:53.642Z | https://www.instagram.com/reel/Df0fUTzu2ec/ | GTA 6 Might Make $1 Billion Before You Can Even Pl |
 | 2026-11-16 | instagram_carousel | sent | 2026-11-16T15:04:59.652Z | https://www.instagram.com/p/DfzokZxES-1/ | GTA 6 Might Make $1 Billion Before You Can Even Pl |
 | 2026-11-16b | youtube_short | sent | 2026-11-16T16:01:18.808Z | https://www.youtube.com/shorts/ct7tlizYNYQ | GTA 6 Costs You $79.99. GTA 5 Cost More |
 | 2026-11-16b | instagram_reel | sent | 2026-11-16T16:01:49.134Z | https://www.instagram.com/reel/DfzvK0aNWmC/ | GTA 6 Costs You $79.99. GTA 5 Cost More |
