@@ -1,24 +1,24 @@
-# Outlier gaming Shorts, last 72 h (2026-11-16): views ÷ channel's average views per video
+# Outlier gaming Shorts, last 72 h (2026-11-17): views ÷ channel's average views per video
 
 | x avg | views | channel subs | channel | title |
 |---|---|---|---|---|
-| 28.1x | 37,439 | 3,420 | RajanPlaysGames | GTA 6 Physical Copy Has NO DISC Inside?! 🚨💿 #gta6 |
-| 20.0x | 2,339,923 | 1,660 | Moshimo | GTA 6: "I'll Marry You When It Comes Out" |
-| 20.0x | 63,913 | 135 | 2d Explains | Why GTA 6 May NOT Run at 60 FPS on PS5 😳 |
-| 12.3x | 6,195,571 | 79,600 | Sick Plays | We Bought a NEW TV For GTA 6 😎 |
-| 12.3x | 2,613,149 | 350,000 | realPOISONkill | Deleting Games for GTA6 Be Like… 😂 |
-| 11.3x | 1,331,559 | 3,890 | GTA Intel | GTA 6 Police Are Smarter Than Ever... |
-| 6.1x | 236,852 | 10,100 | MR WHAT | GTA 6 Has Its Own CARTOON SHOW?! 🤯 |
-| 5.8x | 1,251,810 | 151,000 | TonyCeno | “Physical” 💔 #gaming #gamingnews #gta6 #gta #gamingshorts #playstation  #xbox |
-| 5.5x | 2,787,292 | 205,000 | Mark Beshae | The Physical Edition Of GTA 6 Isn’t Safe… |
-| 5.1x | 3,406,033 | 1,510,000 | FANTIZ GAMING | Can Ai Help Me To Reach GTA 6 From GTA 5! |
-| 5.0x | 30,606,537 | 109,000 | GTA6‑狂野世界 | #gta  #gta6  #shorts |
-| 4.9x | 2,073,333 | 21,500 | Qatil x 2.0 | #gta #gta6 #shorts |
-| 4.8x | 1,383,105 | 41,100 | Seven Story | I Played GTA 6 Before Release 🎮😳 |
-| 2.3x | 1,983,418 | 25,600 | GTA6 Stories | #gta  #gta6  #gta6stories |
-| 2.2x | 26,962 | 624 | Mediant | Что будет с кино, когда выйдет GTA 6? #gta6 #gaming #новости |
-| 1.9x | 124,741 | 24,900 | LoreZone | بلايستيشن مش هتخليك تلعب GTA 6 ؟!  #gaming #gamingnews #gta6 |
-| 1.8x | 2,658,018 | 612,000 | Void Darc | We are SO close…! 😂🔥 #comedy #videogames #gta6 #gta |
-| 1.6x | 577,946 | 34,900 | El Vikingo News | Sony esta FUNADO 💀 #gta  #gaming  #ps5 |
-| 1.5x | 184,100 | 13,200 | satvikplays | How Gaming Companies Tried to STOP Piracy! 😳 |
-| 1.3x | 22,282 | 3,370 | Rocky | Este juego te PAGA el divorcio 💀 |
+| 86.2x | 5,018,355 | 20,100 | ToonByte X | 30 FPS ON PS5 IS NOT YOUR AVERAGE 30 FPS 💀 #gta6 #shorts |
+| 28.2x | 5,240,723 | 172,000 | Ryezy | GTA 6 Unboxings In 2017💀 || #shorts #gta6 #gta5 |
+| 16.7x | 12,865,897 | 4,310 | Toha sk toy | GTA 6-Hulk Vs Spiderman Challenge😱14 #hulk #spiderman #gta |
+| 13.2x | 3,187,629 | 2,200 | Moshimo | GTA 6: "I'll Marry You When It Comes Out" |
+| 12.5x | 491,776 | 56,300 | Mo'din | 🎙️😭 CE COMMENTAIRE A OSÉ il lui a vraiment répondu ça à la fille #gta6 |
+| 11.8x | 7,208,152 | 83,200 | Sick Plays | We Bought a NEW TV For GTA 6 😎 |
+| 5.4x | 212,885 | 56,300 | Mo'din | 🎙️💿 SUR PS5 ILS ONT LE DISQUE à un moment donné s'il vous plaît il ne faut pas trop abuser   #gta6 |
+| 5.3x | 2,024,640 | 5,110 | GTA Intel | Robbing Stores in GTA 6 Works Differently To GTA 5 |
+| 4.8x | 1,751,759 | 539,000 | Dangerloww | 🔥quando o gamer descobre que o gta 6 vai para o xbox! 😱 |
+| 4.1x | 98,142 | 7,530 | Thegiacobra | The collector leviathan brought friends #subnautica2 #subnautica #gaming #gamingnews #games |
+| 3.9x | 27,027,102 | 116,000 | GTA6‑狂野世界 | 哇！好多的金币#gta  #gta6  #shorts |
+| 3.7x | 1,442,098 | 5,110 | GTA Intel | GTA 6 Police Are Smarter Than Ever... |
+| 3.7x | 1,973,261 | 1,430,000 | Notkausa | Este GTA 6 ta raro #gta #ps5 |
+| 3.6x | 139,734 | 56,300 | Mo'din | 🎙️😒 J'ALLAIS PRENDRE UNE PS5 mais au moins nous sur Xbox on a tout ça   #gta6 |
+| 3.3x | 3,215,499 | 28,500 | GTA6 Stories | #gta  #gta6  #gta6stories |
+| 3.0x | 118,578 | 56,300 | Mo'din | 😂 127 ANS AVANT QUE LE JEU NE SORTE  #gta6 🤣🎮 |
+| 2.9x | 5,466,768 | 6,880,000 | 猎魔的契约 | 是谁绑住了尼克狐#gta  #gta6  #shorts |
+| 2.8x | 2,474,689 | 16,200,000 | Typical Gamer | 🔴 LIVE! - NOT ENDING UNTIL I FIND THE PIRATE TOKEN!!!!! |
+| 2.4x | 4,508,600 | 6,880,000 | 猎魔的契约 | #gta  #gta6  #shorts |
+| 2.2x | 3,335,874 | 613,000 | Void Darc | We are SO close…! 😂🔥 #comedy #videogames #gta6 #gta |

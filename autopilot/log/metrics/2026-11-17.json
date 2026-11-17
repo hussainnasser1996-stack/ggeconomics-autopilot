@@ -1,0 +1,416 @@
+{
+ "date": "2026-11-17",
+ "youtube": {
+  "channel": {
+   "id": "UCpsoR_hS2XJT-Yv7UN0qZbQ",
+   "viewCount": 519,
+   "subscriberCount": 0,
+   "videoCount": 3
+  },
+  "traffic_sources": {},
+  "videos": {
+   "xee1vvJZ5L4": {
+    "title": "GTA 6 Might Make $1 Billion Before You Can Even Play It",
+    "published": "2026-11-16",
+    "views": 777,
+    "likes": 12,
+    "comments": 0
+   },
+   "ct7tlizYNYQ": {
+    "title": "GTA 6 Costs You $79.99. GTA 5 Cost More",
+    "published": "2026-11-16",
+    "views": 265,
+    "likes": 0,
+    "comments": 0
+   },
+   "2lyn0JAlPoU": {
+    "title": "Rockstar Made 2 of the 5 Best-Selling Games Ever",
+    "published": "2026-11-16",
+    "views": 290,
+    "likes": 2,
+    "comments": 0
+   }
+  }
+ },
+ "instagram": {
+  "6afaf1f591ba8aa74bd17c3f": {
+   "sent": "2026-11-16",
+   "text": "The 5 best-selling games ever: Tetris 520M (all versions), M",
+   "link": "https://www.instagram.com/reel/DfzWFNchCUT/",
+   "reactions": 4,
+   "comments": 0,
+   "engagementRate": 3.28,
+   "views": 135,
+   "shares": 0,
+   "saves": 0,
+   "totalTimeWatched": 21.55,
+   "averageTimeWatched": 10.6,
+   "reach": 122
+  },
+  "6afae8f30c2af02527d9aab7": {
+   "sent": "2026-11-16",
+   "text": "GTA 6 Standard is $79.99. GTA 5 launched at $59.99 in 2013, ",
+   "link": "https://www.instagram.com/reel/DfzvK0aNWmC/",
+   "reactions": 0,
+   "comments": 0,
+   "engagementRate": 0,
+   "views": 119,
+   "shares": 0,
+   "saves": 0,
+   "totalTimeWatched": 10.16,
+   "averageTimeWatched": 5.35,
+   "reach": 113
+  },
+  "6afa2b2f60a910801c4de745": {
+   "sent": "2026-11-16",
+   "text": "GTA 6 may pass $1 billion before launch day: Sensor Tower es",
+   "link": "https://www.instagram.com/p/DfzokZxES-1/",
+   "reactions": 0,
+   "comments": 0,
+   "engagementRate": 0,
+   "views": 0,
+   "shares": 0,
+   "saves": 0,
+   "follows": 0,
+   "reach": 0
+  },
+  "6afa2b2e60a910801c4de704": {
+   "sent": "2026-11-16",
+   "text": "GTA 6 may pass $1 billion before launch day: Sensor Tower es",
+   "link": "https://www.instagram.com/reel/Df0fUTzu2ec/"
+  }
+ },
+ "trending": [
+  {
+   "title": "The Last Modded GTA 5 Free Roam Video...",
+   "channel": "SMii7Y",
+   "views": 2194393,
+   "published": "2026-11-16"
+  },
+  {
+   "title": "Can 1 Champion beat 5 Coppers?",
+   "channel": "Jynxzi",
+   "views": 1055142,
+   "published": "2026-11-16"
+  },
+  {
+   "title": "They Locked Me In This Abandoned Building\u2026",
+   "channel": "CaseOh",
+   "views": 433402,
+   "published": "2026-11-16"
+  },
+  {
+   "title": "GTA 6 - Everything You Need to Know",
+   "channel": "TmarTn2",
+   "views": 633169,
+   "published": "2026-11-16"
+  },
+  {
+   "title": "GTA6 Livestream - Nov 18",
+   "channel": "VanossGaming",
+   "views": 516115,
+   "published": "2026-11-17"
+  },
+  {
+   "title": "GTA 6 MARATHON | Official Trailer",
+   "channel": "Kai Cenat Live",
+   "views": 1401545,
+   "published": "2026-11-16"
+  },
+  {
+   "title": "I Taught MY DAUGHTER How To WIN In DRESS TO IMPRESS ROBLOX!",
+   "channel": "callmehhaley",
+   "views": 360440,
+   "published": "2026-11-09"
+  },
+  {
+   "title": "We are Going to Sweep... THE MOON!",
+   "channel": "SMii7Yminus",
+   "views": 1331586,
+   "published": "2026-11-16"
+  },
+  {
+   "title": "The Parkour Podcast...",
+   "channel": "Joe Bart Games",
+   "views": 1047012,
+   "published": "2026-11-16"
+  },
+  {
+   "title": "iSHOWSPEED x GTA 6 | OFFICIAL TRAILER",
+   "channel": "IShowSpeed",
+   "views": 1391616,
+   "published": "2026-11-16"
+  },
+  {
+   "title": "Your Favorite YouTubers are Addicted to Crack",
+   "channel": "SMii7Yplus",
+   "views": 2260628,
+   "published": "2026-11-15"
+  },
+  {
+   "title": "We Ranked EVERY Video Game Song",
+   "channel": "Clooless Reacts",
+   "views": 186897,
+   "published": "2026-11-16"
+  },
+  {
+   "title": "I gave birth.",
+   "channel": "Flamingo",
+   "views": 251731,
+   "published": "2026-11-17"
+  },
+  {
+   "title": "They tried to betray my guild. This is what happened to them.",
+   "channel": "Asmongold TV  ",
+   "views": 658841,
+   "published": "2026-11-16"
+  },
+  {
+   "title": "Playing Madden 27 Until I Lose!",
+   "channel": "MMG",
+   "views": 196140,
+   "published": "2026-11-16"
+  },
+  {
+   "title": "Finally a Zombie game where the military is competent",
+   "channel": "Anti-Kleaper",
+   "views": 572303,
+   "published": "2026-11-16"
+  },
+  {
+   "title": "Just Over 24 Hours to GTA 6... NEW INFO - 6 Screenshots + My Content Plans For Launch",
+   "channel": "TGG",
+   "views": 340920,
+   "published": "2026-11-17"
+  },
+  {
+   "title": "Full Season, But PLINKO Controls My Entire Franchise!",
+   "channel": "YoBoy PIZZA",
+   "views": 107695,
+   "published": "2026-11-16"
+  },
+  {
+   "title": "HIDING in the WOLF KING's Pack!",
+   "channel": "Aphmau",
+   "views": 285054,
+   "published": "2026-11-16"
+  },
+  {
+   "title": "GTA 6 Has So Much to Do... It's Actually RIDICULOUS!",
+   "channel": "Hazard",
+   "views": 390788,
+   "published": "2026-11-16"
+  },
+  {
+   "title": "GTA 6 Can Do Things GTA 5 NEVER Could",
+   "channel": "GrandGecko",
+   "views": 450463,
+   "published": "2026-11-16"
+  },
+  {
+   "title": "we returned to granny multiplayer...(it went horrible)",
+   "channel": "3FS",
+   "views": 226587,
+   "published": "2026-11-17"
+  },
+  {
+   "title": "The TRUTH about ROBLOX RAGDOLL GAMES..",
+   "channel": "Tyler & Snowi",
+   "views": 369960,
+   "published": "2026-11-17"
+  },
+  {
+   "title": "BOYS vs GIRLS Split the Village in HALF! (Minecraft)",
+   "channel": "Cash",
+   "views": 560571,
+   "published": "2026-11-16"
+  },
+  {
+   "title": "That's me, expresso myself | Wheel of Fortune",
+   "channel": "GameGrumps",
+   "views": 191970,
+   "published": "2026-11-16"
+  }
+ ],
+ "notes": [],
+ "outliers": [
+  [
+   86.24470853175514,
+   5018355,
+   20100,
+   "ToonByte X",
+   "30 FPS ON PS5 IS NOT YOUR AVERAGE 30 FPS \ud83d\udc80 #gta6 #shorts"
+  ],
+  [
+   28.152840339719695,
+   5240723,
+   172000,
+   "Ryezy",
+   "GTA 6 Unboxings In 2017\ud83d\udc80 || #shorts #gta6 #gta5"
+  ],
+  [
+   16.676998702317377,
+   12865897,
+   4310,
+   "Toha sk toy",
+   "GTA 6-Hulk Vs Spiderman Challenge\ud83d\ude3114 #hulk #spiderman #gta"
+  ],
+  [
+   13.156711938828751,
+   3187629,
+   2200,
+   "Moshimo",
+   "GTA 6: \"I'll Marry You When It Comes Out\""
+  ],
+  [
+   12.528460787051745,
+   491776,
+   56300,
+   "Mo'din",
+   "\ud83c\udf99\ufe0f\ud83d\ude2d CE COMMENTAIRE A OS\u00c9 il lui a vraiment r\u00e9pondu \u00e7a \u00e0 la fille #gta6"
+  ],
+  [
+   11.764274245432707,
+   7208152,
+   83200,
+   "Sick Plays",
+   "We Bought a NEW TV For GTA 6 \ud83d\ude0e"
+  ],
+  [
+   5.423447615685822,
+   212885,
+   56300,
+   "Mo'din",
+   "\ud83c\udf99\ufe0f\ud83d\udcbf SUR PS5 ILS ONT LE DISQUE \u00e0 un moment donn\u00e9 s'il vous pla\u00eet il ne faut pas trop abuser   #gta6"
+  ],
+  [
+   5.2636982314584495,
+   2024640,
+   5110,
+   "GTA Intel",
+   "Robbing Stores in GTA 6 Works Differently To GTA 5"
+  ],
+  [
+   4.7637465483159716,
+   1751759,
+   539000,
+   "Dangerloww",
+   "\ud83d\udd25quando o gamer descobre que o gta 6 vai para o xbox! \ud83d\ude31"
+  ],
+  [
+   4.054795102685484,
+   98142,
+   7530,
+   "Thegiacobra",
+   "The collector leviathan brought friends #subnautica2 #subnautica #gaming #gamingnews #games"
+  ],
+  [
+   3.8569744271027324,
+   27027102,
+   116000,
+   "GTA6\u2011\u72c2\u91ce\u4e16\u754c",
+   "\u54c7\uff01\u597d\u591a\u7684\u91d1\u5e01#gta  #gta6  #shorts"
+  ],
+  [
+   3.7491942726557643,
+   1442098,
+   5110,
+   "GTA Intel",
+   "GTA 6 Police Are Smarter Than Ever..."
+  ],
+  [
+   3.6901660786488533,
+   1973261,
+   1430000,
+   "Notkausa",
+   "Este GTA 6 ta raro #gta #ps5"
+  ],
+  [
+   3.559856397257875,
+   139734,
+   56300,
+   "Mo'din",
+   "\ud83c\udf99\ufe0f\ud83d\ude12 J'ALLAIS PRENDRE UNE PS5 mais au moins nous sur Xbox on a tout \u00e7a   #gta6"
+  ],
+  [
+   3.3150395217165562,
+   3215499,
+   28500,
+   "GTA6 Stories",
+   "#gta  #gta6  #gta6stories"
+  ],
+  [
+   3.0208871990642527,
+   118578,
+   56300,
+   "Mo'din",
+   "\ud83d\ude02 127 ANS AVANT QUE LE JEU NE SORTE  #gta6 \ud83e\udd23\ud83c\udfae"
+  ],
+  [
+   2.8607951591640286,
+   5466768,
+   6880000,
+   "\u730e\u9b54\u7684\u5951\u7ea6",
+   "\u662f\u8c01\u7ed1\u4f4f\u4e86\u5c3c\u514b\u72d0#gta  #gta6  #shorts"
+  ],
+  [
+   2.8421263830531602,
+   2474689,
+   16200000,
+   "Typical Gamer",
+   "\ud83d\udd34 LIVE! - NOT ENDING UNTIL I FIND THE PIRATE TOKEN!!!!!"
+  ],
+  [
+   2.3593796288057107,
+   4508600,
+   6880000,
+   "\u730e\u9b54\u7684\u5951\u7ea6",
+   "#gta  #gta6  #shorts"
+  ],
+  [
+   2.238312437624646,
+   3335874,
+   613000,
+   "Void Darc",
+   "We are SO close\u2026! \ud83d\ude02\ud83d\udd25 #comedy #videogames #gta6 #gta"
+  ]
+ ],
+ "per_post": {
+  "2026-11-17c": {
+   "title": "Elden Ring Costs You $1 an Hour. Worth It?",
+   "youtube_short": null,
+   "instagram_reel": null,
+   "instagram_carousel": null
+  },
+  "2026-11-17b": {
+   "title": "GTA 6: Take-Two Bets $8 Billion on Your $80",
+   "youtube_short": null,
+   "instagram_reel": null,
+   "instagram_carousel": null
+  },
+  "2026-11-17": {
+   "title": "Your 2013 Xbox One Can Play GTA 6 on Day One",
+   "youtube_short": null,
+   "instagram_reel": null,
+   "instagram_carousel": null
+  },
+  "2026-11-16c": {
+   "title": "Rockstar Made 2 of the 5 Best-Selling Games Ever",
+   "youtube_short": 290,
+   "instagram_reel": 135,
+   "instagram_carousel": null
+  },
+  "2026-11-16b": {
+   "title": "GTA 6 Costs You $79.99. GTA 5 Cost More",
+   "youtube_short": 265,
+   "instagram_reel": 119,
+   "instagram_carousel": null
+  },
+  "2026-11-16": {
+   "title": "GTA 6 Might Make $1 Billion Before You Can Even Play It",
+   "youtube_short": 777,
+   "instagram_reel": null,
+   "instagram_carousel": 0
+  }
+ }
+}
