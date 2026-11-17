@@ -2,23 +2,23 @@
 
 | x avg | views | channel subs | channel | title |
 |---|---|---|---|---|
-| 86.2x | 5,018,355 | 20,100 | ToonByte X | 30 FPS ON PS5 IS NOT YOUR AVERAGE 30 FPS 💀 #gta6 #shorts |
-| 28.2x | 5,240,723 | 172,000 | Ryezy | GTA 6 Unboxings In 2017💀 || #shorts #gta6 #gta5 |
-| 16.7x | 12,865,897 | 4,310 | Toha sk toy | GTA 6-Hulk Vs Spiderman Challenge😱14 #hulk #spiderman #gta |
-| 13.2x | 3,187,629 | 2,200 | Moshimo | GTA 6: "I'll Marry You When It Comes Out" |
-| 12.5x | 491,776 | 56,300 | Mo'din | 🎙️😭 CE COMMENTAIRE A OSÉ il lui a vraiment répondu ça à la fille #gta6 |
-| 11.8x | 7,208,152 | 83,200 | Sick Plays | We Bought a NEW TV For GTA 6 😎 |
-| 5.4x | 212,885 | 56,300 | Mo'din | 🎙️💿 SUR PS5 ILS ONT LE DISQUE à un moment donné s'il vous plaît il ne faut pas trop abuser   #gta6 |
-| 5.3x | 2,024,640 | 5,110 | GTA Intel | Robbing Stores in GTA 6 Works Differently To GTA 5 |
-| 4.8x | 1,751,759 | 539,000 | Dangerloww | 🔥quando o gamer descobre que o gta 6 vai para o xbox! 😱 |
-| 4.1x | 98,142 | 7,530 | Thegiacobra | The collector leviathan brought friends #subnautica2 #subnautica #gaming #gamingnews #games |
-| 3.9x | 27,027,102 | 116,000 | GTA6‑狂野世界 | 哇！好多的金币#gta  #gta6  #shorts |
-| 3.7x | 1,442,098 | 5,110 | GTA Intel | GTA 6 Police Are Smarter Than Ever... |
-| 3.7x | 1,973,261 | 1,430,000 | Notkausa | Este GTA 6 ta raro #gta #ps5 |
-| 3.6x | 139,734 | 56,300 | Mo'din | 🎙️😒 J'ALLAIS PRENDRE UNE PS5 mais au moins nous sur Xbox on a tout ça   #gta6 |
-| 3.3x | 3,215,499 | 28,500 | GTA6 Stories | #gta  #gta6  #gta6stories |
-| 3.0x | 118,578 | 56,300 | Mo'din | 😂 127 ANS AVANT QUE LE JEU NE SORTE  #gta6 🤣🎮 |
-| 2.9x | 5,466,768 | 6,880,000 | 猎魔的契约 | 是谁绑住了尼克狐#gta  #gta6  #shorts |
-| 2.8x | 2,474,689 | 16,200,000 | Typical Gamer | 🔴 LIVE! - NOT ENDING UNTIL I FIND THE PIRATE TOKEN!!!!! |
-| 2.4x | 4,508,600 | 6,880,000 | 猎魔的契约 | #gta  #gta6  #shorts |
-| 2.2x | 3,335,874 | 613,000 | Void Darc | We are SO close…! 😂🔥 #comedy #videogames #gta6 #gta |
+| 92.8x | 5,400,024 | 20,200 | ToonByte X | 30 FPS ON PS5 IS NOT YOUR AVERAGE 30 FPS 💀 #gta6 #shorts |
+| 56.6x | 4,835,320 | 20,100 | Gaming With VV | 🔴 LIVE | tiger hunt challange🐆 | GTA V Mods #gtav #gtalive gta v live |
+| 30.6x | 5,701,072 | 172,000 | Ryezy | GTA 6 Unboxings In 2017💀 || #shorts #gta6 #gta5 |
+| 14.3x | 3,474,063 | 2,370 | Moshimo | GTA 6: "I'll Marry You When It Comes Out" |
+| 12.8x | 501,237 | 56,300 | Mo'din | 🎙️😭 CE COMMENTAIRE A OSÉ il lui a vraiment répondu ça à la fille #gta6 |
+| 12.8x | 7,816,100 | 85,100 | Sick Plays | We Bought a NEW TV For GTA 6 😎 |
+| 10.4x | 2,873,723 | 4,170 | VicePulse | GTA 5 vs GTA 6: How Much Of The Map Is Actually Empty?! |
+| 6.8x | 54,830 | 148 | Melonauts | Australia and Japan are getting a different version of GTA 6 #gaming  #news |
+| 6.2x | 2,159,015 | 5,440 | GTA Intel | Robbing Stores in GTA 6 Works Differently To GTA 5 |
+| 6.0x | 234,441 | 56,300 | Mo'din | 🎙️💿 SUR PS5 ILS ONT LE DISQUE à un moment donné s'il vous plaît il ne faut pas trop abuser   #gta6 |
+| 4.1x | 99,385 | 7,570 | Thegiacobra | The collector leviathan brought friends #subnautica2 #subnautica #gaming #gamingnews #games |
+| 4.0x | 27,538,213 | 119,000 | GTA6‑狂野世界 | 哇！好多的金币#gta  #gta6  #shorts |
+| 3.7x | 145,952 | 56,300 | Mo'din | 🎙️😒 J'ALLAIS PRENDRE UNE PS5 mais au moins nous sur Xbox on a tout ça   #gta6 |
+| 3.7x | 1,980,654 | 1,430,000 | Notkausa | Este GTA 6 ta raro #gta #ps5 |
+| 3.6x | 3,379,835 | 30,100 | GTA6 Stories | #gta  #gta6  #gta6stories |
+| 3.6x | 61,054 | 3,390 | Rocky | Llevaba 20 meses pagando Fortnite… SIN JUGARLO 💀 |
+| 3.2x | 123,665 | 56,300 | Mo'din | 😂 127 ANS AVANT QUE LE JEU NE SORTE  #gta6 🤣🎮 |
+| 3.1x | 5,873,704 | 6,880,000 | 猎魔的契约 | 是谁绑住了尼克狐#gta  #gta6  #shorts |
+| 2.8x | 19,096,636 | 119,000 | GTA6‑狂野世界 | 大家为何要阻止露西亚？#gta  #gta6  #shorts |
+| 1.9x | 76,306 | 56,300 | Mo'din | 🌴 LA SOUFFRANCE DES DERNIERS JEUX qu'il faut désinstaller pour libérer de l'espace  #gta6 🤣🎮 |

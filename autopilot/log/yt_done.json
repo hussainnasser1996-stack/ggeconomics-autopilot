@@ -28,5 +28,21 @@
   "blocked_in": 0,
   "allowed_only": null,
   "music": "none"
+ },
+ "2026-11-17c": {
+  "video": "zK7fa0dTrDc",
+  "series": "cost_per_hour",
+  "playlist": "ok",
+  "blocked_in": 0,
+  "allowed_only": null,
+  "music": "game",
+  "localized": [
+   "ar",
+   "en",
+   "es",
+   "hi",
+   "id",
+   "pt-BR"
+  ]
  }
 }
