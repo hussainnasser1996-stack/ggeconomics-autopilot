@@ -2,9 +2,9 @@
 
 ## For the owner
 - Optional, only you can do these (each unlocks something real; none is needed for daily posting):
-  1. TikTok account → connect it in the GG Economics Buffer (free 3rd slot) = the same videos reach TikTok.
-  2. ✅ DONE 17 Nov: YouTube Analytics API enabled (monitor run 10:58 UTC returned no 403). Still optional: re-authorise the YouTube token with the `youtube.force-ssl` scope (one Google consent click) → exact captions upload + auto question comment + comment replies.
-  3. A free Meta developer app for @ggeconomics → Instagram Trial Reels (test a 2nd hook on non-followers), custom cover frame, collab posts.
+  1. ✅ DONE 17 Nov: TikTok @ggeconomics created + connected in Buffer; publish.py books every Short there.
+  2. ✅ DONE 17 Nov: YouTube Analytics API enabled (monitor run 10:58 UTC returned no 403). ✅ DONE 17 Nov: token re-authorised with `youtube.force-ssl` (captions, comments, replies now possible).
+  3. ⏳ IN PROGRESS 17 Nov (app "GG Economics Publisher" stopped at owner's FB password re-entry): a free Meta developer app for @ggeconomics → Instagram Trial Reels (test a 2nd hook on non-followers), custom cover frame, collab posts.
   4. Keymailer, Terminals.io, Steam Curator page, Ubisoft Creators Program → free game keys. See PARTNERSHIPS.md. No milestone reached yet (0 subscribers, log/metrics/2026-11-16.json), so nothing new.
 
 ## Engineering backlog (from the 16 Nov tools scout; the engineering routine works top-down, measures each change)
