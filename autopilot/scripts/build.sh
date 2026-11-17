@@ -10,8 +10,10 @@ if python3 -c "import json,sys;sys.exit(0 if not json.load(open('$Q/spec.json'))
   .venv/bin/python autopilot/scripts/autopick.py "$D"
 fi
 cd studio
-nice -n 5 npx remotion render src/index.ts DailyShort "$Q/raw.mp4" --props="$Q/spec.json" --log=error --concurrency=$(( $(getconf _NPROCESSORS_ONLN) < 4 ? $(getconf _NPROCESSORS_ONLN) : 4 ))
+nice -n 5 npx remotion render src/index.ts DailyShort "$Q/raw.mp4" --props="$Q/spec.json" --jpeg-quality=95 --crf=15 --log=error --concurrency=$(( $(getconf _NPROCESSORS_ONLN) < 4 ? $(getconf _NPROCESSORS_ONLN) : 4 ))
 cd "$GN"
+# 16:9 trailers are cropped ~3x into 9:16: light sharpen + high-quality encode (Husain 17 Nov: Elden Ring looked soft)
+ffmpeg -v error -y -i "$Q/raw.mp4" -vf "unsharp=5:5:0.7:5:5:0" -c:v libx264 -preset slow -crf 16 -pix_fmt yuv420p -c:a copy "$Q/raw_s.mp4" && mv "$Q/raw_s.mp4" "$Q/raw.mp4"
 # re-pick when there is no music.json OR its extracted file is gone (a rebuild on a fresh runner: work/ is not kept)
 [ -f "$Q/music.json" ] && [ -f "$(python3 -c "import json;m=json.load(open('$Q/music.json'));print(m.get('path') or 'assets/music/lib/'+m['file'])")" ] || .venv/bin/python autopilot/scripts/pick_music.py "$D"
 MP=$(python3 -c "import json;m=json.load(open('$Q/music.json'));print(m.get('path') or 'assets/music/lib/'+m['file'])"); MS=$(python3 -c "import json;print(json.load(open('$Q/music.json'))['start'])")

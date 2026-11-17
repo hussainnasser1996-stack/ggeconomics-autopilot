@@ -34,7 +34,7 @@ export const Broll: React.FC<{ clips: Clip[] }> = ({ clips }) => {
 const ClipLayer: React.FC<{ c: Clip; d: number; w: number; h: number }> = ({ c, d, w, h }) => {
   const f = useCurrentFrame();
   const { fps } = useVideoConfig();
-  const push = interpolate(f, [0, d], [1, 1.08], { easing: Easing.inOut(Easing.sin) }) * (c.zoom ?? 1);
+  const push = interpolate(f, [0, d], [1, 1.03], { easing: Easing.inOut(Easing.sin) }) * (c.zoom ?? 1);
   const flash = interpolate(f, [0, 2], [0.35, 0], { extrapolateRight: "clamp" });
   // source is 16:9; cover the frame
   const srcAR = 16 / 9, dstAR = w / h;
