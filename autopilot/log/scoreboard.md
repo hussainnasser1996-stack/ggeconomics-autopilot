@@ -6,7 +6,7 @@ Updated 2026-11-17. YouTube Analytics lags 1-3 days.
 (— = not sent yet / no metrics yet; carousel shows reach when Buffer gives no views)
 | post | YouTube Short | IG Reel | IG carousel | total | title |
 |---|---|---|---|---|---|
-| 2026-11-17c | 942 | 127 | — | 1069 | Elden Ring Costs You $1 an Hour. Worth It? |
+| 2026-11-17c | 957 | 127 | — | 1084 | Elden Ring Costs You $1 an Hour. Worth It? |
 | 2026-11-17b | 3 | 126 | — | 129 | GTA 6: Take-Two Bets $8 Billion on Your $80 |
 | 2026-11-17 | — | — | — | 0 | Your 2013 Xbox One Can Play GTA 6 on Day One |
 | 2026-11-16c | 293 | 138 | — | 431 | Rockstar Made 2 of the 5 Best-Selling Games Ever |
@@ -17,7 +17,7 @@ Updated 2026-11-17. YouTube Analytics lags 1-3 days.
 | published | views | avg view % | avg view s | likes | shares | subs+ | title |
 |---|---|---|---|---|---|---|---|
 | 2026-11-17 | 3 | — | — | 0 | — | — | GTA 6: Take-Two Bets $8 Billion on Your $80 |
-| 2026-11-17 | 942 | — | — | 7 | — | — | Elden Ring Costs You $1 an Hour. Worth It? |
+| 2026-11-17 | 957 | — | — | 8 | — | — | Elden Ring Costs You $1 an Hour. Worth It? |
 | 2026-11-16 | 790 | — | — | 12 | — | — | GTA 6 Might Make $1 Billion Before You Can Even Play It |
 | 2026-11-16 | 282 | — | — | 0 | — | — | GTA 6 Costs You $79.99. GTA 5 Cost More |
 | 2026-11-16 | 293 | — | — | 2 | — | — | Rockstar Made 2 of the 5 Best-Selling Games Ever |
