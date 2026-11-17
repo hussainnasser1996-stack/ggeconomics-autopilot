@@ -8,7 +8,7 @@ os.environ["OAUTHLIB_RELAX_TOKEN_SCOPE"] = "1"
 from google_auth_oauthlib.flow import InstalledAppFlow
 K = Path(__file__).resolve().parents[1] / "keys"
 SCOPES = ["https://www.googleapis.com/auth/youtube", "https://www.googleapis.com/auth/youtube.upload",
-          "https://www.googleapis.com/auth/yt-analytics.readonly"]
+          "https://www.googleapis.com/auth/yt-analytics.readonly", "https://www.googleapis.com/auth/youtube.force-ssl"]
 flow = InstalledAppFlow.from_client_secrets_file(str(K / "youtube-credentials.json"), SCOPES)
 s = socket.socket(); s.bind(("127.0.0.1", 0)); port = s.getsockname()[1]; s.close()
 creds = flow.run_local_server(port=port, open_browser=False, prompt="consent", access_type="offline",
