@@ -7,7 +7,7 @@ export type Clip = { src: string; from: number; dur: number; zoom?: number; x?: 
 export type Timeline = { duration: number; lines: { id: string; start: number; end: number }[]; words: { w: string; s: number; e: number }[] };
 export type ShortSpec = {
   tag: string; topic: string; vo: string; timeline: Timeline; clips: Clip[]; cards: Card[];
-  credit: string; endLine: string; noBed?: boolean; hideBroll?: boolean; headline?: string; sfxOn?: Record<string, string>; layout?: "full" | "feed";
+  credit: string; endLine: string; noBed?: boolean; noCaptions?: boolean; hideBroll?: boolean; headline?: string; sfxOn?: Record<string, string>; layout?: "full" | "feed";
 };
 
 export const END = 54; // frames of end card after VO
@@ -185,7 +185,8 @@ export const NewsShort: React.FC<{ spec: ShortSpec }> = ({ spec }) => {
         );
       })}
       {spec.headline && <Headline text={spec.headline} top={205 * u} padL={L.padL} padR={L.padR} voEnd={voEnd} />}
-      <Captions words={spec.timeline.words} y={L.capY} padL={L.padL} padR={L.padR} />
+      {/* music-only "edit" format: nobody speaks, so no word-by-word captions (Husain 17 Nov) */}
+      {!spec.noCaptions && <Captions words={spec.timeline.words} y={L.capY} padL={L.padL} padR={L.padR} />}
       <TopBar spec={spec} total={total} padR={L.padR} padL={L.padL} />
       <div style={{ position: "absolute", bottom: L.creditBottom, left: L.padL, right: L.padR, textAlign: "center", fontFamily: MONO, fontSize: 20 * u, color: "rgba(255,255,255,0.55)", letterSpacing: 2 * u }}>{spec.credit}</div>
       <Sequence from={voEnd - 6}>

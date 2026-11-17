@@ -5,6 +5,8 @@ D=$1; GN="$(cd "$(dirname $0)/../.." && pwd)"; Q="$GN/autopilot/queue/$D"
 cd "$GN"
 ID=$(python3 -c "import json;print(json.load(open('$Q/script.json'))['id'])")
 .venv/bin/python src/vo.py "$Q/script.json" "studio/public/vo/$ID" 2>&1 | grep -E "^(duration|HEARD)" | tee "$Q/vo_qa.txt"
+# music-only "edit" format: no spoken words, so no karaoke captions (Husain 17 Nov)
+python3 -c "import json;q='$Q';e=json.load(open(q+'/script.json')).get('mode')=='edit';s=json.load(open(q+'/spec.json'));s['spec']['noCaptions']=e;json.dump(s,open(q+'/spec.json','w'),indent=1)"
 # cloud build: no eyes on contact sheets, so clips are chosen by autopick.py when the brain left them empty
 if python3 -c "import json,sys;sys.exit(0 if not json.load(open('$Q/spec.json'))['spec'].get('clips') else 1)"; then
   .venv/bin/python autopilot/scripts/autopick.py "$D"
