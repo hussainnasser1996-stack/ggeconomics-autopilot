@@ -17,8 +17,11 @@ jobs:
         with: { python-version: "3.11" }
       - name: YouTube token
         env: { YT: "${{ secrets.YT_TOKEN_JSON }}" }
-        run: mkdir -p autopilot/keys && printf '%s' "$YT" > autopilot/keys/youtube-token.json && pip install -q google-api-python-client google-auth
+        run: mkdir -p autopilot/keys && printf '%s' "$YT" > autopilot/keys/youtube-token.json && pip install -q google-api-python-client google-auth google-auth-oauthlib
       - run: python3 autopilot/scripts/monitor.py
+      - name: Analytics (scoreboard for the brain)
+        continue-on-error: true
+        run: python3 autopilot/scripts/analytics.py
       - run: rm -f autopilot/keys/youtube-token.json
       - name: Save
         run: |
