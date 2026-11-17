@@ -1,14 +1,14 @@
-# Delivery check · 2026-11-17 15:11 UTC
+# Delivery check · 2026-11-17 20:16 UTC
 
 ## Problems
 - none
 
-Buffer scheduled per channel: youtube_short 4, instagram_reel 4, tiktok_video 5, instagram_carousel 1
+Buffer scheduled per channel: youtube_short 3, instagram_reel 3, tiktok_video 3, instagram_carousel 1
 
-GitHub Actions minutes used this month: ~642 of 2,000 (free tier, private repo)
+GitHub Actions minutes used this month: ~643 of 2,000 (free tier, private repo)
 
 ## Actions taken
-- 2026-11-17c: {'video': 'zK7fa0dTrDc', 'series': 'cost_per_hour', 'playlist': 'ok', 'blocked_in': 0, 'allowed_only': None, 'music': 'game', 'localized': ['ar', 'en', 'es', 'hi', 'id', 'pt-BR']}
+- 2026-11-17b: {'video': 'qk-9G5Knq5U', 'series': 'gta6', 'playlist': 'ok', 'blocked_in': 0, 'allowed_only': None, 'music': 'library', 'localized': ['ar', 'en', 'es', 'hi', 'id', 'pt-BR']}
 
 | post | channel | status | sent/due | link | title |
 |---|---|---|---|---|---|
@@ -22,12 +22,12 @@ GitHub Actions minutes used this month: ~642 of 2,000 (free tier, private repo)
 | 2026-11-17 | youtube_short | scheduled | 2026-11-17T23:00:00.000Z |  | Your 2013 Xbox One Can Play GTA 6 on Day One |
 | 2026-11-17 | instagram_reel | scheduled | 2026-11-17T23:00:00.000Z |  | Your 2013 Xbox One Can Play GTA 6 on Day One |
 | 2026-11-17 | tiktok_video | scheduled | 2026-11-17T23:00:00.000Z |  | Your 2013 Xbox One Can Play GTA 6 on Day One |
-| 2026-11-17b | youtube_short | scheduled | 2026-11-17T16:00:00.000Z |  | GTA 6: Take-Two Bets $8 Billion on Your $80 |
-| 2026-11-17b | instagram_reel | scheduled | 2026-11-17T16:00:00.000Z |  | GTA 6: Take-Two Bets $8 Billion on Your $80 |
-| 2026-11-17b | tiktok_video | scheduled | 2026-11-17T16:00:00.000Z |  | GTA 6: Take-Two Bets $8 Billion on Your $80 |
+| 2026-11-17b | youtube_short | sent | 2026-11-17T16:03:55.393Z | https://www.youtube.com/shorts/qk-9G5Knq5U | GTA 6: Take-Two Bets $8 Billion on Your $80 |
+| 2026-11-17b | instagram_reel | sent | 2026-11-17T16:05:12.292Z | https://www.instagram.com/reel/Df2UVO3uU6Q/ | GTA 6: Take-Two Bets $8 Billion on Your $80 |
+| 2026-11-17b | tiktok_video | sent | 2026-11-17T16:04:18.301Z | https://tiktok.com/@ggeconomics/video/7709171076160441601 | GTA 6: Take-Two Bets $8 Billion on Your $80 |
 | 2026-11-17c | youtube_short | sent | 2026-11-17T12:02:37.768Z | https://www.youtube.com/shorts/zK7fa0dTrDc | Elden Ring Costs You $1 an Hour. Worth It? |
 | 2026-11-17c | instagram_reel | sent | 2026-11-17T12:04:18.448Z | https://www.instagram.com/reel/Df14vsSTiBZ/ | Elden Ring Costs You $1 an Hour. Worth It? |
-| 2026-11-17c | tiktok_video | scheduled | 2026-11-17T20:00:00.000Z |  | Elden Ring Costs You $1 an Hour. Worth It? |
+| 2026-11-17c | tiktok_video | sent | 2026-11-17T20:02:40.954Z | https://tiktok.com/@ggeconomics/video/7709233030115855624 | Elden Ring Costs You $1 an Hour. Worth It? |
 | 2026-11-18 | youtube_short | scheduled | 2026-11-18T23:00:00.000Z |  | GTA 6 Unlocks Tonight: You Need 212 GB Free |
 | 2026-11-18 | instagram_reel | scheduled | 2026-11-18T23:00:00.000Z |  | GTA 6 Unlocks Tonight: You Need 212 GB Free |
 | 2026-11-18 | instagram_carousel | scheduled | 2026-11-18T15:00:00.000Z |  | GTA 6 Unlocks Tonight: You Need 212 GB Free |

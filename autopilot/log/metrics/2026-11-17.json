@@ -3,37 +3,44 @@
  "youtube": {
   "channel": {
    "id": "UCpsoR_hS2XJT-Yv7UN0qZbQ",
-   "viewCount": 519,
+   "viewCount": 1335,
    "subscriberCount": 0,
-   "videoCount": 4
+   "videoCount": 5
   },
   "traffic_sources": {},
   "videos": {
+   "qk-9G5Knq5U": {
+    "title": "GTA 6: Take-Two Bets $8 Billion on Your $80",
+    "published": "2026-11-17",
+    "views": 3,
+    "likes": 0,
+    "comments": 0
+   },
    "zK7fa0dTrDc": {
     "title": "Elden Ring Costs You $1 an Hour. Worth It?",
     "published": "2026-11-17",
-    "views": 538,
-    "likes": 5,
-    "comments": 0
+    "views": 907,
+    "likes": 7,
+    "comments": 1
    },
    "xee1vvJZ5L4": {
     "title": "GTA 6 Might Make $1 Billion Before You Can Even Play It",
     "published": "2026-11-16",
-    "views": 783,
+    "views": 790,
     "likes": 12,
     "comments": 0
    },
    "ct7tlizYNYQ": {
     "title": "GTA 6 Costs You $79.99. GTA 5 Cost More",
     "published": "2026-11-16",
-    "views": 275,
+    "views": 281,
     "likes": 0,
     "comments": 0
    },
    "2lyn0JAlPoU": {
     "title": "Rockstar Made 2 of the 5 Best-Selling Games Ever",
     "published": "2026-11-16",
-    "views": 292,
+    "views": 293,
     "likes": 2,
     "comments": 0
    }
@@ -43,7 +50,30 @@
   "6afb503e08dd018050080464": {
    "sent": "2026-11-17",
    "text": "A movie costs you $6 an hour. Elden Ring costs $1. Go 100% a",
-   "link": "https://www.instagram.com/reel/Df14vsSTiBZ/"
+   "link": "https://www.instagram.com/reel/Df14vsSTiBZ/",
+   "reactions": 0,
+   "comments": 0,
+   "engagementRate": 0,
+   "views": 127,
+   "shares": 0,
+   "saves": 0,
+   "totalTimeWatched": 14.12,
+   "averageTimeWatched": 7.92,
+   "reach": 108
+  },
+  "6afb41ba606b091c7f621ad5": {
+   "sent": "2026-11-17",
+   "text": "Take-Two needs $8 billion this year. Last quarter it made $1",
+   "link": "https://www.instagram.com/reel/Df2UVO3uU6Q/",
+   "reactions": 0,
+   "comments": 0,
+   "engagementRate": 0,
+   "views": 125,
+   "shares": 0,
+   "saves": 0,
+   "totalTimeWatched": 12.57,
+   "averageTimeWatched": 6.92,
+   "reach": 109
   },
   "6afaf1f591ba8aa74bd17c3f": {
    "sent": "2026-11-16",
@@ -51,13 +81,13 @@
    "link": "https://www.instagram.com/reel/DfzWFNchCUT/",
    "reactions": 4,
    "comments": 0,
-   "engagementRate": 3.28,
-   "views": 135,
+   "engagementRate": 3.17,
+   "views": 138,
    "shares": 0,
    "saves": 0,
-   "totalTimeWatched": 21.55,
-   "averageTimeWatched": 10.6,
-   "reach": 122
+   "totalTimeWatched": 22.04,
+   "averageTimeWatched": 10.5,
+   "reach": 126
   },
   "6afae8f30c2af02527d9aab7": {
    "sent": "2026-11-16",
@@ -66,12 +96,12 @@
    "reactions": 0,
    "comments": 0,
    "engagementRate": 0,
-   "views": 119,
+   "views": 121,
    "shares": 0,
    "saves": 0,
-   "totalTimeWatched": 10.16,
-   "averageTimeWatched": 5.35,
-   "reach": 113
+   "totalTimeWatched": 10.21,
+   "averageTimeWatched": 5.28,
+   "reach": 115
   },
   "6afa2b2f60a910801c4de745": {
    "sent": "2026-11-16",
@@ -89,316 +119,325 @@
   "6afa2b2e60a910801c4de704": {
    "sent": "2026-11-16",
    "text": "GTA 6 may pass $1 billion before launch day: Sensor Tower es",
-   "link": "https://www.instagram.com/reel/Df0fUTzu2ec/"
+   "link": "https://www.instagram.com/reel/Df0fUTzu2ec/",
+   "reactions": 0,
+   "comments": 0,
+   "engagementRate": 0,
+   "views": 126,
+   "shares": 0,
+   "saves": 0,
+   "totalTimeWatched": 8.97,
+   "averageTimeWatched": 4.52,
+   "reach": 114
   }
  },
  "trending": [
   {
+   "title": "THE GAME AWARDS: 2026 Nominee Reveal! (Game of the Year)",
+   "channel": "thegameawards",
+   "views": 883648,
+   "published": "2026-11-17"
+  },
+  {
    "title": "The Last Modded GTA 5 Free Roam Video...",
    "channel": "SMii7Y",
-   "views": 2520936,
+   "views": 2993727,
    "published": "2026-11-16"
   },
   {
    "title": "\ud83d\udd34LIVE | AOE 2 | GETTING DRUNK ON MONDAY | ME AND JOHN VS HARD BOTS | FART IN MY MOUTH | #BUNGULATE",
    "channel": "TheBurntPeanut",
-   "views": 1382243,
+   "views": 1436799,
    "published": "2026-11-17"
   },
   {
    "title": "Can 1 Champion beat 5 Coppers?",
    "channel": "Jynxzi",
-   "views": 1165616,
-   "published": "2026-11-16"
-  },
-  {
-   "title": "They Locked Me In This Abandoned Building\u2026",
-   "channel": "CaseOh",
-   "views": 501513,
-   "published": "2026-11-16"
-  },
-  {
-   "title": "GTA 6 - Everything You Need to Know",
-   "channel": "TmarTn2",
-   "views": 716716,
+   "views": 1328296,
    "published": "2026-11-16"
   },
   {
    "title": "Less Than 24 Hours to GTA 6... NEW INFO - 6 Screenshots + My Content Plans For Launch",
    "channel": "TGG",
-   "views": 710618,
+   "views": 1128627,
    "published": "2026-11-17"
+  },
+  {
+   "title": "GTA 6 - Everything You Need to Know",
+   "channel": "TmarTn2",
+   "views": 870805,
+   "published": "2026-11-16"
+  },
+  {
+   "title": "They Locked Me In This Abandoned Building\u2026",
+   "channel": "CaseOh",
+   "views": 589524,
+   "published": "2026-11-16"
   },
   {
    "title": "GTA6 Livestream - Nov 18",
    "channel": "VanossGaming",
-   "views": 630958,
+   "views": 746645,
+   "published": "2026-11-17"
+  },
+  {
+   "title": "A Skeptical Look at 'Grand Theft Auto VI'...",
+   "channel": "Luke Stephens",
+   "views": 187687,
    "published": "2026-11-17"
   },
   {
    "title": "GTA 6 MARATHON | Official Trailer",
    "channel": "Kai Cenat Live",
-   "views": 1562951,
+   "views": 1762938,
+   "published": "2026-11-16"
+  },
+  {
+   "title": "Dead by Daylight | The Future of Dead by Daylight Deep Dive",
+   "channel": "Dead by Daylight",
+   "views": 155905,
+   "published": "2026-11-17"
+  },
+  {
+   "title": "I gave birth.",
+   "channel": "Flamingo",
+   "views": 417266,
+   "published": "2026-11-17"
+  },
+  {
+   "title": "We are Going to Sweep... THE MOON!",
+   "channel": "SMii7Yminus",
+   "views": 1530769,
    "published": "2026-11-16"
   },
   {
    "title": "I Taught MY DAUGHTER How To WIN In DRESS TO IMPRESS ROBLOX!",
    "channel": "callmehhaley",
-   "views": 397882,
+   "views": 451676,
    "published": "2026-11-09"
   },
   {
-   "title": "We are Going to Sweep... THE MOON!",
-   "channel": "SMii7Yminus",
-   "views": 1414021,
-   "published": "2026-11-16"
-  },
-  {
-   "title": "I gave birth.",
-   "channel": "Flamingo",
-   "views": 334076,
-   "published": "2026-11-17"
-  },
-  {
-   "title": "The Parkour Podcast...",
-   "channel": "Joe Bart Games",
-   "views": 1129430,
+   "title": "They tried to betray my guild. This is what happened to them.",
+   "channel": "Asmongold TV  ",
+   "views": 824553,
    "published": "2026-11-16"
   },
   {
    "title": "iSHOWSPEED x GTA 6 | OFFICIAL TRAILER",
    "channel": "IShowSpeed",
-   "views": 1737428,
-   "published": "2026-11-16"
-  },
-  {
-   "title": "They tried to betray my guild. This is what happened to them.",
-   "channel": "Asmongold TV  ",
-   "views": 733010,
+   "views": 2125016,
    "published": "2026-11-16"
   },
   {
    "title": "We Ranked EVERY Video Game Song",
    "channel": "Clooless Reacts",
-   "views": 208669,
+   "views": 237561,
    "published": "2026-11-16"
   },
   {
-   "title": "Your Favorite YouTubers are Addicted to Crack",
-   "channel": "SMii7Yplus",
-   "views": 2300153,
-   "published": "2026-11-15"
+   "title": "The Parkour Podcast...",
+   "channel": "Joe Bart Games",
+   "views": 1197800,
+   "published": "2026-11-16"
   },
   {
    "title": "Playing Madden 27 Until I Lose!",
    "channel": "MMG",
-   "views": 213317,
+   "views": 239164,
+   "published": "2026-11-16"
+  },
+  {
+   "title": "Easy WoW Forever Tricks That Save You HOURS",
+   "channel": "Bellular Warcraft",
+   "views": 625211,
    "published": "2026-11-16"
   },
   {
    "title": "Finally a Zombie game where the military is competent",
    "channel": "Anti-Kleaper",
-   "views": 767963,
+   "views": 1116631,
    "published": "2026-11-16"
   },
   {
-   "title": "HIDING in the WOLF KING's Pack!",
-   "channel": "Aphmau",
-   "views": 355679,
-   "published": "2026-11-16"
-  },
-  {
-   "title": "Full Season, But PLINKO Controls My Entire Franchise!",
-   "channel": "YoBoy PIZZA",
-   "views": 117919,
-   "published": "2026-11-16"
+   "title": "I Found The Worst GTA 5 Lore Video... Trevor IS Dumb, Actually",
+   "channel": "DarkViperAU",
+   "views": 191737,
+   "published": "2026-11-17"
   },
   {
    "title": "The TRUTH about ROBLOX RAGDOLL GAMES..",
    "channel": "Tyler & Snowi",
-   "views": 564069,
+   "views": 727531,
    "published": "2026-11-17"
   },
   {
-   "title": "Easy WoW Forever Tricks That Save You HOURS",
-   "channel": "Bellular Warcraft",
-   "views": 459264,
-   "published": "2026-11-16"
+   "title": "Your Favorite YouTubers are Addicted to Crack",
+   "channel": "SMii7Yplus",
+   "views": 2357021,
+   "published": "2026-11-15"
   },
   {
    "title": "GTA 6 Can Do Things GTA 5 NEVER Could",
    "channel": "GrandGecko",
-   "views": 526933,
+   "views": 635565,
    "published": "2026-11-16"
-  },
-  {
-   "title": "GTA 6 Has So Much to Do... It's Actually RIDICULOUS!",
-   "channel": "Hazard",
-   "views": 443718,
-   "published": "2026-11-16"
-  },
-  {
-   "title": "we returned to granny multiplayer...(it went horrible)",
-   "channel": "3FS",
-   "views": 274604,
-   "published": "2026-11-17"
   }
  ],
  "notes": [],
  "outliers": [
   [
-   92.8040156474547,
-   5400024,
+   95.89094478873203,
+   5958446,
    20200,
    "ToonByte X",
    "30 FPS ON PS5 IS NOT YOUR AVERAGE 30 FPS \ud83d\udc80 #gta6 #shorts"
   ],
   [
-   56.629704363279586,
-   4835320,
-   20100,
-   "Gaming With VV",
-   "\ud83d\udd34 LIVE | tiger hunt challange\ud83d\udc06 | GTA V Mods #gtav #gtalive gta v live"
+   50.58527938626548,
+   144336,
+   1240,
+   "Tech VeneRer",
+   "This Gaming Monitor Literally Stopped a Bullet! \ud83e\udd2f"
   ],
   [
-   30.647542586831584,
-   5701072,
-   172000,
-   "Ryezy",
-   "GTA 6 Unboxings In 2017\ud83d\udc80 || #shorts #gta6 #gta5"
+   13.700418476611539,
+   1660446,
+   20000000,
+   "IGN",
+   "NBA 2K27 x GTA 6 (Grand Theft Auto 6) - Official Vice City Crossover Trailer"
   ],
   [
-   14.338947897745701,
-   3474063,
-   2370,
-   "Moshimo",
-   "GTA 6: \"I'll Marry You When It Comes Out\""
-  ],
-  [
-   12.774335775525559,
-   501237,
-   56300,
+   13.032701804309006,
+   512160,
+   56500,
    "Mo'din",
    "\ud83c\udf99\ufe0f\ud83d\ude2d CE COMMENTAIRE A OS\u00c9 il lui a vraiment r\u00e9pondu \u00e7a \u00e0 la fille #gta6"
   ],
   [
-   12.756493471520383,
-   7816100,
-   85100,
-   "Sick Plays",
-   "We Bought a NEW TV For GTA 6 \ud83d\ude0e"
+   12.409922171272358,
+   3702734,
+   2500,
+   "Moshimo",
+   "GTA 6: \"I'll Marry You When It Comes Out\""
   ],
   [
-   10.431315111256307,
-   2873723,
-   4170,
+   8.522107139419884,
+   3074262,
+   4340,
    "VicePulse",
    "GTA 5 vs GTA 6: How Much Of The Map Is Actually Empty?!"
   ],
   [
-   6.829060320380163,
-   54830,
-   148,
+   7.90035455112564,
+   76961,
+   160,
    "Melonauts",
    "Australia and Japan are getting a different version of GTA 6 #gaming  #news"
   ],
   [
-   6.236721061627562,
-   2159015,
-   5440,
-   "GTA Intel",
-   "Robbing Stores in GTA 6 Works Differently To GTA 5"
-  ],
-  [
-   5.974874268160546,
-   234441,
-   56300,
+   7.0728922586877,
+   277951,
+   56500,
    "Mo'din",
    "\ud83c\udf99\ufe0f\ud83d\udcbf SUR PS5 ILS ONT LE DISQUE \u00e0 un moment donn\u00e9 s'il vous pla\u00eet il ne faut pas trop abuser   #gta6"
   ],
   [
-   4.106150386994323,
-   99385,
-   7570,
+   5.384721728001726,
+   2250612,
+   5790,
+   "GTA Intel",
+   "Robbing Stores in GTA 6 Works Differently To GTA 5"
+  ],
+  [
+   4.097513344504633,
+   101383,
+   7630,
    "Thegiacobra",
    "The collector leviathan brought friends #subnautica2 #subnautica #gaming #gamingnews #games"
   ],
   [
-   4.004063199362606,
-   27538213,
-   119000,
-   "GTA6\u2011\u72c2\u91ce\u4e16\u754c",
-   "\u54c7\uff01\u597d\u591a\u7684\u91d1\u5e01#gta  #gta6  #shorts"
-  ],
-  [
-   3.719677228755073,
-   145952,
-   56300,
+   3.921923096078025,
+   154124,
+   56500,
    "Mo'din",
    "\ud83c\udf99\ufe0f\ud83d\ude12 J'ALLAIS PRENDRE UNE PS5 mais au moins nous sur Xbox on a tout \u00e7a   #gta6"
   ],
   [
-   3.703991618108383,
-   1980654,
-   1430000,
-   "Notkausa",
-   "Este GTA 6 ta raro #gta #ps5"
+   3.8463570805285023,
+   27814070,
+   120000,
+   "GTA6\u2011\u72c2\u91ce\u4e16\u754c",
+   "\u54c7\uff01\u597d\u591a\u7684\u91d1\u5e01#gta  #gta6  #shorts"
   ],
   [
-   3.573807984990543,
-   3379835,
-   30100,
-   "GTA6 Stories",
-   "#gta  #gta6  #gta6stories"
-  ],
-  [
-   3.5721342315957676,
-   61054,
-   3390,
+   3.645902315778403,
+   62737,
+   3400,
    "Rocky",
    "Llevaba 20 meses pagando Fortnite\u2026 SIN JUGARLO \ud83d\udc80"
   ],
   [
-   3.151679212987805,
-   123665,
-   56300,
+   3.6063087862592296,
+   1507302,
+   5790,
+   "GTA Intel",
+   "GTA 6 Police Are Smarter Than Ever..."
+  ],
+  [
+   3.42566460149111,
+   134622,
+   56500,
    "Mo'din",
    "\ud83d\ude02 127 ANS AVANT QUE LE JEU NE SORTE  #gta6 \ud83e\udd23\ud83c\udfae"
   ],
   [
-   3.0737474078948273,
-   5873704,
+   3.405077037793045,
+   3567853,
+   32000,
+   "GTA6 Stories",
+   "#gta  #gta6  #gta6stories"
+  ],
+  [
+   3.2948934785820336,
+   6295020,
    6880000,
    "\u730e\u9b54\u7684\u5951\u7ea6",
    "\u662f\u8c01\u7ed1\u4f4f\u4e86\u5c3c\u514b\u72d0#gta  #gta6  #shorts"
   ],
   [
-   2.776655748839735,
-   19096636,
-   119000,
+   2.8107094432226245,
+   20325016,
+   120000,
    "GTA6\u2011\u72c2\u91ce\u4e16\u754c",
    "\u5927\u5bb6\u4e3a\u4f55\u8981\u963b\u6b62\u9732\u897f\u4e9a\uff1f#gta  #gta6  #shorts"
   ],
   [
-   1.9447057293999712,
-   76306,
-   56300,
-   "Mo'din",
-   "\ud83c\udf34 LA SOUFFRANCE DES DERNIERS JEUX qu'il faut d\u00e9sinstaller pour lib\u00e9rer de l'espace  #gta6 \ud83e\udd23\ud83c\udfae"
+   2.2404363447141757,
+   1978484,
+   2640000,
+   "OkCron",
+   "5 NIGHTS UNTIL GTA 6 \ud83d\udc3b\ud83d\udea8"
+  ],
+  [
+   1.9909245119127676,
+   1336953,
+   1510000,
+   "FANTIZ GAMING",
+   "Can I Go To GTA 6 By Eating Secret Fruit in GTA 5?"
   ]
  ],
  "per_post": {
   "2026-11-17c": {
    "title": "Elden Ring Costs You $1 an Hour. Worth It?",
-   "youtube_short": 538,
-   "instagram_reel": null,
+   "youtube_short": 907,
+   "instagram_reel": 127,
    "instagram_carousel": null,
    "tiktok_video": null
   },
   "2026-11-17b": {
    "title": "GTA 6: Take-Two Bets $8 Billion on Your $80",
-   "youtube_short": null,
-   "instagram_reel": null,
+   "youtube_short": 3,
+   "instagram_reel": 125,
    "instagram_carousel": null,
    "tiktok_video": null
   },
@@ -411,22 +450,22 @@
   },
   "2026-11-16c": {
    "title": "Rockstar Made 2 of the 5 Best-Selling Games Ever",
-   "youtube_short": 292,
-   "instagram_reel": 135,
+   "youtube_short": 293,
+   "instagram_reel": 138,
    "instagram_carousel": null,
    "tiktok_video": null
   },
   "2026-11-16b": {
    "title": "GTA 6 Costs You $79.99. GTA 5 Cost More",
-   "youtube_short": 275,
-   "instagram_reel": 119,
+   "youtube_short": 281,
+   "instagram_reel": 121,
    "instagram_carousel": null,
    "tiktok_video": null
   },
   "2026-11-16": {
    "title": "GTA 6 Might Make $1 Billion Before You Can Even Play It",
-   "youtube_short": 783,
-   "instagram_reel": null,
+   "youtube_short": 790,
+   "instagram_reel": 126,
    "instagram_carousel": 0,
    "tiktok_video": null
   }
