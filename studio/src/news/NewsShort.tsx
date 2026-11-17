@@ -177,7 +177,7 @@ export const NewsShort: React.FC<{ spec: ShortSpec }> = ({ spec }) => {
         const d = Math.round(l.end * fps) - from + 10;
         return (
           <Sequence key={i} from={from} durationInFrames={d}>
-            <Audio src={staticFile("sfx/whoosh.wav")} volume={0.35} />
+            {/* no whoosh on text changes: Husain 17 Nov, it sounds AI-made */}
             <AbsoluteFill style={{ alignItems: "center", justifyContent: "flex-start", paddingTop: L.cardTop, paddingLeft: L.padL, paddingRight: L.padR }}>
               <div style={{ transform: `scale(${L.cardScale})`, transformOrigin: "top center" }}><CardLocal card={c} d={d} u={u} /></div>
             </AbsoluteFill>

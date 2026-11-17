@@ -31,7 +31,7 @@ different format (see the format menu). Do steps 2–6 once per post.
    facts or clearly labelled rumours; never present a rumour as fact.
 5. **Weekly money scoreboard (Sundays, main slot + carousel):** the week's 3–5 biggest numbers (sales, prices, stock moves,
    layoffs) with up/down arrows.
-7. **Music-only edit** (`"mode": "edit"` in script.json; 1 of the day's posts): NO narration. Gameplay cut to the game's own
+7. **Music-only edit** (`"mode": "edit"` in script.json; Husain 17 Nov: the DEFAULT format: at least 2 of the day's 3 posts, all extra slots first; narrated only for the 23:00 main when the story needs explaining): NO narration. Gameplay cut to the game's own
    soundtrack with big on-screen text: 4–6 lines of 2–8 words each (e.g. "GTA 6 runs at 30 FPS" / "on every console" /
    "PS5 Pro too" / "Is that a problem?"). Every line is read on screen, so the number goes in line 1. 12–20 s, loops.
    Evidence (16 Nov study of 40 top gaming Shorts): music-only GTA/console Shorts had a median 6.2M views vs 3.8M narrated
