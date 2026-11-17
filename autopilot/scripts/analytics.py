@@ -123,7 +123,7 @@ for q in sorted((AP / "queue").iterdir(), reverse=True):
         v = None if p is None else p.get("views", p.get("reach"))
         return None if v is None else int(float(v))
     per_post[q.name] = {"title": title, "youtube_short": yv["views"] if yv else None,
-                        "instagram_reel": ig("instagram_reel"), "instagram_carousel": ig("instagram_carousel")}
+                        "instagram_reel": ig("instagram_reel"), "instagram_carousel": ig("instagram_carousel"), "tiktok_video": ig("tiktok_video")}
 out["per_post"] = per_post
 
 (AP / "log/metrics").mkdir(parents=True, exist_ok=True)
