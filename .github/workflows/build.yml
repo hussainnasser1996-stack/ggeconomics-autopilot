@@ -85,10 +85,10 @@ jobs:
           GIT_SSH_COMMAND="ssh -i $HOME/.ssh/media -o StrictHostKeyChecking=accept-new" git clone -q git@github.com:hussainnasser1996-stack/savestate-media.git "$MEDIA_REPO_DIR"
       - name: Footage
         if: steps.d.outputs.go == '1'
-        run: PATH=$PWD/.venv/bin:$PATH python3 autopilot/scripts/resolve_footage.py "$D"
+        run: PATH=$PWD/.venv/bin:$PATH python3 autopilot/scripts/resolve_footage.py "$D" || { touch "autopilot/queue/$D/gates_failed"; exit 1; }
       - name: Voice, clips, render, checks
         if: steps.d.outputs.go == '1'
-        run: PATH=$PWD/.venv/bin:$PATH zsh autopilot/scripts/build.sh "$D"
+        run: PATH=$PWD/.venv/bin:$PATH zsh autopilot/scripts/build.sh "$D" || { touch "autopilot/queue/$D/gates_failed"; exit 1; }
       - name: Carousel
         if: steps.d.outputs.go == '1'
         run: bash autopilot/scripts/carousel.sh "$D"
