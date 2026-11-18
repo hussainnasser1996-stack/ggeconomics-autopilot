@@ -1,0 +1,4 @@
+VO similarity 1.00
+duration 14.7s
+FAIL
+critic CAPTION_LEGIBLE not PASS

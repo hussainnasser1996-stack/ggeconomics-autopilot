@@ -1,8 +1,8 @@
 {
  "spec": {
-  "tag": "BALDUR'S GATE 3 · COST PER HOUR",
-  "headline": "BALDUR'S GATE 3 COSTS |82¢ AN HOUR|",
-  "topic": "Baldur's Gate 3 $59.99 on Steam (US) ÷ HowLongToBeat main story 73 h = $0.82/h; completionist 181 h = $0.33/h; vs ~$12 movie for 2 h = $6/h",
+  "tag": "BALDUR'S GATE 3 \u00b7 COST PER HOUR",
+  "headline": "BALDUR'S GATE 3 COSTS |82\u00a2 AN HOUR|",
+  "topic": "Baldur's Gate 3 $59.99 on Steam (US) \u00f7 HowLongToBeat main story 73 h = $0.82/h; completionist 181 h = $0.33/h; vs ~$12 movie for 2 h = $6/h",
   "vo": "vo/d_2026_11_18c/vo.wav",
   "timelinePath": "vo/d_2026_11_18c/timeline.json",
   "timeline": {
@@ -11,21 +11,76 @@
    "words": []
   },
   "noBed": true,
-  "clips": [],
+  "clips": [
+   {
+    "src": "d_2026_11_18c",
+    "from": 61.85,
+    "dur": 2.2,
+    "shot": 30
+   },
+   {
+    "src": "d_2026_11_18c",
+    "from": 27.32,
+    "dur": 2.2,
+    "shot": 11
+   },
+   {
+    "src": "d_2026_11_18c",
+    "from": 70.99,
+    "dur": 1.4,
+    "shot": 34
+   },
+   {
+    "src": "d_2026_11_18c",
+    "from": 81.72,
+    "dur": 1.2,
+    "shot": 41
+   },
+   {
+    "src": "d_2026_11_18c",
+    "from": 45.32,
+    "dur": 2.13,
+    "shot": 21
+   },
+   {
+    "src": "d_2026_11_18c",
+    "from": 13.59,
+    "dur": 2.2,
+    "shot": 4
+   },
+   {
+    "src": "d_2026_11_18c",
+    "from": 75.39,
+    "dur": 2.2,
+    "shot": 37
+   },
+   {
+    "src": "d_2026_11_18c",
+    "from": 41.79,
+    "dur": 1.77,
+    "shot": 19
+   },
+   {
+    "src": "d_2026_11_18c",
+    "from": 21.19,
+    "dur": 1.2,
+    "shot": 7
+   }
+  ],
   "cards": [
    {
     "kind": "big",
     "line": "hook",
-    "value": "82¢/HR",
+    "value": "82\u00a2/HR",
     "label": "Baldur's Gate 3, main story",
-    "note": "$59.99 Steam ÷ 73 h HowLongToBeat · our math",
+    "note": "$59.99 Steam \u00f7 73 h HowLongToBeat \u00b7 our math",
     "color": "#D4FF3A"
    },
    {
     "kind": "pair",
     "line": "movie",
     "a": {
-     "value": "82¢/HR",
+     "value": "82\u00a2/HR",
      "label": "BALDUR'S GATE 3"
     },
     "b": {
@@ -37,13 +92,14 @@
    {
     "kind": "big",
     "line": "full",
-    "value": "33¢/HR",
+    "value": "33\u00a2/HR",
     "label": "if you go 100%",
-    "note": "181 h completionist · HowLongToBeat",
+    "note": "181 h completionist \u00b7 HowLongToBeat",
     "color": "#D4FF3A"
    }
   ],
-  "credit": "GAMEPLAY: LARIAN STUDIOS · DATA: STEAM, HOWLONGTOBEAT",
-  "endLine": "FOLLOW FOR COST PER HOUR"
+  "credit": "GAMEPLAY: LARIAN STUDIOS \u00b7 DATA: STEAM, HOWLONGTOBEAT",
+  "endLine": "FOLLOW FOR COST PER HOUR",
+  "noCaptions": true
  }
 }

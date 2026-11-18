@@ -12,17 +12,17 @@ Updated 2026-11-18. YouTube Analytics lags 1-3 days.
 | 2026-11-17b | 3 | 126 | — | 129 | GTA 6: Take-Two Bets $8 Billion on Your $80 |
 | 2026-11-17 | — | — | — | 0 | Your 2013 Xbox One Can Play GTA 6 on Day One |
 | 2026-11-16c | 293 | 138 | — | 431 | Rockstar Made 2 of the 5 Best-Selling Games Ever |
-| 2026-11-16b | 283 | 121 | — | 404 | GTA 6 Costs You $79.99. GTA 5 Cost More |
+| 2026-11-16b | 282 | 121 | — | 403 | GTA 6 Costs You $79.99. GTA 5 Cost More |
 | 2026-11-16 | 795 | 126 | 0 | 921 | GTA 6 Might Make $1 Billion Before You Can Even Play It |
 
 ## YouTube
 | published | views | avg view % | avg view s | likes | shares | subs+ | title |
 |---|---|---|---|---|---|---|---|
-| 2026-11-17 | 252 | — | — | 8 | — | — | Your 2013 Xbox One Can Play GTA 6 on Day One |
+| 2026-11-17 | 255 | — | — | 9 | — | — | Your 2013 Xbox One Can Play GTA 6 on Day One |
 | 2026-11-17 | 3 | — | — | 0 | — | — | GTA 6: Take-Two Bets $8 Billion on Your $80 |
 | 2026-11-17 | 1034 | — | — | 9 | — | — | Elden Ring Costs You $1 an Hour. Worth It? |
 | 2026-11-16 | 795 | — | — | 12 | — | — | GTA 6 Might Make $1 Billion Before You Can Even Play It |
-| 2026-11-16 | 283 | — | — | 0 | — | — | GTA 6 Costs You $79.99. GTA 5 Cost More |
+| 2026-11-16 | 282 | — | — | 0 | — | — | GTA 6 Costs You $79.99. GTA 5 Cost More |
 | 2026-11-16 | 293 | — | — | 2 | — | — | Rockstar Made 2 of the 5 Best-Selling Games Ever |
 
 ## Instagram
