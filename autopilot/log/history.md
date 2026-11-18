@@ -1,5 +1,6 @@
 # Post history (newest first)
 
+- 2026-11-18 · GTA 6 Unlocks Tonight: You Need 212 GB Free · footage: gta6_trailer_VQRLujxTm3c.mp4 · VO similarity 0.95 · youtube_short 6afde94e33817c1785c4ec70 · instagram_reel 6afde94fa11f24337a116174 · tiktok_video 6afde95033817c1785c4ed0d · due 23:00 UTC
 - 2026-11-18b · GTA 6 Beat Cyberpunk's 8M Pre-Order Record? · footage: gta6_trailer_VQRLujxTm3c.mp4 · VO similarity 1.00 · youtube_short 6afd6a843c888574260e016d · instagram_reel 6afd6a85d015b337f13ede74 · tiktok_video 6afd6a8545783105f43c296f · due 23:00 UTC
 - 2026-11-18c · Baldur's Gate 3 Costs You 82¢ an Hour. Worth It? · footage: Baldur's Gate 3 — Baldur's Gate 3 - Launch Trailer · VO similarity 1.00 · youtube_short 6afd6267d015b337f13b9f64 · instagram_reel 6afd62673c888574260b0e7a · tiktok_video 6afd62683c888574260b0ebf · due 23:00 UTC
 - 2026-11-18b · GTA 6 Beat Cyberpunk's 8M Pre-Order Record? · footage: gta6_official_features.mp4 · VO similarity 1.00 · youtube_short 6afcf19df0c5ce9361ae8f87 · instagram_reel 6afcf19ef0c5ce9361ae8fea · tiktok_video 6afcf19fab47737bddb70792 · due 23:00 UTC

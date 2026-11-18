@@ -11,7 +11,92 @@
    "words": []
   },
   "noBed": true,
-  "clips": [],
+  "clips": [
+   {
+    "src": "d_2026_11_18",
+    "from": 140.19,
+    "dur": 1.6,
+    "shot": 65
+   },
+   {
+    "src": "d_2026_11_18",
+    "from": 49.99,
+    "dur": 1.8,
+    "shot": 16
+   },
+   {
+    "src": "d_2026_11_18",
+    "from": 18.99,
+    "dur": 1.4,
+    "shot": 6
+   },
+   {
+    "src": "d_2026_11_18",
+    "from": 92.12,
+    "dur": 2.2,
+    "shot": 35
+   },
+   {
+    "src": "d_2026_11_18",
+    "from": 117.25,
+    "dur": 1.54,
+    "shot": 52
+   },
+   {
+    "src": "d_2026_11_18",
+    "from": 41.72,
+    "dur": 2.2,
+    "shot": 14
+   },
+   {
+    "src": "d_2026_11_18",
+    "from": 83.25,
+    "dur": 1.8,
+    "shot": 28
+   },
+   {
+    "src": "d_2026_11_18",
+    "from": 13.79,
+    "dur": 2.2,
+    "shot": 5
+   },
+   {
+    "src": "d_2026_11_18",
+    "from": 38.52,
+    "dur": 2.2,
+    "shot": 13
+   },
+   {
+    "src": "d_2026_11_18",
+    "from": 96.25,
+    "dur": 1.34,
+    "shot": 36
+   },
+   {
+    "src": "d_2026_11_18",
+    "from": 111.45,
+    "dur": 2.2,
+    "shot": 50
+   },
+   {
+    "src": "d_2026_11_18",
+    "from": 33.32,
+    "dur": 1.2,
+    "shot": 11
+   },
+   {
+    "src": "d_2026_11_18",
+    "from": 115.72,
+    "dur": 1.33,
+    "shot": 51
+   },
+   {
+    "src": "d_2026_11_18",
+    "from": 27.45,
+    "dur": 1.49,
+    "shot": 9
+   }
+  ],
   "cards": [
    {
     "kind": "big",
@@ -44,6 +129,7 @@
    }
   ],
   "credit": "FOOTAGE: ROCKSTAR GAMES \u00b7 DATA: ROCKSTAR, XBOX WIRE, VGC, GAME INFORMER",
-  "endLine": "LAUNCH NIGHT \u00b7 FOLLOW FOR DAY ONE"
+  "endLine": "LAUNCH NIGHT \u00b7 FOLLOW FOR DAY ONE",
+  "noCaptions": false
  }
 }
