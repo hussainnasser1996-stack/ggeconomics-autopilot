@@ -8,22 +8,22 @@ Updated 2026-11-18. YouTube Analytics lags 1-3 days.
 |---|---|---|---|---|---|
 | 2026-11-18c | — | — | — | 0 | Baldur's Gate 3 Costs You 82¢ an Hour. Worth It? |
 | 2026-11-18 | — | — | — | 0 | GTA 6 Unlocks Tonight: You Need 212 GB Free |
-| 2026-11-17c | 1144 | 127 | — | 1271 | Elden Ring Costs You $1 an Hour. Worth It? |
+| 2026-11-17c | 1146 | 127 | — | 1273 | Elden Ring Costs You $1 an Hour. Worth It? |
 | 2026-11-17b | 5 | 126 | — | 131 | GTA 6: Take-Two Bets $8 Billion on Your $80 |
-| 2026-11-17 | 464 | — | — | 464 | Your 2013 Xbox One Can Play GTA 6 on Day One |
-| 2026-11-16c | 294 | 138 | — | 432 | Rockstar Made 2 of the 5 Best-Selling Games Ever |
+| 2026-11-17 | 469 | — | — | 469 | Your 2013 Xbox One Can Play GTA 6 on Day One |
+| 2026-11-16c | 293 | 138 | — | 431 | Rockstar Made 2 of the 5 Best-Selling Games Ever |
 | 2026-11-16b | 288 | 121 | — | 409 | GTA 6 Costs You $79.99. GTA 5 Cost More |
-| 2026-11-16 | 803 | 126 | 0 | 929 | GTA 6 Might Make $1 Billion Before You Can Even Play It |
+| 2026-11-16 | 805 | 126 | 0 | 931 | GTA 6 Might Make $1 Billion Before You Can Even Play It |
 
 ## YouTube
 | published | views | avg view % | avg view s | likes | shares | subs+ | title |
 |---|---|---|---|---|---|---|---|
-| 2026-11-17 | 464 | — | — | 9 | — | — | Your 2013 Xbox One Can Play GTA 6 on Day One |
+| 2026-11-17 | 469 | — | — | 9 | — | — | Your 2013 Xbox One Can Play GTA 6 on Day One |
 | 2026-11-17 | 5 | — | — | 0 | — | — | GTA 6: Take-Two Bets $8 Billion on Your $80 |
-| 2026-11-17 | 1144 | — | — | 9 | — | — | Elden Ring Costs You $1 an Hour. Worth It? |
-| 2026-11-16 | 803 | — | — | 12 | — | — | GTA 6 Might Make $1 Billion Before You Can Even Play It |
+| 2026-11-17 | 1146 | — | — | 9 | — | — | Elden Ring Costs You $1 an Hour. Worth It? |
+| 2026-11-16 | 805 | — | — | 12 | — | — | GTA 6 Might Make $1 Billion Before You Can Even Play It |
 | 2026-11-16 | 288 | — | — | 0 | — | — | GTA 6 Costs You $79.99. GTA 5 Cost More |
-| 2026-11-16 | 294 | — | — | 2 | — | — | Rockstar Made 2 of the 5 Best-Selling Games Ever |
+| 2026-11-16 | 293 | — | — | 2 | — | — | Rockstar Made 2 of the 5 Best-Selling Games Ever |
 
 ## Instagram
 | sent | views | reach | likes | comments | shares | saves | follows | avg watch s | post |
