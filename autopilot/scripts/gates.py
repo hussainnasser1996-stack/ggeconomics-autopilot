@@ -23,7 +23,7 @@ sim = 1.0 if edit else difflib.SequenceMatcher(None, norm(script), norm(heard)).
 if not edit and sim < 0.80: bad.append(f"VO similarity {sim:.2f} < 0.80 (heard: {heard.strip()[:200]})")
 if "OVERLAY SAFE: PASS" not in (Q / "overlay_safe.txt").read_text(): bad.append("overlay safe zones FAIL")
 crit = (Q / "critic.txt").read_text() if (Q / "critic.txt").exists() else ""
-for g in ("CONTRAST_MIN", "CAPTION_LEGIBLE"):
+for g in (("CONTRAST_MIN",) if edit else ("CONTRAST_MIN", "CAPTION_LEGIBLE")):   # music-only edits have no word captions (17 Nov)
     if not re.search(rf"PASS \[[^\]]*\] {g}", crit): bad.append(f"critic {g} not PASS")
 # countdowns must agree everywhere (17b, 16 Nov: badge "2 DAYS TO GO", last line "1 day to go")
 WN = {"one": 1, "two": 2, "three": 3, "four": 4, "five": 5, "six": 6, "seven": 7, "a": 1}
