@@ -4,22 +4,22 @@ Updated 2026-11-18. YouTube Analytics lags 1-3 days.
 
 ## Per post: views by platform
 (— = not sent yet / no metrics yet; carousel shows reach when Buffer gives no views)
-| post | YouTube Short | IG Reel | IG carousel | total | title |
-|---|---|---|---|---|---|
-| 2026-11-18c | — | — | — | 0 | Baldur's Gate 3 Costs You 82¢ an Hour. Worth It? |
-| 2026-11-18b | — | — | — | 0 | GTA 6 Beat Cyberpunk's 8M Pre-Order Record? |
-| 2026-11-18 | — | — | — | 0 | GTA 6 Unlocks Tonight: You Need 212 GB Free |
-| 2026-11-17c | 1146 | 127 | — | 1273 | Elden Ring Costs You $1 an Hour. Worth It? |
-| 2026-11-17b | 5 | 126 | — | 131 | GTA 6: Take-Two Bets $8 Billion on Your $80 |
-| 2026-11-17 | 458 | — | — | 458 | Your 2013 Xbox One Can Play GTA 6 on Day One |
-| 2026-11-16c | 294 | 138 | — | 432 | Rockstar Made 2 of the 5 Best-Selling Games Ever |
-| 2026-11-16b | 288 | 121 | — | 409 | GTA 6 Costs You $79.99. GTA 5 Cost More |
-| 2026-11-16 | 805 | 126 | 0 | 931 | GTA 6 Might Make $1 Billion Before You Can Even Play It |
+| post | YouTube Short | IG Reel | IG carousel | TikTok | total | title |
+|---|---|---|---|---|---|---|
+| 2026-11-18c | — | — | — | — | 0 | Baldur's Gate 3 Costs You 82¢ an Hour. Worth It? |
+| 2026-11-18b | — | — | — | — | 0 | GTA 6 Beat Cyberpunk's 8M Pre-Order Record? |
+| 2026-11-18 | — | — | — | — | 0 | GTA 6 Unlocks Tonight: You Need 212 GB Free |
+| 2026-11-17c | 1146 | 127 | — | 0 | 1273 | Elden Ring Costs You $1 an Hour. Worth It? |
+| 2026-11-17b | 5 | 126 | — | 0 | 131 | GTA 6: Take-Two Bets $8 Billion on Your $80 |
+| 2026-11-17 | 469 | — | — | 0 | 469 | Your 2013 Xbox One Can Play GTA 6 on Day One |
+| 2026-11-16c | 294 | 138 | — | — | 432 | Rockstar Made 2 of the 5 Best-Selling Games Ever |
+| 2026-11-16b | 288 | 121 | — | — | 409 | GTA 6 Costs You $79.99. GTA 5 Cost More |
+| 2026-11-16 | 805 | 126 | 0 | — | 931 | GTA 6 Might Make $1 Billion Before You Can Even Play It |
 
 ## YouTube
 | published | views | avg view % | avg view s | likes | shares | subs+ | title |
 |---|---|---|---|---|---|---|---|
-| 2026-11-17 | 458 | — | — | 9 | — | — | Your 2013 Xbox One Can Play GTA 6 on Day One |
+| 2026-11-17 | 469 | — | — | 9 | — | — | Your 2013 Xbox One Can Play GTA 6 on Day One |
 | 2026-11-17 | 5 | — | — | 0 | — | — | GTA 6: Take-Two Bets $8 Billion on Your $80 |
 | 2026-11-17 | 1146 | — | — | 9 | — | — | Elden Ring Costs You $1 an Hour. Worth It? |
 | 2026-11-16 | 805 | — | — | 12 | — | — | GTA 6 Might Make $1 Billion Before You Can Even Play It |
@@ -36,3 +36,12 @@ Updated 2026-11-18. YouTube Analytics lags 1-3 days.
 | 2026-11-17 | — | — | — | — | — | — | — | — | GTA 6 streams to Xbox One through Xbox Cloud Gaming from Nov |
 | 2026-11-16 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | — | GTA 6 may pass $1 billion before launch day: Sensor Tower es |
 | 2026-11-16 | 126 | 114 | 0 | 0 | 0 | 0 | — | 4.52 | GTA 6 may pass $1 billion before launch day: Sensor Tower es |
+
+## TikTok
+| sent | views | reach | likes | comments | shares | avg watch s | post |
+|---|---|---|---|---|---|---|---|
+| 2026-11-17 | 0 | 0 | 0 | 0 | 0 | 0 | A movie costs you $6 an hour. Elden Ring costs $1. Go 100% a |
+| 2026-11-17 | 0 | 0 | 0 | 0 | 0 | 0 | GTA 6 streams to Xbox One through Xbox Cloud Gaming from Nov |
+| 2026-11-17 | 0 | 0 | 0 | 0 | 0 | 0 | Take-Two needs $8 billion this year. Last quarter it made $1 |
+
+Notes: REACH ALARM: tiktok 0 views: A movie costs you $6 an hour. Elden Ring | tiktok 0 views: GTA 6 streams to Xbox One through Xbox C | tiktok 0 views: Take-Two needs $8 billion this year. Las | instagram 0 views: GTA 6 streams to Xbox One through Xbox C | instagram 0 views: GTA 6 may pass $1 billion before launch  | youtube 5 views after 24h: GTA 6: Take-Two Bets $8 Billion on Your 
