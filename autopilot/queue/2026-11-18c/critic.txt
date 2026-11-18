@@ -1,15 +1,15 @@
-SCORE 68.6/100 (11/17)
+SCORE 62.9/100 (10/17)
   PASS [major   ] VALUE_BIMODAL          mean midtone mass 0.165 (want <0.30)
   PASS [major   ] FOCAL_PRESENT          mean bright fraction 0.0525 (want 0.004–0.14)
   PASS [critical] CONTRAST_MIN           0/10 content frames below 4.5:1
   FAIL [major   ] CAPTION_LEGIBLE        3/10 content frames have sub-text under 3:1 (mean 3.79:1)
-  FAIL [minor   ] PALETTE_LOCK           worst content frame 17.61% off-palette (want <2%)
+  FAIL [minor   ] PALETTE_LOCK           worst content frame 17.43% off-palette (want <2%)
   PASS [critical] SAFE_BOTTOM            bottom zone ink 0.00% (want <1%)
-  FAIL [critical] SAFE_RIGHT             right zone ink 4.26% (want <1%)
+  FAIL [critical] SAFE_RIGHT             right zone ink 4.27% (want <1%)
   FAIL [major   ] HOLDS_EXIST            6.2% of frames are holds (2 holds)
   FAIL [major   ] IMPACTS_PUNCTUATED     7/7 impacts not punctuated: [26, 81, 174, 239, 274, 340, 381]
   PASS [major   ] NO_LINEAR_EASING       0 frames (0.0%) in constant-velocity moves, 0 segments
-  PASS [major   ] NO_DEAD_AIR            0 stalls: []
+  FAIL [major   ] NO_DEAD_AIR            1 stalls: [[414, 437]]
   PASS [major   ] NO_MICRO_CHURN         0 frames (0.0%) of micro-churn in 0 runs: []
   PASS [major   ] HOOK_ENERGY            hook energy 2.40× median (want >1.15)
   PASS [critical] NO_SCENE_TAIL_STALL    0 scenes stall for 0.0s total (0% of runtime): 
