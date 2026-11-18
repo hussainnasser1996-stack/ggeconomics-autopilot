@@ -105,11 +105,11 @@ const TopBar: React.FC<{ spec: ShortSpec; total: number; padL?: number; padR?: n
       <div style={{ position: "absolute", top: 120 * u, left: padL, right: padR, display: "flex", justifyContent: "center", gap: 14 * u, alignItems: "center" }}>
         <div style={{ display: "flex", alignItems: "center", gap: 12 * u, background: "rgba(7,7,11,0.8)", padding: `${10 * u}px ${18 * u}px`, borderRadius: 12 * u, border: `${2 * u}px solid ${C.line}` }}>
           <Mark size={30 * u} />
-          <span style={{ fontFamily: DISPLAY, fontWeight: 900, fontSize: 26 * u, color: C.white, letterSpacing: 1 * u }}>{BRAND.name}</span>
+          <span style={{ fontFamily: DISPLAY, fontWeight: 900, fontSize: 26 * u, color: C.white, letterSpacing: 1 * u, whiteSpace: "nowrap" }}>{BRAND.name}</span>
         </div>
         <div style={{ display: "flex", alignItems: "center", gap: 10 * u, background: C.lime, padding: `${10 * u}px ${18 * u}px`, borderRadius: 12 * u }}>
           <div style={{ width: 12 * u, height: 12 * u, borderRadius: 99, background: C.coral, opacity: blink ? 1 : 0.25 }} />
-          <span style={{ fontFamily: MONO, fontWeight: 700, fontSize: 26 * u, color: C.ink, letterSpacing: 2 * u }}>{spec.tag}</span>
+          <span style={{ fontFamily: MONO, fontWeight: 700, fontSize: 26 * u * Math.min(1, 26 / Math.max(1, spec.tag.length)), color: C.ink, letterSpacing: 2 * u, whiteSpace: "nowrap" }}>{spec.tag}</span>
         </div>
       </div>
     </>

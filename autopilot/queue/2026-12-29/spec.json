@@ -1,0 +1,50 @@
+{
+ "spec": {
+  "tag": "BALDUR'S GATE 3 \u00b7 COST PER HOUR",
+  "headline": "BALDUR'S GATE 3 COSTS |82\u00a2 AN HOUR|",
+  "topic": "Baldur's Gate 3 $59.99 on Steam (US) \u00f7 HowLongToBeat main story 73 h = $0.82/h; completionist 181 h = $0.33/h; vs ~$12 movie for 2 h = $6/h",
+  "vo": "vo/d_2026_11_18c/vo.wav",
+  "timelinePath": "vo/d_2026_11_18c/timeline.json",
+  "timeline": {
+   "duration": 1,
+   "lines": [],
+   "words": []
+  },
+  "noBed": true,
+  "clips": [],
+  "cards": [
+   {
+    "kind": "big",
+    "line": "hook",
+    "value": "82\u00a2/HR",
+    "label": "Baldur's Gate 3, main story",
+    "note": "$59.99 Steam \u00f7 73 h HowLongToBeat \u00b7 our math",
+    "color": "#D4FF3A"
+   },
+   {
+    "kind": "pair",
+    "line": "movie",
+    "a": {
+     "value": "82\u00a2/HR",
+     "label": "BALDUR'S GATE 3"
+    },
+    "b": {
+     "value": "$6/HR",
+     "label": "MOVIE TICKET"
+    },
+    "note": "~$12 ticket for a 2-hour film"
+   },
+   {
+    "kind": "big",
+    "line": "full",
+    "value": "33\u00a2/HR",
+    "label": "if you go 100%",
+    "note": "181 h completionist \u00b7 HowLongToBeat",
+    "color": "#D4FF3A"
+   }
+  ],
+  "credit": "GAMEPLAY: LARIAN STUDIOS \u00b7 DATA: STEAM, HOWLONGTOBEAT",
+  "endLine": "FOLLOW FOR COST PER HOUR",
+  "noCaptions": true
+ }
+}
