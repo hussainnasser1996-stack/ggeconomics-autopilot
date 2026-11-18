@@ -1,15 +1,17 @@
-# Delivery check · 2026-11-18 03:09 UTC
+# Delivery check · 2026-11-18 07:55 UTC
 
 ## Problems
-- none
+- 2026-11-18c: NOT BOOKED after a retry (gates failed: VO similarity 1.00
+duration 14.7s
+FAIL
+critic CAPTION_LEGIBLE not PASS)
 
 Buffer scheduled per channel: youtube_short 3, instagram_reel 3, instagram_carousel 1, tiktok_video 3
 
-GitHub Actions minutes used this month: ~675 of 2,000 (free tier, private repo)
+GitHub Actions minutes used this month: ~703 of 2,000 (free tier, private repo)
 
 ## Actions taken
-- 2026-11-18c: not booked → build re-dispatched (retry 1)
-- 2026-11-17: {'video': 'k1zkAfgzYeE', 'series': 'gta6', 'playlist': 'ok', 'blocked_in': 0, 'allowed_only': None, 'music': 'none'}
+- none
 
 | post | channel | status | sent/due | link | title |
 |---|---|---|---|---|---|
