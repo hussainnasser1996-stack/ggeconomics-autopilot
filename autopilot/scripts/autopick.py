@@ -56,6 +56,14 @@ def textiness(f):
     # text = many sharp edges sitting on an otherwise flat/dark background
     return float((e & (flat < 60)).mean() * 100), float(e.mean() * 100)
 
+def ad_slate(f):
+    """console/brand ad card (PlayStation 'FEEL THE TENSION' slates, 18b on 18 Nov): a smooth, bright, coloured gradient.
+    Measured: ad cards smooth 68-81 / brightness 160+ / sat 79-95; smooth gameplay is dark (brightness <= 53)."""
+    sm = cv2.resize(f, (480, 270)); g = cv2.cvtColor(sm, cv2.COLOR_BGR2GRAY).astype(np.float32)
+    m = cv2.blur(np.hypot(cv2.Sobel(g, cv2.CV_32F, 1, 0), cv2.Sobel(g, cv2.CV_32F, 0, 1)), (5, 5))
+    sat = float(cv2.cvtColor(sm, cv2.COLOR_BGR2HSV)[..., 1].mean())
+    return (m < 6).mean() * 100 >= 60 and g.mean() >= 120 and sat >= 60
+
 cands = []
 for s in shots:
     if s["start"] < total * 0.07 or s["end"] > total * 0.88: continue
@@ -69,6 +77,7 @@ for s in shots:
     ends = [fr for fr in (mid, frame(s["start"] + 0.15), frame(s["end"] - 0.15)) if fr is not None]
     lum = [float(cv2.cvtColor(fr, cv2.COLOR_BGR2GRAY).mean()) for fr in ends]
     if min(lum) < 14: continue                     # truly black moments never
+    if any(ad_slate(fr) for fr in ends): continue          # brand/console ad cards inside "gameplay" files
     if any(ocr_words(fr) >= 2 for fr in ends): continue
     score = (s["motion"] + 2) * math.log10(s["sharp"] + 10) * (0.7 + min(s["sat"], 140) / 200)
     cands.append({**s, "score": score, "lum": min(lum), "used": last_used.get(key, "")})
