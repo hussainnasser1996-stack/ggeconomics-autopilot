@@ -1,14 +1,14 @@
-# Delivery check · 2026-11-18 09:19 UTC
+# Delivery check · 2026-11-18 15:11 UTC
 
 ## Problems
 - none
 
-Buffer scheduled per channel: youtube_short 4, instagram_reel 4, instagram_carousel 1, tiktok_video 4
+Buffer scheduled per channel: youtube_short 3, instagram_reel 3, tiktok_video 3
 
-GitHub Actions minutes used this month: ~775 of 2,000 (free tier, private repo)
+GitHub Actions minutes used this month: ~778 of 2,000 (free tier, private repo)
 
 ## Actions taken
-- none
+- 2026-11-18c: {'video': 'WNOKpKZ_STA', 'series': 'cost_per_hour', 'playlist': 'ok', 'blocked_in': 0, 'allowed_only': None, 'music': 'game', 'localized': ['ar', 'en', 'es', 'hi', 'id', 'pt-BR']}
 
 | post | channel | status | sent/due | link | title |
 |---|---|---|---|---|---|
@@ -30,14 +30,14 @@ GitHub Actions minutes used this month: ~775 of 2,000 (free tier, private repo)
 | 2026-11-17c | tiktok_video | sent | 2026-11-17T20:02:40.954Z | https://tiktok.com/@ggeconomics/video/7709233030115855624 | Elden Ring Costs You $1 an Hour. Worth It? |
 | 2026-11-18 | youtube_short | scheduled | 2026-11-18T23:00:00.000Z |  | GTA 6 Unlocks Tonight: You Need 212 GB Free |
 | 2026-11-18 | instagram_reel | scheduled | 2026-11-18T23:00:00.000Z |  | GTA 6 Unlocks Tonight: You Need 212 GB Free |
-| 2026-11-18 | instagram_carousel | scheduled | 2026-11-18T15:00:00.000Z |  | GTA 6 Unlocks Tonight: You Need 212 GB Free |
+| 2026-11-18 | instagram_carousel | sent | 2026-11-18T15:06:16.196Z | https://www.instagram.com/p/Df4yWfKoF02/ | GTA 6 Unlocks Tonight: You Need 212 GB Free |
 | 2026-11-18 | tiktok_video | scheduled | 2026-11-18T23:00:00.000Z |  | GTA 6 Unlocks Tonight: You Need 212 GB Free |
 | 2026-11-18b | youtube_short | scheduled | 2026-11-18T16:00:00.000Z |  | GTA 6 Beat Cyberpunk's 8M Pre-Order Record? |
 | 2026-11-18b | instagram_reel | scheduled | 2026-11-18T16:00:00.000Z |  | GTA 6 Beat Cyberpunk's 8M Pre-Order Record? |
 | 2026-11-18b | tiktok_video | scheduled | 2026-11-18T16:00:00.000Z |  | GTA 6 Beat Cyberpunk's 8M Pre-Order Record? |
-| 2026-11-18c | youtube_short | scheduled | 2026-11-18T12:00:00.000Z |  | Baldur's Gate 3 Costs You 82¢ an Hour. Worth It? |
-| 2026-11-18c | instagram_reel | scheduled | 2026-11-18T12:00:00.000Z |  | Baldur's Gate 3 Costs You 82¢ an Hour. Worth It? |
-| 2026-11-18c | tiktok_video | scheduled | 2026-11-18T12:00:00.000Z |  | Baldur's Gate 3 Costs You 82¢ an Hour. Worth It? |
+| 2026-11-18c | youtube_short | sent | 2026-11-18T12:00:56.287Z | https://www.youtube.com/shorts/WNOKpKZ_STA | Baldur's Gate 3 Costs You 82¢ an Hour. Worth It? |
+| 2026-11-18c | instagram_reel | sent | 2026-11-18T12:01:48.454Z | https://www.instagram.com/reel/Df4dRBahYSt/ | Baldur's Gate 3 Costs You 82¢ an Hour. Worth It? |
+| 2026-11-18c | tiktok_video | sent | 2026-11-18T12:03:42.560Z | https://tiktok.com/@ggeconomics/video/7709480509621030165 | Baldur's Gate 3 Costs You 82¢ an Hour. Worth It? |
 | 2026-11-19 | youtube_short | scheduled | 2026-11-19T23:00:00.000Z |  | GTA 6 Is Out: Your Console Runs It at 30 FPS |
 | 2026-11-19 | instagram_reel | scheduled | 2026-11-19T23:00:00.000Z |  | GTA 6 Is Out: Your Console Runs It at 30 FPS |
 | 2026-11-19 | tiktok_video | scheduled | 2026-11-19T23:00:00.000Z |  | GTA 6 Is Out: Your Console Runs It at 30 FPS |
