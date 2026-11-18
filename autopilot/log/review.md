@@ -1,5 +1,13 @@
 # Review log (newest first; written nightly by the autopilot)
 
+## 2026-11-18 midday: full channel review (Claude, with YouTube Studio numbers)
+- YouTube (2,432 channel views, 1 sub): stayed-to-watch is the problem everywhere. Elden Ring edit 47.5% (1,100 views), Xbox One 37.2% (494), $1B 31.9% (803), GTA price 26.6% (292), Rockstar top-5 25.1% (293), Take-Two 33.3% on 6 views (YouTube stopped testing it). Every Short loses more than half its viewers in the first second.
+- Instagram: every Reel stuck at ~120-140 views (new-account test pool), 0 shares/saves, avg watch 4.5-10.5 s. Nothing breaks out. Needs Trial Reels (Meta app, owner password pending) and better hooks.
+- TikTok: 0 views on all 3 videos after 16+ h. Public, no violation. New account that only ever posted via API = no distribution yet. Fix = owner warms the account on his phone (in ceo.md).
+- DECISION: music-only edit is now the default for ALL slots (12-16 s); narrated max 1/day and only when text can't carry the story.
+- DECISION: drop company-finance angles (Take-Two earnings: 5 views) and long ranked lists (25% stayed) until a hook test says otherwise; double down on the cost-per-hour series (top performer) and player-facing GTA 6 numbers.
+- DECISION: line 1 of every edit must be the full claim with the number in ≤6 words (Elden: "Elden Ring costs you $1 an hour").
+
 ## 2026-11-18 (run for 2026-11-18, extra slots b + c)
 - Too early for rules (6 posts, no YouTube retention yet). One signal: 17c, Elden Ring cost per hour (music-only edit, non-GTA), leads the YouTube views at 957, ahead of every GTA post. 17b (Take-Two $8B, narrated) has 3 YouTube views and looks stuck or not yet indexed, while its Instagram views (126) match the others. The YouTube problem looks like distribution, not the hook. Check the 17b row again tomorrow before blaming the hook.
 - Instagram is flat at ~120-140 views per Reel with 0 saves and 0 shares across all posts. The account is still in the seeding phase, so nothing to diagnose yet.

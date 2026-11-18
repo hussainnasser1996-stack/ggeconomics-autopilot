@@ -31,9 +31,9 @@ different format (see the format menu). Do steps 2–6 once per post.
    facts or clearly labelled rumours; never present a rumour as fact.
 5. **Weekly money scoreboard (Sundays, main slot + carousel):** the week's 3–5 biggest numbers (sales, prices, stock moves,
    layoffs) with up/down arrows.
-7. **Music-only edit** (`"mode": "edit"` in script.json; Husain 17 Nov: the DEFAULT format: at least 2 of the day's 3 posts, all extra slots first; narrated only for the 23:00 main when the story needs explaining): NO narration. Gameplay cut to the game's own
+7. **Music-only edit** (`"mode": "edit"` in script.json; DEFAULT for ALL 3 daily slots since the 18 Nov review: Elden Ring edit kept 47.5% of viewers vs 25–37% for every narrated Short. Narrated only when a news story cannot be understood from 5 lines of text, max 1 a day): NO narration. Gameplay cut to the game's own
    soundtrack with big on-screen text: 4–6 lines of 2–8 words each (e.g. "GTA 6 runs at 30 FPS" / "on every console" /
-   "PS5 Pro too" / "Is that a problem?"). Every line is read on screen, so the number goes in line 1. 12–20 s, loops.
+   "PS5 Pro too" / "Is that a problem?"). Every line is read on screen, so the number goes in line 1. 12–16 s (the 14 s Elden Ring won), loops.
    Evidence (16 Nov study of 40 top gaming Shorts): music-only GTA/console Shorts had a median 6.2M views vs 3.8M narrated
    (small sample; the CEO keeps the mix that wins on OUR data). No "say" fields; no "GG" sign-off line needed.
 6. **Breaking news with a number / your wallet** (the original formats) stay in the mix, especially on news days.
@@ -46,7 +46,14 @@ make the last line flow back into the first so the Short loops; one pinned-comme
    `autopilot/log/scoreboard.md`, `autopilot/research/trending.md` (both refreshed by the build job's analytics step).
 2. `mode: paused` or D in `skip_dates` → stop. Write only the slots (D, Db, Dc) whose script.json does not exist yet; if all exist → stop.
 
-## 1. Daily review (before making anything new)
+## 1. Daily review (before making anything new): EVERY channel, every day, ends in DECISIONS
+Husain's rule (18 Nov): you review all channels yourself and decide; he should never have to ask. Cover YouTube,
+Instagram AND TikTok (scoreboard.md has all three) and any `REACH ALARM` in its Notes:
+- A platform with 0 views after 24 h, or a YouTube Short < 50 views after 24 h, is a DISTRIBUTION problem: say so on top of
+  review.md, and put any human-only fix (phone, password) in log/ceo.md "For the owner" the same night.
+- YouTube's key Shorts number is "stayed to watch" vs "swiped away" (Studio). 18 Nov baseline: Elden Ring edit 47.5%,
+  Xbox One 37.2%, $1B 31.9%, GTA price 26.6%, Rockstar list 25.1%. Under 40% = the first second failed: change the hook.
+- End the review with 1–3 lines starting `DECISION:` (what you change in today's posts because of the numbers).
 For each post 2–10 days old in scoreboard.md, explain the number with evidence:
 - Low YouTube views → the swipe test failed (first 1.5 s: hook frame, first words). Views but avg view % < 60 → it lost
   people mid-way: find the line where it sagged (read that day's `queue/<date>/script.json`). Topic nobody watches → trending.md.
