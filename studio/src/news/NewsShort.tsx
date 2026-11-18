@@ -159,7 +159,7 @@ export const NewsShort: React.FC<{ spec: ShortSpec }> = ({ spec }) => {
   const compact = height / width < 1.5; // 4:5 feed or square
   const L = compact
     ? { cardBottom: height * 0.1, cardScale: 0.62, capY: height * 0.2, creditBottom: 26 * u, padL: 0, padR: 0 }
-    : { cardBottom: height * 0.205, cardScale: 0.78, capY: height * 0.215, creditBottom: 360 * u, padL: width * 0.04, padR: width * 0.13 };
+    : { cardBottom: height * 0.235, cardScale: 0.78, capY: height * 0.215, creditBottom: 360 * u, padL: width * 0.04, padR: width * 0.13 };
   // Husain 18 Nov: overlays in the middle hid the game. Text lives in two bands only:
   // top = brand + headline (+ spoken captions just under it), bottom = number card (ends above the 0.83 UI zone).
   // The middle of the frame stays clear gameplay.

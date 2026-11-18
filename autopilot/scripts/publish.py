@@ -31,7 +31,7 @@ raw = f"https://raw.githubusercontent.com/{cfg['media_repo']}/main"
 import hashlib
 sha = hashlib.sha1(open(Q / "short.mp4", "rb").read()).hexdigest()[:8]
 vname = f"video/{D}-{sha}.mp4"; urls = {"video": f"{raw}/{vname}", "images": []}
-slides = sorted(Q.glob("slide_*.png")) if post.get("carousel") else []
+slides = sorted(Q.glob("slide_*.png")) if post.get("carousel") and not (Q / "carousel_sent").exists() else []   # carousel_sent: unbook kept an already-posted carousel
 if not dry:
     shutil.copy(Q / "short.mp4", repo / vname)
     for s in slides:

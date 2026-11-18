@@ -13,10 +13,19 @@ for name in sys.argv[1:]:
     q = AP / "queue" / name; b = q / "buffer_ids.json"
     if b.exists():
         ids = json.load(open(b))["ids"]
+        # check EVERY post first, delete nothing until all are known (18 Nov: the carousel goes out ~8 h before the
+        # video, so a mixed record used to get half-deleted before the "already sent" stop)
+        stat = {}
         for ch, pid in ids.items():
             st = gql("query($i:PostId!){ post(input:{id:$i}){ id status } }", {"i": pid})
-            status = ((st.get("data") or {}).get("post") or {}).get("status")
-            if status == "sent": sys.exit(f"{name}: {ch} already published, not touching it")
+            stat[ch] = ((st.get("data") or {}).get("post") or {}).get("status")
+        sent = [ch for ch, s in stat.items() if s == "sent"]
+        if any(ch != "instagram_carousel" for ch in sent): sys.exit(f"{name}: {sent} already published, not touching anything")
+        if "instagram_carousel" in sent:
+            (q / "carousel_sent").write_text(ids["instagram_carousel"]); print(name, "carousel already out: kept, won't re-book")
+        for ch, pid in ids.items():
+            status = stat[ch]
+            if status == "sent": continue
             r = gql("mutation($i: DeletePostInput!){ deletePost(input:$i){ __typename ... on MutationError { message } } }", {"i": {"id": pid}})
             print(name, ch, pid, status, "->", json.dumps(r.get("data") or r.get("errors"))[:200])
         b.unlink()
