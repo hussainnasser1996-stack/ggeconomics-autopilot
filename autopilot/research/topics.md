@@ -8,17 +8,17 @@
 
 - [series] 3 days to GTA 6: $79.99 vs GTA 5's $59.99 (2013) = ~$86 today (BLS CPI-U). Use: 2026-11-16. Status: used 2026-11-16
 - [ranked] Top 5 best-selling games ever (Tetris 520M, Minecraft 425M+, GTA V ~235M, RDR2 89M+, Wii Sports 82.9M). Use: 2026-11-16. Status: used 2026-11-16
-- [series] 2 days to GTA 6 / 1 day to GTA 6: one money fact each (continue the countdown: Db slot). Use: 2026-11-17..2026-11-18. Status: open (2 days used 2026-11-17b: Take-Two $8B outlook; 1 day still open for 11-18b)
+- [series] 2 days to GTA 6 / 1 day to GTA 6: one money fact each (continue the countdown: Db slot). Use: 2026-11-17..2026-11-18. Status: closed 2026-11-18 (1-day episode skipped: 18b at 16:00 UTC is 13 h before the 05:00 UTC unlock, so 'day' math reads 0; the main 18 post covers 'unlocks tonight')
 - GTA VI launch week: day-by-day numbers. Use: 2026-11-16..2026-11-22. Status: open
 - GTA VI first-week sales / Take-Two stock reaction after 19 Nov. Use: 2026-11-20+. Status: open
 - Tencent results 18 Nov; NetEase and Ubisoft 19 Nov (from Singular Link Gaming/07 Getting In). CEO 16 Nov: none of these dates is confirmed on a company page (TipRanks lists Tencent as both 10 and 18 Nov); check the IR page before writing. Use: on the day. Status: open
 - [cost per hour] Elden Ring $59.99 (Steam) ÷ 60 h HLTB main = $1/h; 136 h completionist = 44¢/h; music-only edit. Status: used 2026-11-17
-- [cost per hour] Next non-GTA cost-per-hour verdicts (Steam footage, HLTB via curl works: grep comp_main seconds): Cyberpunk 2077, Baldur's Gate 3, Red Dead Redemption 2 (Rockstar: counts toward GTA fatigue), Hollow Knight. Use: 2026-11-18..2026-11-30 (c slot). Status: open
+- [cost per hour] Next non-GTA cost-per-hour verdicts (Steam footage, HLTB via curl works: grep comp_main seconds): Cyberpunk 2077, Baldur's Gate 3, Red Dead Redemption 2 (Rockstar: counts toward GTA fatigue), Hollow Knight. Use: 2026-11-18..2026-11-30 (c slot). Status: open (Baldur's Gate 3 used 2026-11-18c: $59.99 ÷ 73 h = 82¢/h, 181 h = 33¢/h)
 - Evergreen: Elden Ring first-hour tips (built: out/elden_short_9x16.mp4). Use: any slow day. Status: open
 
 ## Added by CEO review 2026-11-16 (verify every number again on the day)
 - [series] "GTA VI: Day N after launch": one money fact a day (sales, player counts, price moves, Take-Two stock). b slot, every day. Use: 2026-11-20..2026-12-03. Status: open
-- [ranked] Biggest pre-order totals ever: GTA 6 vs Cyberpunk 2077's 8M+ record. Sensor Tower: 10.31M copies / just over $1B (tech-ish, 11 Nov, opened); 12.13M / $1.18B as of 13 Nov (talkesport, gamerheadlines: not opened, verify). Estimates, gross consumer spend, not Take-Two figures. Use: 2026-11-17..2026-11-18 (c slot). Status: open
+- [ranked] Biggest pre-order totals ever: GTA 6 vs Cyberpunk 2077's 8M+ record. Sensor Tower: 10.31M copies / just over $1B (tech-ish, 11 Nov, opened); 12.13M / $1.18B as of 13 Nov (talkesport, gamerheadlines: not opened, verify). Estimates, gross consumer spend, not Take-Two figures. Use: 2026-11-17..2026-11-18 (c slot). Status: used 2026-11-18b (real or rumour: 10.31M Sensor Tower est., 11 Nov, vs Cyberpunk 8M+)
 - [real or rumour] Is GTA 6 eligible for The Game Awards 2026 (show 10 Dec, Peacock Theater)? One source gives a 20 Nov 9 PM PT cutoff; verify on thegameawards.com before using. Use: 2026-11-20..2026-11-22. Status: open
 - [ranked] The Game Awards 2026 Game of the Year nominees ranked by price or cost per hour. Nominees due mid-November (not confirmed announced as of 16 Nov). Use: the day after the official list. Status: open
 - [scoreboard] Weekly money scoreboard: GTA 6 launch week numbers (Sunday main slot + carousel). Use: 2026-11-22. Status: open

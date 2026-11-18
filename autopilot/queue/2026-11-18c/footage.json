@@ -1,0 +1,15 @@
+{
+ "candidates": [
+  {
+   "source": "steam",
+   "game": "Baldur's Gate 3",
+   "prefer": "launch"
+  },
+  {
+   "source": "steam",
+   "game": "Baldur's Gate 3",
+   "prefer": "accolades"
+  }
+ ],
+ "credit": "GAMEPLAY: LARIAN STUDIOS"
+}

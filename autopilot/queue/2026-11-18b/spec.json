@@ -1,0 +1,48 @@
+{
+ "spec": {
+  "tag": "GTA VI · REAL OR RUMOUR?",
+  "headline": "GTA 6 HAS |10.3M PRE‑ORDERS|?",
+  "topic": "Sensor Tower estimate: 10.31M digital console pre-orders for GTA 6 as of 11 Nov 2026 (7.71M on 2 Nov); CD Projekt: Cyberpunk 2077 passed 8M pre-orders (Dec 2020, 74% digital). Unconfirmed by Rockstar/Take-Two.",
+  "vo": "vo/d_2026_11_18b/vo.wav",
+  "timelinePath": "vo/d_2026_11_18b/timeline.json",
+  "timeline": {
+   "duration": 1,
+   "lines": [],
+   "words": []
+  },
+  "noBed": true,
+  "clips": [],
+  "cards": [
+   {
+    "kind": "big",
+    "line": "hook",
+    "value": "10.3M",
+    "label": "GTA 6 pre-orders?",
+    "note": "Sensor Tower estimate · digital, PS5 + Xbox",
+    "color": "#D4FF3A"
+   },
+   {
+    "kind": "pair",
+    "line": "record",
+    "a": {
+     "value": "10.3M",
+     "label": "GTA 6 (EST.)"
+    },
+    "b": {
+     "value": "8M",
+     "label": "CYBERPUNK 2077"
+    },
+    "note": "Cyberpunk: CD Projekt, Dec 2020"
+   },
+   {
+    "kind": "quote",
+    "line": "answer",
+    "text": "10.3 million digital console pre-orders",
+    "who": "Sensor Tower (estimate)",
+    "note": "as of 11 Nov · not confirmed by Rockstar"
+   }
+  ],
+  "credit": "GAMEPLAY: ROCKSTAR GAMES · DATA: SENSOR TOWER (ESTIMATE), CD PROJEKT",
+  "endLine": "FOLLOW FOR GTA 6 NUMBERS"
+ }
+}

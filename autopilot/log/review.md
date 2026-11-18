@@ -1,5 +1,12 @@
 # Review log (newest first; written nightly by the autopilot)
 
+## 2026-11-18 (run for 2026-11-18, extra slots b + c)
+- Too early for rules (6 posts, no YouTube retention yet). One signal: 17c, Elden Ring cost per hour (music-only edit, non-GTA), leads the YouTube views at 957, ahead of every GTA post. 17b (Take-Two $8B, narrated) has 3 YouTube views and looks stuck or not yet indexed, while its Instagram views (126) match the others. The YouTube problem looks like distribution, not the hook. Check the 17b row again tomorrow before blaming the hook.
+- Instagram is flat at ~120-140 views per Reel with 0 saves and 0 shares across all posts. The account is still in the seeding phase, so nothing to diagnose yet.
+- 18 main (212 GB, launch) already existed. b (16:00) = GTA 6 real or rumour, music-only: Sensor Tower estimates 10.31M digital console pre-orders as of 11 Nov (Notebookcheck + News24), against Cyberpunk 2077's 8M+ (CD Projekt, Dec 2020, via GameSpot/GamingBolt). The video labels it an estimate and says Rockstar hasn't confirmed any figure.
+- Skipped the "1 day to GTA 6" countdown episode: at 16:00 UTC the 05:00 UTC unlock is 13 h away, so a "1 day" claim would be wrong. The 18 main already covers "tonight".
+- c (12:00) = cost per hour again, because it is our top performer so far: Baldur's Gate 3, $59.99 on Steam ÷ 73 h HowLongToBeat main story = 82¢/h, completionist 181 h = 33¢/h. Music = game soundtrack. 18b uses the library track, so the music A/B continues.
+
 ## 2026-11-16 (run for 2026-11-17, extra slots b + c)
 - Too early: the scoreboard has one YouTube row (11-16c at 145 views, no retention yet; YouTube Analytics still 403s) and no Instagram numbers. Nothing to diagnose.
 - 11-17 main already existed (GTA 6 on Xbox One via cloud, wallet). Wrote b (16:00) = countdown series "2 days to GTA 6": Take-Two's 9 Nov results, $1.6B net bookings (-18%) vs an $8.0-8.2B full-year outlook and a $3.35-3.5B guide for the launch quarter (SEC 8-K + Finviz copy of the release; Motley Fool for the $8B).

@@ -1,0 +1,33 @@
+{
+ "id": "d_2026_11_18b",
+ "voice": "am_liam",
+ "speed": 1.25,
+ "gap": 0.12,
+ "mode": "edit",
+ "lines": [
+  {
+   "id": "hook",
+   "text": "10.3M GTA 6 pre-orders already?"
+  },
+  {
+   "id": "record",
+   "text": "Cyberpunk's record: 8M in 2020"
+  },
+  {
+   "id": "q",
+   "text": "Real or rumour? Comment first"
+  },
+  {
+   "id": "answer",
+   "text": "Real, says a Sensor Tower estimate"
+  },
+  {
+   "id": "scope",
+   "text": "Digital only. Physical copies not counted"
+  },
+  {
+   "id": "caveat",
+   "text": "Rockstar hasn't confirmed any number"
+  }
+ ]
+}
