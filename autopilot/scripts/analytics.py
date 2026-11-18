@@ -126,6 +126,24 @@ for q in sorted((AP / "queue").iterdir(), reverse=True):
                         "instagram_reel": ig("instagram_reel"), "instagram_carousel": ig("instagram_carousel"), "tiktok_video": ig("tiktok_video")}
 out["per_post"] = per_post
 
+# ---------------- Reach alarm (18 Nov: TikTok sat at 0 views for 16 h and nobody looked) ----------------
+# any post sent 12h+ ago with 0 views on a platform, or a YouTube Short under 50 views after 24h = a distribution problem
+now = dt.datetime.now(dt.timezone.utc); alarms = []
+for pid, p in out["instagram"].items():
+    if not p.get("sent"): continue
+    age = (now - dt.datetime.fromisoformat(p["sent"] + "T00:00:00+00:00")).total_seconds() / 3600
+    if age >= 24 and int(float(p.get("views", p.get("reach", 0)) or 0)) == 0:
+        alarms.append(f"{p.get('service') or 'instagram'} 0 views: {p['text'][:40]}")
+for vid, v in (out["youtube"].get("videos") or {}).items():
+    if v["published"] <= (now - dt.timedelta(days=1)).date().isoformat() and v["views"] < 50:
+        alarms.append(f"youtube {v['views']} views after 24h: {v['title'][:40]}")
+if alarms:
+    out["notes"].append("REACH ALARM: " + " | ".join(alarms))
+    seen_p = AP / "log/alarms_sent.json"; seen = json.loads(seen_p.read_text()) if seen_p.exists() else []
+    new = [a for a in alarms if a not in seen]
+    if new:
+        subprocess.run(["python3", str(AP / "scripts/notify.py"), "Reach alarm: " + "; ".join(new)[:900], "high"])
+        seen_p.write_text(json.dumps(seen + new, indent=1))
 (AP / "log/metrics").mkdir(parents=True, exist_ok=True)
 json.dump(out, open(AP / f"log/metrics/{today}.json", "w"), indent=1)
 
