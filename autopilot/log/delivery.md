@@ -1,14 +1,11 @@
-# Delivery check · 2026-11-18 07:55 UTC
+# Delivery check · 2026-11-18 09:08 UTC
 
 ## Problems
-- 2026-11-18c: NOT BOOKED after a retry (gates failed: VO similarity 1.00
-duration 14.7s
-FAIL
-critic CAPTION_LEGIBLE not PASS)
+- none
 
-Buffer scheduled per channel: youtube_short 3, instagram_reel 3, instagram_carousel 1, tiktok_video 3
+Buffer scheduled per channel: youtube_short 4, instagram_reel 4, instagram_carousel 1, tiktok_video 4
 
-GitHub Actions minutes used this month: ~703 of 2,000 (free tier, private repo)
+GitHub Actions minutes used this month: ~772 of 2,000 (free tier, private repo)
 
 ## Actions taken
 - none
@@ -38,6 +35,9 @@ GitHub Actions minutes used this month: ~703 of 2,000 (free tier, private repo)
 | 2026-11-18b | youtube_short | scheduled | 2026-11-18T16:00:00.000Z |  | GTA 6 Beat Cyberpunk's 8M Pre-Order Record? |
 | 2026-11-18b | instagram_reel | scheduled | 2026-11-18T16:00:00.000Z |  | GTA 6 Beat Cyberpunk's 8M Pre-Order Record? |
 | 2026-11-18b | tiktok_video | scheduled | 2026-11-18T16:00:00.000Z |  | GTA 6 Beat Cyberpunk's 8M Pre-Order Record? |
+| 2026-11-18c | youtube_short | scheduled | 2026-11-18T12:00:00.000Z |  | Baldur's Gate 3 Costs You 82¢ an Hour. Worth It? |
+| 2026-11-18c | instagram_reel | scheduled | 2026-11-18T12:00:00.000Z |  | Baldur's Gate 3 Costs You 82¢ an Hour. Worth It? |
+| 2026-11-18c | tiktok_video | scheduled | 2026-11-18T12:00:00.000Z |  | Baldur's Gate 3 Costs You 82¢ an Hour. Worth It? |
 | 2026-11-19 | youtube_short | scheduled | 2026-11-19T23:00:00.000Z |  | GTA 6 Is Out: Your Console Runs It at 30 FPS |
 | 2026-11-19 | instagram_reel | scheduled | 2026-11-19T23:00:00.000Z |  | GTA 6 Is Out: Your Console Runs It at 30 FPS |
 | 2026-11-19 | tiktok_video | scheduled | 2026-11-19T23:00:00.000Z |  | GTA 6 Is Out: Your Console Runs It at 30 FPS |
