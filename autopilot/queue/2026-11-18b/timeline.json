@@ -1,0 +1,203 @@
+{
+ "duration": 13.71,
+ "lines": [
+  {
+   "id": "hook",
+   "text": "10.3M GTA 6 pre-orders already?",
+   "start": 0.25,
+   "end": 2.15
+  },
+  {
+   "id": "record",
+   "text": "Cyberpunk's record: 8M in 2020",
+   "start": 2.3,
+   "end": 4.2
+  },
+  {
+   "id": "q",
+   "text": "Real or rumour? Comment first",
+   "start": 4.35,
+   "end": 6.25
+  },
+  {
+   "id": "answer",
+   "text": "Real, says a Sensor Tower estimate",
+   "start": 6.4,
+   "end": 8.68
+  },
+  {
+   "id": "scope",
+   "text": "Digital only. Physical copies not counted",
+   "start": 8.83,
+   "end": 11.11
+  },
+  {
+   "id": "caveat",
+   "text": "Rockstar hasn't confirmed any number",
+   "start": 11.26,
+   "end": 13.16
+  }
+ ],
+ "words": [
+  {
+   "w": "10.3M",
+   "s": 0.25,
+   "e": 0.63
+  },
+  {
+   "w": "GTA",
+   "s": 0.63,
+   "e": 1.01
+  },
+  {
+   "w": "6",
+   "s": 1.01,
+   "e": 1.39
+  },
+  {
+   "w": "pre-orders",
+   "s": 1.39,
+   "e": 1.77
+  },
+  {
+   "w": "already?",
+   "s": 1.77,
+   "e": 2.15
+  },
+  {
+   "w": "Cyberpunk's",
+   "s": 2.3,
+   "e": 2.68
+  },
+  {
+   "w": "record:",
+   "s": 2.68,
+   "e": 3.06
+  },
+  {
+   "w": "8M",
+   "s": 3.06,
+   "e": 3.44
+  },
+  {
+   "w": "in",
+   "s": 3.44,
+   "e": 3.82
+  },
+  {
+   "w": "2020",
+   "s": 3.82,
+   "e": 4.2
+  },
+  {
+   "w": "Real",
+   "s": 4.35,
+   "e": 4.73
+  },
+  {
+   "w": "or",
+   "s": 4.73,
+   "e": 5.11
+  },
+  {
+   "w": "rumour?",
+   "s": 5.11,
+   "e": 5.49
+  },
+  {
+   "w": "Comment",
+   "s": 5.49,
+   "e": 5.87
+  },
+  {
+   "w": "first",
+   "s": 5.87,
+   "e": 6.25
+  },
+  {
+   "w": "Real,",
+   "s": 6.4,
+   "e": 6.78
+  },
+  {
+   "w": "says",
+   "s": 6.78,
+   "e": 7.16
+  },
+  {
+   "w": "a",
+   "s": 7.16,
+   "e": 7.54
+  },
+  {
+   "w": "Sensor",
+   "s": 7.54,
+   "e": 7.92
+  },
+  {
+   "w": "Tower",
+   "s": 7.92,
+   "e": 8.3
+  },
+  {
+   "w": "estimate",
+   "s": 8.3,
+   "e": 8.68
+  },
+  {
+   "w": "Digital",
+   "s": 8.83,
+   "e": 9.21
+  },
+  {
+   "w": "only.",
+   "s": 9.21,
+   "e": 9.59
+  },
+  {
+   "w": "Physical",
+   "s": 9.59,
+   "e": 9.97
+  },
+  {
+   "w": "copies",
+   "s": 9.97,
+   "e": 10.35
+  },
+  {
+   "w": "not",
+   "s": 10.35,
+   "e": 10.73
+  },
+  {
+   "w": "counted",
+   "s": 10.73,
+   "e": 11.11
+  },
+  {
+   "w": "Rockstar",
+   "s": 11.26,
+   "e": 11.64
+  },
+  {
+   "w": "hasn't",
+   "s": 11.64,
+   "e": 12.02
+  },
+  {
+   "w": "confirmed",
+   "s": 12.02,
+   "e": 12.4
+  },
+  {
+   "w": "any",
+   "s": 12.4,
+   "e": 12.78
+  },
+  {
+   "w": "number",
+   "s": 12.78,
+   "e": 13.16
+  }
+ ]
+}

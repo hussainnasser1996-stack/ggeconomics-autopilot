@@ -1,7 +1,7 @@
 {
  "spec": {
-  "tag": "GTA VI · REAL OR RUMOUR?",
-  "headline": "GTA 6 HAS |10.3M PRE‑ORDERS|?",
+  "tag": "GTA VI \u00b7 REAL OR RUMOUR?",
+  "headline": "GTA 6 HAS |10.3M PRE\u2011ORDERS|?",
   "topic": "Sensor Tower estimate: 10.31M digital console pre-orders for GTA 6 as of 11 Nov 2026 (7.71M on 2 Nov); CD Projekt: Cyberpunk 2077 passed 8M pre-orders (Dec 2020, 74% digital). Unconfirmed by Rockstar/Take-Two.",
   "vo": "vo/d_2026_11_18b/vo.wav",
   "timelinePath": "vo/d_2026_11_18b/timeline.json",
@@ -11,14 +11,63 @@
    "words": []
   },
   "noBed": true,
-  "clips": [],
+  "clips": [
+   {
+    "src": "d_2026_11_18b",
+    "from": 25.25,
+    "dur": 2.2,
+    "shot": 9
+   },
+   {
+    "src": "d_2026_11_18b",
+    "from": 17.52,
+    "dur": 1.73,
+    "shot": 6
+   },
+   {
+    "src": "d_2026_11_18b",
+    "from": 22.99,
+    "dur": 2.06,
+    "shot": 8
+   },
+   {
+    "src": "d_2026_11_18b",
+    "from": 8.32,
+    "dur": 2.2,
+    "shot": 3
+   },
+   {
+    "src": "d_2026_11_18b",
+    "from": 38.39,
+    "dur": 2.2,
+    "shot": 13
+   },
+   {
+    "src": "d_2026_11_18b",
+    "from": 12.52,
+    "dur": 2.2,
+    "shot": 4
+   },
+   {
+    "src": "d_2026_11_18b",
+    "from": 15.19,
+    "dur": 2.13,
+    "shot": 5
+   },
+   {
+    "src": "d_2026_11_18b",
+    "from": 10.4,
+    "dur": 1.92,
+    "shot": 3
+   }
+  ],
   "cards": [
    {
     "kind": "big",
     "line": "hook",
     "value": "10.3M",
     "label": "GTA 6 pre-orders?",
-    "note": "Sensor Tower estimate · digital, PS5 + Xbox",
+    "note": "Sensor Tower estimate \u00b7 digital, PS5 + Xbox",
     "color": "#D4FF3A"
    },
    {
@@ -39,10 +88,11 @@
     "line": "answer",
     "text": "10.3 million digital console pre-orders",
     "who": "Sensor Tower (estimate)",
-    "note": "as of 11 Nov · not confirmed by Rockstar"
+    "note": "as of 11 Nov \u00b7 not confirmed by Rockstar"
    }
   ],
-  "credit": "GAMEPLAY: ROCKSTAR GAMES · DATA: SENSOR TOWER (ESTIMATE), CD PROJEKT",
-  "endLine": "FOLLOW FOR GTA 6 NUMBERS"
+  "credit": "GAMEPLAY: ROCKSTAR GAMES \u00b7 DATA: SENSOR TOWER (ESTIMATE), CD PROJEKT",
+  "endLine": "FOLLOW FOR GTA 6 NUMBERS",
+  "noCaptions": true
  }
 }
