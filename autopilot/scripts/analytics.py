@@ -96,14 +96,14 @@ def buffer_key():
 key = buffer_key()
 if key and cfg["buffer_channels"].get("instagram"):
     q = """query($o: OrganizationId!, $c: [ChannelId!]){ posts(first: 50, input:{organizationId:$o, filter:{status:[sent], channelIds:$c}},
-           ){ edges{ node{ id text sentAt externalLink metrics{ type value } } } } }"""
+           ){ edges{ node{ id text sentAt externalLink channelService metrics{ type value } } } } }"""
     req = urllib.request.Request("https://api.buffer.com", data=json.dumps({"query": q, "variables": {"o": cfg["buffer_organization_id"],
-          "c": [cfg["buffer_channels"]["instagram"]]}}).encode(), headers={"Content-Type": "application/json", "Authorization": "Bearer " + key})
+          "c": [c for c in (cfg["buffer_channels"]["instagram"], cfg["buffer_channels"].get("tiktok")) if c]}}).encode(), headers={"Content-Type": "application/json", "Authorization": "Bearer " + key})
     try:
         body = json.loads(urllib.request.urlopen(req, timeout=60).read())
         for e in ((body.get("data") or {}).get("posts") or {}).get("edges", []):
             n = e["node"]; m = {x["type"]: x["value"] for x in (n.get("metrics") or [])}
-            out["instagram"][n["id"]] = {"sent": (n.get("sentAt") or "")[:10], "text": n["text"][:60], "link": n.get("externalLink"), **m}
+            out["instagram"][n["id"]] = {"sent": (n.get("sentAt") or "")[:10], "text": n["text"][:60], "link": n.get("externalLink"), "service": n.get("channelService"), **m}
         if body.get("errors"): out["notes"].append("Buffer: " + json.dumps(body["errors"])[:200])
     except Exception as ex:
         out["notes"].append(f"Buffer metrics failed: {ex}")
@@ -132,9 +132,9 @@ json.dump(out, open(AP / f"log/metrics/{today}.json", "w"), indent=1)
 # ---------------- Scoreboard ----------------
 rows = ["# Scoreboard (rewritten daily by analytics.py)\n", f"Updated {today}. YouTube Analytics lags 1-3 days.\n",
         "## Per post: views by platform", "(— = not sent yet / no metrics yet; carousel shows reach when Buffer gives no views)",
-        "| post | YouTube Short | IG Reel | IG carousel | total | title |", "|---|---|---|---|---|---|"]
+        "| post | YouTube Short | IG Reel | IG carousel | TikTok | total | title |", "|---|---|---|---|---|---|---|"]
 for name, p in per_post.items():
-    nums = [p[k] for k in ("youtube_short", "instagram_reel", "instagram_carousel")]
+    nums = [p[k] for k in ("youtube_short", "instagram_reel", "instagram_carousel", "tiktok_video")]
     rows.append(f"| {name} | " + " | ".join("—" if n is None else str(n) for n in nums) + f" | {sum(n for n in nums if n)} | {p['title'][:60]} |")
 rows += ["", "## YouTube", "| published | views | avg view % | avg view s | likes | shares | subs+ | title |", "|---|---|---|---|---|---|---|---|"]
 for vid, v in sorted(out["youtube"].get("videos", {}).items(), key=lambda kv: kv[1]["published"], reverse=True):
@@ -143,8 +143,15 @@ if out["youtube"].get("traffic_sources"):
     rows += ["", "Traffic sources (all time): " + ", ".join(f"{k} {v}" for k, v in out["youtube"]["traffic_sources"].items())]
 rows += ["", "## Instagram", "| sent | views | reach | likes | comments | shares | saves | follows | avg watch s | post |", "|---|---|---|---|---|---|---|---|---|---|"]
 for pid, p in out["instagram"].items():
+    if p.get("service") == "tiktok": continue
     g = lambda k: int(p[k]) if k in p else "—"
     rows.append(f"| {p['sent']} | {g('views')} | {g('reach')} | {g('reactions')} | {g('comments')} | {g('shares')} | {g('saves')} | {g('follows')} | {p.get('averageTimeWatched','—')} | {p['text']} |")
+tt = [p for p in out["instagram"].values() if p.get("service") == "tiktok"]
+if tt:
+    rows += ["", "## TikTok", "| sent | views | reach | likes | comments | shares | avg watch s | post |", "|---|---|---|---|---|---|---|---|"]
+    for p in tt:
+        g = lambda k: int(float(p[k])) if k in p else "—"
+        rows.append(f"| {p['sent']} | {g('views')} | {g('reach')} | {g('reactions')} | {g('comments')} | {g('shares')} | {p.get('averageTimeWatched','—')} | {p['text']} |")
 if out["notes"]:
     rows += ["", "Notes: " + " · ".join(out["notes"])]
 (AP / "log/scoreboard.md").write_text("\n".join(rows) + "\n")

@@ -78,10 +78,11 @@ if ch.get("instagram"):
         jobs.append(("instagram_carousel", {"text": text[:2200], "channelId": ch["instagram"], "schedulingType": "automatic",
             "mode": "customScheduled", "dueAt": due2, "assets": [{"image": {"url": u}} for u in urls["images"]],
             "metadata": {"instagram": {"type": "post", "shouldShareToFeed": True}}}))
+is_edit = json.load(open(Q / "script.json")).get("mode") == "edit"   # music-only edit = real gameplay + text, no AI voice: no AI label (18 Nov)
 if ch.get("tiktok"):   # added 17 Nov 2026: same Short to TikTok @ggeconomics
     jobs.append(("tiktok_video", {"text": text[:2200], "channelId": ch["tiktok"], "schedulingType": "automatic",
         "mode": "customScheduled", "dueAt": due, "assets": [{"video": {"url": urls["video"]}}],
-        "metadata": {"tiktok": {"title": post["title"][:90], "isAiGenerated": True}}}))
+        "metadata": {"tiktok": {"title": post["title"][:90], "isAiGenerated": not is_edit}}}))
 if dry:
     print(json.dumps({"mode": mode, "dry": True, "due": due, "jobs": [j[0] for j in jobs] or "no Buffer channels configured yet"}, indent=1)); sys.exit(0)
 ids = {}
