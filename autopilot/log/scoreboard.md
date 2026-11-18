@@ -7,25 +7,25 @@ Updated 2026-11-18. YouTube Analytics lags 1-3 days.
 | post | YouTube Short | IG Reel | IG carousel | TikTok | total | title |
 |---|---|---|---|---|---|---|
 | 2026-11-18c | 734 | — | — | 0 | 734 | Baldur's Gate 3 Costs You 82¢ an Hour. Worth It? |
-| 2026-11-18b | 23 | — | — | 0 | 23 | GTA 6 Beat Cyberpunk's 8M Pre-Order Record? |
+| 2026-11-18b | 26 | — | — | 0 | 26 | GTA 6 Beat Cyberpunk's 8M Pre-Order Record? |
 | 2026-11-18 | — | — | — | — | 0 | GTA 6 Unlocks Tonight: You Need 212 GB Free |
-| 2026-11-17c | 1163 | 127 | — | 0 | 1290 | Elden Ring Costs You $1 an Hour. Worth It? |
+| 2026-11-17c | 1155 | 127 | — | 0 | 1282 | Elden Ring Costs You $1 an Hour. Worth It? |
 | 2026-11-17b | 9 | 126 | — | 0 | 135 | GTA 6: Take-Two Bets $8 Billion on Your $80 |
 | 2026-11-17 | 534 | — | — | 0 | 534 | Your 2013 Xbox One Can Play GTA 6 on Day One |
 | 2026-11-16c | 294 | 138 | — | — | 432 | Rockstar Made 2 of the 5 Best-Selling Games Ever |
-| 2026-11-16b | 300 | 121 | — | — | 421 | GTA 6 Costs You $79.99. GTA 5 Cost More |
-| 2026-11-16 | 810 | 126 | 0 | — | 936 | GTA 6 Might Make $1 Billion Before You Can Even Play It |
+| 2026-11-16b | 305 | 121 | — | — | 426 | GTA 6 Costs You $79.99. GTA 5 Cost More |
+| 2026-11-16 | 809 | 126 | 0 | — | 935 | GTA 6 Might Make $1 Billion Before You Can Even Play It |
 
 ## YouTube
 | published | views | avg view % | avg view s | likes | shares | subs+ | title |
 |---|---|---|---|---|---|---|---|
-| 2026-11-18 | 23 | — | — | 0 | — | — | GTA 6 Beat Cyberpunk's 8M Pre-Order Record? |
+| 2026-11-18 | 26 | — | — | 0 | — | — | GTA 6 Beat Cyberpunk's 8M Pre-Order Record? |
 | 2026-11-18 | 734 | — | — | 3 | — | — | Baldur's Gate 3 Costs You 82¢ an Hour. Worth It? |
 | 2026-11-17 | 534 | — | — | 9 | — | — | Your 2013 Xbox One Can Play GTA 6 on Day One |
 | 2026-11-17 | 9 | — | — | 0 | — | — | GTA 6: Take-Two Bets $8 Billion on Your $80 |
-| 2026-11-17 | 1163 | — | — | 9 | — | — | Elden Ring Costs You $1 an Hour. Worth It? |
-| 2026-11-16 | 810 | 61.8 | 14 | 12 | 1 | 0 | GTA 6 Might Make $1 Billion Before You Can Even Play It |
-| 2026-11-16 | 300 | 51.8 | 12 | 0 | 0 | 0 | GTA 6 Costs You $79.99. GTA 5 Cost More |
+| 2026-11-17 | 1155 | — | — | 9 | — | — | Elden Ring Costs You $1 an Hour. Worth It? |
+| 2026-11-16 | 809 | 61.8 | 14 | 12 | 1 | 0 | GTA 6 Might Make $1 Billion Before You Can Even Play It |
+| 2026-11-16 | 305 | 51.8 | 12 | 0 | 0 | 0 | GTA 6 Costs You $79.99. GTA 5 Cost More |
 | 2026-11-16 | 294 | 68.4 | 17 | 2 | 1 | 0 | Rockstar Made 2 of the 5 Best-Selling Games Ever |
 
 Traffic sources (all time): SHORTS 1259, YT_SEARCH 46, YT_CHANNEL 7, YT_OTHER_PAGE 6, EXT_URL 6, SUBSCRIBER 2, PLAYLIST 1, NO_LINK_OTHER 0
