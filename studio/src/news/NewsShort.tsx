@@ -158,15 +158,18 @@ export const NewsShort: React.FC<{ spec: ShortSpec }> = ({ spec }) => {
   const { width } = useVideoConfig();
   const compact = height / width < 1.5; // 4:5 feed or square
   const L = compact
-    ? { cardTop: height * 0.15, cardScale: 0.7, capY: height * 0.74, creditBottom: 26 * u, padL: 0, padR: 0 }
-    : { cardTop: height * 0.2, cardScale: 0.88, capY: height * 0.66, creditBottom: 360 * u, padL: width * 0.04, padR: width * 0.13 };
-  if (spec.headline && !compact) L.cardTop += 130 * u;      // make room for the persistent headline
+    ? { cardBottom: height * 0.1, cardScale: 0.62, capY: height * 0.2, creditBottom: 26 * u, padL: 0, padR: 0 }
+    : { cardBottom: height * 0.205, cardScale: 0.78, capY: height * 0.215, creditBottom: 360 * u, padL: width * 0.04, padR: width * 0.13 };
+  // Husain 18 Nov: overlays in the middle hid the game. Text lives in two bands only:
+  // top = brand + headline (+ spoken captions just under it), bottom = number card (ends above the 0.83 UI zone).
+  // The middle of the frame stays clear gameplay.
+  if (spec.headline) L.capY += 120 * u;
   const lineById = Object.fromEntries(spec.timeline.lines.map((l) => [l.id, l]));
   return (
     <AbsoluteFill style={{ background: C.ink }}>
       {!spec.hideBroll && <Broll clips={spec.clips} />}
       {/* legibility gradients */}
-      <AbsoluteFill style={{ background: "linear-gradient(180deg, rgba(7,7,11,0.75) 0%, rgba(7,7,11,0.0) 22%, rgba(7,7,11,0.0) 45%, rgba(7,7,11,0.85) 100%)" }} />
+      <AbsoluteFill style={{ background: "linear-gradient(180deg, rgba(7,7,11,0.75) 0%, rgba(7,7,11,0.0) 26%, rgba(7,7,11,0.0) 58%, rgba(7,7,11,0.8) 100%)" }} />
       <Audio src={staticFile(spec.vo)} />
       {!spec.noBed && <Audio src={staticFile("sfx/bed_loop.wav")} volume={(f) => interpolate(f, [0, 10, voEnd, voEnd + 20], [0, 0.16, 0.16, 0], { extrapolateRight: "clamp" })} />}
       {/* cards, keyed to VO lines */}
@@ -178,8 +181,8 @@ export const NewsShort: React.FC<{ spec: ShortSpec }> = ({ spec }) => {
         return (
           <Sequence key={i} from={from} durationInFrames={d}>
             {/* no whoosh on text changes: Husain 17 Nov, it sounds AI-made */}
-            <AbsoluteFill style={{ alignItems: "center", justifyContent: "flex-start", paddingTop: L.cardTop, paddingLeft: L.padL, paddingRight: L.padR }}>
-              <div style={{ transform: `scale(${L.cardScale})`, transformOrigin: "top center" }}><CardLocal card={c} d={d} u={u} /></div>
+            <AbsoluteFill style={{ alignItems: "center", justifyContent: "flex-end", paddingBottom: L.cardBottom, paddingLeft: L.padL, paddingRight: L.padR }}>
+              <div style={{ transform: `scale(${L.cardScale})`, transformOrigin: "bottom center" }}><CardLocal card={c} d={d} u={u} /></div>
             </AbsoluteFill>
           </Sequence>
         );
