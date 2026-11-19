@@ -1,8 +1,8 @@
 {
  "spec": {
-  "tag": "CYBERPUNK 2077 · COST PER HOUR",
+  "tag": "CYBERPUNK 2077 \u00b7 COST PER HOUR",
   "headline": "CYBERPUNK 2077 COSTS |$2.31 AN HOUR|",
-  "topic": "Cyberpunk 2077 $59.99 on Steam (US, 19 Nov 2026) ÷ HowLongToBeat main story 26 h = $2.31/h; completionist 109 h = $0.55/h; vs ~$12 movie for 2 h = $6/h",
+  "topic": "Cyberpunk 2077 $59.99 on Steam (US, 19 Nov 2026) \u00f7 HowLongToBeat main story 26 h = $2.31/h; completionist 109 h = $0.55/h; vs ~$12 movie for 2 h = $6/h",
   "vo": "vo/d_2026_11_19c/vo.wav",
   "timelinePath": "vo/d_2026_11_19c/timeline.json",
   "timeline": {
@@ -11,14 +11,63 @@
    "words": []
   },
   "noBed": true,
-  "clips": [],
+  "clips": [
+   {
+    "src": "d_2026_11_19c",
+    "from": 30.59,
+    "dur": 2.2,
+    "shot": 12
+   },
+   {
+    "src": "d_2026_11_19c",
+    "from": 49.19,
+    "dur": 2.0,
+    "shot": 21
+   },
+   {
+    "src": "d_2026_11_19c",
+    "from": 43.65,
+    "dur": 2.0,
+    "shot": 19
+   },
+   {
+    "src": "d_2026_11_19c",
+    "from": 71.12,
+    "dur": 1.73,
+    "shot": 28
+   },
+   {
+    "src": "d_2026_11_19c",
+    "from": 7.45,
+    "dur": 2.2,
+    "shot": 3
+   },
+   {
+    "src": "d_2026_11_19c",
+    "from": 35.52,
+    "dur": 1.27,
+    "shot": 15
+   },
+   {
+    "src": "d_2026_11_19c",
+    "from": 66.52,
+    "dur": 2.2,
+    "shot": 26
+   },
+   {
+    "src": "d_2026_11_19c",
+    "from": 68.99,
+    "dur": 1.2,
+    "shot": 27
+   }
+  ],
   "cards": [
    {
     "kind": "big",
     "line": "hook",
     "value": "$2.31/HR",
     "label": "Cyberpunk 2077, main story",
-    "note": "$59.99 Steam ÷ 26 h HowLongToBeat · our math",
+    "note": "$59.99 Steam \u00f7 26 h HowLongToBeat \u00b7 our math",
     "color": "#D4FF3A"
    },
    {
@@ -37,13 +86,13 @@
    {
     "kind": "big",
     "line": "full",
-    "value": "55¢/HR",
+    "value": "55\u00a2/HR",
     "label": "if you go 100%",
-    "note": "109 h completionist · HowLongToBeat",
+    "note": "109 h completionist \u00b7 HowLongToBeat",
     "color": "#D4FF3A"
    }
   ],
-  "credit": "GAMEPLAY: CD PROJEKT RED · DATA: STEAM, HOWLONGTOBEAT",
+  "credit": "GAMEPLAY: CD PROJEKT RED \u00b7 DATA: STEAM, HOWLONGTOBEAT",
   "endLine": "FOLLOW FOR COST PER HOUR",
   "noCaptions": true
  }
