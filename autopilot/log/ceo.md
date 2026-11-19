@@ -2,6 +2,7 @@
 
 ## For the owner
 - Optional, only you can do these (each unlocks something real; none is needed for daily posting):
+  0. 🔴 URGENT 19 Nov: Buffer lost its Instagram login (channel isDisconnected since 18 Nov; 18 + 18b Reels failed, every IG post fails until fixed). buffer.com → Channels → Instagram @ggeconomics → Refresh connection (log in as @ggeconomics). The monitor re-books IG posts that failed in the last 12 h by itself once it is reconnected.
   1. ✅ DONE 17 Nov: TikTok @ggeconomics created + connected in Buffer; publish.py books every Short there.
   2. ✅ DONE 17 Nov: YouTube Analytics API enabled (monitor run 10:58 UTC returned no 403). ✅ DONE 17 Nov: token re-authorised with `youtube.force-ssl` (captions, comments, replies now possible).
   4. 🔴 18 Nov: TikTok has 0 views on every video. Warm the account: 10 min/day on the phone as @ggeconomics for 2-3 days (watch, like, follow gaming videos). Not automatable without bot risk.
