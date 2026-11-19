@@ -5,7 +5,7 @@ on:
   push:
     branches: ["eng/**"]
 permissions: { contents: write, actions: write }
-concurrency: { group: eng, cancel-in-progress: true }
+concurrency: { group: eng, cancel-in-progress: false }   # 19 Nov: true silently cancelled one of two branches pushed minutes apart
 jobs:
   gate:
     runs-on: ubuntu-latest
@@ -24,7 +24,14 @@ jobs:
         run: |
           git config user.name "GG Economics bot" && git config user.email "bot@users.noreply.github.com"
           git fetch -q origin main "${{ github.ref_name }}"
-          git checkout -q main && git merge -q --no-edit "origin/${{ github.ref_name }}" && git push -q origin main
+          git checkout -q main
+          if ! git merge -q --no-edit "origin/${{ github.ref_name }}"; then
+            # generated logs (monitor/analytics write them on every run) may clash; keep main's copy. Code conflicts still fail.
+            C=$(git diff --name-only --diff-filter=U)
+            if echo "$C" | grep -qvE '^autopilot/(log|research)/'; then echo "code conflict: $C"; exit 1; fi
+            echo "$C" | xargs git checkout --ours -- && echo "$C" | xargs git add && git commit -qm "merge ${{ github.ref_name }} (kept main's generated logs)"
+          fi
+          git push -q origin main
           echo "- $(date -u +%F): merged ${{ github.ref_name }} after a passing dry build" >> autopilot/log/engineering.md
           git add autopilot/log/engineering.md && git commit -qm "eng log" && git push -q origin main
       - name: Report failure
