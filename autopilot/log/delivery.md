@@ -1,4 +1,4 @@
-# Delivery check · 2026-11-19 03:09 UTC
+# Delivery check · 2026-11-19 07:54 UTC
 
 ## Problems
 - 2026-11-18 instagram_reel: Buffer error: It looks like Buffer has lost authorization to post on your behalf. Please refresh your channel to resume scheduling.
@@ -6,10 +6,10 @@
 
 Buffer scheduled per channel: youtube_short 3, instagram_reel 3, tiktok_video 3
 
-GitHub Actions minutes used this month: ~895 of 2,000 (free tier, private repo)
+GitHub Actions minutes used this month: ~896 of 2,000 (free tier, private repo)
 
 ## Actions taken
-- 2026-11-18: {'video': 'a92DfUx8zTw', 'series': 'gta6', 'playlist': 'ok', 'blocked_in': 0, 'allowed_only': None, 'music': 'library'}
+- none
 
 | post | channel | status | sent/due | link | title |
 |---|---|---|---|---|---|
