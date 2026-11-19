@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 """publish.py <date> [--dry] | publish.py <date> --rebook <channel_job> [--direct]
---direct (instagram_reel only): skip Buffer and post the Reel through the Instagram Graph API (IG_ACCESS_TOKEN, IG_USER_ID).
+--direct: skip Buffer. instagram_reel → Instagram Graph API (IG_ACCESS_TOKEN, IG_USER_ID); youtube_short → YouTube Data API
+(keys/youtube-token.json), used when Buffer's YouTube posting cap blocks a slot.
 --rebook: re-create ONE failed Buffer post (e.g. instagram_reel after a channel reconnect) from the media already hosted,
 due in 5 min; the old id moves to buffer_ids.json "replaced". Used by monitor.py.
 Hosts queue/<date>/short.mp4 (+ carousel PNGs) in the public media repo, then schedules them in Buffer:
@@ -95,8 +96,31 @@ if ch.get("tiktok"):   # added 17 Nov 2026: same Short to TikTok @ggeconomics
 if rebook: jobs = [j for j in jobs if j[0] == rebook] or sys.exit(f"no job named {rebook}")
 if dry:
     print(json.dumps({"mode": mode, "dry": True, "due": due, "jobs": [j[0] for j in jobs] or "no Buffer channels configured yet"}, indent=1)); sys.exit(0)
+if rebook == "youtube_short" and "--direct" in sys.argv:   # Buffer's YouTube cap (19 Nov incident): upload with our own token
+    tokf = AP / "keys/youtube-token.json"
+    if not tokf.exists(): sys.exit("--direct youtube_short needs keys/youtube-token.json")
+    from google.oauth2.credentials import Credentials
+    from google.auth.transport.requests import Request
+    from googleapiclient.discovery import build
+    from googleapiclient.http import MediaFileUpload
+    import tempfile
+    creds = Credentials.from_authorized_user_file(str(tokf))
+    if not creds.valid: creds.refresh(Request()); tokf.write_text(creds.to_json())
+    yt = build("youtube", "v3", credentials=creds)
+    mp4 = Path(tempfile.mkdtemp()) / "short.mp4"; urllib.request.urlretrieve(urls["video"], mp4)
+    body = {"snippet": {"title": post["title"][:100], "categoryId": cfg["youtube_category_id"],
+                        "description": post["caption"].strip() + "\n\n" + " ".join(post.get("hashtags", [])[:3])},
+            "status": {"privacyStatus": "public", "selfDeclaredMadeForKids": False}}
+    vid = yt.videos().insert(part="snippet,status", body=body, media_body=MediaFileUpload(str(mp4), mimetype="video/mp4", resumable=True)).execute()["id"]
+    st = yt.videos().list(part="status", id=vid).execute()["items"][0]["status"]
+    b = json.load(open(Q / "buffer_ids.json"))
+    b.setdefault("replaced", []).append({rebook: b["ids"].pop(rebook, None)}); b.setdefault("direct", {})[rebook] = vid
+    json.dump(b, open(Q / "buffer_ids.json", "w"), indent=1)
+    print("posted direct", rebook, vid, st.get("privacyStatus"), st.get("uploadStatus"))
+    if st.get("privacyStatus") != "public": sys.exit(f"uploaded but YouTube made it {st.get('privacyStatus')} (unverified API project?)")
+    sys.exit(0)
 if rebook and "--direct" in sys.argv:                  # Buffer's Instagram link is down: post the Reel straight to Instagram (Graph API)
-    if rebook != "instagram_reel": sys.exit("--direct only supports instagram_reel")
+    if rebook != "instagram_reel": sys.exit("--direct supports instagram_reel and youtube_short")
     tok, uid = os.environ.get("IG_ACCESS_TOKEN"), os.environ.get("IG_USER_ID")
     if not (tok and uid):
         tok = subprocess.run(["security", "find-generic-password", "-s", "ggeconomics-instagram", "-a", "ig_graph", "-w"],
