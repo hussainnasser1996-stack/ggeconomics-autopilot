@@ -1,12 +1,13 @@
-# Delivery check · 2026-11-19 09:10 UTC
+# Delivery check · 2026-11-19 15:12 UTC
 
 ## Problems
-- 2026-11-18 instagram_reel: Buffer error: It looks like Buffer has lost authorization to post on your behalf. Please refresh your channel to resume scheduling.
-- 2026-11-18b instagram_reel: Buffer error: It looks like Buffer has lost the authorization to post to Facebook. No need to worry, though!
+- 2026-11-18 instagram_reel: Buffer error: It looks like Buffer has lost authorization to post on your behalf. Please refresh your channel to resume scheduling. (older than 12 h: not re-booked, stale)
+- 2026-11-18b instagram_reel: Buffer error: It looks like Buffer has lost the authorization to post to Facebook. No need to worry, though! (older than 12 h: not re-booked, stale)
+- 2026-11-19c youtube_short: Buffer posting limit hit, not re-booked: The daily posting limit for this channel has been reached! Please try reducing the amount of times per day in your schedule and try again later.
 
-Buffer scheduled per channel: youtube_short 3, instagram_reel 3, tiktok_video 3
+Buffer scheduled per channel: youtube_short 2, instagram_reel 2, tiktok_video 2
 
-GitHub Actions minutes used this month: ~898 of 2,000 (free tier, private repo)
+GitHub Actions minutes used this month: ~1105 of 2,000 (free tier, private repo)
 
 ## Actions taken
 - none
@@ -44,6 +45,6 @@ GitHub Actions minutes used this month: ~898 of 2,000 (free tier, private repo)
 | 2026-11-19b | youtube_short | scheduled | 2026-11-19T16:00:00.000Z |  | GTA 6 vs GTA 5: You Waited 4,811 Days |
 | 2026-11-19b | instagram_reel | scheduled | 2026-11-19T16:00:00.000Z |  | GTA 6 vs GTA 5: You Waited 4,811 Days |
 | 2026-11-19b | tiktok_video | scheduled | 2026-11-19T16:00:00.000Z |  | GTA 6 vs GTA 5: You Waited 4,811 Days |
-| 2026-11-19c | youtube_short | scheduled | 2026-11-19T12:00:00.000Z |  | Cyberpunk 2077 Costs You $2.31 an Hour. Worth It? |
-| 2026-11-19c | instagram_reel | scheduled | 2026-11-19T12:00:00.000Z |  | Cyberpunk 2077 Costs You $2.31 an Hour. Worth It? |
-| 2026-11-19c | tiktok_video | scheduled | 2026-11-19T12:00:00.000Z |  | Cyberpunk 2077 Costs You $2.31 an Hour. Worth It? |
+| 2026-11-19c | youtube_short | error | 2026-11-19T12:00:00.000Z |  | Cyberpunk 2077 Costs You $2.31 an Hour. Worth It? |
+| 2026-11-19c | instagram_reel | sent | 2026-11-19T14:33:45.336Z | https://www.instagram.com/reel/Df7TbfdBgHX/ | Cyberpunk 2077 Costs You $2.31 an Hour. Worth It? |
+| 2026-11-19c | tiktok_video | sent | 2026-11-19T12:01:35.808Z | https://tiktok.com/@ggeconomics/video/7709851258726763796 | Cyberpunk 2077 Costs You $2.31 an Hour. Worth It? |
