@@ -7,3 +7,4 @@
 - 2026-11-19: merged eng/2026-11-19-gate after a passing dry build
 - 2026-11-19: merged eng/2026-11-19-limit-norebook after a passing dry build
 - 2026-11-19: eng/2026-11-19-retention NOT merged: dry build failed (run 44551642506)
+- 2026-11-19: merged eng/2026-11-19-ig-direct after a passing dry build
