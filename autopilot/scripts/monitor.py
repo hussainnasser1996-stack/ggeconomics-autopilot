@@ -42,7 +42,10 @@ for q in sorted(Qd.iterdir()):
             rows.append(f"| {q.name} | {name} | {st} | {p.get('sentAt') or p.get('dueAt') or ''} | {p.get('externalLink') or ''} | {title[:50]} |")
             if err or st in ("error", "failed"):
                 due_t = datetime.datetime.fromisoformat((p.get("dueAt") or now.isoformat()).replace("Z", "+00:00"))
-                if SERVICE.get(name) in down or now - due_t > datetime.timedelta(hours=12):
+                if err and "limit" in err.lower():
+                    # Platform/Buffer posting cap: a re-book would spend the reduced daily allowance and starve later slots.
+                    problems.append(f"{q.name} {name}: Buffer posting limit hit, not re-booked: {err}")
+                elif SERVICE.get(name) in down or now - due_t > datetime.timedelta(hours=12):
                     problems.append(f"{q.name} {name}: Buffer error: {err}" + ("" if SERVICE.get(name) in down else " (older than 12 h: not re-booked, stale)"))
                 else:
                     r = subprocess.run(["python3", str(AP / "scripts/publish.py"), q.name, "--rebook", name], capture_output=True, text=True)
