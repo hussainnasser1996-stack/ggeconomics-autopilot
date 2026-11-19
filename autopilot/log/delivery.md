@@ -1,14 +1,15 @@
-# Delivery check · 2026-11-18 21:10 UTC
+# Delivery check · 2026-11-19 03:09 UTC
 
 ## Problems
+- 2026-11-18 instagram_reel: Buffer error: It looks like Buffer has lost authorization to post on your behalf. Please refresh your channel to resume scheduling.
 - 2026-11-18b instagram_reel: Buffer error: It looks like Buffer has lost the authorization to post to Facebook. No need to worry, though!
 
-Buffer scheduled per channel: youtube_short 2, instagram_reel 2, tiktok_video 2
+Buffer scheduled per channel: youtube_short 3, instagram_reel 3, tiktok_video 3
 
-GitHub Actions minutes used this month: ~865 of 2,000 (free tier, private repo)
+GitHub Actions minutes used this month: ~895 of 2,000 (free tier, private repo)
 
 ## Actions taken
-- none
+- 2026-11-18: {'video': 'a92DfUx8zTw', 'series': 'gta6', 'playlist': 'ok', 'blocked_in': 0, 'allowed_only': None, 'music': 'library'}
 
 | post | channel | status | sent/due | link | title |
 |---|---|---|---|---|---|
@@ -28,9 +29,9 @@ GitHub Actions minutes used this month: ~865 of 2,000 (free tier, private repo)
 | 2026-11-17c | youtube_short | sent | 2026-11-17T12:02:37.768Z | https://www.youtube.com/shorts/zK7fa0dTrDc | Elden Ring Costs You $1 an Hour. Worth It? |
 | 2026-11-17c | instagram_reel | sent | 2026-11-17T12:04:18.448Z | https://www.instagram.com/reel/Df14vsSTiBZ/ | Elden Ring Costs You $1 an Hour. Worth It? |
 | 2026-11-17c | tiktok_video | sent | 2026-11-17T20:02:40.954Z | https://tiktok.com/@ggeconomics/video/7709233030115855624 | Elden Ring Costs You $1 an Hour. Worth It? |
-| 2026-11-18 | youtube_short | scheduled | 2026-11-18T23:00:00.000Z |  | GTA 6 Unlocks Tonight: You Need 212 GB Free |
-| 2026-11-18 | instagram_reel | scheduled | 2026-11-18T23:00:00.000Z |  | GTA 6 Unlocks Tonight: You Need 212 GB Free |
-| 2026-11-18 | tiktok_video | scheduled | 2026-11-18T23:00:00.000Z |  | GTA 6 Unlocks Tonight: You Need 212 GB Free |
+| 2026-11-18 | youtube_short | sent | 2026-11-18T23:01:06.189Z | https://www.youtube.com/shorts/a92DfUx8zTw | GTA 6 Unlocks Tonight: You Need 212 GB Free |
+| 2026-11-18 | instagram_reel | error | 2026-11-18T23:00:00.000Z |  | GTA 6 Unlocks Tonight: You Need 212 GB Free |
+| 2026-11-18 | tiktok_video | sent | 2026-11-18T23:02:25.099Z | https://tiktok.com/@ggeconomics/video/7709650408355941640 | GTA 6 Unlocks Tonight: You Need 212 GB Free |
 | 2026-11-18b | youtube_short | sent | 2026-11-18T16:02:07.395Z | https://www.youtube.com/shorts/gEIsDaTmYII | GTA 6 Beat Cyberpunk's 8M Pre-Order Record? |
 | 2026-11-18b | instagram_reel | error | 2026-11-18T16:00:00.000Z |  | GTA 6 Beat Cyberpunk's 8M Pre-Order Record? |
 | 2026-11-18b | tiktok_video | sent | 2026-11-18T16:04:59.203Z | https://tiktok.com/@ggeconomics/video/7709542825251147015 | GTA 6 Beat Cyberpunk's 8M Pre-Order Record? |
@@ -40,3 +41,9 @@ GitHub Actions minutes used this month: ~865 of 2,000 (free tier, private repo)
 | 2026-11-19 | youtube_short | scheduled | 2026-11-19T23:00:00.000Z |  | GTA 6 Is Out: Your Console Runs It at 30 FPS |
 | 2026-11-19 | instagram_reel | scheduled | 2026-11-19T23:00:00.000Z |  | GTA 6 Is Out: Your Console Runs It at 30 FPS |
 | 2026-11-19 | tiktok_video | scheduled | 2026-11-19T23:00:00.000Z |  | GTA 6 Is Out: Your Console Runs It at 30 FPS |
+| 2026-11-19b | youtube_short | scheduled | 2026-11-19T16:00:00.000Z |  | GTA 6 vs GTA 5: You Waited 4,811 Days |
+| 2026-11-19b | instagram_reel | scheduled | 2026-11-19T16:00:00.000Z |  | GTA 6 vs GTA 5: You Waited 4,811 Days |
+| 2026-11-19b | tiktok_video | scheduled | 2026-11-19T16:00:00.000Z |  | GTA 6 vs GTA 5: You Waited 4,811 Days |
+| 2026-11-19c | youtube_short | scheduled | 2026-11-19T12:00:00.000Z |  | Cyberpunk 2077 Costs You $2.31 an Hour. Worth It? |
+| 2026-11-19c | instagram_reel | scheduled | 2026-11-19T12:00:00.000Z |  | Cyberpunk 2077 Costs You $2.31 an Hour. Worth It? |
+| 2026-11-19c | tiktok_video | scheduled | 2026-11-19T12:00:00.000Z |  | Cyberpunk 2077 Costs You $2.31 an Hour. Worth It? |
