@@ -1,11 +1,11 @@
-# Delivery check · 2026-11-19 20:57 UTC
+# Delivery check · 2026-11-19 21:10 UTC
 
 ## Problems
 - 2026-11-18b instagram_reel: Buffer error: It looks like Buffer has lost the authorization to post to Facebook. No need to worry, though! (older than 12 h: not re-booked, stale)
 
 Buffer scheduled per channel: youtube_short 1, instagram_reel 1, tiktok_video 1
 
-GitHub Actions minutes used this month: ~1281 of 2,000 (free tier, private repo)
+GitHub Actions minutes used this month: ~1283 of 2,000 (free tier, private repo)
 
 ## Actions taken
 - none
