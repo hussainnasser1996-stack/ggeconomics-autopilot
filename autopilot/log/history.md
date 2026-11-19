@@ -1,5 +1,6 @@
 # Post history (newest first)
 
+- 2026-11-19c · Cyberpunk 2077 Costs You $2.31 an Hour. Worth It? · footage: Cyberpunk 2077 — Cyberpunk 2077: Ultimate Edition — City of Dreams · VO similarity 1.00 · youtube_short 6afed453528b203593ecfb6e · instagram_reel 6afed454528b203593ecfbac · tiktok_video 6afed4547c25de751c33af13 · due 23:00 UTC
 - 2026-11-19c · Cyberpunk 2077 Costs You $2.31 an Hour. Worth It? · footage: Cyberpunk 2077 — Cyberpunk 2077: Ultimate Edition — City of Dreams · VO similarity 1.00 · youtube_short 6afe466fc69bd1cb8894047a · instagram_reel 6afe46704cace847b386397d · tiktok_video 6afe46704cace847b38639c5 · due 23:00 UTC
 - 2026-11-19b · GTA 6 vs GTA 5: You Waited 4,811 Days · footage: gta6_official_launch.mp4 · VO similarity 1.00 · youtube_short 6afe438401ba7c5e7923e95a · instagram_reel 6afe43854cace847b3856258 · tiktok_video 6afe4386a588bd6687aa8d34 · due 23:00 UTC
 - 2026-11-19 · GTA 6 Is Out: Your Console Runs It at 30 FPS · footage: gta6_trailer_QdBZY2fkU-0.mp4 · VO similarity 0.91 · youtube_short 6afded55fde1b041e1a33275 · instagram_reel 6afded55144d89f0a5b701dc · tiktok_video 6afded56fde1b041e1a33401 · due 23:00 UTC
