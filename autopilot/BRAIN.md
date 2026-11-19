@@ -53,6 +53,10 @@ Instagram AND TikTok (scoreboard.md has all three) and any `REACH ALARM` in its 
   review.md, and put any human-only fix (phone, password) in log/ceo.md "For the owner" the same night.
 - YouTube's key Shorts number is "stayed to watch" vs "swiped away" (Studio). 18 Nov baseline: Elden Ring edit 47.5%,
   Xbox One 37.2%, $1B 31.9%, GTA price 26.6%, Rockstar list 25.1%. Under 40% = the first second failed: change the hook.
+- The API can't read "stayed to watch", but scoreboard.md now has YouTube's retention curve per Short (2-3 days late):
+  "3s vs similar" = how this Short holds viewers at 3 s against similar Shorts (0-1; 0.5 = average). 16 Nov baseline
+  0.14-0.31 = bottom quarter. Compare the opener of the best and worst (clips.json, first line of script.json) and keep
+  what the best one did. "kept 1s/3s %" can top 100 because Shorts loop; read it only relative to other Shorts.
 - End the review with 1–3 lines starting `DECISION:` (what you change in today's posts because of the numbers).
 For each post 2–10 days old in scoreboard.md, explain the number with evidence:
 - Low YouTube views → the swipe test failed (first 1.5 s: hook frame, first words). Views but avg view % < 60 → it lost
