@@ -10,7 +10,8 @@ jobs:
   check:
     runs-on: ubuntu-latest
     timeout-minutes: 10
-    env: { BUFFER_API_KEY: "${{ secrets.BUFFER_API_KEY }}", GH_TOKEN: "${{ github.token }}" }
+    env: { BUFFER_API_KEY: "${{ secrets.BUFFER_API_KEY }}", GH_TOKEN: "${{ github.token }}",
+           IG_ACCESS_TOKEN: "${{ secrets.IG_ACCESS_TOKEN }}", IG_USER_ID: "${{ secrets.IG_USER_ID }}" }
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5

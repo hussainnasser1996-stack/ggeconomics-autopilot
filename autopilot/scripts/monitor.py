@@ -45,6 +45,11 @@ for q in sorted(Qd.iterdir()):
                 if err and "limit" in err.lower():
                     # Platform/Buffer posting cap: a re-book would spend the reduced daily allowance and starve later slots.
                     problems.append(f"{q.name} {name}: Buffer posting limit hit, not re-booked: {err}")
+                elif (SERVICE.get(name) in down and name == "instagram_reel" and os.environ.get("IG_ACCESS_TOKEN")
+                      and now - due_t <= datetime.timedelta(hours=12)):
+                    # Buffer lost Instagram (18 Nov): don't wait for the owner, post the Reel straight through the Graph API.
+                    r = subprocess.run(["python3", str(AP / "scripts/publish.py"), q.name, "--rebook", name, "--direct"], capture_output=True, text=True)
+                    (actions if r.returncode == 0 else problems).append(f"{q.name} {name}: Buffer IG down → direct post: {(r.stdout + r.stderr).strip()[-200:]}")
                 elif SERVICE.get(name) in down or now - due_t > datetime.timedelta(hours=12):
                     problems.append(f"{q.name} {name}: Buffer error: {err}" + ("" if SERVICE.get(name) in down else " (older than 12 h: not re-booked, stale)"))
                 else:

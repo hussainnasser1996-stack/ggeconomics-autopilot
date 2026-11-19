@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
-"""publish.py <date> [--dry] | publish.py <date> --rebook <channel_job>
+"""publish.py <date> [--dry] | publish.py <date> --rebook <channel_job> [--direct]
+--direct (instagram_reel only): skip Buffer and post the Reel through the Instagram Graph API (IG_ACCESS_TOKEN, IG_USER_ID).
 --rebook: re-create ONE failed Buffer post (e.g. instagram_reel after a channel reconnect) from the media already hosted,
 due in 5 min; the old id moves to buffer_ids.json "replaced". Used by monitor.py.
 Hosts queue/<date>/short.mp4 (+ carousel PNGs) in the public media repo, then schedules them in Buffer:
@@ -94,6 +95,31 @@ if ch.get("tiktok"):   # added 17 Nov 2026: same Short to TikTok @ggeconomics
 if rebook: jobs = [j for j in jobs if j[0] == rebook] or sys.exit(f"no job named {rebook}")
 if dry:
     print(json.dumps({"mode": mode, "dry": True, "due": due, "jobs": [j[0] for j in jobs] or "no Buffer channels configured yet"}, indent=1)); sys.exit(0)
+if rebook and "--direct" in sys.argv:                  # Buffer's Instagram link is down: post the Reel straight to Instagram (Graph API)
+    if rebook != "instagram_reel": sys.exit("--direct only supports instagram_reel")
+    tok, uid = os.environ.get("IG_ACCESS_TOKEN"), os.environ.get("IG_USER_ID")
+    if not (tok and uid):
+        tok = subprocess.run(["security", "find-generic-password", "-s", "ggeconomics-instagram", "-a", "ig_graph", "-w"],
+                             capture_output=True, text=True).stdout.strip(); uid = cfg.get("instagram_user_id", "17841461684732203")
+    if not tok: sys.exit("--direct needs IG_ACCESS_TOKEN")
+    import urllib.parse, time
+    G = "https://graph.facebook.com/v21.0/"
+    def g(path, data=None):
+        url = G + path + ("" if data else ("&" if "?" in path else "?") + "access_token=" + tok)
+        body = urllib.parse.urlencode({**data, "access_token": tok}).encode() if data else None
+        try: return json.loads(urllib.request.urlopen(urllib.request.Request(url, data=body), timeout=60).read())
+        except urllib.error.HTTPError as e: sys.exit(f"Instagram Graph error: {e.read().decode()[:300]}")
+    c = g(f"{uid}/media", {"media_type": "REELS", "video_url": urls["video"], "caption": text[:2200], "share_to_feed": "true"})["id"]
+    for _ in range(40):
+        st = g(f"{c}?fields=status_code,status")
+        if st.get("status_code") == "FINISHED": break
+        if st.get("status_code") in ("ERROR", "EXPIRED"): sys.exit(f"Instagram processing failed: {st.get('status')}")
+        time.sleep(10)
+    else: sys.exit("Instagram processing timed out")
+    mid = g(f"{uid}/media_publish", {"creation_id": c})["id"]
+    b = json.load(open(Q / "buffer_ids.json"))
+    b.setdefault("replaced", []).append({rebook: b["ids"].pop(rebook, None)}); b.setdefault("direct", {})[rebook] = mid
+    json.dump(b, open(Q / "buffer_ids.json", "w"), indent=1); print("posted direct", rebook, mid); sys.exit(0)
 if rebook:
     b = json.load(open(Q / "buffer_ids.json"))
     res = gql(MUT, {"i": jobs[0][1]})["createPost"]
