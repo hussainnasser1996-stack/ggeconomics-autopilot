@@ -21,7 +21,7 @@
    "a92DfUx8zTw": {
     "title": "GTA 6 Unlocks Tonight: You Need 212 GB Free",
     "published": "2026-11-18",
-    "views": 857,
+    "views": 872,
     "likes": 12,
     "comments": 3
    },
@@ -35,54 +35,64 @@
    "WNOKpKZ_STA": {
     "title": "Baldur's Gate 3 Costs You 82\u00a2 an Hour. Worth It?",
     "published": "2026-11-18",
-    "views": 776,
+    "views": 792,
     "likes": 3,
     "comments": 1
    },
    "k1zkAfgzYeE": {
     "title": "Your 2013 Xbox One Can Play GTA 6 on Day One",
     "published": "2026-11-17",
-    "views": 593,
+    "views": 597,
     "likes": 11,
     "comments": 2
    },
    "qk-9G5Knq5U": {
     "title": "GTA 6: Take-Two Bets $8 Billion on Your $80",
     "published": "2026-11-17",
-    "views": 12,
+    "views": 13,
     "likes": 0,
     "comments": 1
    },
    "zK7fa0dTrDc": {
     "title": "Elden Ring Costs You $1 an Hour. Worth It?",
     "published": "2026-11-17",
-    "views": 1179,
+    "views": 1189,
     "likes": 9,
     "comments": 2
    },
    "xee1vvJZ5L4": {
     "title": "GTA 6 Might Make $1 Billion Before You Can Even Play It",
     "published": "2026-11-16",
-    "views": 810,
+    "views": 812,
     "likes": 12,
     "comments": 1,
     "an_views": 774,
     "avg_view_s": 14,
     "avg_view_pct": 61.8,
     "subs": 0,
-    "shares": 1
+    "shares": 1,
+    "hold_1s": 111,
+    "hold_3s": 106,
+    "hold_end": 20,
+    "vs_similar_3s": 0.25,
+    "dur_s": 24
    },
    "ct7tlizYNYQ": {
     "title": "GTA 6 Costs You $79.99. GTA 5 Cost More",
     "published": "2026-11-16",
-    "views": 314,
+    "views": 315,
     "likes": 0,
     "comments": 1,
     "an_views": 264,
     "avg_view_s": 12,
     "avg_view_pct": 51.8,
     "subs": 0,
-    "shares": 0
+    "shares": 0,
+    "hold_1s": 103,
+    "hold_3s": 101,
+    "hold_end": 7,
+    "vs_similar_3s": 0.14,
+    "dur_s": 24
    },
    "2lyn0JAlPoU": {
     "title": "Rockstar Made 2 of the 5 Best-Selling Games Ever",
@@ -94,11 +104,36 @@
     "avg_view_s": 17,
     "avg_view_pct": 68.4,
     "subs": 0,
-    "shares": 1
+    "shares": 1,
+    "hold_1s": 110,
+    "hold_3s": 110,
+    "hold_end": 20,
+    "vs_similar_3s": 0.31,
+    "dur_s": 25
    }
   }
  },
  "instagram": {
+  "6aff0716443a2a9f2fc820a2": {
+   "sent": "2026-11-19",
+   "text": "A movie costs you $6 an hour. Cyberpunk 2077 costs $2.31. Go",
+   "link": "https://www.instagram.com/reel/Df7TbfdBgHX/",
+   "service": "instagram"
+  },
+  "6afed4547c25de751c33af13": {
+   "sent": "2026-11-19",
+   "text": "A movie costs you $6 an hour. Cyberpunk 2077 costs $2.31. Go",
+   "link": "https://tiktok.com/@ggeconomics/video/7709851258726763796",
+   "service": "tiktok",
+   "reactions": 0,
+   "comments": 0,
+   "engagementRate": 0,
+   "views": 0,
+   "shares": 0,
+   "reach": 0,
+   "totalTimeWatched": 0,
+   "averageTimeWatched": 0
+  },
   "6afde95033817c1785c4ed0d": {
    "sent": "2026-11-18",
    "text": "GTA 6 launches November 19 and the download is up to 212 GB ",
@@ -145,7 +180,16 @@
    "sent": "2026-11-18",
    "text": "A movie costs you $6 an hour. Baldur's Gate 3 costs 82 cents",
    "link": "https://www.instagram.com/reel/Df4dRBahYSt/",
-   "service": "instagram"
+   "service": "instagram",
+   "reactions": 0,
+   "comments": 0,
+   "engagementRate": 0,
+   "views": 100,
+   "shares": 0,
+   "saves": 0,
+   "totalTimeWatched": 5.73,
+   "averageTimeWatched": 3.7,
+   "reach": 92
   },
   "6afc638c5c396d5a45768752": {
    "sent": "2026-11-17",
@@ -215,8 +259,8 @@
    "views": 126,
    "shares": 0,
    "saves": 0,
-   "totalTimeWatched": 12.58,
-   "averageTimeWatched": 6.86,
+   "totalTimeWatched": 13.01,
+   "averageTimeWatched": 7.03,
    "reach": 109
   },
   "6afaf1f591ba8aa74bd17c3f": {
@@ -253,13 +297,30 @@
    "sent": "2026-11-18",
    "text": "GTA 6 launches November 19 and the download is up to 212 GB ",
    "link": "https://www.instagram.com/p/Df4yWfKoF02/",
-   "service": "instagram"
+   "service": "instagram",
+   "reactions": 0,
+   "comments": 0,
+   "engagementRate": 0,
+   "views": 0,
+   "shares": 0,
+   "saves": 0,
+   "follows": 0,
+   "reach": 0
   },
   "6afac87a60a910801c812ed3": {
    "sent": "2026-11-17",
    "text": "GTA 6 streams to Xbox One through Xbox Cloud Gaming from Nov",
    "link": "https://www.instagram.com/reel/Df3EQEqBE8w/",
-   "service": "instagram"
+   "service": "instagram",
+   "reactions": 0,
+   "comments": 0,
+   "engagementRate": 0,
+   "views": 143,
+   "shares": 0,
+   "saves": 0,
+   "totalTimeWatched": 18.25,
+   "averageTimeWatched": 8.69,
+   "reach": 124
   },
   "6afa2b2f60a910801c4de745": {
    "sent": "2026-11-16",
@@ -295,297 +356,297 @@
   {
    "title": "PLAYING GTA 6 FOR THE FIRST TIME (PART 1)",
    "channel": "Kai Cenat Live",
-   "views": 11609686,
+   "views": 11767104,
    "published": "2026-11-19"
   },
   {
    "title": "GTA 6 Gameplay Walkthrough Part 1 FULL GAME [4K PS5 PRO] - No Commentary",
    "channel": "MKIceAndFire",
-   "views": 4353447,
+   "views": 5354819,
    "published": "2026-11-18"
   },
   {
    "title": "\ud83d\udd34LIVE | GTA 6 | BUNGULATION EDITION | IM IN NEW ZEALAND | #BUNGULATE",
    "channel": "TheBurntPeanut",
-   "views": 5297271,
+   "views": 5399032,
    "published": "2026-11-19"
   },
   {
    "title": "GTA 6 - Before You Buy",
    "channel": "gameranx",
-   "views": 4100285,
+   "views": 4464857,
    "published": "2026-11-18"
   },
   {
    "title": "\ud83d\udd34 LIVE! - GTA 6 EARLY ACCESS! FREE ROAM GAMEPLAY LIVE! (PS5 PRO)",
    "channel": "Typical Gamer",
-   "views": 7048307,
+   "views": 7087603,
    "published": "2026-11-18"
   },
   {
    "title": "GTA 6 Walkthrough Gameplay Part 1 - INTRO (GRAND THEFT AUTO 6)",
    "channel": "theRadBrad",
-   "views": 4842527,
+   "views": 5407069,
    "published": "2026-11-18"
   },
   {
    "title": "IT'S FINALLY HERE | Grand Theft Auto 6 - Part 1",
    "channel": "jacksepticeye",
-   "views": 1603134,
+   "views": 1988525,
    "published": "2026-11-18"
   },
   {
    "title": "PLAYING GTA 6 FOR THE FIRST TIME",
    "channel": "Jynxzi",
-   "views": 2808984,
+   "views": 2877504,
    "published": "2026-11-19"
   },
   {
    "title": "Grand Theft Auto 6 - Part 1 - The Beginning",
    "channel": "TmarTn2",
-   "views": 2315434,
+   "views": 2702194,
    "published": "2026-11-18"
   },
   {
    "title": "1 Hour of GTA 6 Free-Roam Gameplay",
    "channel": "TGG",
-   "views": 1608239,
+   "views": 1698169,
    "published": "2026-11-18"
   },
   {
    "title": "GTA 6 - Part 1 - WELCOME TO LEONIDA..",
    "channel": "Hollow",
-   "views": 1508568,
+   "views": 1650802,
    "published": "2026-11-18"
   },
   {
    "title": "GTA 6 just broke the entire internet..",
    "channel": "Asmongold Clips",
-   "views": 3420040,
-   "published": "2026-11-18"
-  },
-  {
-   "title": "[4K HDR] Grand Theft Auto 6: Digital Foundry Tech Review - The Game Of The Generation?",
-   "channel": "Digital Foundry",
-   "views": 1882117,
-   "published": "2026-11-18"
-  },
-  {
-   "title": "The Beginning of GTA 6.. (Ep. 1)",
-   "channel": "Caylus  ",
-   "views": 1553429,
-   "published": "2026-11-19"
-  },
-  {
-   "title": "GTA 6 IS FINALLY HERE...",
-   "channel": "TimTheTatman",
-   "views": 1379293,
-   "published": "2026-11-19"
-  },
-  {
-   "title": "I Tested Every Single GTA",
-   "channel": "Mrwhosetheboss",
-   "views": 1579153,
-   "published": "2026-11-19"
-  },
-  {
-   "title": "GTA 6 \u2013 CRAZY 5-Star Police Chase & Rampage at Vice Ocean Beach!",
-   "channel": "Champs Network",
-   "views": 1031515,
-   "published": "2026-11-18"
-  },
-  {
-   "title": "Grand Theft Auto 6 Gameplay and Impressions...",
-   "channel": "jackfrags",
-   "views": 1019711,
+   "views": 3659919,
    "published": "2026-11-18"
   },
   {
    "title": "So I Played GTA 6..",
    "channel": "Asmongold TV  ",
-   "views": 1042205,
+   "views": 1680303,
    "published": "2026-11-19"
+  },
+  {
+   "title": "The Beginning of GTA 6.. (Ep. 1)",
+   "channel": "Caylus  ",
+   "views": 1711379,
+   "published": "2026-11-19"
+  },
+  {
+   "title": "Grand Theft Auto 6 Gameplay and Impressions...",
+   "channel": "jackfrags",
+   "views": 1459669,
+   "published": "2026-11-18"
+  },
+  {
+   "title": "Why GTA is a Bigger Deal Than You Think",
+   "channel": "Mrwhosetheboss",
+   "views": 2322854,
+   "published": "2026-11-19"
+  },
+  {
+   "title": "IT'S ACTUALLY HERE!! PLAYING GTA 6 USING THE XBOX ALLIGATOR CONTROLLER!! [#01] [LIVE]",
+   "channel": "DashieGames",
+   "views": 1099527,
+   "published": "2026-11-19"
+  },
+  {
+   "title": "[4K HDR] Grand Theft Auto 6: Digital Foundry Tech Review - The Game Of The Generation?",
+   "channel": "Digital Foundry",
+   "views": 1953578,
+   "published": "2026-11-18"
+  },
+  {
+   "title": "GTA 6 IS FINALLY HERE...",
+   "channel": "TimTheTatman",
+   "views": 1392818,
+   "published": "2026-11-19"
+  },
+  {
+   "title": "GTA 6 \u2013 CRAZY 5-Star Police Chase & Rampage at Vice Ocean Beach!",
+   "channel": "Champs Network",
+   "views": 1407314,
+   "published": "2026-11-18"
   },
   {
    "title": "This One Play Changed EVERYTHING! Wheel of MUT! Ep. #16",
    "channel": "MMG",
-   "views": 312537,
+   "views": 337501,
    "published": "2026-11-18"
   },
   {
    "title": "TREES HATE YOU\u2026 (Full Game Part 2)",
    "channel": "CaseOh",
-   "views": 334025,
+   "views": 383656,
    "published": "2026-11-18"
   },
   {
-   "title": "The Late Night Shopping Spree Massacre...",
-   "channel": "Joe Bart Games",
-   "views": 605338,
-   "published": "2026-11-18"
+   "title": "GTA 6 has a massive problem",
+   "channel": "Sydney Watson",
+   "views": 528566,
+   "published": "2026-11-19"
   },
   {
    "title": "GTA6 is really that good",
    "channel": "Jake Baldino",
-   "views": 473932,
+   "views": 591611,
    "published": "2026-11-19"
   },
   {
-   "title": "GTA 6 - 1 Hour Of Free Roam Gameplay | PS5 Pro (No Story Spoilers)",
-   "channel": "TGM",
-   "views": 807431,
-   "published": "2026-11-18"
-  },
-  {
-   "title": "GTA 6 Review",
-   "channel": "GamingBolt",
-   "views": 912594,
+   "title": "GTA 6: Five Things You NEED To Do First",
+   "channel": "jayvee",
+   "views": 806078,
    "published": "2026-11-18"
   }
  ],
  "notes": [
-  "REACH ALARM: tiktok 0 views: GTA 6 launches November 19 and the downl | tiktok 0 views: Cyberpunk's pre-order record was 8 milli | tiktok 0 views: A movie costs you $6 an hour. Baldur's G | instagram 0 views: A movie costs you $6 an hour. Baldur's G | tiktok 0 views: A movie costs you $6 an hour. Elden Ring | tiktok 0 views: GTA 6 streams to Xbox One through Xbox C | tiktok 0 views: Take-Two needs $8 billion this year. Las | instagram 0 views: GTA 6 launches November 19 and the downl | instagram 0 views: GTA 6 streams to Xbox One through Xbox C | instagram 0 views: GTA 6 may pass $1 billion before launch  | youtube 29 views after 24h: GTA 6 Beat Cyberpunk's 8M Pre-Order Reco | youtube 12 views after 24h: GTA 6: Take-Two Bets $8 Billion on Your "
+  "REACH ALARM: tiktok 0 views: GTA 6 launches November 19 and the downl | tiktok 0 views: Cyberpunk's pre-order record was 8 milli | tiktok 0 views: A movie costs you $6 an hour. Baldur's G | tiktok 0 views: A movie costs you $6 an hour. Elden Ring | tiktok 0 views: GTA 6 streams to Xbox One through Xbox C | tiktok 0 views: Take-Two needs $8 billion this year. Las | instagram 0 views: GTA 6 launches November 19 and the downl | instagram 0 views: GTA 6 may pass $1 billion before launch  | youtube 29 views after 24h: GTA 6 Beat Cyberpunk's 8M Pre-Order Reco | youtube 13 views after 24h: GTA 6: Take-Two Bets $8 Billion on Your "
  ],
  "outliers": [
   [
-   17.020406622932594,
-   3674108,
-   4730,
-   "MM Toons ",
-   "When Jinu Plays Peek-a-Boo With Rumi \ud83d\udc80 | GTA 6 #shorts #k-pop"
-  ],
-  [
-   16.000697605558035,
-   2547822,
-   40300,
+   15.236995448505635,
+   2602029,
+   40400,
    "Mente Clara",
    "M\u00e9xico ser\u00e1 el \u00faltimo pa\u00eds en jugar GTA 6"
   ],
   [
-   9.452497906746071,
-   53477750,
-   62800000,
-   "IShowSpeed",
-   "\ud83d\udd34PLAYING GTA 6 EARLY ACCESS GAMEPLAY GET IN HERE!"
+   8.692292776903493,
+   469891,
+   16600,
+   "Agguati GTA",
+   "Mauvaise nouvelle pour tous les fans de GTA6 #gta6 #gta #gaming"
   ],
   [
-   7.862535456273244,
-   378166,
+   8.38903594389899,
+   4884059,
+   2360000,
+   "Bam and Bri Nation",
+   "Now I can play my game in peace!\ud83d\ude02\ud83e\udee1 #gta #GTA6 #marriedlife #relatable #relationships"
+  ],
+  [
+   8.017145505731827,
+   385450,
    437000,
    "ntv Nachrichten",
    "Gamer findet vermisstes M\u00e4dchen | ntv"
   ],
   [
-   7.704953014848079,
-   424183,
-   16400,
-   "Agguati GTA",
-   "Mauvaise nouvelle pour tous les fans de GTA6 #gta6 #gta #gaming"
+   6.359940303371228,
+   606431,
+   5910,
+   "\u0425\u0415\u041d\u0420\u0418",
+   "\u041d\u0435 \u043f\u043e\u043a\u0443\u043f\u0430\u0439 \u0413\u0422\u0410 6 \u0432 \u043a\u043e\u0440\u043e\u0431\u043a\u0435!"
   ],
   [
-   4.9588298921821,
-   2763422,
+   5.183859636089948,
+   2888825,
    753000,
    "Ivan Santonick",
    "Por el GTA VI lo que sea \ud83d\ude02\ud83d\udcb3"
   ],
   [
-   4.22842355792845,
-   3420040,
+   4.525001964804487,
+   3659919,
    1900000,
    "Asmongold Clips",
    "GTA 6 just broke the entire internet.."
   ],
   [
-   3.7054828457937536,
-   7041116,
-   6890000,
-   "\u730e\u9b54\u7684\u5951\u7ea6",
-   "\u662f\u8c01\u7ed1\u4f4f\u4e86\u5c3c\u514b\u72d0#gta  #gta6  #shorts"
-  ],
-  [
-   3.524281064138569,
-   2653585,
-   6880,
-   "Defaulted",
-   "GTA VI will destroy Fortnite?! \ud83d\udea8\ud83d\ude28"
-  ],
-  [
-   3.3950296167092895,
-   12590291,
+   3.541325585006043,
+   13132822,
    700000,
    "Gleb POV",
    "GTA 6 Physical Edition \ud83d\udc80"
   ],
   [
-   3.047342521870532,
-   10821633,
-   607000,
-   "GTA6",
-   "\u5b83\u5e94\u8be5\u9009\u62e9\u8c01\uff1f#GTA #GTA6 #shorts"
-  ],
-  [
-   2.821288674640522,
-   20355623,
-   143000,
+   3.1854013213632446,
+   22982699,
+   146000,
    "GTA6\u2011\u72c2\u91ce\u4e16\u754c",
    "\u60ca\u9b42\u672a\u5b9a\u7684\u9732\u897f\u4e9a#gta  #gta6  #shorts"
   ],
   [
-   2.693891840947943,
-   4443213,
+   3.105183009596584,
+   10880981,
+   609000,
+   "GTA6",
+   "\u5b83\u5e94\u8be5\u9009\u62e9\u8c01\uff1f#GTA #GTA6 #shorts"
+  ],
+  [
+   2.861902803877907,
+   4207092,
+   50000,
+   "GTA6 Stories",
+   "#gta  #gta6  #gta6stories"
+  ],
+  [
+   2.839569948136656,
+   2471927,
+   16300000,
+   "Typical Gamer",
+   "World\u2019s First Stolen Plane in GTA 6"
+  ],
+  [
+   2.7933367322111176,
+   4607234,
    2090000,
    "Gasti Obeide",
    "\u00a12 D\u00cdAS PARA GTA 6! \ud83d\udd25 #youtubeshorts #shorts"
   ],
   [
-   2.641997379986623,
-   2300278,
-   16300000,
-   "Typical Gamer",
-   "\ud83d\udd34 LIVE! - GTA 6 EARLY ACCESS with TYPICAL GAMER! (PS5 PRO)"
+   2.7790707397338807,
+   1457171,
+   2700000,
+   "Snax Gaming",
+   "GTA 6 DAY 1:THE VICE CITY TAKEOVER"
   ],
   [
-   2.5163087241782316,
-   5596798,
+   2.564214731057051,
+   5703351,
    4100000,
    "CarterPCs",
    "GTA 6 codes aren\u2019t working??"
   ],
   [
-   2.4199049810318667,
-   1631689,
-   1520000,
-   "FANTIZ GAMING",
-   "I Bought GTA 6 From Secret Website & Played it!"
-  ],
-  [
-   2.2325769175144012,
-   4728823,
+   2.443532409223093,
+   5175648,
    1330000,
    "Playmakerz",
    "Players Before GTA 6 Releases \ud83d\ude2d\ud83d\udc80"
   ],
   [
-   1.8675946770319587,
-   5206642,
-   16800000,
-   "Kai Cenat Live",
-   "PLAYING GTA 6 FOR THE FIRST TIME"
-  ],
-  [
-   1.6362177551268444,
-   3706642,
-   721000,
+   1.8194768346497412,
+   4121792,
+   722000,
    "Mahadev Tyagi",
    "Aagya GTA VI \u0935\u093e\u0932\u093e Wifi \ud83e\udd79\ud83e\udd29 #viral #trending #gta6 #new #gaming #streaming #gta6gameplay #gta #tech"
   ],
   [
-   1.4898626524264176,
-   323570,
+   1.491363703898096,
+   323896,
    151000,
    "TonyCeno",
    "DOCTOR XBOX\ud83d\ude2d #gaming #gamingnews #gta6 #xbox #gta #gamingshorts"
+  ],
+  [
+   1.4869859546259898,
+   1440493,
+   643000,
+   "JtheSlopFrog",
+   "everything is breaking (because of AI) #gaming #news"
+  ],
+  [
+   1.3262430756973902,
+   1284776,
+   643000,
+   "JtheSlopFrog",
+   "Let me know who you are voting for #gaming #news"
   ]
  ],
  "per_post": {
@@ -594,7 +655,7 @@
    "youtube_short": null,
    "instagram_reel": null,
    "instagram_carousel": null,
-   "tiktok_video": null
+   "tiktok_video": 0
   },
   "2026-11-19b": {
    "title": "GTA 6 vs GTA 5: You Waited 4,811 Days",
@@ -612,8 +673,8 @@
   },
   "2026-11-18c": {
    "title": "Baldur's Gate 3 Costs You 82\u00a2 an Hour. Worth It?",
-   "youtube_short": 776,
-   "instagram_reel": null,
+   "youtube_short": 792,
+   "instagram_reel": 100,
    "instagram_carousel": null,
    "tiktok_video": 0
   },
@@ -626,29 +687,29 @@
   },
   "2026-11-18": {
    "title": "GTA 6 Unlocks Tonight: You Need 212 GB Free",
-   "youtube_short": 857,
+   "youtube_short": 872,
    "instagram_reel": null,
    "instagram_carousel": null,
    "tiktok_video": 0
   },
   "2026-11-17c": {
    "title": "Elden Ring Costs You $1 an Hour. Worth It?",
-   "youtube_short": 1179,
+   "youtube_short": 1189,
    "instagram_reel": 127,
    "instagram_carousel": null,
    "tiktok_video": 0
   },
   "2026-11-17b": {
    "title": "GTA 6: Take-Two Bets $8 Billion on Your $80",
-   "youtube_short": 12,
+   "youtube_short": 13,
    "instagram_reel": 126,
    "instagram_carousel": null,
    "tiktok_video": 0
   },
   "2026-11-17": {
    "title": "Your 2013 Xbox One Can Play GTA 6 on Day One",
-   "youtube_short": 593,
-   "instagram_reel": null,
+   "youtube_short": 597,
+   "instagram_reel": 143,
    "instagram_carousel": null,
    "tiktok_video": 0
   },
@@ -661,14 +722,14 @@
   },
   "2026-11-16b": {
    "title": "GTA 6 Costs You $79.99. GTA 5 Cost More",
-   "youtube_short": 314,
+   "youtube_short": 315,
    "instagram_reel": 121,
    "instagram_carousel": null,
    "tiktok_video": null
   },
   "2026-11-16": {
    "title": "GTA 6 Might Make $1 Billion Before You Can Even Play It",
-   "youtube_short": 810,
+   "youtube_short": 812,
    "instagram_reel": 126,
    "instagram_carousel": 0,
    "tiktok_video": null
