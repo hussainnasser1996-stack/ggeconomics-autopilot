@@ -1,6 +1,6 @@
 {
  "spec": {
-  "tag": "GTA VI · LAUNCH DAY",
+  "tag": "GTA VI \u00b7 LAUNCH DAY",
   "headline": "YOU WAITED |4,811 DAYS| FOR GTA 6",
   "topic": "GTA V released 17 Sep 2013 (PS3/360); GTA VI launches 19 Nov 2026 = 4,811 days (our count). GTA V sold-in 230M+ units (Take-Two, via Outlook Respawn Aug 2026; Take-Two 9 Nov says nearly 235M)",
   "vo": "vo/d_2026_11_19b/vo.wav",
@@ -11,14 +11,87 @@
    "words": []
   },
   "noBed": true,
-  "clips": [],
+  "clips": [
+   {
+    "src": "d_2026_11_19b",
+    "from": 34.52,
+    "dur": 1.2,
+    "shot": 14
+   },
+   {
+    "src": "d_2026_11_19b",
+    "from": 27.32,
+    "dur": 1.33,
+    "shot": 10
+   },
+   {
+    "src": "d_2026_11_19b",
+    "from": 9.45,
+    "dur": 1.74,
+    "shot": 3
+   },
+   {
+    "src": "d_2026_11_19b",
+    "from": 38.45,
+    "dur": 1.27,
+    "shot": 17
+   },
+   {
+    "src": "d_2026_11_19b",
+    "from": 20.65,
+    "dur": 2.2,
+    "shot": 8
+   },
+   {
+    "src": "d_2026_11_19b",
+    "from": 66.52,
+    "dur": 1.27,
+    "shot": 33
+   },
+   {
+    "src": "d_2026_11_19b",
+    "from": 25.85,
+    "dur": 1.27,
+    "shot": 9
+   },
+   {
+    "src": "d_2026_11_19b",
+    "from": 18.45,
+    "dur": 2.0,
+    "shot": 7
+   },
+   {
+    "src": "d_2026_11_19b",
+    "from": 57.99,
+    "dur": 1.2,
+    "shot": 26
+   },
+   {
+    "src": "d_2026_11_19b",
+    "from": 6.45,
+    "dur": 2.2,
+    "shot": 2
+   },
+   {
+    "src": "d_2026_11_19b",
+    "from": 35.92,
+    "dur": 1.33,
+    "shot": 15
+   },
+   {
+    "src": "d_2026_11_19b",
+    "from": 11.39,
+    "dur": 1.2,
+    "shot": 4
+   }
+  ],
   "cards": [
    {
     "kind": "big",
     "line": "hook",
     "value": "4,811",
     "label": "days between GTA 5 and GTA 6",
-    "note": "17 Sep 2013 → 19 Nov 2026 · our count",
+    "note": "17 Sep 2013 \u2192 19 Nov 2026 \u00b7 our count",
     "color": "#D4FF3A"
    },
    {
@@ -42,7 +115,7 @@
     "note": "Take-Two"
    }
   ],
-  "credit": "GAMEPLAY: ROCKSTAR GAMES · DATA: TAKE-TWO, ROCKSTAR",
+  "credit": "GAMEPLAY: ROCKSTAR GAMES \u00b7 DATA: TAKE-TWO, ROCKSTAR",
   "endLine": "FOLLOW FOR GTA 6 BY THE NUMBERS",
   "noCaptions": true
  }

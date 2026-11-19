@@ -1,5 +1,6 @@
 # Post history (newest first)
 
+- 2026-11-19b · GTA 6 vs GTA 5: You Waited 4,811 Days · footage: gta6_official_launch.mp4 · VO similarity 1.00 · youtube_short 6afe438401ba7c5e7923e95a · instagram_reel 6afe43854cace847b3856258 · tiktok_video 6afe4386a588bd6687aa8d34 · due 23:00 UTC
 - 2026-11-19 · GTA 6 Is Out: Your Console Runs It at 30 FPS · footage: gta6_trailer_QdBZY2fkU-0.mp4 · VO similarity 0.91 · youtube_short 6afded55fde1b041e1a33275 · instagram_reel 6afded55144d89f0a5b701dc · tiktok_video 6afded56fde1b041e1a33401 · due 23:00 UTC
 - 2026-11-18 · GTA 6 Unlocks Tonight: You Need 212 GB Free · footage: gta6_trailer_VQRLujxTm3c.mp4 · VO similarity 0.95 · youtube_short 6afde94e33817c1785c4ec70 · instagram_reel 6afde94fa11f24337a116174 · tiktok_video 6afde95033817c1785c4ed0d · due 23:00 UTC
 - 2026-11-18b · GTA 6 Beat Cyberpunk's 8M Pre-Order Record? · footage: gta6_trailer_VQRLujxTm3c.mp4 · VO similarity 1.00 · youtube_short 6afd6a843c888574260e016d · instagram_reel 6afd6a85d015b337f13ede74 · tiktok_video 6afd6a8545783105f43c296f · due 23:00 UTC
