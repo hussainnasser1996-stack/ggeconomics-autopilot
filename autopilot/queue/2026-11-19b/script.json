@@ -1,0 +1,33 @@
+{
+ "id": "d_2026_11_19b",
+ "voice": "am_liam",
+ "speed": 1.25,
+ "gap": 0.12,
+ "mode": "edit",
+ "lines": [
+  {
+   "id": "hook",
+   "text": "You waited 4,811 days for GTA 6"
+  },
+  {
+   "id": "gta5",
+   "text": "GTA 5 came out Sept 17, 2013"
+  },
+  {
+   "id": "gta6",
+   "text": "GTA 6: today, Nov 19, 2026"
+  },
+  {
+   "id": "sold",
+   "text": "Meanwhile GTA 5 sold 230M+ copies"
+  },
+  {
+   "id": "years",
+   "text": "13 years for one sequel"
+  },
+  {
+   "id": "q",
+   "text": "Was it worth 4,811 days?"
+  }
+ ]
+}

@@ -1,0 +1,50 @@
+{
+ "spec": {
+  "tag": "CYBERPUNK 2077 · COST PER HOUR",
+  "headline": "CYBERPUNK 2077 COSTS |$2.31 AN HOUR|",
+  "topic": "Cyberpunk 2077 $59.99 on Steam (US, 19 Nov 2026) ÷ HowLongToBeat main story 26 h = $2.31/h; completionist 109 h = $0.55/h; vs ~$12 movie for 2 h = $6/h",
+  "vo": "vo/d_2026_11_19c/vo.wav",
+  "timelinePath": "vo/d_2026_11_19c/timeline.json",
+  "timeline": {
+   "duration": 1,
+   "lines": [],
+   "words": []
+  },
+  "noBed": true,
+  "clips": [],
+  "cards": [
+   {
+    "kind": "big",
+    "line": "hook",
+    "value": "$2.31/HR",
+    "label": "Cyberpunk 2077, main story",
+    "note": "$59.99 Steam ÷ 26 h HowLongToBeat · our math",
+    "color": "#D4FF3A"
+   },
+   {
+    "kind": "pair",
+    "line": "movie",
+    "a": {
+     "value": "$2.31/HR",
+     "label": "CYBERPUNK 2077"
+    },
+    "b": {
+     "value": "$6/HR",
+     "label": "MOVIE TICKET"
+    },
+    "note": "~$12 ticket for a 2-hour film"
+   },
+   {
+    "kind": "big",
+    "line": "full",
+    "value": "55¢/HR",
+    "label": "if you go 100%",
+    "note": "109 h completionist · HowLongToBeat",
+    "color": "#D4FF3A"
+   }
+  ],
+  "credit": "GAMEPLAY: CD PROJEKT RED · DATA: STEAM, HOWLONGTOBEAT",
+  "endLine": "FOLLOW FOR COST PER HOUR",
+  "noCaptions": true
+ }
+}

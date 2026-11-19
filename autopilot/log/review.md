@@ -1,5 +1,13 @@
 # Review log (newest first; written nightly by the autopilot)
 
+## 2026-11-19 (run for 2026-11-19, extra slots b + c)
+- DISTRIBUTION (unchanged, still on the owner): TikTok is at 0 views on all 5 videos; the fix is the phone warm-up in ceo.md "For the owner" item 4. 17b (Take-Two $8B) is stuck at 9 YouTube views after 24 h (< 50), and two IG Reels (11-16 $1B duplicate, 11-17 Xbox One) show 0 views. Nothing new to add for the owner tonight.
+- YouTube views so far: 17c Elden Ring cost/hour edit 1,155 · 16 $1B 809 · 18c Baldur's Gate 3 cost/hour edit 734 (<24 h) · 17 Xbox One 534. Both cost-per-hour edits (non-GTA, game soundtrack, number in the first 6 words) are among our top 3. That's 2 posts, so it's a signal and not yet a rule.
+- 18b (GTA 6 pre-orders real-or-rumour edit, library music) has 26 YouTube views after less than 24 h. Too early to call it, but it's the weakest early number of any edit. Possible causes: line 1 was a question ("10.3M ... already?") where the winners state a claim, plus the library music. Re-check at 24 h.
+- Instagram is still flat at ~120-140 views, 0 saves and 0 shares; no YouTube retention numbers for 17-18 yet (Analytics lag).
+- DECISION: c slot continues the cost-per-hour series (Cyberpunk 2077: $59.99 ÷ 26 h HLTB main = $2.31/h; 109 h completionist = 55¢/h; Steam US price checked today), with the game soundtrack.
+- DECISION: line 1 of every edit states a claim with the number, never a question. b = "You waited 4,811 days for GTA 6" (GTA V 17 Sep 2013 → 19 Nov 2026, our count; GTA V 230M+ sold-in via Take-Two/Outlook Respawn). I avoided "235M" because only one opened source has it. Library music on b keeps the music A/B going (Rockstar trailer audio carries licensed tracks).
+
 ## 2026-11-18 midday: full channel review (Claude, with YouTube Studio numbers)
 - YouTube (2,432 channel views, 1 sub): stayed-to-watch is the problem everywhere. Elden Ring edit 47.5% (1,100 views), Xbox One 37.2% (494), $1B 31.9% (803), GTA price 26.6% (292), Rockstar top-5 25.1% (293), Take-Two 33.3% on 6 views (YouTube stopped testing it). Every Short loses more than half its viewers in the first second.
 - Instagram: every Reel stuck at ~120-140 views (new-account test pool), 0 shares/saves, avg watch 4.5-10.5 s. Nothing breaks out. Needs Trial Reels (Meta app, owner password pending) and better hooks.

@@ -9,11 +9,11 @@
 - [series] 3 days to GTA 6: $79.99 vs GTA 5's $59.99 (2013) = ~$86 today (BLS CPI-U). Use: 2026-11-16. Status: used 2026-11-16
 - [ranked] Top 5 best-selling games ever (Tetris 520M, Minecraft 425M+, GTA V ~235M, RDR2 89M+, Wii Sports 82.9M). Use: 2026-11-16. Status: used 2026-11-16
 - [series] 2 days to GTA 6 / 1 day to GTA 6: one money fact each (continue the countdown: Db slot). Use: 2026-11-17..2026-11-18. Status: closed 2026-11-18 (1-day episode skipped: 18b at 16:00 UTC is 13 h before the 05:00 UTC unlock, so 'day' math reads 0; the main 18 post covers 'unlocks tonight')
-- GTA VI launch week: day-by-day numbers. Use: 2026-11-16..2026-11-22. Status: open
+- GTA VI launch week: day-by-day numbers. Use: 2026-11-16..2026-11-22. Status: open (launch day used 2026-11-19b: 4,811 days since GTA V, 230M+ GTA V sold-in)
 - GTA VI first-week sales / Take-Two stock reaction after 19 Nov. Use: 2026-11-20+. Status: open
 - Tencent results 18 Nov; NetEase and Ubisoft 19 Nov (from Singular Link Gaming/07 Getting In). CEO 16 Nov: none of these dates is confirmed on a company page (TipRanks lists Tencent as both 10 and 18 Nov); check the IR page before writing. Use: on the day. Status: open
 - [cost per hour] Elden Ring $59.99 (Steam) ÷ 60 h HLTB main = $1/h; 136 h completionist = 44¢/h; music-only edit. Status: used 2026-11-17
-- [cost per hour] Next non-GTA cost-per-hour verdicts (Steam footage, HLTB via curl works: grep comp_main seconds): Cyberpunk 2077, Baldur's Gate 3, Red Dead Redemption 2 (Rockstar: counts toward GTA fatigue), Hollow Knight. Use: 2026-11-18..2026-11-30 (c slot). Status: open (Baldur's Gate 3 used 2026-11-18c: $59.99 ÷ 73 h = 82¢/h, 181 h = 33¢/h)
+- [cost per hour] Next non-GTA cost-per-hour verdicts (Steam footage, HLTB via curl works: grep comp_main seconds): Cyberpunk 2077, Baldur's Gate 3, Red Dead Redemption 2 (Rockstar: counts toward GTA fatigue), Hollow Knight. Use: 2026-11-18..2026-11-30 (c slot). Status: open (Baldur's Gate 3 used 2026-11-18c: $59.99 ÷ 73 h = 82¢/h, 181 h = 33¢/h; Cyberpunk 2077 used 2026-11-19c: $59.99 ÷ 26 h = $2.31/h, 109 h = 55¢/h; next: Hollow Knight, RDR2)
 - Evergreen: Elden Ring first-hour tips (built: out/elden_short_9x16.mp4). Use: any slow day. Status: open
 
 ## Added by CEO review 2026-11-16 (verify every number again on the day)

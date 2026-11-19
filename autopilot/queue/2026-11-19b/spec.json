@@ -1,0 +1,49 @@
+{
+ "spec": {
+  "tag": "GTA VI · LAUNCH DAY",
+  "headline": "YOU WAITED |4,811 DAYS| FOR GTA 6",
+  "topic": "GTA V released 17 Sep 2013 (PS3/360); GTA VI launches 19 Nov 2026 = 4,811 days (our count). GTA V sold-in 230M+ units (Take-Two, via Outlook Respawn Aug 2026; Take-Two 9 Nov says nearly 235M)",
+  "vo": "vo/d_2026_11_19b/vo.wav",
+  "timelinePath": "vo/d_2026_11_19b/timeline.json",
+  "timeline": {
+   "duration": 1,
+   "lines": [],
+   "words": []
+  },
+  "noBed": true,
+  "clips": [],
+  "cards": [
+   {
+    "kind": "big",
+    "line": "hook",
+    "value": "4,811",
+    "label": "days between GTA 5 and GTA 6",
+    "note": "17 Sep 2013 → 19 Nov 2026 · our count",
+    "color": "#D4FF3A"
+   },
+   {
+    "kind": "pair",
+    "line": "gta6",
+    "a": {
+     "value": "2013",
+     "label": "GTA 5"
+    },
+    "b": {
+     "value": "2026",
+     "label": "GTA 6"
+    },
+    "note": "13 years, 2 months"
+   },
+   {
+    "kind": "big",
+    "line": "sold",
+    "value": "230M+",
+    "label": "GTA 5 copies sold-in",
+    "note": "Take-Two"
+   }
+  ],
+  "credit": "GAMEPLAY: ROCKSTAR GAMES · DATA: TAKE-TWO, ROCKSTAR",
+  "endLine": "FOLLOW FOR GTA 6 BY THE NUMBERS",
+  "noCaptions": true
+ }
+}
