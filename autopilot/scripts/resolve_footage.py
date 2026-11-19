@@ -38,7 +38,7 @@ def library(c):
     if not f.endswith(".mp4"):     # no file, or a prefix like "gta6_comp": take the least-recently-used matching asset
         a = json.loads(subprocess.run(["gh", "release", "view", "footage-library", "--json", "assets"], capture_output=True, text=True, cwd=GN).stdout)["assets"]
         a = [x["name"] for x in a if x["name"].startswith(f)] or [x["name"] for x in a]
-        a = [n for n in a if "features" not in n] or a   # gta6_official_features = mostly PlayStation ad cards (18 Nov)
+        a = [n for n in a if not any(b in n for b in ("features", "preload"))] or a   # PlayStation ad files: features (18 Nov), preload = "PRE-LOAD NOW" + logos (19 Nov)
         last = {}
         for d in sorted(used):
             for u in used[d][:1]: last[u["src_id"]] = d

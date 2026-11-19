@@ -54,7 +54,7 @@ def ocr_words(f):
     return n
 import re
 TITLE = {"grand", "theft", "auto", "rockstar", "playstation", "xbox", "nintendo", "steam", "trailer", "available", "preorder",
-         "pre-order", "order", "coming", "rated", "edition", "launch", "wishlist"}
+         "pre-order", "order", "coming", "rated", "edition", "launch", "wishlist", "pre-load", "preload", "captured"}
 TITLE |= {w for w in re.findall(r"[a-z]{5,}", src.get("label", "").lower()) if not w.startswith(("gta", "official"))}
 def title_hit(f):
     """the game's own title/logo or a store card in the 9:16 crop (19b, 19 Nov: the GTA VI logo dissolving into the
@@ -66,7 +66,9 @@ def title_hit(f):
         try: out = subprocess.run(["tesseract", p, "-", "--psm", "11"], stdout=subprocess.PIPE, stderr=subprocess.DEVNULL, timeout=30).stdout.decode(errors="ignore")
         except Exception: out = ""
         os.remove(p)
-        if set(re.findall(r"[a-z-]{4,}", out.lower())) & TITLE: return True
+        toks = set(re.findall(r"[a-z-]{4,}", out.lower()))
+        if toks & TITLE or any(len(k) >= 5 and len(w) >= 6 and w.startswith(k[:6]) for k in toks for w in TITLE): return True   # 'playstatic'
+
     return False
 def textiness(f):
     g = cv2.cvtColor(cv2.resize(f, (480, 270)), cv2.COLOR_BGR2GRAY)

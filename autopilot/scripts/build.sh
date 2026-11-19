@@ -9,7 +9,9 @@ cp "studio/public/vo/$ID/timeline.json" "$Q/timeline.json" 2>/dev/null || true  
 # music-only "edit" format: no spoken words, so no karaoke captions (Husain 17 Nov)
 python3 -c "import json;q='$Q';e=json.load(open(q+'/script.json')).get('mode')=='edit';s=json.load(open(q+'/spec.json'));s['spec']['noCaptions']=e;json.dump(s,open(q+'/spec.json','w'),indent=1)"
 # cloud build: no eyes on contact sheets, so clips are chosen by autopick.py when the brain left them empty
-if python3 -c "import json,sys;sys.exit(0 if not json.load(open('$Q/spec.json'))['spec'].get('clips') else 1)"; then
+# 19 Nov: also when clips.json exists = they were auto-picked for an earlier footage pick; stale timestamps on a different
+# trailer built a PlayStation ad into the gate's test post and the gate never exercised autopick at all
+if [ -f "$Q/clips.json" ] || python3 -c "import json,sys;sys.exit(0 if not json.load(open('$Q/spec.json'))['spec'].get('clips') else 1)"; then
   .venv/bin/python autopilot/scripts/autopick.py "$D"
 fi
 cd studio
