@@ -7,13 +7,14 @@ Updated 2026-11-19. YouTube Analytics lags 1-3 days.
 | post | YouTube Short | IG Reel | IG carousel | TikTok | total | title |
 |---|---|---|---|---|---|---|
 | 2026-11-19c | — | — | — | — | 0 | Cyberpunk 2077 Costs You $2.31 an Hour. Worth It? |
+| 2026-11-19b | — | — | — | — | 0 | GTA 6 vs GTA 5: You Waited 4,811 Days |
 | 2026-11-19 | — | — | — | — | 0 | GTA 6 Is Out: Your Console Runs It at 30 FPS |
 | 2026-11-18c | 776 | — | — | 0 | 776 | Baldur's Gate 3 Costs You 82¢ an Hour. Worth It? |
 | 2026-11-18b | 29 | — | — | 0 | 29 | GTA 6 Beat Cyberpunk's 8M Pre-Order Record? |
 | 2026-11-18 | 857 | — | — | 0 | 857 | GTA 6 Unlocks Tonight: You Need 212 GB Free |
 | 2026-11-17c | 1179 | 127 | — | 0 | 1306 | Elden Ring Costs You $1 an Hour. Worth It? |
 | 2026-11-17b | 12 | 126 | — | 0 | 138 | GTA 6: Take-Two Bets $8 Billion on Your $80 |
-| 2026-11-17 | 584 | — | — | 0 | 584 | Your 2013 Xbox One Can Play GTA 6 on Day One |
+| 2026-11-17 | 593 | — | — | 0 | 593 | Your 2013 Xbox One Can Play GTA 6 on Day One |
 | 2026-11-16c | 294 | 138 | — | — | 432 | Rockstar Made 2 of the 5 Best-Selling Games Ever |
 | 2026-11-16b | 314 | 121 | — | — | 435 | GTA 6 Costs You $79.99. GTA 5 Cost More |
 | 2026-11-16 | 810 | 126 | 0 | — | 936 | GTA 6 Might Make $1 Billion Before You Can Even Play It |
@@ -24,7 +25,7 @@ Updated 2026-11-19. YouTube Analytics lags 1-3 days.
 | 2026-11-18 | 857 | — | — | 12 | — | — | GTA 6 Unlocks Tonight: You Need 212 GB Free |
 | 2026-11-18 | 29 | — | — | 0 | — | — | GTA 6 Beat Cyberpunk's 8M Pre-Order Record? |
 | 2026-11-18 | 776 | — | — | 3 | — | — | Baldur's Gate 3 Costs You 82¢ an Hour. Worth It? |
-| 2026-11-17 | 584 | — | — | 11 | — | — | Your 2013 Xbox One Can Play GTA 6 on Day One |
+| 2026-11-17 | 593 | — | — | 11 | — | — | Your 2013 Xbox One Can Play GTA 6 on Day One |
 | 2026-11-17 | 12 | — | — | 0 | — | — | GTA 6: Take-Two Bets $8 Billion on Your $80 |
 | 2026-11-17 | 1179 | — | — | 9 | — | — | Elden Ring Costs You $1 an Hour. Worth It? |
 | 2026-11-16 | 810 | 61.8 | 14 | 12 | 1 | 0 | GTA 6 Might Make $1 Billion Before You Can Even Play It |
