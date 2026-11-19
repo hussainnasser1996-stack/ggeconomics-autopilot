@@ -9,7 +9,7 @@ numbers (our own calculations, rankings, verdicts) keep us clear of YouTube's "i
 April-2026 aggregator crackdown, which cut reach for accounts that mostly repost.
 
 ## Cadence
-- YouTube Shorts + Instagram Reels: **2 a day** (16:00 + 23:00 UTC = 11 AM + 6 PM New York), **3 a day** in launch windows
+- YouTube Shorts + Instagram Reels: **2 a day** (17:30 + 23:00 UTC = 12:30 PM + 6 PM New York; b slot moved from 16:00 on 19 Nov), **3 a day** in launch windows
   (adds 12:00 UTC). Above ~5/day risks spam throttling.
 - Instagram carousels Mon/Wed/Fri (Sunday = the weekly money scoreboard). Carousels get a second showing (slide 2) to
   people who didn't swipe, and sends are Instagram's strongest signal for reaching non-followers.

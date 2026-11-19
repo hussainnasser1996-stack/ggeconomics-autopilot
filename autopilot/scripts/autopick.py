@@ -7,6 +7,9 @@ Rules (what the old LOOK step enforced):
 - skip the first 7% and last 12% of the trailer (rating cards, logos, end slates, release-date text)
 - skip black / white-flash shots and any shot with a near-black frame (start/mid/end); hook opens on a bright shot
 - skip soft (blurry) shots; drop shots with heavy text (edge-dense flat areas)
+- dense scan (every ~0.1 s) of each shot: a hidden hard cut ends the shot there (19b, 19 Nov: a GTA VI logo card
+  flashed in the last 0.4 s of a "shot"), and big flat neon graphics in the clear middle band reject it (19c: the
+  Cyberpunk trailer's giant yellow letters)
 - prefer motion + sharpness; spread picks across the trailer; never two neighbouring shots back to back
 - avoid shots this source already used in the last 14 days (autopilot/log/used_shots.json)
 - clip length 1.2-2.4 s, total >= VO + 2 s"""
@@ -49,6 +52,22 @@ def ocr_words(f):
             c = row.split("\t")
             if len(c) == 12 and c[11].strip() and float(c[10]) > 70 and sum(ch.isalpha() for ch in c[11]) >= 3: n += 1
     return n
+import re
+TITLE = {"grand", "theft", "auto", "rockstar", "playstation", "xbox", "nintendo", "steam", "trailer", "available", "preorder",
+         "pre-order", "order", "coming", "rated", "edition", "launch", "wishlist"}
+TITLE |= {w for w in re.findall(r"[a-z]{5,}", src.get("label", "").lower()) if not w.startswith(("gta", "official"))}
+def title_hit(f):
+    """the game's own title/logo or a store card in the 9:16 crop (19b, 19 Nov: the GTA VI logo dissolving into the
+    hook shot read as 'GRand ... auto' while ocr_words saw nothing confident). Any-confidence token match."""
+    h, w = f.shape[:2]; cw = int(h * 9 / 16); x = (w - cw) // 2
+    g = cv2.cvtColor(f[:, x:x + cw], cv2.COLOR_BGR2GRAY)
+    for sc in (540, 270):
+        fd, p = tempfile.mkstemp(suffix=".png"); os.close(fd); cv2.imwrite(p, cv2.resize(g, (int(cw * sc / h), sc)))
+        try: out = subprocess.run(["tesseract", p, "-", "--psm", "11"], stdout=subprocess.PIPE, stderr=subprocess.DEVNULL, timeout=30).stdout.decode(errors="ignore")
+        except Exception: out = ""
+        os.remove(p)
+        if set(re.findall(r"[a-z-]{4,}", out.lower())) & TITLE: return True
+    return False
 def textiness(f):
     g = cv2.cvtColor(cv2.resize(f, (480, 270)), cv2.COLOR_BGR2GRAY)
     e = cv2.Canny(g, 120, 240) > 0
@@ -64,23 +83,56 @@ def ad_slate(f):
     sat = float(cv2.cvtColor(sm, cv2.COLOR_BGR2HSV)[..., 1].mean())
     return (m < 6).mean() * 100 >= 60 and g.mean() >= 120 and sat >= 60
 
+def centre_band(f):                                      # what the 9:16 crop shows in the band that must stay clear
+    h, w = f.shape[:2]; cw = int(h * 9 / 16); x = (w - cw) // 2; return f[int(h * .25):int(h * .72), x:x + cw]
+def graphic(f):
+    """% of the middle band that is flat, saturated, bright colour = poster typography/logo art, never gameplay.
+    Measured 19 Nov: Cyberpunk yellow-letter shots 4.3-30.8, every clean gameplay shot of both trailers 0.0-0.4."""
+    sm = cv2.resize(centre_band(f), (160, 141)); hsv = cv2.cvtColor(sm, cv2.COLOR_BGR2HSV)
+    g = cv2.cvtColor(sm, cv2.COLOR_BGR2GRAY).astype(np.float32)
+    grad = cv2.blur(np.hypot(cv2.Sobel(g, cv2.CV_32F, 1, 0), cv2.Sobel(g, cv2.CV_32F, 0, 1)), (5, 5))
+    return float(((grad < 5) & (hsv[..., 1] > 150) & (hsv[..., 2] > 150)).mean() * 100)
+def hist(f):
+    h = cv2.calcHist([cv2.cvtColor(cv2.resize(f, (160, 90)), cv2.COLOR_BGR2HSV)], [0, 1], None, [30, 16], [0, 180, 0, 256])
+    return cv2.normalize(h, h).flatten()
+FPS = cap.get(cv2.CAP_PROP_FPS) or 30
+def scan(a, b):
+    """read [a, b] sequentially (~10 samples/s); split it at hard cuts. Returns [(seg_start, seg_end, max graphic score)]"""
+    cap.set(cv2.CAP_PROP_POS_MSEC, a * 1000); prev, gmax, seg0, segs = None, 0.0, a, []
+    step = max(1, round(FPS / 10)); n = int((b - a) * FPS)
+    for i in range(n):
+        ok, f = cap.read()
+        if not ok: break
+        if i % step: continue
+        t = a + i / FPS; hh = hist(f)
+        if prev is not None and cv2.compareHist(prev, hh, cv2.HISTCMP_CORREL) < 0.5:
+            segs.append((seg0, t - 0.08, gmax)); seg0, gmax = t + 0.25, 0.0   # pad: dissolves span frames
+        gmax = max(gmax, graphic(f)); prev = hh
+    segs.append((seg0, b, gmax)); return segs
+
 cands = []
-for s in shots:
-    if s["start"] < total * 0.07 or s["end"] > total * 0.88: continue
-    if s["dur"] < 1.35 or not (28 <= s["bright"] <= 225) or s["sharp"] < 120: continue
-    if s["sat"] < 22 or s["motion"] < 3: continue          # grey logo slates / frozen holds
-    key = (src["id"], round(s["start"], 1))
-    mid = frame((s["start"] + s["end"]) / 2)
-    if mid is None: continue
-    t_dark, t_all = textiness(mid)
-    if t_dark > 2.2: continue                      # title/rating card: white type on black
-    ends = [fr for fr in (mid, frame(s["start"] + 0.15), frame(s["end"] - 0.15)) if fr is not None]
-    lum = [float(cv2.cvtColor(fr, cv2.COLOR_BGR2GRAY).mean()) for fr in ends]
-    if min(lum) < 14: continue                     # truly black moments never
-    if any(ad_slate(fr) for fr in ends): continue          # brand/console ad cards inside "gameplay" files
-    if any(ocr_words(fr) >= 2 for fr in ends): continue
-    score = (s["motion"] + 2) * math.log10(s["sharp"] + 10) * (0.7 + min(s["sat"], 140) / 200)
-    cands.append({**s, "score": score, "lum": min(lum), "used": last_used.get(key, "")})
+for s0 in shots:
+    if s0["start"] < total * 0.07 or s0["end"] > total * 0.88: continue
+    if s0["dur"] < 1.35 or not (28 <= s0["bright"] <= 225) or s0["sharp"] < 120: continue
+    if s0["sat"] < 22 or s0["motion"] < 3: continue          # grey logo slates / frozen holds
+    segs = scan(s0["start"] + 0.1, s0["end"] - 0.05)
+    for k, (a, b, gmax) in enumerate(segs):                # each piece between hidden cuts is judged on its own
+        s = {**s0, "start": round(a - 0.12, 2), "end": round(b + 0.05, 2), "dur": round(b - a + 0.17, 2)}   # clip starts at start+0.12 = a
+        if len(segs) > 1: s["id"] = round(s0["id"] + k / 100, 2)   # sub-shot id stays next to its parent
+        if s["dur"] < 1.35 or gmax >= 2.5: continue        # too short / poster typography or logo art in the clear middle
+        key = (src["id"], round(s["start"], 1))
+        mid = frame((s["start"] + s["end"]) / 2)
+        if mid is None: continue
+        t_dark, t_all = textiness(mid)
+        if t_dark > 2.2: continue                  # title/rating card: white type on black
+        ends = [fr for fr in (mid, frame(s["start"] + 0.15), frame(s["end"] - 0.15)) if fr is not None]
+        lum = [float(cv2.cvtColor(fr, cv2.COLOR_BGR2GRAY).mean()) for fr in ends]
+        if min(lum) < 14: continue                 # truly black moments never
+        if any(ad_slate(fr) for fr in ends): continue      # brand/console ad cards inside "gameplay" files
+        if any(ocr_words(fr) >= 2 for fr in ends): continue
+        if any(title_hit(fr) for fr in (frame(t) for t in np.arange(s["start"] + 0.12, s["end"] - 0.05, 0.4)) if fr is not None): continue
+        score = (s["motion"] + 2) * math.log10(s["sharp"] + 10) * (0.7 + min(s["sat"], 140) / 200)
+        cands.append({**s, "score": score, "lum": min(lum), "used": last_used.get(key, "")})
 # near-black moments read as a dead frame on a phone (17c, 16 Nov): drop shots with a frame under 38 brightness, but a
 # dark game (Elden Ring) may have few bright shots, so keep at least the 10 brightest rather than failing the build
 lit = [c for c in cands if c["lum"] >= 38]
@@ -137,6 +189,6 @@ if cp.exists():
         bg = sl.setdefault("bg", {})
         if bg.get("at") is None: bg["src"] = tag; bg["at"] = round(bgs[i % len(bgs)]["from"] + 0.4, 2)
     json.dump(c, open(cp, "w"), indent=1)
-used[D] = [{"src_id": src["id"], "start": round(next(s["start"] for s in shots if s["id"] == p["shot"]), 1)} for p in picked]
+used[D] = [{"src_id": src["id"], "start": round(info[p["shot"]]["start"], 1)} for p in picked]
 json.dump(used, open(used_p, "w"), indent=1)
 print(f"autopick: {len(picked)} clips, {t:.1f}s for {need:.1f}s needed, from {len(cands)} usable shots")

@@ -2,7 +2,9 @@
 """monitor.py — operations check (GitHub Actions, every 6 h). Verifies, never assumes:
 1. Every booked post in the last 5 days: its real Buffer status (scheduled / sent / error) + the live link once sent.
 2. Every post the brain wrote for today..+3 that is NOT booked: retries the build once (gates_failed → retry), else flags it.
-3. Writes autopilot/log/delivery.md (the CEO review and the brain read it). Exit 0 always; problems go in the file."""
+3. Channel health: a Buffer channel that lost its login (isDisconnected) is a problem with the exact fix for Husain;
+   once it is reconnected, posts that errored on it in the last 12 h are re-booked by themselves (publish.py --rebook).
+4. Writes autopilot/log/delivery.md (the CEO review and the brain read it). Exit 0 always; problems go in the file."""
 import json, os, subprocess, urllib.request, datetime
 from pathlib import Path
 AP = Path(__file__).resolve().parents[1]; Qd = AP / "queue"
@@ -13,6 +15,17 @@ def gql(q, v):
     return json.loads(urllib.request.urlopen(req, timeout=60).read())
 Q = 'query($i:PostId!){ post(input:{id:$i}){ status dueAt sentAt externalLink error { message } } }'
 rows, problems, actions = [], [], []
+SERVICE = {"youtube_short": "youtube", "instagram_reel": "instagram", "instagram_carousel": "instagram", "tiktok_video": "tiktok"}
+cfg = json.load(open(AP / "config.json"))
+try:
+    chans = gql('query($o:OrganizationId!){ channels(input:{organizationId:$o}){ service isDisconnected isLocked isQueuePaused } }',
+                {"o": cfg["buffer_organization_id"]})["data"]["channels"]
+    down = {c["service"] for c in chans if c["isDisconnected"] or c["isLocked"] or c["isQueuePaused"]}
+except Exception as e: chans, down = [], set(); problems.append(f"Buffer channel check failed: {e}")
+for c in chans:
+    if c["service"] in down:
+        problems.append(f"Buffer {c['service']} channel is DISCONNECTED/locked/paused: every {c['service']} post will fail. FIX (Husain, 1 min): "
+                        f"buffer.com → Channels → {c['service']} → Refresh connection. Failed posts from the last 12 h re-book themselves after.")
 busy = subprocess.run(["gh", "run", "list", "-R", os.environ["GITHUB_REPOSITORY"], "--workflow", "build.yml", "--json", "status",
                        "-q", '[.[]|select(.status!="completed")]|length'], capture_output=True, text=True).stdout.strip() not in ("", "0")
 for q in sorted(Qd.iterdir()):
@@ -27,7 +40,13 @@ for q in sorted(Qd.iterdir()):
             except Exception as e: p = {"status": f"query failed: {e}"}
             st = p.get("status"); err = (p.get("error") or {}).get("message")
             rows.append(f"| {q.name} | {name} | {st} | {p.get('sentAt') or p.get('dueAt') or ''} | {p.get('externalLink') or ''} | {title[:50]} |")
-            if err or st in ("error", "failed"): problems.append(f"{q.name} {name}: Buffer error: {err}")
+            if err or st in ("error", "failed"):
+                due_t = datetime.datetime.fromisoformat((p.get("dueAt") or now.isoformat()).replace("Z", "+00:00"))
+                if SERVICE.get(name) in down or now - due_t > datetime.timedelta(hours=12):
+                    problems.append(f"{q.name} {name}: Buffer error: {err}" + ("" if SERVICE.get(name) in down else " (older than 12 h: not re-booked, stale)"))
+                else:
+                    r = subprocess.run(["python3", str(AP / "scripts/publish.py"), q.name, "--rebook", name], capture_output=True, text=True)
+                    (actions if r.returncode == 0 else problems).append(f"{q.name} {name}: errored ({err}) → re-book: {(r.stdout + r.stderr).strip()[-200:]}")
             due = p.get("dueAt")
             if st == "scheduled" and due and datetime.datetime.fromisoformat(due.replace("Z", "+00:00")) < now - datetime.timedelta(hours=1):
                 problems.append(f"{q.name} {name}: still 'scheduled' >1 h after due time")

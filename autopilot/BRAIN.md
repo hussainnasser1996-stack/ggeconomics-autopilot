@@ -8,7 +8,7 @@ Target date D = the date in the prompt (UTC). Paths are relative to the repo roo
 
 **Volume:** write `posts_per_day` posts for D (CONTROL.md; 3 while D ≤ `launch_window_until`). The main post lives in
 `autopilot/queue/D/` (23:00 UTC, the strongest story, carousel on carousel days). Extra posts live in `autopilot/queue/Db/`
-(16:00 UTC) and `autopilot/queue/Dc/` (12:00 UTC), each with `"publish_time_utc": "16:00"` / `"12:00"` in its post.json, the
+(17:30 UTC) and `autopilot/queue/Dc/` (12:00 UTC), each with `"publish_time_utc": "17:30"` / `"12:00"` in its post.json, the
 same five files minus carousel.json, script id `d_<D_>b` / `d_<D_>c`. Every post on a day must be a DIFFERENT story AND a
 different format (see the format menu). Do steps 2–6 once per post.
 
