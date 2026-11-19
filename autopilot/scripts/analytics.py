@@ -9,7 +9,7 @@ Writes:
   autopilot/research/trending.md       today's top US Gaming videos on YouTube (what the audience is watching)
 Missing access (no token yet / no Buffer channel) is reported, never fatal.
 YouTube Analytics lags 24-72 h: a post <2 days old shows Data-API views only."""
-import json, os, subprocess, datetime as dt, urllib.request
+import json, os, re, subprocess, datetime as dt, urllib.request
 from pathlib import Path
 AP = Path(__file__).resolve().parents[1]
 cfg = json.load(open(AP / "config.json"))
@@ -32,12 +32,13 @@ if tok.exists():
     out["youtube"]["channel"] = {"id": ch["id"], **{k: int(v) for k, v in ch["statistics"].items() if str(v).isdigit()}}
     uploads = ch["contentDetails"]["relatedPlaylists"]["uploads"]
     ids = [i["contentDetails"]["videoId"] for i in yt.playlistItems().list(part="contentDetails", playlistId=uploads, maxResults=50).execute().get("items", [])]
-    vids = {}
+    vids, durs = {}, {}
     if ids:
         for v in yt.videos().list(part="snippet,statistics,contentDetails", id=",".join(ids)).execute()["items"]:
             s = v["statistics"]
             vids[v["id"]] = {"title": v["snippet"]["title"], "published": v["snippet"]["publishedAt"][:10],
                              "views": int(s.get("viewCount", 0)), "likes": int(s.get("likeCount", 0)), "comments": int(s.get("commentCount", 0))}
+            m = re.match(r"PT(?:(\d+)M)?(?:(\d+)S)?", v["contentDetails"]["duration"]); durs[v["id"]] = int(m[1] or 0) * 60 + int(m[2] or 0) if m else 0
         start = min(v["published"] for v in vids.values())
         try:
             r = ya.reports().query(ids="channel==MINE", startDate=start, endDate=today, dimensions="video",
@@ -46,6 +47,20 @@ if tok.exists():
             for row in r.get("rows", []):
                 vid, views, avd, avp, subs, shares, likes = row
                 vids[vid].update({"an_views": views, "avg_view_s": avd, "avg_view_pct": round(avp, 1), "subs": subs, "shares": shares})
+            # Hook strength (19 Nov): YouTube's retention curve per video. audienceWatchRatio at a point = share of starting
+            # viewers still watching there (can exceed 1 on loops). The first second is where every Short loses most people.
+            for vid in vids:
+                try:
+                    dur_s = durs.get(vid) or 0
+                    rr = ya.reports().query(ids="channel==MINE", startDate=start, endDate=today, dimensions="elapsedVideoTimeRatio",
+                                            metrics="audienceWatchRatio,relativeRetentionPerformance", filters="video==" + vid).execute().get("rows", [])
+                    if not rr or not dur_s: continue
+                    def at(sec, rr=rr, dur_s=dur_s):
+                        x = min(1.0, sec / dur_s); return min(rr, key=lambda r: abs(r[0] - x))
+                    vids[vid].update({"hold_1s": round(at(1)[1] * 100), "hold_3s": round(at(3)[1] * 100),
+                                      "hold_end": round(rr[-1][1] * 100), "vs_similar_3s": round(at(3)[2], 2), "dur_s": dur_s})
+                except Exception as e:
+                    out["notes"].append(f"retention {vid}: {str(e)[:100]}"); break
             r = ya.reports().query(ids="channel==MINE", startDate=start, endDate=today, dimensions="insightTrafficSourceType",
                                    metrics="views", sort="-views").execute()
             out["youtube"]["traffic_sources"] = {row[0]: row[1] for row in r.get("rows", [])}
@@ -154,9 +169,9 @@ rows = ["# Scoreboard (rewritten daily by analytics.py)\n", f"Updated {today}. Y
 for name, p in per_post.items():
     nums = [p[k] for k in ("youtube_short", "instagram_reel", "instagram_carousel", "tiktok_video")]
     rows.append(f"| {name} | " + " | ".join("—" if n is None else str(n) for n in nums) + f" | {sum(n for n in nums if n)} | {p['title'][:60]} |")
-rows += ["", "## YouTube", "| published | views | avg view % | avg view s | likes | shares | subs+ | title |", "|---|---|---|---|---|---|---|---|"]
+rows += ["", "## YouTube", "| published | views | avg view % | avg view s | kept 1s % | kept 3s % | 3s vs similar | likes | shares | subs+ | title |", "|---|---|---|---|---|---|---|---|---|---|---|"]
 for vid, v in sorted(out["youtube"].get("videos", {}).items(), key=lambda kv: kv[1]["published"], reverse=True):
-    rows.append(f"| {v['published']} | {v['views']} | {v.get('avg_view_pct','—')} | {v.get('avg_view_s','—')} | {v['likes']} | {v.get('shares','—')} | {v.get('subs','—')} | {v['title'][:60]} |")
+    rows.append(f"| {v['published']} | {v['views']} | {v.get('avg_view_pct','—')} | {v.get('avg_view_s','—')} | {v.get('hold_1s','—')} | {v.get('hold_3s','—')} | {v.get('vs_similar_3s','—')} | {v['likes']} | {v.get('shares','—')} | {v.get('subs','—')} | {v['title'][:60]} |")
 if out["youtube"].get("traffic_sources"):
     rows += ["", "Traffic sources (all time): " + ", ".join(f"{k} {v}" for k, v in out["youtube"]["traffic_sources"].items())]
 rows += ["", "## Instagram", "| sent | views | reach | likes | comments | shares | saves | follows | avg watch s | post |", "|---|---|---|---|---|---|---|---|---|---|"]
