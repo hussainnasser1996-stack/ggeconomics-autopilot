@@ -10,8 +10,8 @@ Updated 2026-11-20. YouTube Analytics lags 1-3 days.
 | 2026-11-20 | — | — | — | — | 0 | GTA 6 Sales: Est. 19M Copies. Did You Buy It? |
 | 2026-11-19c | — | — | — | 0 | 0 | Cyberpunk 2077 Costs You $2.31 an Hour. Worth It? |
 | 2026-11-19b | — | — | — | 0 | 0 | GTA 6 vs GTA 5: You Waited 4,811 Days |
-| 2026-11-19 | 837 | — | — | 0 | 837 | GTA 6 Is Out: Your Console Runs It at 30 FPS |
-| 2026-11-18c | 825 | 100 | — | 0 | 925 | Baldur's Gate 3 Costs You 82¢ an Hour. Worth It? |
+| 2026-11-19 | 840 | — | — | 0 | 840 | GTA 6 Is Out: Your Console Runs It at 30 FPS |
+| 2026-11-18c | 823 | 100 | — | 0 | 923 | Baldur's Gate 3 Costs You 82¢ an Hour. Worth It? |
 | 2026-11-18b | 36 | — | — | 0 | 36 | GTA 6 Beat Cyberpunk's 8M Pre-Order Record? |
 | 2026-11-18 | 879 | — | — | 0 | 879 | GTA 6 Unlocks Tonight: You Need 212 GB Free |
 | 2026-11-17c | 1210 | 127 | — | 0 | 1337 | Elden Ring Costs You $1 an Hour. Worth It? |
@@ -24,12 +24,12 @@ Updated 2026-11-20. YouTube Analytics lags 1-3 days.
 ## YouTube
 | published | views | avg view % | avg view s | kept 1s % | kept 3s % | 3s vs similar | likes | shares | subs+ | title |
 |---|---|---|---|---|---|---|---|---|---|---|
-| 2026-11-19 | 837 | — | — | — | — | — | 14 | — | — | GTA 6 Is Out: Your Console Runs It at 30 FPS |
+| 2026-11-19 | 840 | — | — | — | — | — | 14 | — | — | GTA 6 Is Out: Your Console Runs It at 30 FPS |
 | 2026-11-19 | 497 | — | — | — | — | — | 2 | — | — | GTA 6 vs GTA 5: You Waited 4,811 Days |
-| 2026-11-19 | 1289 | — | — | — | — | — | 11 | — | — | Cyberpunk 2077 Costs You $2.31 an Hour. Worth It? |
+| 2026-11-19 | 1291 | — | — | — | — | — | 11 | — | — | Cyberpunk 2077 Costs You $2.31 an Hour. Worth It? |
 | 2026-11-18 | 879 | — | — | — | — | — | 12 | — | — | GTA 6 Unlocks Tonight: You Need 212 GB Free |
 | 2026-11-18 | 36 | — | — | — | — | — | 0 | — | — | GTA 6 Beat Cyberpunk's 8M Pre-Order Record? |
-| 2026-11-18 | 825 | — | — | — | — | — | 3 | — | — | Baldur's Gate 3 Costs You 82¢ an Hour. Worth It? |
+| 2026-11-18 | 823 | — | — | — | — | — | 3 | — | — | Baldur's Gate 3 Costs You 82¢ an Hour. Worth It? |
 | 2026-11-17 | 657 | 70.9 | 17 | 121 | 114 | 0.4 | 12 | 2 | 0 | Your 2013 Xbox One Can Play GTA 6 on Day One |
 | 2026-11-17 | 17 | 48.7 | 11 | — | — | — | 0 | 0 | 0 | GTA 6: Take-Two Bets $8 Billion on Your $80 |
 | 2026-11-17 | 1210 | 82.6 | 12 | 124 | 118 | 0.48 | 9 | 0 | 1 | Elden Ring Costs You $1 an Hour. Worth It? |
