@@ -1,5 +1,6 @@
 # Post history (newest first)
 
+- 2026-11-20 · GTA 6 Sales: Est. 19M Copies. Did You Buy It? · footage: gta6_trailer_VQRLujxTm3c.mp4 · VO similarity 1.00 · youtube_short 6aff96b64c1afd05dedc9ec9 · instagram_reel 6aff96b77b0a126ceb954a78 · instagram_carousel 6aff96b7d5f8acdd0d5b9931 · tiktok_video 6aff96b8738ce4635f73d8d1 · due 23:00 UTC
 - 2026-11-19b · GTA 6 vs GTA 5: You Waited 4,811 Days · footage: gta6_official_launch.mp4 · VO similarity 1.00 · youtube_short 6afed88cffd0192517ac3afe · instagram_reel 6afed88dec3834f154552c18 · tiktok_video 6afed88d7fc65314b9ebc082 · due 23:00 UTC
 - 2026-11-19c · Cyberpunk 2077 Costs You $2.31 an Hour. Worth It? · footage: Cyberpunk 2077 — Cyberpunk 2077: Ultimate Edition — City of Dreams · VO similarity 1.00 · youtube_short 6afed453528b203593ecfb6e · instagram_reel 6afed454528b203593ecfbac · tiktok_video 6afed4547c25de751c33af13 · due 23:00 UTC
 - 2026-11-19c · Cyberpunk 2077 Costs You $2.31 an Hour. Worth It? · footage: Cyberpunk 2077 — Cyberpunk 2077: Ultimate Edition — City of Dreams · VO similarity 1.00 · youtube_short 6afe466fc69bd1cb8894047a · instagram_reel 6afe46704cace847b386397d · tiktok_video 6afe46704cace847b38639c5 · due 23:00 UTC

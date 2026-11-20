@@ -1,7 +1,7 @@
 {
  "spec": {
-  "tag": "GTA VI · DAY 2",
-  "headline": "GTA 6 SOLD AN EST. |19M COPIES|",
+  "tag": "GTA VI \u00b7 DAY 2",
+  "headline": "GTA 6 SOLD AN EST. |19M\u00a0COPIES|",
   "topic": "GTA 6 day 2: Sensor Tower estimates 19.05M copies / $1.84B by the morning of 19 Nov (incl. pre-orders, digital); GTA V 2013 first 24 h: 11.21M units / $815.7M (Take-Two, Guinness). Take-Two has not confirmed. Sources: Fox 5 NY (19 Nov), Geeks + Gamers (19 Nov, citing Sensor Tower/Forbes)",
   "vo": "vo/d_2026_11_20/vo.wav",
   "timelinePath": "vo/d_2026_11_20/timeline.json",
@@ -11,14 +11,75 @@
    "words": []
   },
   "noBed": true,
-  "clips": [],
+  "clips": [
+   {
+    "src": "d_2026_11_20",
+    "from": 140.17,
+    "dur": 1.62,
+    "shot": 65
+   },
+   {
+    "src": "d_2026_11_20",
+    "from": 41.7,
+    "dur": 2.2,
+    "shot": 14
+   },
+   {
+    "src": "d_2026_11_20",
+    "from": 49.97,
+    "dur": 1.82,
+    "shot": 16
+   },
+   {
+    "src": "d_2026_11_20",
+    "from": 83.23,
+    "dur": 1.82,
+    "shot": 28
+   },
+   {
+    "src": "d_2026_11_20",
+    "from": 18.97,
+    "dur": 1.42,
+    "shot": 6
+   },
+   {
+    "src": "d_2026_11_20",
+    "from": 117.23,
+    "dur": 1.56,
+    "shot": 52
+   },
+   {
+    "src": "d_2026_11_20",
+    "from": 92.1,
+    "dur": 2.2,
+    "shot": 35
+   },
+   {
+    "src": "d_2026_11_20",
+    "from": 38.5,
+    "dur": 2.2,
+    "shot": 13
+   },
+   {
+    "src": "d_2026_11_20",
+    "from": 96.23,
+    "dur": 1.36,
+    "shot": 36
+   },
+   {
+    "src": "d_2026_11_20",
+    "from": 111.43,
+    "dur": 1.2,
+    "shot": 50
+   }
+  ],
   "cards": [
    {
     "kind": "big",
     "line": "hook",
     "value": "19M",
     "label": "GTA 6 copies by launch day",
-    "note": "Sensor Tower estimate · digital, incl. pre-orders",
+    "note": "Sensor Tower estimate \u00b7 digital, incl. pre-orders",
     "color": "#D4FF3A"
    },
    {
@@ -26,7 +87,7 @@
     "line": "money",
     "value": "$1.84B",
     "label": "estimated sales",
-    "note": "Sensor Tower · not confirmed by Take-Two",
+    "note": "Sensor Tower \u00b7 not confirmed by Take-Two",
     "color": "#3AE0FF"
    },
    {
@@ -40,10 +101,10 @@
      "value": "11M",
      "label": "GTA 5, 24 H"
     },
-    "note": "GTA 5: 11.21M, Sept 2013 · Take-Two"
+    "note": "GTA 5: 11.21M, Sept 2013 \u00b7 Take-Two"
    }
   ],
-  "credit": "GAMEPLAY: ROCKSTAR GAMES · DATA: SENSOR TOWER (EST.), TAKE-TWO",
+  "credit": "GAMEPLAY: ROCKSTAR GAMES \u00b7 DATA: SENSOR TOWER (EST.), TAKE-TWO",
   "endLine": "FOLLOW FOR GTA 6 DAY 3",
   "noCaptions": true
  }
