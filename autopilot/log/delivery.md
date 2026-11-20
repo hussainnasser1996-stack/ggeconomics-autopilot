@@ -1,11 +1,11 @@
-# Delivery check · 2026-11-20 09:10 UTC
+# Delivery check · 2026-11-20 15:12 UTC
 
 ## Problems
 - 2026-11-18b instagram_reel: Buffer error: It looks like Buffer has lost the authorization to post to Facebook. No need to worry, though! (older than 12 h: not re-booked, stale)
 
-Buffer scheduled per channel: youtube_short 2, instagram_reel 3, instagram_carousel 1, tiktok_video 3
+Buffer scheduled per channel: youtube_short 2, instagram_reel 2, tiktok_video 2
 
-GitHub Actions minutes used this month: ~1750 of 2,000 (free tier, private repo)
+GitHub Actions minutes used this month: ~1753 of 2,000 (free tier, private repo)
 
 ## Actions taken
 - none
@@ -48,11 +48,11 @@ GitHub Actions minutes used this month: ~1750 of 2,000 (free tier, private repo)
 | 2026-11-19c | tiktok_video | sent | 2026-11-19T12:01:35.808Z | https://tiktok.com/@ggeconomics/video/7709851258726763796 | Cyberpunk 2077 Costs You $2.31 an Hour. Worth It? |
 | 2026-11-20 | youtube_short | scheduled | 2026-11-20T23:00:00.000Z |  | GTA 6 Sales: Est. 19M Copies. Did You Buy It? |
 | 2026-11-20 | instagram_reel | scheduled | 2026-11-20T23:00:00.000Z |  | GTA 6 Sales: Est. 19M Copies. Did You Buy It? |
-| 2026-11-20 | instagram_carousel | scheduled | 2026-11-20T15:00:00.000Z |  | GTA 6 Sales: Est. 19M Copies. Did You Buy It? |
+| 2026-11-20 | instagram_carousel | sent | 2026-11-20T15:04:09.010Z | https://www.instagram.com/p/Df97uKglPz9/ | GTA 6 Sales: Est. 19M Copies. Did You Buy It? |
 | 2026-11-20 | tiktok_video | scheduled | 2026-11-20T23:00:00.000Z |  | GTA 6 Sales: Est. 19M Copies. Did You Buy It? |
 | 2026-11-20b | youtube_short | scheduled | 2026-11-20T17:30:00.000Z |  | GTA 6 Got 8 Game Awards Nominations Before Launch |
 | 2026-11-20b | instagram_reel | scheduled | 2026-11-20T17:30:00.000Z |  | GTA 6 Got 8 Game Awards Nominations Before Launch |
 | 2026-11-20b | tiktok_video | scheduled | 2026-11-20T17:30:00.000Z |  | GTA 6 Got 8 Game Awards Nominations Before Launch |
 | 2026-11-20c | youtube_short | direct (own API) | 2026-11-20T12:00:00.000Z | https://www.youtube.com/shorts/rYs3I31mOTs | Hollow Knight Costs You 56¢ an Hour. Worth It? |
-| 2026-11-20c | instagram_reel | scheduled | 2026-11-20T12:00:00.000Z |  | Hollow Knight Costs You 56¢ an Hour. Worth It? |
-| 2026-11-20c | tiktok_video | scheduled | 2026-11-20T12:00:00.000Z |  | Hollow Knight Costs You 56¢ an Hour. Worth It? |
+| 2026-11-20c | instagram_reel | sent | 2026-11-20T12:02:01.537Z | https://www.instagram.com/reel/Df9m6HzpnQX/ | Hollow Knight Costs You 56¢ an Hour. Worth It? |
+| 2026-11-20c | tiktok_video | sent | 2026-11-20T12:04:15.058Z | https://tiktok.com/@ggeconomics/video/7710222630145559828 | Hollow Knight Costs You 56¢ an Hour. Worth It? |
