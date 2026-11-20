@@ -24,7 +24,7 @@ Updated 2026-11-20. YouTube Analytics lags 1-3 days.
 ## YouTube
 | published | views | avg view % | avg view s | kept 1s % | kept 3s % | 3s vs similar | likes | shares | subs+ | title |
 |---|---|---|---|---|---|---|---|---|---|---|
-| 2026-11-19 | 384 | — | — | — | — | — | 7 | — | — | GTA 6 Is Out: Your Console Runs It at 30 FPS |
+| 2026-11-19 | 421 | — | — | — | — | — | 8 | — | — | GTA 6 Is Out: Your Console Runs It at 30 FPS |
 | 2026-11-19 | 494 | — | — | — | — | — | 2 | — | — | GTA 6 vs GTA 5: You Waited 4,811 Days |
 | 2026-11-19 | 1261 | — | — | — | — | — | 10 | — | — | Cyberpunk 2077 Costs You $2.31 an Hour. Worth It? |
 | 2026-11-18 | 878 | — | — | — | — | — | 12 | — | — | GTA 6 Unlocks Tonight: You Need 212 GB Free |
