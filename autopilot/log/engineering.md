@@ -9,3 +9,4 @@
 - 2026-11-19: eng/2026-11-19-retention NOT merged: dry build failed (run 44551642506)
 - 2026-11-19: merged eng/2026-11-19-ig-direct after a passing dry build
 - 2026-11-19: merged eng/2026-11-19-yt-direct after a passing dry build
+- 2026-11-20: merged eng/2026-11-20-fullbleed-loop after a passing dry build
