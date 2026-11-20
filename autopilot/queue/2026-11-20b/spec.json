@@ -1,7 +1,7 @@
 {
  "spec": {
-  "tag": "GTA VI · REAL OR RUMOUR",
-  "headline": "GTA 6 GOT |8 NOMINATIONS| AT THE GAME AWARDS",
+  "tag": "GTA VI \u00b7 REAL OR RUMOUR",
+  "headline": "GTA 6 GOT |8\u00a0NOMINATIONS| AT THE GAME AWARDS",
   "topic": "The Game Awards 2026 nominees (announced 17 Nov 2026): GTA VI leads with 8 nominations incl. Game of the Year; GTA VI launched 19 Nov; ceremony 10 Dec, Peacock Theater. Sources: Gematsu, Dexerto (17 Nov)",
   "vo": "vo/d_2026_11_20b/vo.wav",
   "timelinePath": "vo/d_2026_11_20b/timeline.json",
@@ -11,14 +11,75 @@
    "words": []
   },
   "noBed": true,
-  "clips": [],
+  "clips": [
+   {
+    "src": "d_2026_11_20b",
+    "from": 49.97,
+    "dur": 1.82,
+    "shot": 16
+   },
+   {
+    "src": "d_2026_11_20b",
+    "from": 141.97,
+    "dur": 1.68,
+    "shot": 66
+   },
+   {
+    "src": "d_2026_11_20b",
+    "from": 83.23,
+    "dur": 1.82,
+    "shot": 28
+   },
+   {
+    "src": "d_2026_11_20b",
+    "from": 18.97,
+    "dur": 1.42,
+    "shot": 6
+   },
+   {
+    "src": "d_2026_11_20b",
+    "from": 41.7,
+    "dur": 2.2,
+    "shot": 14
+   },
+   {
+    "src": "d_2026_11_20b",
+    "from": 92.1,
+    "dur": 2.2,
+    "shot": 35
+   },
+   {
+    "src": "d_2026_11_20b",
+    "from": 117.23,
+    "dur": 1.56,
+    "shot": 52
+   },
+   {
+    "src": "d_2026_11_20b",
+    "from": 13.77,
+    "dur": 2.2,
+    "shot": 5
+   },
+   {
+    "src": "d_2026_11_20b",
+    "from": 129.5,
+    "dur": 2.2,
+    "shot": 61
+   },
+   {
+    "src": "d_2026_11_20b",
+    "from": 111.43,
+    "dur": 1.2,
+    "shot": 50
+   }
+  ],
   "cards": [
    {
     "kind": "big",
     "line": "hook",
     "value": "8",
     "label": "Game Awards nominations",
-    "note": "most of any game in 2026 · Gematsu, Dexerto",
+    "note": "most of any game in 2026 \u00b7 Gematsu, Dexerto",
     "color": "#D4FF3A"
    },
    {
@@ -36,12 +97,12 @@
    {
     "kind": "date",
     "line": "goty",
-    "small": "GAME OF THE YEAR · 6 NOMINEES",
+    "small": "GAME OF THE YEAR \u00b7 6 NOMINEES",
     "big": "DEC 10",
-    "note": "The Game Awards · Peacock Theater, LA"
+    "note": "The Game Awards \u00b7 Peacock Theater, LA"
    }
   ],
-  "credit": "GAMEPLAY: ROCKSTAR GAMES · DATA: THE GAME AWARDS VIA GEMATSU, DEXERTO",
+  "credit": "GAMEPLAY: ROCKSTAR GAMES \u00b7 DATA: THE GAME AWARDS VIA GEMATSU, DEXERTO",
   "endLine": "REAL OR RUMOUR? FOLLOW FOR MORE",
   "noCaptions": true
  }
