@@ -1,14 +1,15 @@
-# Delivery check · 2026-11-19 21:10 UTC
+# Delivery check · 2026-11-20 03:09 UTC
 
 ## Problems
 - 2026-11-18b instagram_reel: Buffer error: It looks like Buffer has lost the authorization to post to Facebook. No need to worry, though! (older than 12 h: not re-booked, stale)
 
-Buffer scheduled per channel: youtube_short 1, instagram_reel 1, tiktok_video 1
+Buffer scheduled per channel: youtube_short 2, instagram_reel 2, instagram_carousel 1, tiktok_video 2
 
-GitHub Actions minutes used this month: ~1283 of 2,000 (free tier, private repo)
+GitHub Actions minutes used this month: ~1474 of 2,000 (free tier, private repo)
 
 ## Actions taken
-- none
+- 2026-11-20c: not booked yet, a build is running/queued → checked again next run
+- 2026-11-19: {'video': 'NxhZJnczHb4', 'series': 'gta6', 'playlist': 'ok', 'blocked_in': 0, 'allowed_only': None, 'music': 'library'}
 
 | post | channel | status | sent/due | link | title |
 |---|---|---|---|---|---|
@@ -36,10 +37,17 @@ GitHub Actions minutes used this month: ~1283 of 2,000 (free tier, private repo)
 | 2026-11-18c | youtube_short | sent | 2026-11-18T12:00:56.287Z | https://www.youtube.com/shorts/WNOKpKZ_STA | Baldur's Gate 3 Costs You 82¢ an Hour. Worth It? |
 | 2026-11-18c | instagram_reel | sent | 2026-11-18T12:01:48.454Z | https://www.instagram.com/reel/Df4dRBahYSt/ | Baldur's Gate 3 Costs You 82¢ an Hour. Worth It? |
 | 2026-11-18c | tiktok_video | sent | 2026-11-18T12:03:42.560Z | https://tiktok.com/@ggeconomics/video/7709480509621030165 | Baldur's Gate 3 Costs You 82¢ an Hour. Worth It? |
-| 2026-11-19 | youtube_short | scheduled | 2026-11-19T23:00:00.000Z |  | GTA 6 Is Out: Your Console Runs It at 30 FPS |
-| 2026-11-19 | instagram_reel | scheduled | 2026-11-19T23:00:00.000Z |  | GTA 6 Is Out: Your Console Runs It at 30 FPS |
-| 2026-11-19 | tiktok_video | scheduled | 2026-11-19T23:00:00.000Z |  | GTA 6 Is Out: Your Console Runs It at 30 FPS |
+| 2026-11-19 | youtube_short | sent | 2026-11-19T23:02:27.090Z | https://www.youtube.com/shorts/NxhZJnczHb4 | GTA 6 Is Out: Your Console Runs It at 30 FPS |
+| 2026-11-19 | instagram_reel | sent | 2026-11-19T23:04:02.108Z | https://www.instagram.com/reel/Df8N2GFBPPh/ | GTA 6 Is Out: Your Console Runs It at 30 FPS |
+| 2026-11-19 | tiktok_video | sent | 2026-11-19T23:04:08.367Z | https://tiktok.com/@ggeconomics/video/7710021853506555157 | GTA 6 Is Out: Your Console Runs It at 30 FPS |
 | 2026-11-19b | instagram_reel | sent | 2026-11-19T16:02:36.032Z | https://www.instagram.com/reel/Df7dowZhQrJ/ | GTA 6 vs GTA 5: You Waited 4,811 Days |
 | 2026-11-19b | tiktok_video | sent | 2026-11-19T16:03:28.412Z | https://tiktok.com/@ggeconomics/video/7709913539917466886 | GTA 6 vs GTA 5: You Waited 4,811 Days |
 | 2026-11-19c | instagram_reel | sent | 2026-11-19T14:33:45.336Z | https://www.instagram.com/reel/Df7TbfdBgHX/ | Cyberpunk 2077 Costs You $2.31 an Hour. Worth It? |
 | 2026-11-19c | tiktok_video | sent | 2026-11-19T12:01:35.808Z | https://tiktok.com/@ggeconomics/video/7709851258726763796 | Cyberpunk 2077 Costs You $2.31 an Hour. Worth It? |
+| 2026-11-20 | youtube_short | scheduled | 2026-11-20T23:00:00.000Z |  | GTA 6 Sales: Est. 19M Copies. Did You Buy It? |
+| 2026-11-20 | instagram_reel | scheduled | 2026-11-20T23:00:00.000Z |  | GTA 6 Sales: Est. 19M Copies. Did You Buy It? |
+| 2026-11-20 | instagram_carousel | scheduled | 2026-11-20T15:00:00.000Z |  | GTA 6 Sales: Est. 19M Copies. Did You Buy It? |
+| 2026-11-20 | tiktok_video | scheduled | 2026-11-20T23:00:00.000Z |  | GTA 6 Sales: Est. 19M Copies. Did You Buy It? |
+| 2026-11-20b | youtube_short | scheduled | 2026-11-20T17:30:00.000Z |  | GTA 6 Got 8 Game Awards Nominations Before Launch |
+| 2026-11-20b | instagram_reel | scheduled | 2026-11-20T17:30:00.000Z |  | GTA 6 Got 8 Game Awards Nominations Before Launch |
+| 2026-11-20b | tiktok_video | scheduled | 2026-11-20T17:30:00.000Z |  | GTA 6 Got 8 Game Awards Nominations Before Launch |
