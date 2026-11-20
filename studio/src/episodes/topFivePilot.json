@@ -16,8 +16,8 @@
   "credit": "DATA: STEAM, PEAK PLAYERS, WEEK TO 19 NOV · FOOTAGE: STEAM TRAILERS",
   "hookClips": [
    {
-    "src": "t5_cp77",
-    "from": 24,
+    "src": "t5_rust",
+    "from": 78,
     "dur": 0.3667,
     "zoom": 1
    },
@@ -34,8 +34,8 @@
     "zoom": 1.337
    },
    {
-    "src": "t5_stardew",
-    "from": 42,
+    "src": "t5_pstolen",
+    "from": 54,
     "dur": 0.3667,
     "zoom": 1
    },
@@ -49,52 +49,6 @@
   "entries": [
    {
     "rank": 5,
-    "name": "Stardew Valley",
-    "clips": [
-     {
-      "src": "t5_stardew",
-      "from": 30,
-      "dur": 1.4667,
-      "zoom": 1
-     },
-     {
-      "src": "t5_stardew",
-      "from": 45,
-      "dur": 1.4667,
-      "zoom": 1
-     }
-    ],
-    "players": 71360,
-    "playersLabel": "PEAK PLAYERS THIS WEEK",
-    "price": "$14.99",
-    "move": {
-     "text": "2 ON STEAM CHART",
-     "up": true
-    }
-   },
-   {
-    "rank": 4,
-    "name": "Cyberpunk 2077",
-    "clips": [
-     {
-      "src": "t5_cp77",
-      "from": 9,
-      "dur": 1.4667,
-      "zoom": 1
-     },
-     {
-      "src": "t5_cp77",
-      "from": 21,
-      "dur": 1.4667,
-      "zoom": 1
-     }
-    ],
-    "players": 72271,
-    "playersLabel": "PEAK PLAYERS THIS WEEK",
-    "price": "$59.99"
-   },
-   {
-    "rank": 3,
     "name": "GTA V Enhanced",
     "clips": [
      {
@@ -117,6 +71,48 @@
      "text": "14 ON STEAM CHART",
      "up": true
     }
+   },
+   {
+    "rank": 4,
+    "name": "Probably Stolen",
+    "clips": [
+     {
+      "src": "t5_pstolen",
+      "from": 39,
+      "dur": 1.4667,
+      "zoom": 1
+     },
+     {
+      "src": "t5_pstolen",
+      "from": 54,
+      "dur": 1.4667,
+      "zoom": 1
+     }
+    ],
+    "players": 97690,
+    "playersLabel": "PEAK PLAYERS THIS WEEK",
+    "price": "$19.99"
+   },
+   {
+    "rank": 3,
+    "name": "Rust",
+    "clips": [
+     {
+      "src": "t5_rust",
+      "from": 39,
+      "dur": 1.4667,
+      "zoom": 1
+     },
+     {
+      "src": "t5_rust",
+      "from": 78,
+      "dur": 1.4667,
+      "zoom": 1
+     }
+    ],
+    "players": 102232,
+    "playersLabel": "PEAK PLAYERS THIS WEEK",
+    "price": "$39.99"
    },
    {
     "rank": 2,
