@@ -1,5 +1,13 @@
 # Review log (newest first; written nightly by the autopilot)
 
+## 2026-11-20 (run for 2026-11-20, all 3 slots)
+- DISTRIBUTION (still on the owner, nothing new to add): TikTok has 0 views on all 8 videos, and the fix is the phone warm-up (ceo.md item 4). Instagram 18 + 16 Reels show 0 because Buffer's IG login dropped (ceo.md item 0). YouTube: 17b (Take-Two, 14) and 18b (pre-orders real-or-rumour, 32) are under 50 views after 24 h. Both were GTA b-slot posts at 16:00, which is the slot the 19 Nov timing test (17:30) is meant to fix.
+- YouTube after 24 h+: 17c Elden Ring cost/hour 1,206 · 19c Cyberpunk cost/hour 1,074 (< 24 h) · 18 GTA 212 GB 876 · 16 $1B 808 · 18c Baldur's Gate 3 cost/hour 800 · 17 Xbox One 631. All 3 cost-per-hour edits are at 800+ views and avg view % peaked at 82.6 (Elden Ring). That holds on 3 posts, so it is now a rule in learned.md.
+- 19b (GTA 6 vs GTA 5, 4,811 days, 17:30) has 475 views in under 24 h, already 15-30x the earlier 16:00 b posts. Its line 1 was a claim, not a question. One post, so it's a signal: the 17:30 slot and the claim hook both look right.
+- Retention (3 s vs similar) is only in for 16-17: Elden 0.48, Xbox One 0.4, $1B 0.25, GTA price 0.17. The two best both open on a short claim about the viewer's own cost or console.
+- DECISION: c stays cost per hour (Hollow Knight: $14.99 Steam ÷ 27 h HLTB main = 56¢/h; 66 h completionist = 23¢/h), with the game soundtrack.
+- DECISION: main = new daily series "GTA VI · Day 2", the first sales estimate (Sensor Tower 19.05M / $1.84B vs GTA 5's 11.21M in 24 h; labelled est., Take-Two unconfirmed). b = real or rumour, stated as a claim in line 1 (GTA 6's 8 Game Awards nominations, 17 Nov, before its 19 Nov launch). Music A/B: main library, b game.
+
 ## 2026-11-19 (run for 2026-11-19, extra slots b + c)
 - DISTRIBUTION (unchanged, still on the owner): TikTok is at 0 views on all 5 videos; the fix is the phone warm-up in ceo.md "For the owner" item 4. 17b (Take-Two $8B) is stuck at 9 YouTube views after 24 h (< 50), and two IG Reels (11-16 $1B duplicate, 11-17 Xbox One) show 0 views. Nothing new to add for the owner tonight.
 - YouTube views so far: 17c Elden Ring cost/hour edit 1,155 · 16 $1B 809 · 18c Baldur's Gate 3 cost/hour edit 734 (<24 h) · 17 Xbox One 534. Both cost-per-hour edits (non-GTA, game soundtrack, number in the first 6 words) are among our top 3. That's 2 posts, so it's a signal and not yet a rule.

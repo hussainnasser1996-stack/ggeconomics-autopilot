@@ -1,0 +1,33 @@
+{
+ "id": "d_2026_11_20",
+ "voice": "am_liam",
+ "speed": 1.25,
+ "gap": 0.12,
+ "mode": "edit",
+ "lines": [
+  {
+   "id": "hook",
+   "text": "GTA 6: 19M copies by launch day"
+  },
+  {
+   "id": "money",
+   "text": "$1.84B in sales (Sensor Tower est.)"
+  },
+  {
+   "id": "gta5",
+   "text": "GTA 5's first 24 hours: 11M"
+  },
+  {
+   "id": "x",
+   "text": "That's 1.7x GTA 5's record"
+  },
+  {
+   "id": "tt",
+   "text": "Take-Two hasn't confirmed yet"
+  },
+  {
+   "id": "q",
+   "text": "Are you one of the 19M?"
+  }
+ ]
+}

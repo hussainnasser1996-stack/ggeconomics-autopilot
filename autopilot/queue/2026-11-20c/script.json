@@ -1,0 +1,29 @@
+{
+ "id": "d_2026_11_20c",
+ "voice": "am_liam",
+ "speed": 1.25,
+ "gap": 0.12,
+ "mode": "edit",
+ "lines": [
+  {
+   "id": "hook",
+   "text": "Hollow Knight costs you 56¢ an hour"
+  },
+  {
+   "id": "math",
+   "text": "$14.99 ÷ 27 hours to beat"
+  },
+  {
+   "id": "movie",
+   "text": "A movie ticket: $6 an hour"
+  },
+  {
+   "id": "full",
+   "text": "Go 100%: 23¢ an hour"
+  },
+  {
+   "id": "q",
+   "text": "Worth $15 in 2026?"
+  }
+ ]
+}

@@ -1,0 +1,74 @@
+{
+ "slides": [
+  {
+   "bg": {
+    "at": null
+   },
+   "kicker": "GTA VI · DAY 2",
+   "head": "|19M COPIES|\nBY LAUNCH DAY",
+   "sub": "An estimate, not Take-Two's number. Here's how it stacks up →"
+  },
+  {
+   "bg": {
+    "at": null
+   },
+   "kicker": "01 · THE COPIES",
+   "card": {
+    "kind": "big",
+    "line": "",
+    "value": "19M",
+    "label": "GTA 6 copies by 19 Nov morning",
+    "note": "Sensor Tower estimate · digital, incl. pre-orders",
+    "color": "#D4FF3A"
+   }
+  },
+  {
+   "bg": {
+    "at": null
+   },
+   "kicker": "02 · THE MONEY",
+   "card": {
+    "kind": "big",
+    "line": "",
+    "value": "$1.84B",
+    "label": "estimated sales",
+    "note": "Sensor Tower · ~75% PlayStation, 25% Xbox",
+    "color": "#3AE0FF"
+   }
+  },
+  {
+   "bg": {
+    "at": null
+   },
+   "kicker": "03 · THE OLD RECORD",
+   "card": {
+    "kind": "pair",
+    "line": "",
+    "a": {
+     "value": "11M",
+     "label": "GTA 5, FIRST 24 H"
+    },
+    "b": {
+     "value": "$816M",
+     "label": "GTA 5, FIRST 24 H"
+    },
+    "note": "Sept 2013 · Take-Two, Guinness"
+   }
+  },
+  {
+   "bg": {
+    "at": null
+   },
+   "kicker": "04 · WHAT'S NEXT",
+   "card": {
+    "kind": "big",
+    "line": "",
+    "value": "1.7x",
+    "label": "GTA 5's day-one copies",
+    "note": "estimate vs official: measured differently"
+   },
+   "sub": "Take-Two's own numbers are still to come. Follow for GTA 6 Day 3."
+  }
+ ],
+ "credit": "FOOTAGE: ROCKSTAR GAMES"
+}

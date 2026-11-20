@@ -1,0 +1,33 @@
+{
+ "id": "d_2026_11_20b",
+ "voice": "am_liam",
+ "speed": 1.25,
+ "gap": 0.12,
+ "mode": "edit",
+ "lines": [
+  {
+   "id": "hook",
+   "text": "GTA 6 got 8 Game Awards nominations"
+  },
+  {
+   "id": "before",
+   "text": "2 days before it even launched"
+  },
+  {
+   "id": "rr",
+   "text": "Real or rumour?"
+  },
+  {
+   "id": "real",
+   "text": "Real: most of any game this year"
+  },
+  {
+   "id": "goty",
+   "text": "Game of the Year winner: Dec 10"
+  },
+  {
+   "id": "q",
+   "text": "Does GTA 6 deserve all 8?"
+  }
+ ]
+}

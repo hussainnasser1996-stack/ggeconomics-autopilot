@@ -1,0 +1,15 @@
+{
+ "candidates": [
+  {
+   "source": "steam",
+   "game": "Hollow Knight",
+   "prefer": "Release"
+  },
+  {
+   "source": "steam",
+   "game": "Hollow Knight",
+   "prefer": "Beneath"
+  }
+ ],
+ "credit": "GAMEPLAY: TEAM CHERRY"
+}

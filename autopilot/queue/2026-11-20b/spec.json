@@ -1,0 +1,48 @@
+{
+ "spec": {
+  "tag": "GTA VI · REAL OR RUMOUR",
+  "headline": "GTA 6 GOT |8 NOMINATIONS| AT THE GAME AWARDS",
+  "topic": "The Game Awards 2026 nominees (announced 17 Nov 2026): GTA VI leads with 8 nominations incl. Game of the Year; GTA VI launched 19 Nov; ceremony 10 Dec, Peacock Theater. Sources: Gematsu, Dexerto (17 Nov)",
+  "vo": "vo/d_2026_11_20b/vo.wav",
+  "timelinePath": "vo/d_2026_11_20b/timeline.json",
+  "timeline": {
+   "duration": 1,
+   "lines": [],
+   "words": []
+  },
+  "noBed": true,
+  "clips": [],
+  "cards": [
+   {
+    "kind": "big",
+    "line": "hook",
+    "value": "8",
+    "label": "Game Awards nominations",
+    "note": "most of any game in 2026 · Gematsu, Dexerto",
+    "color": "#D4FF3A"
+   },
+   {
+    "kind": "pair",
+    "line": "before",
+    "a": {
+     "value": "NOV 17",
+     "label": "NOMINEES OUT"
+    },
+    "b": {
+     "value": "NOV 19",
+     "label": "GTA 6 LAUNCH"
+    }
+   },
+   {
+    "kind": "date",
+    "line": "goty",
+    "small": "GAME OF THE YEAR · 6 NOMINEES",
+    "big": "DEC 10",
+    "note": "The Game Awards · Peacock Theater, LA"
+   }
+  ],
+  "credit": "GAMEPLAY: ROCKSTAR GAMES · DATA: THE GAME AWARDS VIA GEMATSU, DEXERTO",
+  "endLine": "REAL OR RUMOUR? FOLLOW FOR MORE",
+  "noCaptions": true
+ }
+}

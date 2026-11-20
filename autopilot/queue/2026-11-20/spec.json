@@ -1,0 +1,50 @@
+{
+ "spec": {
+  "tag": "GTA VI · DAY 2",
+  "headline": "GTA 6 SOLD AN EST. |19M COPIES|",
+  "topic": "GTA 6 day 2: Sensor Tower estimates 19.05M copies / $1.84B by the morning of 19 Nov (incl. pre-orders, digital); GTA V 2013 first 24 h: 11.21M units / $815.7M (Take-Two, Guinness). Take-Two has not confirmed. Sources: Fox 5 NY (19 Nov), Geeks + Gamers (19 Nov, citing Sensor Tower/Forbes)",
+  "vo": "vo/d_2026_11_20/vo.wav",
+  "timelinePath": "vo/d_2026_11_20/timeline.json",
+  "timeline": {
+   "duration": 1,
+   "lines": [],
+   "words": []
+  },
+  "noBed": true,
+  "clips": [],
+  "cards": [
+   {
+    "kind": "big",
+    "line": "hook",
+    "value": "19M",
+    "label": "GTA 6 copies by launch day",
+    "note": "Sensor Tower estimate · digital, incl. pre-orders",
+    "color": "#D4FF3A"
+   },
+   {
+    "kind": "big",
+    "line": "money",
+    "value": "$1.84B",
+    "label": "estimated sales",
+    "note": "Sensor Tower · not confirmed by Take-Two",
+    "color": "#3AE0FF"
+   },
+   {
+    "kind": "pair",
+    "line": "gta5",
+    "a": {
+     "value": "19M",
+     "label": "GTA 6 (EST.)"
+    },
+    "b": {
+     "value": "11M",
+     "label": "GTA 5, 24 H"
+    },
+    "note": "GTA 5: 11.21M, Sept 2013 · Take-Two"
+   }
+  ],
+  "credit": "GAMEPLAY: ROCKSTAR GAMES · DATA: SENSOR TOWER (EST.), TAKE-TWO",
+  "endLine": "FOLLOW FOR GTA 6 DAY 3",
+  "noCaptions": true
+ }
+}

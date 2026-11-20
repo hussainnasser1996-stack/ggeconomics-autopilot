@@ -1,0 +1,50 @@
+{
+ "spec": {
+  "tag": "HOLLOW KNIGHT · COST PER HOUR",
+  "headline": "HOLLOW KNIGHT COSTS |56¢ AN HOUR|",
+  "topic": "Hollow Knight $14.99 on Steam (US, 20 Nov 2026) ÷ HowLongToBeat main story 27 h (97,152 s, 2,775 submissions) = $0.56/h; completionist 66 h = $0.23/h; vs ~$12 movie for 2 h = $6/h",
+  "vo": "vo/d_2026_11_20c/vo.wav",
+  "timelinePath": "vo/d_2026_11_20c/timeline.json",
+  "timeline": {
+   "duration": 1,
+   "lines": [],
+   "words": []
+  },
+  "noBed": true,
+  "clips": [],
+  "cards": [
+   {
+    "kind": "big",
+    "line": "hook",
+    "value": "56¢/HR",
+    "label": "Hollow Knight, main story",
+    "note": "$14.99 Steam ÷ 27 h HowLongToBeat · our math",
+    "color": "#D4FF3A"
+   },
+   {
+    "kind": "pair",
+    "line": "movie",
+    "a": {
+     "value": "56¢/HR",
+     "label": "HOLLOW KNIGHT"
+    },
+    "b": {
+     "value": "$6/HR",
+     "label": "MOVIE TICKET"
+    },
+    "note": "~$12 ticket for a 2-hour film"
+   },
+   {
+    "kind": "big",
+    "line": "full",
+    "value": "23¢/HR",
+    "label": "if you go 100%",
+    "note": "66 h completionist · HowLongToBeat",
+    "color": "#D4FF3A"
+   }
+  ],
+  "credit": "GAMEPLAY: TEAM CHERRY · DATA: STEAM, HOWLONGTOBEAT",
+  "endLine": "FOLLOW FOR COST PER HOUR",
+  "noCaptions": true
+ }
+}
