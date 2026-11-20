@@ -4,153 +4,190 @@
   "channel": {
    "id": "UCpsoR_hS2XJT-Yv7UN0qZbQ",
    "viewCount": 6765,
-   "subscriberCount": 4,
-   "videoCount": 13
+   "subscriberCount": 5,
+   "videoCount": 14
   },
   "traffic_sources": {
-   "SHORTS": 2768,
-   "YT_SEARCH": 173,
-   "YT_OTHER_PAGE": 46,
-   "YT_CHANNEL": 27,
-   "EXT_URL": 7,
+   "SHORTS": 4383,
+   "YT_SEARCH": 320,
+   "YT_OTHER_PAGE": 101,
+   "YT_CHANNEL": 41,
+   "EXT_URL": 14,
    "SUBSCRIBER": 4,
    "PLAYLIST": 1,
    "NO_LINK_OTHER": 0
   },
   "videos": {
+   "nKFE5F2_bvs": {
+    "title": "GTA 6 Got 8 Game Awards Nominations Before Launch",
+    "published": "2026-11-20",
+    "views": 842,
+    "likes": 8,
+    "comments": 0
+   },
    "rYs3I31mOTs": {
     "title": "Hollow Knight Costs You 56\u00a2 an Hour. Worth It?",
     "published": "2026-11-20",
-    "views": 581,
-    "likes": 13,
-    "comments": 2
+    "views": 1349,
+    "likes": 17,
+    "comments": 5
    },
    "NxhZJnczHb4": {
     "title": "GTA 6 Is Out: Your Console Runs It at 30 FPS",
     "published": "2026-11-19",
-    "views": 1005,
+    "views": 1021,
     "likes": 14,
     "comments": 3
    },
    "aN_kp9u4ZXo": {
     "title": "GTA 6 vs GTA 5: You Waited 4,811 Days",
     "published": "2026-11-19",
-    "views": 500,
+    "views": 506,
     "likes": 2,
     "comments": 1
    },
    "I5ZLMocjk2k": {
     "title": "Cyberpunk 2077 Costs You $2.31 an Hour. Worth It?",
     "published": "2026-11-19",
-    "views": 1367,
+    "views": 1427,
     "likes": 12,
     "comments": 12
    },
    "a92DfUx8zTw": {
     "title": "GTA 6 Unlocks Tonight: You Need 212 GB Free",
     "published": "2026-11-18",
-    "views": 1027,
-    "likes": 19,
-    "comments": 4
+    "views": 1039,
+    "likes": 18,
+    "comments": 4,
+    "an_views": 858,
+    "avg_view_s": 16,
+    "avg_view_pct": 66.7,
+    "subs": 1,
+    "shares": 0,
+    "hold_1s": 113,
+    "hold_3s": 111,
+    "hold_end": 23,
+    "vs_similar_3s": 0.31,
+    "dur_s": 24
    },
    "gEIsDaTmYII": {
     "title": "GTA 6 Beat Cyberpunk's 8M Pre-Order Record?",
     "published": "2026-11-18",
-    "views": 40,
+    "views": 53,
     "likes": 0,
-    "comments": 1
+    "comments": 1,
+    "an_views": 29,
+    "avg_view_s": 13,
+    "avg_view_pct": 81.3,
+    "subs": 0,
+    "shares": 0,
+    "hold_1s": 133,
+    "hold_3s": 125,
+    "hold_end": 42,
+    "vs_similar_3s": 0.51,
+    "dur_s": 16
    },
    "WNOKpKZ_STA": {
     "title": "Baldur's Gate 3 Costs You 82\u00a2 an Hour. Worth It?",
     "published": "2026-11-18",
-    "views": 844,
+    "views": 850,
     "likes": 3,
-    "comments": 1
+    "comments": 1,
+    "an_views": 785,
+    "avg_view_s": 12,
+    "avg_view_pct": 80.4,
+    "subs": 0,
+    "shares": 0,
+    "hold_1s": 122,
+    "hold_3s": 118,
+    "hold_end": 36,
+    "vs_similar_3s": 0.47,
+    "dur_s": 15
    },
    "k1zkAfgzYeE": {
     "title": "Your 2013 Xbox One Can Play GTA 6 on Day One",
     "published": "2026-11-17",
-    "views": 663,
+    "views": 669,
     "likes": 12,
     "comments": 3,
-    "an_views": 490,
-    "avg_view_s": 17,
-    "avg_view_pct": 70.9,
+    "an_views": 590,
+    "avg_view_s": 18,
+    "avg_view_pct": 72.2,
     "subs": 0,
-    "shares": 2,
+    "shares": 4,
     "hold_1s": 121,
     "hold_3s": 114,
-    "hold_end": 30,
-    "vs_similar_3s": 0.4,
+    "hold_end": 29,
+    "vs_similar_3s": 0.41,
     "dur_s": 25
    },
    "qk-9G5Knq5U": {
     "title": "GTA 6: Take-Two Bets $8 Billion on Your $80",
     "published": "2026-11-17",
-    "views": 18,
+    "views": 21,
     "likes": 0,
     "comments": 1,
-    "an_views": 5,
-    "avg_view_s": 11,
-    "avg_view_pct": 48.7,
+    "an_views": 13,
+    "avg_view_s": 10,
+    "avg_view_pct": 43.6,
     "subs": 0,
     "shares": 0
    },
    "zK7fa0dTrDc": {
     "title": "Elden Ring Costs You $1 an Hour. Worth It?",
     "published": "2026-11-17",
-    "views": 1223,
+    "views": 1225,
     "likes": 9,
     "comments": 3,
-    "an_views": 1150,
+    "an_views": 1179,
     "avg_view_s": 12,
-    "avg_view_pct": 82.6,
+    "avg_view_pct": 83.1,
     "subs": 1,
-    "shares": 0,
-    "hold_1s": 124,
-    "hold_3s": 118,
-    "hold_end": 34,
-    "vs_similar_3s": 0.48,
+    "shares": 1,
+    "hold_1s": 125,
+    "hold_3s": 119,
+    "hold_end": 35,
+    "vs_similar_3s": 0.49,
     "dur_s": 15
    },
    "xee1vvJZ5L4": {
     "title": "GTA 6 Might Make $1 Billion Before You Can Even Play It",
     "published": "2026-11-16",
-    "views": 807,
+    "views": 810,
     "likes": 12,
     "comments": 1,
-    "an_views": 801,
+    "an_views": 806,
     "avg_view_s": 14,
-    "avg_view_pct": 61.9,
+    "avg_view_pct": 61.8,
     "subs": 0,
     "shares": 1,
-    "hold_1s": 111,
+    "hold_1s": 110,
     "hold_3s": 106,
-    "hold_end": 21,
-    "vs_similar_3s": 0.25,
+    "hold_end": 20,
+    "vs_similar_3s": 0.24,
     "dur_s": 24
    },
    "ct7tlizYNYQ": {
     "title": "GTA 6 Costs You $79.99. GTA 5 Cost More",
     "published": "2026-11-16",
-    "views": 327,
+    "views": 328,
     "likes": 0,
     "comments": 1,
-    "an_views": 289,
-    "avg_view_s": 12,
-    "avg_view_pct": 53.5,
+    "an_views": 313,
+    "avg_view_s": 13,
+    "avg_view_pct": 54.9,
     "subs": 0,
     "shares": 0,
-    "hold_1s": 105,
-    "hold_3s": 104,
-    "hold_end": 9,
-    "vs_similar_3s": 0.17,
+    "hold_1s": 107,
+    "hold_3s": 102,
+    "hold_end": 11,
+    "vs_similar_3s": 0.19,
     "dur_s": 24
    },
    "2lyn0JAlPoU": {
     "title": "Rockstar Made 2 of the 5 Best-Selling Games Ever",
     "published": "2026-11-16",
-    "views": 293,
+    "views": 294,
     "likes": 2,
     "comments": 1,
     "an_views": 293,
@@ -210,6 +247,26 @@
    "reach": 0,
    "totalTimeWatched": 0,
    "averageTimeWatched": 0
+  },
+  "6aff9ae0738ce4635f75117c": {
+   "sent": "2026-11-20",
+   "text": "8 nominations for a game nobody could buy yet. GTA 6 leads T",
+   "link": "https://tiktok.com/@ggeconomics/video/7710307534774521106",
+   "service": "tiktok",
+   "reactions": 0,
+   "comments": 0,
+   "engagementRate": 0,
+   "views": 0,
+   "shares": 0,
+   "reach": 0,
+   "totalTimeWatched": 0,
+   "averageTimeWatched": 0
+  },
+  "6aff9adf0f5eda1a57acf950": {
+   "sent": "2026-11-20",
+   "text": "8 nominations for a game nobody could buy yet. GTA 6 leads T",
+   "link": "https://www.instagram.com/reel/Df-MlxXxsTm/",
+   "service": "instagram"
   },
   "6aff96b7d5f8acdd0d5b9931": {
    "sent": "2026-11-20",
@@ -524,290 +581,304 @@
  },
  "trending": [
   {
+   "title": "\ud83d\udd34PLAYING GTA 6 RIGHT NOW GET IN HERE!",
+   "channel": "IShowSpeed",
+   "views": 36181864,
+   "published": "2026-11-20"
+  },
+  {
+   "title": "\ud83d\udd34LIVE | GTA 6 | DAY 2 | VICE CITY | SUPER CARS/HYPER CARS | #1 GTA 6 DRIVER | #BUNGULATE",
+   "channel": "TheBurntPeanut",
+   "views": 3197163,
+   "published": "2026-11-20"
+  },
+  {
    "title": "I Survived 100 Hours In GTA 6",
    "channel": "MrBeast Gaming",
-   "views": 23936540,
+   "views": 30923464,
    "published": "2026-11-19"
   },
   {
    "title": "So GTA 6 is Finally Here",
    "channel": "penguinz0",
-   "views": 2296461,
+   "views": 2863578,
    "published": "2026-11-20"
   },
   {
    "title": "PLAYING GTA 6 FOR THE FIRST TIME (PART 3)",
    "channel": "Kai Cenat Live",
-   "views": 4359819,
+   "views": 4430975,
    "published": "2026-11-20"
   },
   {
-   "title": "GTA 6 has everyone fighting..",
-   "channel": "Asmongold TV  ",
-   "views": 1668750,
+   "title": "skibidi toilet 83 (part 2)",
+   "channel": "skibidi",
+   "views": 2735288,
    "published": "2026-11-20"
   },
   {
-   "title": "GTA 6 Gameplay Walkthrough Part 1 FULL GAME [4K PS5 PRO] - No Commentary",
-   "channel": "MKIceAndFire",
-   "views": 9170487,
-   "published": "2026-11-18"
-  },
-  {
-   "title": "\ud83d\udd34PLAYING GTA 6 EARLY ACCESS GAMEPLAY GET IN HERE!",
-   "channel": "IShowSpeed",
-   "views": 65922600,
-   "published": "2026-11-19"
-  },
-  {
-   "title": "\ud83d\udd34 LIVE! - GTA 6 on PS5 PRO with TYPICAL GAMER!",
-   "channel": "Typical Gamer",
-   "views": 1879956,
+   "title": "Testing Everything In GTA 6",
+   "channel": "LazarBeam",
+   "views": 2575586,
    "published": "2026-11-20"
   },
   {
    "title": "GTA 6: 10 Things The Game DOESN'T TELL YOU",
    "channel": "gameranx",
-   "views": 1788686,
+   "views": 2087749,
+   "published": "2026-11-19"
+  },
+  {
+   "title": "GTA 6 Gameplay Walkthrough Part 1 FULL GAME [4K PS5 PRO] - No Commentary",
+   "channel": "MKIceAndFire",
+   "views": 9838882,
+   "published": "2026-11-18"
+  },
+  {
+   "title": "\ud83d\udd34 LIVE! - GTA 6 on PS5 PRO with TYPICAL GAMER!",
+   "channel": "Typical Gamer",
+   "views": 1929863,
+   "published": "2026-11-20"
+  },
+  {
+   "title": "Suzy Says\u2026",
+   "channel": "CaseOh",
+   "views": 1021058,
    "published": "2026-11-19"
   },
   {
    "title": "Dandy's World 1.0 Devlog \ud83d\udc89 Play Nov. 20th, 2026!",
    "channel": "BlushCrunch Studio",
-   "views": 1973562,
-   "published": "2026-11-19"
-  },
-  {
-   "title": "Suzy Says\u2026",
-   "channel": "CaseOh",
-   "views": 789737,
+   "views": 2144397,
    "published": "2026-11-19"
   },
   {
    "title": "GTA 6 Walkthrough Gameplay Part 2 - JASON DUVAL (GRAND THEFT AUTO 6)",
    "channel": "theRadBrad",
-   "views": 1476688,
+   "views": 1632716,
    "published": "2026-11-19"
   },
   {
-   "title": "Testing Everything In GTA 6",
-   "channel": "LazarBeam",
-   "views": 1582694,
+   "title": "GTA 6 Good Ending (Jason & Lucia Survive) - Grand Theft Auto VI",
+   "channel": "MELOO",
+   "views": 1516650,
    "published": "2026-11-20"
   },
   {
-   "title": "GTA 6 - Niko Bellic Returns (4K ULTRA HD)",
-   "channel": "Shirrako",
-   "views": 1469349,
+   "title": "GTA 6 FIRST PLAY THROUGH - EPISODE 1!",
+   "channel": "H2ODelirious",
+   "views": 247889,
+   "published": "2026-11-20"
+  },
+  {
+   "title": "DON'T Finish Chapter 1 in GTA 6 Until You Do THIS!",
+   "channel": "BiggySweats",
+   "views": 467295,
    "published": "2026-11-20"
   },
   {
    "title": "Grand Theft Auto 6 - Part 5 - Building a Life Together",
    "channel": "TmarTn2",
-   "views": 370208,
+   "views": 422452,
    "published": "2026-11-19"
   },
   {
    "title": "FlightReacts Plays GTA 6 For 1st Time &...",
    "channel": "NotYourAverageFlight",
-   "views": 514756,
+   "views": 567397,
    "published": "2026-11-19"
   },
   {
-   "title": "GTA 6 FIRST PLAY THROUGH - EPISODE 1!",
-   "channel": "H2ODelirious",
-   "views": 156842,
+   "title": "GTA 6 - Niko Bellic Returns (4K ULTRA HD)",
+   "channel": "Shirrako",
+   "views": 1745569,
+   "published": "2026-11-20"
+  },
+  {
+   "title": "I Played GTA VI at 60 FPS",
+   "channel": "Linus Tech Tips",
+   "views": 797924,
+   "published": "2026-11-20"
+  },
+  {
+   "title": "FINAL LIFE: Episode 4 - KILL THEM ALL",
+   "channel": "Mumbo Jumbo",
+   "views": 193816,
    "published": "2026-11-20"
   },
   {
    "title": "JUGU\u00c9 GTA 6 POR PRIMERA VEZ",
    "channel": "Fede Vigevani",
-   "views": 6113559,
+   "views": 8086215,
    "published": "2026-11-20"
-  },
-  {
-   "title": "GTA 6 Is Already A Disaster",
-   "channel": "WestJett",
-   "views": 966783,
-   "published": "2026-11-19"
-  },
-  {
-   "title": "Why GTA is a Bigger Deal Than You Think",
-   "channel": "Mrwhosetheboss",
-   "views": 6431020,
-   "published": "2026-11-19"
-  },
-  {
-   "title": "GTA 6 - All Niko Bellic Cutscenes (4K)",
-   "channel": "Sirloin",
-   "views": 787279,
-   "published": "2026-11-20"
-  },
-  {
-   "title": "GTA 6 ULTIMATE BEGINNERS GUIDE! 32 Tips You NEED to Know (Don't Make These Mistakes)",
-   "channel": "MrDalekJD",
-   "views": 848612,
-   "published": "2026-11-19"
-  },
-  {
-   "title": "GTA 6 WTF and Funny Moments! #2",
-   "channel": "Zynxize",
-   "views": 1838635,
-   "published": "2026-11-19"
   },
   {
    "title": "Do GTA 6 NPCs Actually Have Lives?",
    "channel": "Sonny Evans",
-   "views": 1098572,
+   "views": 1673319,
    "published": "2026-11-19"
   }
  ],
  "notes": [
-  "REACH ALARM: tiktok 0 views: 4,811 days. That's how long you waited b | tiktok 0 views: A movie costs you $6 an hour. Cyberpunk  | tiktok 0 views: GTA 6 is out, and Rockstar targets 30 fr | tiktok 0 views: GTA 6 launches November 19 and the downl | tiktok 0 views: Cyberpunk's pre-order record was 8 milli | tiktok 0 views: A movie costs you $6 an hour. Baldur's G | tiktok 0 views: A movie costs you $6 an hour. Elden Ring | tiktok 0 views: GTA 6 streams to Xbox One through Xbox C | tiktok 0 views: Take-Two needs $8 billion this year. Las | instagram 0 views: GTA 6 launches November 19 and the downl | instagram 0 views: GTA 6 may pass $1 billion before launch  | youtube 40 views after 24h: GTA 6 Beat Cyberpunk's 8M Pre-Order Reco | youtube 18 views after 24h: GTA 6: Take-Two Bets $8 Billion on Your "
+  "REACH ALARM: tiktok 0 views: 4,811 days. That's how long you waited b | tiktok 0 views: A movie costs you $6 an hour. Cyberpunk  | tiktok 0 views: GTA 6 is out, and Rockstar targets 30 fr | tiktok 0 views: GTA 6 launches November 19 and the downl | tiktok 0 views: Cyberpunk's pre-order record was 8 milli | tiktok 0 views: A movie costs you $6 an hour. Baldur's G | tiktok 0 views: A movie costs you $6 an hour. Elden Ring | tiktok 0 views: GTA 6 streams to Xbox One through Xbox C | tiktok 0 views: Take-Two needs $8 billion this year. Las | instagram 0 views: GTA 6 launches November 19 and the downl | instagram 0 views: GTA 6 may pass $1 billion before launch  | youtube 21 views after 24h: GTA 6: Take-Two Bets $8 Billion on Your "
  ],
  "outliers": [
   [
-   111.04164460993655,
-   9446753,
-   31900,
+   338.624913878573,
+   732772,
+   272,
+   "Extremus",
+   "Guess who's not touching GTA 6 on day one \ud83d\ude02 #gta6 #gaming #shorts"
+  ],
+  [
+   131.25011846736376,
+   11165968,
+   32300,
    "Marcion Aguilar",
    "Please share with your friends #pov #gta #gta6 #shorts"
   ],
   [
-   81.73718053886437,
-   11370202,
-   40600,
+   118.0018603421855,
+   3444177,
+   26400,
+   "GTA by Sam",
+   "Don't miss the TOP GTA 6 MOMENTS... \ud83d\ude02 #gta6 #gtavi"
+  ],
+  [
+   93.57176638703815,
+   13016474,
+   41000,
    "Umat Game",
    "ANJING PENYELAMAT DI GTA 6"
   ],
   [
-   19.402231701804748,
-   843404,
-   828,
+   63.308574557648264,
+   3881943,
+   61200,
+   "Blin.",
+   "How to Crack Lucia in GTA 6 (Most People Miss This)"
+  ],
+  [
+   20.610979196938015,
+   872370,
+   849,
    "Vice6HQ",
    "Is this really the same GTA 6? #gta6 #gaming"
   ],
   [
-   14.513255769548667,
-   4342391,
-   52800,
+   14.799616888128302,
+   4415047,
+   53200,
    "Comparaholic",
    "Car Destruction: GTA VI vs. GTA V"
   ],
   [
-   11.38860751728927,
-   24475100,
-   38900,
-   "GrimaceClips",
-   "Husband Has the Most INSANE Reaction to GTA 6 \ud83d\ude2d"
-  ],
-  [
-   11.230861096098407,
-   1178127,
-   6330,
+   12.721108236851142,
+   1316175,
+   6540,
    "\u0425\u0415\u041d\u0420\u0418",
    "\u041d\u0435 \u043f\u043e\u043a\u0443\u043f\u0430\u0439 \u0413\u0422\u0410 6 \u0432 \u043a\u043e\u0440\u043e\u0431\u043a\u0435!"
   ],
   [
-   7.876842975325293,
-   5479550,
+   12.497785421465567,
+   26858819,
+   40200,
+   "GrimaceClips",
+   "Husband Has the Most INSANE Reaction to GTA 6 \ud83d\ude2d"
+  ],
+  [
+   9.058324140432434,
+   6301451,
    393000,
    "GTA 5 EMPIRE",
    "What Happens If You Reach the \u201cN\u201d in GTA 6?"
   ],
   [
-   7.420783447284878,
-   10165728,
-   903000,
-   "Varsha & Aditya",
-   "Aapne download kia kya gta6 #shorts #gta #gta6 #funny #couple #shortvideo"
-  ],
-  [
-   5.302586252276379,
-   4293336,
-   1900000,
-   "Asmongold Clips",
-   "GTA 6 just broke the entire internet.."
-  ],
-  [
-   4.454629694860034,
-   654744,
+   5.430541114616397,
+   792563,
    41100,
    "Think Of Depth",
    "Countries Where GTA 6 Is Banned ! \ud83c\udfae\ud83e\udd2f"
   ],
   [
-   4.316473258702702,
-   3755719,
+   5.3317525170056035,
+   4316951,
+   1900000,
+   "Asmongold Clips",
+   "GTA 6 just broke the entire internet.."
+  ],
+  [
+   4.430814160186398,
+   3853484,
    16300000,
    "Typical Gamer",
    "World\u2019s First Stolen Plane in GTA 6"
   ],
   [
-   3.7002934095181126,
-   6124315,
-   2100000,
-   "Gasti Obeide",
-   "\u00a12 D\u00cdAS PARA GTA 6! \ud83d\udd25 #youtubeshorts #shorts"
-  ],
-  [
-   3.350196786596834,
-   24383451,
-   160000,
+   3.4047621497806264,
+   24426581,
+   166000,
    "GTA6\u2011\u72c2\u91ce\u4e16\u754c",
    "\u60ca\u9b42\u672a\u5b9a\u7684\u9732\u897f\u4e9a#gta  #gta6  #shorts"
   ],
   [
-   3.2148309540122644,
-   6833380,
+   3.367202079998618,
+   7157257,
    1340000,
    "Playmakerz",
    "Players Before GTA 6 Releases \ud83d\ude2d\ud83d\udc80"
   ],
   [
-   2.9175910230595687,
-   5903283,
+   3.316310221764502,
+   6700792,
    4780000,
    "gta2025",
    "si dejamos un coche abandonado con GPS en #gta6"
   ],
   [
-   2.700777567815909,
-   6555040,
+   3.0689491246776157,
+   7445172,
    4900000,
    "TheAnimeMen",
    "GTA 5 vs GTA 6 \ud83d\ude2d"
   ],
   [
-   2.2036622970983304,
-   481348,
+   2.4350077412661046,
+   531881,
    151000,
    "TonyCeno",
    "Game is ridiculously good #gaming #gamingnews #gta6 #ps5"
   ],
   [
-   1.9321712284432495,
-   4939755,
+   2.1119624199750495,
+   5399406,
    3870000,
    "youtwoTV",
    "When You Try To Download GTA 6 \ud83d\ude30"
   ],
   [
-   1.6951972109491587,
-   4606297,
-   9610000,
-   "Fact2Fact",
-   "GTA 6 Hype Is Real"
-  ],
-  [
-   1.6029213785979741,
-   12093759,
-   8020000,
+   1.8563755491240623,
+   14006026,
+   8030000,
    "Dimucc",
    "POV: Giving Birth When GTA 6 Drops..."
   ]
  ],
  "ig_graph": {
+  "18083250710756832": {
+   "sent": "2026-11-20",
+   "type": "reel",
+   "caption": "8 nominations for a game nobody could buy yet. GTA 6 leads The Game Awards 2026.\nReal: The Game Awards announced its 2026 nominees on 17 Nov, two days before GTA 6 launched, and GTA 6 leads with 8, including Game of the Year. It faces 007 First Light, Control Resonant, Phantom Blade Zero, Resident E",
+   "link": "https://www.instagram.com/reel/Df-MlxXxsTm/",
+   "likes": 2,
+   "comments": 0,
+   "views": 127,
+   "reach": 117,
+   "saved": 0,
+   "shares": 0,
+   "total_interactions": 2,
+   "ig_reels_avg_watch_time": 5394
+  },
   "18646675216000975": {
    "sent": "2026-11-20",
    "type": "post",
@@ -842,12 +913,12 @@
    "link": "https://www.instagram.com/reel/Df8N2GFBPPh/",
    "likes": 1,
    "comments": 0,
-   "views": 233,
-   "reach": 204,
+   "views": 247,
+   "reach": 220,
    "saved": 0,
    "shares": 0,
    "total_interactions": 1,
-   "ig_reels_avg_watch_time": 9209
+   "ig_reels_avg_watch_time": 8991
   },
   "18129528728510354": {
    "sent": "2026-11-19",
@@ -1019,17 +1090,17 @@
  "per_post": {
   "2026-11-20c": {
    "title": "Hollow Knight Costs You 56\u00a2 an Hour. Worth It?",
-   "youtube_short": 581,
+   "youtube_short": 1349,
    "instagram_reel": 146,
    "instagram_carousel": null,
    "tiktok_video": 0
   },
   "2026-11-20b": {
    "title": "GTA 6 Got 8 Game Awards Nominations Before Launch",
-   "youtube_short": null,
-   "instagram_reel": null,
+   "youtube_short": 842,
+   "instagram_reel": 127,
    "instagram_carousel": null,
-   "tiktok_video": null
+   "tiktok_video": 0
   },
   "2026-11-20": {
    "title": "GTA 6 Sales: Est. 19M Copies. Did You Buy It?",
@@ -1040,84 +1111,84 @@
   },
   "2026-11-19c": {
    "title": "Cyberpunk 2077 Costs You $2.31 an Hour. Worth It?",
-   "youtube_short": 1367,
+   "youtube_short": 1427,
    "instagram_reel": 147,
    "instagram_carousel": null,
    "tiktok_video": 0
   },
   "2026-11-19b": {
    "title": "GTA 6 vs GTA 5: You Waited 4,811 Days",
-   "youtube_short": 500,
+   "youtube_short": 506,
    "instagram_reel": 113,
    "instagram_carousel": null,
    "tiktok_video": 0
   },
   "2026-11-19": {
    "title": "GTA 6 Is Out: Your Console Runs It at 30 FPS",
-   "youtube_short": 1005,
-   "instagram_reel": 233,
+   "youtube_short": 1021,
+   "instagram_reel": 247,
    "instagram_carousel": null,
    "tiktok_video": 0
   },
   "2026-11-18c": {
    "title": "Baldur's Gate 3 Costs You 82\u00a2 an Hour. Worth It?",
-   "youtube_short": 844,
+   "youtube_short": 850,
    "instagram_reel": 100,
    "instagram_carousel": null,
    "tiktok_video": 0
   },
   "2026-11-18b": {
    "title": "GTA 6 Beat Cyberpunk's 8M Pre-Order Record?",
-   "youtube_short": 40,
+   "youtube_short": 53,
    "instagram_reel": null,
    "instagram_carousel": null,
    "tiktok_video": 0
   },
   "2026-11-18": {
    "title": "GTA 6 Unlocks Tonight: You Need 212 GB Free",
-   "youtube_short": 1027,
+   "youtube_short": 1039,
    "instagram_reel": 178,
    "instagram_carousel": null,
    "tiktok_video": 0
   },
   "2026-11-17c": {
    "title": "Elden Ring Costs You $1 an Hour. Worth It?",
-   "youtube_short": 1223,
+   "youtube_short": 1225,
    "instagram_reel": 127,
    "instagram_carousel": null,
    "tiktok_video": 0
   },
   "2026-11-17b": {
    "title": "GTA 6: Take-Two Bets $8 Billion on Your $80",
-   "youtube_short": 18,
+   "youtube_short": 21,
    "instagram_reel": 126,
    "instagram_carousel": null,
    "tiktok_video": 0
   },
   "2026-11-17": {
    "title": "Your 2013 Xbox One Can Play GTA 6 on Day One",
-   "youtube_short": 663,
+   "youtube_short": 669,
    "instagram_reel": 144,
    "instagram_carousel": null,
    "tiktok_video": 0
   },
   "2026-11-16c": {
    "title": "Rockstar Made 2 of the 5 Best-Selling Games Ever",
-   "youtube_short": 293,
+   "youtube_short": 294,
    "instagram_reel": 138,
    "instagram_carousel": null,
    "tiktok_video": null
   },
   "2026-11-16b": {
    "title": "GTA 6 Costs You $79.99. GTA 5 Cost More",
-   "youtube_short": 327,
+   "youtube_short": 328,
    "instagram_reel": 121,
    "instagram_carousel": null,
    "tiktok_video": null
   },
   "2026-11-16": {
    "title": "GTA 6 Might Make $1 Billion Before You Can Even Play It",
-   "youtube_short": 807,
+   "youtube_short": 810,
    "instagram_reel": 126,
    "instagram_carousel": 0,
    "tiktok_video": null
