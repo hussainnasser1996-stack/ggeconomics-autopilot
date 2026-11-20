@@ -1,17 +1,15 @@
-# Delivery check · 2026-11-20 06:53 UTC
+# Delivery check · 2026-11-20 06:57 UTC
 
 ## Problems
 - 2026-11-18b instagram_reel: Buffer error: It looks like Buffer has lost the authorization to post to Facebook. No need to worry, though! (older than 12 h: not re-booked, stale)
-- GitHub Actions minutes this month ≈ 1723/2000: CEO must lower posts_per_day
+- GitHub Actions minutes this month ≈ 1725/2000: CEO must lower posts_per_day
 
 Buffer scheduled per channel: youtube_short 2, instagram_reel 3, instagram_carousel 1, tiktok_video 3
 
-GitHub Actions minutes used this month: ~1723 of 2,000 (free tier, private repo)
+GitHub Actions minutes used this month: ~1725 of 2,000 (free tier, private repo)
 
 ## Actions taken
-- 2026-11-19b: {'video': 'aN_kp9u4ZXo', 'series': 'news', 'playlist': 'ok', 'blocked_in': 0, 'allowed_only': None, 'music': 'library', 'localized': ['ar', 'en', 'es', 'hi', 'id', 'pt-BR']}
-- 2026-11-19c: {'video': 'I5ZLMocjk2k', 'series': 'cost_per_hour', 'playlist': 'ok', 'blocked_in': 0, 'allowed_only': None, 'music': 'game', 'localized': ['ar', 'en', 'es', 'hi', 'id', 'pt-BR']}
-- 2026-11-20c: {'video': 'rYs3I31mOTs', 'series': 'cost_per_hour', 'playlist': 'ok', 'blocked_in': 0, 'allowed_only': None, 'music': 'game', 'localized': ['ar', 'es', 'hi', 'id', 'pt-BR']}
+- none
 
 | post | channel | status | sent/due | link | title |
 |---|---|---|---|---|---|
