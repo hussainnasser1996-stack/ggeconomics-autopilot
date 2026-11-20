@@ -46,6 +46,7 @@ for o in outbox:
     if not cid or cid in state: continue
     if o.get("skip"):
         state[cid] = {"platform": plat, "status": "skipped", "why": o["skip"], "at": now.isoformat()}; continue
+    if cfg.get("comment_mode") == "approve" and not o.get("approved"): left.append(o); continue   # waits for Husain's OK
     reply = (o.get("reply") or "").strip()
     if not reply or re.search(r"https?://|www\.", reply): log.append(f"refused reply to {cid}: empty or has a link"); continue
     try:
@@ -62,6 +63,11 @@ for o in outbox:
         if o["tries"] < 3: left.append(o)
         else: state[cid] = {"platform": plat, "status": "failed", "at": now.isoformat()}
 out_p.write_text(json.dumps(left, indent=1))
+waiting = [o for o in left if o.get("reply") and not o.get("approved")]
+(L / "comments_pending.md").write_text("# Replies waiting for approval\n\n" + "\n".join(
+    f"- [{o['platform']}] {o['id'][-6:]}: {o['reply']}" for o in waiting) + "\n")
+if waiting:
+    import subprocess; subprocess.run(["python3", str(AP / "scripts/notify.py"), f"GG Economics: {len(waiting)} comment replies waiting for your OK (log/comments_pending.md)"])
 
 # ---------- 2. COLLECT ----------
 # A thread = top comment + replies, oldest first. Answer only what came AFTER our last message in it, once.
