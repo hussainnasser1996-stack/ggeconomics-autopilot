@@ -11,30 +11,30 @@ Updated 2026-11-20. YouTube Analytics lags 1-3 days.
 | 2026-11-19c | — | — | — | 0 | 0 | Cyberpunk 2077 Costs You $2.31 an Hour. Worth It? |
 | 2026-11-19b | — | — | — | 0 | 0 | GTA 6 vs GTA 5: You Waited 4,811 Days |
 | 2026-11-19 | — | — | — | 0 | 0 | GTA 6 Is Out: Your Console Runs It at 30 FPS |
-| 2026-11-18c | 822 | 100 | — | 0 | 922 | Baldur's Gate 3 Costs You 82¢ an Hour. Worth It? |
+| 2026-11-18c | 823 | 100 | — | 0 | 923 | Baldur's Gate 3 Costs You 82¢ an Hour. Worth It? |
 | 2026-11-18b | 36 | — | — | 0 | 36 | GTA 6 Beat Cyberpunk's 8M Pre-Order Record? |
 | 2026-11-18 | 878 | — | — | 0 | 878 | GTA 6 Unlocks Tonight: You Need 212 GB Free |
 | 2026-11-17c | 1210 | 127 | — | 0 | 1337 | Elden Ring Costs You $1 an Hour. Worth It? |
 | 2026-11-17b | 17 | 126 | — | 0 | 143 | GTA 6: Take-Two Bets $8 Billion on Your $80 |
-| 2026-11-17 | 649 | 143 | — | 0 | 792 | Your 2013 Xbox One Can Play GTA 6 on Day One |
+| 2026-11-17 | 657 | 143 | — | 0 | 800 | Your 2013 Xbox One Can Play GTA 6 on Day One |
 | 2026-11-16c | 293 | 138 | — | — | 431 | Rockstar Made 2 of the 5 Best-Selling Games Ever |
-| 2026-11-16b | 317 | 121 | — | — | 438 | GTA 6 Costs You $79.99. GTA 5 Cost More |
+| 2026-11-16b | 318 | 121 | — | — | 439 | GTA 6 Costs You $79.99. GTA 5 Cost More |
 | 2026-11-16 | 808 | 126 | 0 | — | 934 | GTA 6 Might Make $1 Billion Before You Can Even Play It |
 
 ## YouTube
 | published | views | avg view % | avg view s | kept 1s % | kept 3s % | 3s vs similar | likes | shares | subs+ | title |
 |---|---|---|---|---|---|---|---|---|---|---|
-| 2026-11-19 | 547 | — | — | — | — | — | 14 | — | — | GTA 6 Is Out: Your Console Runs It at 30 FPS |
-| 2026-11-19 | 497 | — | — | — | — | — | 2 | — | — | GTA 6 vs GTA 5: You Waited 4,811 Days |
-| 2026-11-19 | 1261 | — | — | — | — | — | 10 | — | — | Cyberpunk 2077 Costs You $2.31 an Hour. Worth It? |
+| 2026-11-19 | 580 | — | — | — | — | — | 13 | — | — | GTA 6 Is Out: Your Console Runs It at 30 FPS |
+| 2026-11-19 | 495 | — | — | — | — | — | 2 | — | — | GTA 6 vs GTA 5: You Waited 4,811 Days |
+| 2026-11-19 | 1283 | — | — | — | — | — | 11 | — | — | Cyberpunk 2077 Costs You $2.31 an Hour. Worth It? |
 | 2026-11-18 | 878 | — | — | — | — | — | 12 | — | — | GTA 6 Unlocks Tonight: You Need 212 GB Free |
 | 2026-11-18 | 36 | — | — | — | — | — | 0 | — | — | GTA 6 Beat Cyberpunk's 8M Pre-Order Record? |
-| 2026-11-18 | 822 | — | — | — | — | — | 3 | — | — | Baldur's Gate 3 Costs You 82¢ an Hour. Worth It? |
-| 2026-11-17 | 649 | 70.9 | 17 | 121 | 114 | 0.4 | 12 | 2 | 0 | Your 2013 Xbox One Can Play GTA 6 on Day One |
+| 2026-11-18 | 823 | — | — | — | — | — | 3 | — | — | Baldur's Gate 3 Costs You 82¢ an Hour. Worth It? |
+| 2026-11-17 | 657 | 70.9 | 17 | 121 | 114 | 0.4 | 12 | 2 | 0 | Your 2013 Xbox One Can Play GTA 6 on Day One |
 | 2026-11-17 | 17 | 48.7 | 11 | — | — | — | 0 | 0 | 0 | GTA 6: Take-Two Bets $8 Billion on Your $80 |
 | 2026-11-17 | 1210 | 82.6 | 12 | 124 | 118 | 0.48 | 9 | 0 | 1 | Elden Ring Costs You $1 an Hour. Worth It? |
 | 2026-11-16 | 808 | 61.9 | 14 | 111 | 106 | 0.25 | 12 | 1 | 0 | GTA 6 Might Make $1 Billion Before You Can Even Play It |
-| 2026-11-16 | 317 | 53.5 | 12 | 105 | 104 | 0.17 | 0 | 0 | 0 | GTA 6 Costs You $79.99. GTA 5 Cost More |
+| 2026-11-16 | 318 | 53.5 | 12 | 105 | 104 | 0.17 | 0 | 0 | 0 | GTA 6 Costs You $79.99. GTA 5 Cost More |
 | 2026-11-16 | 293 | 68.4 | 17 | 110 | 110 | 0.3 | 2 | 1 | 0 | Rockstar Made 2 of the 5 Best-Selling Games Ever |
 
 Traffic sources (all time): SHORTS 2770, YT_SEARCH 173, YT_OTHER_PAGE 46, YT_CHANNEL 27, EXT_URL 7, SUBSCRIBER 4, PLAYLIST 1, NO_LINK_OTHER 0
