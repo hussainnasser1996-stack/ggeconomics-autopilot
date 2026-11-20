@@ -17,12 +17,17 @@ export type LongSpec = {
   cold: LClip[]; entries: LEntry[];
   music: { src: string; start: number; at: number }[];   // `at` = seconds into the video where this track starts
   introSec: number; cardSec: number; outroSec: number;
+  /** optional hook before the montage (20 Nov intro test): big number over blurred #1 footage */
+  hook?: { sec: number; big: number; line: string; ask: string; clip: LClip };
+  boardSub?: string;
+  vo?: { src: string; at: number; len?: number }[];   // narration lines, `at` in seconds; music ducks under them
 };
 const FPS = 30;
 const coldSec = (s: LongSpec) => s.cold.reduce((a, c) => a + c.dur, 0);
+const hookSec = (s: LongSpec) => s.hook?.sec ?? 0;
 const segSec = (e: LEntry) => e.clips.reduce((a, c) => a + c.dur, 0);
 export const longLayout = (s: LongSpec) => {
-  let t = coldSec(s) + s.introSec; const segs: { at: number; card: number; play: number }[] = [];
+  let t = hookSec(s) + coldSec(s) + s.introSec; const segs: { at: number; card: number; play: number }[] = [];
   for (const e of s.entries) { segs.push({ at: t, card: s.cardSec, play: segSec(e) }); t += s.cardSec + segSec(e); }
   return { segs, outroAt: t, total: t + s.outroSec };
 };
@@ -72,8 +77,32 @@ const Cold: React.FC<{ s: LongSpec; d: number }> = ({ s, d }) => {
   );
 };
 
+/* ---------- hook: the one number that makes you ask "which game?" ---------- */
+const Hook: React.FC<{ s: LongSpec; d: number }> = ({ s, d }) => {
+  const f = useCurrentFrame(); const h = s.hook!;
+  const n = Math.round(h.big * interpolate(f, [6, 48], [0, 1], { extrapolateLeft: "clamp", extrapolateRight: "clamp", easing: Easing.out(Easing.cubic) }));
+  const p = spring({ frame: f - 2, fps: FPS, config: { damping: 12, stiffness: 160 } });
+  const lineP = interpolate(f, [30, 42], [0, 1], { extrapolateLeft: "clamp", extrapolateRight: "clamp" });
+  const askP = spring({ frame: f - Math.round(d * 0.62), fps: FPS, config: { damping: 9, stiffness: 220 } });
+  const out = interpolate(f, [d - 5, d], [1, 0], { extrapolateLeft: "clamp", extrapolateRight: "clamp" });
+  return (
+    <AbsoluteFill style={{ opacity: out }}>
+      <AbsoluteFill style={{ filter: "blur(22px) brightness(0.45)", transform: "scale(1.1)" }}><Footage clips={[h.clip]} push={1.08} /></AbsoluteFill>
+      <AbsoluteFill style={{ alignItems: "center", justifyContent: "center", flexDirection: "column" }}>
+        <div style={{ fontFamily: DISPLAY, fontWeight: 900, fontSize: 230, color: C.lime, lineHeight: 0.9, letterSpacing: -6, transform: `scale(${0.8 + 0.2 * p})`, opacity: p,
+          textShadow: `0 0 70px ${C.lime}55, 0 8px 30px #000` }}>{n.toLocaleString("en-US")}</div>
+        <div style={{ fontFamily: SANS, fontWeight: 800, fontSize: 58, color: C.white, marginTop: 26, textAlign: "center", maxWidth: 1400, lineHeight: 1.15, opacity: lineP,
+          transform: `translateY(${(1 - lineP) * 20}px)`, textShadow: "0 4px 20px #000" }}>{h.line}</div>
+        <div style={{ fontFamily: DISPLAY, fontWeight: 900, fontSize: 96, color: C.ink, background: C.lime, padding: "6px 34px", borderRadius: 14, marginTop: 40,
+          opacity: Math.min(1, askP * 1.4), transform: `scale(${1.4 - 0.4 * askP})` }}>{h.ask}</div>
+      </AbsoluteFill>
+      <Brand />
+    </AbsoluteFill>
+  );
+};
+
 /* ---------- intro board: how it's ranked + the 10 slots, #1 hidden ---------- */
-const Board: React.FC<{ s: LongSpec; reveal: number; heading: string; showPlayers?: boolean }> = ({ s, reveal, heading, showPlayers }) => {
+const Board: React.FC<{ s: LongSpec; reveal: number; heading: string; showPlayers?: boolean; sub?: string }> = ({ s, reveal, heading, showPlayers, sub }) => {
   const f = useCurrentFrame();
   const byRank = [...s.entries].sort((a, b) => a.rank - b.rank);
   return (
@@ -81,7 +110,8 @@ const Board: React.FC<{ s: LongSpec; reveal: number; heading: string; showPlayer
       <Brand />
       <div style={{ fontFamily: MONO, fontWeight: 700, fontSize: 26, color: C.lime, letterSpacing: 4 }}>{s.week}</div>
       <div style={{ fontFamily: DISPLAY, fontWeight: 900, fontSize: 66, color: C.white, marginTop: 6 }}>{heading}</div>
-      <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gridAutoFlow: "column", gridTemplateRows: "repeat(5, 1fr)", gap: "18px 40px", marginTop: 40, flex: 1 }}>
+      {sub && <div style={{ fontFamily: SANS, fontWeight: 700, fontSize: 32, color: C.cyan, marginTop: 8, opacity: interpolate(f, [10, 22], [0, 1], { extrapolateLeft: "clamp", extrapolateRight: "clamp" }) }}>{sub}</div>}
+      <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gridAutoFlow: "column", gridTemplateRows: "repeat(5, 1fr)", gap: "18px 40px", marginTop: sub ? 28 : 40, flex: 1 }}>
         {byRank.map((e, i) => {
           const shown = e.rank >= reveal; const p = spring({ frame: f - 6 - (10 - e.rank) * 3, fps: FPS, config: { damping: 15 } });
           return (
@@ -178,13 +208,20 @@ const Row: React.FC<{ k: string; v: string; hi?: string }> = ({ k, v, hi }) => (
   </div>
 );
 
+/** music level under narration: 0.3 while a line plays, 1 otherwise */
+const duckAt = (win: [number, number][], frame: number) => win.reduce((m, [a, b]) => Math.min(m, interpolate(frame, [a - 8, a, b, b + 12], [1, 0.3, 0.3, 1], { extrapolateLeft: "clamp", extrapolateRight: "clamp" })), 1);
+
 export const LongTop: React.FC<{ spec: LongSpec }> = ({ spec: s }) => {
-  const L = longLayout(s); const cold = coldSec(s); const total = L.total;
+  const L = longLayout(s); const cold = coldSec(s); const total = L.total; const H = Math.round(hookSec(s) * FPS);
+  const win: [number, number][] = (s.vo ?? []).map((v) => [Math.round(v.at * FPS), Math.round((v.at + (v.len ?? 6)) * FPS)]);
+  const duck = (fr: number) => duckAt(win, fr);
   const n = s.entries.length;
   return (
     <AbsoluteFill style={{ background: C.ink }}>
-      <Sequence durationInFrames={Math.round(cold * FPS)}><Cold s={s} d={Math.round(cold * FPS)} /></Sequence>
-      <Sequence from={Math.round(cold * FPS)} durationInFrames={Math.round(s.introSec * FPS)}><Board s={s} reveal={99} heading="Ranked by peak players on Steam" /></Sequence>
+      {s.hook && <Sequence durationInFrames={H}><Hook s={s} d={H} /></Sequence>}
+      <Sequence from={H} durationInFrames={Math.round(cold * FPS)}><Cold s={s} d={Math.round(cold * FPS)} /></Sequence>
+      <Sequence from={H + Math.round(cold * FPS)} durationInFrames={Math.round(s.introSec * FPS)}><Board s={s} reveal={99} heading="Ranked by peak players on Steam" sub={s.boardSub} /></Sequence>
+      {(s.vo ?? []).map((v, i) => <Sequence key={"vo" + i} from={Math.round(v.at * FPS)}><Audio src={staticFile(v.src)} volume={1} /></Sequence>)}
       {s.entries.map((e, i) => { const g = L.segs[i]; return (
         <React.Fragment key={e.rank}>
           <Sequence from={Math.round(g.at * FPS)} durationInFrames={Math.round(g.card * FPS)}><NumberCard e={e} d={Math.round(g.card * FPS)} /></Sequence>
@@ -195,7 +232,7 @@ export const LongTop: React.FC<{ spec: LongSpec }> = ({ spec: s }) => {
         const a = Math.round(m.at * FPS); const b = Math.round((s.music[i + 1]?.at ?? total) * FPS); const len = b - a;
         return <Sequence key={i} from={a} durationInFrames={len + 30}>
           <Audio src={staticFile(m.src)} startFrom={Math.round(m.start * FPS)}
-            volume={(x) => interpolate(x, [0, 20, len - 10, len + 30], [i === 0 ? 0 : 0.2, 0.85, 0.85, 0], { extrapolateLeft: "clamp", extrapolateRight: "clamp" })} />
+            volume={(x) => interpolate(x, [0, 20, len - 10, len + 30], [i === 0 ? 0 : 0.2, 0.85, 0.85, 0], { extrapolateLeft: "clamp", extrapolateRight: "clamp" }) * duck(a + x)} />
         </Sequence>; })}
     </AbsoluteFill>
   );
