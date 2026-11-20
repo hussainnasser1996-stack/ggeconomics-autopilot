@@ -57,6 +57,10 @@ Instagram AND TikTok (scoreboard.md has all three) and any `REACH ALARM` in its 
   "3s vs similar" = how this Short holds viewers at 3 s against similar Shorts (0-1; 0.5 = average). 16 Nov baseline
   0.14-0.31 = bottom quarter. Compare the opener of the best and worst (clips.json, first line of script.json) and keep
   what the best one did. "kept 1s/3s %" can top 100 because Shorts loop; read it only relative to other Shorts.
+- Comments (20 Nov): read `log/comments_state.json` + `log/comments_inbox.json`. Which Shorts get comments and what people
+  argue about is the clearest signal of what they care about (19c Cyberpunk drew 5 of the first 10: viewers posting their own hours).
+- Subscribers (20 Nov): 12 Shorts, ~7,800 YouTube views, 1 subscriber. Track subs per Short; a Short with views and no subs
+  gave no reason to come back. Prefer formats that are a SERIES the viewer can follow (cost per hour, Day N).
 - End the review with 1–3 lines starting `DECISION:` (what you change in today's posts because of the numbers).
 For each post 2–10 days old in scoreboard.md, explain the number with evidence:
 - Low YouTube views → the swipe test failed (first 1.5 s: hook frame, first words). Views but avg view % < 60 → it lost

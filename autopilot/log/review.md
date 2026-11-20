@@ -1,5 +1,16 @@
 # Review log (newest first; written nightly by the autopilot)
 
+
+## 2026-11-20 midday: owner-requested review (Claude, session)
+- YouTube, 12 Shorts in 5 days: ~7,800 views, 1 subscriber. Cost per hour is 4 for 4 (Cyberpunk 1,316 · Elden 1,212 · BG3 828 · 18c), every one 800+. GTA news is a coin flip (36 to 879). Rumour (18b, 36) and company finance (17b Take-Two, 18) are dead.
+- Retention vs similar Shorts is 0.17-0.48 everywhere (0.5 = average): even the winners lose people in the first 3 s. The best two (Elden 0.48, Xbox One 0.4) open on a short claim about the viewer's own cost or console.
+- Comments: the first 10 real comments arrived, 5 on the Cyberpunk cost-per-hour Short, people posting their own hours. That format starts arguments, which is what Shorts reward.
+- Instagram: stuck at 100-143 views, 0 saves, 0 shares. No metrics at all for the 5 Reels since 18 Nov (Buffer IG disconnect + direct posts lack the insights permission). We're blind there.
+- TikTok: 0 plays on all 11, confirmed on TikTok's public page. Account-level, not content. Owner is checking Account status in the app.
+- DECISION: cost per hour moves to 2 of the 3 daily slots (c + b) from 21 Nov; main stays the GTA VI daily number while launch week lasts (to 23 Nov), then becomes cost per hour too unless a GTA post beats the cost-per-hour median.
+- DECISION: drop "real or rumour" and company-earnings angles entirely.
+- DECISION: every cost-per-hour Short ends on a question about the viewer's own hours ("How many hours have you got?"), since that's what people commented.
+
 ## 2026-11-20 (run for 2026-11-20, all 3 slots)
 - DISTRIBUTION (still on the owner, nothing new to add): TikTok has 0 views on all 8 videos, and the fix is the phone warm-up (ceo.md item 4). Instagram 18 + 16 Reels show 0 because Buffer's IG login dropped (ceo.md item 0). YouTube: 17b (Take-Two, 14) and 18b (pre-orders real-or-rumour, 32) are under 50 views after 24 h. Both were GTA b-slot posts at 16:00, which is the slot the 19 Nov timing test (17:30) is meant to fix.
 - YouTube after 24 h+: 17c Elden Ring cost/hour 1,206 · 19c Cyberpunk cost/hour 1,074 (< 24 h) · 18 GTA 212 GB 876 · 16 $1B 808 · 18c Baldur's Gate 3 cost/hour 800 · 17 Xbox One 631. All 3 cost-per-hour edits are at 800+ views and avg view % peaked at 82.6 (Elden Ring). That holds on 3 posts, so it is now a rule in learned.md.
