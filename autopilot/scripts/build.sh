@@ -14,6 +14,8 @@ python3 -c "import json;q='$Q';e=json.load(open(q+'/script.json')).get('mode')==
 if [ -f "$Q/clips.json" ] || python3 -c "import json,sys;sys.exit(0 if not json.load(open('$Q/spec.json'))['spec'].get('clips') else 1)"; then
   .venv/bin/python autopilot/scripts/autopick.py "$D"
 fi
+# 20 Nov: zoom past the black cinema bars baked into trailers (they left ~20% of the phone screen black)
+python3 autopilot/scripts/letterbox.py "$D" || true
 cd studio
 nice -n 5 npx remotion render src/index.ts DailyShort "$Q/raw.mp4" --props="$Q/spec.json" --jpeg-quality=95 --crf=15 --log=error --concurrency=$(( $(getconf _NPROCESSORS_ONLN) < 4 ? $(getconf _NPROCESSORS_ONLN) : 4 ))
 cd "$GN"

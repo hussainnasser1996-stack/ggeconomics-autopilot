@@ -7,11 +7,14 @@ export type Clip = { src: string; from: number; dur: number; zoom?: number; x?: 
 export type Timeline = { duration: number; lines: { id: string; start: number; end: number }[]; words: { w: string; s: number; e: number }[] };
 export type ShortSpec = {
   tag: string; topic: string; vo: string; timeline: Timeline; clips: Clip[]; cards: Card[];
-  credit: string; endLine: string; noBed?: boolean; noCaptions?: boolean; hideBroll?: boolean; headline?: string; sfxOn?: Record<string, string>; layout?: "full" | "feed";
+  credit: string; endLine: string; endCard?: boolean; noBed?: boolean; noCaptions?: boolean; hideBroll?: boolean; headline?: string; sfxOn?: Record<string, string>; layout?: "full" | "feed";
 };
 
-export const END = 54; // frames of end card after VO
-export const shortFrames = (s: ShortSpec, fps = 30) => Math.ceil(s.timeline.duration * fps) + END;
+// 20 Nov review: the 1.8 s black end card was where people swiped, and it broke the Shorts loop. Default now = no end
+// card, 8 frames of tail so the video loops straight back into its hook. spec.endCard: true brings the old card back.
+export const END = 54; // frames of end card after VO (only with spec.endCard)
+export const TAIL = 8;
+export const shortFrames = (s: ShortSpec, fps = 30) => Math.ceil(s.timeline.duration * fps) + (s.endCard ? END : TAIL);
 
 /** Full-bleed B-roll: cover-crop any source, slow push-in, hard cuts with a 2-frame flash */
 export const Broll: React.FC<{ clips: Clip[] }> = ({ clips }) => {
@@ -187,15 +190,15 @@ export const NewsShort: React.FC<{ spec: ShortSpec }> = ({ spec }) => {
           </Sequence>
         );
       })}
-      {spec.headline && <Headline text={spec.headline} top={205 * u} padL={L.padL} padR={L.padR} voEnd={voEnd} />}
+      {spec.headline && <Headline text={spec.headline} top={205 * u} padL={L.padL} padR={L.padR} voEnd={spec.endCard ? voEnd : 1e9} />}
       {/* music-only "edit" format: nobody speaks, so no word-by-word captions (Husain 17 Nov) */}
       {!spec.noCaptions && <Captions words={spec.timeline.words} y={L.capY} padL={L.padL} padR={L.padR} />}
       <TopBar spec={spec} total={total} padR={L.padR} padL={L.padL} />
       <div style={{ position: "absolute", bottom: L.creditBottom, left: L.padL, right: L.padR, textAlign: "center", fontFamily: MONO, fontSize: 20 * u, color: "rgba(255,255,255,0.55)", letterSpacing: 2 * u }}>{spec.credit}</div>
-      <Sequence from={voEnd - 6}>
+      {spec.endCard && <Sequence from={voEnd - 6}>
         <Audio src={staticFile("sfx/sting.wav")} volume={0.9} />
         <EndCard line={spec.endLine} />
-      </Sequence>
+      </Sequence>}
       <CRT strength={0.5} />
     </AbsoluteFill>
   );
