@@ -1,0 +1,216 @@
+{
+ "spec": {
+  "titleA": "TOP 5 GAMES",
+  "titleB": "PEOPLE PAID FOR THIS WEEK",
+  "kicker": "STEAM · WEEK TO NOV 19",
+  "credit": "DATA: STEAM, PEAK PLAYERS, WEEK TO 19 NOV · FOOTAGE: STEAM TRAILERS",
+  "hookClips": [
+   {
+    "src": "t5_rust",
+    "from": 78,
+    "dur": 0.4667,
+    "zoom": 1
+   },
+   {
+    "src": "t5_gtav",
+    "from": 45.5,
+    "dur": 0.4667,
+    "zoom": 1.275
+   },
+   {
+    "src": "t5_sts2",
+    "from": 87,
+    "dur": 0.4667,
+    "zoom": 1.337
+   },
+   {
+    "src": "t5_wardogs",
+    "from": 42,
+    "dur": 0.5667,
+    "zoom": 1
+   }
+  ],
+  "entries": [
+   {
+    "rank": 5,
+    "name": "GTA V Enhanced",
+    "players": 87739,
+    "price": "$29.99",
+    "fact": "▲14 ON STEAM CHART",
+    "clips": [
+     {
+      "src": "t5_gtav",
+      "from": 30,
+      "dur": 1.9333,
+      "zoom": 1.275
+     },
+     {
+      "src": "t5_gtav",
+      "from": 39,
+      "dur": 1.9667,
+      "zoom": 1.275
+     },
+     {
+      "src": "t5_gtav",
+      "from": 45,
+      "dur": 1.9667,
+      "zoom": 1.275
+     },
+     {
+      "src": "t5_gtav",
+      "from": 51,
+      "dur": 1.9333,
+      "zoom": 1.275
+     }
+    ]
+   },
+   {
+    "rank": 4,
+    "name": "Probably Stolen",
+    "players": 97690,
+    "price": "$19.99",
+    "fact": "OUT 28 OCT",
+    "clips": [
+     {
+      "src": "t5_pstolen",
+      "from": 39,
+      "dur": 1.9333,
+      "zoom": 1
+     },
+     {
+      "src": "t5_pstolen",
+      "from": 45,
+      "dur": 1.9667,
+      "zoom": 1
+     },
+     {
+      "src": "t5_pstolen",
+      "from": 54,
+      "dur": 1.9667,
+      "zoom": 1
+     },
+     {
+      "src": "t5_pstolen",
+      "from": 42,
+      "dur": 1.9333,
+      "zoom": 1
+     }
+    ]
+   },
+   {
+    "rank": 3,
+    "name": "Rust",
+    "players": 102232,
+    "price": "$39.99",
+    "fact": "1.18M STEAM REVIEWS",
+    "clips": [
+     {
+      "src": "t5_rust",
+      "from": 39,
+      "dur": 1.9333,
+      "zoom": 1
+     },
+     {
+      "src": "t5_rust",
+      "from": 66,
+      "dur": 1.9667,
+      "zoom": 1
+     },
+     {
+      "src": "t5_rust",
+      "from": 78,
+      "dur": 1.9667,
+      "zoom": 1
+     },
+     {
+      "src": "t5_rust",
+      "from": 81,
+      "dur": 1.9333,
+      "zoom": 1
+     }
+    ]
+   },
+   {
+    "rank": 2,
+    "name": "Slay the Spire 2",
+    "players": 146368,
+    "price": "$19.99",
+    "fact": "20% OFF THIS WEEK",
+    "clips": [
+     {
+      "src": "t5_sts2",
+      "from": 54,
+      "dur": 1.9333,
+      "zoom": 1.337
+     },
+     {
+      "src": "t5_sts2",
+      "from": 57,
+      "dur": 1.9667,
+      "zoom": 1.37
+     },
+     {
+      "src": "t5_sts2",
+      "from": 69,
+      "dur": 1.9667,
+      "zoom": 1
+     },
+     {
+      "src": "t5_sts2",
+      "from": 87,
+      "dur": 1.9333,
+      "zoom": 1.337
+     }
+    ]
+   },
+   {
+    "rank": 1,
+    "name": "Phantom Blade Zero",
+    "players": 224327,
+    "price": "$59.99",
+    "fact": "METACRITIC 88",
+    "clips": [
+     {
+      "src": "t5_pbz",
+      "from": 57.5,
+      "dur": 2.3333,
+      "zoom": 1
+     },
+     {
+      "src": "t5_pbz",
+      "from": 61,
+      "dur": 2.3333,
+      "zoom": 1
+     },
+     {
+      "src": "t5_pbz",
+      "from": 63.5,
+      "dur": 2.3667,
+      "zoom": 1
+     },
+     {
+      "src": "t5_pbz",
+      "from": 66,
+      "dur": 2.3333,
+      "zoom": 1
+     },
+     {
+      "src": "t5_pbz",
+      "from": 69,
+      "dur": 2.3333,
+      "zoom": 1
+     }
+    ]
+   }
+  ],
+  "music": {
+   "src": "music/raving_energy.m4a",
+   "start": 59.6776,
+   "volume": 0.9
+  },
+  "beat": 0.4876,
+  "hookBeats": 4,
+  "entryBeats": 16,
+  "topBeats": 24
+ }
+}

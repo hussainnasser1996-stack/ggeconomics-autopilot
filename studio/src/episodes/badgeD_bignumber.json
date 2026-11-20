@@ -1,0 +1,422 @@
+{
+ "spec": {
+  "kicker": "STEAM TOP 10 · WEEK TO NOV 19",
+  "title": "TOP 10",
+  "sub": "GAMES PEOPLE PAID FOR\nTHIS WEEK",
+  "question": "Guess #1 before the end",
+  "beat": 0.4876,
+  "hookBeats": 4,
+  "entryBeats": 14,
+  "topBeats": 20,
+  "music": {
+   "src": "music/raving_energy.m4a",
+   "start": 59.6776,
+   "volume": 0.9
+  },
+  "credit": "DATA: STEAM, PEAK PLAYERS, WEEK TO 19 NOV · FOOTAGE: STEAM TRAILERS",
+  "hookClips": [
+   {
+    "src": "t5_rust",
+    "from": 78,
+    "dur": 0.4667,
+    "zoom": 1
+   },
+   {
+    "src": "t5_gtav",
+    "from": 45.5,
+    "dur": 0.4667,
+    "zoom": 1.275
+   },
+   {
+    "src": "t5_sts2",
+    "from": 87,
+    "dur": 0.4667,
+    "zoom": 1.337
+   },
+   {
+    "src": "t5_wardogs",
+    "from": 42,
+    "dur": 0.5667,
+    "zoom": 1
+   }
+  ],
+  "entries": [
+   {
+    "rank": 10,
+    "name": "Football Manager 27",
+    "clips": [
+     {
+      "src": "t5_fm27",
+      "from": 9.5,
+      "dur": 1.7,
+      "zoom": 1
+     },
+     {
+      "src": "t5_fm27",
+      "from": 11,
+      "dur": 1.7,
+      "zoom": 1
+     },
+     {
+      "src": "t5_fm27",
+      "from": 12.6,
+      "dur": 1.7333,
+      "zoom": 1
+     },
+     {
+      "src": "t5_fm27",
+      "from": 13.8,
+      "dur": 1.7,
+      "zoom": 1
+     }
+    ],
+    "players": 59549,
+    "playersLabel": "PEAK PLAYERS THIS WEEK",
+    "price": "$59.99",
+    "move": {
+     "text": "OUT 10 NOV",
+     "up": true
+    }
+   },
+   {
+    "rank": 9,
+    "name": "Euro Truck Simulator 2",
+    "clips": [
+     {
+      "src": "t5_ets2",
+      "from": 3,
+      "dur": 1.7,
+      "zoom": 1
+     },
+     {
+      "src": "t5_ets2",
+      "from": 6,
+      "dur": 1.7,
+      "zoom": 1
+     },
+     {
+      "src": "t5_ets2",
+      "from": 21,
+      "dur": 1.7333,
+      "zoom": 1
+     },
+     {
+      "src": "t5_ets2",
+      "from": 45,
+      "dur": 1.7,
+      "zoom": 1
+     }
+    ],
+    "players": 60403,
+    "playersLabel": "PEAK PLAYERS THIS WEEK",
+    "price": "$4.99",
+    "move": {
+     "text": "75% OFF THIS WEEK",
+     "up": true
+    }
+   },
+   {
+    "rank": 8,
+    "name": "Stardew Valley",
+    "clips": [
+     {
+      "src": "t5_stardew",
+      "from": 27,
+      "dur": 1.7,
+      "zoom": 1
+     },
+     {
+      "src": "t5_stardew",
+      "from": 30,
+      "dur": 1.7,
+      "zoom": 1
+     },
+     {
+      "src": "t5_stardew",
+      "from": 45,
+      "dur": 1.7333,
+      "zoom": 1
+     },
+     {
+      "src": "t5_stardew",
+      "from": 60,
+      "dur": 1.7,
+      "zoom": 1.347
+     }
+    ],
+    "players": 71360,
+    "playersLabel": "PEAK PLAYERS THIS WEEK",
+    "price": "$14.99",
+    "move": {
+     "text": "METACRITIC 89",
+     "up": true
+    }
+   },
+   {
+    "rank": 7,
+    "name": "Cyberpunk 2077",
+    "clips": [
+     {
+      "src": "t5_cp77",
+      "from": 9,
+      "dur": 1.7,
+      "zoom": 1
+     },
+     {
+      "src": "t5_cp77",
+      "from": 19.6,
+      "dur": 1.7,
+      "zoom": 1
+     },
+     {
+      "src": "t5_cp77",
+      "from": 21,
+      "dur": 1.7333,
+      "zoom": 1
+     },
+     {
+      "src": "t5_cp77",
+      "from": 39,
+      "dur": 1.7,
+      "zoom": 1
+     }
+    ],
+    "players": 72271,
+    "playersLabel": "PEAK PLAYERS THIS WEEK",
+    "price": "$59.99",
+    "move": {
+     "text": "METACRITIC 86",
+     "up": true
+    }
+   },
+   {
+    "rank": 6,
+    "name": "WARDOGS",
+    "clips": [
+     {
+      "src": "t5_wardogs",
+      "from": 42,
+      "dur": 1.7,
+      "zoom": 1
+     },
+     {
+      "src": "t5_wardogs",
+      "from": 51,
+      "dur": 1.7,
+      "zoom": 1
+     },
+     {
+      "src": "t5_wardogs",
+      "from": 66,
+      "dur": 1.7333,
+      "zoom": 1
+     },
+     {
+      "src": "t5_wardogs",
+      "from": 81,
+      "dur": 1.7,
+      "zoom": 1
+     }
+    ],
+    "players": 72356,
+    "playersLabel": "PEAK PLAYERS THIS WEEK",
+    "price": "$39.99",
+    "move": {
+     "text": "OUT 10 SEP",
+     "up": true
+    }
+   },
+   {
+    "rank": 5,
+    "name": "GTA V Enhanced",
+    "clips": [
+     {
+      "src": "t5_gtav",
+      "from": 30,
+      "dur": 1.7,
+      "zoom": 1.275
+     },
+     {
+      "src": "t5_gtav",
+      "from": 39,
+      "dur": 1.7,
+      "zoom": 1.275
+     },
+     {
+      "src": "t5_gtav",
+      "from": 45,
+      "dur": 1.7333,
+      "zoom": 1.275
+     },
+     {
+      "src": "t5_gtav",
+      "from": 51,
+      "dur": 1.7,
+      "zoom": 1.275
+     }
+    ],
+    "players": 87739,
+    "playersLabel": "PEAK PLAYERS THIS WEEK",
+    "price": "$29.99",
+    "move": {
+     "text": "14 ON STEAM CHART",
+     "up": true
+    }
+   },
+   {
+    "rank": 4,
+    "name": "Probably Stolen",
+    "clips": [
+     {
+      "src": "t5_pstolen",
+      "from": 39,
+      "dur": 1.7,
+      "zoom": 1
+     },
+     {
+      "src": "t5_pstolen",
+      "from": 45,
+      "dur": 1.7,
+      "zoom": 1
+     },
+     {
+      "src": "t5_pstolen",
+      "from": 54,
+      "dur": 1.7333,
+      "zoom": 1
+     },
+     {
+      "src": "t5_pstolen",
+      "from": 42,
+      "dur": 1.7,
+      "zoom": 1
+     }
+    ],
+    "players": 97690,
+    "playersLabel": "PEAK PLAYERS THIS WEEK",
+    "price": "$19.99",
+    "move": {
+     "text": "OUT 28 OCT",
+     "up": true
+    }
+   },
+   {
+    "rank": 3,
+    "name": "Rust",
+    "clips": [
+     {
+      "src": "t5_rust",
+      "from": 39,
+      "dur": 1.7,
+      "zoom": 1
+     },
+     {
+      "src": "t5_rust",
+      "from": 66,
+      "dur": 1.7,
+      "zoom": 1
+     },
+     {
+      "src": "t5_rust",
+      "from": 78,
+      "dur": 1.7333,
+      "zoom": 1
+     },
+     {
+      "src": "t5_rust",
+      "from": 81,
+      "dur": 1.7,
+      "zoom": 1
+     }
+    ],
+    "players": 102232,
+    "playersLabel": "PEAK PLAYERS THIS WEEK",
+    "price": "$39.99",
+    "move": {
+     "text": "1.18M STEAM REVIEWS",
+     "up": true
+    }
+   },
+   {
+    "rank": 2,
+    "name": "Slay the Spire 2",
+    "clips": [
+     {
+      "src": "t5_sts2",
+      "from": 54,
+      "dur": 1.7,
+      "zoom": 1.337
+     },
+     {
+      "src": "t5_sts2",
+      "from": 57,
+      "dur": 1.7,
+      "zoom": 1.37
+     },
+     {
+      "src": "t5_sts2",
+      "from": 69,
+      "dur": 1.7333,
+      "zoom": 1
+     },
+     {
+      "src": "t5_sts2",
+      "from": 87,
+      "dur": 1.7,
+      "zoom": 1.337
+     }
+    ],
+    "players": 146368,
+    "playersLabel": "PEAK PLAYERS THIS WEEK",
+    "price": "$19.99",
+    "move": {
+     "text": "20% OFF THIS WEEK",
+     "up": true
+    }
+   },
+   {
+    "rank": 1,
+    "name": "Phantom Blade Zero",
+    "clips": [
+     {
+      "src": "t5_pbz",
+      "from": 57.5,
+      "dur": 1.9667,
+      "zoom": 1
+     },
+     {
+      "src": "t5_pbz",
+      "from": 61,
+      "dur": 1.9333,
+      "zoom": 1
+     },
+     {
+      "src": "t5_pbz",
+      "from": 63.5,
+      "dur": 1.9667,
+      "zoom": 1
+     },
+     {
+      "src": "t5_pbz",
+      "from": 66,
+      "dur": 1.9333,
+      "zoom": 1
+     },
+     {
+      "src": "t5_pbz",
+      "from": 69,
+      "dur": 1.9667,
+      "zoom": 1
+     }
+    ],
+    "players": 224327,
+    "playersLabel": "PEAK PLAYERS THIS WEEK",
+    "price": "$59.99",
+    "move": {
+     "text": "METACRITIC 88",
+     "up": true
+    }
+   }
+  ]
+ }
+}
