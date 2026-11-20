@@ -13,6 +13,8 @@ import { gtaCarousel } from "./episodes/gtaCarousel";
 import { DailyShort, dailyMetadata } from "./news/Daily";
 import { TopFive, topMetadata } from "./news/TopFive";
 import topFivePilot from "./episodes/topFivePilot.json";
+import { TopRanking, rankMetadata } from "./news/TopRanking";
+import topTenRanking from "./episodes/topTenRanking.json";
 import { Avatar, Banner, BannerSafe } from "./BrandAssets";
 import { eldenWalk } from "./episodes/eldenWalk";
 import { HoldScreen, Stinger, LiveOverlay, LOOP } from "./twitch/TwitchKit";
@@ -22,6 +24,7 @@ export const Root: React.FC = () => (
     <Composition id="Ident" component={Ident} durationInFrames={IDENT_FRAMES} fps={30} width={1920} height={1080} />
     <Composition id="Ident9x16" component={Ident} durationInFrames={IDENT_FRAMES} fps={30} width={1080} height={1920} />
     <Composition id="TopFive" component={TopFive} calculateMetadata={topMetadata} durationInFrames={560} fps={30} width={1080} height={1920} defaultProps={topFivePilot as any} />
+    <Composition id="TopRanking" component={TopRanking} calculateMetadata={rankMetadata} durationInFrames={2200} fps={30} width={1080} height={1920} defaultProps={topTenRanking as any} />
     <Composition id="GtaShort" component={NewsShort} durationInFrames={shortFrames(gtaShort)} fps={30} width={1080} height={1920} defaultProps={{ spec: gtaShort }} />
     <Composition id="GtaFeed4x5" component={NewsShort} durationInFrames={shortFrames(gtaShort)} fps={30} width={1080} height={1350} defaultProps={{ spec: gtaShort }} />
     <Composition id="GtaLong" component={LongForm} durationInFrames={longFrames(gtaLong)} fps={30} width={1920} height={1080} defaultProps={{ spec: gtaLong }} />
