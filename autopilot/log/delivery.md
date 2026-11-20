@@ -1,15 +1,17 @@
-# Delivery check · 2026-11-20 03:09 UTC
+# Delivery check · 2026-11-20 06:53 UTC
 
 ## Problems
 - 2026-11-18b instagram_reel: Buffer error: It looks like Buffer has lost the authorization to post to Facebook. No need to worry, though! (older than 12 h: not re-booked, stale)
+- GitHub Actions minutes this month ≈ 1723/2000: CEO must lower posts_per_day
 
-Buffer scheduled per channel: youtube_short 2, instagram_reel 2, instagram_carousel 1, tiktok_video 2
+Buffer scheduled per channel: youtube_short 2, instagram_reel 3, instagram_carousel 1, tiktok_video 3
 
-GitHub Actions minutes used this month: ~1474 of 2,000 (free tier, private repo)
+GitHub Actions minutes used this month: ~1723 of 2,000 (free tier, private repo)
 
 ## Actions taken
-- 2026-11-20c: not booked yet, a build is running/queued → checked again next run
-- 2026-11-19: {'video': 'NxhZJnczHb4', 'series': 'gta6', 'playlist': 'ok', 'blocked_in': 0, 'allowed_only': None, 'music': 'library'}
+- 2026-11-19b: {'video': 'aN_kp9u4ZXo', 'series': 'news', 'playlist': 'ok', 'blocked_in': 0, 'allowed_only': None, 'music': 'library', 'localized': ['ar', 'en', 'es', 'hi', 'id', 'pt-BR']}
+- 2026-11-19c: {'video': 'I5ZLMocjk2k', 'series': 'cost_per_hour', 'playlist': 'ok', 'blocked_in': 0, 'allowed_only': None, 'music': 'game', 'localized': ['ar', 'en', 'es', 'hi', 'id', 'pt-BR']}
+- 2026-11-20c: {'video': 'rYs3I31mOTs', 'series': 'cost_per_hour', 'playlist': 'ok', 'blocked_in': 0, 'allowed_only': None, 'music': 'game', 'localized': ['ar', 'es', 'hi', 'id', 'pt-BR']}
 
 | post | channel | status | sent/due | link | title |
 |---|---|---|---|---|---|
@@ -29,6 +31,7 @@ GitHub Actions minutes used this month: ~1474 of 2,000 (free tier, private repo)
 | 2026-11-17c | youtube_short | sent | 2026-11-17T12:02:37.768Z | https://www.youtube.com/shorts/zK7fa0dTrDc | Elden Ring Costs You $1 an Hour. Worth It? |
 | 2026-11-17c | instagram_reel | sent | 2026-11-17T12:04:18.448Z | https://www.instagram.com/reel/Df14vsSTiBZ/ | Elden Ring Costs You $1 an Hour. Worth It? |
 | 2026-11-17c | tiktok_video | sent | 2026-11-17T20:02:40.954Z | https://tiktok.com/@ggeconomics/video/7709233030115855624 | Elden Ring Costs You $1 an Hour. Worth It? |
+| 2026-11-18 | instagram_reel | direct (own API) | 2026-11-18T23:00:00.000Z | 18119693972611549 | GTA 6 Unlocks Tonight: You Need 212 GB Free |
 | 2026-11-18 | youtube_short | sent | 2026-11-18T23:01:06.189Z | https://www.youtube.com/shorts/a92DfUx8zTw | GTA 6 Unlocks Tonight: You Need 212 GB Free |
 | 2026-11-18 | tiktok_video | sent | 2026-11-18T23:02:25.099Z | https://tiktok.com/@ggeconomics/video/7709650408355941640 | GTA 6 Unlocks Tonight: You Need 212 GB Free |
 | 2026-11-18b | youtube_short | sent | 2026-11-18T16:02:07.395Z | https://www.youtube.com/shorts/gEIsDaTmYII | GTA 6 Beat Cyberpunk's 8M Pre-Order Record? |
@@ -40,8 +43,10 @@ GitHub Actions minutes used this month: ~1474 of 2,000 (free tier, private repo)
 | 2026-11-19 | youtube_short | sent | 2026-11-19T23:02:27.090Z | https://www.youtube.com/shorts/NxhZJnczHb4 | GTA 6 Is Out: Your Console Runs It at 30 FPS |
 | 2026-11-19 | instagram_reel | sent | 2026-11-19T23:04:02.108Z | https://www.instagram.com/reel/Df8N2GFBPPh/ | GTA 6 Is Out: Your Console Runs It at 30 FPS |
 | 2026-11-19 | tiktok_video | sent | 2026-11-19T23:04:08.367Z | https://tiktok.com/@ggeconomics/video/7710021853506555157 | GTA 6 Is Out: Your Console Runs It at 30 FPS |
+| 2026-11-19b | youtube_short | direct (own API) | 2026-11-19T16:00:00.000Z | https://www.youtube.com/shorts/aN_kp9u4ZXo | GTA 6 vs GTA 5: You Waited 4,811 Days |
 | 2026-11-19b | instagram_reel | sent | 2026-11-19T16:02:36.032Z | https://www.instagram.com/reel/Df7dowZhQrJ/ | GTA 6 vs GTA 5: You Waited 4,811 Days |
 | 2026-11-19b | tiktok_video | sent | 2026-11-19T16:03:28.412Z | https://tiktok.com/@ggeconomics/video/7709913539917466886 | GTA 6 vs GTA 5: You Waited 4,811 Days |
+| 2026-11-19c | youtube_short | direct (own API) | 2026-11-19T12:00:00.000Z | https://www.youtube.com/shorts/I5ZLMocjk2k | Cyberpunk 2077 Costs You $2.31 an Hour. Worth It? |
 | 2026-11-19c | instagram_reel | sent | 2026-11-19T14:33:45.336Z | https://www.instagram.com/reel/Df7TbfdBgHX/ | Cyberpunk 2077 Costs You $2.31 an Hour. Worth It? |
 | 2026-11-19c | tiktok_video | sent | 2026-11-19T12:01:35.808Z | https://tiktok.com/@ggeconomics/video/7709851258726763796 | Cyberpunk 2077 Costs You $2.31 an Hour. Worth It? |
 | 2026-11-20 | youtube_short | scheduled | 2026-11-20T23:00:00.000Z |  | GTA 6 Sales: Est. 19M Copies. Did You Buy It? |
@@ -51,3 +56,6 @@ GitHub Actions minutes used this month: ~1474 of 2,000 (free tier, private repo)
 | 2026-11-20b | youtube_short | scheduled | 2026-11-20T17:30:00.000Z |  | GTA 6 Got 8 Game Awards Nominations Before Launch |
 | 2026-11-20b | instagram_reel | scheduled | 2026-11-20T17:30:00.000Z |  | GTA 6 Got 8 Game Awards Nominations Before Launch |
 | 2026-11-20b | tiktok_video | scheduled | 2026-11-20T17:30:00.000Z |  | GTA 6 Got 8 Game Awards Nominations Before Launch |
+| 2026-11-20c | youtube_short | direct (own API) | 2026-11-20T12:00:00.000Z | https://www.youtube.com/shorts/rYs3I31mOTs | Hollow Knight Costs You 56¢ an Hour. Worth It? |
+| 2026-11-20c | instagram_reel | scheduled | 2026-11-20T12:00:00.000Z |  | Hollow Knight Costs You 56¢ an Hour. Worth It? |
+| 2026-11-20c | tiktok_video | scheduled | 2026-11-20T12:00:00.000Z |  | Hollow Knight Costs You 56¢ an Hour. Worth It? |
