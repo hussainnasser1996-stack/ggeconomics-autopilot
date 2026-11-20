@@ -125,6 +125,37 @@ if key and cfg["buffer_channels"].get("instagram"):
 else:
     out["notes"].append("no Buffer key / Instagram channel configured yet")
 
+# ---------------- Instagram straight from Instagram (20 Nov: token now has instagram_manage_insights) ----------------
+# Buffer only knows posts it published and lost IG for a day; the Graph API sees every Reel, direct posts included.
+out["ig_graph"] = {}
+IG_TOK = os.environ.get("IG_ACCESS_TOKEN") or subprocess.run(["security", "find-generic-password", "-s", "ggeconomics-instagram",
+          "-a", "ig_graph", "-w"], capture_output=True, text=True).stdout.strip()
+IG_UID = os.environ.get("IG_USER_ID") or cfg.get("instagram_user_id", "17841461684732203")
+if IG_TOK:
+    def igg(path):
+        return json.loads(urllib.request.urlopen(f"https://graph.facebook.com/v21.0/{path}{'&' if '?' in path else '?'}access_token={IG_TOK}", timeout=60).read())
+    try:
+        since = (dt.date.today() - dt.timedelta(days=30)).isoformat()
+        for m in igg(f"{IG_UID}/media?fields=id,caption,timestamp,media_product_type,permalink,like_count,comments_count&limit=50").get("data", []):
+            if m["timestamp"][:10] < since: continue
+            reel = m.get("media_product_type") == "REELS"
+            mets = "views,reach,saved,shares,total_interactions" + (",ig_reels_avg_watch_time" if reel else "")
+            try: ins = {x["name"]: x["values"][0]["value"] for x in igg(f"{m['id']}/insights?metric={mets}").get("data", [])}
+            except Exception as e: ins = {"error": str(e)[:80]}
+            out["ig_graph"][m["id"]] = {"sent": m["timestamp"][:10], "type": "reel" if reel else "post", "caption": (m.get("caption") or "")[:300],
+                                        "link": m.get("permalink"), "likes": m.get("like_count"), "comments": m.get("comments_count"), **ins}
+    except Exception as e: out["notes"].append(f"Instagram Graph failed: {str(e)[:150]}")
+_n = lambda s: re.sub(r"[^a-z0-9]", "", (s or "").lower())
+def ig_graph_for(q, kind):
+    """kind reel|post: the Graph media for this queue post (direct id first, else caption match)."""
+    b = json.load(open(q / "buffer_ids.json")); did = (b.get("direct") or {}).get("instagram_reel")
+    if kind == "reel" and did in out["ig_graph"]: return out["ig_graph"][did]
+    pj = json.load(open(q / "post.json")) if (q / "post.json").exists() else {}
+    keys = [_n(pj.get("ig_first_line"))[:40], _n(pj.get("caption"))[:40]]
+    for m in out["ig_graph"].values():
+        if m["type"] == kind and any(k and k in _n(m["caption"]) for k in keys): return m
+    return None
+
 # ---------------- Per post, views split by platform (queue post → YouTube video + Buffer Instagram posts) ----------------
 yt_done = json.load(open(AP / "log/yt_done.json")) if (AP / "log/yt_done.json").exists() else {}
 per_post = {}
@@ -137,8 +168,11 @@ for q in sorted((AP / "queue").iterdir(), reverse=True):
         p = out["instagram"].get(ids.get(name) or "")
         v = None if p is None else p.get("views", p.get("reach"))
         return None if v is None else int(float(v))
+    gr, gp = ig_graph_for(q, "reel"), ig_graph_for(q, "post")
     per_post[q.name] = {"title": title, "youtube_short": yv["views"] if yv else None,
-                        "instagram_reel": ig("instagram_reel"), "instagram_carousel": ig("instagram_carousel"), "tiktok_video": ig("tiktok_video")}
+                        "instagram_reel": gr["views"] if gr and "views" in gr else ig("instagram_reel"),
+                        "instagram_carousel": (gp.get("views", gp.get("reach")) if gp else None) or ig("instagram_carousel"),
+                        "tiktok_video": ig("tiktok_video")}
 out["per_post"] = per_post
 
 # ---------------- Reach alarm (18 Nov: TikTok sat at 0 views for 16 h and nobody looked) ----------------
@@ -174,7 +208,12 @@ for vid, v in sorted(out["youtube"].get("videos", {}).items(), key=lambda kv: kv
     rows.append(f"| {v['published']} | {v['views']} | {v.get('avg_view_pct','—')} | {v.get('avg_view_s','—')} | {v.get('hold_1s','—')} | {v.get('hold_3s','—')} | {v.get('vs_similar_3s','—')} | {v['likes']} | {v.get('shares','—')} | {v.get('subs','—')} | {v['title'][:60]} |")
 if out["youtube"].get("traffic_sources"):
     rows += ["", "Traffic sources (all time): " + ", ".join(f"{k} {v}" for k, v in out["youtube"]["traffic_sources"].items())]
-rows += ["", "## Instagram", "| sent | views | reach | likes | comments | shares | saves | follows | avg watch s | post |", "|---|---|---|---|---|---|---|---|---|---|"]
+if out["ig_graph"]:
+    rows += ["", "## Instagram (from Instagram itself)", "| sent | type | views | reach | likes | comments | shares | saves | avg watch s | post |", "|---|---|---|---|---|---|---|---|---|---|"]
+    for mid, m in sorted(out["ig_graph"].items(), key=lambda kv: kv[1]["sent"], reverse=True):
+        w = m.get("ig_reels_avg_watch_time"); w = round(w / 1000, 1) if isinstance(w, (int, float)) else "—"
+        rows.append(f"| {m['sent']} | {m['type']} | {m.get('views','—')} | {m.get('reach','—')} | {m.get('likes','—')} | {m.get('comments','—')} | {m.get('shares','—')} | {m.get('saved','—')} | {w} | {m['caption'][:60].splitlines()[0] if m['caption'] else ''} |")
+rows += ["", "## Instagram via Buffer (old view)", "| sent | views | reach | likes | comments | shares | saves | follows | avg watch s | post |", "|---|---|---|---|---|---|---|---|---|---|"]
 for pid, p in out["instagram"].items():
     if p.get("service") == "tiktok": continue
     g = lambda k: int(p[k]) if k in p else "—"
