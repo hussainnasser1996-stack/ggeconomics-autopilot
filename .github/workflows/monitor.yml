@@ -26,6 +26,9 @@ jobs:
       - name: YouTube question comment + captions (narrated only)
         continue-on-error: true
         run: python3 autopilot/scripts/yt_engage.py
+      - name: Comments (post the routine's replies, collect new ones)
+        continue-on-error: true
+        run: python3 autopilot/scripts/engage.py
       - run: rm -f autopilot/keys/youtube-token.json
       - name: Save
         run: |
