@@ -1,8 +1,8 @@
 {
  "spec": {
-  "tag": "HOLLOW KNIGHT · COST PER HOUR",
-  "headline": "HOLLOW KNIGHT COSTS |56¢ AN HOUR|",
-  "topic": "Hollow Knight $14.99 on Steam (US, 20 Nov 2026) ÷ HowLongToBeat main story 27 h (97,152 s, 2,775 submissions) = $0.56/h; completionist 66 h = $0.23/h; vs ~$12 movie for 2 h = $6/h",
+  "tag": "HOLLOW KNIGHT \u00b7 COST PER HOUR",
+  "headline": "HOLLOW KNIGHT COSTS |56\u00a2\u00a0AN\u00a0HOUR|",
+  "topic": "Hollow Knight $14.99 on Steam (US, 20 Nov 2026) \u00f7 HowLongToBeat main story 27 h (97,152 s, 2,775 submissions) = $0.56/h; completionist 66 h = $0.23/h; vs ~$12 movie for 2 h = $6/h",
   "vo": "vo/d_2026_11_20c/vo.wav",
   "timelinePath": "vo/d_2026_11_20c/timeline.json",
   "timeline": {
@@ -11,21 +11,70 @@
    "words": []
   },
   "noBed": true,
-  "clips": [],
+  "clips": [
+   {
+    "src": "d_2026_11_20c",
+    "from": 96.03,
+    "dur": 1.69,
+    "shot": 38.0
+   },
+   {
+    "src": "d_2026_11_20c",
+    "from": 11.3,
+    "dur": 2.09,
+    "shot": 3
+   },
+   {
+    "src": "d_2026_11_20c",
+    "from": 56.77,
+    "dur": 1.48,
+    "shot": 22
+   },
+   {
+    "src": "d_2026_11_20c",
+    "from": 67.77,
+    "dur": 2.2,
+    "shot": 28.0
+   },
+   {
+    "src": "d_2026_11_20c",
+    "from": 83.3,
+    "dur": 2.2,
+    "shot": 33.0
+   },
+   {
+    "src": "d_2026_11_20c",
+    "from": 94.17,
+    "dur": 1.68,
+    "shot": 37
+   },
+   {
+    "src": "d_2026_11_20c",
+    "from": 68.07,
+    "dur": 1.9000000000000001,
+    "shot": 28.0
+   },
+   {
+    "src": "d_2026_11_20c",
+    "from": 68.37,
+    "dur": 1.6,
+    "shot": 28.0
+   }
+  ],
   "cards": [
    {
     "kind": "big",
     "line": "hook",
-    "value": "56¢/HR",
+    "value": "56\u00a2/HR",
     "label": "Hollow Knight, main story",
-    "note": "$14.99 Steam ÷ 27 h HowLongToBeat · our math",
+    "note": "$14.99 Steam \u00f7 27 h HowLongToBeat \u00b7 our math",
     "color": "#D4FF3A"
    },
    {
     "kind": "pair",
     "line": "movie",
     "a": {
-     "value": "56¢/HR",
+     "value": "56\u00a2/HR",
      "label": "HOLLOW KNIGHT"
     },
     "b": {
@@ -37,13 +86,13 @@
    {
     "kind": "big",
     "line": "full",
-    "value": "23¢/HR",
+    "value": "23\u00a2/HR",
     "label": "if you go 100%",
-    "note": "66 h completionist · HowLongToBeat",
+    "note": "66 h completionist \u00b7 HowLongToBeat",
     "color": "#D4FF3A"
    }
   ],
-  "credit": "GAMEPLAY: TEAM CHERRY · DATA: STEAM, HOWLONGTOBEAT",
+  "credit": "GAMEPLAY: TEAM CHERRY \u00b7 DATA: STEAM, HOWLONGTOBEAT",
   "endLine": "FOLLOW FOR COST PER HOUR",
   "noCaptions": true
  }
