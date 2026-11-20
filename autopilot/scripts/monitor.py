@@ -108,7 +108,9 @@ try:
             a = datetime.datetime.fromisoformat(r["startedAt"].replace("Z", "+00:00")); b = datetime.datetime.fromisoformat(r["updatedAt"].replace("Z", "+00:00"))
             mins += max(1, -(-int((b - a).total_seconds()) // 60))
     days_left = (datetime.date(today.year + (today.month == 12), today.month % 12 + 1, 1) - today).days
-    if mins > 1700: problems.append(f"GitHub Actions minutes this month ≈ {mins}/2000: CEO must lower posts_per_day")
+    public = subprocess.run(["gh", "repo", "view", os.environ["GITHUB_REPOSITORY"], "--json", "visibility", "-q", ".visibility"],
+                            capture_output=True, text=True).stdout.strip() == "PUBLIC"   # 20 Nov: repo made public = unlimited minutes
+    if mins > 1700 and not public: problems.append(f"GitHub Actions minutes this month ≈ {mins}/2000: CEO must lower posts_per_day")
 except Exception as e: mins = f"unknown ({e})"
 out = [f"# Delivery check · {now:%Y-%m-%d %H:%M} UTC", "", "## Problems", *(["- " + p for p in problems] or ["- none"]),
        "", "Buffer scheduled per channel: " + (", ".join(f"{k} {v}" for k, v in queued.items()) or "0"),
