@@ -128,7 +128,7 @@ jobs:
           T=$(date -u +%F); T2=$(date -u -d "+3 days" +%F)
           for q in autopilot/queue/*/; do q=${q%/}; d=${q##*/}
             [[ "${d:0:10}" < "$T" || "${d:0:10}" > "$T2" ]] && continue
-            if [ -f "$q/script.json" ] && [ -f "$q/post.json" ] && [ ! -f "$q/buffer_ids.json" ] && [ ! -f "$q/gates_failed" ] && [ ! -f "$q/dry" ]; then
+            if [ -f "$q/script.json" ] && [ -f "$q/post.json" ] && [ ! -f "$q/buffer_ids.json" ] && [ ! -f "$q/gates_failed" ] && [ ! -f "$q/publish_failed" ] && [ ! -f "$q/dry" ] && [ "$d" != "$D" ]; then
               gh workflow run build.yml -R "$GITHUB_REPOSITORY" -f date="$d"; echo "queued $d"; break; fi
           done
       - uses: actions/upload-artifact@v4

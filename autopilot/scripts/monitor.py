@@ -35,7 +35,13 @@ for q in sorted(Qd.iterdir()):
     if (q / "dry").exists() or not (today - datetime.timedelta(days=5) <= day <= today + datetime.timedelta(days=3)): continue
     title = json.load(open(q / "post.json"))["title"] if (q / "post.json").exists() else "?"
     if (q / "buffer_ids.json").exists():
-        for name, pid in json.load(open(q / "buffer_ids.json"))["ids"].items():
+        bj = json.load(open(q / "buffer_ids.json"))
+        for name, vid in (bj.get("direct") or {}).items():
+            link = f"https://www.youtube.com/shorts/{vid}" if name == "youtube_short" else vid
+            rows.append(f"| {q.name} | {name} | direct (own API) | {bj.get('due', '')} | {link} | {title[:50]} |")
+        for name, msg in (bj.get("failed") or {}).items():
+            problems.append(f"{q.name} {name}: not booked at publish time: {msg}")
+        for name, pid in bj["ids"].items():
             try: p = gql(Q, {"i": pid})["data"]["post"] or {}
             except Exception as e: p = {"status": f"query failed: {e}"}
             st = p.get("status"); err = (p.get("error") or {}).get("message")
@@ -63,6 +69,8 @@ for q in sorted(Qd.iterdir()):
             due = p.get("dueAt")
             if st == "scheduled" and due and datetime.datetime.fromisoformat(due.replace("Z", "+00:00")) < now - datetime.timedelta(hours=1):
                 problems.append(f"{q.name} {name}: still 'scheduled' >1 h after due time")
+    elif (q / "publish_failed").exists():
+        problems.append(f"{q.name}: built but NO channel accepted it: {(q / 'publish_failed').read_text().strip()[:300]}")
     elif (q / "script.json").exists() and busy:
         actions.append(f"{q.name}: not booked yet, a build is running/queued → checked again next run")
     elif (q / "script.json").exists():
@@ -79,7 +87,7 @@ for d in [today + datetime.timedelta(days=i) for i in range(0, 2)]:
 sent_yt = []
 for r in rows:
     c = [x.strip() for x in r.strip("|").split("|")]
-    if c[1] == "youtube_short" and c[2] == "sent" and c[4]: sent_yt.append({"queue": c[0], "link": c[4]})
+    if c[1] == "youtube_short" and c[2] in ("sent", "direct (own API)") and c[4]: sent_yt.append({"queue": c[0], "link": c[4]})
 if sent_yt and (AP / "keys/youtube-token.json").exists():
     py = str(AP.parent / ".venv/bin/python") if (AP.parent / ".venv/bin/python").exists() else "python3"
     r = subprocess.run([py, str(AP / "scripts/yt_after.py")], input=json.dumps(sent_yt), capture_output=True, text=True)

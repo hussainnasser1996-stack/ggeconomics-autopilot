@@ -150,10 +150,22 @@ if rebook:
     if res["__typename"] != "PostActionSuccess": sys.exit(f"Buffer rejected {rebook}: {res.get('message')}")
     b.setdefault("replaced", []).append({rebook: b["ids"].get(rebook)}); b["ids"][rebook] = res["post"]["id"]
     json.dump(b, open(Q / "buffer_ids.json", "w"), indent=1); print("rebooked", rebook, res["post"]); sys.exit(0)
-ids = {}
+# 20 Nov: one rejected channel used to abort the whole post with no buffer_ids.json, and build.yml's "next pending post"
+# step re-queued the same date every 12 min (28 rebuilds, ~350 Actions minutes). Now: book every channel that works,
+# send a YouTube post Buffer refuses (its cap is 2/day) straight to YouTube, scheduled; record the rest as failed.
+ids, direct, failed = {}, {}, {}
 for name, inp in jobs:
     res = gql(MUT, {"i": inp})["createPost"]
-    if res["__typename"] != "PostActionSuccess": sys.exit(f"Buffer rejected {name}: {res.get('message')}")
-    ids[name] = res["post"]["id"]
-json.dump({"due": due, "ids": ids, "urls": urls}, open(Q / "buffer_ids.json", "w"), indent=1)
-print("scheduled", ids)
+    if res["__typename"] == "PostActionSuccess": ids[name] = res["post"]["id"]; continue
+    msg = res.get("message") or res["__typename"]; print(f"Buffer rejected {name}: {msg}")
+    if name == "youtube_short" and (AP / "keys/youtube-token.json").exists():
+        py = str(AP.parent / ".venv/bin/python") if (AP.parent / ".venv/bin/python").exists() else sys.executable
+        r = subprocess.run([py, str(AP / "scripts/yt_upload.py"), D, urls["video"], inp["dueAt"]], capture_output=True, text=True)
+        print((r.stdout + r.stderr).strip()[-400:])
+        if r.returncode == 0: direct[name] = r.stdout.strip().splitlines()[-1]; continue
+    failed[name] = msg
+if not ids and not direct:
+    (Q / "publish_failed").write_text(json.dumps(failed, indent=1)); sys.exit(f"nothing booked: {failed}")
+json.dump({"due": due, "ids": ids, "urls": urls, **({"direct": direct} if direct else {}), **({"failed": failed} if failed else {})},
+          open(Q / "buffer_ids.json", "w"), indent=1)
+print("scheduled", ids, "direct", direct, "failed", failed)
