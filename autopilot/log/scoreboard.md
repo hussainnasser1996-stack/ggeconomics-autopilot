@@ -10,10 +10,10 @@ Updated 2026-11-20. YouTube Analytics lags 1-3 days.
 | 2026-11-20 | — | — | — | — | 0 | GTA 6 Sales: Est. 19M Copies. Did You Buy It? |
 | 2026-11-19c | — | — | — | 0 | 0 | Cyberpunk 2077 Costs You $2.31 an Hour. Worth It? |
 | 2026-11-19b | — | — | — | 0 | 0 | GTA 6 vs GTA 5: You Waited 4,811 Days |
-| 2026-11-19 | 638 | — | — | 0 | 638 | GTA 6 Is Out: Your Console Runs It at 30 FPS |
+| 2026-11-19 | 654 | — | — | 0 | 654 | GTA 6 Is Out: Your Console Runs It at 30 FPS |
 | 2026-11-18c | 823 | 100 | — | 0 | 923 | Baldur's Gate 3 Costs You 82¢ an Hour. Worth It? |
 | 2026-11-18b | 36 | — | — | 0 | 36 | GTA 6 Beat Cyberpunk's 8M Pre-Order Record? |
-| 2026-11-18 | 878 | — | — | 0 | 878 | GTA 6 Unlocks Tonight: You Need 212 GB Free |
+| 2026-11-18 | 879 | — | — | 0 | 879 | GTA 6 Unlocks Tonight: You Need 212 GB Free |
 | 2026-11-17c | 1210 | 127 | — | 0 | 1337 | Elden Ring Costs You $1 an Hour. Worth It? |
 | 2026-11-17b | 17 | 126 | — | 0 | 143 | GTA 6: Take-Two Bets $8 Billion on Your $80 |
 | 2026-11-17 | 657 | 143 | — | 0 | 800 | Your 2013 Xbox One Can Play GTA 6 on Day One |
@@ -24,10 +24,10 @@ Updated 2026-11-20. YouTube Analytics lags 1-3 days.
 ## YouTube
 | published | views | avg view % | avg view s | kept 1s % | kept 3s % | 3s vs similar | likes | shares | subs+ | title |
 |---|---|---|---|---|---|---|---|---|---|---|
-| 2026-11-19 | 638 | — | — | — | — | — | 18 | — | — | GTA 6 Is Out: Your Console Runs It at 30 FPS |
+| 2026-11-19 | 654 | — | — | — | — | — | 18 | — | — | GTA 6 Is Out: Your Console Runs It at 30 FPS |
 | 2026-11-19 | 495 | — | — | — | — | — | 2 | — | — | GTA 6 vs GTA 5: You Waited 4,811 Days |
-| 2026-11-19 | 1283 | — | — | — | — | — | 11 | — | — | Cyberpunk 2077 Costs You $2.31 an Hour. Worth It? |
-| 2026-11-18 | 878 | — | — | — | — | — | 12 | — | — | GTA 6 Unlocks Tonight: You Need 212 GB Free |
+| 2026-11-19 | 1284 | — | — | — | — | — | 11 | — | — | Cyberpunk 2077 Costs You $2.31 an Hour. Worth It? |
+| 2026-11-18 | 879 | — | — | — | — | — | 12 | — | — | GTA 6 Unlocks Tonight: You Need 212 GB Free |
 | 2026-11-18 | 36 | — | — | — | — | — | 0 | — | — | GTA 6 Beat Cyberpunk's 8M Pre-Order Record? |
 | 2026-11-18 | 823 | — | — | — | — | — | 3 | — | — | Baldur's Gate 3 Costs You 82¢ an Hour. Worth It? |
 | 2026-11-17 | 657 | 70.9 | 17 | 121 | 114 | 0.4 | 12 | 2 | 0 | Your 2013 Xbox One Can Play GTA 6 on Day One |

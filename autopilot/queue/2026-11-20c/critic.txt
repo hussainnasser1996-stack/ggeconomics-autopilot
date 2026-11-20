@@ -3,15 +3,15 @@ SCORE 60.0/100 (10/17)
   FAIL [major   ] FOCAL_PRESENT          mean bright fraction 0.3911 (want 0.004–0.14)
   PASS [critical] CONTRAST_MIN           0/15 content frames below 4.5:1
   PASS [major   ] CAPTION_LEGIBLE        2/15 content frames have sub-text under 3:1 (mean 8.72:1)
-  FAIL [minor   ] PALETTE_LOCK           worst content frame 44.44% off-palette (want <2%)
-  FAIL [critical] SAFE_BOTTOM            bottom zone ink 29.84% (want <1%)
-  FAIL [critical] SAFE_RIGHT             right zone ink 77.70% (want <1%)
-  FAIL [major   ] HOLDS_EXIST            1.2% of frames are holds (1 holds)
+  FAIL [minor   ] PALETTE_LOCK           worst content frame 44.40% off-palette (want <2%)
+  FAIL [critical] SAFE_BOTTOM            bottom zone ink 29.90% (want <1%)
+  FAIL [critical] SAFE_RIGHT             right zone ink 77.74% (want <1%)
+  FAIL [major   ] HOLDS_EXIST            1.0% of frames are holds (1 holds)
   FAIL [major   ] IMPACTS_PUNCTUATED     3/3 impacts not punctuated: [113, 224, 290]
   PASS [major   ] NO_LINEAR_EASING       20 frames (4.8%) in constant-velocity moves, 1 segments
   PASS [major   ] NO_DEAD_AIR            0 stalls: []
   PASS [major   ] NO_MICRO_CHURN         0 frames (0.0%) of micro-churn in 0 runs: []
-  PASS [major   ] HOOK_ENERGY            hook energy 3.90× median (want >1.15)
+  PASS [major   ] HOOK_ENERGY            hook energy 3.89× median (want >1.15)
   PASS [critical] NO_SCENE_TAIL_STALL    0 scenes stall for 0.0s total (0% of runtime): 
   PASS [major   ] NO_DEAD_OPENING        0 scenes open dead: 
   PASS [minor   ] OPENS_POPULATED        0/15 sampled frames have <0.4% bright content
