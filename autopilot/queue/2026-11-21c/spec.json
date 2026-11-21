@@ -1,8 +1,8 @@
 {
  "spec": {
-  "tag": "STARDEW VALLEY · COST PER HOUR",
-  "headline": "STARDEW VALLEY COSTS |28¢ AN HOUR|",
-  "topic": "Stardew Valley $14.99 on Steam (US, no discount, 21 Nov 2026) ÷ HowLongToBeat main story 53 h (192,145 s, 591 submissions) = $0.28/h; completionist 173 h (622,661 s) = $0.09/h; vs ~$12 movie for 2 h = $6/h",
+  "tag": "STARDEW VALLEY \u00b7 COST PER HOUR",
+  "headline": "STARDEW VALLEY COSTS |28\u00a2\u00a0AN\u00a0HOUR|",
+  "topic": "Stardew Valley $14.99 on Steam (US, no discount, 21 Nov 2026) \u00f7 HowLongToBeat main story 53 h (192,145 s, 591 submissions) = $0.28/h; completionist 173 h (622,661 s) = $0.09/h; vs ~$12 movie for 2 h = $6/h",
   "vo": "vo/d_2026_11_21c/vo.wav",
   "timelinePath": "vo/d_2026_11_21c/timeline.json",
   "timeline": {
@@ -11,21 +11,71 @@
    "words": []
   },
   "noBed": true,
-  "clips": [],
+  "clips": [
+   {
+    "src": "d_2026_11_21c",
+    "from": 22.3,
+    "dur": 2.2,
+    "shot": 5
+   },
+   {
+    "src": "d_2026_11_21c",
+    "from": 120.17,
+    "dur": 2.2,
+    "shot": 27
+   },
+   {
+    "src": "d_2026_11_21c",
+    "from": 71.52,
+    "dur": 2.2,
+    "shot": 16.01
+   },
+   {
+    "src": "d_2026_11_21c",
+    "from": 52.37,
+    "dur": 2.2,
+    "shot": 11
+   },
+   {
+    "src": "d_2026_11_21c",
+    "from": 17.7,
+    "dur": 2.2,
+    "shot": 4
+   },
+   {
+    "src": "d_2026_11_21c",
+    "from": 67.63,
+    "dur": 2.2,
+    "shot": 15
+   },
+   {
+    "src": "d_2026_11_21c",
+    "from": 59.57,
+    "dur": 1.2,
+    "shot": 13,
+    "zoom": 1.35
+   },
+   {
+    "src": "d_2026_11_21c",
+    "from": 64.3,
+    "dur": 2.1,
+    "shot": 14
+   }
+  ],
   "cards": [
    {
     "kind": "big",
     "line": "hook",
-    "value": "28¢/HR",
+    "value": "28\u00a2/HR",
     "label": "Stardew Valley, main story",
-    "note": "$14.99 Steam ÷ 53 h HowLongToBeat · our math",
+    "note": "$14.99 Steam \u00f7 53 h HowLongToBeat \u00b7 our math",
     "color": "#D4FF3A"
    },
    {
     "kind": "pair",
     "line": "movie",
     "a": {
-     "value": "28¢/HR",
+     "value": "28\u00a2/HR",
      "label": "STARDEW VALLEY"
     },
     "b": {
@@ -37,13 +87,13 @@
    {
     "kind": "big",
     "line": "full",
-    "value": "9¢/HR",
+    "value": "9\u00a2/HR",
     "label": "if you go 100%",
-    "note": "173 h completionist · HowLongToBeat",
+    "note": "173 h completionist \u00b7 HowLongToBeat",
     "color": "#D4FF3A"
    }
   ],
-  "credit": "GAMEPLAY: CONCERNEDAPE · DATA: STEAM, HOWLONGTOBEAT",
+  "credit": "GAMEPLAY: CONCERNEDAPE \u00b7 DATA: STEAM, HOWLONGTOBEAT",
   "endLine": "FOLLOW FOR COST PER HOUR",
   "noCaptions": true
  }
