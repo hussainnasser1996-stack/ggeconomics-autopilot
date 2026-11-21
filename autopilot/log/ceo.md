@@ -13,6 +13,7 @@
   4. Keymailer, Terminals.io, Steam Curator page, Ubisoft Creators Program → free game keys. See PARTNERSHIPS.md. No milestone reached yet (0 subscribers, log/metrics/2026-11-16.json), so nothing new.
 
 ## Engineering backlog (from the 16 Nov tools scout; the engineering routine works top-down, measures each change)
+0. (21 Nov review) Top tag chip: a long game name ("BALDUR'S GATE 3 · COST PER HOUR", 18c) wraps to 2 lines and crowds the GG ECONOMICS pill. Shrink or shorten the tag to one line (e.g. "BG3 · COST/HR") and add a gate check for a wrapped chip.
 1. Hook frame: score 20–30 candidate frames (aesthetic predictor v2.5 or LAION, + sharpness, no text) and open on the best; time it on the 2-core runner first (budget < 60 s).
 2. TransNetV2 (transnetv2-pytorch, MIT) in front of OpenCV shot scoring: cleaner shot boundaries, catches dissolves; pin device=cpu.
 3. Beat grid per library track (Beat This!, MIT; compute once offline → assets/music/lib/*.beats.json); snap clip cuts to beats in autopick.
