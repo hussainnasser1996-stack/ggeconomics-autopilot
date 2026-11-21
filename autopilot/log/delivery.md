@@ -1,14 +1,14 @@
-# Delivery check · 2026-11-21 15:10 UTC
+# Delivery check · 2026-11-21 19:47 UTC
 
 ## Problems
 - 2026-11-18b instagram_reel: Buffer error: It looks like Buffer has lost the authorization to post to Facebook. No need to worry, though! (older than 12 h: not re-booked, stale)
 
-Buffer scheduled per channel: youtube_short 2, instagram_reel 2, tiktok_video 2
+Buffer scheduled per channel: youtube_short 1, instagram_reel 1, tiktok_video 1
 
-GitHub Actions minutes used this month: ~1961 of 2,000 (free tier, private repo)
+GitHub Actions minutes used this month: ~2130 of 2,000 (free tier, private repo)
 
 ## Actions taken
-- none
+- 2026-11-21b youtube_short: Buffer posting limit → direct YouTube upload: posted direct youtube_short f-ggW4ZXA4g public uploaded
 
 | post | channel | status | sent/due | link | title |
 |---|---|---|---|---|---|
@@ -59,9 +59,9 @@ GitHub Actions minutes used this month: ~1961 of 2,000 (free tier, private repo)
 | 2026-11-21 | youtube_short | scheduled | 2026-11-21T23:00:00.000Z |  | GTA 6 Sales: 32.5M Copies. Are You One? |
 | 2026-11-21 | instagram_reel | scheduled | 2026-11-21T23:00:00.000Z |  | GTA 6 Sales: 32.5M Copies. Are You One? |
 | 2026-11-21 | tiktok_video | scheduled | 2026-11-21T23:00:00.000Z |  | GTA 6 Sales: 32.5M Copies. Are You One? |
-| 2026-11-21b | youtube_short | scheduled | 2026-11-21T17:30:00.000Z |  | Red Dead 2 Costs You $1.18 an Hour. Worth It? |
-| 2026-11-21b | instagram_reel | scheduled | 2026-11-21T17:30:00.000Z |  | Red Dead 2 Costs You $1.18 an Hour. Worth It? |
-| 2026-11-21b | tiktok_video | scheduled | 2026-11-21T17:30:00.000Z |  | Red Dead 2 Costs You $1.18 an Hour. Worth It? |
+| 2026-11-21b | youtube_short | error | 2026-11-21T17:30:00.000Z |  | Red Dead 2 Costs You $1.18 an Hour. Worth It? |
+| 2026-11-21b | instagram_reel | sent | 2026-11-21T17:30:54.023Z | https://www.instagram.com/reel/DgAxUoZvmi_/ | Red Dead 2 Costs You $1.18 an Hour. Worth It? |
+| 2026-11-21b | tiktok_video | sent | 2026-11-21T17:31:49.463Z | https://tiktok.com/@ggeconomics/video/7710678491674512661 | Red Dead 2 Costs You $1.18 an Hour. Worth It? |
 | 2026-11-21c | youtube_short | sent | 2026-11-21T12:01:10.639Z | https://www.youtube.com/shorts/6hWXm7KaFMo | Stardew Valley Costs You 28¢ an Hour. Worth It? |
 | 2026-11-21c | instagram_reel | sent | 2026-11-21T12:02:33.080Z | https://www.instagram.com/reel/DgALrLtwx3U/ | Stardew Valley Costs You 28¢ an Hour. Worth It? |
 | 2026-11-21c | tiktok_video | sent | 2026-11-21T12:04:05.637Z | https://tiktok.com/@ggeconomics/video/7710593393327426868 | Stardew Valley Costs You 28¢ an Hour. Worth It? |
