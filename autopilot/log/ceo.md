@@ -2,11 +2,14 @@
 
 ## For the owner
 - Optional, only you can do these (each unlocks something real; none is needed for daily posting):
-  0. 🔴 URGENT 19 Nov: Buffer lost its Instagram login (channel isDisconnected since 18 Nov; 18 + 18b Reels failed, every IG post fails until fixed). buffer.com → Channels → Instagram @ggeconomics → Refresh connection (log in as @ggeconomics). The monitor re-books IG posts that failed in the last 12 h by itself once it is reconnected.
+  0. ✅ DONE 19 Nov: Buffer's Instagram login refreshed; Instagram Graph token added as the fallback when Buffer fails (publish.py --direct).
   1. ✅ DONE 17 Nov: TikTok @ggeconomics created + connected in Buffer; publish.py books every Short there.
-  2. ✅ DONE 17 Nov: YouTube Analytics API enabled (monitor run 10:58 UTC returned no 403). ✅ DONE 17 Nov: token re-authorised with `youtube.force-ssl` (captions, comments, replies now possible).
-  4. 🔴 18 Nov: TikTok has 0 views on every video. Warm the account: 10 min/day on the phone as @ggeconomics for 2-3 days (watch, like, follow gaming videos). Not automatable without bot risk.
-  3. ⏳ IN PROGRESS 17 Nov (app "GG Economics Publisher" stopped at owner's FB password re-entry): a free Meta developer app for @ggeconomics → Instagram Trial Reels (test a 2nd hook on non-followers), custom cover frame, collab posts.
+  2. ✅ DONE 17 Nov: YouTube Analytics API enabled; token has `youtube.force-ssl`.
+  3. ✅ DONE 19 Nov: Meta app "GG Economics Publisher" + IG token. Trial Reels stay locked until 1,000 followers (API error 2207081).
+  5. 🔴 STILL OPEN 21 Nov: TikTok shows 0 plays on every video (public, not secret, checked 21 Nov 09:30 UTC). In the TikTok app as @ggeconomics:
+     open any video → is there an "Ineligible for For You feed" / "Not eligible for recommendation" note? Also Settings → Account → Account status.
+     If it says unoriginal content: TikTok is treating trailer footage as a re-upload, and the fix is more of OUR graphics per frame there.
+     If it says nothing: 10 min/day of normal use on the phone for 2-3 days (watch, like, follow gaming creators).
   4. Keymailer, Terminals.io, Steam Curator page, Ubisoft Creators Program → free game keys. See PARTNERSHIPS.md. No milestone reached yet (0 subscribers, log/metrics/2026-11-16.json), so nothing new.
 
 ## Engineering backlog (from the 16 Nov tools scout; the engineering routine works top-down, measures each change)
