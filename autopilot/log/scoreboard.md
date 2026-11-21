@@ -6,10 +6,10 @@ Updated 2026-11-21. YouTube Analytics lags 1-3 days.
 (— = not sent yet / no metrics yet; carousel shows reach when Buffer gives no views)
 | post | YouTube Short | IG Reel | IG carousel | TikTok | total | title |
 |---|---|---|---|---|---|---|
-| 2026-11-21c | 527 | 172 | — | 0 | 699 | Stardew Valley Costs You 28¢ an Hour. Worth It? |
+| 2026-11-21c | 651 | 172 | — | 0 | 823 | Stardew Valley Costs You 28¢ an Hour. Worth It? |
 | 2026-11-21b | — | — | — | — | 0 | Red Dead 2 Costs You $1.18 an Hour. Worth It? |
 | 2026-11-21 | — | — | — | — | 0 | GTA 6 Sales: 32.5M Copies. Are You One? |
-| 2026-11-20c | 1411 | 146 | — | 0 | 1557 | Hollow Knight Costs You 56¢ an Hour. Worth It? |
+| 2026-11-20c | 1415 | 149 | — | 0 | 1564 | Hollow Knight Costs You 56¢ an Hour. Worth It? |
 | 2026-11-20b | 1124 | 127 | — | 0 | 1251 | GTA 6 Got 8 Game Awards Nominations Before Launch |
 | 2026-11-20 | 1101 | 117 | 0 | 0 | 1218 | GTA 6 Sales: Est. 19M Copies. Did You Buy It? |
 | 2026-11-19c | 1488 | 149 | — | 0 | 1637 | Cyberpunk 2077 Costs You $2.31 an Hour. Worth It? |
@@ -18,20 +18,21 @@ Updated 2026-11-21. YouTube Analytics lags 1-3 days.
 | 2026-11-18c | 853 | 100 | — | 0 | 953 | Baldur's Gate 3 Costs You 82¢ an Hour. Worth It? |
 | 2026-11-18b | 53 | — | — | 0 | 53 | GTA 6 Beat Cyberpunk's 8M Pre-Order Record? |
 | 2026-11-18 | 1045 | 178 | — | 0 | 1223 | GTA 6 Unlocks Tonight: You Need 212 GB Free |
-| 2026-11-17c | 1230 | 127 | — | 0 | 1357 | Elden Ring Costs You $1 an Hour. Worth It? |
+| 2026-11-17c | 1231 | 127 | — | 0 | 1358 | Elden Ring Costs You $1 an Hour. Worth It? |
 | 2026-11-17b | 21 | 126 | — | 0 | 147 | GTA 6: Take-Two Bets $8 Billion on Your $80 |
 | 2026-11-17 | 670 | 144 | — | 0 | 814 | Your 2013 Xbox One Can Play GTA 6 on Day One |
 | 2026-11-16c | 294 | 138 | — | — | 432 | Rockstar Made 2 of the 5 Best-Selling Games Ever |
-| 2026-11-16b | 330 | 121 | — | — | 451 | GTA 6 Costs You $79.99. GTA 5 Cost More |
+| 2026-11-16b | 331 | 121 | — | — | 452 | GTA 6 Costs You $79.99. GTA 5 Cost More |
 | 2026-11-16 | 810 | 126 | 0 | — | 936 | GTA 6 Might Make $1 Billion Before You Can Even Play It |
 
 ## YouTube
 | published | views | avg view % | avg view s | kept 1s % | kept 3s % | 3s vs similar | likes | shares | subs+ | title |
 |---|---|---|---|---|---|---|---|---|---|---|
-| 2026-11-21 | 527 | — | — | — | — | — | 2 | — | — | Stardew Valley Costs You 28¢ an Hour. Worth It? |
+| 2026-11-21 | 0 | — | — | — | — | — | 0 | — | — | Top 10 Games on Steam This Week: Worth the Money? (Nov 2026) |
+| 2026-11-21 | 651 | — | — | — | — | — | 2 | — | — | Stardew Valley Costs You 28¢ an Hour. Worth It? |
 | 2026-11-21 | 1101 | — | — | — | — | — | 6 | — | — | GTA 6 Sales: Est. 19M Copies. Did You Buy It? |
 | 2026-11-20 | 1124 | — | — | — | — | — | 7 | — | — | GTA 6 Got 8 Game Awards Nominations Before Launch |
-| 2026-11-20 | 1411 | — | — | — | — | — | 18 | — | — | Hollow Knight Costs You 56¢ an Hour. Worth It? |
+| 2026-11-20 | 1415 | — | — | — | — | — | 18 | — | — | Hollow Knight Costs You 56¢ an Hour. Worth It? |
 | 2026-11-19 | 1032 | — | — | — | — | — | 14 | — | — | GTA 6 Is Out: Your Console Runs It at 30 FPS |
 | 2026-11-19 | 516 | — | — | — | — | — | 2 | — | — | GTA 6 vs GTA 5: You Waited 4,811 Days |
 | 2026-11-19 | 1488 | — | — | — | — | — | 13 | — | — | Cyberpunk 2077 Costs You $2.31 an Hour. Worth It? |
@@ -40,12 +41,17 @@ Updated 2026-11-21. YouTube Analytics lags 1-3 days.
 | 2026-11-18 | 853 | 80.4 | 12 | 122 | 118 | 0.47 | 3 | 0 | 0 | Baldur's Gate 3 Costs You 82¢ an Hour. Worth It? |
 | 2026-11-17 | 670 | 72.2 | 18 | 121 | 114 | 0.41 | 12 | 4 | 0 | Your 2013 Xbox One Can Play GTA 6 on Day One |
 | 2026-11-17 | 21 | 43.6 | 10 | — | — | — | 0 | 0 | 0 | GTA 6: Take-Two Bets $8 Billion on Your $80 |
-| 2026-11-17 | 1230 | 83.1 | 12 | 125 | 119 | 0.49 | 9 | 1 | 1 | Elden Ring Costs You $1 an Hour. Worth It? |
+| 2026-11-17 | 1231 | 83.1 | 12 | 125 | 119 | 0.49 | 9 | 1 | 1 | Elden Ring Costs You $1 an Hour. Worth It? |
 | 2026-11-16 | 810 | 61.8 | 14 | 110 | 106 | 0.24 | 12 | 1 | 0 | GTA 6 Might Make $1 Billion Before You Can Even Play It |
-| 2026-11-16 | 330 | 54.9 | 13 | 107 | 102 | 0.19 | 0 | 0 | 0 | GTA 6 Costs You $79.99. GTA 5 Cost More |
+| 2026-11-16 | 331 | 54.9 | 13 | 107 | 102 | 0.19 | 0 | 0 | 0 | GTA 6 Costs You $79.99. GTA 5 Cost More |
 | 2026-11-16 | 294 | 68.4 | 17 | 110 | 110 | 0.3 | 2 | 1 | 0 | Rockstar Made 2 of the 5 Best-Selling Games Ever |
 
-Traffic sources (all time): SHORTS 4383, YT_SEARCH 320, YT_OTHER_PAGE 101, YT_CHANNEL 41, EXT_URL 14, SUBSCRIBER 4, PLAYLIST 1, NO_LINK_OTHER 0
+## YouTube long videos (weekly Top 10)
+| published | length | views | avg view % | avg view s | subs+ | likes | comments | title |
+|---|---|---|---|---|---|---|---|---|
+| 2026-11-21 | 8:06 | 0 | — | — | — | 0 | 0 | Top 10 Games on Steam This Week: Worth the Money? (Nov 2026) |
+
+Traffic sources (all time): SHORTS 4374, YT_SEARCH 320, YT_OTHER_PAGE 101, YT_CHANNEL 42, EXT_URL 14, SUBSCRIBER 4, PLAYLIST 1, NO_LINK_OTHER 0
 
 ## Instagram (from Instagram itself)
 | sent | type | views | reach | likes | comments | shares | saves | avg watch s | post |
@@ -54,7 +60,7 @@ Traffic sources (all time): SHORTS 4383, YT_SEARCH 320, YT_OTHER_PAGE 101, YT_CH
 | 2026-11-20 | reel | 117 | 105 | 0 | 0 | 0 | 0 | 5.0 | 19 million copies before most people even got home from work |
 | 2026-11-20 | reel | 127 | 118 | 2 | 0 | 0 | 0 | 5.4 | 8 nominations for a game nobody could buy yet. GTA 6 leads T |
 | 2026-11-20 | post | 0 | 0 | 0 | 0 | 0 | 0 | — | 19 million copies before most people even got home from work |
-| 2026-11-20 | reel | 146 | 122 | 0 | 1 | 0 | 0 | 7.8 | A movie costs you $6 an hour. Hollow Knight costs 56 cents.  |
+| 2026-11-20 | reel | 149 | 122 | 0 | 2 | 0 | 0 | 7.8 | A movie costs you $6 an hour. Hollow Knight costs 56 cents.  |
 | 2026-11-19 | reel | 249 | 223 | 1 | 0 | 0 | 0 | 9.0 | GTA 6 is out, and Rockstar targets 30 frames per second on P |
 | 2026-11-19 | reel | 113 | 105 | 2 | 0 | 0 | 0 | 5.3 | 4,811 days. That's how long you waited between GTA 5 and GTA |
 | 2026-11-19 | reel | 178 | 155 | 2 | 0 | 0 | 0 | 8.5 | GTA 6 launches November 19 and the download is up to 212 GB  |

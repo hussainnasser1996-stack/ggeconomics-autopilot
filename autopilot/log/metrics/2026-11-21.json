@@ -8,64 +8,79 @@
    "videoCount": 16
   },
   "traffic_sources": {
-   "SHORTS": 4383,
+   "SHORTS": 4374,
    "YT_SEARCH": 320,
    "YT_OTHER_PAGE": 101,
-   "YT_CHANNEL": 41,
+   "YT_CHANNEL": 42,
    "EXT_URL": 14,
    "SUBSCRIBER": 4,
    "PLAYLIST": 1,
    "NO_LINK_OTHER": 0
   },
   "videos": {
+   "lU8HjtuYbzw": {
+    "title": "Top 10 Games on Steam This Week: Worth the Money? (Nov 2026)",
+    "published": "2026-11-21",
+    "views": 0,
+    "likes": 0,
+    "comments": 0,
+    "dur": 486
+   },
    "6hWXm7KaFMo": {
     "title": "Stardew Valley Costs You 28\u00a2 an Hour. Worth It?",
     "published": "2026-11-21",
-    "views": 527,
+    "views": 651,
     "likes": 2,
-    "comments": 0
+    "comments": 1,
+    "dur": 14
    },
    "xJKDG8gJ8X8": {
     "title": "GTA 6 Sales: Est. 19M Copies. Did You Buy It?",
     "published": "2026-11-21",
     "views": 1101,
     "likes": 6,
-    "comments": 1
+    "comments": 1,
+    "dur": 17
    },
    "nKFE5F2_bvs": {
     "title": "GTA 6 Got 8 Game Awards Nominations Before Launch",
     "published": "2026-11-20",
     "views": 1124,
     "likes": 7,
-    "comments": 1
+    "comments": 1,
+    "dur": 18
    },
    "rYs3I31mOTs": {
     "title": "Hollow Knight Costs You 56\u00a2 an Hour. Worth It?",
     "published": "2026-11-20",
-    "views": 1411,
+    "views": 1415,
     "likes": 18,
-    "comments": 5
+    "comments": 9,
+    "dur": 14
    },
    "NxhZJnczHb4": {
     "title": "GTA 6 Is Out: Your Console Runs It at 30 FPS",
     "published": "2026-11-19",
     "views": 1032,
     "likes": 14,
-    "comments": 3
+    "comments": 3,
+    "dur": 23
    },
    "aN_kp9u4ZXo": {
     "title": "GTA 6 vs GTA 5: You Waited 4,811 Days",
     "published": "2026-11-19",
     "views": 516,
     "likes": 2,
-    "comments": 1
+    "comments": 1,
+    "dur": 18
    },
    "I5ZLMocjk2k": {
     "title": "Cyberpunk 2077 Costs You $2.31 an Hour. Worth It?",
     "published": "2026-11-19",
     "views": 1488,
     "likes": 13,
-    "comments": 12
+    "comments": 13,
+    "dur": 14
    },
    "a92DfUx8zTw": {
     "title": "GTA 6 Unlocks Tonight: You Need 212 GB Free",
@@ -73,6 +88,7 @@
     "views": 1045,
     "likes": 18,
     "comments": 4,
+    "dur": 24,
     "an_views": 858,
     "avg_view_s": 16,
     "avg_view_pct": 66.7,
@@ -90,6 +106,7 @@
     "views": 53,
     "likes": 0,
     "comments": 1,
+    "dur": 16,
     "an_views": 29,
     "avg_view_s": 13,
     "avg_view_pct": 81.3,
@@ -107,6 +124,7 @@
     "views": 853,
     "likes": 3,
     "comments": 1,
+    "dur": 15,
     "an_views": 785,
     "avg_view_s": 12,
     "avg_view_pct": 80.4,
@@ -124,6 +142,7 @@
     "views": 670,
     "likes": 12,
     "comments": 3,
+    "dur": 25,
     "an_views": 590,
     "avg_view_s": 18,
     "avg_view_pct": 72.2,
@@ -141,6 +160,7 @@
     "views": 21,
     "likes": 0,
     "comments": 1,
+    "dur": 24,
     "an_views": 13,
     "avg_view_s": 10,
     "avg_view_pct": 43.6,
@@ -150,9 +170,10 @@
    "zK7fa0dTrDc": {
     "title": "Elden Ring Costs You $1 an Hour. Worth It?",
     "published": "2026-11-17",
-    "views": 1230,
+    "views": 1231,
     "likes": 9,
     "comments": 3,
+    "dur": 15,
     "an_views": 1179,
     "avg_view_s": 12,
     "avg_view_pct": 83.1,
@@ -170,6 +191,7 @@
     "views": 810,
     "likes": 12,
     "comments": 1,
+    "dur": 24,
     "an_views": 804,
     "avg_view_s": 14,
     "avg_view_pct": 61.8,
@@ -184,9 +206,10 @@
    "ct7tlizYNYQ": {
     "title": "GTA 6 Costs You $79.99. GTA 5 Cost More",
     "published": "2026-11-16",
-    "views": 330,
+    "views": 331,
     "likes": 0,
     "comments": 1,
+    "dur": 24,
     "an_views": 313,
     "avg_view_s": 13,
     "avg_view_pct": 54.9,
@@ -204,6 +227,7 @@
     "views": 294,
     "likes": 2,
     "comments": 1,
+    "dur": 25,
     "an_views": 293,
     "avg_view_s": 17,
     "avg_view_pct": 68.4,
@@ -672,139 +696,139 @@
   {
    "title": "Does GTA 6 Live Up to the Hype",
    "channel": "penguinz0",
-   "views": 2706631,
+   "views": 2764733,
    "published": "2026-11-20"
   },
   {
    "title": "BEATING GTA 6 *FINALE*",
    "channel": "Kai Cenat Live",
-   "views": 2648109,
+   "views": 2672824,
    "published": "2026-11-21"
   },
   {
    "title": "Whatever You Steal in GTA 6, You Keep!",
    "channel": "MrBeast Gaming",
-   "views": 19940459,
+   "views": 20779152,
    "published": "2026-11-20"
   },
   {
    "title": "\ud83d\udd34LIVE | GTA 6 | DAY 2 | VICE CITY | SUPER CARS/HYPER CARS | #1 GTA 6 DRIVER | #BUNGULATE",
    "channel": "TheBurntPeanut",
-   "views": 1919210,
+   "views": 1929645,
    "published": "2026-11-21"
   },
   {
    "title": "GTA 6 | FULL GAME | PART 1",
    "channel": "CaseOh",
-   "views": 1246053,
+   "views": 1288227,
    "published": "2026-11-20"
   },
   {
    "title": "3 IDIOTS TRY TO CHEAT DEATH | The Cabin Game",
    "channel": "Markiplier",
-   "views": 1081996,
+   "views": 1110425,
    "published": "2026-11-20"
   },
   {
    "title": "GTA 6: 20 MISTAKES YOU SHOULDN'T MAKE",
    "channel": "gameranx",
-   "views": 1322850,
+   "views": 1346784,
    "published": "2026-11-20"
   },
   {
    "title": "Final Life: Episode 4 - GUESS WHO'S BACK??",
    "channel": "Grian",
-   "views": 1134060,
+   "views": 1150679,
    "published": "2026-11-20"
   },
   {
    "title": "GTA 6 User Reviews Are Finally Out..",
    "channel": "Asmongold Clips",
-   "views": 2910854,
+   "views": 2976411,
    "published": "2026-11-20"
   },
   {
    "title": "Warzone is back... but at what cost?",
    "channel": "SMii7Yplus",
-   "views": 1278633,
+   "views": 1314284,
    "published": "2026-11-20"
   },
   {
    "title": "GTA 6 has turned RIDICULOUS..",
    "channel": "Asmongold TV  ",
-   "views": 1971412,
+   "views": 1985496,
    "published": "2026-11-20"
   },
   {
    "title": "ABSOLUTE CINEMA | Grand Theft Auto 6 - Part 3",
    "channel": "jacksepticeye",
-   "views": 639741,
+   "views": 654824,
    "published": "2026-11-20"
   },
   {
    "title": "GRAND THEFT AUTO 6! DAY 2",
    "channel": "Starkilla",
-   "views": 226696,
+   "views": 230329,
    "published": "2026-11-21"
   },
   {
    "title": "skibidi toilet 83 (part 2)",
    "channel": "skibidi",
-   "views": 5606072,
+   "views": 5690668,
    "published": "2026-11-20"
   },
   {
    "title": "15 Early Game Mistakes NOBODY Warned Me About (GTA 6)",
    "channel": "Vexies",
-   "views": 1017434,
+   "views": 1044436,
    "published": "2026-11-20"
   },
   {
    "title": "GTA 6 - Best Ending (True Ending)",
    "channel": "Shirrako",
-   "views": 2084875,
+   "views": 2136553,
    "published": "2026-11-20"
   },
   {
    "title": "\u3010DRAGON BALL LEGENDS\u3011 LEGENDS INFORMATION Special Edition | LEGENDS FESTIVAL 2026 - vol.1",
    "channel": "[Global] Bandai Namco Entertainment - Mobile Games",
-   "views": 317002,
+   "views": 320957,
    "published": "2026-11-21"
   },
   {
    "title": "GORILLA TAG MONSTERS you WONT SURVIVE..",
    "channel": "Tyler & Snowi",
-   "views": 630453,
+   "views": 650322,
    "published": "2026-11-21"
   },
   {
    "title": "GTA 6 All 5 Endings Explained (Grand Theft Auto 6 Story)",
    "channel": "TheGamingRevolution",
-   "views": 648827,
+   "views": 678088,
    "published": "2026-11-20"
   },
   {
    "title": "\ud83d\udd34 LIVE! - PLAYING GTA 6 RIGHT NOW! (PS5 PRO)",
    "channel": "Typical Gamer",
-   "views": 624382,
+   "views": 629445,
    "published": "2026-11-21"
   },
   {
    "title": "GTA 6 Walkthrough Gameplay Part 3 - LUCIA CAMINOS (GRAND THEFT AUTO 6)",
    "channel": "theRadBrad",
-   "views": 782845,
+   "views": 797198,
    "published": "2026-11-20"
   },
   {
    "title": "Brawl Stars Championship 2026 | WORLD FINALS | DAY 2",
    "channel": "Brawl Stars Esports",
-   "views": 1240133,
+   "views": 1284073,
    "published": "2026-11-21"
   },
   {
    "title": "GTA 6 - ALL Endings: Bad, Good and Secret & Cutscenes",
    "channel": "GTA6Videos",
-   "views": 730903,
+   "views": 734688,
    "published": "2026-11-20"
   }
  ],
@@ -813,144 +837,144 @@
  ],
  "outliers": [
   [
-   100.91433217400048,
-   16386847,
-   43700,
+   101.76678203924018,
+   16525271,
+   43900,
    "Umat Game",
    "ANJING PENYELAMAT DI GTA 6"
   ],
   [
-   93.64259853606066,
-   4283175,
+   94.1631103026699,
+   4306983,
    26600,
    "GTA by Sam",
    "Don't miss the TOP GTA 6 MOMENTS... \ud83d\ude02 #gta6 #gtavi"
   ],
   [
-   43.05795767718517,
-   7578583,
+   43.79710787451477,
+   7708680,
    110000,
    "JayWayyGaming",
    "5 Things You Didn\u2019t Know About GTA 6"
   ],
   [
-   26.6427628695533,
-   6328863,
+   26.835526105508453,
+   6374653,
    61800,
    "Blin.",
    "How to Crack Lucia in GTA 6 (Most People Miss This)"
   ],
   [
-   20.5044417885242,
-   922757,
-   893,
+   20.573815271753016,
+   925879,
+   898,
    "Vice6HQ",
    "Is this really the same GTA 6? #gta6 #gaming"
   ],
   [
-   15.550342924725152,
-   37297831,
-   45700,
+   14.883017974182575,
+   37586745,
+   45900,
    "GrimaceClips",
    "Husband Has the Most INSANE Reaction to GTA 6 \ud83d\ude2d"
   ],
   [
-   14.574832942310934,
-   4479925,
+   14.578183908662064,
+   4480955,
    54000,
    "Comparaholic",
    "Car Destruction: GTA VI vs. GTA V"
   ],
   [
-   13.127308921335821,
-   8339037,
+   13.342517752119978,
+   8475747,
    343000,
    "WBX",
    "HOW LUCIA REACTS IN GTA 6 \ud83d\ude28 #shorts #gta6"
   ],
   [
-   11.606240207780312,
-   15990541,
+   11.723975325316614,
+   16152751,
    907000,
    "Varsha & Aditya",
    "Aapne download kia kya gta6 #shorts #gta #gta6 #funny #couple #shortvideo"
   ],
   [
-   11.174390361383246,
-   7796036,
+   11.275833749207075,
+   7866810,
    394000,
    "GTA 5 EMPIRE",
    "What Happens If You Reach the \u201cN\u201d in GTA 6? #GTAVI #GamingWithYouTube"
   ],
   [
-   9.704815403091647,
-   14050222,
+   9.784865626194936,
+   14212555,
    846000,
    "Mr Spring",
    "Did GTA 6 Finally Fix BLOCKED Car Doors?"
   ],
   [
-   7.447657039149915,
-   278878,
+   7.565399591353549,
+   283005,
    28400,
    "Sami Kick Flick",
    "Lamine Yamal-\u098f\u09b0 \u09a8\u09a4\u09c1\u09a8 \u0997\u09cb\u0981\u09ab GTA 6-\u098f! Speed \u09af\u09be \u09a6\u09c7\u0996\u09b2\u09c7\u09a8, \u09a4\u09be \u09a8\u09bf\u09af\u09bc\u09c7 \u09b6\u09c1\u09b0\u09c1 \u0986\u09b2\u09cb\u099a\u09a8\u09be"
   ],
   [
-   6.686300297660521,
-   1000498,
+   6.734905554307596,
+   1007771,
    41200,
    "Think Of Depth",
    "Countries Where GTA 6 Is Banned ! \ud83c\udfae\ud83e\udd2f"
   ],
   [
-   6.220934801193648,
-   4947286,
+   6.2684334885912,
+   4985060,
    1550000,
    "Aaron Rheins",
    "Airports in GTA 6 are Insane"
   ],
   [
-   5.7894627315845675,
-   43610730,
-   15900000,
-   "Chunnu Munnu Vines",
-   "GTA VI #comedy #funny #cutebaby #shortsfeed #viralvideo"
-  ],
-  [
-   5.377736621966782,
-   4354210,
+   5.379134716651252,
+   4355342,
    1900000,
    "Asmongold Clips",
    "GTA 6 just broke the entire internet.."
   ],
   [
-   3.6952328683741844,
-   6435611,
+   3.7325853410121894,
+   6500664,
    468000,
    "Marcade",
    "Penampakan BIGFOOT di GTA 6 #shorts"
   ],
   [
-   3.688999523233771,
-   8965051,
-   4900000,
+   3.7124509749687515,
+   9022043,
+   4910000,
    "TheAnimeMen",
    "GTA 5 vs GTA 6 \ud83d\ude2d"
   ],
   [
-   3.60668668102298,
-   7328104,
+   3.618170035195032,
+   7351436,
    4790000,
    "gta2025",
    "si dejamos un coche abandonado con GPS en #gta6"
   ],
   [
-   2.7828188134104623,
-   611953,
+   2.792882295465583,
+   614166,
    151000,
    "TonyCeno",
    "Game is ridiculously good #gaming #gamingnews #gta6 #ps5"
+  ],
+  [
+   2.738355014370259,
+   20723033,
+   8030000,
+   "Dimucc",
+   "POV: Giving Birth When GTA 6 Drops..."
   ]
  ],
  "ig_graph": {
@@ -1015,13 +1039,13 @@
    "caption": "A movie costs you $6 an hour. Hollow Knight costs 56 cents. Go 100% and it's 23 cents.\nHollow Knight is $14.99 on Steam and takes about 27 hours to beat (HowLongToBeat main story): 56 cents an hour. A $12 movie ticket for 2 hours is $6 an hour. Go 100% (about 66 hours) and it drops to 23 cents an ho",
    "link": "https://www.instagram.com/reel/Df9m6HzpnQX/",
    "likes": 0,
-   "comments": 1,
-   "views": 146,
+   "comments": 2,
+   "views": 149,
    "reach": 122,
    "saved": 0,
    "shares": 0,
-   "total_interactions": 1,
-   "ig_reels_avg_watch_time": 7766
+   "total_interactions": 2,
+   "ig_reels_avg_watch_time": 7846
   },
   "18119499956098870": {
    "sent": "2026-11-19",
@@ -1207,7 +1231,7 @@
  "per_post": {
   "2026-11-21c": {
    "title": "Stardew Valley Costs You 28\u00a2 an Hour. Worth It?",
-   "youtube_short": 527,
+   "youtube_short": 651,
    "instagram_reel": 172,
    "instagram_carousel": null,
    "tiktok_video": 0
@@ -1228,8 +1252,8 @@
   },
   "2026-11-20c": {
    "title": "Hollow Knight Costs You 56\u00a2 an Hour. Worth It?",
-   "youtube_short": 1411,
-   "instagram_reel": 146,
+   "youtube_short": 1415,
+   "instagram_reel": 149,
    "instagram_carousel": null,
    "tiktok_video": 0
   },
@@ -1291,7 +1315,7 @@
   },
   "2026-11-17c": {
    "title": "Elden Ring Costs You $1 an Hour. Worth It?",
-   "youtube_short": 1230,
+   "youtube_short": 1231,
    "instagram_reel": 127,
    "instagram_carousel": null,
    "tiktok_video": 0
@@ -1319,7 +1343,7 @@
   },
   "2026-11-16b": {
    "title": "GTA 6 Costs You $79.99. GTA 5 Cost More",
-   "youtube_short": 330,
+   "youtube_short": 331,
    "instagram_reel": 121,
    "instagram_carousel": null,
    "tiktok_video": null
