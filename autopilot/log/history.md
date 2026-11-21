@@ -1,5 +1,6 @@
 # Post history (newest first)
 
+- 2026-11-21b · Red Dead 2 Costs You $1.18 an Hour. Worth It? · footage: Red Dead Redemption 2 — RDR2 Launch Trailer (US) · VO similarity 1.00 · youtube_short 6b0168269ffbc8503c14d164 · instagram_reel 6b016827d9cbb430a136f007 · tiktok_video 6b0168285e993799d869f03e · due 23:00 UTC
 - 2026-11-21c · Stardew Valley Costs You 28¢ an Hour. Worth It? · footage: Stardew Valley — Stardew Valley Trailer 1080p · VO similarity 1.00 · youtube_short 6b00e9419ffbc8503ce8f9d3 · instagram_reel 6b00e942dd205ed779aa6c74 · tiktok_video 6b00e942d9cbb430a10ad403 · due 23:00 UTC
 - 2026-11-21b · Red Dead 2 Costs You $1.18 an Hour. Worth It? · footage: Red Dead Redemption 2 — RDR2 Launch Trailer (US) · VO similarity 1.00 · youtube_short 6b00e7399ffbc8503ce8630f · instagram_reel 6b00e73a9ffbc8503ce8636f · tiktok_video 6b00e73b20a2d09a0ac0892a · due 23:00 UTC
 - 2026-11-21 · GTA 6 Sales: 32.5M Copies. Are You One? · footage: gta6_trailer_QdBZY2fkU-0.mp4 · VO similarity 1.00 · youtube_short 6b00e4f29ffbc8503ce7afae · instagram_reel 6b00e4f3dd205ed779a90f37 · tiktok_video 6b00e4f420a2d09a0abfd3a7 · due 23:00 UTC

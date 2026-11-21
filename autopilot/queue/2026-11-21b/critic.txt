@@ -1,18 +1,18 @@
-SCORE 62.9/100 (10/17)
-  PASS [major   ] VALUE_BIMODAL          mean midtone mass 0.154 (want <0.30)
-  PASS [major   ] FOCAL_PRESENT          mean bright fraction 0.0636 (want 0.004–0.14)
+SCORE 74.3/100 (12/17)
+  PASS [major   ] VALUE_BIMODAL          mean midtone mass 0.178 (want <0.30)
+  PASS [major   ] FOCAL_PRESENT          mean bright fraction 0.0516 (want 0.004–0.14)
   PASS [critical] CONTRAST_MIN           0/9 content frames below 4.5:1
-  PASS [major   ] CAPTION_LEGIBLE        0/9 content frames have sub-text under 3:1 (mean 12.63:1)
-  FAIL [minor   ] PALETTE_LOCK           worst content frame 6.63% off-palette (want <2%)
+  PASS [major   ] CAPTION_LEGIBLE        0/9 content frames have sub-text under 3:1 (mean 9.44:1)
+  FAIL [minor   ] PALETTE_LOCK           worst content frame 6.53% off-palette (want <2%)
   PASS [critical] SAFE_BOTTOM            bottom zone ink 0.00% (want <1%)
-  FAIL [critical] SAFE_RIGHT             right zone ink 54.01% (want <1%)
+  FAIL [critical] SAFE_RIGHT             right zone ink 45.61% (want <1%)
   FAIL [major   ] HOLDS_EXIST            0.0% of frames are holds (0 holds)
-  FAIL [major   ] IMPACTS_PUNCTUATED     4/4 impacts not punctuated: [47, 191, 233, 272]
-  PASS [major   ] NO_LINEAR_EASING       9 frames (2.2%) in constant-velocity moves, 1 segments
+  FAIL [major   ] IMPACTS_PUNCTUATED     5/5 impacts not punctuated: [232, 262, 273, 334, 373]
+  PASS [major   ] NO_LINEAR_EASING       10 frames (2.5%) in constant-velocity moves, 1 segments
   PASS [major   ] NO_DEAD_AIR            0 stalls: []
   PASS [major   ] NO_MICRO_CHURN         0 frames (0.0%) of micro-churn in 0 runs: []
-  FAIL [major   ] HOOK_ENERGY            hook energy 0.19× median (want >1.15)
+  PASS [major   ] HOOK_ENERGY            hook energy 1.77× median (want >1.15)
   PASS [critical] NO_SCENE_TAIL_STALL    0 scenes stall for 0.0s total (0% of runtime): 
-  FAIL [major   ] NO_DEAD_OPENING        1 scenes open dead: s0:hook f7–27 (0.075× median)
+  PASS [major   ] NO_DEAD_OPENING        0 scenes open dead: 
   PASS [minor   ] OPENS_POPULATED        0/9 sampled frames have <0.4% bright content
   FAIL [minor   ] USES_FRAME_HEIGHT      lowest focal centroid across content frames is 0.37 of frame height (want some content past 0.55)
