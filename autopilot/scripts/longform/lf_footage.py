@@ -32,6 +32,39 @@ def confident_words(f):
             c = row.split("\t")
             if len(c) == 12 and c[11].strip() and float(c[10]) > 75 and sum(ch.isalpha() for ch in c[11]) >= 3: n += 1
     return n
+# 21 Nov dry run 4: trailer subtitles (Football Manager), banner captions (Euro Truck), big type (Cyberpunk FREEDOM)
+def boxes(img):
+    fd, p = tempfile.mkstemp(suffix=".png"); os.close(fd); cv2.imwrite(p, img)
+    out = subprocess.run(["tesseract", p, "-", "--psm", "11", "tsv"], capture_output=True, text=True).stdout; os.remove(p)
+    r = []
+    for row in out.splitlines()[1:]:
+        c = row.split("\t")
+        if len(c) == 12 and c[11].strip() and float(c[10]) > 60 and sum(ch.isalpha() for ch in c[11]) >= 3:
+            r.append((c[11], int(c[6]), int(c[7]), int(c[8]), int(c[9])))
+    return r
+def text_problem(f):
+    """trailer text that isn't part of the game world: subtitles / captions (bottom band, centred), banner captions
+    (top band, centred), big type (>= 4% of frame height), or a UI/menu screen (8+ words)."""
+    H, W = 720, 1280; g = cv2.cvtColor(cv2.resize(f, (W, H)), cv2.COLOR_BGR2GRAY)
+    fr = cv2.resize(f, (W, H)); ch = (fr.max(2).astype(np.int16) - fr.min(2)).clip(0, 255).astype(np.uint8)
+    ws = {}
+    def add(im, x0=0, y0=0, s=1.0):
+        for t, x, y, w, h in boxes(im):
+            b = (t, int(x0 + x / s), int(y0 + y / s), int(w / s), int(h / s)); ws[(b[1] // 40, b[2] // 40)] = b
+    for im in (g, 255 - g, ch): add(im)
+    for y0, y1 in ((0, int(H * .14)), (int(H * .70), H)):           # caption bands read again at 2x: thin subtitle type
+        band = cv2.resize(g[y0:y1], (W * 2, (y1 - y0) * 2))
+        for im in (band, 255 - band): add(im, 0, y0, 2.0)
+    ws = list(ws.values())
+    cx = lambda b: (b[1] + b[3] / 2) / W; cy = lambda b: (b[2] + b[4] / 2) / H
+    sub = [b for b in ws if cy(b) > 0.70 and 0.08 < cx(b) < 0.92]
+    top = [b for b in ws if cy(b) < 0.12 and 0.25 < cx(b) < 0.75]
+    big = [b for b in ws if b[4] >= 0.04 * H and sum(ch.isalpha() for ch in b[0]) >= 4]
+    if len(sub) >= 2: return "subtitle " + " ".join(b[0] for b in sub[:4])
+    if len(top) >= 2: return "banner " + " ".join(b[0] for b in top[:4])
+    if big: return "big " + big[0][0]
+    if len(ws) >= 8: return f"ui {len(ws)} words"
+    return ""
 TITLE0 = {"presents", "playstation", "xbox", "nintendo", "steam", "trailer", "available", "preorder", "pre-order", "order", "coming",
           "rated", "edition", "launch", "wishlist", "pre-load", "preload", "captured", "early", "access", "update", "season", "release"}
 def title_hit(f, TITLE):
@@ -112,6 +145,7 @@ for e in E:
                    or max(graphic(f) for f in fr) >= 2.5 or textiness_dark(fr[1]) > 2.2)
             if not bad and tier == 1: bad = confident_words(fr[1]) >= 2
             if not bad and tier <= 2: bad = any(title_hit(f, TITLE) for f in fr)
+            if not bad and tier <= 2: bad = bool(text_problem(fr[1]))
             if bad:
                 if tier == 3: seen.add(k)
                 rejected += 1; continue
@@ -122,6 +156,7 @@ for e in E:
     # white-on-black title cards out), so one text-heavy game never sinks the week's video.
     for i, (mname, url) in enumerate(e["movies"]):
         if tot >= T[e["rank"]]: break
+        if re.search(r"subs\b|subtitle", mname, re.I): continue       # "Burned in Subs" cuts
         src = f"{key}_{i}"; path = W / f"{src}.mp4"
         if not download(url, path): print("download failed", e["name"], mname); continue
         shots, dur = shots_of(path); new = []

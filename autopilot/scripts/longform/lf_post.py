@@ -32,6 +32,10 @@ if what == "thumb":
             if img is None: continue
             g = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY); score = cv2.Laplacian(g, cv2.CV_64F).var() * (0.5 + min(g.mean(), 120) / 120)
             score /= 1 + 3 * words(img)
+            rg = img[..., 2].astype(np.float32) - img[..., 1]; yb = (img[..., 2].astype(np.float32) + img[..., 1]) / 2 - img[..., 0]
+            colour = np.hypot(rg.std(), yb.std()) + 0.3 * np.hypot(rg.mean(), yb.mean())      # Hasler-Suesstrunk colourfulness
+            cells = [cv2.Laplacian(c, cv2.CV_64F).var() for row in np.array_split(g, 3) for c in np.array_split(row, 3, axis=1)]
+            score *= (0.4 + min(colour, 60) / 60) * (0.3 + sum(c > 80 for c in cells) / 9)  # detail across the tile, not one blurry blob
             if best is None or score > best[0]: best = (score, ts)
         ff("-ss", f"{best[1]:.2f}", "-i", str(MP4), "-frames:v", "1", "-vf", "crop=900:800:510:110", "-q:v", "2", str(D / f"t{i}.jpg"))
         print("tile", i, "rank", r, "at", round(best[1], 1))

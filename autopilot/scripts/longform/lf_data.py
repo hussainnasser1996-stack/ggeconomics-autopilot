@@ -83,6 +83,8 @@ for i, g in enumerate(paid):
     if g["price_cents"] <= 2000: cands.append(f"Top 10 for under ${g['price_cents'] / 100:.0f}" if g["price_cents"] % 100 else f"Top 10 for {g['price']}")
     if g is most_rev: cands.append("The most reviewed game here")
     cands.append(f"{g['price']} for a top {rank} game")
+    shown = " ".join(facts[:2] if rank > 1 else facts[:3]).lower()     # never repeat a fact chip in the verdict (dry run 4: Rust, StS2)
+    cands = [c for c in cands if not (("early access" in c.lower() and "early access" in shown) or ("most reviewed" in c.lower() and "most on this list" in shown))] or cands[-1:]
     v = next((c for c in cands if c not in used_verdicts), cands[-1]); used_verdicts.add(v)
     entries.append({"key": f"g{rank}", "rank": rank, "appid": g["appid"], "name": g["name"], "dev": g["dev"], "genre": g["genre"],
                     "released": rel_label(g), "players": g["peak"], "price": g["price"], **({"priceNote": f"-{g['discount']}%"} if g["discount"] else {}),
