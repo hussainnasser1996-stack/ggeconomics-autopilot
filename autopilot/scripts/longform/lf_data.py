@@ -40,7 +40,7 @@ for x in sorted(resp["ranks"], key=lambda r: -r["peak_in_game"]):
                   "discount": po.get("discount_percent", 0), "price_cents": po["final"], "meta": (d.get("metacritic") or {}).get("score"),
                   "reviews": (d.get("recommendations") or {}).get("total") or 0, "released": rel.isoformat() if rel else None,
                   "early_access": "Early Access" in genres, "genre": " ".join(g2[:2]) if len(" ".join(g2[:2])) <= 18 else g2[0],
-                  "dev": (d.get("developers") or ["?"])[0], "movies": [[m["name"], m["hls_h264"]] for m in movies[:3]]})
+                  "dev": (d.get("developers") or ["?"])[0], "movies": [[m["name"], m["hls_h264"]] for m in sorted(movies, key=lambda m: bool(re.search(r"ESRB|PEGI|rating", m["name"], re.I)))[:8]]})
     print(len(games), x["peak_in_game"], name, po["final_formatted"])
 if len(games) < 10: sys.exit(f"only {len(games)} paid games found")
 

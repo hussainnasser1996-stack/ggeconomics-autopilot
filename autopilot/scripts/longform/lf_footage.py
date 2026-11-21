@@ -98,32 +98,17 @@ spec = {"title": "TOP 10 GAMES ON STEAM", "sub": "THIS WEEK, BY PEAK PLAYERS",
 cold = []; report = []
 for e in E:
     key = e["key"]; TITLE = TITLE0 | {w for w in re.findall(r"[a-z]{4,}", (e["name"] + " " + e["dev"]).lower())}
-    pieces = []
-    for i, (mname, url) in enumerate(e["movies"]):
-        src = f"{key}_{i}"; path = W / f"{src}.mp4"
-        if not download(url, path): print("download failed", e["name"], mname); continue
-        shots, dur = shots_of(path)
-        for s in shots:
-            L_ = s["b"] - s["a"]; n = 1 if L_ <= 4.2 else min(3, int(L_ // 3.2)); step = L_ / n
-            for k in range(n):
-                x = s["a"] + k * step; pieces.append({"src": src, "path": path, "a": round(x, 2), "b": round(x + min(3.4, step), 2),
-                    "score": s["mot"] * 0.6 + min(s["sharp"], 3000) / 300, "rel": x / dur + i, "shot": (src, s["a"])})
-    pieces.sort(key=lambda p: -p["score"])
-    caps = {}; chosen = []; tot = 0; rejected = 0; per_shot = {}; seen = set(); tier_used = 1
-    # tier 1 = the Shorts' rules. A game whose trailers are all UI or stadium hoardings (Football Manager, 21 Nov dry run:
-    # 7.8 s clean) gets tier 2 (readable words allowed, logos/titles still out), then tier 3 (only black, ad cards, poster
-    # typography and white-on-black title cards out), so one text-heavy game never sinks the week's video.
-    for tier in (1, 2, 3):
-        if tot >= T[e["rank"]] * 0.6: break
-        tier_used = tier
-        for p in pieces:                                          # judge lazily, best first, until the segment is full
-            if tot >= T[e["rank"]]: break
+    caps = {}; chosen = []; tot = 0; rejected = 0; per_shot = {}; seen = set(); tier_used = 1; pieces = []
+    def judge(cands, tier):
+        global tot, rejected
+        for p in sorted(cands, key=lambda p: -p["score"]):       # lazily, best first, until the segment is full
+            if tot >= T[e["rank"]]: return
             k = (p["src"], p["a"])
             if k in seen or per_shot.get(p["shot"], 0) >= 2: continue
             cap = caps.setdefault(p["src"], cv2.VideoCapture(str(p["path"])))
             fr = [f for f in (frame(cap, p["a"] + 0.1), frame(cap, (p["a"] + p["b"]) / 2), frame(cap, p["b"] - 0.1)) if f is not None]
             if len(fr) < 3: continue
-            bad = (any(float(cv2.cvtColor(f, cv2.COLOR_BGR2GRAY).mean()) < 30 for f in fr) or any(ad_slate(f) for f in fr)
+            bad = (any(float(cv2.cvtColor(f, cv2.COLOR_BGR2GRAY).mean()) < (30 if tier < 3 else 16) for f in fr) or any(ad_slate(f) for f in fr)
                    or max(graphic(f) for f in fr) >= 2.5 or textiness_dark(fr[1]) > 2.2)
             if not bad and tier == 1: bad = confident_words(fr[1]) >= 2
             if not bad and tier <= 2: bad = any(title_hit(f, TITLE) for f in fr)
@@ -131,6 +116,24 @@ for e in E:
                 if tier == 3: seen.add(k)
                 rejected += 1; continue
             seen.add(k); chosen.append(p); tot += p["b"] - p["a"]; per_shot[p["shot"]] = per_shot.get(p["shot"], 0) + 1
+    # trailers one at a time (rating-card promos last): stop downloading once the Shorts' rules (tier 1) fill the segment.
+    # A game whose trailers are all UI, hoardings or title cards (Football Manager, GTA Online updates; 21 Nov dry runs) then
+    # gets tier 2 (readable words allowed, logos/titles still out) and tier 3 (only black, ad cards, poster type and
+    # white-on-black title cards out), so one text-heavy game never sinks the week's video.
+    for i, (mname, url) in enumerate(e["movies"]):
+        if tot >= T[e["rank"]]: break
+        src = f"{key}_{i}"; path = W / f"{src}.mp4"
+        if not download(url, path): print("download failed", e["name"], mname); continue
+        shots, dur = shots_of(path); new = []
+        for s in shots:
+            L_ = s["b"] - s["a"]; n = 1 if L_ <= 4.2 else min(3, int(L_ // 3.2)); step = L_ / n
+            for k in range(n):
+                x = s["a"] + k * step; new.append({"src": src, "path": path, "a": round(x, 2), "b": round(x + min(3.4, step), 2),
+                    "score": s["mot"] * 0.6 + min(s["sharp"], 3000) / 300, "rel": x / dur + i, "shot": (src, s["a"])})
+        pieces += new; judge(new, 1)
+    for tier in (2, 3):
+        if tot >= T[e["rank"]] * 0.6: break
+        tier_used = tier; judge(pieces, tier)
     if tot < 8: sys.exit(f"lf_footage: only {tot:.1f} s of clean gameplay for {e['name']} (need 8+)")
     base = list(chosen)
     while tot < T[e["rank"]] * 0.8 and base:                     # thin trailers: replay the best pieces from a later point
