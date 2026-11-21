@@ -35,6 +35,8 @@ def steam(c):
     return []
 def library(c):
     f = c.get("file") or ""
+    if any(b in f for b in ("features", "preload")):   # ad files even when named outright (21 Nov: 12-31c named the features
+        f = "gta6_"                                       # file, autopick found 5 clean shots and the build failed)
     if not f.endswith(".mp4"):     # no file, or a prefix like "gta6_comp": take the least-recently-used matching asset
         a = json.loads(subprocess.run(["gh", "release", "view", "footage-library", "--json", "assets"], capture_output=True, text=True, cwd=GN).stdout)["assets"]
         a = [x["name"] for x in a if x["name"].startswith(f)] or [x["name"] for x in a]

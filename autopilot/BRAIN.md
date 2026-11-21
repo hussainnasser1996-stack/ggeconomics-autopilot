@@ -84,8 +84,8 @@ If trending.md shows a gaming story clearly blowing up that fits the pillars, it
 - Verify every figure on 2 sources (open them with WebFetch). Label estimates as estimates and name the estimator.
   If sources disagree, say so or drop the number. No leaks, no rumours as fact, no spoilers.
 - FOOTAGE CHECK before committing to a story: the build gets trailers from the Steam store (official publisher trailers)
-  or from the footage library (GTA VI: write `{"source": "library", "file": "gta6_"}`: official Rockstar/PlayStation videos only (Trailer 1, Trailer 2,
-Launch Trailer, Features Trailer, Pre-Load spot); the build takes the least-recently-used one. Never use fan compilations:
+  or from the footage library (GTA VI: write `{"source": "library", "file": "gta6_"}`: official Rockstar/PlayStation videos only (Trailer 1, Trailer 2, Launch Trailer;
+never the Features or Pre-Load files: they are PlayStation ads and the build swaps them out); the build takes the least-recently-used one. Never use fan compilations:
 they carry other creators' voices and burned-in text).
   Confirm the game has Steam trailers with WebFetch on
   `https://store.steampowered.com/api/storesearch/?cc=us&l=en&term=<game>` then
