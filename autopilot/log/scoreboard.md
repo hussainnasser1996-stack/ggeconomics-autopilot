@@ -9,13 +9,13 @@ Updated 2026-11-21. YouTube Analytics lags 1-3 days.
 | 2026-11-21c | — | — | — | — | 0 | Stardew Valley Costs You 28¢ an Hour. Worth It? |
 | 2026-11-21b | — | — | — | — | 0 | Red Dead 2 Costs You $1.18 an Hour. Worth It? |
 | 2026-11-21 | — | — | — | — | 0 | GTA 6 Sales: 32.5M Copies. Are You One? |
-| 2026-11-20c | 1374 | 146 | — | 0 | 1520 | Hollow Knight Costs You 56¢ an Hour. Worth It? |
+| 2026-11-20c | 1378 | 146 | — | 0 | 1524 | Hollow Knight Costs You 56¢ an Hour. Worth It? |
 | 2026-11-20b | 1124 | 127 | — | 0 | 1251 | GTA 6 Got 8 Game Awards Nominations Before Launch |
-| 2026-11-20 | 1081 | 117 | — | 0 | 1198 | GTA 6 Sales: Est. 19M Copies. Did You Buy It? |
-| 2026-11-19c | 1469 | 149 | — | 0 | 1618 | Cyberpunk 2077 Costs You $2.31 an Hour. Worth It? |
+| 2026-11-20 | 1086 | 117 | — | 0 | 1203 | GTA 6 Sales: Est. 19M Copies. Did You Buy It? |
+| 2026-11-19c | 1470 | 149 | — | 0 | 1619 | Cyberpunk 2077 Costs You $2.31 an Hour. Worth It? |
 | 2026-11-19b | 514 | 113 | — | 0 | 627 | GTA 6 vs GTA 5: You Waited 4,811 Days |
 | 2026-11-19 | 1032 | 249 | — | 0 | 1281 | GTA 6 Is Out: Your Console Runs It at 30 FPS |
-| 2026-11-18c | 852 | 100 | — | 0 | 952 | Baldur's Gate 3 Costs You 82¢ an Hour. Worth It? |
+| 2026-11-18c | 853 | 100 | — | 0 | 953 | Baldur's Gate 3 Costs You 82¢ an Hour. Worth It? |
 | 2026-11-18b | 53 | — | — | 0 | 53 | GTA 6 Beat Cyberpunk's 8M Pre-Order Record? |
 | 2026-11-18 | 1045 | 178 | — | 0 | 1223 | GTA 6 Unlocks Tonight: You Need 212 GB Free |
 | 2026-11-17c | 1228 | 127 | — | 0 | 1355 | Elden Ring Costs You $1 an Hour. Worth It? |
@@ -28,15 +28,15 @@ Updated 2026-11-21. YouTube Analytics lags 1-3 days.
 ## YouTube
 | published | views | avg view % | avg view s | kept 1s % | kept 3s % | 3s vs similar | likes | shares | subs+ | title |
 |---|---|---|---|---|---|---|---|---|---|---|
-| 2026-11-21 | 1081 | — | — | — | — | — | 6 | — | — | GTA 6 Sales: Est. 19M Copies. Did You Buy It? |
+| 2026-11-21 | 1086 | — | — | — | — | — | 6 | — | — | GTA 6 Sales: Est. 19M Copies. Did You Buy It? |
 | 2026-11-20 | 1124 | — | — | — | — | — | 7 | — | — | GTA 6 Got 8 Game Awards Nominations Before Launch |
-| 2026-11-20 | 1374 | — | — | — | — | — | 18 | — | — | Hollow Knight Costs You 56¢ an Hour. Worth It? |
+| 2026-11-20 | 1378 | — | — | — | — | — | 18 | — | — | Hollow Knight Costs You 56¢ an Hour. Worth It? |
 | 2026-11-19 | 1032 | — | — | — | — | — | 14 | — | — | GTA 6 Is Out: Your Console Runs It at 30 FPS |
 | 2026-11-19 | 514 | — | — | — | — | — | 2 | — | — | GTA 6 vs GTA 5: You Waited 4,811 Days |
-| 2026-11-19 | 1469 | — | — | — | — | — | 13 | — | — | Cyberpunk 2077 Costs You $2.31 an Hour. Worth It? |
+| 2026-11-19 | 1470 | — | — | — | — | — | 13 | — | — | Cyberpunk 2077 Costs You $2.31 an Hour. Worth It? |
 | 2026-11-18 | 1045 | 66.7 | 16 | 113 | 111 | 0.31 | 18 | 0 | 1 | GTA 6 Unlocks Tonight: You Need 212 GB Free |
 | 2026-11-18 | 53 | 81.3 | 13 | 133 | 125 | 0.51 | 0 | 0 | 0 | GTA 6 Beat Cyberpunk's 8M Pre-Order Record? |
-| 2026-11-18 | 852 | 80.4 | 12 | 122 | 118 | 0.47 | 3 | 0 | 0 | Baldur's Gate 3 Costs You 82¢ an Hour. Worth It? |
+| 2026-11-18 | 853 | 80.4 | 12 | 122 | 118 | 0.47 | 3 | 0 | 0 | Baldur's Gate 3 Costs You 82¢ an Hour. Worth It? |
 | 2026-11-17 | 670 | 72.2 | 18 | 121 | 114 | 0.41 | 12 | 4 | 0 | Your 2013 Xbox One Can Play GTA 6 on Day One |
 | 2026-11-17 | 21 | 43.6 | 10 | — | — | — | 0 | 0 | 0 | GTA 6: Take-Two Bets $8 Billion on Your $80 |
 | 2026-11-17 | 1228 | 83.1 | 12 | 125 | 119 | 0.49 | 9 | 1 | 1 | Elden Ring Costs You $1 an Hour. Worth It? |
