@@ -53,21 +53,25 @@ def ocr_words(f):
             if len(c) == 12 and c[11].strip() and float(c[10]) > 70 and sum(ch.isalpha() for ch in c[11]) >= 3: n += 1
     return n
 import re
-TITLE = {"grand", "theft", "auto", "rockstar", "playstation", "xbox", "nintendo", "steam", "trailer", "available", "preorder",
+TITLE = {"grand", "theft", "auto", "rockstar", "presents", "playstation", "xbox", "nintendo", "steam", "trailer", "available", "preorder",
          "pre-order", "order", "coming", "rated", "edition", "launch", "wishlist", "pre-load", "preload", "captured"}
 TITLE |= {w for w in re.findall(r"[a-z]{5,}", src.get("label", "").lower()) if not w.startswith(("gta", "official"))}
 def title_hit(f):
     """the game's own title/logo or a store card in the 9:16 crop (19b, 19 Nov: the GTA VI logo dissolving into the
     hook shot read as 'GRand ... auto' while ocr_words saw nothing confident). Any-confidence token match."""
     h, w = f.shape[:2]; cw = int(h * 9 / 16); x = (w - cw) // 2
-    g = cv2.cvtColor(f[:, x:x + cw], cv2.COLOR_BGR2GRAY)
-    for sc in (540, 270):
-        fd, p = tempfile.mkstemp(suffix=".png"); os.close(fd); cv2.imwrite(p, cv2.resize(g, (int(cw * sc / h), sc)))
+    c = f[:, x:x + cw]; g = cv2.cvtColor(c, cv2.COLOR_BGR2GRAY)
+    # chroma = strongest minus weakest channel: coloured lettering on a bright sky vanishes in grey (21b, 21 Nov: red
+    # "ROCKSTAR GAMES presents" over clouds read as nothing in grey, "KSTAR GAMES" in chroma)
+    ch = (c.max(2).astype(np.int16) - c.min(2)).clip(0, 255).astype(np.uint8)
+    for im, sc in ((g, 540), (g, 270), (ch, 540)):
+        fd, p = tempfile.mkstemp(suffix=".png"); os.close(fd); cv2.imwrite(p, cv2.resize(im, (int(cw * sc / h), sc)))
         try: out = subprocess.run(["tesseract", p, "-", "--psm", "11"], stdout=subprocess.PIPE, stderr=subprocess.DEVNULL, timeout=30).stdout.decode(errors="ignore")
         except Exception: out = ""
         os.remove(p)
         toks = set(re.findall(r"[a-z-]{4,}", out.lower()))
         if toks & TITLE or any(len(k) >= 5 and len(w) >= 6 and w.startswith(k[:6]) for k in toks for w in TITLE): return True   # 'playstatic'
+        if any(len(k) >= 5 and k in w for k in toks for w in TITLE): return True   # cropped logo: 'kstar' in 'rockstar'
 
     return False
 def textiness(f):
@@ -107,6 +111,10 @@ def scan(a, b):
         if not ok: break
         if i % step: continue
         t = a + i / FPS; hh = hist(f)
+        hgt, wid = f.shape[:2]; cw = int(hgt * 9 / 16)
+        if cv2.cvtColor(f[:, (wid - cw) // 2:(wid + cw) // 2], cv2.COLOR_BGR2GRAY).mean() < 20:   # fade-to-black dip
+            segs.append((seg0, t - 0.15, gmax)); seg0, gmax, prev = t + 0.25, 0.0, None   # = a cut (21b, 21 Nov: 0.2 s
+            continue                                                                        # black inside a "lit" shot)
         if prev is not None and cv2.compareHist(prev, hh, cv2.HISTCMP_CORREL) < 0.5:
             segs.append((seg0, t - 0.08, gmax)); seg0, gmax = t + 0.25, 0.0   # pad: dissolves span frames
         gmax = max(gmax, graphic(f)); prev = hh
@@ -156,9 +164,10 @@ while any(by_region):
     for r in rng.sample(range(regions), regions):
         if by_region[r]: order.append(by_region[r].pop(0))
 order += [s for s in cands if s not in pool]             # then every other clean shot before any reuse
-for s in order:
+CAP = 2.2 if len(cands) >= 8 else 3.4   # thin trailer (21b, 21 Nov: 6 clean shots): longer clips beat replaying one
+for s in order:                          # explosion 3x, which reads as a glitch
     if t >= need: break
-    a = s["start"] + 0.12; dur = round(min(2.2, s["end"] - 0.08 - a, max(1.2, need - t)), 2)
+    a = s["start"] + 0.12; dur = round(min(CAP, s["end"] - 0.08 - a, max(1.2, need - t)), 2)
     if dur < 1.2: continue
     picked.append({"src": tag, "from": round(a, 2), "dur": dur, "shot": s["id"]}); t += dur
 for s in sorted(cands, key=lambda s: -s["dur"]):          # long shots: use their second half too
@@ -166,10 +175,17 @@ for s in sorted(cands, key=lambda s: -s["dur"]):          # long shots: use thei
     if s["dur"] >= 3.2 and any(p["shot"] == s["id"] for p in picked):
         a = s["start"] + s["dur"] / 2 + 0.1; dur = round(min(2.0, s["end"] - 0.08 - a), 2)
         if dur >= 1.2: picked.append({"src": tag, "from": round(a, 2), "dur": dur, "shot": s["id"]}); t += dur
-k = 0
-while t < need and picked:                                # still short: reuse a pick from the other half of the video
-    s = dict(picked[(k * 3 + len(picked) // 2) % len(picked)]); s["from"] = round(s["from"] + 0.3, 2); s["dur"] = max(1.2, s["dur"] - 0.3)
-    picked.append(s); t += s["dur"]; k += 1
+firsts = list(picked)
+while t < need and picked:                                # still short: reuse the LEAST-used shot (the old index formula
+    n_used = {}                                           # replayed 21b's explosion 4x), shifted 0.3 s, kept inside it
+    for p in picked: n_used[p["shot"]] = n_used.get(p["shot"], 0) + 1
+    s = dict(min(firsts, key=lambda c: (n_used[c["shot"]], -c["dur"])))
+    s["from"] = round(s["from"] + 0.3, 2); s["dur"] = max(1.2, s["dur"] - 0.3)
+    sh = next((c for c in cands if c["id"] == s["shot"]), None)
+    if sh and s["from"] + s["dur"] > sh["end"] - 0.08:     # never run past the shot into a fade/cut
+        s["from"] = round(max(sh["start"] + 0.12, sh["end"] - 0.08 - s["dur"]), 2)
+        s["dur"] = round(min(s["dur"], sh["end"] - 0.08 - s["from"]), 2)
+    picked.append(s); t += s["dur"]
 # hook first: the single highest-scoring shot opens the video
 info = {x["id"]: x for x in cands}
 bright = [c for c in picked if info.get(c["shot"], {}).get("lum", 0) >= 60]   # the hook frame must read instantly
