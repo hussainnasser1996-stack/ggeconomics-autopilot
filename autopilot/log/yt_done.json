@@ -195,5 +195,21 @@
    "id",
    "pt-BR"
   ]
+ },
+ "2026-11-21c": {
+  "video": "6hWXm7KaFMo",
+  "series": "cost_per_hour",
+  "playlist": "ok",
+  "blocked_in": 0,
+  "allowed_only": null,
+  "music": "game",
+  "localized": [
+   "ar",
+   "en",
+   "es",
+   "hi",
+   "id",
+   "pt-BR"
+  ]
  }
 }
