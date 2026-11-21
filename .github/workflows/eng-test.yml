@@ -17,9 +17,12 @@ jobs:
       - name: Dry build on the branch
         run: |
           B="${{ github.ref_name }}"; before=$(date -u +%Y-%m-%dT%H:%M:%SZ)
-          gh workflow run build.yml --ref "$B" -f date=2026-12-31 -f dry=true; sleep 15
-          ID=$(gh run list --workflow build.yml --branch "$B" --limit 1 --json databaseId -q '.[0].databaseId')
-          gh run watch "$ID" --exit-status --interval 30
+          # 21 Nov: also the music-only post (12-31c): edits render different code (no captions, text cards for uncarded lines)
+          for T in 2026-12-31 2026-12-31c; do
+            gh workflow run build.yml --ref "$B" -f date=$T -f dry=true; sleep 15
+            ID=$(gh run list --workflow build.yml --branch "$B" --limit 1 --json databaseId -q '.[0].databaseId')
+            gh run watch "$ID" --exit-status --interval 30
+          done
       - name: Merge into main
         run: |
           git config user.name "GG Economics bot" && git config user.email "bot@users.noreply.github.com"

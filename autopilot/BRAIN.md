@@ -6,7 +6,7 @@ in Buffer for 23:00 UTC. Your job ends at `git push`. Never print or commit a se
 
 Target date D = the date in the prompt (UTC). Paths are relative to the repo root.
 
-**Volume:** write `posts_per_day` posts for D (CONTROL.md; 3 while D ≤ `launch_window_until`). The main post lives in
+**Volume:** write `posts_per_day` posts for D (CONTROL.md; 3 from 21 Nov on, CEO decision in GROWTH.md). The main post lives in
 `autopilot/queue/D/` (23:00 UTC, the strongest story, carousel on carousel days). Extra posts live in `autopilot/queue/Db/`
 (17:30 UTC) and `autopilot/queue/Dc/` (12:00 UTC), each with `"publish_time_utc": "17:30"` / `"12:00"` in its post.json, the
 same five files minus carousel.json, script id `d_<D_>b` / `d_<D_>c`. Every post on a day must be a DIFFERENT story AND a
@@ -24,7 +24,7 @@ different format (see the format menu). Do steps 2–6 once per post.
 1. **Daily series with a number:** "GTA VI: Day N after launch" / "N days to <big launch>": one money fact a day; the last
    line teases tomorrow ("Day N+1 tomorrow"). Series give people a reason to subscribe. Tag `<GAME> · DAY N`.
 2. **Cost per hour verdict:** price ÷ hours to beat (HowLongToBeat main story) = $/hour, vs a movie ticket (~$12 for 2 h = $6/h).
-   Our own calculation = original content. End on the verdict + "Worth it? Comment."
+   Our own calculation = original content. Tag `COST PER HOUR #N`; last line "Comment a game. We price it next." (GROWTH.md E2).
 3. **Ranked 5 → 1:** "Top 5 most expensive games ever made" etc. Hook line names the list and promises #1; one card per
    rank, short lines; #1 last.
 4. **Real or rumour?** A claim → "Real or rumour? Comment before the answer." → the answer with its source. Only verified
@@ -41,7 +41,7 @@ Rules for every format: a number on screen and in the first words; ≤ 50-charac
 make the last line flow back into the first so the Short loops; one pinned-comment style question at the end of the caption.
 
 ## 0. State
-1. Read `autopilot/CONTROL.md`, `autopilot/STRATEGY.md`, `autopilot/BENCHMARK.md` (winners' patterns),
+1. Read `autopilot/GROWTH.md` FIRST (the CEO's live plan + experiments; it overrides every other file here), then `autopilot/CONTROL.md`, `autopilot/STRATEGY.md`, `autopilot/BENCHMARK.md` (winners' patterns),
    `autopilot/research/topics.md`, `autopilot/log/learned.md`, the top 20 lines of `autopilot/log/history.md`,
    `autopilot/log/scoreboard.md`, `autopilot/research/trending.md` (both refreshed by the build job's analytics step).
 2. `mode: paused` or D in `skip_dates` → stop. Write only the slots (D, Db, Dc) whose script.json does not exist yet; if all exist → stop.
@@ -67,7 +67,12 @@ For each post 2–10 days old in scoreboard.md, explain the number with evidence
   people mid-way: find the line where it sagged (read that day's `queue/<date>/script.json`). Topic nobody watches → trending.md.
 - High views: name the variable that differed (topic, hook wording, number size, footage, length).
 - Instagram: saves and shares beat likes. Many saves = reference content → more of that format.
-Only claim causes the data supports; with < 5 posts say "too early". Write 3–6 dated bullets at the top of
+Only claim causes the data supports. Never write "too early" for an experiment in GROWTH.md that has its sample: close it.
+**Experiments (GROWTH.md, owner's rule 21 Nov: the CEO decides, Husain does not):** for every live experiment whose decision
+date is ≤ D, apply its rule and ACT the same night: ADOPT → edit BRAIN.md/learned.md so it becomes the default, move it to
+"Adopted"; KILL → undo it, move it to "Killed"; then start the top "Next up" item with its own arms, metric, sample and
+decision date. Every review ends with one `EXPERIMENTS:` line (each live test: arm counts so far, leader, decision date).
+Every post you write must follow its experiment arm and record it in post.json `"experiment": {...}`. Write 3–6 dated bullets at the top of
 `autopilot/log/review.md`. Keep `autopilot/log/learned.md` as the rulebook (add a rule only after it held on 3+ posts;
 delete rules the data contradicts). learned.md overrides STRATEGY.md defaults.
 If trending.md shows a gaming story clearly blowing up that fits the pillars, it beats the topic bank today.

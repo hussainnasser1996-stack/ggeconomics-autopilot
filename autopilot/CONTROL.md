@@ -4,7 +4,7 @@ mode: auto               # dry_run = build + queue locally, no publishing | auto
 footage_policy: downloaded_as_is   # Husain's decision 2026-11-15: any YouTube source may be used; always add our narration/data/credit
 platforms: [youtube_shorts, instagram_reels, tiktok]   # Buffer Free: 3 channels (all used); TikTok added 17 Nov
 publish_time_utc: "23:00"   # main Short (queue/<D>)
-posts_per_day: 2            # 2 = main + a second Short at 17:30 UTC (queue/<D>b); 3 adds 12:00 UTC (queue/<D>c) for launch weeks
+posts_per_day: 3            # CEO 21 Nov (GROWTH.md): 3 stays after the launch window. Each Short is a ~1,000-view test; more tests = faster learning
 extra_slots_utc: ["17:30", "12:00"]   # 19 Nov: b moved 16:00→17:30. All 3 weak YT Shorts (11, 29 views; others 294-1177) were 16:00, only 4 h after c; test even 5.5 h spacing. Review 26 Nov.
 carousel_days: [Mon, Wed, Fri]
 longform_day: Sun           # phase 2: needs the new channel's YouTube API token

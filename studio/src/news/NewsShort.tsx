@@ -176,7 +176,11 @@ export const NewsShort: React.FC<{ spec: ShortSpec }> = ({ spec }) => {
       <Audio src={staticFile(spec.vo)} />
       {!spec.noBed && <Audio src={staticFile("sfx/bed_loop.wav")} volume={(f) => interpolate(f, [0, 10, voEnd, voEnd + 20], [0, 0.16, 0.16, 0], { extrapolateRight: "clamp" })} />}
       {/* cards, keyed to VO lines */}
-      {spec.cards.map((c, i) => {
+      {(spec.noCaptions
+        ? [...spec.cards, ...spec.timeline.lines.filter((l) => !spec.cards.some((c) => c.line === l.id))
+            .map((l: any) => ({ kind: "text", line: l.id, text: String(l.text ?? ""), color: /\?$/.test(String(l.text ?? "").trim()) ? C.lime : undefined } as Card))]
+            .sort((a, b) => (lineById[a.line]?.start ?? 0) - (lineById[b.line]?.start ?? 0))
+        : spec.cards).map((c, i) => {
         const l = lineById[c.line]; if (!l) return null;
         const isFirst = i === 0;
         const from = isFirst ? -14 : Math.round(l.start * fps) - 3;               // hook card already on screen at frame 0

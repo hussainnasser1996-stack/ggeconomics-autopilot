@@ -86,7 +86,9 @@ if ch.get("instagram"):
         "metadata": {"instagram": {"type": "reel", "shouldShareToFeed": True, "isAiGenerated": not is_edit}}}))   # firstComment needs Buffer paid (tested 16 Nov)   # Meta: realistic AI audio (our narrator) → disclose
     if slides:
         due2 = due if rebook else f"{DATE}T{(int(hh) - 8) % 24:02d}:{mm}:00.000Z"   # carousel ~8h before the Reel
-        jobs.append(("instagram_carousel", {"text": text[:2200], "channelId": ch["instagram"], "schedulingType": "automatic",
+        ctext = (post.get("carousel_caption") or text)   # E4 (GROWTH.md, 21 Nov): its own caption, never a copy of the Reel's
+        if post.get("carousel_caption") and post.get("hashtags"): ctext += "\n\n" + " ".join([h for h in post["hashtags"] if h.lower() != "#shorts"][:5])
+        jobs.append(("instagram_carousel", {"text": ctext[:2200], "channelId": ch["instagram"], "schedulingType": "automatic",
             "mode": "customScheduled", "dueAt": due2, "assets": [{"image": {"url": u}} for u in urls["images"]],
             "metadata": {"instagram": {"type": "post", "shouldShareToFeed": True}}}))
 if ch.get("tiktok"):   # added 17 Nov 2026: same Short to TikTok @ggeconomics

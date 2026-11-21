@@ -7,7 +7,8 @@ export type Card =
   | { kind: "pair"; line: string; a: { value: string; label: string }; b: { value: string; label: string }; note?: string }
   | { kind: "bars"; line: string; title: string; bars: { label: string; lo: number; hi?: number; color: string; text: string }[]; unit: string; note?: string }
   | { kind: "quote"; line: string; text: string; who: string; note?: string }
-  | { kind: "date"; line: string; big: string; small: string; note?: string };
+  | { kind: "date"; line: string; big: string; small: string; note?: string }
+  | { kind: "text"; line: string; text: string; color?: string };
 
 /** Enter: snappy spring up + blur-in; exit handled by parent via `exitAt` */
 const useEnter = (local: number, delay = 0) => {
@@ -50,6 +51,15 @@ export const CardView: React.FC<{ card: Card; local: number; dur: number; u: num
         <div style={{ ...e0.style, fontFamily: DISPLAY, fontWeight: 900, fontSize: 170 * u, color: col, lineHeight: 1, letterSpacing: -4 * u, textShadow: `0 0 ${40 * u}px ${col}55` }}>{shown}</div>
         <div style={{ ...useEnter(local, 4).style, fontFamily: SANS, fontWeight: 800, fontSize: 40 * u, color: C.white, marginTop: 14 * u, letterSpacing: 2 * u, textTransform: "uppercase", textAlign: "center" }}>{card.label}</div>
         <Note text={card.note} local={local} u={u} />
+      </Panel>
+    );
+  }
+  if (card.kind === "text") {
+    // music-only edits have no captions: a line without a number card is shown as words (21 Nov: the closing question
+    // and the maths line were invisible, so no Short ever asked the viewer anything on screen)
+    return (
+      <Panel u={u} out={out}>
+        <div style={{ ...e0.style, fontFamily: DISPLAY, fontWeight: 900, fontSize: 74 * u, color: card.color ?? C.white, lineHeight: 1.08, textAlign: "center", textTransform: "uppercase", maxWidth: 820 * u }}>{card.text}</div>
       </Panel>
     );
   }
