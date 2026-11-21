@@ -74,3 +74,6 @@ jobs:
           git add -A "autopilot/longform/$P" && git commit -qm "long-form $P built$([ -f autopilot/longform/$P/uploaded.json ] && echo ' + uploaded')" || exit 0
           for i in 1 2 3; do git pull -q --rebase -X theirs && git push -q && break; sleep 5; done
           [ -f "autopilot/longform/$P/uploaded.json" ] && python3 autopilot/scripts/notify.py "Long video $P uploaded, public Saturday 16:00 UTC" || true
+      - name: Tell the owner it failed
+        if: failure() && env.DRY == '0'
+        run: python3 autopilot/scripts/notify.py "Weekly long video $P FAILED to build/upload: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}" || true

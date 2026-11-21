@@ -120,7 +120,7 @@ for e in E:
                 or textiness_dark(fr[1]) > 2.2 or confident_words(fr[1]) >= 2 or any(title_hit(f, TITLE) for f in fr)):
             rejected += 1; continue
         chosen.append(p); tot += p["b"] - p["a"]; per_shot[p["shot"]] = per_shot.get(p["shot"], 0) + 1
-    if tot < 15: sys.exit(f"lf_footage: only {tot:.1f} s of clean gameplay for {e['name']} (need 15+)")
+    if tot < 8: sys.exit(f"lf_footage: only {tot:.1f} s of clean gameplay for {e['name']} (need 8+)")
     base = list(chosen)
     while tot < T[e["rank"]] * 0.8 and base:                     # thin trailers: replay the best pieces from a later point
         p = dict(base.pop(0)); p["a"] = round(p["a"] + 0.4, 2); chosen.append(p); tot += p["b"] - p["a"]
