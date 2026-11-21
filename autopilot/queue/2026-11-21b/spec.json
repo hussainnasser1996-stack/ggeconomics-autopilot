@@ -1,8 +1,8 @@
 {
  "spec": {
-  "tag": "RED DEAD 2 · COST PER HOUR",
-  "headline": "RED DEAD 2 COSTS |$1.18 AN HOUR|",
-  "topic": "Red Dead Redemption 2 $59.99 on Steam (US, no discount, 21 Nov 2026) ÷ HowLongToBeat main story 51 h (182,696 s, 2,493 submissions) = $1.18/h; completionist 196 h (706,937 s) = $0.31/h; vs ~$12 movie for 2 h = $6/h",
+  "tag": "RED DEAD 2 \u00b7 COST PER HOUR",
+  "headline": "RED DEAD 2 COSTS |$1.18\u00a0AN\u00a0HOUR|",
+  "topic": "Red Dead Redemption 2 $59.99 on Steam (US, no discount, 21 Nov 2026) \u00f7 HowLongToBeat main story 51 h (182,696 s, 2,493 submissions) = $1.18/h; completionist 196 h (706,937 s) = $0.31/h; vs ~$12 movie for 2 h = $6/h",
   "vo": "vo/d_2026_11_21b/vo.wav",
   "timelinePath": "vo/d_2026_11_21b/timeline.json",
   "timeline": {
@@ -11,14 +11,92 @@
    "words": []
   },
   "noBed": true,
-  "clips": [],
+  "clips": [
+   {
+    "src": "d_2026_11_21b",
+    "from": 11.57,
+    "dur": 1.55,
+    "shot": 5,
+    "zoom": 1.275
+   },
+   {
+    "src": "d_2026_11_21b",
+    "from": 43.17,
+    "dur": 2.2,
+    "shot": 22,
+    "zoom": 1.275
+   },
+   {
+    "src": "d_2026_11_21b",
+    "from": 26.37,
+    "dur": 2.2,
+    "shot": 10,
+    "zoom": 1.275
+   },
+   {
+    "src": "d_2026_11_21b",
+    "from": 31.37,
+    "dur": 1.82,
+    "shot": 13,
+    "zoom": 1.275
+   },
+   {
+    "src": "d_2026_11_21b",
+    "from": 49.9,
+    "dur": 1.29,
+    "shot": 26,
+    "zoom": 1.275
+   },
+   {
+    "src": "d_2026_11_21b",
+    "from": 35.9,
+    "dur": 1.29,
+    "shot": 17,
+    "zoom": 1.275
+   },
+   {
+    "src": "d_2026_11_21b",
+    "from": 50.2,
+    "dur": 1.2,
+    "shot": 26,
+    "zoom": 1.275
+   },
+   {
+    "src": "d_2026_11_21b",
+    "from": 31.67,
+    "dur": 1.52,
+    "shot": 13,
+    "zoom": 1.275
+   },
+   {
+    "src": "d_2026_11_21b",
+    "from": 50.5,
+    "dur": 1.2,
+    "shot": 26,
+    "zoom": 1.275
+   },
+   {
+    "src": "d_2026_11_21b",
+    "from": 11.87,
+    "dur": 1.25,
+    "shot": 5,
+    "zoom": 1.275
+   },
+   {
+    "src": "d_2026_11_21b",
+    "from": 50.8,
+    "dur": 1.2,
+    "shot": 26,
+    "zoom": 1.275
+   }
+  ],
   "cards": [
    {
     "kind": "big",
     "line": "hook",
     "value": "$1.18/HR",
     "label": "Red Dead Redemption 2, main story",
-    "note": "$59.99 Steam ÷ 51 h HowLongToBeat · our math",
+    "note": "$59.99 Steam \u00f7 51 h HowLongToBeat \u00b7 our math",
     "color": "#D4FF3A"
    },
    {
@@ -37,13 +115,13 @@
    {
     "kind": "big",
     "line": "full",
-    "value": "31¢/HR",
+    "value": "31\u00a2/HR",
     "label": "if you go 100%",
-    "note": "196 h completionist · HowLongToBeat",
+    "note": "196 h completionist \u00b7 HowLongToBeat",
     "color": "#D4FF3A"
    }
   ],
-  "credit": "GAMEPLAY: ROCKSTAR GAMES · DATA: STEAM, HOWLONGTOBEAT",
+  "credit": "GAMEPLAY: ROCKSTAR GAMES \u00b7 DATA: STEAM, HOWLONGTOBEAT",
   "endLine": "FOLLOW FOR COST PER HOUR",
   "noCaptions": true
  }

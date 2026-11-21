@@ -1,5 +1,6 @@
 # Post history (newest first)
 
+- 2026-11-21b · Red Dead 2 Costs You $1.18 an Hour. Worth It? · footage: Red Dead Redemption 2 — RDR2 Launch Trailer (US) · VO similarity 1.00 · youtube_short 6b00e7399ffbc8503ce8630f · instagram_reel 6b00e73a9ffbc8503ce8636f · tiktok_video 6b00e73b20a2d09a0ac0892a · due 23:00 UTC
 - 2026-11-21 · GTA 6 Sales: 32.5M Copies. Are You One? · footage: gta6_trailer_QdBZY2fkU-0.mp4 · VO similarity 1.00 · youtube_short 6b00e4f29ffbc8503ce7afae · instagram_reel 6b00e4f3dd205ed779a90f37 · tiktok_video 6b00e4f420a2d09a0abfd3a7 · due 23:00 UTC
 - 2026-11-20c · Hollow Knight Costs You 56¢ an Hour. Worth It? · footage: Hollow Knight — Release Trailer · VO similarity 1.00 · instagram_reel 6affee36ca85ebefb001e619 · tiktok_video 6affee360f5eda1a57cabf7e · due 23:00 UTC
 - 2026-11-20b · GTA 6 Got 8 Game Awards Nominations Before Launch · footage: gta6_trailer_VQRLujxTm3c.mp4 · VO similarity 1.00 · youtube_short 6aff9ade7b0a126ceb96c368 · instagram_reel 6aff9adf0f5eda1a57acf950 · tiktok_video 6aff9ae0738ce4635f75117c · due 23:00 UTC
