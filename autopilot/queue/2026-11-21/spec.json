@@ -1,6 +1,6 @@
 {
  "spec": {
-  "tag": "GTA VI · DAY 3",
+  "tag": "GTA VI \u00b7 DAY 3",
   "headline": "GTA 6 MADE |$3.79B| ON DAY ONE",
   "topic": "GTA 6 day 3: Take-Two/Rockstar announced Fri 20 Nov 2026: $3.79B in sales and 32.5M copies through the end of launch day 19 Nov (pre-orders included). GTA V 2013 first 24 h: $815.7M / 11.21M (Take-Two). 3.79/0.8157 = 4.6x (our math). Sources: CNN Business (20 Nov), TweakTown (20 Nov), GameSpot headline",
   "vo": "vo/d_2026_11_21/vo.wav",
@@ -11,14 +11,69 @@
    "words": []
   },
   "noBed": true,
-  "clips": [],
+  "clips": [
+   {
+    "src": "d_2026_11_21",
+    "from": 27.57,
+    "dur": 1.35,
+    "shot": 14
+   },
+   {
+    "src": "d_2026_11_21",
+    "from": 6.63,
+    "dur": 1.76,
+    "shot": 3
+   },
+   {
+    "src": "d_2026_11_21",
+    "from": 21.83,
+    "dur": 1.36,
+    "shot": 11
+   },
+   {
+    "src": "d_2026_11_21",
+    "from": 35.77,
+    "dur": 1.62,
+    "shot": 20
+   },
+   {
+    "src": "d_2026_11_21",
+    "from": 55.1,
+    "dur": 2.15,
+    "shot": 33
+   },
+   {
+    "src": "d_2026_11_21",
+    "from": 72.97,
+    "dur": 2.2,
+    "shot": 45
+   },
+   {
+    "src": "d_2026_11_21",
+    "from": 37.57,
+    "dur": 2.15,
+    "shot": 21
+   },
+   {
+    "src": "d_2026_11_21",
+    "from": 23.37,
+    "dur": 1.42,
+    "shot": 12
+   },
+   {
+    "src": "d_2026_11_21",
+    "from": 74.79,
+    "dur": 1.66,
+    "shot": 45
+   }
+  ],
   "cards": [
    {
     "kind": "big",
     "line": "hook",
     "value": "$3.79B",
     "label": "GTA 6 sales by end of day one",
-    "note": "Take-Two, 20 Nov · pre-orders included",
+    "note": "Take-Two, 20 Nov \u00b7 pre-orders included",
     "color": "#D4FF3A"
    },
    {
@@ -26,7 +81,7 @@
     "line": "copies",
     "value": "32.5M",
     "label": "copies sold",
-    "note": "Take-Two official · pre-orders + launch day",
+    "note": "Take-Two official \u00b7 pre-orders + launch day",
     "color": "#3AE0FF"
    },
    {
@@ -40,10 +95,10 @@
      "value": "$816M",
      "label": "GTA 5, FIRST 24 H"
     },
-    "note": "GTA 5: Sept 2013 · Take-Two · 4.6x is our math"
+    "note": "GTA 5: Sept 2013 \u00b7 Take-Two \u00b7 4.6x is our math"
    }
   ],
-  "credit": "GAMEPLAY: ROCKSTAR GAMES · DATA: TAKE-TWO",
+  "credit": "GAMEPLAY: ROCKSTAR GAMES \u00b7 DATA: TAKE-TWO",
   "endLine": "FOLLOW FOR GTA 6 DAY 4",
   "noCaptions": true
  }
