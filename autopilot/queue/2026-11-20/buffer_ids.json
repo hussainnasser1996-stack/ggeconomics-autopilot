@@ -1,7 +1,6 @@
 {
  "due": "2026-11-20T23:00:00.000Z",
  "ids": {
-  "youtube_short": "6aff96b64c1afd05dedc9ec9",
   "instagram_reel": "6aff96b77b0a126ceb954a78",
   "instagram_carousel": "6aff96b7d5f8acdd0d5b9931",
   "tiktok_video": "6aff96b8738ce4635f73d8d1"
@@ -15,5 +14,13 @@
    "https://raw.githubusercontent.com/hussainnasser1996-stack/savestate-media/main/img/2026-11-20-7c9d702a-slide_4.png",
    "https://raw.githubusercontent.com/hussainnasser1996-stack/savestate-media/main/img/2026-11-20-7c9d702a-slide_5.png"
   ]
+ },
+ "replaced": [
+  {
+   "youtube_short": "6aff96b64c1afd05dedc9ec9"
+  }
+ ],
+ "direct": {
+  "youtube_short": "xJKDG8gJ8X8"
  }
 }

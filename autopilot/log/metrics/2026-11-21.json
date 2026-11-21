@@ -1,0 +1,1252 @@
+{
+ "date": "2026-11-21",
+ "youtube": {
+  "channel": {
+   "id": "UCpsoR_hS2XJT-Yv7UN0qZbQ",
+   "viewCount": 6765,
+   "subscriberCount": 4,
+   "videoCount": 14
+  },
+  "traffic_sources": {
+   "SHORTS": 4383,
+   "YT_SEARCH": 320,
+   "YT_OTHER_PAGE": 101,
+   "YT_CHANNEL": 41,
+   "EXT_URL": 14,
+   "SUBSCRIBER": 4,
+   "PLAYLIST": 1,
+   "NO_LINK_OTHER": 0
+  },
+  "videos": {
+   "nKFE5F2_bvs": {
+    "title": "GTA 6 Got 8 Game Awards Nominations Before Launch",
+    "published": "2026-11-20",
+    "views": 1124,
+    "likes": 7,
+    "comments": 1
+   },
+   "rYs3I31mOTs": {
+    "title": "Hollow Knight Costs You 56\u00a2 an Hour. Worth It?",
+    "published": "2026-11-20",
+    "views": 1370,
+    "likes": 18,
+    "comments": 5
+   },
+   "NxhZJnczHb4": {
+    "title": "GTA 6 Is Out: Your Console Runs It at 30 FPS",
+    "published": "2026-11-19",
+    "views": 1025,
+    "likes": 14,
+    "comments": 3
+   },
+   "aN_kp9u4ZXo": {
+    "title": "GTA 6 vs GTA 5: You Waited 4,811 Days",
+    "published": "2026-11-19",
+    "views": 514,
+    "likes": 2,
+    "comments": 1
+   },
+   "I5ZLMocjk2k": {
+    "title": "Cyberpunk 2077 Costs You $2.31 an Hour. Worth It?",
+    "published": "2026-11-19",
+    "views": 1463,
+    "likes": 12,
+    "comments": 12
+   },
+   "a92DfUx8zTw": {
+    "title": "GTA 6 Unlocks Tonight: You Need 212 GB Free",
+    "published": "2026-11-18",
+    "views": 1045,
+    "likes": 18,
+    "comments": 4,
+    "an_views": 858,
+    "avg_view_s": 16,
+    "avg_view_pct": 66.7,
+    "subs": 1,
+    "shares": 0,
+    "hold_1s": 113,
+    "hold_3s": 111,
+    "hold_end": 23,
+    "vs_similar_3s": 0.31,
+    "dur_s": 24
+   },
+   "gEIsDaTmYII": {
+    "title": "GTA 6 Beat Cyberpunk's 8M Pre-Order Record?",
+    "published": "2026-11-18",
+    "views": 53,
+    "likes": 0,
+    "comments": 1,
+    "an_views": 29,
+    "avg_view_s": 13,
+    "avg_view_pct": 81.3,
+    "subs": 0,
+    "shares": 0,
+    "hold_1s": 133,
+    "hold_3s": 125,
+    "hold_end": 42,
+    "vs_similar_3s": 0.51,
+    "dur_s": 16
+   },
+   "WNOKpKZ_STA": {
+    "title": "Baldur's Gate 3 Costs You 82\u00a2 an Hour. Worth It?",
+    "published": "2026-11-18",
+    "views": 852,
+    "likes": 3,
+    "comments": 1,
+    "an_views": 785,
+    "avg_view_s": 12,
+    "avg_view_pct": 80.4,
+    "subs": 0,
+    "shares": 0,
+    "hold_1s": 122,
+    "hold_3s": 118,
+    "hold_end": 36,
+    "vs_similar_3s": 0.47,
+    "dur_s": 15
+   },
+   "k1zkAfgzYeE": {
+    "title": "Your 2013 Xbox One Can Play GTA 6 on Day One",
+    "published": "2026-11-17",
+    "views": 670,
+    "likes": 12,
+    "comments": 3,
+    "an_views": 590,
+    "avg_view_s": 18,
+    "avg_view_pct": 72.2,
+    "subs": 0,
+    "shares": 4,
+    "hold_1s": 121,
+    "hold_3s": 114,
+    "hold_end": 29,
+    "vs_similar_3s": 0.41,
+    "dur_s": 25
+   },
+   "qk-9G5Knq5U": {
+    "title": "GTA 6: Take-Two Bets $8 Billion on Your $80",
+    "published": "2026-11-17",
+    "views": 21,
+    "likes": 0,
+    "comments": 1,
+    "an_views": 13,
+    "avg_view_s": 10,
+    "avg_view_pct": 43.6,
+    "subs": 0,
+    "shares": 0
+   },
+   "zK7fa0dTrDc": {
+    "title": "Elden Ring Costs You $1 an Hour. Worth It?",
+    "published": "2026-11-17",
+    "views": 1227,
+    "likes": 9,
+    "comments": 3,
+    "an_views": 1179,
+    "avg_view_s": 12,
+    "avg_view_pct": 83.1,
+    "subs": 1,
+    "shares": 1,
+    "hold_1s": 125,
+    "hold_3s": 119,
+    "hold_end": 35,
+    "vs_similar_3s": 0.49,
+    "dur_s": 15
+   },
+   "xee1vvJZ5L4": {
+    "title": "GTA 6 Might Make $1 Billion Before You Can Even Play It",
+    "published": "2026-11-16",
+    "views": 810,
+    "likes": 12,
+    "comments": 1,
+    "an_views": 806,
+    "avg_view_s": 14,
+    "avg_view_pct": 61.8,
+    "subs": 0,
+    "shares": 1,
+    "hold_1s": 110,
+    "hold_3s": 106,
+    "hold_end": 20,
+    "vs_similar_3s": 0.24,
+    "dur_s": 24
+   },
+   "ct7tlizYNYQ": {
+    "title": "GTA 6 Costs You $79.99. GTA 5 Cost More",
+    "published": "2026-11-16",
+    "views": 328,
+    "likes": 0,
+    "comments": 1,
+    "an_views": 313,
+    "avg_view_s": 13,
+    "avg_view_pct": 54.9,
+    "subs": 0,
+    "shares": 0,
+    "hold_1s": 107,
+    "hold_3s": 102,
+    "hold_end": 11,
+    "vs_similar_3s": 0.19,
+    "dur_s": 24
+   },
+   "2lyn0JAlPoU": {
+    "title": "Rockstar Made 2 of the 5 Best-Selling Games Ever",
+    "published": "2026-11-16",
+    "views": 294,
+    "likes": 2,
+    "comments": 1,
+    "an_views": 293,
+    "avg_view_s": 17,
+    "avg_view_pct": 68.4,
+    "subs": 0,
+    "shares": 1,
+    "hold_1s": 110,
+    "hold_3s": 110,
+    "hold_end": 19,
+    "vs_similar_3s": 0.3,
+    "dur_s": 25
+   }
+  }
+ },
+ "instagram": {
+  "6b004a553ccc9e6b2ae27e74": {
+   "sent": "2026-11-19",
+   "text": "GTA 6 launches November 19 and the download is up to 212 GB ",
+   "link": "https://www.instagram.com/reel/Df7WkXvNk9v/",
+   "service": "instagram",
+   "reactions": 2,
+   "comments": 0,
+   "engagementRate": 1.3,
+   "views": 177,
+   "shares": 0,
+   "saves": 0,
+   "totalTimeWatched": 22.19,
+   "averageTimeWatched": 8.59,
+   "reach": 154
+  },
+  "6affee36ca85ebefb001e619": {
+   "sent": "2026-11-20",
+   "text": "A movie costs you $6 an hour. Hollow Knight costs 56 cents. ",
+   "link": "https://www.instagram.com/reel/Df9m6HzpnQX/",
+   "service": "instagram",
+   "reactions": 0,
+   "comments": 1,
+   "engagementRate": 0.88,
+   "views": 144,
+   "shares": 0,
+   "saves": 0,
+   "totalTimeWatched": 15.09,
+   "averageTimeWatched": 7.74,
+   "reach": 114
+  },
+  "6affee360f5eda1a57cabf7e": {
+   "sent": "2026-11-20",
+   "text": "A movie costs you $6 an hour. Hollow Knight costs 56 cents. ",
+   "link": "https://www.tiktok.com/@ggeconomics/video/7710222630145559828?utm_campaign=tt4d_open_api&utm_source=7103819247981182978",
+   "service": "tiktok",
+   "reactions": 0,
+   "comments": 0,
+   "engagementRate": 0,
+   "views": 0,
+   "shares": 0,
+   "reach": 0,
+   "totalTimeWatched": 0,
+   "averageTimeWatched": 0
+  },
+  "6aff9ae0738ce4635f75117c": {
+   "sent": "2026-11-20",
+   "text": "8 nominations for a game nobody could buy yet. GTA 6 leads T",
+   "link": "https://www.tiktok.com/@ggeconomics/video/7710307534774521106?utm_campaign=tt4d_open_api&utm_source=7103819247981182978",
+   "service": "tiktok",
+   "reactions": 0,
+   "comments": 0,
+   "engagementRate": 0,
+   "views": 0,
+   "shares": 0,
+   "reach": 0,
+   "totalTimeWatched": 0,
+   "averageTimeWatched": 0
+  },
+  "6aff9adf0f5eda1a57acf950": {
+   "sent": "2026-11-20",
+   "text": "8 nominations for a game nobody could buy yet. GTA 6 leads T",
+   "link": "https://www.instagram.com/reel/Df-MlxXxsTm/",
+   "service": "instagram"
+  },
+  "6aff96b8738ce4635f73d8d1": {
+   "sent": "2026-11-20",
+   "text": "19 million copies before most people even got home from work",
+   "link": "https://www.tiktok.com/@ggeconomics/video/7710392609340001556?utm_campaign=tt4d_open_api&utm_source=7103819247981182978",
+   "service": "tiktok",
+   "reactions": 0,
+   "comments": 0,
+   "engagementRate": 0,
+   "views": 0,
+   "shares": 0,
+   "reach": 0,
+   "totalTimeWatched": 0,
+   "averageTimeWatched": 0
+  },
+  "6aff96b7d5f8acdd0d5b9931": {
+   "sent": "2026-11-20",
+   "text": "19 million copies before most people even got home from work",
+   "link": "https://www.instagram.com/p/Df97uKglPz9/",
+   "service": "instagram"
+  },
+  "6aff96b77b0a126ceb954a78": {
+   "sent": "2026-11-20",
+   "text": "19 million copies before most people even got home from work",
+   "link": "https://www.instagram.com/reel/Df-ya8mtDZW/",
+   "service": "instagram"
+  },
+  "6aff0716443a2a9f2fc820a2": {
+   "sent": "2026-11-19",
+   "text": "A movie costs you $6 an hour. Cyberpunk 2077 costs $2.31. Go",
+   "link": "https://www.instagram.com/reel/Df7TbfdBgHX/",
+   "service": "instagram",
+   "reactions": 1,
+   "comments": 0,
+   "engagementRate": 0.84,
+   "views": 147,
+   "shares": 0,
+   "saves": 0,
+   "totalTimeWatched": 15.89,
+   "averageTimeWatched": 8.01,
+   "reach": 119
+  },
+  "6afed88dec3834f154552c18": {
+   "sent": "2026-11-19",
+   "text": "4,811 days. That's how long you waited between GTA 5 and GTA",
+   "link": "https://www.instagram.com/reel/Df7dowZhQrJ/",
+   "service": "instagram",
+   "reactions": 2,
+   "comments": 0,
+   "engagementRate": 1.9,
+   "views": 113,
+   "shares": 0,
+   "saves": 0,
+   "totalTimeWatched": 9.17,
+   "averageTimeWatched": 5.34,
+   "reach": 105
+  },
+  "6afed88d7fc65314b9ebc082": {
+   "sent": "2026-11-19",
+   "text": "4,811 days. That's how long you waited between GTA 5 and GTA",
+   "link": "https://www.tiktok.com/@ggeconomics/video/7709913539917466886?utm_campaign=tt4d_open_api&utm_source=7103819247981182978",
+   "service": "tiktok",
+   "reactions": 0,
+   "comments": 0,
+   "engagementRate": 0,
+   "views": 0,
+   "shares": 0,
+   "reach": 0,
+   "totalTimeWatched": 0,
+   "averageTimeWatched": 0
+  },
+  "6afed4547c25de751c33af13": {
+   "sent": "2026-11-19",
+   "text": "A movie costs you $6 an hour. Cyberpunk 2077 costs $2.31. Go",
+   "link": "https://www.tiktok.com/@ggeconomics/video/7709851258726763796?utm_campaign=tt4d_open_api&utm_source=7103819247981182978",
+   "service": "tiktok",
+   "reactions": 0,
+   "comments": 0,
+   "engagementRate": 0,
+   "views": 0,
+   "shares": 0,
+   "reach": 0,
+   "totalTimeWatched": 0.08,
+   "averageTimeWatched": 5.36
+  },
+  "6afded56fde1b041e1a33401": {
+   "sent": "2026-11-19",
+   "text": "GTA 6 is out, and Rockstar targets 30 frames per second on P",
+   "link": "https://www.tiktok.com/@ggeconomics/video/7710021853506555157?utm_campaign=tt4d_open_api&utm_source=7103819247981182978",
+   "service": "tiktok",
+   "reactions": 0,
+   "comments": 0,
+   "engagementRate": 0,
+   "views": 0,
+   "shares": 0,
+   "reach": 0,
+   "totalTimeWatched": 0,
+   "averageTimeWatched": 0
+  },
+  "6afded55144d89f0a5b701dc": {
+   "sent": "2026-11-19",
+   "text": "GTA 6 is out, and Rockstar targets 30 frames per second on P",
+   "link": "https://www.instagram.com/reel/Df8N2GFBPPh/",
+   "service": "instagram",
+   "reactions": 1,
+   "comments": 0,
+   "engagementRate": 0.51,
+   "views": 224,
+   "shares": 0,
+   "saves": 0,
+   "totalTimeWatched": 30.5,
+   "averageTimeWatched": 9.24,
+   "reach": 198
+  },
+  "6afde95033817c1785c4ed0d": {
+   "sent": "2026-11-18",
+   "text": "GTA 6 launches November 19 and the download is up to 212 GB ",
+   "link": "https://www.tiktok.com/@ggeconomics/video/7709650408355941640?utm_campaign=tt4d_open_api&utm_source=7103819247981182978",
+   "service": "tiktok",
+   "reactions": 0,
+   "comments": 0,
+   "engagementRate": 0,
+   "views": 0,
+   "shares": 0,
+   "reach": 0,
+   "totalTimeWatched": 0,
+   "averageTimeWatched": 0
+  },
+  "6afd6a8545783105f43c296f": {
+   "sent": "2026-11-18",
+   "text": "Cyberpunk's pre-order record was 8 million. GTA 6 may alread",
+   "link": "https://www.tiktok.com/@ggeconomics/video/7709542825251147015?utm_campaign=tt4d_open_api&utm_source=7103819247981182978",
+   "service": "tiktok",
+   "reactions": 0,
+   "comments": 0,
+   "engagementRate": 0,
+   "views": 0,
+   "shares": 0,
+   "reach": 0,
+   "totalTimeWatched": 0,
+   "averageTimeWatched": 0
+  },
+  "6afd62683c888574260b0ebf": {
+   "sent": "2026-11-18",
+   "text": "A movie costs you $6 an hour. Baldur's Gate 3 costs 82 cents",
+   "link": "https://www.tiktok.com/@ggeconomics/video/7709480509621030165?utm_campaign=tt4d_open_api&utm_source=7103819247981182978",
+   "service": "tiktok",
+   "reactions": 0,
+   "comments": 0,
+   "engagementRate": 0,
+   "views": 0,
+   "shares": 0,
+   "reach": 0,
+   "totalTimeWatched": 0,
+   "averageTimeWatched": 0
+  },
+  "6afd62673c888574260b0e7a": {
+   "sent": "2026-11-18",
+   "text": "A movie costs you $6 an hour. Baldur's Gate 3 costs 82 cents",
+   "link": "https://www.instagram.com/reel/Df4dRBahYSt/",
+   "service": "instagram",
+   "reactions": 0,
+   "comments": 0,
+   "engagementRate": 0,
+   "views": 100,
+   "shares": 0,
+   "saves": 0,
+   "totalTimeWatched": 5.73,
+   "averageTimeWatched": 3.7,
+   "reach": 92
+  },
+  "6afc638c5c396d5a45768752": {
+   "sent": "2026-11-17",
+   "text": "A movie costs you $6 an hour. Elden Ring costs $1. Go 100% a",
+   "link": "https://www.tiktok.com/@ggeconomics/video/7709233030115855624?utm_campaign=tt4d_open_api&utm_source=7103819247981182978",
+   "service": "tiktok",
+   "reactions": 0,
+   "comments": 0,
+   "engagementRate": 0,
+   "views": 0,
+   "shares": 0,
+   "reach": 0,
+   "totalTimeWatched": 0,
+   "averageTimeWatched": 0
+  },
+  "6afc471455207cffaee86e6c": {
+   "sent": "2026-11-17",
+   "text": "GTA 6 streams to Xbox One through Xbox Cloud Gaming from Nov",
+   "link": "https://www.tiktok.com/@ggeconomics/video/7709279421559016711?utm_campaign=tt4d_open_api&utm_source=7103819247981182978",
+   "service": "tiktok",
+   "reactions": 0,
+   "comments": 0,
+   "engagementRate": 0,
+   "views": 0,
+   "shares": 0,
+   "reach": 0,
+   "totalTimeWatched": 0,
+   "averageTimeWatched": 0
+  },
+  "6afc471355207cffaee86e0a": {
+   "sent": "2026-11-17",
+   "text": "Take-Two needs $8 billion this year. Last quarter it made $1",
+   "link": "https://www.tiktok.com/@ggeconomics/video/7709171076160441601?utm_campaign=tt4d_open_api&utm_source=7103819247981182978",
+   "service": "tiktok",
+   "reactions": 0,
+   "comments": 0,
+   "engagementRate": 0,
+   "views": 0,
+   "shares": 0,
+   "reach": 0,
+   "totalTimeWatched": 0,
+   "averageTimeWatched": 0
+  },
+  "6afb503e08dd018050080464": {
+   "sent": "2026-11-17",
+   "text": "A movie costs you $6 an hour. Elden Ring costs $1. Go 100% a",
+   "link": "https://www.instagram.com/reel/Df14vsSTiBZ/",
+   "service": "instagram",
+   "reactions": 0,
+   "comments": 0,
+   "engagementRate": 0,
+   "views": 127,
+   "shares": 0,
+   "saves": 0,
+   "totalTimeWatched": 14.12,
+   "averageTimeWatched": 7.92,
+   "reach": 108
+  },
+  "6afb41ba606b091c7f621ad5": {
+   "sent": "2026-11-17",
+   "text": "Take-Two needs $8 billion this year. Last quarter it made $1",
+   "link": "https://www.instagram.com/reel/Df2UVO3uU6Q/",
+   "service": "instagram",
+   "reactions": 0,
+   "comments": 0,
+   "engagementRate": 0,
+   "views": 126,
+   "shares": 0,
+   "saves": 0,
+   "totalTimeWatched": 13.01,
+   "averageTimeWatched": 7.03,
+   "reach": 109
+  },
+  "6afaf1f591ba8aa74bd17c3f": {
+   "sent": "2026-11-16",
+   "text": "The 5 best-selling games ever: Tetris 520M (all versions), M",
+   "link": "https://www.instagram.com/reel/DfzWFNchCUT/",
+   "service": "instagram",
+   "reactions": 4,
+   "comments": 0,
+   "engagementRate": 3.17,
+   "views": 138,
+   "shares": 0,
+   "saves": 0,
+   "totalTimeWatched": 22.04,
+   "averageTimeWatched": 10.5,
+   "reach": 126
+  },
+  "6afae8f30c2af02527d9aab7": {
+   "sent": "2026-11-16",
+   "text": "GTA 6 Standard is $79.99. GTA 5 launched at $59.99 in 2013, ",
+   "link": "https://www.instagram.com/reel/DfzvK0aNWmC/",
+   "service": "instagram",
+   "reactions": 0,
+   "comments": 0,
+   "engagementRate": 0,
+   "views": 121,
+   "shares": 0,
+   "saves": 0,
+   "totalTimeWatched": 10.21,
+   "averageTimeWatched": 5.28,
+   "reach": 115
+  },
+  "6afad3d18e87c256a3cb077e": {
+   "sent": "2026-11-18",
+   "text": "GTA 6 launches November 19 and the download is up to 212 GB ",
+   "link": "https://www.instagram.com/p/Df4yWfKoF02/",
+   "service": "instagram",
+   "reactions": 0,
+   "comments": 0,
+   "engagementRate": 0,
+   "views": 0,
+   "shares": 0,
+   "saves": 0,
+   "follows": 0,
+   "reach": 0
+  },
+  "6afac87a60a910801c812ed3": {
+   "sent": "2026-11-17",
+   "text": "GTA 6 streams to Xbox One through Xbox Cloud Gaming from Nov",
+   "link": "https://www.instagram.com/reel/Df3EQEqBE8w/",
+   "service": "instagram",
+   "reactions": 0,
+   "comments": 0,
+   "engagementRate": 0,
+   "views": 144,
+   "shares": 0,
+   "saves": 0,
+   "totalTimeWatched": 18.27,
+   "averageTimeWatched": 8.63,
+   "reach": 125
+  },
+  "6afa2b2f60a910801c4de745": {
+   "sent": "2026-11-16",
+   "text": "GTA 6 may pass $1 billion before launch day: Sensor Tower es",
+   "link": "https://www.instagram.com/p/DfzokZxES-1/",
+   "service": "instagram",
+   "reactions": 0,
+   "comments": 0,
+   "engagementRate": 0,
+   "views": 0,
+   "shares": 0,
+   "saves": 0,
+   "follows": 0,
+   "reach": 0
+  },
+  "6afa2b2e60a910801c4de704": {
+   "sent": "2026-11-16",
+   "text": "GTA 6 may pass $1 billion before launch day: Sensor Tower es",
+   "link": "https://www.instagram.com/reel/Df0fUTzu2ec/",
+   "service": "instagram",
+   "reactions": 0,
+   "comments": 0,
+   "engagementRate": 0,
+   "views": 126,
+   "shares": 0,
+   "saves": 0,
+   "totalTimeWatched": 8.97,
+   "averageTimeWatched": 4.52,
+   "reach": 114
+  }
+ },
+ "trending": [
+  {
+   "title": "Does GTA 6 Live Up to the Hype",
+   "channel": "penguinz0",
+   "views": 1615870,
+   "published": "2026-11-20"
+  },
+  {
+   "title": "Whatever You Steal in GTA 6, You Keep!",
+   "channel": "MrBeast Gaming",
+   "views": 6471556,
+   "published": "2026-11-20"
+  },
+  {
+   "title": "GTA 6: 20 MISTAKES YOU SHOULDN'T MAKE",
+   "channel": "gameranx",
+   "views": 844156,
+   "published": "2026-11-20"
+  },
+  {
+   "title": "Final Life: Episode 4 - GUESS WHO'S BACK??",
+   "channel": "Grian",
+   "views": 723044,
+   "published": "2026-11-20"
+  },
+  {
+   "title": "3 IDIOTS TRY TO CHEAT DEATH | The Cabin Game",
+   "channel": "Markiplier",
+   "views": 454659,
+   "published": "2026-11-20"
+  },
+  {
+   "title": "skibidi toilet 83 (part 2)",
+   "channel": "skibidi",
+   "views": 4114164,
+   "published": "2026-11-20"
+  },
+  {
+   "title": "\ud83d\udd34LIVE | GTA 6 | DAY 2 | VICE CITY | SUPER CARS/HYPER CARS | #1 GTA 6 DRIVER | #BUNGULATE",
+   "channel": "TheBurntPeanut",
+   "views": 3277558,
+   "published": "2026-11-20"
+  },
+  {
+   "title": "Warzone is back... but at what cost?",
+   "channel": "SMii7Yplus",
+   "views": 512791,
+   "published": "2026-11-20"
+  },
+  {
+   "title": "GTA 6 User Reviews Are Finally Out..",
+   "channel": "Asmongold Clips",
+   "views": 873770,
+   "published": "2026-11-20"
+  },
+  {
+   "title": "Testing Everything In GTA 6",
+   "channel": "LazarBeam",
+   "views": 3365631,
+   "published": "2026-11-20"
+  },
+  {
+   "title": "GTA 6 - ALL Endings: Bad, Good and Secret & Cutscenes",
+   "channel": "GTA6Videos",
+   "views": 515457,
+   "published": "2026-11-20"
+  },
+  {
+   "title": "GTA 6 - Best Ending (True Ending)",
+   "channel": "Shirrako",
+   "views": 520784,
+   "published": "2026-11-20"
+  },
+  {
+   "title": "GTA 6 Walkthrough Gameplay Part 3 - LUCIA CAMINOS (GRAND THEFT AUTO 6)",
+   "channel": "theRadBrad",
+   "views": 527206,
+   "published": "2026-11-20"
+  },
+  {
+   "title": "This Is Why You Hate GTA 6 (rant)",
+   "channel": "DanTDM",
+   "views": 695806,
+   "published": "2026-11-20"
+  },
+  {
+   "title": "\ud83c\udf34PLAYING GTA 6 FOR THE FIRST TIME\ud83c\udf34 (DAY 2)",
+   "channel": "Kai Cenat Live",
+   "views": 4468217,
+   "published": "2026-11-20"
+  },
+  {
+   "title": "FINAL LIFE: Episode 4 - KILL THEM ALL",
+   "channel": "Mumbo Jumbo",
+   "views": 363100,
+   "published": "2026-11-20"
+  },
+  {
+   "title": "GTA 6 - Part 8 - A Friend in Need",
+   "channel": "TmarTn2",
+   "views": 205212,
+   "published": "2026-11-20"
+  },
+  {
+   "title": "My Favorite Indie Horror This Year.. [CH 13 Rest Stop]",
+   "channel": "Joe Bart Games",
+   "views": 313193,
+   "published": "2026-11-20"
+  },
+  {
+   "title": "DON'T Finish Chapter 1 in GTA 6 Until You Do THIS!",
+   "channel": "BiggySweats",
+   "views": 682479,
+   "published": "2026-11-20"
+  },
+  {
+   "title": "Suzy Says\u2026",
+   "channel": "CaseOh",
+   "views": 1274688,
+   "published": "2026-11-19"
+  },
+  {
+   "title": "GTA 6 Gameplay Walkthrough Part 1 FULL GAME [4K PS5 PRO] - No Commentary",
+   "channel": "MKIceAndFire",
+   "views": 10371543,
+   "published": "2026-11-18"
+  },
+  {
+   "title": "GTA 6 WTF and Funny Moments! #3",
+   "channel": "Zynxize",
+   "views": 739440,
+   "published": "2026-11-20"
+  },
+  {
+   "title": "GTA 6 Good Ending (Jason & Lucia Survive) - Grand Theft Auto VI",
+   "channel": "MELOO",
+   "views": 1953979,
+   "published": "2026-11-20"
+  }
+ ],
+ "notes": [
+  "REACH ALARM: tiktok 0 views: A movie costs you $6 an hour. Hollow Kni | tiktok 0 views: 8 nominations for a game nobody could bu | instagram 0 views: 8 nominations for a game nobody could bu | tiktok 0 views: 19 million copies before most people eve | instagram 0 views: 19 million copies before most people eve | instagram 0 views: 19 million copies before most people eve | tiktok 0 views: 4,811 days. That's how long you waited b | tiktok 0 views: A movie costs you $6 an hour. Cyberpunk  | tiktok 0 views: GTA 6 is out, and Rockstar targets 30 fr | tiktok 0 views: GTA 6 launches November 19 and the downl | tiktok 0 views: Cyberpunk's pre-order record was 8 milli | tiktok 0 views: A movie costs you $6 an hour. Baldur's G | tiktok 0 views: A movie costs you $6 an hour. Elden Ring | tiktok 0 views: GTA 6 streams to Xbox One through Xbox C | tiktok 0 views: Take-Two needs $8 billion this year. Las | instagram 0 views: GTA 6 launches November 19 and the downl | instagram 0 views: GTA 6 may pass $1 billion before launch  | youtube 21 views after 24h: GTA 6: Take-Two Bets $8 Billion on Your "
+ ],
+ "outliers": [
+  [
+   105.87919965344861,
+   11746187,
+   32600,
+   "Marcion Aguilar",
+   "Please share with your friends #pov #gta #gta6 #shorts"
+  ],
+  [
+   99.5830630861855,
+   3884982,
+   26500,
+   "GTA by Sam",
+   "Don't miss the TOP GTA 6 MOMENTS... \ud83d\ude02 #gta6 #gtavi"
+  ],
+  [
+   88.8106930914159,
+   5445677,
+   61600,
+   "Blin.",
+   "How to Crack Lucia in GTA 6 (Most People Miss This)"
+  ],
+  [
+   86.09808298170194,
+   14035542,
+   41900,
+   "Umat Game",
+   "ANJING PENYELAMAT DI GTA 6"
+  ],
+  [
+   27.32205908867591,
+   836140,
+   1910000,
+   "9 News Australia",
+   "GTA VI: The most anticipated game of all time is here | 9 News Australia"
+  ],
+  [
+   18.735856034308988,
+   885324,
+   873,
+   "Vice6HQ",
+   "Is this really the same GTA 6? #gta6 #gaming"
+  ],
+  [
+   14.932661178322679,
+   4454737,
+   53500,
+   "Comparaholic",
+   "Car Destruction: GTA VI vs. GTA V"
+  ],
+  [
+   13.604816987427506,
+   31443610,
+   42900,
+   "GrimaceClips",
+   "Husband Has the Most INSANE Reaction to GTA 6 \ud83d\ude2d"
+  ],
+  [
+   12.642493165443556,
+   1389813,
+   6570,
+   "\u0425\u0415\u041d\u0420\u0418",
+   "\u041d\u0435 \u043f\u043e\u043a\u0443\u043f\u0430\u0439 \u0413\u0422\u0410 6 \u0432 \u043a\u043e\u0440\u043e\u0431\u043a\u0435!"
+  ],
+  [
+   9.907866489413744,
+   6912365,
+   393000,
+   "GTA 5 EMPIRE",
+   "What Happens If You Reach the \u201cN\u201d in GTA 6? #GTAVI #GamingWithYouTube"
+  ],
+  [
+   9.595703355221735,
+   13235889,
+   904000,
+   "Varsha & Aditya",
+   "Aapne download kia kya gta6 #shorts #gta #gta6 #funny #couple #shortvideo"
+  ],
+  [
+   6.120646808634181,
+   902667,
+   41200,
+   "Think Of Depth",
+   "Countries Where GTA 6 Is Banned ! \ud83c\udfae\ud83e\udd2f"
+  ],
+  [
+   5.46170973703037,
+   4340578,
+   1550000,
+   "Aaron Rheins",
+   "Airports in GTA 6 are Insane"
+  ],
+  [
+   5.361208261857557,
+   4340448,
+   1900000,
+   "Asmongold Clips",
+   "GTA 6 just broke the entire internet.."
+  ],
+  [
+   4.55139724761781,
+   3956468,
+   16300000,
+   "Typical Gamer",
+   "World\u2019s First Stolen Plane in GTA 6"
+  ],
+  [
+   3.4502460521836094,
+   6991698,
+   4790000,
+   "gta2025",
+   "si dejamos un coche abandonado con GPS en #gta6"
+  ],
+  [
+   3.41190562415447,
+   24477830,
+   168000,
+   "GTA6\u2011\u72c2\u91ce\u4e16\u754c",
+   "\u60ca\u9b42\u672a\u5b9a\u7684\u9732\u897f\u4e9a#gta  #gta6  #shorts"
+  ],
+  [
+   3.3619382580321537,
+   8160509,
+   4900000,
+   "TheAnimeMen",
+   "GTA 5 vs GTA 6 \ud83d\ude2d"
+  ],
+  [
+   3.2235011175987203,
+   5576362,
+   465000,
+   "Marcade",
+   "Penampakan BIGFOOT di GTA 6 #shorts"
+  ],
+  [
+   2.6287176057148285,
+   576562,
+   151000,
+   "TonyCeno",
+   "Game is ridiculously good #gaming #gamingnews #gta6 #ps5"
+  ]
+ ],
+ "ig_graph": {
+  "17927512206442512": {
+   "sent": "2026-11-20",
+   "type": "reel",
+   "caption": "19 million copies before most people even got home from work. That's the GTA 6 estimate. GTA 5 did 11M.\nSensor Tower estimates GTA 6 sold about 19 million copies and $1.84 billion by launch-day morning (digital, pre-orders included). GTA 5 sold 11.21 million in its first 24 hours in 2013. Take-Two h",
+   "link": "https://www.instagram.com/reel/Df-ya8mtDZW/",
+   "likes": 0,
+   "comments": 0,
+   "views": 117,
+   "reach": 105,
+   "saved": 0,
+   "shares": 0,
+   "total_interactions": 0,
+   "ig_reels_avg_watch_time": 4957
+  },
+  "18083250710756832": {
+   "sent": "2026-11-20",
+   "type": "reel",
+   "caption": "8 nominations for a game nobody could buy yet. GTA 6 leads The Game Awards 2026.\nReal: The Game Awards announced its 2026 nominees on 17 Nov, two days before GTA 6 launched, and GTA 6 leads with 8, including Game of the Year. It faces 007 First Light, Control Resonant, Phantom Blade Zero, Resident E",
+   "link": "https://www.instagram.com/reel/Df-MlxXxsTm/",
+   "likes": 2,
+   "comments": 0,
+   "views": 127,
+   "reach": 117,
+   "saved": 0,
+   "shares": 0,
+   "total_interactions": 2,
+   "ig_reels_avg_watch_time": 5394
+  },
+  "18646675216000975": {
+   "sent": "2026-11-20",
+   "type": "post",
+   "caption": "19 million copies before most people even got home from work. That's the GTA 6 estimate. GTA 5 did 11M.\nSensor Tower estimates GTA 6 sold about 19 million copies and $1.84 billion by launch-day morning (digital, pre-orders included). GTA 5 sold 11.21 million in its first 24 hours in 2013. Take-Two h",
+   "link": "https://www.instagram.com/p/Df97uKglPz9/",
+   "likes": 0,
+   "comments": 0,
+   "views": 0,
+   "reach": 0,
+   "saved": 0,
+   "shares": 0,
+   "total_interactions": 0
+  },
+  "17983042392159225": {
+   "sent": "2026-11-20",
+   "type": "reel",
+   "caption": "A movie costs you $6 an hour. Hollow Knight costs 56 cents. Go 100% and it's 23 cents.\nHollow Knight is $14.99 on Steam and takes about 27 hours to beat (HowLongToBeat main story): 56 cents an hour. A $12 movie ticket for 2 hours is $6 an hour. Go 100% (about 66 hours) and it drops to 23 cents an ho",
+   "link": "https://www.instagram.com/reel/Df9m6HzpnQX/",
+   "likes": 0,
+   "comments": 1,
+   "views": 146,
+   "reach": 122,
+   "saved": 0,
+   "shares": 0,
+   "total_interactions": 1,
+   "ig_reels_avg_watch_time": 7766
+  },
+  "18119499956098870": {
+   "sent": "2026-11-19",
+   "type": "reel",
+   "caption": "GTA 6 is out, and Rockstar targets 30 frames per second on PS5, PS5 Pro and Xbox Series X|S, with no 60 fps mode at launch. The PS5 Pro adds PSSR upscaling and ray-traced shadows no other console gets: better looks, same frame rate.\nWould you trade 30 fps for those visuals, or wait for a 60 fps patc",
+   "link": "https://www.instagram.com/reel/Df8N2GFBPPh/",
+   "likes": 1,
+   "comments": 0,
+   "views": 249,
+   "reach": 223,
+   "saved": 0,
+   "shares": 0,
+   "total_interactions": 1,
+   "ig_reels_avg_watch_time": 8957
+  },
+  "18129528728510354": {
+   "sent": "2026-11-19",
+   "type": "reel",
+   "caption": "4,811 days. That's how long you waited between GTA 5 and GTA 6.\nGTA 5 came out on 17 September 2013. GTA 6 launches today, 19 November 2026: 4,811 days later (our count). In that time GTA 5 sold-in more than 230 million copies (Take-Two).\nWas GTA 6 worth the 13-year wait?\n\nSources: Rockstar Games, T",
+   "link": "https://www.instagram.com/reel/Df7dowZhQrJ/",
+   "likes": 2,
+   "comments": 0,
+   "views": 113,
+   "reach": 105,
+   "saved": 0,
+   "shares": 0,
+   "total_interactions": 2,
+   "ig_reels_avg_watch_time": 5339
+  },
+  "18119693972611549": {
+   "sent": "2026-11-19",
+   "type": "reel",
+   "caption": "GTA 6 launches November 19 and the download is up to 212 GB depending on your console (Rockstar). Pre-load has been open since November 10, physical copies are a code in a box, and Xbox Cloud Gaming streams it from 1 AM ET with no install.\nHow much free space do you have right now?\n\nSources: Rocksta",
+   "link": "https://www.instagram.com/reel/Df7WkXvNk9v/",
+   "likes": 2,
+   "comments": 0,
+   "views": 178,
+   "reach": 155,
+   "saved": 0,
+   "shares": 0,
+   "total_interactions": 2,
+   "ig_reels_avg_watch_time": 8549
+  },
+  "18149873554584193": {
+   "sent": "2026-11-19",
+   "type": "reel",
+   "caption": "A movie costs you $6 an hour. Cyberpunk 2077 costs $2.31. Go 100% and it's 55 cents.\nCyberpunk 2077 is $59.99 on Steam and takes about 26 hours to beat (HowLongToBeat main story): $2.31 an hour. A $12 movie ticket for 2 hours is $6 an hour. Go 100% (about 109 hours) and it drops to 55 cents an hour.",
+   "link": "https://www.instagram.com/reel/Df7TbfdBgHX/",
+   "likes": 1,
+   "comments": 0,
+   "views": 149,
+   "reach": 120,
+   "saved": 0,
+   "shares": 0,
+   "total_interactions": 1,
+   "ig_reels_avg_watch_time": 8059
+  },
+  "18062801849581116": {
+   "sent": "2026-11-18",
+   "type": "post",
+   "caption": "GTA 6 launches November 19 and the download is up to 212 GB depending on your console (Rockstar). Pre-load has been open since November 10, physical copies are a code in a box, and Xbox Cloud Gaming streams it from 1 AM ET with no install.\nHow much free space do you have right now?\n\nSources: Rocksta",
+   "link": "https://www.instagram.com/p/Df4yWfKoF02/",
+   "likes": 0,
+   "comments": 0,
+   "views": 0,
+   "reach": 0,
+   "saved": 0,
+   "shares": 0,
+   "total_interactions": 0
+  },
+  "18122705744080044": {
+   "sent": "2026-11-18",
+   "type": "reel",
+   "caption": "A movie costs you $6 an hour. Baldur's Gate 3 costs 82 cents. Go 100% and it's 33 cents.\nBaldur's Gate 3 is $59.99 on Steam and takes about 73 hours to beat (HowLongToBeat main story): 82 cents an hour. A $12 movie ticket for 2 hours is $6 an hour. Go 100% (about 181 hours) and it drops to 33 cents ",
+   "link": "https://www.instagram.com/reel/Df4dRBahYSt/",
+   "likes": 0,
+   "comments": 0,
+   "views": 100,
+   "reach": 93,
+   "saved": 0,
+   "shares": 0,
+   "total_interactions": 0,
+   "ig_reels_avg_watch_time": 3696
+  },
+  "17961666354278926": {
+   "sent": "2026-11-17",
+   "type": "reel",
+   "caption": "GTA 6 streams to Xbox One through Xbox Cloud Gaming from November 19, at Series S graphics settings (Rockstar, 10 Nov). You still buy the game ($79.99), and streaming needs Game Pass or paid cloud hours; Game Pass Essential includes 5 cloud hours a month.\nWould you play GTA 6 over the cloud, or wait",
+   "link": "https://www.instagram.com/reel/Df3EQEqBE8w/",
+   "likes": 0,
+   "comments": 0,
+   "views": 144,
+   "reach": 125,
+   "saved": 0,
+   "shares": 0,
+   "total_interactions": 0,
+   "ig_reels_avg_watch_time": 8631
+  },
+  "18064253891801091": {
+   "sent": "2026-11-17",
+   "type": "reel",
+   "caption": "Take-Two needs $8 billion this year. Last quarter it made $1.6B. 2 days to GTA 6.\nTake-Two made $1.6B last quarter (down 18%) but still promises investors $8.0\u20138.2B this fiscal year, and up to $3.5B in the quarter GTA 6 launches. That gap is your $79.99. Day 2 of our GTA 6 countdown.\nWill you buy GT",
+   "link": "https://www.instagram.com/reel/Df2UVO3uU6Q/",
+   "likes": 0,
+   "comments": 0,
+   "views": 126,
+   "reach": 109,
+   "saved": 0,
+   "shares": 0,
+   "total_interactions": 0,
+   "ig_reels_avg_watch_time": 7031
+  },
+  "18080426234754787": {
+   "sent": "2026-11-17",
+   "type": "reel",
+   "caption": "A movie costs you $6 an hour. Elden Ring costs $1. Go 100% and it's 44 cents.\nElden Ring is $59.99 on Steam and takes about 60 hours to beat (HowLongToBeat main story): $1 an hour. A $12 movie ticket for 2 hours is $6 an hour. Go 100% (136 hours) and it drops to 44 cents an hour. Our own math.\nWhat'",
+   "link": "https://www.instagram.com/reel/Df14vsSTiBZ/",
+   "likes": 0,
+   "comments": 0,
+   "views": 127,
+   "reach": 108,
+   "saved": 0,
+   "shares": 0,
+   "total_interactions": 0,
+   "ig_reels_avg_watch_time": 7917
+  },
+  "17941734969404563": {
+   "sent": "2026-11-16",
+   "type": "reel",
+   "caption": "GTA 6 may pass $1 billion before launch day: Sensor Tower estimates $1B+ in digital pre-orders (Take-Two hasn't confirmed). GTA V took three days to hit $1B in 2013.\nAre you buying day one?\n\nSources: Sensor Tower, Take-Two (Sept 2013)\n\n#GTA6 #GTAVI #gaming #gamingnews #Rockstar",
+   "link": "https://www.instagram.com/reel/Df0fUTzu2ec/",
+   "likes": 0,
+   "comments": 0,
+   "views": 126,
+   "reach": 114,
+   "saved": 0,
+   "shares": 0,
+   "total_interactions": 0,
+   "ig_reels_avg_watch_time": 4521
+  },
+  "18380957152240342": {
+   "sent": "2026-11-16",
+   "type": "reel",
+   "caption": "GTA 6 Standard is $79.99. GTA 5 launched at $59.99 in 2013, which is about $86 today after inflation (our calculation with US BLS CPI data), so GTA 6 is roughly $6.50 cheaper in real terms. Day 3 of our GTA 6 countdown.\nDoes $80 feel cheap or expensive to you?\n\nSources: Rockstar Games, US Bureau of ",
+   "link": "https://www.instagram.com/reel/DfzvK0aNWmC/",
+   "likes": 0,
+   "comments": 0,
+   "views": 121,
+   "reach": 115,
+   "saved": 0,
+   "shares": 0,
+   "total_interactions": 0,
+   "ig_reels_avg_watch_time": 5280
+  },
+  "17871519012660678": {
+   "sent": "2026-11-16",
+   "type": "post",
+   "caption": "GTA 6 may pass $1 billion before launch day: Sensor Tower estimates $1B+ in digital pre-orders (Take-Two hasn't confirmed). GTA V took three days to hit $1B in 2013.\nAre you buying day one?\n\nSources: Sensor Tower, Take-Two (Sept 2013)\n\n#GTA6 #GTAVI #gaming #gamingnews #Rockstar",
+   "link": "https://www.instagram.com/p/DfzokZxES-1/",
+   "likes": 0,
+   "comments": 0,
+   "views": 0,
+   "reach": 0,
+   "saved": 0,
+   "shares": 0,
+   "total_interactions": 0
+  },
+  "17977198755173770": {
+   "sent": "2026-11-16",
+   "type": "reel",
+   "caption": "The 5 best-selling games ever: Tetris 520M (all versions), Minecraft 425M+, GTA V nearly 235M, Red Dead Redemption 2 89M+, Wii Sports 82.9M. Rockstar owns two spots, and GTA 6 lands Nov 19.\nHow long until GTA 6 cracks this list?\n\nSources: Take-Two (Q2 FY27), Nintendo, Xbox, The Tetris Company\nMusic:",
+   "link": "https://www.instagram.com/reel/DfzWFNchCUT/",
+   "likes": 4,
+   "comments": 0,
+   "views": 138,
+   "reach": 126,
+   "saved": 0,
+   "shares": 0,
+   "total_interactions": 4,
+   "ig_reels_avg_watch_time": 10496
+  }
+ },
+ "per_post": {
+  "2026-11-21c": {
+   "title": "Stardew Valley Costs You 28\u00a2 an Hour. Worth It?",
+   "youtube_short": null,
+   "instagram_reel": null,
+   "instagram_carousel": null,
+   "tiktok_video": null
+  },
+  "2026-11-21b": {
+   "title": "Red Dead 2 Costs You $1.18 an Hour. Worth It?",
+   "youtube_short": null,
+   "instagram_reel": null,
+   "instagram_carousel": null,
+   "tiktok_video": null
+  },
+  "2026-11-21": {
+   "title": "GTA 6 Sales: 32.5M Copies. Are You One?",
+   "youtube_short": null,
+   "instagram_reel": null,
+   "instagram_carousel": null,
+   "tiktok_video": null
+  },
+  "2026-11-20c": {
+   "title": "Hollow Knight Costs You 56\u00a2 an Hour. Worth It?",
+   "youtube_short": 1370,
+   "instagram_reel": 146,
+   "instagram_carousel": null,
+   "tiktok_video": 0
+  },
+  "2026-11-20b": {
+   "title": "GTA 6 Got 8 Game Awards Nominations Before Launch",
+   "youtube_short": 1124,
+   "instagram_reel": 127,
+   "instagram_carousel": null,
+   "tiktok_video": 0
+  },
+  "2026-11-20": {
+   "title": "GTA 6 Sales: Est. 19M Copies. Did You Buy It?",
+   "youtube_short": null,
+   "instagram_reel": 117,
+   "instagram_carousel": null,
+   "tiktok_video": 0
+  },
+  "2026-11-19c": {
+   "title": "Cyberpunk 2077 Costs You $2.31 an Hour. Worth It?",
+   "youtube_short": 1463,
+   "instagram_reel": 149,
+   "instagram_carousel": null,
+   "tiktok_video": 0
+  },
+  "2026-11-19b": {
+   "title": "GTA 6 vs GTA 5: You Waited 4,811 Days",
+   "youtube_short": 514,
+   "instagram_reel": 113,
+   "instagram_carousel": null,
+   "tiktok_video": 0
+  },
+  "2026-11-19": {
+   "title": "GTA 6 Is Out: Your Console Runs It at 30 FPS",
+   "youtube_short": 1025,
+   "instagram_reel": 249,
+   "instagram_carousel": null,
+   "tiktok_video": 0
+  },
+  "2026-11-18c": {
+   "title": "Baldur's Gate 3 Costs You 82\u00a2 an Hour. Worth It?",
+   "youtube_short": 852,
+   "instagram_reel": 100,
+   "instagram_carousel": null,
+   "tiktok_video": 0
+  },
+  "2026-11-18b": {
+   "title": "GTA 6 Beat Cyberpunk's 8M Pre-Order Record?",
+   "youtube_short": 53,
+   "instagram_reel": null,
+   "instagram_carousel": null,
+   "tiktok_video": 0
+  },
+  "2026-11-18": {
+   "title": "GTA 6 Unlocks Tonight: You Need 212 GB Free",
+   "youtube_short": 1045,
+   "instagram_reel": 178,
+   "instagram_carousel": null,
+   "tiktok_video": 0
+  },
+  "2026-11-17c": {
+   "title": "Elden Ring Costs You $1 an Hour. Worth It?",
+   "youtube_short": 1227,
+   "instagram_reel": 127,
+   "instagram_carousel": null,
+   "tiktok_video": 0
+  },
+  "2026-11-17b": {
+   "title": "GTA 6: Take-Two Bets $8 Billion on Your $80",
+   "youtube_short": 21,
+   "instagram_reel": 126,
+   "instagram_carousel": null,
+   "tiktok_video": 0
+  },
+  "2026-11-17": {
+   "title": "Your 2013 Xbox One Can Play GTA 6 on Day One",
+   "youtube_short": 670,
+   "instagram_reel": 144,
+   "instagram_carousel": null,
+   "tiktok_video": 0
+  },
+  "2026-11-16c": {
+   "title": "Rockstar Made 2 of the 5 Best-Selling Games Ever",
+   "youtube_short": 294,
+   "instagram_reel": 138,
+   "instagram_carousel": null,
+   "tiktok_video": null
+  },
+  "2026-11-16b": {
+   "title": "GTA 6 Costs You $79.99. GTA 5 Cost More",
+   "youtube_short": 328,
+   "instagram_reel": 121,
+   "instagram_carousel": null,
+   "tiktok_video": null
+  },
+  "2026-11-16": {
+   "title": "GTA 6 Might Make $1 Billion Before You Can Even Play It",
+   "youtube_short": 810,
+   "instagram_reel": 126,
+   "instagram_carousel": 0,
+   "tiktok_video": null
+  }
+ }
+}
