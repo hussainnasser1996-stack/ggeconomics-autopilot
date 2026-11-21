@@ -1,9 +1,9 @@
 {
  "video": "lU8HjtuYbzw",
  "thumb": "error: <HttpError 403 when requesting https://youtube.googleapis.com/upload/youtube/v3/thumbnails/set?videoId=lU8HjtuYbzw&alt=json&uploadType=media returned \"The authenticated user doesn't have permissions to upload and set custom video thumbnails.\". Details: \"[{'message': \"The authenticated user do",
- "playlist": "error: <HttpError 409 when requesting https://youtube.googleapis.com/youtube/v3/playlistItems?part=snippet&alt=json returned \"The operation was aborted.\". Details: \"[{'domain': 'youtube.CoreErrorDomain', 'reason': 'SERVICE_UNAVAILABLE'}]\">",
+ "playlist": "PLUrvyR4iLl30",
  "privacy": "private",
  "publish_at": "2026-11-22T16:00:00Z",
- "duration": "P0D",
+ "duration": "PT8M6S",
  "thumb_url": "https://i9.ytimg.com/vi/lU8HjtuYbzw/hqdefault.jpg?sqp=CJjfhtgG&rs=AOn4CLDxh-JL49Pn6L_owpf5t6BHk3uD4Q"
 }
