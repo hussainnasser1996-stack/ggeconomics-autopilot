@@ -51,7 +51,8 @@ def text_problem(f):
     def add(im, x0=0, y0=0, s=1.0):
         for t, x, y, w, h in boxes(im):
             b = (t, int(x0 + x / s), int(y0 + y / s), int(w / s), int(h / s)); ws[(b[1] // 40, b[2] // 40)] = b
-    for im in (g, 255 - g, ch): add(im)
+    th = cv2.morphologyEx(g, cv2.MORPH_TOPHAT, cv2.getStructuringElement(cv2.MORPH_RECT, (41, 41)))   # glowing type on texture
+    for im in (g, 255 - g, ch, 255 - cv2.normalize(th, None, 0, 255, cv2.NORM_MINMAX)): add(im)       # ("PROFIT OR PERISH")
     for y0, y1 in ((0, int(H * .14)), (int(H * .70), H)):           # caption bands read again at 2x: thin subtitle type
         band = cv2.resize(g[y0:y1], (W * 2, (y1 - y0) * 2))
         for im in (band, 255 - band): add(im, 0, y0, 2.0)
@@ -145,9 +146,13 @@ for e in E:
                    or max(graphic(f) for f in fr) >= 2.5 or textiness_dark(fr[1]) > 2.2)
             if not bad and tier == 1: bad = confident_words(fr[1]) >= 2
             if not bad and tier <= 2: bad = any(title_hit(f, TITLE) for f in fr)
-            if not bad and tier <= 2: bad = bool(text_problem(fr[1]))
+            if not bad and tier <= 3:                            # every sampled frame: title cards zoom in mid-clip (Probably Stolen
+                for f in (fr[1], fr[0], fr[2]):                  # "PROFIT OR PERISH", 22 Nov dry run 5). Tier 3 still drops
+                    why = text_problem(f)                        # subtitles + big type (Football Manager subs came back at tier 3)
+                    if why and (tier <= 2 or why.split()[0] in ("subtitle", "big")): bad = True; break
+            # tier 4 = last resort (old tier 3: no text rule) only when a game would otherwise sink the build (< 8 s)
             if bad:
-                if tier == 3: seen.add(k)
+                if tier >= 3: seen.add(k)
                 rejected += 1; continue
             seen.add(k); chosen.append(p); tot += p["b"] - p["a"]; per_shot[p["shot"]] = per_shot.get(p["shot"], 0) + 1
     # trailers one at a time (rating-card promos last): stop downloading once the Shorts' rules (tier 1) fill the segment.
@@ -166,8 +171,9 @@ for e in E:
                 x = s["a"] + k * step; new.append({"src": src, "path": path, "a": round(x, 2), "b": round(x + min(3.4, step), 2),
                     "score": s["mot"] * 0.6 + min(s["sharp"], 3000) / 300, "rel": x / dur + i, "shot": (src, s["a"])})
         pieces += new; judge(new, 1)
-    for tier in (2, 3):
-        if tot >= T[e["rank"]] * 0.6: break
+    for tier in (2, 3, 4):
+        if tot >= T[e["rank"]] * 0.6 or (tier == 4 and tot >= 8): break
+        if tier == 4: seen.clear(); seen.update((p["src"], p["a"]) for p in chosen)   # retry tier-3 rejects
         tier_used = tier; judge(pieces, tier)
     if tot < 8: sys.exit(f"lf_footage: only {tot:.1f} s of clean gameplay for {e['name']} (need 8+)")
     base = list(chosen)
