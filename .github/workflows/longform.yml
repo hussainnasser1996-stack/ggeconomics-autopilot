@@ -1,0 +1,27 @@
+name: GG Economics long-form upload
+on:
+  workflow_dispatch:
+    inputs:
+      dir: { description: "autopilot/longform/<D>", required: true }
+concurrency: { group: longform, cancel-in-progress: false }
+jobs:
+  upload:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    permissions: { contents: write }
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.12" }
+      - name: YouTube token
+        env: { YT: "${{ secrets.YT_TOKEN_JSON }}" }
+        run: mkdir -p autopilot/keys && printf '%s' "$YT" > autopilot/keys/youtube-token.json && pip install -q google-api-python-client google-auth google-auth-oauthlib
+      - run: python3 autopilot/scripts/yt_long.py "${{ inputs.dir }}"
+      - run: rm -f autopilot/keys/youtube-token.json
+        if: always()
+      - name: Save
+        if: always()
+        run: |
+          git config user.name "GG Economics bot" && git config user.email "bot@users.noreply.github.com"
+          git add -A autopilot/longform && git commit -qm "long-form uploaded ${{ inputs.dir }}" || exit 0
+          for i in 1 2 3; do git pull -q --rebase && git push -q && break; sleep 5; done
