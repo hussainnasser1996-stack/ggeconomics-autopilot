@@ -11,23 +11,38 @@ spec = json.load(open(L / "spec.json")); E = spec["entries"]; MP4 = GN / f"work/
 cold = sum(c["dur"] for c in spec["cold"]); t = spec["hook"]["sec"] + cold + spec["introSec"]; seg = {}
 for e in E: play = sum(c["dur"] for c in e["clips"]); seg[e["rank"]] = (t, t + spec["cardSec"], play); t += spec["cardSec"] + play
 outro, total = t, t + spec["outroSec"]
-def ff(*a): return subprocess.run(["ffmpeg", "-v", "error", "-y", *a], capture_output=True, text=True)
+def ff(*a, v="error"): return subprocess.run(["ffmpeg", "-v", v, "-y", *a], capture_output=True, text=True)   # filters report at info level
 
 if what == "thumb":
     D = GN / "studio/public/thumbs"; D.mkdir(parents=True, exist_ok=True)
+    import cv2, numpy as np, os, tempfile
+    def words(img):                                          # confident words tesseract reads (title text, UI, captions)
+        fd, p = tempfile.mkstemp(suffix=".png"); os.close(fd); cv2.imwrite(p, img); n = 0
+        out = subprocess.run(["tesseract", p, "-", "--psm", "11", "tsv"], capture_output=True, text=True).stdout; os.remove(p)
+        for row in out.splitlines()[1:]:
+            c = row.split("\t")
+            if len(c) == 12 and c[11].strip() and float(c[10]) > 50 and sum(ch.isalpha() for ch in c[11]) >= 3: n += 1
+        return n
     for i, r in enumerate([8, 7, 5, 2]):
-        _, g0, play = seg[r]; panel_end = min(16, play * 0.42)
-        ts = g0 + min(panel_end + 1.2, max(1.0, play - 9))           # after the data panel, before the verdict
-        ff("-ss", f"{ts:.2f}", "-i", str(MP4), "-frames:v", "1", "-vf", "crop=900:800:510:110", "-q:v", "2", str(D / f"t{i}.jpg"))
-        print("tile", i, "rank", r, "at", round(ts, 1))
+        _, g0, play = seg[r]; a = g0 + min(16, play * 0.42) + 1.0; b = g0 + max(play * 0.42 + 2, play - 9)
+        best = None                                              # after the data panel, before the verdict: the sharpest
+        for ts in np.linspace(a, max(a + 0.1, b), 8):          # frame with no readable text (21 Nov dry run: "PROFIT OR PERISH")
+            o = D / f"t{i}.jpg"; ff("-ss", f"{ts:.2f}", "-i", str(MP4), "-frames:v", "1", "-vf", "crop=900:800:510:110", "-q:v", "2", str(o))
+            img = cv2.imread(str(o))
+            if img is None: continue
+            g = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY); score = cv2.Laplacian(g, cv2.CV_64F).var() * (0.5 + min(g.mean(), 120) / 120)
+            score /= 1 + 3 * words(img)
+            if best is None or score > best[0]: best = (score, ts)
+        ff("-ss", f"{best[1]:.2f}", "-i", str(MP4), "-frames:v", "1", "-vf", "crop=900:800:510:110", "-q:v", "2", str(D / f"t{i}.jpg"))
+        print("tile", i, "rank", r, "at", round(best[1], 1))
 
 elif what == "gates":
     fails = []; dur = float(subprocess.run(["ffprobe", "-v", "error", "-show_entries", "format=duration", "-of", "csv=p=0", str(MP4)], capture_output=True, text=True).stdout)
     if not 420 <= dur <= 600: fails.append(f"duration {dur:.0f} s outside 7-10 min")
-    bl = ff("-i", str(MP4), "-vf", "blackdetect=d=0.5:pix_th=0.08", "-an", "-f", "null", "-").stderr
+    bl = ff("-i", str(MP4), "-vf", "blackdetect=d=0.5:pix_th=0.08", "-an", "-f", "null", "-", v="info").stderr
     blacks = re.findall(r"black_start:([\d.]+) black_end:([\d.]+)", bl)
     if blacks: fails.append(f"black runs >= 0.5 s at {[(round(float(a), 1), round(float(b), 1)) for a, b in blacks][:5]}")
-    ln = ff("-i", str(MP4), "-af", "ebur128", "-f", "null", "-").stderr
+    ln = ff("-i", str(MP4), "-vn", "-af", "ebur128", "-f", "null", "-", v="info").stderr
     I = float(re.findall(r"I:\s+(-?[\d.]+) LUFS", ln)[-1])
     if not -16 <= I <= -12: fails.append(f"loudness {I} LUFS outside -16..-12")
     ff("-i", str(MP4), "-vf", "fps=1/16,scale=384:-1,tile=6x5", "-frames:v", "1", "-q:v", "3", str(L / "contact.jpg"))

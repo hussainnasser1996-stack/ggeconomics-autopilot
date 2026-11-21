@@ -26,7 +26,8 @@ for x in sorted(resp["ranks"], key=lambda r: -r["peak_in_game"]):
     d = d["data"]; po = d.get("price_overview")
     genres = [g["description"] for g in d.get("genres", [])]
     if d.get("type") != "game" or d.get("is_free") or not po or NOT_GAME & set(genres): continue
-    movies = [m for m in d.get("movies", []) if m.get("hls_h264") and not re.search(r"pre-?load|pre-?order|teaser", m["name"], re.I)]
+    movies = [m for m in d.get("movies", []) if m.get("hls_h264") and not re.search(  # talking heads, not gameplay (WARDOGS "Game Mode Explained", 21 Nov)
+        r"pre-?load|pre-?order|teaser|explained|interview|dev(eloper)? ?diar|behind the|q ?& ?a|podcast|director|commentary|developer", m["name"], re.I)]
     if not movies: print("skip (no trailer):", d["name"]); continue
     rel = None
     for fmt in ("%b %d, %Y", "%d %b, %Y", "%B %d, %Y", "%b %Y"):
