@@ -10,3 +10,4 @@ autopilot/queue/*/*.mp4
 autopilot/queue/*/ovsafe/
 autopilot/log/runs/
 .venv
+studio/public/thumbs/

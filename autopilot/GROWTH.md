@@ -60,6 +60,14 @@ post.json `"experiment": {"E1": "A"}` so analytics can be joined later.
   we price it next." Its OWN caption (not the Reel's), set as post.json `carousel_caption` if the build supports it, else note it.
 - Metric: reach > 0, saves. KILL carousels entirely (set carousel_days: [] in CONTROL.md) if reach is still ~0 after 3.
 
+### E5 · Weekly long video (8-min "Top 10 games on Steam", voice intro). Started 22 Nov (owner approved). Decide 13 Dec (4 episodes).
+- Automatic: `longform-build.yml` builds every Friday 05:00 UTC from Steam's most-played chart (paid games, ranked by weekly
+  peak players), gates it (7-10 min, no black, -14 LUFS, voice QA) and schedules it for Saturday 16:00 UTC.
+- Metric: subscribers gained per 1,000 views and avg view % (scoreboard "YouTube long videos"), against the Shorts' subs per 1,000.
+- ADOPT if subs per 1,000 views beat the Shorts' and avg view % >= 30 (keep weekly, consider a second long format).
+  KILL (disable the cron) if the 4 episodes average < 300 views AND < 1 sub per 1,000; otherwise change ONE thing (title
+  style, thumbnail, length via `T`) and run 4 more.
+
 ## Adopted
 - (21 Nov) Lines without a number card are shown on screen in music-only edits (code fix, NewsShort.tsx).
 - (21 Nov) 3 posts a day stays after the launch window: each Short is a ~1,000-view test; more tests, faster learning.

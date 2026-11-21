@@ -61,6 +61,11 @@ Instagram AND TikTok (scoreboard.md has all three) and any `REACH ALARM` in its 
   argue about is the clearest signal of what they care about (19c Cyberpunk drew 5 of the first 10: viewers posting their own hours).
 - Subscribers (20 Nov): 12 Shorts, ~7,800 YouTube views, 1 subscriber. Track subs per Short; a Short with views and no subs
   gave no reason to come back. Prefer formats that are a SERIES the viewer can follow (cost per hour, Day N).
+- Long video (weekly Top 10 on Steam, from 22 Nov; built + uploaded by `longform-build.yml` every Friday, public Saturday
+  16:00 UTC; NOT your job to write it). On Sundays and Mondays read "YouTube long videos" in scoreboard.md: avg view %,
+  avg view s, subs+ per 1,000 views vs the Shorts. Under 35% avg view % = the middle sags: compare the contact sheet in
+  `longform/<P>/contact.jpg` and say which segment to shorten (edit `T` in `scripts/longform/lf_footage.py`). Its decision
+  is E5 in GROWTH.md.
 - End the review with 1–3 lines starting `DECISION:` (what you change in today's posts because of the numbers).
 For each post 2–10 days old in scoreboard.md, explain the number with evidence:
 - Low YouTube views → the swipe test failed (first 1.5 s: hook frame, first words). Views but avg view % < 60 → it lost
