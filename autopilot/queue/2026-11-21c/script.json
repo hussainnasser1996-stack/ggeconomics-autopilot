@@ -1,0 +1,29 @@
+{
+ "id": "d_2026_11_21c",
+ "voice": "am_liam",
+ "speed": 1.25,
+ "gap": 0.12,
+ "mode": "edit",
+ "lines": [
+  {
+   "id": "hook",
+   "text": "Stardew Valley costs you 28¢ an hour"
+  },
+  {
+   "id": "math",
+   "text": "$14.99 ÷ 53 hours to beat"
+  },
+  {
+   "id": "movie",
+   "text": "A movie ticket: $6 an hour"
+  },
+  {
+   "id": "full",
+   "text": "Go 100%: 9¢ an hour"
+  },
+  {
+   "id": "q",
+   "text": "How many hours have you got?"
+  }
+ ]
+}

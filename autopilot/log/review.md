@@ -1,6 +1,14 @@
 # Review log (newest first; written nightly by the autopilot)
 
 
+## 2026-11-21 (run for 2026-11-21, all 3 slots)
+- DISTRIBUTION (unchanged, on the owner): TikTok is still 0 plays on every video (ceo.md item 4, phone warm-up). Instagram stays at 100-250 views per Reel, 0 saves and 0 shares. 20 main (GTA 19M est.) had no metrics yet at scoreboard time. No YouTube Short over 24 h old is under 50 views except the two old 16:00 b posts.
+- Cost per hour is now 5 for 5 on YouTube: 20c Hollow Knight 1,349 in < 24 h, Cyberpunk 1,427, Elden 1,225, BG3 850. Retention for BG3 came in at 0.47 vs similar (Elden 0.49), the best of any post with real views. Hollow Knight drew more comments, again people talking about value and their own hours.
+- The 17:30 b slot holds: 20b (GTA Game Awards nominations) 880 and 19b 507, against 21 and 53 for the old 16:00 posts. GTA news at 17:30/23:00 lands at 500-1,040 (19 main 30 FPS 1,021; 18 main 212 GB 1,036, retention 0.31).
+- Subscribers are still ~1 on ~10,000 YouTube views. The series end lines ("Follow for cost per hour") aren't converting yet; too early to change.
+- DECISION: per the 20 Nov owner session, b and c are both cost per hour today (b Red Dead 2 $1.18/h, c Stardew Valley 28¢/h, both on the game's soundtrack), ending on "How many hours have you got?" since that's what people comment.
+- DECISION: main = GTA VI Day 3 with the first OFFICIAL number (Take-Two 20 Nov: $3.79B, 32.5M copies by end of day one) vs GTA 5's $816M first day = 4.6x. Library music (Rockstar trailer audio carries licensed tracks).
+
 ## 2026-11-20 midday: owner-requested review (Claude, session)
 - YouTube, 12 Shorts in 5 days: ~7,800 views, 1 subscriber. Cost per hour is 4 for 4 (Cyberpunk 1,316 · Elden 1,212 · BG3 828 · 18c), every one 800+. GTA news is a coin flip (36 to 879). Rumour (18b, 36) and company finance (17b Take-Two, 18) are dead.
 - Retention vs similar Shorts is 0.17-0.48 everywhere (0.5 = average): even the winners lose people in the first 3 s. The best two (Elden 0.48, Xbox One 0.4) open on a short claim about the viewer's own cost or console.

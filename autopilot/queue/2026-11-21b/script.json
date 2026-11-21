@@ -1,0 +1,29 @@
+{
+ "id": "d_2026_11_21b",
+ "voice": "am_liam",
+ "speed": 1.25,
+ "gap": 0.12,
+ "mode": "edit",
+ "lines": [
+  {
+   "id": "hook",
+   "text": "Red Dead 2 costs you $1.18 an hour"
+  },
+  {
+   "id": "math",
+   "text": "$59.99 ÷ 51 hours to beat"
+  },
+  {
+   "id": "movie",
+   "text": "A movie ticket: $6 an hour"
+  },
+  {
+   "id": "full",
+   "text": "Go 100%: 31¢ an hour"
+  },
+  {
+   "id": "q",
+   "text": "How many hours have you got?"
+  }
+ ]
+}

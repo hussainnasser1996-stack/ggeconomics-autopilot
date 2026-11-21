@@ -1,0 +1,50 @@
+{
+ "spec": {
+  "tag": "GTA VI · DAY 3",
+  "headline": "GTA 6 MADE |$3.79B| ON DAY ONE",
+  "topic": "GTA 6 day 3: Take-Two/Rockstar announced Fri 20 Nov 2026: $3.79B in sales and 32.5M copies through the end of launch day 19 Nov (pre-orders included). GTA V 2013 first 24 h: $815.7M / 11.21M (Take-Two). 3.79/0.8157 = 4.6x (our math). Sources: CNN Business (20 Nov), TweakTown (20 Nov), GameSpot headline",
+  "vo": "vo/d_2026_11_21/vo.wav",
+  "timelinePath": "vo/d_2026_11_21/timeline.json",
+  "timeline": {
+   "duration": 1,
+   "lines": [],
+   "words": []
+  },
+  "noBed": true,
+  "clips": [],
+  "cards": [
+   {
+    "kind": "big",
+    "line": "hook",
+    "value": "$3.79B",
+    "label": "GTA 6 sales by end of day one",
+    "note": "Take-Two, 20 Nov · pre-orders included",
+    "color": "#D4FF3A"
+   },
+   {
+    "kind": "big",
+    "line": "copies",
+    "value": "32.5M",
+    "label": "copies sold",
+    "note": "Take-Two official · pre-orders + launch day",
+    "color": "#3AE0FF"
+   },
+   {
+    "kind": "pair",
+    "line": "x",
+    "a": {
+     "value": "$3.79B",
+     "label": "GTA 6, DAY ONE"
+    },
+    "b": {
+     "value": "$816M",
+     "label": "GTA 5, FIRST 24 H"
+    },
+    "note": "GTA 5: Sept 2013 · Take-Two · 4.6x is our math"
+   }
+  ],
+  "credit": "GAMEPLAY: ROCKSTAR GAMES · DATA: TAKE-TWO",
+  "endLine": "FOLLOW FOR GTA 6 DAY 4",
+  "noCaptions": true
+ }
+}

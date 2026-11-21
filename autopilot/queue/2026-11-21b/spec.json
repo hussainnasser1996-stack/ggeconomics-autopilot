@@ -1,0 +1,50 @@
+{
+ "spec": {
+  "tag": "RED DEAD 2 · COST PER HOUR",
+  "headline": "RED DEAD 2 COSTS |$1.18 AN HOUR|",
+  "topic": "Red Dead Redemption 2 $59.99 on Steam (US, no discount, 21 Nov 2026) ÷ HowLongToBeat main story 51 h (182,696 s, 2,493 submissions) = $1.18/h; completionist 196 h (706,937 s) = $0.31/h; vs ~$12 movie for 2 h = $6/h",
+  "vo": "vo/d_2026_11_21b/vo.wav",
+  "timelinePath": "vo/d_2026_11_21b/timeline.json",
+  "timeline": {
+   "duration": 1,
+   "lines": [],
+   "words": []
+  },
+  "noBed": true,
+  "clips": [],
+  "cards": [
+   {
+    "kind": "big",
+    "line": "hook",
+    "value": "$1.18/HR",
+    "label": "Red Dead Redemption 2, main story",
+    "note": "$59.99 Steam ÷ 51 h HowLongToBeat · our math",
+    "color": "#D4FF3A"
+   },
+   {
+    "kind": "pair",
+    "line": "movie",
+    "a": {
+     "value": "$1.18/HR",
+     "label": "RED DEAD 2"
+    },
+    "b": {
+     "value": "$6/HR",
+     "label": "MOVIE TICKET"
+    },
+    "note": "~$12 ticket for a 2-hour film"
+   },
+   {
+    "kind": "big",
+    "line": "full",
+    "value": "31¢/HR",
+    "label": "if you go 100%",
+    "note": "196 h completionist · HowLongToBeat",
+    "color": "#D4FF3A"
+   }
+  ],
+  "credit": "GAMEPLAY: ROCKSTAR GAMES · DATA: STEAM, HOWLONGTOBEAT",
+  "endLine": "FOLLOW FOR COST PER HOUR",
+  "noCaptions": true
+ }
+}

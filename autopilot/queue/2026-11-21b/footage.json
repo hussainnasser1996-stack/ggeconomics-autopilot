@@ -1,0 +1,15 @@
+{
+ "candidates": [
+  {
+   "source": "steam",
+   "game": "Red Dead Redemption 2",
+   "prefer": "Launch"
+  },
+  {
+   "source": "steam",
+   "game": "Red Dead Redemption 2",
+   "prefer": "60 FPS"
+  }
+ ],
+ "credit": "GAMEPLAY: ROCKSTAR GAMES"
+}

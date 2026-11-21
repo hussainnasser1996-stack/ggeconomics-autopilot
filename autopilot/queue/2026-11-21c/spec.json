@@ -1,0 +1,50 @@
+{
+ "spec": {
+  "tag": "STARDEW VALLEY · COST PER HOUR",
+  "headline": "STARDEW VALLEY COSTS |28¢ AN HOUR|",
+  "topic": "Stardew Valley $14.99 on Steam (US, no discount, 21 Nov 2026) ÷ HowLongToBeat main story 53 h (192,145 s, 591 submissions) = $0.28/h; completionist 173 h (622,661 s) = $0.09/h; vs ~$12 movie for 2 h = $6/h",
+  "vo": "vo/d_2026_11_21c/vo.wav",
+  "timelinePath": "vo/d_2026_11_21c/timeline.json",
+  "timeline": {
+   "duration": 1,
+   "lines": [],
+   "words": []
+  },
+  "noBed": true,
+  "clips": [],
+  "cards": [
+   {
+    "kind": "big",
+    "line": "hook",
+    "value": "28¢/HR",
+    "label": "Stardew Valley, main story",
+    "note": "$14.99 Steam ÷ 53 h HowLongToBeat · our math",
+    "color": "#D4FF3A"
+   },
+   {
+    "kind": "pair",
+    "line": "movie",
+    "a": {
+     "value": "28¢/HR",
+     "label": "STARDEW VALLEY"
+    },
+    "b": {
+     "value": "$6/HR",
+     "label": "MOVIE TICKET"
+    },
+    "note": "~$12 ticket for a 2-hour film"
+   },
+   {
+    "kind": "big",
+    "line": "full",
+    "value": "9¢/HR",
+    "label": "if you go 100%",
+    "note": "173 h completionist · HowLongToBeat",
+    "color": "#D4FF3A"
+   }
+  ],
+  "credit": "GAMEPLAY: CONCERNEDAPE · DATA: STEAM, HOWLONGTOBEAT",
+  "endLine": "FOLLOW FOR COST PER HOUR",
+  "noCaptions": true
+ }
+}
