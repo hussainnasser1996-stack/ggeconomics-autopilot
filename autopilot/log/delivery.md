@@ -1,14 +1,14 @@
-# Delivery check · 2026-11-21 03:09 UTC
+# Delivery check · 2026-11-21 07:41 UTC
 
 ## Problems
 - 2026-11-18b instagram_reel: Buffer error: It looks like Buffer has lost the authorization to post to Facebook. No need to worry, though! (older than 12 h: not re-booked, stale)
 
 Buffer scheduled per channel: youtube_short 3, instagram_reel 3, tiktok_video 3
 
-GitHub Actions minutes used this month: ~1789 of 2,000 (free tier, private repo)
+GitHub Actions minutes used this month: ~1790 of 2,000 (free tier, private repo)
 
 ## Actions taken
-- 2026-11-20 youtube_short: Buffer posting limit → direct YouTube upload: posted direct youtube_short xJKDG8gJ8X8 public uploaded
+- 2026-11-20: {'video': 'xJKDG8gJ8X8', 'series': 'gta6', 'playlist': 'ok', 'blocked_in': 0, 'allowed_only': None, 'music': 'library', 'localized': ['ar', 'en', 'es', 'hi', 'id', 'pt-BR']}
 
 | post | channel | status | sent/due | link | title |
 |---|---|---|---|---|---|
@@ -46,7 +46,7 @@ GitHub Actions minutes used this month: ~1789 of 2,000 (free tier, private repo)
 | 2026-11-19c | youtube_short | direct (own API) | 2026-11-19T12:00:00.000Z | https://www.youtube.com/shorts/I5ZLMocjk2k | Cyberpunk 2077 Costs You $2.31 an Hour. Worth It? |
 | 2026-11-19c | instagram_reel | sent | 2026-11-19T14:33:45.336Z | https://www.instagram.com/reel/Df7TbfdBgHX/ | Cyberpunk 2077 Costs You $2.31 an Hour. Worth It? |
 | 2026-11-19c | tiktok_video | sent | 2026-11-19T12:01:35.808Z | https://www.tiktok.com/@ggeconomics/video/7709851258726763796?utm_campaign=tt4d_open_api&utm_source=7103819247981182978 | Cyberpunk 2077 Costs You $2.31 an Hour. Worth It? |
-| 2026-11-20 | youtube_short | error | 2026-11-20T23:00:00.000Z |  | GTA 6 Sales: Est. 19M Copies. Did You Buy It? |
+| 2026-11-20 | youtube_short | direct (own API) | 2026-11-20T23:00:00.000Z | https://www.youtube.com/shorts/xJKDG8gJ8X8 | GTA 6 Sales: Est. 19M Copies. Did You Buy It? |
 | 2026-11-20 | instagram_reel | sent | 2026-11-20T23:02:11.360Z | https://www.instagram.com/reel/Df-ya8mtDZW/ | GTA 6 Sales: Est. 19M Copies. Did You Buy It? |
 | 2026-11-20 | instagram_carousel | sent | 2026-11-20T15:04:09.010Z | https://www.instagram.com/p/Df97uKglPz9/ | GTA 6 Sales: Est. 19M Copies. Did You Buy It? |
 | 2026-11-20 | tiktok_video | sent | 2026-11-20T23:02:13.177Z | https://www.tiktok.com/@ggeconomics/video/7710392609340001556?utm_campaign=tt4d_open_api&utm_source=7103819247981182978 | GTA 6 Sales: Est. 19M Copies. Did You Buy It? |
