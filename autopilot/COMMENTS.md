@@ -1,8 +1,9 @@
 # Comment replies (read by the heartbeat routine every 6 h)
 
 Input: `autopilot/log/comments_inbox.json` (written by `scripts/engage.py` in the monitor run).
-Output: append to `autopilot/log/comments_outbox.json` (a JSON list). APPROVAL MODE (config.json `comment_mode: approve`):
-the monitor posts only entries with `"approved": true` (set by Claude in a session after Husain OKs them); never set it yourself.
+Output: append to `autopilot/log/comments_outbox.json` (a JSON list). AUTO MODE (config.json `comment_mode: auto`, Husain 21 Nov:
+"just use the humanizer, I don't need to approve"): the monitor posts every reply on its next run (every 6 h). No approval step,
+so the humanizer pass below is the only gate. Do it properly.
 
 One entry per inbox item, copying `platform`, `id` and `reply_to` exactly:
 - reply: `{"platform": "...", "id": "...", "reply_to": "...", "reply": "..."}`

@@ -45,7 +45,7 @@ post.json `"experiment": {"E1": "A"}` so analytics can be joined later.
   Caption question: "Which game should we price next?"
 - When a comment names a game (log/comments_inbox.json): pick it for a cost-per-hour slot within 3 days if Steam/HLTB have it.
   Caption line 1: "You asked, @<name>: <Game> costs $X an hour." Reply to the comment once the Short is live (COMMENTS.md rules,
-  humanizer pass, approval mode applies).
+  humanizer pass, posted automatically).
 - Metric: comments per 1,000 YouTube views and subscribers per 1,000 views vs the 21 Nov baseline (~4 comments / 1k on
   cost-per-hour; 0.4 subs / 1k). ADOPT if either doubles.
 
