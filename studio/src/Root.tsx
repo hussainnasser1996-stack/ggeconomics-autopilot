@@ -15,6 +15,8 @@ import { TopFive, topMetadata } from "./news/TopFive";
 import topFivePilot from "./episodes/topFivePilot.json";
 import { TopRanking, rankMetadata } from "./news/TopRanking";
 import { LongTop, longMetadata } from "./news/LongTop";
+import { LongThumb } from "./news/LongThumb";
+import { Still } from "remotion";
 import longTop10 from "./episodes/longTop10.json";
 import longTop10Text from "./episodes/longTop10_text.json";
 import longTop10Voice from "./episodes/longTop10_voice.json";
@@ -30,6 +32,7 @@ export const Root: React.FC = () => (
     <Composition id="TopFive" component={TopFive} calculateMetadata={topMetadata} durationInFrames={560} fps={30} width={1080} height={1920} defaultProps={topFivePilot as any} />
     <Composition id="LongTop" component={LongTop} calculateMetadata={longMetadata} durationInFrames={9000} fps={30} width={1920} height={1080} defaultProps={{ spec: longTop10 } as any} />
     <Composition id="LongTopText" component={LongTop} calculateMetadata={longMetadata} durationInFrames={9000} fps={30} width={1920} height={1080} defaultProps={{ spec: longTop10Text } as any} />
+    <Still id="LongThumb" component={LongThumb} width={1280} height={720} defaultProps={{ spec: longTop10Voice } as any} />
     <Composition id="LongTopVoice" component={LongTop} calculateMetadata={longMetadata} durationInFrames={9000} fps={30} width={1920} height={1080} defaultProps={{ spec: longTop10Voice } as any} />
     <Composition id="TopRanking" component={TopRanking} calculateMetadata={rankMetadata} durationInFrames={2200} fps={30} width={1080} height={1920} defaultProps={topTenRanking as any} />
     <Composition id="GtaShort" component={NewsShort} durationInFrames={shortFrames(gtaShort)} fps={30} width={1080} height={1920} defaultProps={{ spec: gtaShort }} />

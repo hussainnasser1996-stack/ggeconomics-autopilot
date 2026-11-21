@@ -38,7 +38,8 @@ if tok.exists():
             s = v["statistics"]
             vids[v["id"]] = {"title": v["snippet"]["title"], "published": v["snippet"]["publishedAt"][:10],
                              "views": int(s.get("viewCount", 0)), "likes": int(s.get("likeCount", 0)), "comments": int(s.get("commentCount", 0))}
-            m = re.match(r"PT(?:(\d+)M)?(?:(\d+)S)?", v["contentDetails"]["duration"]); durs[v["id"]] = int(m[1] or 0) * 60 + int(m[2] or 0) if m else 0
+            m = re.match(r"PT(?:(\d+)H)?(?:(\d+)M)?(?:(\d+)S)?", v["contentDetails"]["duration"]); durs[v["id"]] = int(m[1] or 0) * 3600 + int(m[2] or 0) * 60 + int(m[3] or 0) if m else 0
+            vids[v["id"]]["dur"] = durs[v["id"]]
         start = min(v["published"] for v in vids.values())
         try:
             r = ya.reports().query(ids="channel==MINE", startDate=start, endDate=today, dimensions="video",
@@ -206,6 +207,11 @@ for name, p in per_post.items():
 rows += ["", "## YouTube", "| published | views | avg view % | avg view s | kept 1s % | kept 3s % | 3s vs similar | likes | shares | subs+ | title |", "|---|---|---|---|---|---|---|---|---|---|---|"]
 for vid, v in sorted(out["youtube"].get("videos", {}).items(), key=lambda kv: kv[1]["published"], reverse=True):
     rows.append(f"| {v['published']} | {v['views']} | {v.get('avg_view_pct','—')} | {v.get('avg_view_s','—')} | {v.get('hold_1s','—')} | {v.get('hold_3s','—')} | {v.get('vs_similar_3s','—')} | {v['likes']} | {v.get('shares','—')} | {v.get('subs','—')} | {v['title'][:60]} |")
+longs = {k: v for k, v in out["youtube"].get("videos", {}).items() if v.get("dur", 0) >= 180}
+if longs:   # the weekly 8-min Top 10 (from 22 Nov): judged on avg view %, minutes watched and subscribers, not 3 s holds
+    rows += ["", "## YouTube long videos (weekly Top 10)", "| published | length | views | avg view % | avg view s | subs+ | likes | comments | title |", "|---|---|---|---|---|---|---|---|---|"]
+    for vid, v in sorted(longs.items(), key=lambda kv: kv[1]["published"], reverse=True):
+        rows.append(f"| {v['published']} | {v['dur'] // 60}:{v['dur'] % 60:02d} | {v['views']} | {v.get('avg_view_pct','—')} | {v.get('avg_view_s','—')} | {v.get('subs','—')} | {v['likes']} | {v['comments']} | {v['title'][:60]} |")
 if out["youtube"].get("traffic_sources"):
     rows += ["", "Traffic sources (all time): " + ", ".join(f"{k} {v}" for k, v in out["youtube"]["traffic_sources"].items())]
 if out["ig_graph"]:
