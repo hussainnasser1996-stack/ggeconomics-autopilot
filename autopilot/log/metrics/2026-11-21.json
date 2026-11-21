@@ -3,21 +3,29 @@
  "youtube": {
   "channel": {
    "id": "UCpsoR_hS2XJT-Yv7UN0qZbQ",
-   "viewCount": 7261,
-   "subscriberCount": 6,
-   "videoCount": 16
+   "viewCount": 8332,
+   "subscriberCount": 7,
+   "videoCount": 17
   },
   "traffic_sources": {
-   "SHORTS": 4374,
-   "YT_SEARCH": 320,
-   "YT_OTHER_PAGE": 101,
-   "YT_CHANNEL": 42,
-   "EXT_URL": 14,
+   "SHORTS": 7147,
+   "YT_SEARCH": 467,
+   "YT_OTHER_PAGE": 176,
+   "YT_CHANNEL": 66,
+   "EXT_URL": 24,
    "SUBSCRIBER": 4,
    "PLAYLIST": 1,
    "NO_LINK_OTHER": 0
   },
   "videos": {
+   "f-ggW4ZXA4g": {
+    "title": "Red Dead 2 Costs You $1.18 an Hour. Worth It?",
+    "published": "2026-11-21",
+    "views": 212,
+    "likes": 1,
+    "comments": 1,
+    "dur": 14
+   },
    "lU8HjtuYbzw": {
     "title": "Top 10 Games on Steam This Week: Worth the Money? (Nov 2026)",
     "published": "2026-11-21",
@@ -37,7 +45,7 @@
    "xJKDG8gJ8X8": {
     "title": "GTA 6 Sales: Est. 19M Copies. Did You Buy It?",
     "published": "2026-11-21",
-    "views": 1108,
+    "views": 1114,
     "likes": 6,
     "comments": 1,
     "dur": 17
@@ -53,10 +61,15 @@
    "rYs3I31mOTs": {
     "title": "Hollow Knight Costs You 56\u00a2 an Hour. Worth It?",
     "published": "2026-11-20",
-    "views": 1440,
+    "views": 1442,
     "likes": 19,
     "comments": 10,
-    "dur": 14
+    "dur": 14,
+    "an_views": 2,
+    "avg_view_s": 25,
+    "avg_view_pct": 181.4,
+    "subs": 0,
+    "shares": 0
    },
    "NxhZJnczHb4": {
     "title": "GTA 6 Is Out: Your Console Runs It at 30 FPS",
@@ -64,15 +77,35 @@
     "views": 1033,
     "likes": 14,
     "comments": 3,
-    "dur": 23
+    "dur": 23,
+    "an_views": 962,
+    "avg_view_s": 16,
+    "avg_view_pct": 70.9,
+    "subs": 0,
+    "shares": 0,
+    "hold_1s": 114,
+    "hold_3s": 110,
+    "hold_end": 23,
+    "vs_similar_3s": 0.32,
+    "dur_s": 23
    },
    "aN_kp9u4ZXo": {
     "title": "GTA 6 vs GTA 5: You Waited 4,811 Days",
     "published": "2026-11-19",
-    "views": 522,
+    "views": 523,
     "likes": 2,
     "comments": 1,
-    "dur": 18
+    "dur": 18,
+    "an_views": 499,
+    "avg_view_s": 9,
+    "avg_view_pct": 52.7,
+    "subs": 0,
+    "shares": 0,
+    "hold_1s": 112,
+    "hold_3s": 110,
+    "hold_end": 15,
+    "vs_similar_3s": 0.28,
+    "dur_s": 18
    },
    "I5ZLMocjk2k": {
     "title": "Cyberpunk 2077 Costs You $2.31 an Hour. Worth It?",
@@ -80,24 +113,34 @@
     "views": 1534,
     "likes": 14,
     "comments": 13,
-    "dur": 14
+    "dur": 14,
+    "an_views": 1344,
+    "avg_view_s": 13,
+    "avg_view_pct": 93.8,
+    "subs": 0,
+    "shares": 2,
+    "hold_1s": 130,
+    "hold_3s": 123,
+    "hold_end": 47,
+    "vs_similar_3s": 0.59,
+    "dur_s": 14
    },
    "a92DfUx8zTw": {
     "title": "GTA 6 Unlocks Tonight: You Need 212 GB Free",
     "published": "2026-11-18",
-    "views": 1039,
+    "views": 1040,
     "likes": 18,
     "comments": 4,
     "dur": 24,
-    "an_views": 858,
+    "an_views": 880,
     "avg_view_s": 16,
-    "avg_view_pct": 66.7,
+    "avg_view_pct": 67.3,
     "subs": 1,
-    "shares": 0,
+    "shares": 1,
     "hold_1s": 113,
     "hold_3s": 111,
-    "hold_end": 23,
-    "vs_similar_3s": 0.31,
+    "hold_end": 24,
+    "vs_similar_3s": 0.32,
     "dur_s": 24
    },
    "gEIsDaTmYII": {
@@ -107,15 +150,15 @@
     "likes": 0,
     "comments": 1,
     "dur": 16,
-    "an_views": 29,
+    "an_views": 38,
     "avg_view_s": 13,
-    "avg_view_pct": 81.3,
+    "avg_view_pct": 85.3,
     "subs": 0,
     "shares": 0,
-    "hold_1s": 133,
-    "hold_3s": 125,
-    "hold_end": 42,
-    "vs_similar_3s": 0.51,
+    "hold_1s": 136,
+    "hold_3s": 129,
+    "hold_end": 43,
+    "vs_similar_3s": 0.55,
     "dur_s": 16
    },
    "WNOKpKZ_STA": {
@@ -125,15 +168,15 @@
     "likes": 3,
     "comments": 1,
     "dur": 15,
-    "an_views": 785,
-    "avg_view_s": 12,
-    "avg_view_pct": 80.4,
-    "subs": 0,
+    "an_views": 838,
+    "avg_view_s": 11,
+    "avg_view_pct": 78.4,
+    "subs": 1,
     "shares": 0,
-    "hold_1s": 122,
-    "hold_3s": 118,
-    "hold_end": 36,
-    "vs_similar_3s": 0.47,
+    "hold_1s": 121,
+    "hold_3s": 116,
+    "hold_end": 34,
+    "vs_similar_3s": 0.45,
     "dur_s": 15
    },
    "k1zkAfgzYeE": {
@@ -143,15 +186,15 @@
     "likes": 12,
     "comments": 3,
     "dur": 25,
-    "an_views": 590,
-    "avg_view_s": 18,
-    "avg_view_pct": 72.2,
+    "an_views": 662,
+    "avg_view_s": 17,
+    "avg_view_pct": 70.5,
     "subs": 0,
     "shares": 4,
-    "hold_1s": 121,
-    "hold_3s": 114,
-    "hold_end": 29,
-    "vs_similar_3s": 0.41,
+    "hold_1s": 118,
+    "hold_3s": 112,
+    "hold_end": 26,
+    "vs_similar_3s": 0.38,
     "dur_s": 25
    },
    "qk-9G5Knq5U": {
@@ -161,9 +204,9 @@
     "likes": 0,
     "comments": 1,
     "dur": 24,
-    "an_views": 13,
-    "avg_view_s": 10,
-    "avg_view_pct": 43.6,
+    "an_views": 18,
+    "avg_view_s": 12,
+    "avg_view_pct": 51.0,
     "subs": 0,
     "shares": 0
    },
@@ -174,15 +217,15 @@
     "likes": 9,
     "comments": 3,
     "dur": 15,
-    "an_views": 1179,
+    "an_views": 1224,
     "avg_view_s": 12,
-    "avg_view_pct": 83.1,
+    "avg_view_pct": 82.9,
     "subs": 1,
     "shares": 1,
     "hold_1s": 125,
     "hold_3s": 119,
-    "hold_end": 35,
-    "vs_similar_3s": 0.49,
+    "hold_end": 34,
+    "vs_similar_3s": 0.48,
     "dur_s": 15
    },
    "xee1vvJZ5L4": {
@@ -192,7 +235,7 @@
     "likes": 12,
     "comments": 1,
     "dur": 24,
-    "an_views": 804,
+    "an_views": 807,
     "avg_view_s": 14,
     "avg_view_pct": 61.8,
     "subs": 0,
@@ -210,12 +253,12 @@
     "likes": 0,
     "comments": 1,
     "dur": 24,
-    "an_views": 313,
-    "avg_view_s": 13,
-    "avg_view_pct": 54.9,
+    "an_views": 326,
+    "avg_view_s": 12,
+    "avg_view_pct": 53.6,
     "subs": 0,
     "shares": 0,
-    "hold_1s": 107,
+    "hold_1s": 106,
     "hold_3s": 102,
     "hold_end": 11,
     "vs_similar_3s": 0.19,
@@ -716,139 +759,139 @@
   {
    "title": "Does GTA 6 Live Up to the Hype",
    "channel": "penguinz0",
-   "views": 3117304,
+   "views": 3197586,
    "published": "2026-11-20"
   },
   {
    "title": "Whatever You Steal in GTA 6, You Keep!",
    "channel": "MrBeast Gaming",
-   "views": 25146839,
+   "views": 26333318,
    "published": "2026-11-20"
   },
   {
    "title": "BEATING GTA 6 *FINALE*",
    "channel": "Kai Cenat Live",
-   "views": 2783996,
+   "views": 2814135,
    "published": "2026-11-21"
   },
   {
    "title": "GTA 6 | FULL GAME | PART 1",
    "channel": "CaseOh",
-   "views": 1655311,
+   "views": 1766783,
    "published": "2026-11-20"
   },
   {
    "title": "The GTA 6 backlash is getting out of hand..",
    "channel": "Asmongold TV  ",
-   "views": 2528072,
+   "views": 2854254,
    "published": "2026-11-21"
   },
   {
    "title": "3 IDIOTS TRY TO CHEAT DEATH | The Cabin Game",
    "channel": "Markiplier",
-   "views": 1305935,
+   "views": 1371801,
    "published": "2026-11-20"
   },
   {
    "title": "GTA 6 User Reviews Are Finally Out..",
    "channel": "Asmongold Clips",
-   "views": 3383710,
+   "views": 3505537,
    "published": "2026-11-20"
   },
   {
    "title": "GTA 6: 20 MISTAKES YOU SHOULDN'T MAKE",
    "channel": "gameranx",
-   "views": 1496213,
+   "views": 1528755,
    "published": "2026-11-20"
   },
   {
    "title": "Final Life: Episode 4 - GUESS WHO'S BACK??",
    "channel": "Grian",
-   "views": 1270857,
+   "views": 1303181,
    "published": "2026-11-20"
   },
   {
    "title": "Testing The SCARIEST MINECRAFT Myths!",
    "channel": "TechyCraft",
-   "views": 309626,
+   "views": 352057,
    "published": "2026-11-21"
   },
   {
    "title": "15 Early Game Mistakes NOBODY Warned Me About (GTA 6)",
    "channel": "Vexies",
-   "views": 1289781,
+   "views": 1368891,
    "published": "2026-11-20"
   },
   {
    "title": "Warzone is back... but at what cost?",
    "channel": "SMii7Yplus",
-   "views": 1545474,
+   "views": 1610207,
    "published": "2026-11-20"
   },
   {
    "title": "ABSOLUTE CINEMA | Grand Theft Auto 6 - Part 3",
    "channel": "jacksepticeye",
-   "views": 744147,
+   "views": 766908,
    "published": "2026-11-20"
   },
   {
    "title": "GORILLA TAG MONSTERS you WONT SURVIVE..",
    "channel": "Tyler & Snowi",
-   "views": 795017,
+   "views": 827352,
    "published": "2026-11-21"
   },
   {
    "title": "skibidi toilet 83 (part 2)",
    "channel": "skibidi",
-   "views": 6142225,
-   "published": "2026-11-20"
-  },
-  {
-   "title": "GRAND THEFT AUTO 6! DAY 2",
-   "channel": "Starkilla",
-   "views": 246495,
-   "published": "2026-11-21"
-  },
-  {
-   "title": "GTA 6 - Best Ending (True Ending)",
-   "channel": "Shirrako",
-   "views": 2391506,
-   "published": "2026-11-20"
-  },
-  {
-   "title": "GTA 6 All 5 Endings Explained (Grand Theft Auto 6 Story)",
-   "channel": "TheGamingRevolution",
-   "views": 856553,
+   "views": 6231784,
    "published": "2026-11-20"
   },
   {
    "title": "What is the Most Toxic Pokemon Strategy?",
    "channel": "WolfeyVGC",
-   "views": 169670,
+   "views": 253983,
    "published": "2026-11-21"
+  },
+  {
+   "title": "GRAND THEFT AUTO 6! DAY 2",
+   "channel": "Starkilla",
+   "views": 249858,
+   "published": "2026-11-21"
+  },
+  {
+   "title": "GTA 6 - Best Ending (True Ending)",
+   "channel": "Shirrako",
+   "views": 2456718,
+   "published": "2026-11-20"
+  },
+  {
+   "title": "GTA 6 All 5 Endings Explained (Grand Theft Auto 6 Story)",
+   "channel": "TheGamingRevolution",
+   "views": 904702,
+   "published": "2026-11-20"
   },
   {
    "title": "My Crush Did Something REALLY BAD...",
    "channel": "Techy Plays",
-   "views": 178235,
+   "views": 216823,
    "published": "2026-11-21"
   },
   {
    "title": "I Found BIGGEST FOOTPRINTS of SCARY Minecraft MONSTERS\u2026",
    "channel": "PrestonPlayz",
-   "views": 117561,
+   "views": 157897,
    "published": "2026-11-21"
   },
   {
    "title": "GTA 6 Walkthrough Gameplay Part 3 - LUCIA CAMINOS (GRAND THEFT AUTO 6)",
    "channel": "theRadBrad",
-   "views": 878693,
+   "views": 898518,
    "published": "2026-11-20"
   },
   {
    "title": "GTA 6 WTF and Funny Moments! #3",
    "channel": "Zynxize",
-   "views": 2002673,
+   "views": 2141198,
    "published": "2026-11-20"
   }
  ],
@@ -857,144 +900,144 @@
  ],
  "outliers": [
   [
-   90.60512819979348,
-   4466543,
+   706.6141929794331,
+   12761887,
+   11800,
+   "SSG",
+   "\"Gta 6 already has the funniest npcs\ud83d\ude02\" #gta6 #rockstargames"
+  ],
+  [
+   91.46167464706518,
+   4508768,
    26600,
    "GTA by Sam",
    "Don't miss the TOP GTA 6 MOMENTS... \ud83d\ude02 #gta6 #gtavi"
   ],
   [
-   45.99138826592793,
-   8414553,
+   46.884881980210324,
+   8578026,
    111000,
    "JayWayyGaming",
    "5 Things You Didn\u2019t Know About GTA 6"
   ],
   [
-   23.618901631311687,
-   6664079,
+   23.85784878801277,
+   6731498,
    61900,
    "Blin.",
    "How to Crack Lucia in GTA 6 (Most People Miss This)"
   ],
   [
-   15.623791988353329,
-   39457554,
-   46900,
+   15.797104081093146,
+   39895250,
+   47100,
    "GrimaceClips",
    "Husband Has the Most INSANE Reaction to GTA 6 \ud83d\ude2d"
   ],
   [
-   14.546328094953788,
-   4487642,
-   54200,
-   "Comparaholic",
-   "Car Destruction: GTA VI vs. GTA V"
+   15.522453940399416,
+   11267664,
+   2530000,
+   "Mu Mu Life Diary",
+   "\u4e00\u4e2a\u4e00\u4e2a\u6572\u51fb#gta  #gta6  #shorts #kpop"
   ],
   [
-   14.483832081333318,
-   9240866,
+   14.746229759238426,
+   9408279,
    344000,
    "WBX",
    "HOW LUCIA REACTS IN GTA 6 \ud83d\ude28 #shorts #gta6"
   ],
   [
-   14.382486087591328,
-   3650171,
+   14.551293948879183,
+   4489174,
+   54300,
+   "Comparaholic",
+   "Car Destruction: GTA VI vs. GTA V"
+  ],
+  [
+   14.514139446981687,
+   3680238,
    461000,
    "Mati Clips",
    "RUBIUS ENCUENTRA SU PRIMER EASTER EGG EN GTA VI #rubius #espa\u00f1a #gtavi #curiosidades"
   ],
   [
-   11.702576092169124,
-   3610325,
-   54200,
+   12.960364574890885,
+   4977479,
+   1120000,
+   "Darsa Gaming",
+   "Inilah Detail Keren Yang Ada di GTA 6 #1"
+  ],
+  [
+   11.716452606956734,
+   3614606,
+   54300,
    "Comparaholic",
    "Water Physics: GTA VI vs. GTA V"
   ],
   [
-   10.966924799459042,
-   20773129,
+   11.01011857731468,
+   20854945,
    6920000,
    "\u730e\u9b54\u7684\u5951\u7ea6",
    "\u9009\u62e9\u5fc3\u4eea\u7684\u7269\u54c1#gta  #gta6  #shorts"
   ],
   [
-   10.564895695326692,
-   15329313,
+   10.741599944050442,
+   15585705,
    847000,
    "Mr Spring",
    "Did GTA 6 Finally Fix BLOCKED Car Doors?"
   ],
   [
-   7.952735607689989,
-   298024,
+   7.989454006866502,
+   299400,
    28500,
    "Sami Kick Flick",
    "Lamine Yamal-\u098f\u09b0 \u09a8\u09a4\u09c1\u09a8 \u0997\u09cb\u0981\u09ab GTA 6-\u098f! Speed \u09af\u09be \u09a6\u09c7\u0996\u09b2\u09c7\u09a8, \u09a4\u09be \u09a8\u09bf\u09af\u09bc\u09c7 \u09b6\u09c1\u09b0\u09c1 \u0986\u09b2\u09cb\u099a\u09a8\u09be"
   ],
   [
-   6.786564563751137,
-   51131430,
+   6.833991143118244,
+   51488752,
    15900000,
    "Chunnu Munnu Vines",
    "GTA VI #comedy #funny #cutebaby #shortsfeed #viralvideo"
   ],
   [
-   6.553947985713829,
-   5215027,
+   6.628215205464706,
+   5274122,
    1550000,
    "Aaron Rheins",
    "Airports in GTA 6 are Insane"
   ],
   [
-   6.4705776613501955,
-   3390263,
+   6.504414821286778,
+   3407992,
    2810000,
    "Speedy Boykins",
    "iShowSpeed Finds A HULK-LIKE MONSTER In GTA 6 \ud83d\ude31"
   ],
   [
-   5.384199277509888,
-   4362384,
-   1900000,
-   "Asmongold Clips",
-   "GTA 6 just broke the entire internet.."
+   5.6956614554760465,
+   527351,
+   129000,
+   "James Flux",
+   "GTA 6 HAS ALREADY BEEN HACKED..!"
   ],
   [
-   4.176287309256357,
-   3383710,
+   4.326650240484144,
+   3505537,
    1900000,
    "Asmongold Clips",
    "GTA 6 User Reviews Are Finally Out.."
   ],
   [
-   3.9090202091058197,
-   3385922,
-   52600,
-   "JOE CLIPPER",
-   "Joe Bart On Streamers Using New Zealand VPNs to play GTA 6 early \ud83d\udc80"
-  ],
-  [
-   3.8445626442062646,
-   9351852,
+   3.8778113409155424,
+   9428358,
    4910000,
    "TheAnimeMen",
    "GTA 5 vs GTA 6 \ud83d\ude2d"
-  ],
-  [
-   3.822617607497872,
-   6674281,
-   468000,
-   "Marcade",
-   "Penampakan BIGFOOT di GTA 6 #shorts"
-  ],
-  [
-   3.7023448586613377,
-   7554713,
-   4800000,
-   "gta2025",
-   "si dejamos un coche abandonado con GPS en #gta6"
   ]
  ],
  "ig_graph": {
@@ -1006,11 +1049,11 @@
    "likes": 1,
    "comments": 0,
    "views": 126,
-   "reach": 101,
+   "reach": 103,
    "saved": 0,
    "shares": 0,
    "total_interactions": 1,
-   "ig_reels_avg_watch_time": 5468
+   "ig_reels_avg_watch_time": 5443
   },
   "18107023265374837": {
    "sent": "2026-11-21",
@@ -1272,7 +1315,7 @@
   },
   "2026-11-21b": {
    "title": "Red Dead 2 Costs You $1.18 an Hour. Worth It?",
-   "youtube_short": null,
+   "youtube_short": 212,
    "instagram_reel": 126,
    "instagram_carousel": null,
    "tiktok_video": 0
@@ -1286,7 +1329,7 @@
   },
   "2026-11-20c": {
    "title": "Hollow Knight Costs You 56\u00a2 an Hour. Worth It?",
-   "youtube_short": 1440,
+   "youtube_short": 1442,
    "instagram_reel": 151,
    "instagram_carousel": null,
    "tiktok_video": 0
@@ -1300,7 +1343,7 @@
   },
   "2026-11-20": {
    "title": "GTA 6 Sales: Est. 19M Copies. Did You Buy It?",
-   "youtube_short": 1108,
+   "youtube_short": 1114,
    "instagram_reel": 117,
    "instagram_carousel": 0,
    "tiktok_video": 0
@@ -1314,7 +1357,7 @@
   },
   "2026-11-19b": {
    "title": "GTA 6 vs GTA 5: You Waited 4,811 Days",
-   "youtube_short": 522,
+   "youtube_short": 523,
    "instagram_reel": 113,
    "instagram_carousel": null,
    "tiktok_video": 0
@@ -1342,7 +1385,7 @@
   },
   "2026-11-18": {
    "title": "GTA 6 Unlocks Tonight: You Need 212 GB Free",
-   "youtube_short": 1039,
+   "youtube_short": 1040,
    "instagram_reel": 178,
    "instagram_carousel": null,
    "tiktok_video": 0
