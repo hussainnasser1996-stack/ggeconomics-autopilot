@@ -1,0 +1,29 @@
+{
+ "id": "d_2026_11_22",
+ "voice": "am_liam",
+ "speed": 1.25,
+ "gap": 0.12,
+ "mode": "edit",
+ "lines": [
+  {
+   "id": "hook",
+   "text": "#1: GTA 6 made $3.79B in one day"
+  },
+  {
+   "id": "copies",
+   "text": "#2: 32.5M copies by launch night"
+  },
+  {
+   "id": "rdr",
+   "text": "#3: 5.2x Red Dead 2's opening"
+  },
+  {
+   "id": "tga",
+   "text": "#4: 8 Game Awards nominations"
+  },
+  {
+   "id": "q",
+   "text": "Week 2 numbers tomorrow"
+  }
+ ]
+}

@@ -1,0 +1,14 @@
+{
+ "candidates": [
+  {
+   "source": "steam",
+   "game": "The Elder Scrolls V: Skyrim Special Edition",
+   "prefer": "Special Edition Trailer"
+  },
+  {
+   "source": "steam",
+   "game": "The Elder Scrolls V: Skyrim Special Edition"
+  }
+ ],
+ "credit": "GAMEPLAY: BETHESDA SOFTWORKS"
+}

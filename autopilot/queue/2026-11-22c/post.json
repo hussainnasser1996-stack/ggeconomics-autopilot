@@ -1,0 +1,66 @@
+{
+ "title": "Is Skyrim Worth It in 2026? $1.14 an Hour",
+ "caption": "Skyrim is $39.99 on Steam and takes about 35 hours to beat (HowLongToBeat main story): $1.14 an hour. A $12 movie ticket for 2 hours is $6 an hour. Go 100% (about 240 hours) and it drops to 17¢ an hour. Our own math.\nWhich game should we price next?\n\nSources: Steam store (US price), HowLongToBeat",
+ "ig_first_line": "Send this to the friend with 300 hours in Skyrim. The main quest costs you $1.14 an hour.",
+ "hashtags": [
+  "#Skyrim",
+  "#gaming",
+  "#shorts",
+  "#gamingnews",
+  "#skyrimworthit"
+ ],
+ "title_candidates": [
+  {
+   "t": "Is Skyrim Worth It in 2026? $1.14 an Hour",
+   "score": 10
+  },
+  {
+   "t": "Is Skyrim Worth $39.99? Here's Your Hourly Cost",
+   "score": 8
+  },
+  {
+   "t": "Skyrim Costs You $1.14 an Hour. Worth It?",
+   "score": 9
+  },
+  {
+   "t": "Skyrim 100%: 17¢ an Hour",
+   "score": 6
+  },
+  {
+   "t": "Your $40 Skyrim Buys 240 Hours",
+   "score": 7
+  }
+ ],
+ "localized": {
+  "es": {
+   "title": "¿Vale la pena Skyrim en 2026? $1.14 por hora"
+  },
+  "pt-BR": {
+   "title": "Skyrim vale a pena em 2026? $1.14 por hora"
+  },
+  "ar": {
+   "title": "هل تستحق Skyrim في 2026؟ $1.14 في الساعة"
+  },
+  "hi": {
+   "title": "क्या Skyrim 2026 में लायक है? $1.14 प्रति घंटा"
+  },
+  "id": {
+   "title": "Skyrim Worth It di 2026? $1.14 per Jam"
+  }
+ },
+ "keywords": [
+  "skyrim worth it in 2026",
+  "skyrim is it worth it",
+  "skyrim better prices"
+ ],
+ "hook_style": "question",
+ "series": "cost_per_hour",
+ "music": "game",
+ "carousel": false,
+ "publish_time_utc": "12:00",
+ "experiment": {
+  "E1": "B",
+  "E2": "COST PER HOUR #8",
+  "E3": "send_trigger"
+ }
+}

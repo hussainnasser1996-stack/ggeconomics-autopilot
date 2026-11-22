@@ -1,0 +1,58 @@
+{
+ "spec": {
+  "tag": "GTA VI · WEEK 1 SCOREBOARD",
+  "headline": "GTA 6'S FIRST WEEK IN |4 NUMBERS|",
+  "topic": "Weekly money scoreboard, GTA VI launch week. Rockstar/Take-Two 20 Nov: $3.79B worldwide retail sales and 32.5M copies through end of day 19 Nov (GamingBolt 21 Nov, PC Gamer, VideoCardz, Mixed). RDR2 first weekend $725M (GamingBolt; Take-Two 2018). 3.79/0.725 = 5.2x, our math. 8 Game Awards 2026 nominations (Gematsu 17 Nov, used 20b).",
+  "vo": "vo/d_2026_11_22/vo.wav",
+  "timelinePath": "vo/d_2026_11_22/timeline.json",
+  "timeline": {
+   "duration": 1,
+   "lines": [],
+   "words": []
+  },
+  "noBed": true,
+  "clips": [],
+  "cards": [
+   {
+    "kind": "big",
+    "line": "hook",
+    "value": "$3.79B",
+    "label": "GTA 6 sales through launch day",
+    "note": "Rockstar / Take-Two, 20 Nov · retail, worldwide",
+    "color": "#D4FF3A"
+   },
+   {
+    "kind": "big",
+    "line": "copies",
+    "value": "32.5M",
+    "label": "copies by end of 19 Nov",
+    "note": "Rockstar / Take-Two official",
+    "color": "#3AE0FF"
+   },
+   {
+    "kind": "pair",
+    "line": "rdr",
+    "a": {
+     "value": "$3.79B",
+     "label": "GTA 6, DAY ONE"
+    },
+    "b": {
+     "value": "$725M",
+     "label": "RED DEAD 2, WEEKEND 1"
+    },
+    "note": "RDR2: Oct 2018 · Take-Two · 5.2x is our math"
+   },
+   {
+    "kind": "big",
+    "line": "tga",
+    "value": "8",
+    "label": "Game Awards 2026 nominations",
+    "note": "The Game Awards, 17 Nov",
+    "color": "#D4FF3A"
+   }
+  ],
+  "credit": "GAMEPLAY: ROCKSTAR GAMES · DATA: ROCKSTAR / TAKE-TWO, THE GAME AWARDS",
+  "endLine": "FOLLOW FOR GTA 6 WEEK 2",
+  "noCaptions": true
+ }
+}

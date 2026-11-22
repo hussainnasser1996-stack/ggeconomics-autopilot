@@ -1,0 +1,66 @@
+{
+ "title": "Witcher 3 Worth It in 2026? 96¢ an Hour",
+ "caption": "The Witcher 3 is $49.99 on Steam and takes about 52 hours to beat (HowLongToBeat main story): 96¢ an hour. A $12 movie ticket for 2 hours is $6 an hour. Go 100% (about 175 hours) and it drops to 29¢ an hour. Our own math.\nWhich game should we price next?\n\nSources: Steam store (US price), HowLongToBeat",
+ "ig_first_line": "Send this to the friend with 300 hours in The Witcher 3. Its main story costs 96 cents an hour.",
+ "hashtags": [
+  "#Witcher3",
+  "#gaming",
+  "#shorts",
+  "#gamingnews",
+  "#witcher3worthit"
+ ],
+ "title_candidates": [
+  {
+   "t": "Witcher 3 Worth It in 2026? 96¢ an Hour",
+   "score": 10
+  },
+  {
+   "t": "The Witcher 3 Costs You 96¢ an Hour. Worth It?",
+   "score": 9
+  },
+  {
+   "t": "Witcher 3: How Many Hours for Your $49.99?",
+   "score": 7
+  },
+  {
+   "t": "The Witcher 3 Is 6x Cheaper Than a Movie",
+   "score": 6
+  },
+  {
+   "t": "Witcher 3 Remastered Cost per Hour",
+   "score": 5
+  }
+ ],
+ "localized": {
+  "es": {
+   "title": "¿Vale la pena Witcher 3 en 2026? 96¢ por hora"
+  },
+  "pt-BR": {
+   "title": "Witcher 3 vale a pena em 2026? 96¢ por hora"
+  },
+  "ar": {
+   "title": "هل تستحق Witcher 3 في 2026؟ 96¢ في الساعة"
+  },
+  "hi": {
+   "title": "क्या Witcher 3 2026 में लायक है? 96¢ प्रति घंटा"
+  },
+  "id": {
+   "title": "Witcher 3 Worth It di 2026? 96¢ per Jam"
+  }
+ },
+ "keywords": [
+  "witcher 3 worth it 2026",
+  "witcher 3 how many hours",
+  "witcher 3 remastered"
+ ],
+ "hook_style": "number",
+ "series": "cost_per_hour",
+ "music": "game",
+ "carousel": false,
+ "publish_time_utc": "17:30",
+ "experiment": {
+  "E1": "A",
+  "E2": "COST PER HOUR #7",
+  "E3": "send_trigger"
+ }
+}

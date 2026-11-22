@@ -1,0 +1,50 @@
+{
+ "spec": {
+  "tag": "COST PER HOUR #7",
+  "headline": "THE WITCHER 3 COSTS |96¢ AN HOUR|",
+  "topic": "The Witcher 3: Wild Hunt — Remastered $49.99 on Steam (US, appid 292030, no discount, 22 Nov 2026) ÷ HowLongToBeat main story 52 h (185,989 s, 2,743 submissions, id 10270) = 96¢/h; completionist 175 h (631,268 s) = 29¢/h; vs ~$12 movie for 2 h = $6/h. E1 arm A.",
+  "vo": "vo/d_2026_11_22b/vo.wav",
+  "timelinePath": "vo/d_2026_11_22b/timeline.json",
+  "timeline": {
+   "duration": 1,
+   "lines": [],
+   "words": []
+  },
+  "noBed": true,
+  "clips": [],
+  "cards": [
+   {
+    "kind": "big",
+    "line": "hook",
+    "value": "96¢/HR",
+    "label": "The Witcher 3, main story",
+    "note": "$49.99 Steam ÷ 52 h HowLongToBeat · our math",
+    "color": "#D4FF3A"
+   },
+   {
+    "kind": "pair",
+    "line": "movie",
+    "a": {
+     "value": "96¢/HR",
+     "label": "THE WITCHER 3"
+    },
+    "b": {
+     "value": "$6/HR",
+     "label": "MOVIE TICKET"
+    },
+    "note": "~$12 ticket for a 2-hour film"
+   },
+   {
+    "kind": "big",
+    "line": "full",
+    "value": "29¢/HR",
+    "label": "if you go 100%",
+    "note": "175 h completionist · HowLongToBeat",
+    "color": "#D4FF3A"
+   }
+  ],
+  "credit": "GAMEPLAY: CD PROJEKT RED · DATA: STEAM, HOWLONGTOBEAT",
+  "endLine": "COMMENT A GAME. WE PRICE IT NEXT.",
+  "noCaptions": true
+ }
+}

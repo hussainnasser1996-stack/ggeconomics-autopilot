@@ -1,0 +1,29 @@
+{
+ "id": "d_2026_11_22b",
+ "voice": "am_liam",
+ "speed": 1.25,
+ "gap": 0.12,
+ "mode": "edit",
+ "lines": [
+  {
+   "id": "hook",
+   "text": "The Witcher 3 costs you 96¢ an hour"
+  },
+  {
+   "id": "math",
+   "text": "$49.99 ÷ 52 hours to beat"
+  },
+  {
+   "id": "movie",
+   "text": "A movie ticket: $6 an hour"
+  },
+  {
+   "id": "full",
+   "text": "Go 100%: 29¢ an hour"
+  },
+  {
+   "id": "out",
+   "text": "Comment a game. We price it next."
+  }
+ ]
+}

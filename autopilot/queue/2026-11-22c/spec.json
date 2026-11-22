@@ -1,0 +1,50 @@
+{
+ "spec": {
+  "tag": "COST PER HOUR #8",
+  "headline": "IS SKYRIM WORTH |$39.99|?",
+  "topic": "The Elder Scrolls V: Skyrim Special Edition $39.99 on Steam (US, appid 489830, no discount, 22 Nov 2026; includes the 3 add-ons) ÷ HowLongToBeat main story 35 h (The Elder Scrolls V: Skyrim, id 9859: 127,231 s, 1,140 submissions) = $1.14/h; completionist 240 h (863,340 s) = 17¢/h; vs ~$12 movie for 2 h = $6/h. E1 arm B: no card on line 1, $/HR card on line 2.",
+  "vo": "vo/d_2026_11_22c/vo.wav",
+  "timelinePath": "vo/d_2026_11_22c/timeline.json",
+  "timeline": {
+   "duration": 1,
+   "lines": [],
+   "words": []
+  },
+  "noBed": true,
+  "clips": [],
+  "cards": [
+   {
+    "kind": "big",
+    "line": "rate",
+    "value": "$1.14/HR",
+    "label": "Skyrim, main story",
+    "note": "$39.99 Steam ÷ 35 h HowLongToBeat · our math",
+    "color": "#D4FF3A"
+   },
+   {
+    "kind": "pair",
+    "line": "movie",
+    "a": {
+     "value": "$1.14/HR",
+     "label": "SKYRIM"
+    },
+    "b": {
+     "value": "$6/HR",
+     "label": "MOVIE TICKET"
+    },
+    "note": "~$12 ticket for a 2-hour film"
+   },
+   {
+    "kind": "big",
+    "line": "full",
+    "value": "17¢/HR",
+    "label": "if you go 100%",
+    "note": "240 h completionist · HowLongToBeat",
+    "color": "#D4FF3A"
+   }
+  ],
+  "credit": "GAMEPLAY: BETHESDA SOFTWORKS · DATA: STEAM, HOWLONGTOBEAT",
+  "endLine": "COMMENT A GAME. WE PRICE IT NEXT.",
+  "noCaptions": true
+ }
+}

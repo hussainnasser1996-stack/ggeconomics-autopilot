@@ -1,6 +1,14 @@
 # Review log (newest first; written nightly by the autopilot)
 
 
+## 2026-11-22 (run for 2026-11-22, all 3 slots; Sunday)
+- DISTRIBUTION: TikTok is still 0 plays on all 14 videos (parked per GROWTH.md until the owner fixes the account; nothing new for ceo.md). The IG carousel (20 Nov) has 0 reach again: E4 replaces the Reel-copy carousel from Mon 23 Nov. The first long video (Top 10 on Steam, public Sat 16:00) read 0 views at Saturday's scoreboard run, which happened the same day it went public. Too soon to count; Sunday's read is the first real one. YouTube 21b (Red Dead 2, 17:30) has 212 views and is under 24 h old. Re-check it tomorrow against the 50-view line.
+- Cost per hour is still the top format: 19c Cyberpunk 1,534 (3s vs similar 0.59, the first Short above the 0.5 average), 20c Hollow Knight 1,442 (avg view 181%, so people loop it), 21c Stardew 1,140 in < 24 h. GTA news sits at 1,033-1,114 and its retention vs similar is 0.28-0.32. That leaves the GTA openers about 0.2 behind cost per hour in the first 3 s.
+- Subscribers: still 0-1 per Short. Instagram is flat at 113-249 views, with 0 shares and 0 saves on every Reel. Comments inbox is empty, so no game requests yet (E2 needs the on-screen ask, which starts today).
+- DECISION: E1, E2 and E3 all start today. b = The Witcher 3 (arm A: "costs you 96¢ an hour", COST PER HOUR #7). c = Skyrim (arm B: "Is Skyrim worth $39.99?", no card on line 1, $1.14/HR at ~3 s, #8). Both end on "Comment a game. We price it next.", and the IG first line is the send trigger.
+- DECISION: main = the Sunday scoreboard for GTA VI week 1 in 4 numbers ($3.79B, 32.5M, 5.2x RDR2's $725M opening weekend, 8 TGA nominations), ranked #1→#4, library music. That's the only GTA post today.
+- EXPERIMENTS: E1 A 0 / B 0 with retention data (first arms today: 22b A, 22c B), no leader, decide 28 Nov · E2 2 posts (#7, #8), baseline ~4 comments and 0.4 subs per 1k, decide 29 Nov · E3 2 Reels, 0 shares so far, decide 29 Nov · E4 starts 23 Nov · E5 1 episode (21 Nov), no data yet, decide 13 Dec.
+
 ## 2026-11-21 (run for 2026-11-21, all 3 slots)
 - DISTRIBUTION (unchanged, on the owner): TikTok is still 0 plays on every video (ceo.md item 4, phone warm-up). Instagram stays at 100-250 views per Reel, 0 saves and 0 shares. 20 main (GTA 19M est.) had no metrics yet at scoreboard time. No YouTube Short over 24 h old is under 50 views except the two old 16:00 b posts.
 - Cost per hour is now 5 for 5 on YouTube: 20c Hollow Knight 1,349 in < 24 h, Cyberpunk 1,427, Elden 1,225, BG3 850. Retention for BG3 came in at 0.47 vs similar (Elden 0.49), the best of any post with real views. Hollow Knight drew more comments, again people talking about value and their own hours.
