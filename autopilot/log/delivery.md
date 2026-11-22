@@ -1,13 +1,12 @@
-# Delivery check · 2026-11-22 19:58 UTC
+# Delivery check · 2026-11-22 21:09 UTC
 
 ## Problems
 - 2026-11-18b instagram_reel: Buffer error: It looks like Buffer has lost the authorization to post to Facebook. No need to worry, though! (older than 12 h: not re-booked, stale)
-- 2026-11-22b youtube_short: Buffer posting limit → direct YouTube upload: as exceeded the number of videos they may upload.". Details: "[{'message': 'The user has exceeded the number of videos they may upload.', 'domain': 'youtube.video', 'reason': 'uploadLimitExceeded'}]">
 - 2026-11-22c youtube_short: not booked at publish time: You have already scheduled the maximum number of posts YouTube allows in a day (2). Please consider scheduling this post for another day.
 
-Buffer scheduled per channel: youtube_short 1, instagram_reel 1, tiktok_video 1
+Buffer scheduled per channel: 0
 
-GitHub Actions minutes used this month: ~3048 of 2,000 (free tier, private repo)
+GitHub Actions minutes used this month: ~3049 of 2,000 (free tier, private repo)
 
 ## Actions taken
 - none
@@ -58,13 +57,13 @@ GitHub Actions minutes used this month: ~3048 of 2,000 (free tier, private repo)
 | 2026-11-21b | instagram_reel | sent | 2026-11-21T17:30:54.023Z | https://www.instagram.com/reel/DgAxUoZvmi_/ | Red Dead 2 Costs You $1.18 an Hour. Worth It? |
 | 2026-11-21b | tiktok_video | sent | 2026-11-21T17:31:49.463Z | https://tiktok.com/@ggeconomics/video/7710678491674512661 | Red Dead 2 Costs You $1.18 an Hour. Worth It? |
 | 2026-11-21c | youtube_short | sent | 2026-11-21T12:01:10.639Z | https://www.youtube.com/shorts/6hWXm7KaFMo | Stardew Valley Costs You 28¢ an Hour. Worth It? |
-| 2026-11-21c | instagram_reel | sent | 2026-11-21T12:02:33.080Z | https://www.instagram.com/reel/DgALrLtwx3U/ | Stardew Valley Costs You 28¢ an Hour. Worth It? |
-| 2026-11-21c | tiktok_video | sent | 2026-11-21T12:04:05.637Z | https://tiktok.com/@ggeconomics/video/7710593393327426868 | Stardew Valley Costs You 28¢ an Hour. Worth It? |
-| 2026-11-22 | youtube_short | scheduled | 2026-11-22T23:00:00.000Z |  | GTA 6 Sales Numbers: Week 1 in 4 Numbers |
-| 2026-11-22 | instagram_reel | scheduled | 2026-11-22T23:00:00.000Z |  | GTA 6 Sales Numbers: Week 1 in 4 Numbers |
-| 2026-11-22 | tiktok_video | scheduled | 2026-11-22T23:00:00.000Z |  | GTA 6 Sales Numbers: Week 1 in 4 Numbers |
-| 2026-11-22b | youtube_short | error | 2026-11-22T17:30:00.000Z |  | Witcher 3 Worth It in 2026? 96¢ an Hour |
-| 2026-11-22b | instagram_reel | sent | 2026-11-22T17:31:19.199Z | https://www.instagram.com/reel/DgDWJvMsWtI/ | Witcher 3 Worth It in 2026? 96¢ an Hour |
-| 2026-11-22b | tiktok_video | sent | 2026-11-22T17:32:21.354Z | https://tiktok.com/@ggeconomics/video/7711049731589393684 | Witcher 3 Worth It in 2026? 96¢ an Hour |
-| 2026-11-22c | instagram_reel | sent | 2026-11-22T12:00:47.376Z | https://www.instagram.com/reel/DgCwVTbCYK_/ | Is Skyrim Worth It in 2026? $1.14 an Hour |
-| 2026-11-22c | tiktok_video | sent | 2026-11-22T12:02:37.742Z | https://tiktok.com/@ggeconomics/video/7710964398621314312 | Is Skyrim Worth It in 2026? $1.14 an Hour |
+| 2026-11-21c | instagram_reel | query failed: HTTP Error 429: Too Many Requests |  |  | Stardew Valley Costs You 28¢ an Hour. Worth It? |
+| 2026-11-21c | tiktok_video | query failed: HTTP Error 429: Too Many Requests |  |  | Stardew Valley Costs You 28¢ an Hour. Worth It? |
+| 2026-11-22 | youtube_short | query failed: HTTP Error 429: Too Many Requests |  |  | GTA 6 Sales Numbers: Week 1 in 4 Numbers |
+| 2026-11-22 | instagram_reel | query failed: HTTP Error 429: Too Many Requests |  |  | GTA 6 Sales Numbers: Week 1 in 4 Numbers |
+| 2026-11-22 | tiktok_video | query failed: HTTP Error 429: Too Many Requests |  |  | GTA 6 Sales Numbers: Week 1 in 4 Numbers |
+| 2026-11-22b | youtube_short | query failed: HTTP Error 429: Too Many Requests |  |  | Witcher 3 Worth It in 2026? 96¢ an Hour |
+| 2026-11-22b | instagram_reel | query failed: HTTP Error 429: Too Many Requests |  |  | Witcher 3 Worth It in 2026? 96¢ an Hour |
+| 2026-11-22b | tiktok_video | query failed: HTTP Error 429: Too Many Requests |  |  | Witcher 3 Worth It in 2026? 96¢ an Hour |
+| 2026-11-22c | instagram_reel | query failed: HTTP Error 429: Too Many Requests |  |  | Is Skyrim Worth It in 2026? $1.14 an Hour |
+| 2026-11-22c | tiktok_video | query failed: HTTP Error 429: Too Many Requests |  |  | Is Skyrim Worth It in 2026? $1.14 an Hour |
