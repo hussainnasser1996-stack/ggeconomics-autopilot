@@ -1,24 +1,20 @@
-# Delivery check · 2026-11-21 21:09 UTC
+# Delivery check · 2026-11-22 03:09 UTC
 
 ## Problems
 - 2026-11-18b instagram_reel: Buffer error: It looks like Buffer has lost the authorization to post to Facebook. No need to worry, though! (older than 12 h: not re-booked, stale)
 
-Buffer scheduled per channel: youtube_short 1, instagram_reel 1, tiktok_video 1
+Buffer scheduled per channel: 0
 
-GitHub Actions minutes used this month: ~2276 of 2,000 (free tier, private repo)
+GitHub Actions minutes used this month: ~2738 of 2,000 (free tier, private repo)
 
 ## Actions taken
-- 2026-11-21b: {'video': 'f-ggW4ZXA4g', 'series': 'cost_per_hour', 'playlist': 'ok', 'blocked_in': 0, 'allowed_only': None, 'music': 'library', 'localized': ['ar', 'en', 'es', 'hi', 'id', 'pt-BR']}
+- 2026-11-22: not booked yet, a build is running/queued → checked again next run
+- 2026-11-22b: not booked yet, a build is running/queued → checked again next run
+- 2026-11-22c: not booked yet, a build is running/queued → checked again next run
+- 2026-11-21: {'video': 'QGyITqgJERY', 'series': 'gta6', 'playlist': 'ok', 'blocked_in': 0, 'allowed_only': None, 'music': 'library', 'localized': ['ar', 'en', 'es', 'hi', 'id', 'pt-BR']}
 
 | post | channel | status | sent/due | link | title |
 |---|---|---|---|---|---|
-| 2026-11-16 | youtube_short | sent | 2026-11-16T23:01:52.045Z | https://www.youtube.com/shorts/xee1vvJZ5L4 | GTA 6 Might Make $1 Billion Before You Can Even Pl |
-| 2026-11-16 | instagram_reel | sent | 2026-11-16T23:02:53.642Z | https://www.instagram.com/reel/Df0fUTzu2ec/ | GTA 6 Might Make $1 Billion Before You Can Even Pl |
-| 2026-11-16 | instagram_carousel | sent | 2026-11-16T15:04:59.652Z | https://www.instagram.com/p/DfzokZxES-1/ | GTA 6 Might Make $1 Billion Before You Can Even Pl |
-| 2026-11-16b | youtube_short | sent | 2026-11-16T16:01:18.808Z | https://www.youtube.com/shorts/ct7tlizYNYQ | GTA 6 Costs You $79.99. GTA 5 Cost More |
-| 2026-11-16b | instagram_reel | sent | 2026-11-16T16:01:49.134Z | https://www.instagram.com/reel/DfzvK0aNWmC/ | GTA 6 Costs You $79.99. GTA 5 Cost More |
-| 2026-11-16c | youtube_short | sent | 2026-11-16T12:22:05.525Z | https://www.youtube.com/shorts/2lyn0JAlPoU | Rockstar Made 2 of the 5 Best-Selling Games Ever |
-| 2026-11-16c | instagram_reel | sent | 2026-11-16T12:22:59.481Z | https://www.instagram.com/reel/DfzWFNchCUT/ | Rockstar Made 2 of the 5 Best-Selling Games Ever |
 | 2026-11-17 | youtube_short | sent | 2026-11-17T23:03:23.689Z | https://www.youtube.com/shorts/k1zkAfgzYeE | Your 2013 Xbox One Can Play GTA 6 on Day One |
 | 2026-11-17 | instagram_reel | sent | 2026-11-17T23:04:40.693Z | https://www.instagram.com/reel/Df3EQEqBE8w/ | Your 2013 Xbox One Can Play GTA 6 on Day One |
 | 2026-11-17 | tiktok_video | sent | 2026-11-17T23:02:21.852Z | https://www.tiktok.com/@ggeconomics/video/7709279421559016711?utm_campaign=tt4d_open_api&utm_source=7103819247981182978 | Your 2013 Xbox One Can Play GTA 6 on Day One |
@@ -56,9 +52,9 @@ GitHub Actions minutes used this month: ~2276 of 2,000 (free tier, private repo)
 | 2026-11-20c | youtube_short | direct (own API) | 2026-11-20T12:00:00.000Z | https://www.youtube.com/shorts/rYs3I31mOTs | Hollow Knight Costs You 56¢ an Hour. Worth It? |
 | 2026-11-20c | instagram_reel | sent | 2026-11-20T12:02:01.537Z | https://www.instagram.com/reel/Df9m6HzpnQX/ | Hollow Knight Costs You 56¢ an Hour. Worth It? |
 | 2026-11-20c | tiktok_video | sent | 2026-11-20T12:04:15.058Z | https://www.tiktok.com/@ggeconomics/video/7710222630145559828?utm_campaign=tt4d_open_api&utm_source=7103819247981182978 | Hollow Knight Costs You 56¢ an Hour. Worth It? |
-| 2026-11-21 | youtube_short | scheduled | 2026-11-21T23:00:00.000Z |  | GTA 6 Sales: 32.5M Copies. Are You One? |
-| 2026-11-21 | instagram_reel | scheduled | 2026-11-21T23:00:00.000Z |  | GTA 6 Sales: 32.5M Copies. Are You One? |
-| 2026-11-21 | tiktok_video | scheduled | 2026-11-21T23:00:00.000Z |  | GTA 6 Sales: 32.5M Copies. Are You One? |
+| 2026-11-21 | youtube_short | sent | 2026-11-21T23:00:40.278Z | https://www.youtube.com/shorts/QGyITqgJERY | GTA 6 Sales: 32.5M Copies. Are You One? |
+| 2026-11-21 | instagram_reel | sent | 2026-11-21T23:01:04.209Z | https://www.instagram.com/reel/DgBXIyIhjWQ/ | GTA 6 Sales: 32.5M Copies. Are You One? |
+| 2026-11-21 | tiktok_video | sent | 2026-11-21T23:01:51.918Z | https://tiktok.com/@ggeconomics/video/7710763485335948565 | GTA 6 Sales: 32.5M Copies. Are You One? |
 | 2026-11-21b | youtube_short | direct (own API) | 2026-11-21T17:30:00.000Z | https://www.youtube.com/shorts/f-ggW4ZXA4g | Red Dead 2 Costs You $1.18 an Hour. Worth It? |
 | 2026-11-21b | instagram_reel | sent | 2026-11-21T17:30:54.023Z | https://www.instagram.com/reel/DgAxUoZvmi_/ | Red Dead 2 Costs You $1.18 an Hour. Worth It? |
 | 2026-11-21b | tiktok_video | sent | 2026-11-21T17:31:49.463Z | https://tiktok.com/@ggeconomics/video/7710678491674512661 | Red Dead 2 Costs You $1.18 an Hour. Worth It? |
