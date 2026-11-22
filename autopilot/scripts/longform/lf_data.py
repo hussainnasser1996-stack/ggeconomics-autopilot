@@ -41,7 +41,8 @@ for x in sorted(resp["ranks"], key=lambda r: -r["peak_in_game"]):
                   "discount": po.get("discount_percent", 0), "price_cents": po["final"], "meta": (d.get("metacritic") or {}).get("score"),
                   "reviews": (d.get("recommendations") or {}).get("total") or 0, "released": rel.isoformat() if rel else None,
                   "early_access": "Early Access" in genres, "genre": " ".join(g2[:2]) if len(" ".join(g2[:2])) <= 18 else g2[0],
-                  "dev": (d.get("developers") or ["?"])[0], "movies": [[m["name"], m["hls_h264"]] for m in sorted(movies, key=lambda m: bool(re.search(r"ESRB|PEGI|rating", m["name"], re.I)))[:8]]})
+                  "dev": (d.get("developers") or ["?"])[0], "movies": [[m["name"], m["hls_h264"]] for m in sorted(movies, key=lambda m: bool(re.search(r"ESRB|PEGI|rating", m["name"], re.I)))[:8]],
+                  "screens": [x["path_full"] for x in d.get("screenshots", []) if x.get("path_full")][:12]})
     print(len(games), x["peak_in_game"], name, po["final_formatted"])
 if len(games) < 10: sys.exit(f"only {len(games)} paid games found")
 
@@ -89,7 +90,7 @@ for i, g in enumerate(paid):
     entries.append({"key": f"g{rank}", "rank": rank, "appid": g["appid"], "name": g["name"], "dev": g["dev"], "genre": g["genre"],
                     "released": rel_label(g), "players": g["peak"], "price": g["price"], **({"priceNote": f"-{g['discount']}%"} if g["discount"] else {}),
                     "reviews": fmt_n(g["reviews"]), **({"meta": str(g["meta"])} if g["meta"] else {}),
-                    "facts": facts[:2] if rank > 1 else facts[:3], "verdict": v, "movies": g["movies"]})
+                    "facts": facts[:2] if rank > 1 else facts[:3], "verdict": v, "movies": g["movies"], "screens": g["screens"]})
 entries.sort(key=lambda e: -e["rank"])
 json.dump({"week_end": week_end.isoformat(), "publish": P, "entries": entries}, open(OUT / "data.json", "w"), indent=1)
 for e in entries: print(e["rank"], e["name"], e["players"], e["price"], "|", " / ".join(e["facts"]), "|", e["verdict"])

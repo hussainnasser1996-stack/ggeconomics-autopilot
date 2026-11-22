@@ -129,18 +129,36 @@ def shots_of(path):
             S.append((i / fps, d, mot, float(g.mean()), float(cv2.Laplacian(cv2.cvtColor(cv2.resize(fr, (640, 360)), cv2.COLOR_BGR2GRAY), cv2.CV_64F).var())))
             prev = (h, g)
         i += 1
-    cuts = sorted(set([0.0] + [t for t, d, _, b, _ in S if d > 0.22 or b < 28] + [dur]))
+    # 22 Nov dry run 7: Geometry Dash's purple backgrounds sit at luma 28-38, so "b < 28 = cut" made 98 false cuts and
+    # killed the game (5.8 s clean). A dark frame is a cut only when it DIPS (< 60% of the surrounding +-1 s median);
+    # true black dips (Red Dead 21b) still split. Shots crossing the 6%/90% edges are trimmed, not dropped.
+    L = np.array([x[3] for x in S]); T_ = np.array([x[0] for x in S])
+    dip = lambda j: L[j] < 12 or (L[j] < 28 and L[j] < 0.6 * np.median(L[(T_ > T_[j] - 1) & (T_ < T_[j] + 1)]))
+    cuts = sorted(set([0.0] + [t for j, (t, d, _, b, _) in enumerate(S) if d > 0.22 or dip(j)] + [dur]))
     out = []
     for a, b in zip(cuts, cuts[1:]):
-        a2, b2 = a + 0.2, b - 0.2
-        if b2 - a2 < 1.4 or a2 < dur * 0.06 or b2 > dur * 0.9: continue
+        a2, b2 = max(a + 0.2, dur * 0.06), min(b - 0.2, dur * 0.9)
+        if b2 - a2 < 1.4: continue
         ins = [x for x in S if a2 <= x[0] <= b2]
         if not ins: continue
         br = [x[3] for x in ins]
-        if min(br) < 30 or np.mean(br) > 225 or np.median([x[4] for x in ins]) < 60: continue
+        if min(br) < 16 or (min(br) < 30 and min(br) < 0.6 * np.median(br)) or np.mean(br) > 225 or np.median([x[4] for x in ins]) < 60: continue
         out.append({"a": round(a2, 2), "b": round(b2, 2), "mot": float(np.mean([x[2] for x in ins])), "sharp": float(np.median([x[4] for x in ins])), "lum": min(br)})
     return out, dur
 
+def still_clip(url, out):
+    """an official Steam screenshot as a 4.2 s 1080p30 clip (the render's slow push turns it into a Ken Burns move)"""
+    if out.exists() and out.stat().st_size > 1e4: return True
+    img = out.with_suffix(".jpg")
+    try:
+        req = urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0"}); img.write_bytes(urllib.request.urlopen(req, timeout=30).read())
+    except Exception: return False
+    tmp = out.with_suffix(".part.mp4")
+    r = subprocess.run(["ffmpeg", "-loglevel", "error", "-y", "-loop", "1", "-framerate", "30", "-t", "4.2", "-i", str(img), "-vf",
+                        "scale=1920:1080:force_original_aspect_ratio=increase,crop=1920:1080,format=yuv420p", "-c:v", "libx264",
+                        "-preset", "veryfast", "-crf", "18", "-an", str(tmp)], stdin=subprocess.DEVNULL)
+    if r.returncode == 0 and tmp.exists(): tmp.rename(out); return True
+    return False
 def frame(cap, t):
     cap.set(cv2.CAP_PROP_POS_MSEC, t * 1000); ok, f = cap.read(); return f if ok else None
 def boxzoom(path, t):
@@ -203,6 +221,18 @@ for e in E:
         if tot >= T[e["rank"]] * 0.6 or (tier == 4 and tot >= 8): break
         if tier == 4: seen.clear(); seen.update((p["src"], p["a"]) for p in chosen)   # retry tier-3 rejects
         tier_used = tier; judge(pieces, tier)
+    # 22 Nov dry run 7: Geometry Dash's only trailer is captions end to end (3.4 s clean) and sank the whole week's video.
+    # Trailers can't fill the segment -> official Steam screenshots (no logo, no caption/banner/big type) fill it to 60%.
+    stills = 0; NS = len(e.get("screens", [])) or 1
+    for j, u in enumerate(e.get("screens", [])):
+        if tot >= T[e["rank"]] * 0.6: break
+        src = f"{key}_s{j}"; path = W / f"{src}.mp4"
+        if not still_clip(u, path): continue
+        f = frame(caps.setdefault(src, cv2.VideoCapture(str(path))), 2.0)
+        if f is None or logo_hit(f, LOGO) or ad_slate(f) or text_problem(f).split(" ")[0] in ("subtitle", "banner", "big"): rejected += 1; continue
+        chosen.append({"src": src, "path": path, "a": 0.0, "b": 3.4, "score": 0, "rel": (j + 0.5) / NS * max(1, len(e["movies"])), "shot": (src, 0.0)})
+        tot += 3.4; stills += 1
+    if stills: print(f"#{e['rank']} {e['name']}: {stills} screenshot clips added", flush=True)
     if tot < 8: sys.exit(f"lf_footage: only {tot:.1f} s of clean gameplay for {e['name']} (need 8+)")
     base = list(chosen)
     while tot < T[e["rank"]] * 0.8 and base:                     # thin trailers: replay the best pieces from a later point
@@ -221,7 +251,7 @@ for e in E:
     ent = {k: v for k, v in e.items() if k not in ("key", "movies", "appid")}; ent["clips"] = clips
     spec["entries"].append(ent)
     cold += [{"src": c["src"], "from": round(c["from"] + 0.4, 2), "dur": 0.9752, **({"zoom": c["zoom"]} if "zoom" in c else {})} for c in sorted(clips, key=lambda c: -c["dur"])[:2]]
-    report.append(f"#{e['rank']} {e['name']}: {t:.1f}/{T[e['rank']]} s, {len(clips)} clips, {rejected} pieces rejected, rule tier {tier_used}")
+    report.append(f"#{e['rank']} {e['name']}: {t:.1f}/{T[e['rank']]} s, {len(clips)} clips, {rejected} pieces rejected, rule tier {tier_used}" + (f", {stills} screenshots" if stills else ""))
     print(report[-1], flush=True)
     for c in caps.values(): c.release()
 random.Random(P).shuffle(cold); spec["cold"] = cold[:18]
