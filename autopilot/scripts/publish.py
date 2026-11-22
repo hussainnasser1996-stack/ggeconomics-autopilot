@@ -101,25 +101,17 @@ if dry:
 if rebook == "youtube_short" and "--direct" in sys.argv:   # Buffer's YouTube cap (19 Nov incident): upload with our own token
     tokf = AP / "keys/youtube-token.json"
     if not tokf.exists(): sys.exit("--direct youtube_short needs keys/youtube-token.json")
-    from google.oauth2.credentials import Credentials
-    from google.auth.transport.requests import Request
-    from googleapiclient.discovery import build
-    from googleapiclient.http import MediaFileUpload
-    import tempfile
-    creds = Credentials.from_authorized_user_file(str(tokf))
-    if not creds.valid: creds.refresh(Request()); tokf.write_text(creds.to_json())
-    yt = build("youtube", "v3", credentials=creds)
-    mp4 = Path(tempfile.mkdtemp()) / "short.mp4"; urllib.request.urlretrieve(urls["video"], mp4)
-    body = {"snippet": {"title": post["title"][:100], "categoryId": cfg["youtube_category_id"],
-                        "description": post["caption"].strip() + "\n\n" + " ".join(post.get("hashtags", [])[:3])},
-            "status": {"privacyStatus": "public", "selfDeclaredMadeForKids": False}}
-    vid = yt.videos().insert(part="snippet,status", body=body, media_body=MediaFileUpload(str(mp4), mimetype="video/mp4", resumable=True)).execute()["id"]
-    st = yt.videos().list(part="status", id=vid).execute()["items"][0]["status"]
+    # 22 Nov: go through yt_upload.py so a re-post can never duplicate a title already on the channel, and is scheduled
+    py = str(AP.parent / ".venv/bin/python") if (AP.parent / ".venv/bin/python").exists() else sys.executable
+    r = subprocess.run([py, str(AP / "scripts/yt_upload.py"), D, urls["video"], due], capture_output=True, text=True)
+    print((r.stdout + r.stderr).strip()[-400:])
+    if r.returncode != 0: sys.exit(f"direct YouTube upload failed: {(r.stdout + r.stderr).strip()[-300:]}")
+    vid = r.stdout.strip().splitlines()[-1]; st = {}
     b = json.load(open(Q / "buffer_ids.json"))
     b.setdefault("replaced", []).append({rebook: b["ids"].pop(rebook, None)}); b.setdefault("direct", {})[rebook] = vid
+    (b.get("failed") or {}).pop(rebook, None)
     json.dump(b, open(Q / "buffer_ids.json", "w"), indent=1)
-    print("posted direct", rebook, vid, st.get("privacyStatus"), st.get("uploadStatus"))
-    if st.get("privacyStatus") != "public": sys.exit(f"uploaded but YouTube made it {st.get('privacyStatus')} (unverified API project?)")
+    print("posted direct", rebook, vid); sys.exit(0)
     sys.exit(0)
 if rebook and "--direct" in sys.argv:                  # Buffer's Instagram link is down: post the Reel straight to Instagram (Graph API)
     if rebook != "instagram_reel": sys.exit("--direct supports instagram_reel and youtube_short")
@@ -156,7 +148,15 @@ if rebook:
 # step re-queued the same date every 12 min (28 rebuilds, ~350 Actions minutes). Now: book every channel that works,
 # send a YouTube post Buffer refuses (its cap is 2/day) straight to YouTube, scheduled; record the rest as failed.
 ids, direct, failed = {}, {}, {}
+# 22 Nov: never book a second identical post (same channel, slot and text) — a re-run reuses the one already scheduled.
+try:
+    _ex = gql('query($o:OrganizationId!){ posts(input:{organizationId:$o, filter:{status:[scheduled]}}, first:100){ edges{ node{ id dueAt channelId text } } } }',
+              {"o": cfg["buffer_organization_id"]})["posts"]["edges"]
+    existing = {(e["node"]["channelId"], e["node"]["dueAt"][:16], (e["node"]["text"] or "")[:80]): e["node"]["id"] for e in _ex}
+except Exception as e: existing = {}; print("Buffer duplicate check failed (continuing):", e)
 for name, inp in jobs:
+    k = (inp.get("channelId"), (inp.get("dueAt") or "")[:16], (inp.get("text") or "")[:80])
+    if k in existing: ids[name] = existing[k]; print(f"{name}: already scheduled in Buffer as {existing[k]} (not booked again)"); continue
     res = gql(MUT, {"i": inp})["createPost"]
     if res["__typename"] == "PostActionSuccess": ids[name] = res["post"]["id"]; continue
     msg = res.get("message") or res["__typename"]; print(f"Buffer rejected {name}: {msg}")

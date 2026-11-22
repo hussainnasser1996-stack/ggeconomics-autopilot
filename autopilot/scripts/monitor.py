@@ -39,7 +39,16 @@ for q in sorted(Qd.iterdir()):
         for name, vid in (bj.get("direct") or {}).items():
             link = f"https://www.youtube.com/shorts/{vid}" if name == "youtube_short" else vid
             rows.append(f"| {q.name} | {name} | direct (own API) | {bj.get('due', '')} | {link} | {title[:50]} |")
-        for name, msg in (bj.get("failed") or {}).items():
+        for name, msg in list((bj.get("failed") or {}).items()):
+            # 22 Nov: a YouTube Short refused at publish time (Buffer 2/day cap + YouTube upload cap) is retried directly
+            # while it is still within 6 h of its slot; after that it is dropped so Shorts don't bunch up late in the day.
+            try: due_f = datetime.datetime.fromisoformat(bj.get("due", "").replace("Z", "+00:00"))
+            except Exception: due_f = None
+            if (name == "youtube_short" and due_f and not (bj.get("direct") or {}).get(name)
+                    and now - due_f <= datetime.timedelta(hours=6) and (AP / "keys/youtube-token.json").exists()):
+                r = subprocess.run(["python3", str(AP / "scripts/publish.py"), q.name, "--rebook", name, "--direct"], capture_output=True, text=True)
+                (actions if r.returncode == 0 else problems).append(f"{q.name} {name}: retried direct YouTube upload: {(r.stdout + r.stderr).strip()[-200:]}")
+                if r.returncode == 0: continue
             problems.append(f"{q.name} {name}: not booked at publish time: {msg}")
         for name, pid in bj["ids"].items():
             try: p = gql(Q, {"i": pid})["data"]["post"] or {}
