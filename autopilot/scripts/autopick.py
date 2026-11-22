@@ -74,6 +74,33 @@ def title_hit(f):
         if any(len(k) >= 5 and k in w for k in toks for w in TITLE): return True   # cropped logo: 'kstar' in 'rockstar'
 
     return False
+# the game's own Steam logo.png, SIFT + RANSAC (long-form dry run 6: Slay the Spire 2's painted logo passed every OCR
+# rule; logo frames scored 44-69 inliers, gameplay <= 16). Steam sources only (appid from resolve_footage).
+import urllib.request
+SIFT = cv2.SIFT_create(); BF = cv2.BFMatcher()
+def logo_feats(appid):
+    if not appid: return []
+    try:
+        req = urllib.request.Request(f"https://shared.steamstatic.com/store_item_assets/steam/apps/{appid}/logo.png", headers={"User-Agent": "Mozilla/5.0"})
+        lg = cv2.imdecode(np.frombuffer(urllib.request.urlopen(req, timeout=20).read(), np.uint8), cv2.IMREAD_UNCHANGED)
+    except Exception: return []
+    if lg is None or lg.ndim < 3 or lg.shape[2] != 4: return []
+    a = lg[..., 3:].astype(np.float32) / 255; rgb = lg[..., :3].astype(np.float32); out = []
+    for bg in (0, 255):
+        k, d = SIFT.detectAndCompute(cv2.cvtColor((rgb * a + bg * (1 - a)).astype(np.uint8), cv2.COLOR_BGR2GRAY), (lg[..., 3] > 10).astype(np.uint8) * 255)
+        if d is not None and len(k) >= 20: out.append((k, d))
+    return out
+LOGO = logo_feats(src.get("appid"))
+def logo_hit(f):
+    if not LOGO: return False
+    k2, d2 = SIFT.detectAndCompute(cv2.cvtColor(cv2.resize(f, (1280, 720)), cv2.COLOR_BGR2GRAY), None)
+    if d2 is None or len(k2) < 8: return False
+    for k1, d1 in LOGO:
+        good = [m for m, n in (x for x in BF.knnMatch(d1, d2, k=2) if len(x) == 2) if m.distance < 0.75 * n.distance]
+        if len(good) < 12: continue
+        H, mask = cv2.findHomography(np.float32([k1[m.queryIdx].pt for m in good]), np.float32([k2[m.trainIdx].pt for m in good]), cv2.RANSAC, 6.0)
+        if H is not None and int(mask.sum()) >= 25: return True
+    return False
 def textiness(f):
     g = cv2.cvtColor(cv2.resize(f, (480, 270)), cv2.COLOR_BGR2GRAY)
     e = cv2.Canny(g, 120, 240) > 0
@@ -140,7 +167,8 @@ for s0 in shots:
         if min(lum) < 14: continue                 # truly black moments never
         if any(ad_slate(fr) for fr in ends): continue      # brand/console ad cards inside "gameplay" files
         if any(ocr_words(fr) >= 2 for fr in ends): continue
-        if any(title_hit(fr) for fr in (frame(t) for t in np.arange(s["start"] + 0.12, s["end"] - 0.05, 0.4)) if fr is not None): continue
+        fs = [fr for fr in (frame(t) for t in np.arange(s["start"] + 0.12, s["end"] - 0.05, 0.4)) if fr is not None]
+        if any(title_hit(fr) or logo_hit(fr) for fr in fs): continue
         score = (s["motion"] + 2) * math.log10(s["sharp"] + 10) * (0.7 + min(s["sat"], 140) / 200)
         cands.append({**s, "score": score, "lum": min(lum), "used": last_used.get(key, "")})
 # near-black moments read as a dead frame on a phone (17c, 16 Nov): drop shots with a frame under 38 brightness, but a

@@ -31,7 +31,7 @@ def steam(c):
                     -sum(g in n for g in GOOD), not m.get("highlight"))
         clean = [m for m in movies if not any(b in " " + m["name"].lower() + " " for b in BAD)]
         movies = clean or movies                  # never a regional/DLC trailer while a clean one exists
-        return [{"id": f"steam:{m['id']}", "label": f"{it['name']} — {m['name']}", "url": m["hls_h264"]} for m in sorted(movies, key=rank)[:4]]
+        return [{"id": f"steam:{m['id']}", "label": f"{it['name']} — {m['name']}", "url": m["hls_h264"], "appid": it["id"]} for m in sorted(movies, key=rank)[:4]]
     return []
 def library(c):
     f = c.get("file") or ""
@@ -73,6 +73,6 @@ if best:
         subprocess.run(["python3", "autopilot/scripts/fetch_footage.py", r["label"], tag, "--url", r["url"]], cwd=GN, check=True)
     credit = spec.get("credit", "")
     if r["id"].startswith("lib:gta6") and "ROCKSTAR" not in credit.upper(): credit = "GAMEPLAY: ROCKSTAR GAMES"
-    out = {"tag": tag, "id": r["id"], "label": r["label"], "credit": credit, "usable_shots": best[0]}
+    out = {"tag": tag, "id": r["id"], "label": r["label"], "credit": credit, "usable_shots": best[0], **({"appid": r["appid"]} if r.get("appid") else {})}
     json.dump(out, open(Q / "footage_resolved.json", "w"), indent=1); print("footage:", out); sys.exit(0)
 sys.exit("no footage source worked")
