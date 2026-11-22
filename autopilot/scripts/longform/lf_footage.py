@@ -4,7 +4,7 @@ Same rejection rules as the Shorts' autopick.py, applied to the full 16:9 frame:
 pass), console ad slates, flat poster typography, white-on-black rating cards, black or near-black frames, cuts inside a
 clip. Clip picking follows the 22 Nov episode (build.py): best-scoring pieces spread over every trailer, <=3.4 s each.
 Writes studio/public/footage/L_<key>_<i>.mp4 and longform/<P>/spec.json (without vo/music; lf_audio.py adds those)."""
-import sys, json, re, os, glob, math, random, subprocess, tempfile
+import sys, json, re, os, glob, math, random, subprocess, tempfile, urllib.request
 from pathlib import Path
 import numpy as np, cv2
 GN = Path(__file__).resolve().parents[3]; AP = GN / "autopilot"; P = sys.argv[1]; L = AP / "longform" / P
@@ -77,6 +77,30 @@ def title_hit(f, TITLE):
         if toks & TITLE or any(len(k) >= 5 and len(t) >= 6 and t.startswith(k[:6]) for k in toks for t in TITLE): return True
         if any(len(k) >= 5 and k in t for k in toks for t in TITLE): return True
     return False
+# 22 Nov dry run 6: Slay the Spire 2's painted logo card passed every OCR rule (stylised type). Match the game's own
+# Steam logo.png instead (SIFT + RANSAC inliers): logo frames scored 44-69, gameplay <= 16 on its trailers.
+SIFT = cv2.SIFT_create(); BF = cv2.BFMatcher()
+def logo_feats(appid):
+    try:
+        req = urllib.request.Request(f"https://shared.steamstatic.com/store_item_assets/steam/apps/{appid}/logo.png", headers={"User-Agent": "Mozilla/5.0"})
+        lg = cv2.imdecode(np.frombuffer(urllib.request.urlopen(req, timeout=20).read(), np.uint8), cv2.IMREAD_UNCHANGED)
+    except Exception: return []
+    if lg is None or lg.ndim < 3 or lg.shape[2] != 4: return []
+    a = lg[..., 3:].astype(np.float32) / 255; rgb = lg[..., :3].astype(np.float32); out = []
+    for bg in (0, 255):
+        k, d = SIFT.detectAndCompute(cv2.cvtColor((rgb * a + bg * (1 - a)).astype(np.uint8), cv2.COLOR_BGR2GRAY), (lg[..., 3] > 10).astype(np.uint8) * 255)
+        if d is not None and len(k) >= 20: out.append((k, d))
+    return out
+def logo_hit(f, feats):
+    if not feats: return False
+    k2, d2 = SIFT.detectAndCompute(cv2.cvtColor(cv2.resize(f, (1280, 720)), cv2.COLOR_BGR2GRAY), None)
+    if d2 is None or len(k2) < 8: return False
+    for k1, d1 in feats:
+        good = [m for m, n in (x for x in BF.knnMatch(d1, d2, k=2) if len(x) == 2) if m.distance < 0.75 * n.distance]
+        if len(good) < 12: continue
+        H, mask = cv2.findHomography(np.float32([k1[m.queryIdx].pt for m in good]), np.float32([k2[m.trainIdx].pt for m in good]), cv2.RANSAC, 6.0)
+        if H is not None and int(mask.sum()) >= 25: return True
+    return False
 def textiness_dark(f):
     g = cv2.cvtColor(cv2.resize(f, (480, 270)), cv2.COLOR_BGR2GRAY)
     return float(((cv2.Canny(g, 120, 240) > 0) & (cv2.blur(g.astype(np.float32), (9, 9)) < 60)).mean() * 100)
@@ -132,6 +156,7 @@ spec = {"title": "TOP 10 GAMES ON STEAM", "sub": "THIS WEEK, BY PEAK PLAYERS",
 cold = []; report = []
 for e in E:
     key = e["key"]; TITLE = TITLE0 | {w for w in re.findall(r"[a-z]{4,}", (e["name"] + " " + e["dev"]).lower())}
+    LOGO = logo_feats(e.get("appid"))
     caps = {}; chosen = []; tot = 0; rejected = 0; per_shot = {}; seen = set(); tier_used = 1; pieces = []
     def judge(cands, tier):
         global tot, rejected
@@ -143,13 +168,16 @@ for e in E:
             fr = [f for f in (frame(cap, p["a"] + 0.1), frame(cap, (p["a"] + p["b"]) / 2), frame(cap, p["b"] - 0.1)) if f is not None]
             if len(fr) < 3: continue
             bad = (any(float(cv2.cvtColor(f, cv2.COLOR_BGR2GRAY).mean()) < (30 if tier < 3 else 16) for f in fr) or any(ad_slate(f) for f in fr)
-                   or max(graphic(f) for f in fr) >= 2.5 or textiness_dark(fr[1]) > 2.2)
+                   or max(graphic(f) for f in fr) >= 2.5 or textiness_dark(fr[1]) > 2.2 or any(logo_hit(f, LOGO) for f in fr))
             if not bad and tier == 1: bad = confident_words(fr[1]) >= 2
             if not bad and tier <= 2: bad = any(title_hit(f, TITLE) for f in fr)
             if not bad and tier <= 3:                            # every sampled frame: title cards zoom in mid-clip (Probably Stolen
                 for f in (fr[1], fr[0], fr[2]):                  # "PROFIT OR PERISH", 22 Nov dry run 5). Tier 3 still drops
                     why = text_problem(f)                        # subtitles + big type (Football Manager subs came back at tier 3)
-                    if why and (tier <= 2 or why.split()[0] in ("subtitle", "big")): bad = True; break
+                    if why and (tier <= 2 or why.split()[0] in ("subtitle", "big", "banner")): bad = True; break   # banner: ETS2 "GERMANY REWORK" (dry run 6)
+            if not bad and tier == 4:                            # last resort keeps text, but zooms caption/banner bands out of frame
+                why = text_problem(fr[1]).split(" ")[0]          # (Football Manager dev captions, dry run 6)
+                if why in ("subtitle", "banner"): p = dict(p, fix=1.3 if why == "subtitle" else 1.2)
             # tier 4 = last resort (old tier 3: no text rule) only when a game would otherwise sink the build (< 8 s)
             if bad:
                 if tier >= 3: seen.add(k)
@@ -187,7 +215,7 @@ for e in E:
         d = min(p["b"] - p["a"], T[e["rank"]] - t)
         if d < 0.6: break
         c = {"src": "L_" + p["src"], "from": p["a"], "dur": round(d, 3)}
-        z = boxzoom(p["path"], p["a"] + d / 2)
+        z = max(boxzoom(p["path"], p["a"] + d / 2), p.get("fix", 1.0))
         if z > 1.005: c["zoom"] = z
         clips.append(c); t += d
     ent = {k: v for k, v in e.items() if k not in ("key", "movies", "appid")}; ent["clips"] = clips
