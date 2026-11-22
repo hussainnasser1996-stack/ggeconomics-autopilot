@@ -10,7 +10,7 @@
      open any video → is there an "Ineligible for For You feed" / "Not eligible for recommendation" note? Also Settings → Account → Account status.
      If it says unoriginal content: TikTok is treating trailer footage as a re-upload, and the fix is more of OUR graphics per frame there.
      If it says nothing: 10 min/day of normal use on the phone for 2-3 days (watch, like, follow gaming creators).
-  4. Keymailer, Terminals.io, Steam Curator page, Ubisoft Creators Program → free game keys. See PARTNERSHIPS.md. No milestone reached yet (0 subscribers, log/metrics/2026-11-16.json), so nothing new.
+  4. Keymailer, Terminals.io, Steam Curator page, Ubisoft Creators Program → free game keys. See PARTNERSHIPS.md. No milestone reached yet (22 Nov: 7 YouTube subscribers, log/metrics/2026-11-21.json; Instagram follower count is not recorded anywhere), so nothing new.
 
 ## Engineering backlog (from the 16 Nov tools scout; the engineering routine works top-down, measures each change)
 0. (21 Nov review) Top tag chip: a long game name ("BALDUR'S GATE 3 · COST PER HOUR", 18c) wraps to 2 lines and crowds the GG ECONOMICS pill. Shrink or shorten the tag to one line (e.g. "BG3 · COST/HR") and add a gate check for a wrapped chip.
@@ -19,6 +19,36 @@
 3. Beat grid per library track (Beat This!, MIT; compute once offline → assets/music/lib/*.beats.json); snap clip cuts to beats in autopick.
 4. Saliency 9:16 reframe (OpenCV spectral-residual + MediaPipe faces) instead of centre crop; smooth the crop path.
 5. Chatterbox Turbo voice trial vs Kokoro: adopt only if a 30 s VO renders < 3 min on the runner AND gates VO similarity ≥ 0.9.
+
+## 2026-11-22 · weekly CEO review (week 16-22 Nov)
+
+**What happened (evidence: scoreboard.md 21 Nov, delivery.md 21 Nov 21:09 UTC, metrics/2026-11-21.json, yt_done.json, queue/*/post.json)**
+- Delivery: 18 Shorts went out 16-21 Nov on YouTube; Instagram Reels on all but 18b (Buffer lost Facebook auth, not re-booked; fixed by 19 Nov, every IG post since shows "sent"). TikTok sent from 17 Nov, 0 plays on all 14. 21 main (GTA 32.5M, due 23:00 21 Nov) was still "scheduled" at the last monitor run (21:09); no later monitor run is committed, so its delivery is not verified yet. Actions minutes read ~2,276 "of 2,000", but monitor.py raises no alarm, which means the repo is public (unlimited minutes, 20 Nov). Not a constraint.
+- YouTube: 7 subscribers, 8,332 channel views (API, 21 Nov) = 0.84 subs per 1k views vs the 1.5-2 benchmark in STRATEGY.md. Traffic is 7,147 of 7,885 from the Shorts feed, 467 from search.
+- By format (YouTube views, mature posts): cost per hour 5 posts, median 1,233 (855-1,534); GTA news at 23:00 5 posts, median 1,033 (673-1,114); GTA at 16:00 b slot 23-332; 17:30 b slot 523 and 1,081. "3s vs similar" best = 19c Cyberpunk 0.59; GTA 0.19-0.32. Avg view % 51-181.
+- Instagram: 16 Reels at 100-249 views, avg watch 3.7-10.5 s, 0 shares, 0 saves on every one. 3 carousels, 0 reach. Too early to change beyond E3/E4 already running.
+- Long video E1 (Top 10 on Steam, public 21 Nov 16:00): 0 views at the same-day read. No data.
+- 1a music: `game` music 6 posts, median 1,187 views; `library` 8 mature posts, median 428; `none` 2 posts 673-812. Confounded (all cost-per-hour posts use game music) but game music never lost, and blocked_in = 0 on all 18 posts. Keep game music where the game has it. Edit vs narrated: all posts since 18 Nov are edits, so no comparison this week.
+- 1b packaging: top third by views = 4 cost-per-hour posts with the same title template "<Game> Costs You $X an Hour. Worth It?" (46-49 chars) + 2 GTA number titles. hook_style `number`: 7 of 7 posts at 855-1,534. `you`/`question`: 23, 55, 523 (17b, 18b, 19b; finance/rumour topics, so confounded). Subs per post 0-1 everywhere: no pattern to read. 22b/22c changed the cost-per-hour title ("Witcher 3 Worth It in 2026? 96¢ an Hour"; "Is Skyrim Worth It in 2026?") on the same day E1 started.
+
+**Market (searches 22 Nov)**
+- Calendar: Black Friday 27 Nov, Cyber Monday 30 Nov; Dawn of War IV, Dragon Quest Monsters: The Withered World, Rayman Legends Retold listed for 3 Dec (Out of Games/thegamepost calendars, unverified); The Game Awards 10 Dec.
+- Black Friday angle with our lens: consoles cost MORE than at launch. Switch 2 list $499.99 vs $449.99 launch (tech-insider.org, 30 Oct); a report says PS5 Digital starts at $599 now (unverified). Added to topics.md for 25-28 Nov.
+- Rivals: outliers.md (21 Nov) is GTA 6 NPC humour plus Comparaholic (54k subs) "GTA VI vs GTA V" comparisons at 11-15x their average. A head-to-head is the one move in our lane we haven't tried: queued as a test-slot topic (GTA VI vs GTA V per hour), matching GROWTH.md "Next up".
+- Platform rules: no confirmed YouTube Shorts or Instagram Reels ranking change in November found. YPP changes take effect 1 Feb 2027 (Shorts ads need 10M Shorts views / 90 days; Tubefilter, 10 Aug): irrelevant to the follower goal. Instagram's originality rule (April 2026, judged per month) still argues for our own numbers on every frame.
+
+**Decisions (3)**
+1. BRAIN.md 5b: cost-per-hour Shorts keep the YouTube title "<Game> Costs You $X an Hour. Worth It?" in both E1 arms; only the on-screen opener varies. Reason: 5 of 5 mature posts on that title at 855-1,534, and 22b/22c changed title and hook at once, which would make E1 unreadable. Metric (29 Nov): cost-per-hour median 48 h YouTube views stays >= 1,000; E1 still readable.
+2. learned.md: `number` hook style 7/7 (855-1,534) vs `you`/`question` 3 posts (23-523), logged as a rule for titles with the topic caveat; E1 decides the opener.
+3. topics.md restocked (7 new dated topics to 10 Dec: Black Friday console prices, sale-price cost per hour, Cyber Monday, GTA VI vs GTA V head-to-head, TGA nominees per hour, Dawn of War IV, week-of-6-Dec scoreboard); stale Tencent/NetEase earnings line closed. CONTROL.md focus_this_week updated (launch week over). Metric: brain uses an open dated topic on 5+ of 7 days.
+- Not changed: posts_per_day 3 (GROWTH.md, minutes not a constraint), slots 12:00/17:30/23:00 (the 17:30 move beat 16:00: 523 and 1,081 vs 23-332; rotating now would confound E1, which alternates arms between b and c; slot review stays 26 Nov). Nothing from last week got worse, so nothing reverted.
+
+**Engineering requests**
+- Record Instagram followers_count (Graph API `/me?fields=followers_count`) in log/metrics/<date>.json and scoreboard.md. Without it the partnership milestones and the IG half of the goal can't be checked.
+- monitor.yml: no monitor commit after 21 Nov 21:10 by the time of this review (cron 40 */6). If the 22:40 and 04:40 runs did not fire, 21 main's delivery is unconfirmed. Check the scheduler.
+- Scoreboard reads only 21 Nov data on a Sunday review: analytics lag means the newest 2-3 posts never count. Fine for now, noted.
+
+**For the owner**: unchanged. TikTok item 5 is still open (0 plays on 14 videos). No milestone reached (7 YouTube subscribers).
 
 ## 2026-11-16 (16:51 UTC) · addendum, second run on the same day
 

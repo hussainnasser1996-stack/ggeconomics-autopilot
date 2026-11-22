@@ -133,6 +133,9 @@ First candidate = best fit. For GTA VI use the library files (alternate them day
    number or $ amount (+2) · "you/your" or a direct stake for the viewer (+2) · a top search phrase from step 1 verbatim in
    the first 40 characters (+2) · ≤ 50 characters (+1) · open loop/stakes the video pays off (+2) · matches a winner pattern
    from BENCHMARK.md or trending.md (+1). Never clickbait the video doesn't pay off.
+   **Cost-per-hour title lock (CEO 22 Nov, judged 29 Nov):** cost-per-hour Shorts use the YouTube title "<Game> Costs You $X an Hour. Worth It?"
+   (or "...¢ an Hour..."), whatever the E1 arm. 5 mature posts on it got 855-1,534 views; changing the title during E1 confounds the hook test.
+   Keep a search phrase in `keywords`/description instead (e.g. "witcher 3 worth it 2026"). Applies to the YouTube title only; on-screen headline follows E1.
 3. **YouTube:** title = winner. The first 3 hashtags in the description show above the title: `#<game>`, `#gaming`, `#shorts`.
 4. **Instagram caption:** first line ≤ 125 characters (what shows before "more") = a DIFFERENT hook from the title, with the
    number; then 1–2 lines of facts; then the question; then sources. Hashtags (Instagram caps at 5): 1 broad (#gaming),
