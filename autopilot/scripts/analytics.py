@@ -135,6 +135,10 @@ IG_UID = os.environ.get("IG_USER_ID") or cfg.get("instagram_user_id", "178414616
 if IG_TOK:
     def igg(path):
         return json.loads(urllib.request.urlopen(f"https://graph.facebook.com/v21.0/{path}{'&' if '?' in path else '?'}access_token={IG_TOK}", timeout=60).read())
+    try:   # 22 Nov CEO request: follower count, so the IG goal + partnership milestones can be checked
+        a = igg(f"{IG_UID}?fields=username,followers_count,follows_count,media_count")
+        out["ig_account"] = {k: a[k] for k in ("username", "followers_count", "follows_count", "media_count") if k in a}
+    except Exception as e: out["notes"].append(f"Instagram followers failed: {str(e)[:150]}")
     try:
         since = (dt.date.today() - dt.timedelta(days=30)).isoformat()
         for m in igg(f"{IG_UID}/media?fields=id,caption,timestamp,media_product_type,permalink,like_count,comments_count&limit=50").get("data", []):
@@ -198,7 +202,9 @@ if alarms:
 json.dump(out, open(AP / f"log/metrics/{today}.json", "w"), indent=1)
 
 # ---------------- Scoreboard ----------------
+_ch, _ig = out["youtube"].get("channel") or {}, out.get("ig_account") or {}
 rows = ["# Scoreboard (rewritten daily by analytics.py)\n", f"Updated {today}. YouTube Analytics lags 1-3 days.\n",
+        f"Followers: YouTube {_ch.get('subscriberCount', '—')} subscribers · Instagram {_ig.get('followers_count', '—')} followers\n",
         "## Per post: views by platform", "(— = not sent yet / no metrics yet; carousel shows reach when Buffer gives no views)",
         "| post | YouTube Short | IG Reel | IG carousel | TikTok | total | title |", "|---|---|---|---|---|---|---|"]
 for name, p in per_post.items():
