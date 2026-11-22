@@ -1,7 +1,7 @@
 # Weekly report (newest week on top)
 
 ## Week of 16-22 Nov 2026 (first full week)
-- Totals (scoreboard 21 Nov): 18 YouTube Shorts, ~14,000 Shorts views; ~2,600 Instagram Reel views over 17 Reels (0 shares, 0 saves); IG carousels 0 reach across 3; TikTok 0 on all; YouTube subscribers ~5. Avg view % on YouTube: 51-94% (Shorts loop past 100% on 20c).
+- Totals (scoreboard 21 Nov): 17 YouTube Shorts with data, 13,398 Shorts views; 2,264 Instagram Reel views over 16 Reels (0 shares, 0 saves); IG carousels 0 reach across 3; TikTok 0 on all; YouTube subscribers ~5. Avg view % on YouTube: 51-94% (Shorts loop past 100% on 20c).
 - Best: 19c Cyberpunk 2077 cost per hour, 1,534 views and 3s vs similar 0.59. A famous non-GTA game, the viewer's own cost in line 1, the game's own soundtrack, 13 s.
 - Worst: 17b Take-Two $8B (23) and 18b pre-order real-or-rumour (55). Both were company-finance or rumour angles in the old 16:00 slot, and both are now killed.
 - Pillar ranking (median YouTube views): cost per hour 1,186 (6 posts) > GTA wallet/launch news ~1,040 > GTA records/history ~520 > rumour/company finance < 60.
