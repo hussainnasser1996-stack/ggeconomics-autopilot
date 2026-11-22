@@ -121,9 +121,12 @@ jobs:
           rm -f autopilot/keys/youtube-token.json
           git add -A autopilot && git commit -qm "build ${D:-noop}" || true
           B=main; [ "${{ github.event_name }}" = "workflow_dispatch" ] && [ "${{ github.ref_name }}" != "main" ] && B="${{ github.ref_name }}"
-          for i in 1 2 3; do git pull -q --rebase -X ours origin $B && git push -q origin HEAD:$B && break; sleep 5; done
+          # 22 Nov: a stray tracked file left the tree dirty, pull --rebase refused, state was never saved and the
+          # next-pending step re-queued the same posts all day (8 duplicate YouTube uploads). Autostash + fail loudly.
+          ok=0; for i in 1 2 3; do git pull -q --rebase --autostash -X ours origin $B && git push -q origin HEAD:$B && { ok=1; break; }; sleep 5; done
+          [ $ok = 1 ] || { git status --short | head -20; echo "::error::state NOT saved"; echo "STATE_SAVE_FAILED=1" >> $GITHUB_ENV; exit 1; }
       - name: Next pending post (2+ posts a day)
-        if: always() && steps.d.outputs.go == '1' && inputs.dry != true
+        if: always() && steps.d.outputs.go == '1' && inputs.dry != true && env.STATE_SAVE_FAILED != '1'
         run: |
           T=$(date -u +%F); T2=$(date -u -d "+3 days" +%F)
           for q in autopilot/queue/*/; do q=${q%/}; d=${q##*/}

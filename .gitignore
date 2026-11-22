@@ -1,7 +1,7 @@
 .venv/
 work/
 out/
-studio/node_modules/
+studio/node_modules
 studio/public/footage/
 studio/public/vo/d_*/
 __pycache__/
