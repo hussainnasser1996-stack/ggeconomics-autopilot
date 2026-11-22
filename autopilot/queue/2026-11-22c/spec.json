@@ -2,7 +2,7 @@
  "spec": {
   "tag": "COST PER HOUR #8",
   "headline": "IS SKYRIM WORTH |$39.99|?",
-  "topic": "The Elder Scrolls V: Skyrim Special Edition $39.99 on Steam (US, appid 489830, no discount, 22 Nov 2026; includes the 3 add-ons) ÷ HowLongToBeat main story 35 h (The Elder Scrolls V: Skyrim, id 9859: 127,231 s, 1,140 submissions) = $1.14/h; completionist 240 h (863,340 s) = 17¢/h; vs ~$12 movie for 2 h = $6/h. E1 arm B: no card on line 1, $/HR card on line 2.",
+  "topic": "The Elder Scrolls V: Skyrim Special Edition $39.99 on Steam (US, appid 489830, no discount, 22 Nov 2026; includes the 3 add-ons) \u00f7 HowLongToBeat main story 35 h (The Elder Scrolls V: Skyrim, id 9859: 127,231 s, 1,140 submissions) = $1.14/h; completionist 240 h (863,340 s) = 17\u00a2/h; vs ~$12 movie for 2 h = $6/h. E1 arm B: no card on line 1, $/HR card on line 2.",
   "vo": "vo/d_2026_11_22c/vo.wav",
   "timelinePath": "vo/d_2026_11_22c/timeline.json",
   "timeline": {
@@ -11,14 +11,78 @@
    "words": []
   },
   "noBed": true,
-  "clips": [],
+  "clips": [
+   {
+    "src": "d_2026_11_22c",
+    "from": 4.43,
+    "dur": 1.62,
+    "shot": 3,
+    "zoom": 1.35
+   },
+   {
+    "src": "d_2026_11_22c",
+    "from": 46.43,
+    "dur": 1.22,
+    "shot": 26.0,
+    "zoom": 1.35
+   },
+   {
+    "src": "d_2026_11_22c",
+    "from": 20.23,
+    "dur": 1.56,
+    "shot": 17,
+    "zoom": 1.35
+   },
+   {
+    "src": "d_2026_11_22c",
+    "from": 42.97,
+    "dur": 2.2,
+    "shot": 25,
+    "zoom": 1.35
+   },
+   {
+    "src": "d_2026_11_22c",
+    "from": 25.02,
+    "dur": 2.2,
+    "shot": 19.04,
+    "zoom": 1.35
+   },
+   {
+    "src": "d_2026_11_22c",
+    "from": 32.77,
+    "dur": 1.28,
+    "shot": 21,
+    "zoom": 1.35
+   },
+   {
+    "src": "d_2026_11_22c",
+    "from": 13.77,
+    "dur": 1.35,
+    "shot": 11,
+    "zoom": 1.35
+   },
+   {
+    "src": "d_2026_11_22c",
+    "from": 48.08,
+    "dur": 2.2,
+    "shot": 26.01,
+    "zoom": 1.35
+   },
+   {
+    "src": "d_2026_11_22c",
+    "from": 21.97,
+    "dur": 1.2,
+    "shot": 18,
+    "zoom": 1.35
+   }
+  ],
   "cards": [
    {
     "kind": "big",
     "line": "rate",
     "value": "$1.14/HR",
     "label": "Skyrim, main story",
-    "note": "$39.99 Steam ÷ 35 h HowLongToBeat · our math",
+    "note": "$39.99 Steam \u00f7 35 h HowLongToBeat \u00b7 our math",
     "color": "#D4FF3A"
    },
    {
@@ -37,13 +101,13 @@
    {
     "kind": "big",
     "line": "full",
-    "value": "17¢/HR",
+    "value": "17\u00a2/HR",
     "label": "if you go 100%",
-    "note": "240 h completionist · HowLongToBeat",
+    "note": "240 h completionist \u00b7 HowLongToBeat",
     "color": "#D4FF3A"
    }
   ],
-  "credit": "GAMEPLAY: BETHESDA SOFTWORKS · DATA: STEAM, HOWLONGTOBEAT",
+  "credit": "GAMEPLAY: BETHESDA SOFTWORKS \u00b7 DATA: STEAM, HOWLONGTOBEAT",
   "endLine": "COMMENT A GAME. WE PRICE IT NEXT.",
   "noCaptions": true
  }
