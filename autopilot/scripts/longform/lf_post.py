@@ -36,6 +36,10 @@ if what == "thumb":
             colour = np.hypot(rg.std(), yb.std()) + 0.3 * np.hypot(rg.mean(), yb.mean())      # Hasler-Suesstrunk colourfulness
             cells = [cv2.Laplacian(c, cv2.CV_64F).var() for row in np.array_split(g, 3) for c in np.array_split(row, 3, axis=1)]
             score *= (0.4 + min(colour, 60) / 60) * (0.3 + sum(c > 80 for c in cells) / 9)  # detail across the tile, not one blurry blob
+            sm = cv2.resize(img, (240, 213)); hsv = cv2.cvtColor(sm, cv2.COLOR_BGR2HSV); gs = cv2.cvtColor(sm, cv2.COLOR_BGR2GRAY).astype(np.float32)
+            grad = cv2.blur(np.hypot(cv2.Sobel(gs, cv2.CV_32F, 1, 0), cv2.Sobel(gs, cv2.CV_32F, 0, 1)), (5, 5))
+            if float(((grad < 5) & (hsv[..., 1] > 150) & (hsv[..., 2] > 150)).mean() * 100) >= 4: score *= 0.02   # giant trailer type OCR can't
+                                                         # read (dry run 8: Cyberpunk yellow "CITY" tile = 14.4%, gameplay tiles < 1%)
             if best is None or score > best[0]: best = (score, ts)
         ff("-ss", f"{best[1]:.2f}", "-i", str(MP4), "-frames:v", "1", "-vf", "crop=900:800:510:110", "-q:v", "2", str(D / f"t{i}.jpg"))
         print("tile", i, "rank", r, "at", round(best[1], 1))

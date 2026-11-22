@@ -186,7 +186,8 @@ for e in E:
             fr = [f for f in (frame(cap, p["a"] + 0.1), frame(cap, (p["a"] + p["b"]) / 2), frame(cap, p["b"] - 0.1)) if f is not None]
             if len(fr) < 3: continue
             bad = (any(float(cv2.cvtColor(f, cv2.COLOR_BGR2GRAY).mean()) < (30 if tier < 3 else 16) for f in fr) or any(ad_slate(f) for f in fr)
-                   or max(graphic(f) for f in fr) >= 2.5 or textiness_dark(fr[1]) > 2.2 or any(logo_hit(f, LOGO) for f in fr))
+                   or max(graphic(f) for f in fr + [x for x in (frame(cap, p["a"] + (p["b"] - p["a"]) * q) for q in (.2, .35, .65, .8)) if x is not None]) >= 2.5 or   # 7 samples: Cyberpunk "CITY" type sat between the 3 (dry run 8)
+                   textiness_dark(fr[1]) > 2.2 or any(logo_hit(f, LOGO) for f in fr))
             if not bad and tier == 1: bad = confident_words(fr[1]) >= 2
             if not bad and tier <= 2: bad = any(title_hit(f, TITLE) for f in fr)
             if not bad and tier <= 3:                            # every sampled frame: title cards zoom in mid-clip (Probably Stolen
