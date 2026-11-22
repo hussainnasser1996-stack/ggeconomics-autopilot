@@ -1,9 +1,9 @@
 {
  "video": "lU8HjtuYbzw",
- "thumb": "error: <HttpError 403 when requesting https://youtube.googleapis.com/upload/youtube/v3/thumbnails/set?videoId=lU8HjtuYbzw&alt=json&uploadType=media returned \"The authenticated user doesn't have permissions to upload and set custom video thumbnails.\". Details: \"[{'message': \"The authenticated user do",
+ "thumb": "ok",
  "playlist": "PLUrvyR4iLl30",
  "privacy": "private",
  "publish_at": "2026-11-22T16:00:00Z",
  "duration": "PT8M6S",
- "thumb_url": "https://i9.ytimg.com/vi/lU8HjtuYbzw/hqdefault.jpg?sqp=CJjfhtgG&rs=AOn4CLDxh-JL49Pn6L_owpf5t6BHk3uD4Q"
+ "thumb_url": "https://i9.ytimg.com/vi/lU8HjtuYbzw/maxresdefault.jpg?sqp=CNTVi9gG&rs=AOn4CLCBrf7A7VoBliE4wTLsIneAP-b1CA"
 }
