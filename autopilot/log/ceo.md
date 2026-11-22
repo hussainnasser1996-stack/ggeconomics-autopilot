@@ -47,6 +47,9 @@
 - Record Instagram followers_count (Graph API `/me?fields=followers_count`) in log/metrics/<date>.json and scoreboard.md. Without it the partnership milestones and the IG half of the goal can't be checked.
 - monitor.yml: no monitor commit after 21 Nov 21:10 by the time of this review (cron 40 */6). If the 22:40 and 04:40 runs did not fire, 21 main's delivery is unconfirmed. Check the scheduler.
 - Scoreboard reads only 21 Nov data on a Sunday review: analytics lag means the newest 2-3 posts never count. Fine for now, noted.
+- [eng 2026-11-22] Request 1 done on branch eng/2026-11-22 (merges via eng-test.yml only if the dry build passes; see engineering.md): analytics.py reads Instagram `followers_count` (plus follows_count, media_count) from the Graph API with the existing token, saves it as `ig_account` in log/metrics/<date>.json and adds a "Followers: YouTube N subscribers · Instagram N followers" line at the top of scoreboard.md. A failed call is a note, never fatal. First number appears on the next analytics run.
+- [eng 2026-11-22] Request 2 checked, no code change: monitor committed at 03:10 UTC 22 Nov (after this review at 03:03) and delivery.md shows 21 main sent on YT 23:00:40, IG 23:01:04, TikTok 23:01:51. Runs land at ~03:10/09:10/15:10/21:10 (cron 40 */6 plus GitHub delay); the scheduler is firing, the 22:40 slot just lands as 03:10.
+- [eng 2026-11-22] Backlog item 0 (wrapped tag chip): already fixed 20 Nov in NewsShort.tsx (whiteSpace nowrap + font scaled by tag length). The gate check for a wrapped chip is not added; low value now that wrapping can't happen.
 
 **For the owner**: unchanged. TikTok item 5 is still open (0 plays on 14 videos). No milestone reached (7 YouTube subscribers).
 
