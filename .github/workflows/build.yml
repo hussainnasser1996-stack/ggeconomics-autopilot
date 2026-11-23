@@ -142,6 +142,4 @@ jobs:
           name: build-${{ env.D }}
           retention-days: 14
           path: autopilot/queue/${{ env.D }}/
-      - name: Alert on failure
-        if: failure()
-        run: python3 autopilot/scripts/notify.py "Build FAILED for ${D}. GitHub → ggeconomics-autopilot → Actions" high || true
+      # No phone alert on failure: triage.yml logs it and the fixer routine (FIXER.md) repairs it; Husain hears only if it's stuck.
