@@ -1,4 +1,4 @@
-# Delivery check · 2026-11-23 09:10 UTC
+# Delivery check · 2026-11-23 13:11 UTC
 
 ## Problems
 - 2026-11-18b instagram_reel: Buffer error: It looks like Buffer has lost the authorization to post to Facebook. No need to worry, though! (older than 12 h: not re-booked, stale)
@@ -6,10 +6,10 @@
 
 Buffer scheduled per channel: youtube_short 2, instagram_reel 2, instagram_carousel 1, tiktok_video 2
 
-GitHub Actions minutes used this month: ~3174 of 2,000 (free tier, private repo)
+GitHub Actions minutes used this month: ~3264 (public repo: free, no cap)
 
 ## Actions taken
-- 2026-11-23c: not booked yet, a build is running/queued → checked again next run
+- 2026-11-23c: {'video': 'h3Kf9DKZOiY', 'series': 'cost_per_hour', 'playlist': 'ok', 'blocked_in': 0, 'allowed_only': None, 'music': 'library', 'localized': ['ar', 'en', 'es', 'hi', 'id', 'pt-BR']}
 
 | post | channel | status | sent/due | link | title |
 |---|---|---|---|---|---|
@@ -65,3 +65,6 @@ GitHub Actions minutes used this month: ~3174 of 2,000 (free tier, private repo)
 | 2026-11-23b | youtube_short | scheduled | 2026-11-23T17:30:00.000Z |  | Hades Costs You $1.06 an Hour. Worth It? |
 | 2026-11-23b | instagram_reel | scheduled | 2026-11-23T17:30:00.000Z |  | Hades Costs You $1.06 an Hour. Worth It? |
 | 2026-11-23b | tiktok_video | scheduled | 2026-11-23T17:30:00.000Z |  | Hades Costs You $1.06 an Hour. Worth It? |
+| 2026-11-23c | youtube_short | sent | 2026-11-23T12:00:52.979Z | https://www.youtube.com/shorts/h3Kf9DKZOiY | Terraria Costs You 19¢ an Hour. Worth It? |
+| 2026-11-23c | instagram_reel | sent | 2026-11-23T12:02:09.865Z | https://www.instagram.com/reel/DgFVOPVzIo4/ | Terraria Costs You 19¢ an Hour. Worth It? |
+| 2026-11-23c | tiktok_video | sent | 2026-11-23T12:02:11.960Z | https://tiktok.com/@ggeconomics/video/7711335726864092424 | Terraria Costs You 19¢ an Hour. Worth It? |
