@@ -15,6 +15,8 @@ def gql(q, v):
     return json.loads(urllib.request.urlopen(req, timeout=60).read())
 Q = 'query($i:PostId!){ post(input:{id:$i}){ status dueAt sentAt externalLink error { message } } }'
 rows, problems, actions = [], [], []
+# 23 Nov (Husain): priority YouTube > Instagram > TikTok. A missed post is retried this many hours after its slot.
+RETRY_H = {"youtube_short": 48, "instagram_reel": 24, "instagram_carousel": 24, "tiktok_video": 12}
 SERVICE = {"youtube_short": "youtube", "instagram_reel": "instagram", "instagram_carousel": "instagram", "tiktok_video": "tiktok"}
 cfg = json.load(open(AP / "config.json"))
 try:
@@ -45,7 +47,7 @@ for q in sorted(Qd.iterdir()):
             try: due_f = datetime.datetime.fromisoformat(bj.get("due", "").replace("Z", "+00:00"))
             except Exception: due_f = None
             if (name == "youtube_short" and due_f and not (bj.get("direct") or {}).get(name)
-                    and now - due_f <= datetime.timedelta(hours=6) and (AP / "keys/youtube-token.json").exists()):
+                    and now - due_f <= datetime.timedelta(hours=RETRY_H[name]) and (AP / "keys/youtube-token.json").exists()):
                 r = subprocess.run(["python3", str(AP / "scripts/publish.py"), q.name, "--rebook", name, "--direct"], capture_output=True, text=True)
                 (actions if r.returncode == 0 else problems).append(f"{q.name} {name}: retried direct YouTube upload: {(r.stdout + r.stderr).strip()[-200:]}")
                 if r.returncode == 0: continue
@@ -57,21 +59,21 @@ for q in sorted(Qd.iterdir()):
             rows.append(f"| {q.name} | {name} | {st} | {p.get('sentAt') or p.get('dueAt') or ''} | {p.get('externalLink') or ''} | {title[:50]} |")
             if err or st in ("error", "failed"):
                 due_t = datetime.datetime.fromisoformat((p.get("dueAt") or now.isoformat()).replace("Z", "+00:00"))
-                if (err and "limit" in err.lower() and name == "youtube_short" and (AP / "keys/youtube-token.json").exists()
-                        and now - due_t <= datetime.timedelta(hours=12)):
+                if (name == "youtube_short" and (AP / "keys/youtube-token.json").exists()
+                        and now - due_t <= datetime.timedelta(hours=RETRY_H[name])):   # ANY Buffer YouTube failure → our own upload
                     # Buffer caps YouTube posts (19 Nov incident): upload the Short ourselves instead of losing the slot.
                     r = subprocess.run(["python3", str(AP / "scripts/publish.py"), q.name, "--rebook", name, "--direct"], capture_output=True, text=True)
                     (actions if r.returncode == 0 else problems).append(f"{q.name} {name}: Buffer posting limit → direct YouTube upload: {(r.stdout + r.stderr).strip()[-200:]}")
-                elif err and "limit" in err.lower():
-                    # Platform/Buffer posting cap: a re-book would spend the reduced daily allowance and starve later slots.
-                    problems.append(f"{q.name} {name}: Buffer posting limit hit, not re-booked: {err}")
-                elif (SERVICE.get(name) in down and name == "instagram_reel" and os.environ.get("IG_ACCESS_TOKEN")
-                      and now - due_t <= datetime.timedelta(hours=12)):
+                elif (name == "instagram_reel" and os.environ.get("IG_ACCESS_TOKEN") and (SERVICE.get(name) in down or (err and "limit" in err.lower()))
+                      and now - due_t <= datetime.timedelta(hours=RETRY_H[name])):
                     # Buffer lost Instagram (18 Nov): don't wait for the owner, post the Reel straight through the Graph API.
                     r = subprocess.run(["python3", str(AP / "scripts/publish.py"), q.name, "--rebook", name, "--direct"], capture_output=True, text=True)
                     (actions if r.returncode == 0 else problems).append(f"{q.name} {name}: Buffer IG down → direct post: {(r.stdout + r.stderr).strip()[-200:]}")
-                elif SERVICE.get(name) in down or now - due_t > datetime.timedelta(hours=12):
-                    problems.append(f"{q.name} {name}: Buffer error: {err}" + ("" if SERVICE.get(name) in down else " (older than 12 h: not re-booked, stale)"))
+                elif err and "limit" in err.lower():
+                    # Platform/Buffer posting cap: a re-book would spend the reduced daily allowance and starve later slots.
+                    problems.append(f"{q.name} {name}: Buffer posting limit hit, not re-booked: {err}")
+                elif SERVICE.get(name) in down or now - due_t > datetime.timedelta(hours=RETRY_H.get(name, 12)):
+                    problems.append(f"{q.name} {name}: Buffer error: {err}" + ("" if SERVICE.get(name) in down else f" (older than {RETRY_H.get(name, 12)} h: not re-booked, stale)"))
                 else:
                     r = subprocess.run(["python3", str(AP / "scripts/publish.py"), q.name, "--rebook", name], capture_output=True, text=True)
                     (actions if r.returncode == 0 else problems).append(f"{q.name} {name}: errored ({err}) → re-book: {(r.stdout + r.stderr).strip()[-200:]}")
