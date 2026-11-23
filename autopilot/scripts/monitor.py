@@ -121,7 +121,14 @@ try:
                             capture_output=True, text=True).stdout.strip() == "PUBLIC"   # 20 Nov: repo made public = unlimited minutes
     if mins > 1700 and not public: problems.append(f"GitHub Actions minutes this month ≈ {mins}/2000: CEO must lower posts_per_day")
 except Exception as e: mins = f"unknown ({e})"
+# 23 Nov: a post dated before yesterday is past the 12 h re-book window, but it stayed in Problems and fired a HIGH alert every 6 h
+# (18b IG, 22c YT). Keep it on record under "Old", out of Problems and out of the alert.
+import re as _re
+_cut = (now - __import__("datetime").timedelta(days=1)).strftime("%Y-%m-%d")
+_old = [p for p in problems if (m := _re.match(r"(\d{4}-\d{2}-\d{2})", p)) and m.group(1) < _cut]
+problems = [p for p in problems if p not in _old]
 out = [f"# Delivery check · {now:%Y-%m-%d %H:%M} UTC", "", "## Problems", *(["- " + p for p in problems] or ["- none"]),
+       "", "## Old (before yesterday, past the re-book window, no alert)", *(["- " + p for p in _old] or ["- none"]),
        "", "Buffer scheduled per channel: " + (", ".join(f"{k} {v}" for k, v in queued.items()) or "0"),
        "", f"GitHub Actions minutes used this month: ~{mins} (public repo: free, no cap)",
        "", "## Actions taken", *(["- " + a for a in actions] or ["- none"]), "",
