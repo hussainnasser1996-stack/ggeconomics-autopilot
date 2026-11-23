@@ -8,6 +8,10 @@ Hosts queue/<date>/short.mp4 (+ carousel PNGs) in the public media repo, then sc
 YouTube Short + Instagram Reel + TikTok (+ Instagram carousel on carousel days). Writes queue/<date>/buffer_ids.json.
 Never runs twice for the same date (buffer_ids.json guard). Key: macOS keychain (config.json → buffer_key_keychain)."""
 import sys, json, os, subprocess, shutil, urllib.request
+# the macOS keychain only exists on the Mac; on the Linux runner the secrets come from env (23 Nov: analytics.py
+# crashed with FileNotFoundError: 'security' when IG_ACCESS_TOKEN was not set in that step)
+import shutil as _sh
+_kc = lambda a, **k: subprocess.run(a, **k) if _sh.which(a[0]) else subprocess.CompletedProcess(a, 1, "", "")
 from pathlib import Path
 from datetime import datetime
 AP = Path(__file__).resolve().parents[1]
@@ -56,7 +60,7 @@ elif not dry:
 def key():
     if os.environ.get("BUFFER_API_KEY"): return os.environ["BUFFER_API_KEY"]
     k = cfg["buffer_key_keychain"]
-    return subprocess.run(["security", "find-generic-password", "-s", k["service"], "-a", k["account"], "-w"],
+    return _kc(["security", "find-generic-password", "-s", k["service"], "-a", k["account"], "-w"],
                           capture_output=True, text=True).stdout.strip()
 def gql(q, v):
     req = urllib.request.Request("https://api.buffer.com", data=json.dumps({"query": q, "variables": v}).encode(),
@@ -117,7 +121,7 @@ if rebook and "--direct" in sys.argv:                  # Buffer's Instagram link
     if rebook != "instagram_reel": sys.exit("--direct supports instagram_reel and youtube_short")
     tok, uid = os.environ.get("IG_ACCESS_TOKEN"), os.environ.get("IG_USER_ID")
     if not (tok and uid):
-        tok = subprocess.run(["security", "find-generic-password", "-s", "ggeconomics-instagram", "-a", "ig_graph", "-w"],
+        tok = _kc(["security", "find-generic-password", "-s", "ggeconomics-instagram", "-a", "ig_graph", "-w"],
                              capture_output=True, text=True).stdout.strip(); uid = cfg.get("instagram_user_id", "17841461684732203")
     if not tok: sys.exit("--direct needs IG_ACCESS_TOKEN")
     import urllib.parse, time

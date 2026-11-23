@@ -10,6 +10,10 @@ Writes:
 Missing access (no token yet / no Buffer channel) is reported, never fatal.
 YouTube Analytics lags 24-72 h: a post <2 days old shows Data-API views only."""
 import json, os, re, subprocess, datetime as dt, urllib.request
+# the macOS keychain only exists on the Mac; on the Linux runner the secrets come from env (23 Nov: analytics.py
+# crashed with FileNotFoundError: 'security' when IG_ACCESS_TOKEN was not set in that step)
+import shutil as _sh
+_kc = lambda a, **k: subprocess.run(a, **k) if _sh.which(a[0]) else subprocess.CompletedProcess(a, 1, "", "")
 from pathlib import Path
 AP = Path(__file__).resolve().parents[1]
 cfg = json.load(open(AP / "config.json"))
@@ -108,7 +112,7 @@ if yt:
 def buffer_key():
     if os.environ.get("BUFFER_API_KEY"): return os.environ["BUFFER_API_KEY"]
     k = cfg["buffer_key_keychain"]
-    return subprocess.run(["security", "find-generic-password", "-s", k["service"], "-a", k["account"], "-w"], capture_output=True, text=True).stdout.strip()
+    return _kc(["security", "find-generic-password", "-s", k["service"], "-a", k["account"], "-w"], capture_output=True, text=True).stdout.strip()
 key = buffer_key()
 if key and cfg["buffer_channels"].get("instagram"):
     q = """query($o: OrganizationId!, $c: [ChannelId!]){ posts(first: 50, input:{organizationId:$o, filter:{status:[sent], channelIds:$c}},
@@ -129,7 +133,7 @@ else:
 # ---------------- Instagram straight from Instagram (20 Nov: token now has instagram_manage_insights) ----------------
 # Buffer only knows posts it published and lost IG for a day; the Graph API sees every Reel, direct posts included.
 out["ig_graph"] = {}
-IG_TOK = os.environ.get("IG_ACCESS_TOKEN") or subprocess.run(["security", "find-generic-password", "-s", "ggeconomics-instagram",
+IG_TOK = os.environ.get("IG_ACCESS_TOKEN") or _kc(["security", "find-generic-password", "-s", "ggeconomics-instagram",
           "-a", "ig_graph", "-w"], capture_output=True, text=True).stdout.strip()
 IG_UID = os.environ.get("IG_USER_ID") or cfg.get("instagram_user_id", "17841461684732203")
 if IG_TOK:
