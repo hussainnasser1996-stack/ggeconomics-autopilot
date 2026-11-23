@@ -106,7 +106,7 @@ from collections import Counter
 queued = Counter(r.split("|")[2].strip() for r in rows if r.split("|")[3].strip() == "scheduled")
 for ch_name, n in queued.items():
     if n >= 8: problems.append(f"Buffer queue for {ch_name}: {n} scheduled (free plan cap ~10) — brain must not book further ahead")
-# GitHub Actions minutes this month (private repo free tier = 2,000): sum of job durations, rounded up per job
+# GitHub Actions minutes this month (repo is PUBLIC: standard runners are free and unmetered; kept for information): sum of job durations, rounded up per job
 mins = 0
 try:
     month = now.strftime("%Y-%m")
@@ -123,7 +123,7 @@ try:
 except Exception as e: mins = f"unknown ({e})"
 out = [f"# Delivery check · {now:%Y-%m-%d %H:%M} UTC", "", "## Problems", *(["- " + p for p in problems] or ["- none"]),
        "", "Buffer scheduled per channel: " + (", ".join(f"{k} {v}" for k, v in queued.items()) or "0"),
-       "", f"GitHub Actions minutes used this month: ~{mins} of 2,000 (free tier, private repo)",
+       "", f"GitHub Actions minutes used this month: ~{mins} (public repo: free, no cap)",
        "", "## Actions taken", *(["- " + a for a in actions] or ["- none"]), "",
        "| post | channel | status | sent/due | link | title |", "|---|---|---|---|---|---|", *rows, ""]
 (AP / "log/delivery.md").write_text("\n".join(out)); print("\n".join(out[:12]))

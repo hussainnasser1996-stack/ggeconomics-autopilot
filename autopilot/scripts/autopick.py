@@ -18,10 +18,14 @@ from pathlib import Path
 import numpy as np, cv2
 GN = Path(__file__).resolve().parents[2]
 D = sys.argv[1]; Q = GN / "autopilot/queue" / D
-src = json.load(open(Q / "footage_resolved.json")); tag = src["tag"]
-script = json.load(open(Q / "script.json"))
-tl = json.load(open(GN / f"studio/public/vo/{script['id']}/timeline.json"))
-need = float(tl.get("duration") or tl["lines"][-1]["end"]) + 2.5
+src = json.load(open(Q / "footage_resolved.json")) if (Q / "footage_resolved.json").exists() else {}; tag = src.get("tag")
+COUNT = "--count" in sys.argv   # 23 Nov: resolve_footage ranks trailers by THIS filter (its own rough count said 12
+if COUNT:                       # usable for Terraria 1.3, autopick then found 0 and 23c failed twice)
+    src = {**src, **json.loads(sys.argv[sys.argv.index("--count") + 1])}; tag = src["tag"]
+else:
+    script = json.load(open(Q / "script.json"))
+    tl = json.load(open(GN / f"studio/public/vo/{script['id']}/timeline.json"))
+    need = float(tl.get("duration") or tl["lines"][-1]["end"]) + 2.5
 shots = json.load(open(GN / f"work/{tag}/shots.json"))
 total = max(s["end"] for s in shots)
 used_p = GN / "autopilot/log/used_shots.json"
@@ -139,7 +143,9 @@ def scan(a, b):
         if i % step: continue
         t = a + i / FPS; hh = hist(f)
         hgt, wid = f.shape[:2]; cw = int(hgt * 9 / 16)
-        if cv2.cvtColor(f[:, (wid - cw) // 2:(wid + cw) // 2], cv2.COLOR_BGR2GRAY).mean() < 20:   # fade-to-black dip
+        cg = cv2.cvtColor(f[:, (wid - cw) // 2:(wid + cw) // 2], cv2.COLOR_BGR2GRAY)
+        if cg.mean() < 20 and cg.std() < 8:   # fade-to-black dip = dark AND flat (23c, 23 Nov: Terraria's dark cave
+            # gameplay averages < 20 but has std up to 40; the old dark-only test cut it into 165 slivers -> 0 clean shots)
             segs.append((seg0, t - 0.15, gmax)); seg0, gmax, prev = t + 0.25, 0.0, None   # = a cut (21b, 21 Nov: 0.2 s
             continue                                                                        # black inside a "lit" shot)
         if prev is not None and cv2.compareHist(prev, hh, cv2.HISTCMP_CORREL) < 0.5:
@@ -148,9 +154,13 @@ def scan(a, b):
     segs.append((seg0, b, gmax)); return segs
 
 cands = []
+# official Steam screenshots (resolve_footage's reel): no rating/end slates to trim and no title cards, so the two text
+# heuristics built for trailers are off; their HUD numbers + dark caves read as "text" (23c Terraria: 2 of 14 kept).
+# Logo, title-word, ad-card, poster-type and black checks still apply.
+STILLS = str(src.get("id", "")).startswith("steamshots:")
 for s0 in shots:
-    if s0["start"] < total * 0.07 or s0["end"] > total * 0.88: continue
-    if s0["dur"] < 1.35 or not (28 <= s0["bright"] <= 225) or s0["sharp"] < 120: continue
+    if not STILLS and (s0["start"] < total * 0.07 or s0["end"] > total * 0.88): continue
+    if s0["dur"] < 1.35 or not ((18 if STILLS else 28) <= s0["bright"] <= 225) or s0["sharp"] < 120: continue
     if s0["sat"] < 22 or s0["motion"] < 3: continue          # grey logo slates / frozen holds
     segs = scan(s0["start"] + 0.1, s0["end"] - 0.05)
     for k, (a, b, gmax) in enumerate(segs):                # each piece between hidden cuts is judged on its own
@@ -161,12 +171,12 @@ for s0 in shots:
         mid = frame((s["start"] + s["end"]) / 2)
         if mid is None: continue
         t_dark, t_all = textiness(mid)
-        if t_dark > 2.2: continue                  # title/rating card: white type on black
+        if t_dark > 2.2 and not STILLS: continue                  # title/rating card: white type on black
         ends = [fr for fr in (mid, frame(s["start"] + 0.15), frame(s["end"] - 0.15)) if fr is not None]
         lum = [float(cv2.cvtColor(fr, cv2.COLOR_BGR2GRAY).mean()) for fr in ends]
         if min(lum) < 14: continue                 # truly black moments never
         if any(ad_slate(fr) for fr in ends): continue      # brand/console ad cards inside "gameplay" files
-        if any(ocr_words(fr) >= 2 for fr in ends): continue
+        if not STILLS and any(ocr_words(fr) >= 2 for fr in ends): continue
         fs = [fr for fr in (frame(t) for t in np.arange(s["start"] + 0.12, s["end"] - 0.05, 0.4)) if fr is not None]
         if any(title_hit(fr) or logo_hit(fr) for fr in fs): continue
         score = (s["motion"] + 2) * math.log10(s["sharp"] + 10) * (0.7 + min(s["sat"], 140) / 200)
@@ -178,6 +188,7 @@ cands = lit if len(lit) >= 10 else sorted(cands, key=lambda c: -c["lum"])[: max(
 fresh = [c for c in cands if not c["used"]]
 # fresh shots first; if the trailer is running dry (several posts a day on one game), add back the shots used longest ago
 cands = fresh if len(fresh) >= 10 else fresh + sorted([c for c in cands if c["used"]], key=lambda c: c["used"])[: max(0, 14 - len(fresh))]
+if COUNT: print(f"CLEAN {len(cands)}"); sys.exit(0)
 if len(cands) < 6: sys.exit(f"autopick: only {len(cands)} clean shots in this trailer (need 6+)")
 if not cands: sys.exit("autopick: no usable shots")
 

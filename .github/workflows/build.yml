@@ -18,6 +18,8 @@ jobs:
     timeout-minutes: 90
     env:
       BUFFER_API_KEY: ${{ secrets.BUFFER_API_KEY }}
+      IG_ACCESS_TOKEN: ${{ secrets.IG_ACCESS_TOKEN }}
+      IG_USER_ID: ${{ secrets.IG_USER_ID }}
       GH_TOKEN: ${{ github.token }}
       MEDIA_REPO_DIR: ${{ github.workspace }}/../media
       HF_HOME: ${{ github.workspace }}/../hf
