@@ -2,25 +2,25 @@
 
 Updated 2026-11-23. YouTube Analytics lags 1-3 days.
 
-Followers: YouTube 9 subscribers · Instagram 0 followers
+Followers: YouTube 10 subscribers · Instagram 0 followers
 
 ## Per post: views by platform
 (— = not sent yet / no metrics yet; carousel shows reach when Buffer gives no views)
 | post | YouTube Short | IG Reel | IG carousel | TikTok | total | title |
 |---|---|---|---|---|---|---|
-| 2026-11-23c | 539 | 123 | — | — | 662 | Terraria Costs You 19¢ an Hour. Worth It? |
+| 2026-11-23c | 748 | 124 | — | — | 872 | Terraria Costs You 19¢ an Hour. Worth It? |
 | 2026-11-23b | — | — | — | — | 0 | Hades Costs You $1.06 an Hour. Worth It? |
 | 2026-11-23 | — | — | — | — | 0 | Elden Ring vs Dark Souls 3: $1 vs $1.92 an Hour |
 | 2026-11-22c | — | 126 | — | — | 126 | Is Skyrim Worth It in 2026? $1.14 an Hour |
-| 2026-11-22b | 793 | 119 | — | — | 912 | Witcher 3 Worth It in 2026? 96¢ an Hour |
-| 2026-11-22 | 804 | 127 | — | — | 931 | GTA 6 Sales Numbers: Week 1 in 4 Numbers |
-| 2026-11-21c | 1272 | 173 | — | — | 1445 | Stardew Valley Costs You 28¢ an Hour. Worth It? |
-| 2026-11-21b | 1302 | 129 | — | — | 1431 | Red Dead 2 Costs You $1.18 an Hour. Worth It? |
-| 2026-11-21 | 1011 | 121 | — | — | 1132 | GTA 6 Sales: 32.5M Copies. Are You One? |
+| 2026-11-22b | 883 | 119 | — | — | 1002 | Witcher 3 Worth It in 2026? 96¢ an Hour |
+| 2026-11-22 | 799 | 127 | — | — | 926 | GTA 6 Sales Numbers: Week 1 in 4 Numbers |
+| 2026-11-21c | 1273 | 173 | — | — | 1446 | Stardew Valley Costs You 28¢ an Hour. Worth It? |
+| 2026-11-21b | 1308 | 129 | — | — | 1437 | Red Dead 2 Costs You $1.18 an Hour. Worth It? |
+| 2026-11-21 | 1013 | 121 | — | — | 1134 | GTA 6 Sales: 32.5M Copies. Are You One? |
 | 2026-11-20c | 1629 | 151 | — | — | 1780 | Hollow Knight Costs You 56¢ an Hour. Worth It? |
 | 2026-11-20b | 1137 | 128 | — | — | 1265 | GTA 6 Got 8 Game Awards Nominations Before Launch |
-| 2026-11-20 | 1238 | 118 | — | — | 1356 | GTA 6 Sales: Est. 19M Copies. Did You Buy It? |
-| 2026-11-19c | 1624 | 149 | — | — | 1773 | Cyberpunk 2077 Costs You $2.31 an Hour. Worth It? |
+| 2026-11-20 | 1239 | 118 | — | — | 1357 | GTA 6 Sales: Est. 19M Copies. Did You Buy It? |
+| 2026-11-19c | 1636 | 149 | — | — | 1785 | Cyberpunk 2077 Costs You $2.31 an Hour. Worth It? |
 | 2026-11-19b | 521 | 113 | — | — | 634 | GTA 6 vs GTA 5: You Waited 4,811 Days |
 | 2026-11-19 | 984 | 249 | — | — | 1233 | GTA 6 Is Out: Your Console Runs It at 30 FPS |
 | 2026-11-18c | 857 | 100 | — | — | 957 | Baldur's Gate 3 Costs You 82¢ an Hour. Worth It? |
@@ -36,19 +36,20 @@ Followers: YouTube 9 subscribers · Instagram 0 followers
 ## YouTube
 | published | views | avg view % | avg view s | kept 1s % | kept 3s % | 3s vs similar | likes | shares | subs+ | title |
 |---|---|---|---|---|---|---|---|---|---|---|
-| 2026-11-23 | 539 | — | — | — | — | — | 4 | — | — | Terraria Costs You 19¢ an Hour. Worth It? |
-| 2026-11-23 | 793 | — | — | — | — | — | 5 | — | — | Witcher 3 Worth It in 2026? 96¢ an Hour |
-| 2026-11-23 | 804 | — | — | — | — | — | 2 | — | — | GTA 6 Sales Numbers: Week 1 in 4 Numbers |
+| 2026-11-23 | 0 | — | — | — | — | — | 0 | — | — | Is Skyrim Worth It in 2026? $1.14 an Hour |
+| 2026-11-23 | 748 | — | — | — | — | — | 4 | — | — | Terraria Costs You 19¢ an Hour. Worth It? |
+| 2026-11-23 | 883 | — | — | — | — | — | 6 | — | — | Witcher 3 Worth It in 2026? 96¢ an Hour |
+| 2026-11-23 | 799 | — | — | — | — | — | 2 | — | — | GTA 6 Sales Numbers: Week 1 in 4 Numbers |
 | 2026-11-22 | 4 | — | — | — | — | — | 0 | — | — | Top 10 Games on Steam This Week: Worth the Money? (Nov 2026) |
-| 2026-11-21 | 1011 | — | — | — | — | — | 4 | — | — | GTA 6 Sales: 32.5M Copies. Are You One? |
-| 2026-11-21 | 1302 | — | — | — | — | — | 6 | — | — | Red Dead 2 Costs You $1.18 an Hour. Worth It? |
-| 2026-11-21 | 1272 | — | — | — | — | — | 4 | — | — | Stardew Valley Costs You 28¢ an Hour. Worth It? |
-| 2026-11-21 | 1238 | 61.4 | 10 | 115 | 113 | 0.32 | 6 | 0 | 1 | GTA 6 Sales: Est. 19M Copies. Did You Buy It? |
+| 2026-11-21 | 1013 | — | — | — | — | — | 4 | — | — | GTA 6 Sales: 32.5M Copies. Are You One? |
+| 2026-11-21 | 1308 | — | — | — | — | — | 6 | — | — | Red Dead 2 Costs You $1.18 an Hour. Worth It? |
+| 2026-11-21 | 1273 | — | — | — | — | — | 4 | — | — | Stardew Valley Costs You 28¢ an Hour. Worth It? |
+| 2026-11-21 | 1239 | 61.4 | 10 | 115 | 113 | 0.32 | 6 | 0 | 1 | GTA 6 Sales: Est. 19M Copies. Did You Buy It? |
 | 2026-11-20 | 1137 | 64.2 | 11 | 117 | 115 | 0.37 | 7 | 1 | 0 | GTA 6 Got 8 Game Awards Nominations Before Launch |
 | 2026-11-20 | 1629 | 93.3 | 13 | 128 | 121 | 0.67 | 19 | 1 | 1 | Hollow Knight Costs You 56¢ an Hour. Worth It? |
 | 2026-11-19 | 984 | 71.0 | 16 | 114 | 111 | 0.32 | 14 | 0 | 0 | GTA 6 Is Out: Your Console Runs It at 30 FPS |
 | 2026-11-19 | 521 | 52.2 | 9 | 112 | 109 | 0.27 | 2 | 0 | 0 | GTA 6 vs GTA 5: You Waited 4,811 Days |
-| 2026-11-19 | 1624 | 92.7 | 12 | 129 | 123 | 0.58 | 14 | 2 | 0 | Cyberpunk 2077 Costs You $2.31 an Hour. Worth It? |
+| 2026-11-19 | 1636 | 92.7 | 12 | 129 | 123 | 0.58 | 14 | 2 | 0 | Cyberpunk 2077 Costs You $2.31 an Hour. Worth It? |
 | 2026-11-18 | 1039 | 65.5 | 15 | 113 | 110 | 0.31 | 18 | 1 | 1 | GTA 6 Unlocks Tonight: You Need 212 GB Free |
 | 2026-11-18 | 56 | 77.3 | 12 | 129 | 124 | 0.49 | 0 | 0 | 0 | GTA 6 Beat Cyberpunk's 8M Pre-Order Record? |
 | 2026-11-18 | 857 | 78.2 | 11 | 120 | 116 | 0.45 | 3 | 0 | 1 | Baldur's Gate 3 Costs You 82¢ an Hour. Worth It? |
@@ -70,7 +71,7 @@ Traffic sources (all time): SHORTS 10755, YT_SEARCH 651, YT_OTHER_PAGE 243, YT_C
 | sent | type | views | reach | likes | comments | shares | saves | avg watch s | post |
 |---|---|---|---|---|---|---|---|---|---|
 | 2026-11-23 | post | 0 | 0 | 0 | 0 | 0 | 0 | — | We priced 11 games by the hour. Cheapest first: Terraria 19¢ |
-| 2026-11-23 | reel | 123 | 117 | 0 | 0 | 0 | 0 | 4.1 | Send this to the friend with 300 hours in Terraria. Its main |
+| 2026-11-23 | reel | 124 | 118 | 0 | 0 | 0 | 0 | 4.1 | Send this to the friend with 300 hours in Terraria. Its main |
 | 2026-11-22 | reel | 127 | 107 | 0 | 0 | 0 | 0 | 4.6 | 5.2x Red Dead 2's opening weekend. GTA 6's first week, in 4  |
 | 2026-11-22 | reel | 119 | 106 | 0 | 0 | 0 | 0 | 4.2 | Send this to the friend with 300 hours in The Witcher 3. Its |
 | 2026-11-22 | reel | 126 | 114 | 0 | 0 | 0 | 0 | 5.0 | Send this to the friend with 300 hours in Skyrim. The main q |

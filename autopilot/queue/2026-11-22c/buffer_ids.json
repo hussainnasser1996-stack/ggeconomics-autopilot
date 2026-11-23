@@ -8,7 +8,13 @@
   "video": "https://raw.githubusercontent.com/hussainnasser1996-stack/savestate-media/main/video/2026-11-22c-76bb1027.mp4",
   "images": []
  },
- "failed": {
-  "youtube_short": "You have already scheduled the maximum number of posts YouTube allows in a day (2). Please consider scheduling this post for another day."
+ "failed": {},
+ "replaced": [
+  {
+   "youtube_short": null
+  }
+ ],
+ "direct": {
+  "youtube_short": "gJMhhENbwVY"
  }
 }
