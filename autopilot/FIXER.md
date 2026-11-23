@@ -4,6 +4,8 @@ Every failed GitHub run is classified by `.github/workflows/triage.yml` → `aut
 each open entry green WITHOUT Husain having to report it. Hard rule: verify, never assume. $0 only. Money/accounts = Husain.
 1. `git pull`. Read `autopilot/log/failures.json`. Entries with status `open` (or `retrying` older than 1 h). None → log
    one line "<UTC> no open failures" to `autopilot/log/fixer.md`, push, STOP. (Most runs end here.)
+0. If `gh` is missing or unauthenticated: the error text is already in failures.json; re-run a build by committing
+   `autopilot/queue/<target>/go` (any content) to main, which triggers build.yml; branches still go through eng-test.yml.
 2. For each open entry (oldest first, max 3 per run): read `runs[-1].error`; get the full log with
    `gh run view <id from runs[].run> --log-failed` if you need it. Find the ROOT CAUSE in the code / queue files. Same cause
    as an entry fixed before (`autopilot/log/fixer.md`)? Then the earlier fix was incomplete: fix it properly this time.
