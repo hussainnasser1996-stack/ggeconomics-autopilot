@@ -8,6 +8,10 @@ good posts and series that give a reason to subscribe are the levers.
 numbers (our own calculations, rankings, verdicts) keep us clear of YouTube's "inauthentic content" rule and Instagram's
 April-2026 aggregator crackdown, which cut reach for accounts that mostly repost.
 
+**Channel priority (Husain, 23 Nov): YouTube first, Instagram second, TikTok third.** Every Short must reach YouTube
+consistently: it uploads with our own token (Buffer is only the fallback) and a missed one is retried for 48 h; Instagram
+is retried 24 h (direct Graph API if Buffer fails); TikTok 12 h. Judge decisions on YouTube numbers first.
+
 ## Cadence
 - YouTube Shorts + Instagram Reels: **2 a day** (17:30 + 23:00 UTC = 12:30 PM + 6 PM New York; b slot moved from 16:00 on 19 Nov), **3 a day** in launch windows
   (adds 12:00 UTC). Above ~5/day risks spam throttling.
