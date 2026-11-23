@@ -7,7 +7,7 @@ due in 5 min; the old id moves to buffer_ids.json "replaced". Used by monitor.py
 Hosts queue/<date>/short.mp4 (+ carousel PNGs) in the public media repo, then schedules them in Buffer:
 YouTube Short + Instagram Reel + TikTok (+ Instagram carousel on carousel days). Writes queue/<date>/buffer_ids.json.
 Never runs twice for the same date (buffer_ids.json guard). Key: macOS keychain (config.json → buffer_key_keychain)."""
-import sys, json, os, subprocess, shutil, urllib.request
+import sys, json, os, subprocess, shutil, urllib.request, urllib.error, time
 # the macOS keychain only exists on the Mac; on the Linux runner the secrets come from env (23 Nov: analytics.py
 # crashed with FileNotFoundError: 'security' when IG_ACCESS_TOKEN was not set in that step)
 import shutil as _sh
@@ -65,7 +65,11 @@ def key():
 def gql(q, v):
     req = urllib.request.Request("https://api.buffer.com", data=json.dumps({"query": q, "variables": v}).encode(),
           headers={"Content-Type": "application/json", "Authorization": "Bearer " + key()}, method="POST")
-    body = json.loads(urllib.request.urlopen(req, timeout=60).read())
+    for i in range(4):   # 23 Nov: Buffer's free plan allows ~250 calls / 24 h; back off on 429 instead of crashing the build
+        try: body = json.loads(urllib.request.urlopen(req, timeout=60).read()); break
+        except urllib.error.HTTPError as e:
+            if e.code != 429 or i == 3: raise
+            time.sleep(min(60, int(e.headers.get("Retry-After") or 0) or 5 * 2 ** i))
     if body.get("errors"): sys.exit("GraphQL error: " + json.dumps(body["errors"]))
     return body["data"]
 MUT = """mutation($i: CreatePostInput!){ createPost(input:$i){ __typename
@@ -141,12 +145,14 @@ if rebook and "--direct" in sys.argv:                  # Buffer's Instagram link
     mid = g(f"{uid}/media_publish", {"creation_id": c})["id"]
     b = json.load(open(Q / "buffer_ids.json"))
     b.setdefault("replaced", []).append({rebook: b["ids"].pop(rebook, None)}); b.setdefault("direct", {})[rebook] = mid
+    (b.get("failed") or {}).pop(rebook, None)
     json.dump(b, open(Q / "buffer_ids.json", "w"), indent=1); print("posted direct", rebook, mid); sys.exit(0)
 if rebook:
     b = json.load(open(Q / "buffer_ids.json"))
     res = gql(MUT, {"i": jobs[0][1]})["createPost"]
     if res["__typename"] != "PostActionSuccess": sys.exit(f"Buffer rejected {rebook}: {res.get('message')}")
     b.setdefault("replaced", []).append({rebook: b["ids"].get(rebook)}); b["ids"][rebook] = res["post"]["id"]
+    (b.get("failed") or {}).pop(rebook, None)
     json.dump(b, open(Q / "buffer_ids.json", "w"), indent=1); print("rebooked", rebook, res["post"]); sys.exit(0)
 # 20 Nov: one rejected channel used to abort the whole post with no buffer_ids.json, and build.yml's "next pending post"
 # step re-queued the same date every 12 min (28 rebuilds, ~350 Actions minutes). Now: book every channel that works,
@@ -157,18 +163,22 @@ try:
     _ex = gql('query($o:OrganizationId!){ posts(input:{organizationId:$o, filter:{status:[scheduled]}}, first:100){ edges{ node{ id dueAt channelId text } } } }',
               {"o": cfg["buffer_organization_id"]})["posts"]["edges"]
     existing = {(e["node"]["channelId"], e["node"]["dueAt"][:16], (e["node"]["text"] or "")[:80]): e["node"]["id"] for e in _ex}
-except Exception as e: existing = {}; print("Buffer duplicate check failed (continuing):", e)
+except (Exception, SystemExit) as e: existing = {}; print("Buffer duplicate check failed (continuing):", e)
 for name, inp in jobs:
-    k = (inp.get("channelId"), (inp.get("dueAt") or "")[:16], (inp.get("text") or "")[:80])
-    if k in existing: ids[name] = existing[k]; print(f"{name}: already scheduled in Buffer as {existing[k]} (not booked again)"); continue
-    res = gql(MUT, {"i": inp})["createPost"]
-    if res["__typename"] == "PostActionSuccess": ids[name] = res["post"]["id"]; continue
-    msg = res.get("message") or res["__typename"]; print(f"Buffer rejected {name}: {msg}")
+    # 23 Nov (Husain): YouTube is the priority channel. Upload it with our own token FIRST (scheduled for the slot), so it
+    # never depends on Buffer's 2-a-day YouTube cap or its API quota. Buffer is only the fallback for YouTube.
     if name == "youtube_short" and (AP / "keys/youtube-token.json").exists():
         py = str(AP.parent / ".venv/bin/python") if (AP.parent / ".venv/bin/python").exists() else sys.executable
         r = subprocess.run([py, str(AP / "scripts/yt_upload.py"), D, urls["video"], inp["dueAt"]], capture_output=True, text=True)
         print((r.stdout + r.stderr).strip()[-400:])
         if r.returncode == 0: direct[name] = r.stdout.strip().splitlines()[-1]; continue
+        print("direct YouTube upload failed, trying Buffer")
+    k = (inp.get("channelId"), (inp.get("dueAt") or "")[:16], (inp.get("text") or "")[:80])
+    if k in existing: ids[name] = existing[k]; print(f"{name}: already scheduled in Buffer as {existing[k]} (not booked again)"); continue
+    try: res = gql(MUT, {"i": inp})["createPost"]
+    except (Exception, SystemExit) as e: failed[name] = f"Buffer call failed: {e}"[:300]; print(failed[name]); continue
+    if res["__typename"] == "PostActionSuccess": ids[name] = res["post"]["id"]; continue
+    msg = res.get("message") or res["__typename"]; print(f"Buffer rejected {name}: {msg}")
     failed[name] = msg
 if not ids and not direct:
     (Q / "publish_failed").write_text(json.dumps(failed, indent=1)); sys.exit(f"nothing booked: {failed}")

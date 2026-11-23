@@ -57,6 +57,14 @@ for q in sorted(Qd.iterdir()):
                 r = subprocess.run(["python3", str(AP / "scripts/publish.py"), q.name, "--rebook", name, "--direct"], capture_output=True, text=True)
                 (actions if r.returncode == 0 else problems).append(f"{q.name} {name}: retried direct YouTube upload: {(r.stdout + r.stderr).strip()[-200:]}")
                 if r.returncode == 0: continue
+            if name != "youtube_short" and due_f and now - due_f <= datetime.timedelta(hours=RETRY_H.get(name, 12)):
+                # 23 Nov: Instagram/TikTok refused at publish time (Buffer quota/outage): book again; Instagram past its slot → direct.
+                late = now > due_f - datetime.timedelta(minutes=10)   # Buffer only takes future times; a late Reel goes direct
+                if not late or name == "instagram_reel":
+                    cmd = ["python3", str(AP / "scripts/publish.py"), q.name, "--rebook", name] + (["--direct"] if late and name == "instagram_reel" else [])
+                    r = subprocess.run(cmd, capture_output=True, text=True)
+                    (actions if r.returncode == 0 else problems).append(f"{q.name} {name}: re-booked after publish-time failure: {(r.stdout + r.stderr).strip()[-200:]}")
+                    if r.returncode == 0: continue
             problems.append(f"{q.name} {name}: not booked at publish time: {msg}")
         for name, pid in bj["ids"].items():
             if pid in final: p = final[pid]
