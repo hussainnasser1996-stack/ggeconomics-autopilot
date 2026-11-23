@@ -11,15 +11,15 @@ Followers: YouTube 8 subscribers · Instagram 0 followers
 | 2026-11-23b | — | — | — | — | 0 | Hades Costs You $1.06 an Hour. Worth It? |
 | 2026-11-23 | — | — | — | — | 0 | Elden Ring vs Dark Souls 3: $1 vs $1.92 an Hour |
 | 2026-11-22c | — | 125 | — | 114 | 239 | Is Skyrim Worth It in 2026? $1.14 an Hour |
-| 2026-11-22b | 609 | 117 | — | 102 | 828 | Witcher 3 Worth It in 2026? 96¢ an Hour |
-| 2026-11-22 | 654 | 126 | — | 106 | 886 | GTA 6 Sales Numbers: Week 1 in 4 Numbers |
+| 2026-11-22b | 626 | 117 | — | 102 | 845 | Witcher 3 Worth It in 2026? 96¢ an Hour |
+| 2026-11-22 | 691 | 126 | — | 106 | 923 | GTA 6 Sales Numbers: Week 1 in 4 Numbers |
 | 2026-11-21c | 1271 | 172 | — | 0 | 1443 | Stardew Valley Costs You 28¢ an Hour. Worth It? |
-| 2026-11-21b | 1290 | 128 | — | 122 | 1540 | Red Dead 2 Costs You $1.18 an Hour. Worth It? |
+| 2026-11-21b | 1293 | 128 | — | 122 | 1543 | Red Dead 2 Costs You $1.18 an Hour. Worth It? |
 | 2026-11-21 | 1009 | 120 | — | 130 | 1259 | GTA 6 Sales: 32.5M Copies. Are You One? |
 | 2026-11-20c | 1627 | 151 | — | 0 | 1778 | Hollow Knight Costs You 56¢ an Hour. Worth It? |
 | 2026-11-20b | 1137 | 127 | — | 0 | 1264 | GTA 6 Got 8 Game Awards Nominations Before Launch |
-| 2026-11-20 | 1238 | 117 | 0 | 0 | 1355 | GTA 6 Sales: Est. 19M Copies. Did You Buy It? |
-| 2026-11-19c | 1616 | 149 | — | 0 | 1765 | Cyberpunk 2077 Costs You $2.31 an Hour. Worth It? |
+| 2026-11-20 | 1237 | 117 | 0 | 0 | 1354 | GTA 6 Sales: Est. 19M Copies. Did You Buy It? |
+| 2026-11-19c | 1617 | 149 | — | 0 | 1766 | Cyberpunk 2077 Costs You $2.31 an Hour. Worth It? |
 | 2026-11-19b | 521 | 113 | — | 0 | 634 | GTA 6 vs GTA 5: You Waited 4,811 Days |
 | 2026-11-19 | 984 | 249 | — | 0 | 1233 | GTA 6 Is Out: Your Console Runs It at 30 FPS |
 | 2026-11-18c | 857 | 100 | — | 0 | 957 | Baldur's Gate 3 Costs You 82¢ an Hour. Worth It? |
@@ -35,18 +35,18 @@ Followers: YouTube 8 subscribers · Instagram 0 followers
 ## YouTube
 | published | views | avg view % | avg view s | kept 1s % | kept 3s % | 3s vs similar | likes | shares | subs+ | title |
 |---|---|---|---|---|---|---|---|---|---|---|
-| 2026-11-23 | 609 | — | — | — | — | — | 1 | — | — | Witcher 3 Worth It in 2026? 96¢ an Hour |
-| 2026-11-23 | 654 | — | — | — | — | — | 1 | — | — | GTA 6 Sales Numbers: Week 1 in 4 Numbers |
+| 2026-11-23 | 626 | — | — | — | — | — | 2 | — | — | Witcher 3 Worth It in 2026? 96¢ an Hour |
+| 2026-11-23 | 691 | — | — | — | — | — | 1 | — | — | GTA 6 Sales Numbers: Week 1 in 4 Numbers |
 | 2026-11-22 | 4 | — | — | — | — | — | 0 | — | — | Top 10 Games on Steam This Week: Worth the Money? (Nov 2026) |
 | 2026-11-21 | 1009 | — | — | — | — | — | 4 | — | — | GTA 6 Sales: 32.5M Copies. Are You One? |
-| 2026-11-21 | 1290 | — | — | — | — | — | 6 | — | — | Red Dead 2 Costs You $1.18 an Hour. Worth It? |
+| 2026-11-21 | 1293 | — | — | — | — | — | 6 | — | — | Red Dead 2 Costs You $1.18 an Hour. Worth It? |
 | 2026-11-21 | 1271 | — | — | — | — | — | 4 | — | — | Stardew Valley Costs You 28¢ an Hour. Worth It? |
-| 2026-11-21 | 1238 | 61.4 | 10 | 115 | 113 | 0.32 | 6 | 0 | 1 | GTA 6 Sales: Est. 19M Copies. Did You Buy It? |
+| 2026-11-21 | 1237 | 61.4 | 10 | 115 | 113 | 0.32 | 6 | 0 | 1 | GTA 6 Sales: Est. 19M Copies. Did You Buy It? |
 | 2026-11-20 | 1137 | 64.2 | 11 | 117 | 115 | 0.37 | 7 | 1 | 0 | GTA 6 Got 8 Game Awards Nominations Before Launch |
 | 2026-11-20 | 1627 | 93.3 | 13 | 128 | 121 | 0.67 | 19 | 1 | 1 | Hollow Knight Costs You 56¢ an Hour. Worth It? |
 | 2026-11-19 | 984 | 71.0 | 16 | 114 | 111 | 0.32 | 14 | 0 | 0 | GTA 6 Is Out: Your Console Runs It at 30 FPS |
 | 2026-11-19 | 521 | 52.2 | 9 | 112 | 109 | 0.27 | 2 | 0 | 0 | GTA 6 vs GTA 5: You Waited 4,811 Days |
-| 2026-11-19 | 1616 | 92.7 | 12 | 129 | 123 | 0.58 | 14 | 2 | 0 | Cyberpunk 2077 Costs You $2.31 an Hour. Worth It? |
+| 2026-11-19 | 1617 | 92.7 | 12 | 129 | 123 | 0.58 | 14 | 2 | 0 | Cyberpunk 2077 Costs You $2.31 an Hour. Worth It? |
 | 2026-11-18 | 1039 | 65.5 | 15 | 113 | 110 | 0.31 | 18 | 1 | 1 | GTA 6 Unlocks Tonight: You Need 212 GB Free |
 | 2026-11-18 | 56 | 77.3 | 12 | 129 | 124 | 0.49 | 0 | 0 | 0 | GTA 6 Beat Cyberpunk's 8M Pre-Order Record? |
 | 2026-11-18 | 857 | 78.2 | 11 | 120 | 116 | 0.45 | 3 | 0 | 1 | Baldur's Gate 3 Costs You 82¢ an Hour. Worth It? |
@@ -54,8 +54,8 @@ Followers: YouTube 8 subscribers · Instagram 0 followers
 | 2026-11-17 | 23 | 51.0 | 12 | — | — | — | 0 | 0 | 0 | GTA 6: Take-Two Bets $8 Billion on Your $80 |
 | 2026-11-17 | 1234 | 82.9 | 12 | 124 | 118 | 0.48 | 9 | 1 | 1 | Elden Ring Costs You $1 an Hour. Worth It? |
 | 2026-11-16 | 812 | 61.7 | 14 | 110 | 106 | 0.24 | 12 | 1 | 0 | GTA 6 Might Make $1 Billion Before You Can Even Play It |
-| 2026-11-16 | 331 | 53.4 | 12 | 106 | 101 | 0.18 | 0 | 0 | 0 | GTA 6 Costs You $79.99. GTA 5 Cost More |
-| 2026-11-16 | 296 | 68.5 | 17 | 110 | 110 | 0.3 | 2 | 1 | 0 | Rockstar Made 2 of the 5 Best-Selling Games Ever |
+| 2026-11-16 | 331 | 53.4 | 12 | — | — | — | 0 | 0 | 0 | GTA 6 Costs You $79.99. GTA 5 Cost More |
+| 2026-11-16 | 296 | 68.5 | 17 | — | — | — | 2 | 1 | 0 | Rockstar Made 2 of the 5 Best-Selling Games Ever |
 
 ## YouTube long videos (weekly Top 10)
 | published | length | views | avg view % | avg view s | subs+ | likes | comments | title |
@@ -140,4 +140,4 @@ Traffic sources (all time): SHORTS 10755, YT_SEARCH 651, YT_OTHER_PAGE 243, YT_C
 | 2026-11-17 | 0 | 0 | 0 | 0 | 0 | 0 | GTA 6 streams to Xbox One through Xbox Cloud Gaming from Nov |
 | 2026-11-17 | 0 | 0 | 0 | 0 | 0 | 0 | Take-Two needs $8 billion this year. Last quarter it made $1 |
 
-Notes: REACH ALARM: instagram 0 views: Send this to the friend with 300 hours i | instagram 0 views: 5.2x Red Dead 2's opening weekend. GTA 6 | tiktok 0 views: A movie costs you $6 an hour. Stardew Va | tiktok 0 views: A movie costs you $6 an hour. Hollow Kni | tiktok 0 views: 8 nominations for a game nobody could bu | tiktok 0 views: 19 million copies before most people eve | instagram 0 views: 19 million copies before most people eve | tiktok 0 views: 4,811 days. That's how long you waited b | tiktok 0 views: A movie costs you $6 an hour. Cyberpunk  | tiktok 0 views: GTA 6 is out, and Rockstar targets 30 fr | tiktok 0 views: GTA 6 launches November 19 and the downl | tiktok 0 views: Cyberpunk's pre-order record was 8 milli | tiktok 0 views: A movie costs you $6 an hour. Baldur's G | tiktok 0 views: A movie costs you $6 an hour. Elden Ring | tiktok 0 views: GTA 6 streams to Xbox One through Xbox C | tiktok 0 views: Take-Two needs $8 billion this year. Las | instagram 0 views: GTA 6 launches November 19 and the downl | instagram 0 views: GTA 6 may pass $1 billion before launch  | youtube 4 views after 24h: Top 10 Games on Steam This Week: Worth t | youtube 23 views after 24h: GTA 6: Take-Two Bets $8 Billion on Your 
+Notes: retention ct7tlizYNYQ: <HttpError 500 when requesting https://youtubeanalytics.googleapis.com/v2/reports?ids=channel%3D%3DM · REACH ALARM: instagram 0 views: Send this to the friend with 300 hours i | instagram 0 views: 5.2x Red Dead 2's opening weekend. GTA 6 | tiktok 0 views: A movie costs you $6 an hour. Stardew Va | tiktok 0 views: A movie costs you $6 an hour. Hollow Kni | tiktok 0 views: 8 nominations for a game nobody could bu | tiktok 0 views: 19 million copies before most people eve | instagram 0 views: 19 million copies before most people eve | tiktok 0 views: 4,811 days. That's how long you waited b | tiktok 0 views: A movie costs you $6 an hour. Cyberpunk  | tiktok 0 views: GTA 6 is out, and Rockstar targets 30 fr | tiktok 0 views: GTA 6 launches November 19 and the downl | tiktok 0 views: Cyberpunk's pre-order record was 8 milli | tiktok 0 views: A movie costs you $6 an hour. Baldur's G | tiktok 0 views: A movie costs you $6 an hour. Elden Ring | tiktok 0 views: GTA 6 streams to Xbox One through Xbox C | tiktok 0 views: Take-Two needs $8 billion this year. Las | instagram 0 views: GTA 6 launches November 19 and the downl | instagram 0 views: GTA 6 may pass $1 billion before launch  | youtube 4 views after 24h: Top 10 Games on Steam This Week: Worth t | youtube 23 views after 24h: GTA 6: Take-Two Bets $8 Billion on Your 
