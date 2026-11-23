@@ -5,14 +5,20 @@
 3. Channel health: a Buffer channel that lost its login (isDisconnected) is a problem with the exact fix for Husain;
    once it is reconnected, posts that errored on it in the last 12 h are re-booked by themselves (publish.py --rebook).
 4. Writes autopilot/log/delivery.md (the CEO review and the brain read it). Exit 0 always; problems go in the file."""
-import json, os, subprocess, urllib.request, datetime
+import json, os, subprocess, urllib.request, urllib.error, datetime, time
 from pathlib import Path
 AP = Path(__file__).resolve().parents[1]; Qd = AP / "queue"
 now = datetime.datetime.now(datetime.timezone.utc); today = now.date()
 def gql(q, v):
     req = urllib.request.Request("https://api.buffer.com", data=json.dumps({"query": q, "variables": v}).encode(),
           headers={"Content-Type": "application/json", "Authorization": "Bearer " + os.environ["BUFFER_API_KEY"]})
-    return json.loads(urllib.request.urlopen(req, timeout=60).read())
+    for i in range(5):   # 23 Nov: Buffer answered 429 for most posts and the monitor went blind; back off and retry
+        try: return json.loads(urllib.request.urlopen(req, timeout=60).read())
+        except urllib.error.HTTPError as e:
+            if e.code != 429 or i == 4: raise
+            time.sleep(min(60, int(e.headers.get("Retry-After") or 0) or 3 * 2 ** i))
+# Posts already SENT never change: cache them so the monitor only asks Buffer about posts still in play.
+FIN = AP / "log/buffer_final.json"; final = json.loads(FIN.read_text()) if FIN.exists() else {}
 Q = 'query($i:PostId!){ post(input:{id:$i}){ status dueAt sentAt externalLink error { message } } }'
 rows, problems, actions = [], [], []
 # 23 Nov (Husain): priority YouTube > Instagram > TikTok. A missed post is retried this many hours after its slot.
@@ -53,8 +59,12 @@ for q in sorted(Qd.iterdir()):
                 if r.returncode == 0: continue
             problems.append(f"{q.name} {name}: not booked at publish time: {msg}")
         for name, pid in bj["ids"].items():
-            try: p = gql(Q, {"i": pid})["data"]["post"] or {}
-            except Exception as e: p = {"status": f"query failed: {e}"}
+            if pid in final: p = final[pid]
+            else:
+                try: p = gql(Q, {"i": pid})["data"]["post"] or {}; time.sleep(0.4)
+                except Exception as e: p = {"status": f"query failed: {e}"}
+                if p.get("status") == "sent": final[pid] = p
+                elif str(p.get("status", "")).startswith("query failed"): problems.append(f"{q.name} {name}: Buffer status unknown ({p['status'][:80]})")
             st = p.get("status"); err = (p.get("error") or {}).get("message")
             rows.append(f"| {q.name} | {name} | {st} | {p.get('sentAt') or p.get('dueAt') or ''} | {p.get('externalLink') or ''} | {title[:50]} |")
             if err or st in ("error", "failed"):
@@ -135,5 +145,6 @@ out = [f"# Delivery check · {now:%Y-%m-%d %H:%M} UTC", "", "## Problems", *(["-
        "", f"GitHub Actions minutes used this month: ~{mins} (public repo: free, no cap)",
        "", "## Actions taken", *(["- " + a for a in actions] or ["- none"]), "",
        "| post | channel | status | sent/due | link | title |", "|---|---|---|---|---|---|", *rows, ""]
+FIN.write_text(json.dumps(final, indent=1))
 (AP / "log/delivery.md").write_text("\n".join(out)); print("\n".join(out[:12]))
 if problems: subprocess.run(["python3", str(AP / "scripts/notify.py"), f"GG Economics: {len(problems)} delivery problem(s), see log/delivery.md", "high"])
