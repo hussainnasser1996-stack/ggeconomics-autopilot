@@ -1,27 +1,24 @@
-# Delivery check · 2026-11-22 21:09 UTC
+# Delivery check · 2026-11-23 03:09 UTC
 
 ## Problems
 - 2026-11-18b instagram_reel: Buffer error: It looks like Buffer has lost the authorization to post to Facebook. No need to worry, though! (older than 12 h: not re-booked, stale)
 - 2026-11-22c youtube_short: not booked at publish time: You have already scheduled the maximum number of posts YouTube allows in a day (2). Please consider scheduling this post for another day.
 
-Buffer scheduled per channel: 0
+Buffer scheduled per channel: youtube_short 2, instagram_reel 2, instagram_carousel 1, tiktok_video 2
 
-GitHub Actions minutes used this month: ~3049 of 2,000 (free tier, private repo)
+GitHub Actions minutes used this month: ~3205 of 2,000 (free tier, private repo)
 
 ## Actions taken
-- none
+- 2026-11-22 youtube_short: Buffer posting limit → direct YouTube upload: uploaded 89SF-Xex84A privacy=public publishAt=None
+89SF-Xex84A
+posted direct youtube_short 89SF-Xex84A
+- 2026-11-22b youtube_short: Buffer posting limit → direct YouTube upload: uploaded 6VsvsznbSSs privacy=public publishAt=None
+6VsvsznbSSs
+posted direct youtube_short 6VsvsznbSSs
+- 2026-11-23c: not booked yet, a build is running/queued → checked again next run
 
 | post | channel | status | sent/due | link | title |
 |---|---|---|---|---|---|
-| 2026-11-17 | youtube_short | sent | 2026-11-17T23:03:23.689Z | https://www.youtube.com/shorts/k1zkAfgzYeE | Your 2013 Xbox One Can Play GTA 6 on Day One |
-| 2026-11-17 | instagram_reel | sent | 2026-11-17T23:04:40.693Z | https://www.instagram.com/reel/Df3EQEqBE8w/ | Your 2013 Xbox One Can Play GTA 6 on Day One |
-| 2026-11-17 | tiktok_video | sent | 2026-11-17T23:02:21.852Z | https://www.tiktok.com/@ggeconomics/video/7709279421559016711?utm_campaign=tt4d_open_api&utm_source=7103819247981182978 | Your 2013 Xbox One Can Play GTA 6 on Day One |
-| 2026-11-17b | youtube_short | sent | 2026-11-17T16:03:55.393Z | https://www.youtube.com/shorts/qk-9G5Knq5U | GTA 6: Take-Two Bets $8 Billion on Your $80 |
-| 2026-11-17b | instagram_reel | sent | 2026-11-17T16:05:12.292Z | https://www.instagram.com/reel/Df2UVO3uU6Q/ | GTA 6: Take-Two Bets $8 Billion on Your $80 |
-| 2026-11-17b | tiktok_video | sent | 2026-11-17T16:04:18.301Z | https://www.tiktok.com/@ggeconomics/video/7709171076160441601?utm_campaign=tt4d_open_api&utm_source=7103819247981182978 | GTA 6: Take-Two Bets $8 Billion on Your $80 |
-| 2026-11-17c | youtube_short | sent | 2026-11-17T12:02:37.768Z | https://www.youtube.com/shorts/zK7fa0dTrDc | Elden Ring Costs You $1 an Hour. Worth It? |
-| 2026-11-17c | instagram_reel | sent | 2026-11-17T12:04:18.448Z | https://www.instagram.com/reel/Df14vsSTiBZ/ | Elden Ring Costs You $1 an Hour. Worth It? |
-| 2026-11-17c | tiktok_video | sent | 2026-11-17T20:02:40.954Z | https://www.tiktok.com/@ggeconomics/video/7709233030115855624?utm_campaign=tt4d_open_api&utm_source=7103819247981182978 | Elden Ring Costs You $1 an Hour. Worth It? |
 | 2026-11-18 | instagram_reel | direct (own API) | 2026-11-18T23:00:00.000Z | 18119693972611549 | GTA 6 Unlocks Tonight: You Need 212 GB Free |
 | 2026-11-18 | youtube_short | sent | 2026-11-18T23:01:06.189Z | https://www.youtube.com/shorts/a92DfUx8zTw | GTA 6 Unlocks Tonight: You Need 212 GB Free |
 | 2026-11-18 | tiktok_video | sent | 2026-11-18T23:02:25.099Z | https://www.tiktok.com/@ggeconomics/video/7709650408355941640?utm_campaign=tt4d_open_api&utm_source=7103819247981182978 | GTA 6 Unlocks Tonight: You Need 212 GB Free |
@@ -57,13 +54,20 @@ GitHub Actions minutes used this month: ~3049 of 2,000 (free tier, private repo)
 | 2026-11-21b | instagram_reel | sent | 2026-11-21T17:30:54.023Z | https://www.instagram.com/reel/DgAxUoZvmi_/ | Red Dead 2 Costs You $1.18 an Hour. Worth It? |
 | 2026-11-21b | tiktok_video | sent | 2026-11-21T17:31:49.463Z | https://tiktok.com/@ggeconomics/video/7710678491674512661 | Red Dead 2 Costs You $1.18 an Hour. Worth It? |
 | 2026-11-21c | youtube_short | sent | 2026-11-21T12:01:10.639Z | https://www.youtube.com/shorts/6hWXm7KaFMo | Stardew Valley Costs You 28¢ an Hour. Worth It? |
-| 2026-11-21c | instagram_reel | query failed: HTTP Error 429: Too Many Requests |  |  | Stardew Valley Costs You 28¢ an Hour. Worth It? |
-| 2026-11-21c | tiktok_video | query failed: HTTP Error 429: Too Many Requests |  |  | Stardew Valley Costs You 28¢ an Hour. Worth It? |
-| 2026-11-22 | youtube_short | query failed: HTTP Error 429: Too Many Requests |  |  | GTA 6 Sales Numbers: Week 1 in 4 Numbers |
-| 2026-11-22 | instagram_reel | query failed: HTTP Error 429: Too Many Requests |  |  | GTA 6 Sales Numbers: Week 1 in 4 Numbers |
-| 2026-11-22 | tiktok_video | query failed: HTTP Error 429: Too Many Requests |  |  | GTA 6 Sales Numbers: Week 1 in 4 Numbers |
-| 2026-11-22b | youtube_short | query failed: HTTP Error 429: Too Many Requests |  |  | Witcher 3 Worth It in 2026? 96¢ an Hour |
-| 2026-11-22b | instagram_reel | query failed: HTTP Error 429: Too Many Requests |  |  | Witcher 3 Worth It in 2026? 96¢ an Hour |
-| 2026-11-22b | tiktok_video | query failed: HTTP Error 429: Too Many Requests |  |  | Witcher 3 Worth It in 2026? 96¢ an Hour |
-| 2026-11-22c | instagram_reel | query failed: HTTP Error 429: Too Many Requests |  |  | Is Skyrim Worth It in 2026? $1.14 an Hour |
-| 2026-11-22c | tiktok_video | query failed: HTTP Error 429: Too Many Requests |  |  | Is Skyrim Worth It in 2026? $1.14 an Hour |
+| 2026-11-21c | instagram_reel | sent | 2026-11-21T12:02:33.080Z | https://www.instagram.com/reel/DgALrLtwx3U/ | Stardew Valley Costs You 28¢ an Hour. Worth It? |
+| 2026-11-21c | tiktok_video | sent | 2026-11-21T12:04:05.637Z | https://tiktok.com/@ggeconomics/video/7710593393327426868 | Stardew Valley Costs You 28¢ an Hour. Worth It? |
+| 2026-11-22 | youtube_short | error | 2026-11-22T23:00:00.000Z |  | GTA 6 Sales Numbers: Week 1 in 4 Numbers |
+| 2026-11-22 | instagram_reel | sent | 2026-11-22T23:01:57.298Z | https://www.instagram.com/reel/DgD7-XZRKJs/ | GTA 6 Sales Numbers: Week 1 in 4 Numbers |
+| 2026-11-22 | tiktok_video | sent | 2026-11-22T23:01:55.598Z | https://tiktok.com/@ggeconomics/video/7711134692442967348 | GTA 6 Sales Numbers: Week 1 in 4 Numbers |
+| 2026-11-22b | youtube_short | error | 2026-11-22T17:30:00.000Z |  | Witcher 3 Worth It in 2026? 96¢ an Hour |
+| 2026-11-22b | instagram_reel | sent | 2026-11-22T17:31:19.199Z | https://www.instagram.com/reel/DgDWJvMsWtI/ | Witcher 3 Worth It in 2026? 96¢ an Hour |
+| 2026-11-22b | tiktok_video | sent | 2026-11-22T17:32:21.354Z | https://tiktok.com/@ggeconomics/video/7711049731589393684 | Witcher 3 Worth It in 2026? 96¢ an Hour |
+| 2026-11-22c | instagram_reel | sent | 2026-11-22T12:00:47.376Z | https://www.instagram.com/reel/DgCwVTbCYK_/ | Is Skyrim Worth It in 2026? $1.14 an Hour |
+| 2026-11-22c | tiktok_video | sent | 2026-11-22T12:02:37.742Z | https://tiktok.com/@ggeconomics/video/7710964398621314312 | Is Skyrim Worth It in 2026? $1.14 an Hour |
+| 2026-11-23 | youtube_short | scheduled | 2026-11-23T23:00:00.000Z |  | Elden Ring vs Dark Souls 3: $1 vs $1.92 an Hour |
+| 2026-11-23 | instagram_reel | scheduled | 2026-11-23T23:00:00.000Z |  | Elden Ring vs Dark Souls 3: $1 vs $1.92 an Hour |
+| 2026-11-23 | instagram_carousel | scheduled | 2026-11-23T15:00:00.000Z |  | Elden Ring vs Dark Souls 3: $1 vs $1.92 an Hour |
+| 2026-11-23 | tiktok_video | scheduled | 2026-11-23T23:00:00.000Z |  | Elden Ring vs Dark Souls 3: $1 vs $1.92 an Hour |
+| 2026-11-23b | youtube_short | scheduled | 2026-11-23T17:30:00.000Z |  | Hades Costs You $1.06 an Hour. Worth It? |
+| 2026-11-23b | instagram_reel | scheduled | 2026-11-23T17:30:00.000Z |  | Hades Costs You $1.06 an Hour. Worth It? |
+| 2026-11-23b | tiktok_video | scheduled | 2026-11-23T17:30:00.000Z |  | Hades Costs You $1.06 an Hour. Worth It? |
