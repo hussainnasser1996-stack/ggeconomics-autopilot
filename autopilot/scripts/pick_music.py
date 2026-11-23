@@ -17,6 +17,8 @@ post = json.load(open(Q / "post.json")) if (Q / "post.json").exists() else {}
 fr = json.load(open(Q / "footage_resolved.json")) if (Q / "footage_resolved.json").exists() else {}
 is_edit = (Q / "script.json").exists() and json.load(open(Q / "script.json")).get("mode") == "edit"
 GAME = (post.get("music") == "game" or (is_edit and post.get("music") != "library")) and fr   # edits default to the game's soundtrack
+# the Steam-screenshot reel (resolve_footage) has a silent track: mixing it gave silence and master.py failed (23c, 23 Nov)
+if GAME and str(fr.get("id", "")).startswith("steamshots:"): GAME = False
 if GAME:   # the trailer's own score/song (owner's call 16 Nov: reach > monetization; credit it). monitor checks for blocks.
     import subprocess
     f = str(GN / f"work/{fr['tag']}_music.m4a")
@@ -33,6 +35,9 @@ if GAME:   # game audio can contain dialogue/narration: find speech so the bed w
     segs, _ = WhisperModel("base.en", device="cpu", compute_type="int8").transcribe(a16, vad_filter=True)
     speech = [(x.start, x.end) for x in segs]
 y, sr = librosa.load(f, sr=22050, mono=True, duration=None if GAME else 100)
+if GAME and float(np.sqrt(np.mean(y ** 2))) < 0.005:         # a silent/near-silent trailer track: never a silent Short
+    GAME = False; f = random.Random(D).choice(pool); speech = []
+    y, sr = librosa.load(f, sr=22050, mono=True, duration=100)
 rms = librosa.feature.rms(y=y, hop_length=512)[0]; t = librosa.frames_to_time(np.arange(len(rms)), sr=sr, hop_length=512)
 win = int(2.0 * sr / 512); e = np.convolve(rms, np.ones(win) / win, mode="same")
 rise = np.diff(e, prepend=e[0]); lim = t < max(10, t[-1] - 40)               # leave >= 40 s of music after the start
