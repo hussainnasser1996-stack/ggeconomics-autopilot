@@ -8,9 +8,9 @@
    "videoCount": 19
   },
   "traffic_sources": {
-   "SHORTS": 10785,
-   "YT_SEARCH": 649,
-   "YT_OTHER_PAGE": 242,
+   "SHORTS": 10755,
+   "YT_SEARCH": 651,
+   "YT_OTHER_PAGE": 243,
    "YT_CHANNEL": 123,
    "EXT_URL": 28,
    "SUBSCRIBER": 6,
@@ -21,23 +21,23 @@
    "6VsvsznbSSs": {
     "title": "Witcher 3 Worth It in 2026? 96\u00a2 an Hour",
     "published": "2026-11-23",
-    "views": 0,
-    "likes": 0,
-    "comments": 0,
-    "dur": 0
+    "views": 540,
+    "likes": 2,
+    "comments": 2,
+    "dur": 14
    },
    "89SF-Xex84A": {
     "title": "GTA 6 Sales Numbers: Week 1 in 4 Numbers",
     "published": "2026-11-23",
-    "views": 0,
-    "likes": 0,
-    "comments": 0,
+    "views": 589,
+    "likes": 1,
+    "comments": 1,
     "dur": 13
    },
    "lU8HjtuYbzw": {
     "title": "Top 10 Games on Steam This Week: Worth the Money? (Nov 2026)",
     "published": "2026-11-22",
-    "views": 3,
+    "views": 4,
     "likes": 0,
     "comments": 0,
     "dur": 486
@@ -45,7 +45,7 @@
    "QGyITqgJERY": {
     "title": "GTA 6 Sales: 32.5M Copies. Are You One?",
     "published": "2026-11-21",
-    "views": 968,
+    "views": 1009,
     "likes": 4,
     "comments": 1,
     "dur": 14
@@ -53,15 +53,15 @@
    "f-ggW4ZXA4g": {
     "title": "Red Dead 2 Costs You $1.18 an Hour. Worth It?",
     "published": "2026-11-21",
-    "views": 1268,
-    "likes": 5,
-    "comments": 3,
+    "views": 1290,
+    "likes": 6,
+    "comments": 4,
     "dur": 14
    },
    "6hWXm7KaFMo": {
     "title": "Stardew Valley Costs You 28\u00a2 an Hour. Worth It?",
     "published": "2026-11-21",
-    "views": 1195,
+    "views": 1271,
     "likes": 4,
     "comments": 1,
     "dur": 14
@@ -69,7 +69,7 @@
    "xJKDG8gJ8X8": {
     "title": "GTA 6 Sales: Est. 19M Copies. Did You Buy It?",
     "published": "2026-11-21",
-    "views": 1236,
+    "views": 1238,
     "likes": 6,
     "comments": 1,
     "dur": 17,
@@ -105,7 +105,7 @@
    "rYs3I31mOTs": {
     "title": "Hollow Knight Costs You 56\u00a2 an Hour. Worth It?",
     "published": "2026-11-20",
-    "views": 1624,
+    "views": 1627,
     "likes": 19,
     "comments": 11,
     "dur": 14,
@@ -159,7 +159,7 @@
    "I5ZLMocjk2k": {
     "title": "Cyberpunk 2077 Costs You $2.31 an Hour. Worth It?",
     "published": "2026-11-19",
-    "views": 1610,
+    "views": 1616,
     "likes": 14,
     "comments": 13,
     "dur": 14,
@@ -170,7 +170,7 @@
     "shares": 2,
     "hold_1s": 129,
     "hold_3s": 123,
-    "hold_end": 46,
+    "hold_end": 47,
     "vs_similar_3s": 0.58,
     "dur_s": 14
    },
@@ -181,7 +181,7 @@
     "likes": 18,
     "comments": 4,
     "dur": 24,
-    "an_views": 1052,
+    "an_views": 1036,
     "avg_view_s": 15,
     "avg_view_pct": 65.5,
     "subs": 1,
@@ -213,11 +213,11 @@
    "WNOKpKZ_STA": {
     "title": "Baldur's Gate 3 Costs You 82\u00a2 an Hour. Worth It?",
     "published": "2026-11-18",
-    "views": 856,
+    "views": 857,
     "likes": 3,
     "comments": 1,
     "dur": 15,
-    "an_views": 857,
+    "an_views": 853,
     "avg_view_s": 11,
     "avg_view_pct": 78.2,
     "subs": 1,
@@ -270,7 +270,12 @@
     "avg_view_s": 12,
     "avg_view_pct": 82.9,
     "subs": 1,
-    "shares": 1
+    "shares": 1,
+    "hold_1s": 124,
+    "hold_3s": 118,
+    "hold_end": 34,
+    "vs_similar_3s": 0.48,
+    "dur_s": 15
    },
    "xee1vvJZ5L4": {
     "title": "GTA 6 Might Make $1 Billion Before You Can Even Play It",
@@ -283,7 +288,12 @@
     "avg_view_s": 14,
     "avg_view_pct": 61.7,
     "subs": 0,
-    "shares": 1
+    "shares": 1,
+    "hold_1s": 110,
+    "hold_3s": 106,
+    "hold_end": 20,
+    "vs_similar_3s": 0.24,
+    "dur_s": 24
    },
    "ct7tlizYNYQ": {
     "title": "GTA 6 Costs You $79.99. GTA 5 Cost More",
@@ -296,7 +306,12 @@
     "avg_view_s": 12,
     "avg_view_pct": 53.4,
     "subs": 0,
-    "shares": 0
+    "shares": 0,
+    "hold_1s": 106,
+    "hold_3s": 101,
+    "hold_end": 11,
+    "vs_similar_3s": 0.18,
+    "dur_s": 24
    },
    "2lyn0JAlPoU": {
     "title": "Rockstar Made 2 of the 5 Best-Selling Games Ever",
@@ -309,7 +324,12 @@
     "avg_view_s": 17,
     "avg_view_pct": 68.5,
     "subs": 0,
-    "shares": 1
+    "shares": 1,
+    "hold_1s": 110,
+    "hold_3s": 110,
+    "hold_end": 19,
+    "vs_similar_3s": 0.3,
+    "dur_s": 25
    }
   }
  },
@@ -322,11 +342,11 @@
    "reactions": 0,
    "comments": 0,
    "engagementRate": 0,
-   "views": 0,
+   "views": 114,
    "shares": 0,
    "reach": 0,
-   "totalTimeWatched": 0,
-   "averageTimeWatched": 0
+   "totalTimeWatched": 6.22,
+   "averageTimeWatched": 3.14
   },
   "6b02d662d5eabfb8cca4225b": {
    "sent": "2026-11-22",
@@ -351,11 +371,11 @@
    "reactions": 0,
    "comments": 0,
    "engagementRate": 0,
-   "views": 0,
+   "views": 102,
    "shares": 0,
    "reach": 0,
-   "totalTimeWatched": 0,
-   "averageTimeWatched": 0
+   "totalTimeWatched": 1.9,
+   "averageTimeWatched": 1.3
   },
   "6b0238a4d5eabfb8cc6fee8f": {
    "sent": "2026-11-22",
@@ -377,25 +397,25 @@
    "reactions": 0,
    "comments": 0,
    "engagementRate": 0,
-   "views": 0,
+   "views": 106,
    "shares": 0,
    "reach": 0,
-   "totalTimeWatched": 0,
-   "averageTimeWatched": 0
+   "totalTimeWatched": 3.88,
+   "averageTimeWatched": 2.14
   },
   "6b0191968bd84d5966e9e4e6": {
    "sent": "2026-11-21",
    "text": "$3.79 billion in one day. GTA 6 just made 4.6x what GTA 5 di",
    "link": "https://tiktok.com/@ggeconomics/video/7710763485335948565",
    "service": "tiktok",
-   "reactions": 3,
+   "reactions": 4,
    "comments": 0,
-   "engagementRate": 2.33,
-   "views": 129,
+   "engagementRate": 3.08,
+   "views": 130,
    "shares": 0,
    "reach": 0,
-   "totalTimeWatched": 10.6,
-   "averageTimeWatched": 4.3
+   "totalTimeWatched": 11.73,
+   "averageTimeWatched": 4.7
   },
   "6b019195d864a01105441d44": {
    "sent": "2026-11-21",
@@ -438,8 +458,8 @@
    "views": 122,
    "shares": 0,
    "reach": 0,
-   "totalTimeWatched": 7.88,
-   "averageTimeWatched": 3.31
+   "totalTimeWatched": 7.9,
+   "averageTimeWatched": 3.29
   },
   "6b00e942dd205ed779aa6c74": {
    "sent": "2026-11-21",
@@ -895,292 +915,285 @@
   {
    "title": "Killing Cutelings To Feed The Masses [Can Em All 1/2]",
    "channel": "Joe Bart Games",
-   "views": 384391,
-   "published": "2026-11-22"
-  },
-  {
-   "title": "If You Steal a Car in GTA 6, I\u2019ll Pay For It!",
-   "channel": "MrBeast Gaming",
-   "views": 20963303,
-   "published": "2026-11-21"
-  },
-  {
-   "title": "\ud83d\udd34EXPLORING VICE CITY - GTA 6 STREAM (EASTER EGGS)",
-   "channel": "IShowSpeed",
-   "views": 9351683,
+   "views": 584417,
    "published": "2026-11-22"
   },
   {
    "title": "Never trust the trapper",
    "channel": "JudeLow",
-   "views": 454012,
+   "views": 771674,
    "published": "2026-11-22"
+  },
+  {
+   "title": "If You Steal a Car in GTA 6, I\u2019ll Pay For It!",
+   "channel": "MrBeast Gaming",
+   "views": 22141911,
+   "published": "2026-11-21"
   },
   {
    "title": "I Built a Factory of 100% Pure Madness in Moon Sweepers",
    "channel": "Let's Game It Out",
-   "views": 929140,
+   "views": 1216356,
    "published": "2026-11-22"
   },
   {
-   "title": "GTA 6 Is The Worst...",
-   "channel": "MeatCanyon",
-   "views": 3712932,
-   "published": "2026-11-21"
-  },
-  {
-   "title": "GTA 6 Has Exposed a BIG Problem With AAA Games",
-   "channel": "gameranx",
-   "views": 646369,
-   "published": "2026-11-22"
-  },
-  {
-   "title": "100 Days in the Appalachian Mountains in Hardcore Minecraft",
-   "channel": "Forge Labs",
-   "views": 451108,
-   "published": "2026-11-22"
-  },
-  {
-   "title": "Milking The Warden - Sky Factory Season 7 EP 11",
-   "channel": "SSundeePlus",
-   "views": 227578,
-   "published": "2026-11-22"
-  },
-  {
-   "title": "This is vanilla Minecraft",
-   "channel": "Mumbo Jumbo",
-   "views": 922942,
-   "published": "2026-11-22"
-  },
-  {
-   "title": "This is a nightmare for Rockstar..",
-   "channel": "Asmongold Clips",
-   "views": 3962660,
-   "published": "2026-11-22"
-  },
-  {
-   "title": "Charging My Phone to 100% With POTATOES in Roblox...",
-   "channel": "Techys",
-   "views": 401436,
-   "published": "2026-11-22"
-  },
-  {
-   "title": "Minecraft But Water Rises Every Second...",
-   "channel": "TechyCraft",
-   "views": 409420,
-   "published": "2026-11-22"
-  },
-  {
-   "title": "GTA 6 is COLLAPSING (Rockstar is Panicking)",
-   "channel": "NOT Eight Thoughts",
-   "views": 670646,
-   "published": "2026-11-22"
-  },
-  {
-   "title": "GTA6 Just Exposed Rockstar\u2019s Fatal Weakness",
-   "channel": "ENDYMIONtv",
-   "views": 336604,
-   "published": "2026-11-22"
-  },
-  {
-   "title": "GTA 6 Walkthrough Gameplay Part 5 - VICE CITY (GRAND THEFT AUTO 6)",
-   "channel": "theRadBrad",
-   "views": 391488,
-   "published": "2026-11-22"
-  },
-  {
-   "title": "Minecraft but WORDS are LIMITED!",
-   "channel": "Johnny Minecraft",
-   "views": 137005,
-   "published": "2026-11-22"
-  },
-  {
-   "title": "GTA 6 | FULL GAME | PART 1",
+   "title": "I Shouldn\u2019t Have Went To My Friends House\u2026",
    "channel": "CaseOh",
-   "views": 3387002,
-   "published": "2026-11-20"
-  },
-  {
-   "title": "I played the new age of vanilla rust... Ft Frost",
-   "channel": "Willjum",
-   "views": 291683,
-   "published": "2026-11-22"
-  },
-  {
-   "title": "Breaking Minecraft Features with Just One Word",
-   "channel": "Knarfy",
-   "views": 219953,
+   "views": 416225,
    "published": "2026-11-22"
   },
   {
    "title": "We Swept The Moon Again...",
    "channel": "SMii7Yminus",
-   "views": 109249,
+   "views": 307975,
+   "published": "2026-11-22"
+  },
+  {
+   "title": "\ud83d\udd34EXPLORING VICE CITY - GTA 6 STREAM (EASTER EGGS)",
+   "channel": "IShowSpeed",
+   "views": 9614481,
+   "published": "2026-11-22"
+  },
+  {
+   "title": "100 Days in the Appalachian Mountains in Hardcore Minecraft",
+   "channel": "Forge Labs",
+   "views": 599772,
+   "published": "2026-11-22"
+  },
+  {
+   "title": "GTA 6 Is The Worst...",
+   "channel": "MeatCanyon",
+   "views": 3916493,
+   "published": "2026-11-21"
+  },
+  {
+   "title": "GTA 6 Has Exposed a BIG Problem With AAA Games",
+   "channel": "gameranx",
+   "views": 902245,
+   "published": "2026-11-22"
+  },
+  {
+   "title": "Milking The Warden - Sky Factory Season 7 EP 11",
+   "channel": "SSundeePlus",
+   "views": 338576,
    "published": "2026-11-22"
   },
   {
    "title": "Our Playoff Run Starts NOW! Wheel of MUT! Ep. #17",
    "channel": "MMG",
-   "views": 89586,
+   "views": 235975,
    "published": "2026-11-22"
   },
   {
-   "title": "IT'S HEIST TIME | Grand Theft Auto 6 - Part 4",
-   "channel": "jacksepticeye",
-   "views": 738784,
-   "published": "2026-11-21"
+   "title": "GTA 6 is COLLAPSING (Rockstar is Panicking)",
+   "channel": "NOT Eight Thoughts",
+   "views": 952722,
+   "published": "2026-11-22"
   },
   {
-   "title": "JYNXZI IS BACK TO CHESS (And It's Absolutely Hilarious)",
-   "channel": "GothamChess",
-   "views": 666148,
+   "title": "This is vanilla Minecraft",
+   "channel": "Mumbo Jumbo",
+   "views": 1133213,
+   "published": "2026-11-22"
+  },
+  {
+   "title": "30 Secrets & Easter Eggs In GTA 6! #2",
+   "channel": "T5G",
+   "views": 263609,
+   "published": "2026-11-22"
+  },
+  {
+   "title": "Robbing EVERY BANK in GTA 6 Without Stopping...",
+   "channel": "Nemsk",
+   "views": 312109,
+   "published": "2026-11-22"
+  },
+  {
+   "title": "I played the new age of vanilla rust... Ft Frost",
+   "channel": "Willjum",
+   "views": 427965,
+   "published": "2026-11-22"
+  },
+  {
+   "title": "This is a nightmare for Rockstar..",
+   "channel": "Asmongold Clips",
+   "views": 4112692,
+   "published": "2026-11-22"
+  },
+  {
+   "title": "GTA 6 Walkthrough Gameplay Part 5 - VICE CITY (GRAND THEFT AUTO 6)",
+   "channel": "theRadBrad",
+   "views": 484271,
+   "published": "2026-11-22"
+  },
+  {
+   "title": "Charging My Phone to 100% With POTATOES in Roblox...",
+   "channel": "Techys",
+   "views": 485448,
+   "published": "2026-11-22"
+  },
+  {
+   "title": "1 Hour of GTA 6 RARE CAR Free Roam! (No Spoilers)",
+   "channel": "Typical Gamer",
+   "views": 96830,
+   "published": "2026-11-23"
+  },
+  {
+   "title": "GTA6 Just Exposed Rockstar\u2019s Fatal Weakness",
+   "channel": "ENDYMIONtv",
+   "views": 388485,
+   "published": "2026-11-22"
+  },
+  {
+   "title": "I Broke EVERY LAW in GTA 6..",
+   "channel": "Caylus  ",
+   "views": 215075,
    "published": "2026-11-22"
   }
  ],
  "notes": [
-  "retention zK7fa0dTrDc: <HttpError 500 when requesting https://youtubeanalytics.googleapis.com/v2/reports?ids=channel%3D%3DM",
-  "REACH ALARM: tiktok 0 views: Send this to the friend with 300 hours i | tiktok 0 views: Send this to the friend with 300 hours i | instagram 0 views: Send this to the friend with 300 hours i | instagram 0 views: 5.2x Red Dead 2's opening weekend. GTA 6 | tiktok 0 views: 5.2x Red Dead 2's opening weekend. GTA 6 | tiktok 0 views: A movie costs you $6 an hour. Stardew Va | tiktok 0 views: A movie costs you $6 an hour. Hollow Kni | tiktok 0 views: 8 nominations for a game nobody could bu | tiktok 0 views: 19 million copies before most people eve | instagram 0 views: 19 million copies before most people eve | tiktok 0 views: 4,811 days. That's how long you waited b | tiktok 0 views: A movie costs you $6 an hour. Cyberpunk  | tiktok 0 views: GTA 6 is out, and Rockstar targets 30 fr | tiktok 0 views: GTA 6 launches November 19 and the downl | tiktok 0 views: Cyberpunk's pre-order record was 8 milli | tiktok 0 views: A movie costs you $6 an hour. Baldur's G | tiktok 0 views: A movie costs you $6 an hour. Elden Ring | tiktok 0 views: GTA 6 streams to Xbox One through Xbox C | tiktok 0 views: Take-Two needs $8 billion this year. Las | instagram 0 views: GTA 6 launches November 19 and the downl | instagram 0 views: GTA 6 may pass $1 billion before launch  | youtube 3 views after 24h: Top 10 Games on Steam This Week: Worth t | youtube 23 views after 24h: GTA 6: Take-Two Bets $8 Billion on Your "
+  "REACH ALARM: instagram 0 views: Send this to the friend with 300 hours i | instagram 0 views: 5.2x Red Dead 2's opening weekend. GTA 6 | tiktok 0 views: A movie costs you $6 an hour. Stardew Va | tiktok 0 views: A movie costs you $6 an hour. Hollow Kni | tiktok 0 views: 8 nominations for a game nobody could bu | tiktok 0 views: 19 million copies before most people eve | instagram 0 views: 19 million copies before most people eve | tiktok 0 views: 4,811 days. That's how long you waited b | tiktok 0 views: A movie costs you $6 an hour. Cyberpunk  | tiktok 0 views: GTA 6 is out, and Rockstar targets 30 fr | tiktok 0 views: GTA 6 launches November 19 and the downl | tiktok 0 views: Cyberpunk's pre-order record was 8 milli | tiktok 0 views: A movie costs you $6 an hour. Baldur's G | tiktok 0 views: A movie costs you $6 an hour. Elden Ring | tiktok 0 views: GTA 6 streams to Xbox One through Xbox C | tiktok 0 views: Take-Two needs $8 billion this year. Las | instagram 0 views: GTA 6 launches November 19 and the downl | instagram 0 views: GTA 6 may pass $1 billion before launch  | youtube 4 views after 24h: Top 10 Games on Steam This Week: Worth t | youtube 23 views after 24h: GTA 6: Take-Two Bets $8 Billion on Your "
  ],
  "outliers": [
   [
-   49.788740330543355,
-   21249224,
-   41500,
+   320.1243321929917,
+   155185,
+   1350,
+   "Studio H",
+   "Gold Rate Today 21 November 2026 \ud83d\ude31 | 22K & 24K Gold Price Today | Gold Price Update #gold #goldprice"
+  ],
+  [
+   48.36702945062987,
+   22583926,
+   42100,
    "Rocco and Maddie",
    "When she tries to distract you during GTA 6... \ud83d\ude02\ud83c\udfae #shorts"
   ],
   [
-   41.82928118410846,
-   12247385,
-   5420,
+   43.20904053587566,
+   12651371,
+   5590,
    "Viceprint",
    "Get STRONGER FAST in GTA 6! (Secret Workout)"
   ],
   [
-   40.72997430900052,
-   14996408,
-   15800,
-   "JayKay Games",
-   "GTA6 ya Glitch Machine \ud83d\ude2d"
-  ],
-  [
-   34.732069435947814,
-   47929225,
-   108000,
+   39.31673892849788,
+   54772656,
+   112000,
    "Mr Kunnu",
    "GTA 6 m aa rha hu \ud83d\ude00 #gta6 #shorts #ps5"
   ],
   [
-   26.88548070083521,
-   121776,
+   27.814931457559833,
+   126182,
    21000,
    "Shuhad the Explorer ",
    "2000 Sq.ft \u0d35\u0d40\u0d1f\u0d3f\u0d28\u0d4d Foundation Cost \u0d0e\u0d24\u0d4d\u0d30 | Rubble Masonry vs RCC Foundation | Kerala"
   ],
   [
-   17.82723678325514,
-   9411619,
-   77200,
+   18.88113316357335,
+   10214577,
+   77500,
    "NEXT QUEST",
    "How Kyle Became the Red Hulk in GTA 6 Explained #gta6"
   ],
   [
-   14.512787996281116,
-   442178,
-   14500000,
-   "SAMAA TV",
-   "Bad News for Public | Petrol Price in Pakistan | Latest Petrol Price in Pakistan | Samaa TV"
-  ],
-  [
-   12.396882489388165,
-   9050776,
-   2530000,
+   14.726410375668236,
+   10751529,
+   2540000,
    "Mu Mu Life Diary",
    "\u662f\u4ec0\u4e48\u58f0\u97f3\u5728\u53ec\u5524\u9c81\u7c73#gta  #gta6  #shorts #kpop"
   ],
   [
-   10.28857829467745,
-   8945701,
+   10.833386380458425,
+   9416740,
    1320000,
    "D Real Chapters",
    "Why Did Fans Start Trolling ScoutOP After the GTA 6 Launch? \ud83d\udc40 #gta6 #scoutop"
   ],
   [
-   8.008202662062503,
-   9786865,
-   712000,
-   "Zylok",
-   "Kai Cenat & IShowSpeed Got The Same GTA 6 Ending! \ud83d\udc94"
+   9.572804558617309,
+   762244,
+   60700,
+   "Tof Gamer ",
+   "TECHNO GIVE YOU SOKING NEWS #technogamerz #ujjwal #techno #gta6 #gta5"
   ],
   [
-   6.068569774397751,
-   10608567,
-   3220000,
+   9.202303674034665,
+   97277,
+   118,
+   "Price of Firepower",
+   "TOW (1970) vs TOW 2B (2004) - The Evolution Of The US Wire-Guided Missile (Cost Per Shot) #Shorts"
+  ],
+  [
+   6.245058400718778,
+   55606,
+   48200,
+   "CRIS TRAVELS",
+   "How Much A Puppy Costs In India"
+  ],
+  [
+   6.213792360478158,
+   10862433,
+   3230000,
    "Santy con y",
    "ME SACARON DE LA FILA DE GTA 6"
   ],
   [
-   4.20058595513599,
-   324583,
-   13000,
-   "Untold Report Telugu",
-   "Gold, Silver \u0c30\u0c47\u0c1f\u0c4d\u0c32\u0c41 \u0c0e\u0c02\u0c26\u0c41\u0c15\u0c41 \u0c2a\u0c21\u0c41\u0c24\u0c41\u0c28\u0c4d\u0c28\u0c3e\u0c2f\u0c3f? \u0c07\u0c2a\u0c4d\u0c2a\u0c41\u0c21\u0c41 \u0c15\u0c4a\u0c28\u0c3e\u0c32\u0c3e? | Telugu"
+   5.146052614586232,
+   20079003,
+   11000000,
+   "YERRIKILLERXD",
+   "Cuando Vas al TAC\u00d3N de GTA 6\ud83d\udc60\u26a0\ufe0f#comedia"
   ],
   [
-   4.028912922840381,
-   277345,
+   4.09453513870074,
+   195585,
+   812,
+   "Flagrant Gaming",
+   "GTA 6 Players Made Jason as Fat as Possible \ud83c\udfae"
+  ],
+  [
+   4.047565156370699,
+   281518,
    26000,
    "LoreZone",
    "\u0633\u0627\u064a\u0628\u0631\u0644\u064a\u0643 \u0631\u062c\u0639 \u0648\u0633\u0631\u0628 \u0645\u0644\u0641\u0627\u062a GTA 6 \u061f!  #gaming #gamingnews #gta6"
   ],
   [
-   3.605613564660167,
-   98269,
-   1450,
-   "KirbyDog",
-   "Los JUGADORES destrozan a GTA 6: 4,9 en Metacritic #gta6 #gaming #gamingnews"
-  ],
-  [
-   3.47194874880541,
-   120108,
-   14600000,
-   "TV9 Telugu Live",
-   "\u0c2c\u0c02\u0c17\u0c3e\u0c30\u0c02 \u0c27\u0c30\u0c32\u0c4d\u0c32\u0c4b \u0c06\u0c17\u0c28\u0c3f \u0c2a\u0c24\u0c28\u0c02... | Gold Rates Today - TV9"
-  ],
-  [
-   3.1239930460831333,
-   123087,
-   57900,
-   "Mo'din",
-   "\ud83c\udfae\ud83c\udf34 MAL FAIT GTA 6 C'EST GTA 5.2 et bah franchement ceux qui disaient \u00e7a voici #gta6"
-  ],
-  [
-   3.0906416495256486,
-   7857212,
+   3.3253604432324173,
+   8453928,
    266000,
    "Chocobundy",
    "When GTA 6 meets dubai chocolate \ud83c\udf6b\ud83c\udf34 No Music #dubaichocolate #gta6 #day1"
   ],
   [
-   1.9017218574514771,
-   130912,
-   26000,
-   "LoreZone",
-   "\u062a\u0642\u064a\u064a\u0645\u0627\u062a GTA 6 \u0637\u0644\u0639\u062a \u0648\u062d\u0634\u0629 \u0648\u0645\u0646\u0641\u0648\u062e\u0629 \u061f!  #gaming #gamingnews #gta6"
+   3.1866312908581405,
+   41814586,
+   24200000,
+   "Cheri's World",
+   "Kanjoos dad ne GTA 6 khareed li\ud83d\udc80\ud83e\udd23 #chetanmonga #comedy #gta6 #shorts"
   ],
   [
-   1.8399140141298331,
-   17564882,
+   3.1294561661604368,
+   123331,
+   57900,
+   "Mo'din",
+   "\ud83c\udfae\ud83c\udf34 MAL FAIT GTA 6 C'EST GTA 5.2 et bah franchement ceux qui disaient \u00e7a voici #gta6"
+  ],
+  [
+   3.00911185227802,
+   67801,
+   49000,
+   "24 \u041a\u0430\u043d\u0430\u043b Shorts",
+   "\ud83e\udd29\u041f\u0410\u041b\u042c\u041d\u0415 \u0432 \u0423\u043a\u0440\u0430\u0457\u043d\u0456 \u041f\u041e\u0414\u0415\u0428\u0415\u0412\u0428\u0410\u0404?"
+  ],
+  [
+   1.9211209142149324,
+   18323381,
    11800000,
    "Akku Patil2",
    "PLAYING GTA 6\ud83d\ude2d\ud83d\ude31\u2764\ufe0f#relatable #gaming #gta6 #ps5 #kids #fun #childhood #relatable #viral #trending"
-  ],
-  [
-   1.7510530812445073,
-   132211,
-   5310,
-   "Gui, o Duende",
-   "Tomate caro por causa da chuva. Ele parou de regar e vendeu o quilo pelo dobro"
   ]
  ],
  "ig_graph": {
@@ -1205,12 +1218,12 @@
    "link": "https://www.instagram.com/reel/DgDWJvMsWtI/",
    "likes": 0,
    "comments": 0,
-   "views": 115,
-   "reach": 102,
+   "views": 117,
+   "reach": 104,
    "saved": 0,
    "shares": 0,
    "total_interactions": 0,
-   "ig_reels_avg_watch_time": 4240
+   "ig_reels_avg_watch_time": 4204
   },
   "18227207827338838": {
    "sent": "2026-11-22",
@@ -1530,46 +1543,46 @@
    "youtube_short": null,
    "instagram_reel": 125,
    "instagram_carousel": null,
-   "tiktok_video": 0
+   "tiktok_video": 114
   },
   "2026-11-22b": {
    "title": "Witcher 3 Worth It in 2026? 96\u00a2 an Hour",
-   "youtube_short": null,
-   "instagram_reel": 115,
+   "youtube_short": 540,
+   "instagram_reel": 117,
    "instagram_carousel": null,
-   "tiktok_video": 0
+   "tiktok_video": 102
   },
   "2026-11-22": {
    "title": "GTA 6 Sales Numbers: Week 1 in 4 Numbers",
-   "youtube_short": null,
+   "youtube_short": 589,
    "instagram_reel": 126,
    "instagram_carousel": null,
-   "tiktok_video": 0
+   "tiktok_video": 106
   },
   "2026-11-21c": {
    "title": "Stardew Valley Costs You 28\u00a2 an Hour. Worth It?",
-   "youtube_short": 1195,
+   "youtube_short": 1271,
    "instagram_reel": 172,
    "instagram_carousel": null,
    "tiktok_video": 0
   },
   "2026-11-21b": {
    "title": "Red Dead 2 Costs You $1.18 an Hour. Worth It?",
-   "youtube_short": 1268,
+   "youtube_short": 1290,
    "instagram_reel": 128,
    "instagram_carousel": null,
    "tiktok_video": 122
   },
   "2026-11-21": {
    "title": "GTA 6 Sales: 32.5M Copies. Are You One?",
-   "youtube_short": 968,
+   "youtube_short": 1009,
    "instagram_reel": 120,
    "instagram_carousel": null,
-   "tiktok_video": 129
+   "tiktok_video": 130
   },
   "2026-11-20c": {
    "title": "Hollow Knight Costs You 56\u00a2 an Hour. Worth It?",
-   "youtube_short": 1624,
+   "youtube_short": 1627,
    "instagram_reel": 151,
    "instagram_carousel": null,
    "tiktok_video": 0
@@ -1583,14 +1596,14 @@
   },
   "2026-11-20": {
    "title": "GTA 6 Sales: Est. 19M Copies. Did You Buy It?",
-   "youtube_short": 1236,
+   "youtube_short": 1238,
    "instagram_reel": 117,
    "instagram_carousel": 0,
    "tiktok_video": 0
   },
   "2026-11-19c": {
    "title": "Cyberpunk 2077 Costs You $2.31 an Hour. Worth It?",
-   "youtube_short": 1610,
+   "youtube_short": 1616,
    "instagram_reel": 149,
    "instagram_carousel": null,
    "tiktok_video": 0
@@ -1611,7 +1624,7 @@
   },
   "2026-11-18c": {
    "title": "Baldur's Gate 3 Costs You 82\u00a2 an Hour. Worth It?",
-   "youtube_short": 856,
+   "youtube_short": 857,
    "instagram_reel": 100,
    "instagram_carousel": null,
    "tiktok_video": 0

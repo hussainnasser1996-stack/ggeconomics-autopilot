@@ -1,4 +1,4 @@
-# Delivery check · 2026-11-23 03:09 UTC
+# Delivery check · 2026-11-23 08:12 UTC
 
 ## Problems
 - 2026-11-18b instagram_reel: Buffer error: It looks like Buffer has lost the authorization to post to Facebook. No need to worry, though! (older than 12 h: not re-booked, stale)
@@ -6,16 +6,12 @@
 
 Buffer scheduled per channel: youtube_short 2, instagram_reel 2, instagram_carousel 1, tiktok_video 2
 
-GitHub Actions minutes used this month: ~3205 of 2,000 (free tier, private repo)
+GitHub Actions minutes used this month: ~3179 of 2,000 (free tier, private repo)
 
 ## Actions taken
-- 2026-11-22 youtube_short: Buffer posting limit → direct YouTube upload: uploaded 89SF-Xex84A privacy=public publishAt=None
-89SF-Xex84A
-posted direct youtube_short 89SF-Xex84A
-- 2026-11-22b youtube_short: Buffer posting limit → direct YouTube upload: uploaded 6VsvsznbSSs privacy=public publishAt=None
-6VsvsznbSSs
-posted direct youtube_short 6VsvsznbSSs
-- 2026-11-23c: not booked yet, a build is running/queued → checked again next run
+- 2026-11-23c: not booked → build re-dispatched (retry 1)
+- 2026-11-22: {'video': '89SF-Xex84A', 'series': 'scoreboard', 'playlist': 'ok', 'blocked_in': 0, 'allowed_only': None, 'music': 'none', 'localized': ['ar', 'en', 'es', 'hi', 'id', 'pt-BR']}
+- 2026-11-22b: {'video': '6VsvsznbSSs', 'series': 'cost_per_hour', 'playlist': 'ok', 'blocked_in': 0, 'allowed_only': None, 'music': 'none', 'localized': ['ar', 'en', 'es', 'hi', 'id', 'pt-BR']}
 
 | post | channel | status | sent/due | link | title |
 |---|---|---|---|---|---|
@@ -56,10 +52,10 @@ posted direct youtube_short 6VsvsznbSSs
 | 2026-11-21c | youtube_short | sent | 2026-11-21T12:01:10.639Z | https://www.youtube.com/shorts/6hWXm7KaFMo | Stardew Valley Costs You 28¢ an Hour. Worth It? |
 | 2026-11-21c | instagram_reel | sent | 2026-11-21T12:02:33.080Z | https://www.instagram.com/reel/DgALrLtwx3U/ | Stardew Valley Costs You 28¢ an Hour. Worth It? |
 | 2026-11-21c | tiktok_video | sent | 2026-11-21T12:04:05.637Z | https://tiktok.com/@ggeconomics/video/7710593393327426868 | Stardew Valley Costs You 28¢ an Hour. Worth It? |
-| 2026-11-22 | youtube_short | error | 2026-11-22T23:00:00.000Z |  | GTA 6 Sales Numbers: Week 1 in 4 Numbers |
+| 2026-11-22 | youtube_short | direct (own API) | 2026-11-22T23:00:00.000Z | https://www.youtube.com/shorts/89SF-Xex84A | GTA 6 Sales Numbers: Week 1 in 4 Numbers |
 | 2026-11-22 | instagram_reel | sent | 2026-11-22T23:01:57.298Z | https://www.instagram.com/reel/DgD7-XZRKJs/ | GTA 6 Sales Numbers: Week 1 in 4 Numbers |
 | 2026-11-22 | tiktok_video | sent | 2026-11-22T23:01:55.598Z | https://tiktok.com/@ggeconomics/video/7711134692442967348 | GTA 6 Sales Numbers: Week 1 in 4 Numbers |
-| 2026-11-22b | youtube_short | error | 2026-11-22T17:30:00.000Z |  | Witcher 3 Worth It in 2026? 96¢ an Hour |
+| 2026-11-22b | youtube_short | direct (own API) | 2026-11-22T17:30:00.000Z | https://www.youtube.com/shorts/6VsvsznbSSs | Witcher 3 Worth It in 2026? 96¢ an Hour |
 | 2026-11-22b | instagram_reel | sent | 2026-11-22T17:31:19.199Z | https://www.instagram.com/reel/DgDWJvMsWtI/ | Witcher 3 Worth It in 2026? 96¢ an Hour |
 | 2026-11-22b | tiktok_video | sent | 2026-11-22T17:32:21.354Z | https://tiktok.com/@ggeconomics/video/7711049731589393684 | Witcher 3 Worth It in 2026? 96¢ an Hour |
 | 2026-11-22c | instagram_reel | sent | 2026-11-22T12:00:47.376Z | https://www.instagram.com/reel/DgCwVTbCYK_/ | Is Skyrim Worth It in 2026? $1.14 an Hour |
