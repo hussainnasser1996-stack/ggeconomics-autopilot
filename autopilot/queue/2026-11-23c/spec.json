@@ -1,8 +1,8 @@
 {
  "spec": {
   "tag": "COST PER HOUR #9",
-  "headline": "TERRARIA COSTS |19¢ AN HOUR|",
-  "topic": "Terraria $9.99 on Steam (US, appid 105600, no discount, 23 Nov 2026) ÷ HowLongToBeat main story 52 h (id 9705: 186,257 s, 716 submissions) = 19¢/h; completionist 205 h (738,655 s, 691 submissions) = 5¢/h (4.9¢); vs ~$12 movie for 2 h = $6/h. E1 arm A.",
+  "headline": "TERRARIA COSTS |19\u00a2\u00a0AN\u00a0HOUR|",
+  "topic": "Terraria $9.99 on Steam (US, appid 105600, no discount, 23 Nov 2026) \u00f7 HowLongToBeat main story 52 h (id 9705: 186,257 s, 716 submissions) = 19\u00a2/h; completionist 205 h (738,655 s, 691 submissions) = 5\u00a2/h (4.9\u00a2); vs ~$12 movie for 2 h = $6/h. E1 arm A.",
   "vo": "vo/d_2026_11_23c/vo.wav",
   "timelinePath": "vo/d_2026_11_23c/timeline.json",
   "timeline": {
@@ -16,16 +16,16 @@
    {
     "kind": "big",
     "line": "hook",
-    "value": "19¢/HR",
+    "value": "19\u00a2/HR",
     "label": "Terraria, main story",
-    "note": "$9.99 Steam ÷ 52 h HowLongToBeat · our math",
+    "note": "$9.99 Steam \u00f7 52 h HowLongToBeat \u00b7 our math",
     "color": "#D4FF3A"
    },
    {
     "kind": "pair",
     "line": "movie",
     "a": {
-     "value": "19¢/HR",
+     "value": "19\u00a2/HR",
      "label": "TERRARIA"
     },
     "b": {
@@ -37,13 +37,13 @@
    {
     "kind": "big",
     "line": "full",
-    "value": "5¢/HR",
+    "value": "5\u00a2/HR",
     "label": "if you go 100%",
-    "note": "205 h completionist · HowLongToBeat",
+    "note": "205 h completionist \u00b7 HowLongToBeat",
     "color": "#D4FF3A"
    }
   ],
-  "credit": "GAMEPLAY: RE-LOGIC · DATA: STEAM, HOWLONGTOBEAT",
+  "credit": "GAMEPLAY: RE-LOGIC \u00b7 DATA: STEAM, HOWLONGTOBEAT",
   "endLine": "COMMENT A GAME. WE PRICE IT NEXT.",
   "noCaptions": true
  }
