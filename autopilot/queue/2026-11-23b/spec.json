@@ -1,0 +1,50 @@
+{
+ "spec": {
+  "tag": "COST PER HOUR #10",
+  "headline": "IS HADES WORTH |$24.99|?",
+  "topic": "Hades $24.99 on Steam (US, appid 1145360, no discount, 23 Nov 2026) ÷ HowLongToBeat main story 23.6 h (id 62941: 84,950 s, 2,831 submissions) = $1.06/h; completionist 95 h (343,179 s, 1,501 submissions) = 26¢/h; vs ~$12 movie for 2 h = $6/h. E1 arm B: no card on line 1, $/HR card on line 2.",
+  "vo": "vo/d_2026_11_23b/vo.wav",
+  "timelinePath": "vo/d_2026_11_23b/timeline.json",
+  "timeline": {
+   "duration": 1,
+   "lines": [],
+   "words": []
+  },
+  "noBed": true,
+  "clips": [],
+  "cards": [
+   {
+    "kind": "big",
+    "line": "rate",
+    "value": "$1.06/HR",
+    "label": "Hades, main story",
+    "note": "$24.99 Steam ÷ 23.6 h HowLongToBeat · our math",
+    "color": "#D4FF3A"
+   },
+   {
+    "kind": "pair",
+    "line": "movie",
+    "a": {
+     "value": "$1.06/HR",
+     "label": "HADES"
+    },
+    "b": {
+     "value": "$6/HR",
+     "label": "MOVIE TICKET"
+    },
+    "note": "~$12 ticket for a 2-hour film"
+   },
+   {
+    "kind": "big",
+    "line": "full",
+    "value": "26¢/HR",
+    "label": "if you go 100%",
+    "note": "95 h completionist · HowLongToBeat",
+    "color": "#D4FF3A"
+   }
+  ],
+  "credit": "GAMEPLAY: SUPERGIANT GAMES · DATA: STEAM, HOWLONGTOBEAT",
+  "endLine": "COMMENT A GAME. WE PRICE IT NEXT.",
+  "noCaptions": true
+ }
+}

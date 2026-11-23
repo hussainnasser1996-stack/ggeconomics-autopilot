@@ -1,0 +1,67 @@
+{
+ "title": "Hades Costs You $1.06 an Hour. Worth It?",
+ "caption": "Hades is $24.99 on Steam and takes about 24 hours to beat (HowLongToBeat main story: 23.6): $1.06 an hour. A $12 movie ticket for 2 hours is $6 an hour. Go 100% (about 95 hours) and it drops to 26¢ an hour. Our own math.\nWhich game should we price next?\n\nSources: Steam store (US price), HowLongToBeat",
+ "ig_first_line": "Send this to the friend with 300 hours in Hades. Its main story costs $1.06 an hour.",
+ "hashtags": [
+  "#Hades",
+  "#gaming",
+  "#shorts",
+  "#gamingnews",
+  "#hadesworthit"
+ ],
+ "title_candidates": [
+  {
+   "t": "Hades Costs You $1.06 an Hour. Worth It?",
+   "score": 9
+  },
+  {
+   "t": "Is Hades Worth It in 2026? $1.06 an Hour",
+   "score": 10
+  },
+  {
+   "t": "Is Hades Worth $24.99? We Did the Math",
+   "score": 8
+  },
+  {
+   "t": "Hades Is 6x Cheaper Than a Movie",
+   "score": 6
+  },
+  {
+   "t": "Hades Cost per Hour",
+   "score": 4
+  }
+ ],
+ "localized": {
+  "es": {
+   "title": "Hades te cuesta $1.06 por hora. ¿Vale la pena?"
+  },
+  "pt-BR": {
+   "title": "Hades custa $1.06 por hora. Vale a pena?"
+  },
+  "ar": {
+   "title": "Hades تكلفك $1.06 في الساعة. هل تستحق؟"
+  },
+  "hi": {
+   "title": "Hades की कीमत $1.06 प्रति घंटा. क्या लायक है?"
+  },
+  "id": {
+   "title": "Hades Cuma $1.06 per Jam. Worth It?"
+  }
+ },
+ "keywords": [
+  "is hades worth it in 2026",
+  "hades is it worth it",
+  "hades 2 worth it"
+ ],
+ "hook_style": "question",
+ "series": "cost_per_hour",
+ "music": "game",
+ "carousel": false,
+ "publish_time_utc": "17:30",
+ "title_note": "Cost-per-hour title lock (BRAIN 5b): kept the locked title over the 10-point candidate.",
+ "experiment": {
+  "E1": "B",
+  "E2": "COST PER HOUR #10",
+  "E3": "send_trigger"
+ }
+}

@@ -1,0 +1,14 @@
+{
+ "candidates": [
+  {
+   "source": "steam",
+   "game": "Hades",
+   "prefer": "Launch"
+  },
+  {
+   "source": "steam",
+   "game": "Hades"
+  }
+ ],
+ "credit": "GAMEPLAY: SUPERGIANT GAMES"
+}

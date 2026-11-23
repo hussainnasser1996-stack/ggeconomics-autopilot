@@ -1,0 +1,67 @@
+{
+ "title": "Elden Ring vs Dark Souls 3: $1 vs $1.92 an Hour",
+ "caption": "Same $59.99 on Steam. Elden Ring takes about 60 hours to beat, Dark Souls 3 about 31 (HowLongToBeat main story): $1 an hour vs $1.92. Go 100% and it's 44¢ vs 60¢. Our own math.\nWhich one gave you more for your money? And which game should we price next?\n\nSources: Steam store (US price), HowLongToBeat",
+ "ig_first_line": "Send this to your Dark Souls friend: same $59.99, but Elden Ring gives you 2x the hours ($1 vs $1.92 an hour).",
+ "hashtags": [
+  "#EldenRing",
+  "#gaming",
+  "#shorts",
+  "#DarkSouls3",
+  "#eldenringvsdarksouls3"
+ ],
+ "title_candidates": [
+  {
+   "t": "Elden Ring vs Dark Souls 3: $1 vs $1.92 an Hour",
+   "score": 10
+  },
+  {
+   "t": "Elden Ring vs Dark Souls 3: Which Is Worth Your $60?",
+   "score": 8
+  },
+  {
+   "t": "Same $59.99, Twice the Hours: Elden Ring vs DS3",
+   "score": 7
+  },
+  {
+   "t": "Dark Souls 3 Costs You $1.92 an Hour",
+   "score": 7
+  },
+  {
+   "t": "Elden Ring or Dark Souls 3? We Did the Math",
+   "score": 6
+  }
+ ],
+ "localized": {
+  "es": {
+   "title": "Elden Ring vs Dark Souls 3: $1 vs $1.92 por hora"
+  },
+  "pt-BR": {
+   "title": "Elden Ring vs Dark Souls 3: $1 vs $1.92 por hora"
+  },
+  "ar": {
+   "title": "Elden Ring ضد Dark Souls 3: $1 مقابل $1.92 في الساعة"
+  },
+  "hi": {
+   "title": "Elden Ring vs Dark Souls 3: $1 vs $1.92 प्रति घंटा"
+  },
+  "id": {
+   "title": "Elden Ring vs Dark Souls 3: $1 vs $1.92 per Jam"
+  }
+ },
+ "keywords": [
+  "elden ring vs dark souls 3",
+  "dark souls 3 is better than elden ring",
+  "elden ring vs dark souls 3 difficulty"
+ ],
+ "hook_style": "versus",
+ "series": "cost_per_hour",
+ "music": "game",
+ "carousel": true,
+ "carousel_caption": "We priced 11 games by the hour. Cheapest first: Terraria 19¢, Stardew Valley 28¢, Hollow Knight 56¢. The most expensive was still under $2.50. Save this before your next sale.\nSteam US price ÷ HowLongToBeat main-story hours, our own math. A movie is ~$6 an hour.\nWhich game should we price next? Comment it and we'll add it.\n\nSources: Steam store (US prices on the day we priced each), HowLongToBeat",
+ "experiment": {
+  "E2": "COST PER HOUR #11",
+  "E3": "send_trigger",
+  "E4": "leaderboard_1",
+  "format": "head_to_head"
+ }
+}

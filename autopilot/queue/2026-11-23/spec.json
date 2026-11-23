@@ -1,0 +1,76 @@
+{
+ "spec": {
+  "tag": "COST PER HOUR #11",
+  "headline": "ELDEN RING |$1/HR| VS DARK SOULS 3 |$1.92|",
+  "topic": "Head-to-head (test slot). Both $59.99 on Steam (US, Elden Ring appid 1245620, Dark Souls III appid 374320, no discount, 23 Nov 2026). HowLongToBeat main story: Elden Ring 60 h (id 68151: 216,441 s, 1,769 submissions) = $1.00/h; Dark Souls III 31 h (id 26803: 112,398 s = 31.2 h, 1,912 submissions) = $1.92/h. Completionist: Elden Ring 136 h (490,406 s) = 44¢/h; Dark Souls III 101 h (362,098 s) = 60¢/h. Our math.",
+  "vo": "vo/d_2026_11_23/vo.wav",
+  "timelinePath": "vo/d_2026_11_23/timeline.json",
+  "timeline": {
+   "duration": 1,
+   "lines": [],
+   "words": []
+  },
+  "noBed": true,
+  "clips": [],
+  "cards": [
+   {
+    "kind": "pair",
+    "line": "hook",
+    "a": {
+     "value": "$1/HR",
+     "label": "ELDEN RING"
+    },
+    "b": {
+     "value": "$1.92/HR",
+     "label": "DARK SOULS 3"
+    },
+    "note": "$59.99 ÷ HowLongToBeat main story · our math"
+   },
+   {
+    "kind": "big",
+    "line": "price",
+    "value": "$59.99",
+    "label": "both games, Steam US",
+    "note": "no discount, 23 Nov 2026",
+    "color": "#3AE0FF"
+   },
+   {
+    "kind": "bars",
+    "line": "hours",
+    "title": "HOURS TO BEAT · MAIN STORY",
+    "unit": "h",
+    "bars": [
+     {
+      "label": "ELDEN\nRING",
+      "lo": 60,
+      "color": "#D4FF3A",
+      "text": "60 H"
+     },
+     {
+      "label": "DARK\nSOULS 3",
+      "lo": 31,
+      "color": "#3AE0FF",
+      "text": "31 H"
+     }
+    ],
+    "note": "HowLongToBeat"
+   },
+   {
+    "kind": "pair",
+    "line": "full",
+    "a": {
+     "value": "44¢/HR",
+     "label": "ELDEN RING 100%"
+    },
+    "b": {
+     "value": "60¢/HR",
+     "label": "DARK SOULS 3 100%"
+    },
+    "note": "136 h vs 101 h completionist · HowLongToBeat"
+   }
+  ],
+  "credit": "GAMEPLAY: BANDAI NAMCO / FROMSOFTWARE · DATA: STEAM, HOWLONGTOBEAT",
+  "endLine": "COMMENT A GAME. WE PRICE IT NEXT.",
+  "noCaptions": true
+ }
+}

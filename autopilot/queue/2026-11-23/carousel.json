@@ -1,0 +1,132 @@
+{
+ "slides": [
+  {
+   "bg": {
+    "at": null
+   },
+   "kicker": "COST PER HOUR · LEADERBOARD",
+   "head": "WE PRICED |11 GAMES|\nBY THE HOUR",
+   "sub": "Steam price ÷ hours to beat. A movie is $6 an hour. Cheapest first →"
+  },
+  {
+   "bg": {
+    "at": null
+   },
+   "kicker": "#1–3 · THE CHEAPEST",
+   "card": {
+    "kind": "bars",
+    "line": "",
+    "title": "PER HOUR · MAIN STORY",
+    "unit": "¢",
+    "bars": [
+     {
+      "label": "TERRARIA",
+      "lo": 19,
+      "color": "#D4FF3A",
+      "text": "19¢"
+     },
+     {
+      "label": "STARDEW\nVALLEY",
+      "lo": 28,
+      "color": "#D4FF3A",
+      "text": "28¢"
+     },
+     {
+      "label": "HOLLOW\nKNIGHT",
+      "lo": 56,
+      "color": "#D4FF3A",
+      "text": "56¢"
+     }
+    ],
+    "note": "Steam US price ÷ HowLongToBeat main story"
+   }
+  },
+  {
+   "bg": {
+    "at": null
+   },
+   "kicker": "#4–6",
+   "card": {
+    "kind": "bars",
+    "line": "",
+    "title": "PER HOUR · MAIN STORY",
+    "unit": "¢",
+    "bars": [
+     {
+      "label": "BALDUR'S\nGATE 3",
+      "lo": 82,
+      "color": "#3AE0FF",
+      "text": "82¢"
+     },
+     {
+      "label": "THE\nWITCHER 3",
+      "lo": 96,
+      "color": "#3AE0FF",
+      "text": "96¢"
+     },
+     {
+      "label": "ELDEN\nRING",
+      "lo": 100,
+      "color": "#3AE0FF",
+      "text": "$1.00"
+     }
+    ],
+    "note": "Steam US price ÷ HowLongToBeat main story"
+   }
+  },
+  {
+   "bg": {
+    "at": null
+   },
+   "kicker": "#7–9",
+   "card": {
+    "kind": "bars",
+    "line": "",
+    "title": "PER HOUR · MAIN STORY",
+    "unit": "¢",
+    "bars": [
+     {
+      "label": "HADES",
+      "lo": 106,
+      "color": "#3AE0FF",
+      "text": "$1.06"
+     },
+     {
+      "label": "SKYRIM",
+      "lo": 114,
+      "color": "#3AE0FF",
+      "text": "$1.14"
+     },
+     {
+      "label": "RED DEAD\n2",
+      "lo": 118,
+      "color": "#3AE0FF",
+      "text": "$1.18"
+     }
+    ],
+    "note": "Steam US price ÷ HowLongToBeat main story"
+   }
+  },
+  {
+   "bg": {
+    "at": null
+   },
+   "kicker": "#10–11 · THE PRICIEST",
+   "card": {
+    "kind": "pair",
+    "line": "",
+    "a": {
+     "value": "$1.92",
+     "label": "DARK SOULS 3"
+    },
+    "b": {
+     "value": "$2.31",
+     "label": "CYBERPUNK 2077"
+    },
+    "note": "per hour · still under a $6/hr movie"
+   },
+   "sub": "Comment a game. We price it next. Follow for #12."
+  }
+ ],
+ "credit": "FOOTAGE: BANDAI NAMCO / FROMSOFTWARE"
+}

@@ -1,0 +1,66 @@
+{
+ "title": "Terraria Costs You 19¢ an Hour. Worth It?",
+ "caption": "Terraria is $9.99 on Steam and takes about 52 hours to beat (HowLongToBeat main story): 19¢ an hour. A $12 movie ticket for 2 hours is $6 an hour. Go 100% (about 205 hours) and it drops to 5¢ an hour, the cheapest hour we've priced yet. Our own math.\nWhich game should we price next?\n\nSources: Steam store (US price), HowLongToBeat",
+ "ig_first_line": "Send this to the friend with 300 hours in Terraria. Its main run costs 19 cents an hour.",
+ "hashtags": [
+  "#Terraria",
+  "#gaming",
+  "#shorts",
+  "#gamingnews",
+  "#terrariaworthit"
+ ],
+ "title_candidates": [
+  {
+   "t": "Terraria Costs You 19¢ an Hour. Worth It?",
+   "score": 9
+  },
+  {
+   "t": "Is Terraria Worth It in 2026? 19¢ an Hour",
+   "score": 9
+  },
+  {
+   "t": "Terraria: $9.99 for 205 Hours of Your Life",
+   "score": 7
+  },
+  {
+   "t": "Terraria Is 30x Cheaper Than a Movie",
+   "score": 6
+  },
+  {
+   "t": "Terraria Cost per Hour",
+   "score": 4
+  }
+ ],
+ "localized": {
+  "es": {
+   "title": "Terraria te cuesta 19¢ por hora. ¿Vale la pena?"
+  },
+  "pt-BR": {
+   "title": "Terraria custa 19¢ por hora. Vale a pena?"
+  },
+  "ar": {
+   "title": "Terraria تكلفك 19¢ في الساعة. هل تستحق؟"
+  },
+  "hi": {
+   "title": "Terraria की कीमत 19¢ प्रति घंटा. क्या लायक है?"
+  },
+  "id": {
+   "title": "Terraria Cuma 19¢ per Jam. Worth It?"
+  }
+ },
+ "keywords": [
+  "terraria worth it 2025",
+  "terraria is it worth it",
+  "terraria sale"
+ ],
+ "hook_style": "number",
+ "series": "cost_per_hour",
+ "music": "game",
+ "carousel": false,
+ "publish_time_utc": "12:00",
+ "experiment": {
+  "E1": "A",
+  "E2": "COST PER HOUR #9",
+  "E3": "send_trigger"
+ }
+}

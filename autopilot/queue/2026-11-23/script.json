@@ -1,0 +1,29 @@
+{
+ "id": "d_2026_11_23",
+ "voice": "am_liam",
+ "speed": 1.25,
+ "gap": 0.12,
+ "mode": "edit",
+ "lines": [
+  {
+   "id": "hook",
+   "text": "Elden Ring: $1 an hour. Dark Souls 3: $1.92"
+  },
+  {
+   "id": "price",
+   "text": "Same price: $59.99 each"
+  },
+  {
+   "id": "hours",
+   "text": "Elden Ring: 60 hours. Dark Souls 3: 31"
+  },
+  {
+   "id": "full",
+   "text": "Go 100%: 44¢ vs 60¢ an hour"
+  },
+  {
+   "id": "out",
+   "text": "Comment a game. We price it next."
+  }
+ ]
+}
