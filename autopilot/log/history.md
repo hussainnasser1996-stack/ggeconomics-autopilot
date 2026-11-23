@@ -1,5 +1,6 @@
 # Post history (newest first)
 
+- 2026-11-23 · Elden Ring vs Dark Souls 3: $1 vs $1.92 an Hour · footage: ELDEN RING — ELDEN RING - Rise, Tarnished | Official Launch Trailer · VO similarity 1.00 · youtube_short 6b0389a0846b0ee907cd32f6 · instagram_reel 6b0389a1c72676f5e97143e2 · instagram_carousel 6b0389a1d5eabfb8ccf05b5e · tiktok_video 6b0389a2a6de38de9ea6a9d2 · due 23:00 UTC
 - 2026-11-22c · Is Skyrim Worth It in 2026? $1.14 an Hour · footage: The Elder Scrolls V: Skyrim Special Edition — Skyrim SE Live Action Trailer · VO similarity 1.00 · instagram_reel 6b02d662d5eabfb8cca4225b · tiktok_video 6b02d663846b0ee9078069c9 · due 23:00 UTC
 - 2026-11-21 · GTA 6 Sales: 32.5M Copies. Are You One? · footage: gta6_trailer_QdBZY2fkU-0.mp4 · VO similarity 1.00 · youtube_short 6b0191950247969092cfd873 · instagram_reel 6b019195d864a01105441d44 · tiktok_video 6b0191968bd84d5966e9e4e6 · due 23:00 UTC
 - 2026-11-21b · Red Dead 2 Costs You $1.18 an Hour. Worth It? · footage: Red Dead Redemption 2 — RDR2 Launch Trailer (US) · VO similarity 1.00 · youtube_short 6b018ff0943aa0abf4584fef · instagram_reel 6b018ff1846b0ee90708bf35 · tiktok_video 6b018ff10247969092cf5185 · due 23:00 UTC

@@ -2,7 +2,7 @@
  "spec": {
   "tag": "COST PER HOUR #11",
   "headline": "ELDEN RING |$1/HR| VS DARK SOULS 3 |$1.92|",
-  "topic": "Head-to-head (test slot). Both $59.99 on Steam (US, Elden Ring appid 1245620, Dark Souls III appid 374320, no discount, 23 Nov 2026). HowLongToBeat main story: Elden Ring 60 h (id 68151: 216,441 s, 1,769 submissions) = $1.00/h; Dark Souls III 31 h (id 26803: 112,398 s = 31.2 h, 1,912 submissions) = $1.92/h. Completionist: Elden Ring 136 h (490,406 s) = 44¢/h; Dark Souls III 101 h (362,098 s) = 60¢/h. Our math.",
+  "topic": "Head-to-head (test slot). Both $59.99 on Steam (US, Elden Ring appid 1245620, Dark Souls III appid 374320, no discount, 23 Nov 2026). HowLongToBeat main story: Elden Ring 60 h (id 68151: 216,441 s, 1,769 submissions) = $1.00/h; Dark Souls III 31 h (id 26803: 112,398 s = 31.2 h, 1,912 submissions) = $1.92/h. Completionist: Elden Ring 136 h (490,406 s) = 44\u00a2/h; Dark Souls III 101 h (362,098 s) = 60\u00a2/h. Our math.",
   "vo": "vo/d_2026_11_23/vo.wav",
   "timelinePath": "vo/d_2026_11_23/timeline.json",
   "timeline": {
@@ -11,7 +11,62 @@
    "words": []
   },
   "noBed": true,
-  "clips": [],
+  "clips": [
+   {
+    "src": "d_2026_11_23",
+    "from": 69.88,
+    "dur": 2.2,
+    "shot": 15.03
+   },
+   {
+    "src": "d_2026_11_23",
+    "from": 85.83,
+    "dur": 1.82,
+    "shot": 24
+   },
+   {
+    "src": "d_2026_11_23",
+    "from": 133.17,
+    "dur": 2.2,
+    "shot": 44
+   },
+   {
+    "src": "d_2026_11_23",
+    "from": 53.35,
+    "dur": 2.17,
+    "shot": 12.03
+   },
+   {
+    "src": "d_2026_11_23",
+    "from": 106.43,
+    "dur": 2.2,
+    "shot": 31
+   },
+   {
+    "src": "d_2026_11_23",
+    "from": 50.1,
+    "dur": 2.2,
+    "shot": 12.0
+   },
+   {
+    "src": "d_2026_11_23",
+    "from": 120.35,
+    "dur": 2.2,
+    "shot": 38.03
+   },
+   {
+    "src": "d_2026_11_23",
+    "from": 83.63,
+    "dur": 1.99,
+    "shot": 23
+   },
+   {
+    "src": "d_2026_11_23",
+    "from": 72.68,
+    "dur": 1.2,
+    "shot": 15.04
+   }
+  ],
   "cards": [
    {
     "kind": "pair",
@@ -24,7 +79,7 @@
      "value": "$1.92/HR",
      "label": "DARK SOULS 3"
     },
-    "note": "$59.99 ÷ HowLongToBeat main story · our math"
+    "note": "$59.99 \u00f7 HowLongToBeat main story \u00b7 our math"
    },
    {
     "kind": "big",
@@ -37,7 +92,7 @@
    {
     "kind": "bars",
     "line": "hours",
-    "title": "HOURS TO BEAT · MAIN STORY",
+    "title": "HOURS TO BEAT \u00b7 MAIN STORY",
     "unit": "h",
     "bars": [
      {
@@ -59,17 +114,17 @@
     "kind": "pair",
     "line": "full",
     "a": {
-     "value": "44¢/HR",
+     "value": "44\u00a2/HR",
      "label": "ELDEN RING 100%"
     },
     "b": {
-     "value": "60¢/HR",
+     "value": "60\u00a2/HR",
      "label": "DARK SOULS 3 100%"
     },
-    "note": "136 h vs 101 h completionist · HowLongToBeat"
+    "note": "136 h vs 101 h completionist \u00b7 HowLongToBeat"
    }
   ],
-  "credit": "GAMEPLAY: BANDAI NAMCO / FROMSOFTWARE · DATA: STEAM, HOWLONGTOBEAT",
+  "credit": "GAMEPLAY: BANDAI NAMCO / FROMSOFTWARE \u00b7 DATA: STEAM, HOWLONGTOBEAT",
   "endLine": "COMMENT A GAME. WE PRICE IT NEXT.",
   "noCaptions": true
  }

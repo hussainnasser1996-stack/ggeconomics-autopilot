@@ -2,67 +2,70 @@
  "slides": [
   {
    "bg": {
-    "at": null
+    "at": 70.28,
+    "src": "d_2026_11_23"
    },
-   "kicker": "COST PER HOUR · LEADERBOARD",
-   "head": "WE PRICED |11 GAMES|\nBY THE HOUR",
-   "sub": "Steam price ÷ hours to beat. A movie is $6 an hour. Cheapest first →"
+   "kicker": "COST PER HOUR \u00b7 LEADERBOARD",
+   "head": "WE PRICED |11\u00a0GAMES|\nBY THE HOUR",
+   "sub": "Steam price \u00f7 hours to beat. A movie is $6 an hour. Cheapest first \u2192"
   },
   {
    "bg": {
-    "at": null
+    "at": 133.57,
+    "src": "d_2026_11_23"
    },
-   "kicker": "#1–3 · THE CHEAPEST",
+   "kicker": "#1\u20133 \u00b7 THE CHEAPEST",
    "card": {
     "kind": "bars",
     "line": "",
-    "title": "PER HOUR · MAIN STORY",
-    "unit": "¢",
+    "title": "PER HOUR \u00b7 MAIN STORY",
+    "unit": "\u00a2",
     "bars": [
      {
       "label": "TERRARIA",
       "lo": 19,
       "color": "#D4FF3A",
-      "text": "19¢"
+      "text": "19\u00a2"
      },
      {
       "label": "STARDEW\nVALLEY",
       "lo": 28,
       "color": "#D4FF3A",
-      "text": "28¢"
+      "text": "28\u00a2"
      },
      {
       "label": "HOLLOW\nKNIGHT",
       "lo": 56,
       "color": "#D4FF3A",
-      "text": "56¢"
+      "text": "56\u00a2"
      }
     ],
-    "note": "Steam US price ÷ HowLongToBeat main story"
+    "note": "Steam US price \u00f7 HowLongToBeat main story"
    }
   },
   {
    "bg": {
-    "at": null
+    "at": 106.83,
+    "src": "d_2026_11_23"
    },
-   "kicker": "#4–6",
+   "kicker": "#4\u20136",
    "card": {
     "kind": "bars",
     "line": "",
-    "title": "PER HOUR · MAIN STORY",
-    "unit": "¢",
+    "title": "PER HOUR \u00b7 MAIN STORY",
+    "unit": "\u00a2",
     "bars": [
      {
       "label": "BALDUR'S\nGATE 3",
       "lo": 82,
       "color": "#3AE0FF",
-      "text": "82¢"
+      "text": "82\u00a2"
      },
      {
       "label": "THE\nWITCHER 3",
       "lo": 96,
       "color": "#3AE0FF",
-      "text": "96¢"
+      "text": "96\u00a2"
      },
      {
       "label": "ELDEN\nRING",
@@ -71,19 +74,20 @@
       "text": "$1.00"
      }
     ],
-    "note": "Steam US price ÷ HowLongToBeat main story"
+    "note": "Steam US price \u00f7 HowLongToBeat main story"
    }
   },
   {
    "bg": {
-    "at": null
+    "at": 50.5,
+    "src": "d_2026_11_23"
    },
-   "kicker": "#7–9",
+   "kicker": "#7\u20139",
    "card": {
     "kind": "bars",
     "line": "",
-    "title": "PER HOUR · MAIN STORY",
-    "unit": "¢",
+    "title": "PER HOUR \u00b7 MAIN STORY",
+    "unit": "\u00a2",
     "bars": [
      {
       "label": "HADES",
@@ -104,14 +108,15 @@
       "text": "$1.18"
      }
     ],
-    "note": "Steam US price ÷ HowLongToBeat main story"
+    "note": "Steam US price \u00f7 HowLongToBeat main story"
    }
   },
   {
    "bg": {
-    "at": null
+    "at": 120.75,
+    "src": "d_2026_11_23"
    },
-   "kicker": "#10–11 · THE PRICIEST",
+   "kicker": "#10\u201311 \u00b7 THE PRICIEST",
    "card": {
     "kind": "pair",
     "line": "",
@@ -123,7 +128,7 @@
      "value": "$2.31",
      "label": "CYBERPUNK 2077"
     },
-    "note": "per hour · still under a $6/hr movie"
+    "note": "per hour \u00b7 still under a $6/hr movie"
    },
    "sub": "Comment a game. We price it next. Follow for #12."
   }
