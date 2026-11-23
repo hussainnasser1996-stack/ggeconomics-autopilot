@@ -1,15 +1,17 @@
-# Delivery check · 2026-11-23 13:11 UTC
+# Delivery check · 2026-11-23 13:13 UTC
 
 ## Problems
-- 2026-11-18b instagram_reel: Buffer error: It looks like Buffer has lost the authorization to post to Facebook. No need to worry, though! (older than 12 h: not re-booked, stale)
 - 2026-11-22c youtube_short: not booked at publish time: You have already scheduled the maximum number of posts YouTube allows in a day (2). Please consider scheduling this post for another day.
+
+## Old (before yesterday, past the re-book window, no alert)
+- 2026-11-18b instagram_reel: Buffer error: It looks like Buffer has lost the authorization to post to Facebook. No need to worry, though! (older than 12 h: not re-booked, stale)
 
 Buffer scheduled per channel: youtube_short 2, instagram_reel 2, instagram_carousel 1, tiktok_video 2
 
-GitHub Actions minutes used this month: ~3264 (public repo: free, no cap)
+GitHub Actions minutes used this month: ~3265 (public repo: free, no cap)
 
 ## Actions taken
-- 2026-11-23c: {'video': 'h3Kf9DKZOiY', 'series': 'cost_per_hour', 'playlist': 'ok', 'blocked_in': 0, 'allowed_only': None, 'music': 'library', 'localized': ['ar', 'en', 'es', 'hi', 'id', 'pt-BR']}
+- none
 
 | post | channel | status | sent/due | link | title |
 |---|---|---|---|---|---|

@@ -8,12 +8,12 @@ Followers: YouTube 8 subscribers · Instagram 0 followers
 (— = not sent yet / no metrics yet; carousel shows reach when Buffer gives no views)
 | post | YouTube Short | IG Reel | IG carousel | TikTok | total | title |
 |---|---|---|---|---|---|---|
-| 2026-11-23c | 261 | 115 | — | 0 | 376 | Terraria Costs You 19¢ an Hour. Worth It? |
+| 2026-11-23c | 267 | 116 | — | 0 | 383 | Terraria Costs You 19¢ an Hour. Worth It? |
 | 2026-11-23b | — | — | — | — | 0 | Hades Costs You $1.06 an Hour. Worth It? |
 | 2026-11-23 | — | — | — | — | 0 | Elden Ring vs Dark Souls 3: $1 vs $1.92 an Hour |
 | 2026-11-22c | — | 126 | — | 114 | 240 | Is Skyrim Worth It in 2026? $1.14 an Hour |
 | 2026-11-22b | 636 | 118 | — | 102 | 856 | Witcher 3 Worth It in 2026? 96¢ an Hour |
-| 2026-11-22 | 691 | 127 | — | 106 | 924 | GTA 6 Sales Numbers: Week 1 in 4 Numbers |
+| 2026-11-22 | 785 | 127 | — | 106 | 1018 | GTA 6 Sales Numbers: Week 1 in 4 Numbers |
 | 2026-11-21c | 1272 | 173 | — | 0 | 1445 | Stardew Valley Costs You 28¢ an Hour. Worth It? |
 | 2026-11-21b | 1302 | 129 | — | 122 | 1553 | Red Dead 2 Costs You $1.18 an Hour. Worth It? |
 | 2026-11-21 | 1011 | 121 | — | 130 | 1262 | GTA 6 Sales: 32.5M Copies. Are You One? |
@@ -36,9 +36,9 @@ Followers: YouTube 8 subscribers · Instagram 0 followers
 ## YouTube
 | published | views | avg view % | avg view s | kept 1s % | kept 3s % | 3s vs similar | likes | shares | subs+ | title |
 |---|---|---|---|---|---|---|---|---|---|---|
-| 2026-11-23 | 261 | — | — | — | — | — | 2 | — | — | Terraria Costs You 19¢ an Hour. Worth It? |
+| 2026-11-23 | 267 | — | — | — | — | — | 2 | — | — | Terraria Costs You 19¢ an Hour. Worth It? |
 | 2026-11-23 | 636 | — | — | — | — | — | 2 | — | — | Witcher 3 Worth It in 2026? 96¢ an Hour |
-| 2026-11-23 | 691 | — | — | — | — | — | 1 | — | — | GTA 6 Sales Numbers: Week 1 in 4 Numbers |
+| 2026-11-23 | 785 | — | — | — | — | — | 1 | — | — | GTA 6 Sales Numbers: Week 1 in 4 Numbers |
 | 2026-11-22 | 4 | — | — | — | — | — | 0 | — | — | Top 10 Games on Steam This Week: Worth the Money? (Nov 2026) |
 | 2026-11-21 | 1011 | — | — | — | — | — | 4 | — | — | GTA 6 Sales: 32.5M Copies. Are You One? |
 | 2026-11-21 | 1302 | — | — | — | — | — | 6 | — | — | Red Dead 2 Costs You $1.18 an Hour. Worth It? |
@@ -69,7 +69,7 @@ Traffic sources (all time): SHORTS 10755, YT_SEARCH 651, YT_OTHER_PAGE 243, YT_C
 ## Instagram (from Instagram itself)
 | sent | type | views | reach | likes | comments | shares | saves | avg watch s | post |
 |---|---|---|---|---|---|---|---|---|---|
-| 2026-11-23 | reel | 115 | 100 | 0 | 0 | 0 | 0 | 4.0 | Send this to the friend with 300 hours in Terraria. Its main |
+| 2026-11-23 | reel | 116 | 107 | 0 | 0 | 0 | 0 | 3.9 | Send this to the friend with 300 hours in Terraria. Its main |
 | 2026-11-22 | reel | 127 | 107 | 0 | 0 | 0 | 0 | 4.6 | 5.2x Red Dead 2's opening weekend. GTA 6's first week, in 4  |
 | 2026-11-22 | reel | 118 | 105 | 0 | 0 | 0 | 0 | 4.2 | Send this to the friend with 300 hours in The Witcher 3. Its |
 | 2026-11-22 | reel | 126 | 114 | 0 | 0 | 0 | 0 | 5.0 | Send this to the friend with 300 hours in Skyrim. The main q |
