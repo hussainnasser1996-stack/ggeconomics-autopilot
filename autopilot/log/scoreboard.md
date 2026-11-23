@@ -11,8 +11,8 @@ Followers: YouTube 8 subscribers · Instagram 0 followers
 | 2026-11-23b | — | — | — | — | 0 | Hades Costs You $1.06 an Hour. Worth It? |
 | 2026-11-23 | — | — | — | — | 0 | Elden Ring vs Dark Souls 3: $1 vs $1.92 an Hour |
 | 2026-11-22c | — | 125 | — | 114 | 239 | Is Skyrim Worth It in 2026? $1.14 an Hour |
-| 2026-11-22b | 540 | 117 | — | 102 | 759 | Witcher 3 Worth It in 2026? 96¢ an Hour |
-| 2026-11-22 | 589 | 126 | — | 106 | 821 | GTA 6 Sales Numbers: Week 1 in 4 Numbers |
+| 2026-11-22b | 609 | 117 | — | 102 | 828 | Witcher 3 Worth It in 2026? 96¢ an Hour |
+| 2026-11-22 | 654 | 126 | — | 106 | 886 | GTA 6 Sales Numbers: Week 1 in 4 Numbers |
 | 2026-11-21c | 1271 | 172 | — | 0 | 1443 | Stardew Valley Costs You 28¢ an Hour. Worth It? |
 | 2026-11-21b | 1290 | 128 | — | 122 | 1540 | Red Dead 2 Costs You $1.18 an Hour. Worth It? |
 | 2026-11-21 | 1009 | 120 | — | 130 | 1259 | GTA 6 Sales: 32.5M Copies. Are You One? |
@@ -35,8 +35,8 @@ Followers: YouTube 8 subscribers · Instagram 0 followers
 ## YouTube
 | published | views | avg view % | avg view s | kept 1s % | kept 3s % | 3s vs similar | likes | shares | subs+ | title |
 |---|---|---|---|---|---|---|---|---|---|---|
-| 2026-11-23 | 540 | — | — | — | — | — | 2 | — | — | Witcher 3 Worth It in 2026? 96¢ an Hour |
-| 2026-11-23 | 589 | — | — | — | — | — | 1 | — | — | GTA 6 Sales Numbers: Week 1 in 4 Numbers |
+| 2026-11-23 | 609 | — | — | — | — | — | 1 | — | — | Witcher 3 Worth It in 2026? 96¢ an Hour |
+| 2026-11-23 | 654 | — | — | — | — | — | 1 | — | — | GTA 6 Sales Numbers: Week 1 in 4 Numbers |
 | 2026-11-22 | 4 | — | — | — | — | — | 0 | — | — | Top 10 Games on Steam This Week: Worth the Money? (Nov 2026) |
 | 2026-11-21 | 1009 | — | — | — | — | — | 4 | — | — | GTA 6 Sales: 32.5M Copies. Are You One? |
 | 2026-11-21 | 1290 | — | — | — | — | — | 6 | — | — | Red Dead 2 Costs You $1.18 an Hour. Worth It? |
