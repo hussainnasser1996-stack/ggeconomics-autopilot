@@ -1,8 +1,8 @@
 {
  "spec": {
   "tag": "COST PER HOUR #13",
-  "headline": "SEKIRO COSTS |$2 AN HOUR|",
-  "topic": "Sekiro: Shadows Die Twice GOTY Edition $59.99 on Steam (US, appid 814380, no discount, checked 24 Nov 2026) ÷ ~30 h main story (29 h HowLongToBeat average via howlongto.gametimes mirror; ~30 h GamePressure and GameRant user-polled average; howlongtobeat.com blocked our fetch today) = $2.00/h ($2.07 at 29 h); completionist ~70 h (71 h mirror, 65-70 h GamePressure) = 86¢/h; vs ~$12 movie for 2 h = $6/h. E1 arm A.",
+  "headline": "SEKIRO COSTS |$2\u00a0AN\u00a0HOUR|",
+  "topic": "Sekiro: Shadows Die Twice GOTY Edition $59.99 on Steam (US, appid 814380, no discount, checked 24 Nov 2026) \u00f7 ~30 h main story (29 h HowLongToBeat average via howlongto.gametimes mirror; ~30 h GamePressure and GameRant user-polled average; howlongtobeat.com blocked our fetch today) = $2.00/h ($2.07 at 29 h); completionist ~70 h (71 h mirror, 65-70 h GamePressure) = 86\u00a2/h; vs ~$12 movie for 2 h = $6/h. E1 arm A.",
   "vo": "vo/d_2026_11_24b/vo.wav",
   "timelinePath": "vo/d_2026_11_24b/timeline.json",
   "timeline": {
@@ -11,14 +11,69 @@
    "words": []
   },
   "noBed": true,
-  "clips": [],
+  "clips": [
+   {
+    "src": "d_2026_11_24b",
+    "from": 85.58,
+    "dur": 2.2,
+    "shot": 37.01
+   },
+   {
+    "src": "d_2026_11_24b",
+    "from": 108.62,
+    "dur": 1.24,
+    "shot": 46.03
+   },
+   {
+    "src": "d_2026_11_24b",
+    "from": 132.08,
+    "dur": 1.64,
+    "shot": 53.01
+   },
+   {
+    "src": "d_2026_11_24b",
+    "from": 48.85,
+    "dur": 1.34,
+    "shot": 19.03
+   },
+   {
+    "src": "d_2026_11_24b",
+    "from": 71.98,
+    "dur": 1.64,
+    "shot": 28.01
+   },
+   {
+    "src": "d_2026_11_24b",
+    "from": 16.38,
+    "dur": 2.2,
+    "shot": 5.01
+   },
+   {
+    "src": "d_2026_11_24b",
+    "from": 41.5,
+    "dur": 1.39,
+    "shot": 15.0
+   },
+   {
+    "src": "d_2026_11_24b",
+    "from": 57.7,
+    "dur": 2.2,
+    "shot": 24
+   },
+   {
+    "src": "d_2026_11_24b",
+    "from": 91.7,
+    "dur": 1.45,
+    "shot": 39
+   }
+  ],
   "cards": [
    {
     "kind": "big",
     "line": "hook",
     "value": "$2/HR",
     "label": "Sekiro, main story",
-    "note": "$59.99 Steam ÷ ~30 h to beat · our math",
+    "note": "$59.99 Steam \u00f7 ~30 h to beat \u00b7 our math",
     "color": "#D4FF3A"
    },
    {
@@ -37,13 +92,13 @@
    {
     "kind": "big",
     "line": "full",
-    "value": "86¢/HR",
+    "value": "86\u00a2/HR",
     "label": "if you go 100%",
-    "note": "~70 h completionist · HowLongToBeat averages",
+    "note": "~70 h completionist \u00b7 HowLongToBeat averages",
     "color": "#D4FF3A"
    }
   ],
-  "credit": "GAMEPLAY: FROMSOFTWARE / ACTIVISION · DATA: STEAM, HOWLONGTOBEAT",
+  "credit": "GAMEPLAY: FROMSOFTWARE / ACTIVISION \u00b7 DATA: STEAM, HOWLONGTOBEAT",
   "endLine": "COMMENT A GAME. WE PRICE IT NEXT.",
   "noCaptions": true
  }
