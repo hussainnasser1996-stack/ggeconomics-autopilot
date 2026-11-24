@@ -1,8 +1,8 @@
 {
  "spec": {
   "tag": "COST PER HOUR #14",
-  "headline": "WITCHER 3 |96¢/HR| VS CYBERPUNK |$2.31|",
-  "topic": "Head-to-head (test slot), same studio (CD Projekt Red). Steam US, no discount, both checked 24 Nov 2026: The Witcher 3: Wild Hunt — Remastered $49.99 (appid 292030), Cyberpunk 2077 $59.99 (appid 1091500). HowLongToBeat main story (read directly on 22 Nov / 19 Nov): Witcher 3 52 h (185,989 s, 2,743 submissions, id 10270) = 96¢/h; Cyberpunk 2077 26 h = $2.31/h (2.4x). Completionist: Witcher 3 175 h = 29¢/h; Cyberpunk 109 h = 55¢/h. Our math.",
+  "headline": "WITCHER 3 |96\u00a2/HR| VS CYBERPUNK |$2.31|",
+  "topic": "Head-to-head (test slot), same studio (CD Projekt Red). Steam US, no discount, both checked 24 Nov 2026: The Witcher 3: Wild Hunt \u2014 Remastered $49.99 (appid 292030), Cyberpunk 2077 $59.99 (appid 1091500). HowLongToBeat main story (read directly on 22 Nov / 19 Nov): Witcher 3 52 h (185,989 s, 2,743 submissions, id 10270) = 96\u00a2/h; Cyberpunk 2077 26 h = $2.31/h (2.4x). Completionist: Witcher 3 175 h = 29\u00a2/h; Cyberpunk 109 h = 55\u00a2/h. Our math.",
   "vo": "vo/d_2026_11_24/vo.wav",
   "timelinePath": "vo/d_2026_11_24/timeline.json",
   "timeline": {
@@ -11,20 +11,84 @@
    "words": []
   },
   "noBed": true,
-  "clips": [],
+  "clips": [
+   {
+    "src": "d_2026_11_24",
+    "from": 30.57,
+    "dur": 2.2,
+    "shot": 12,
+    "zoom": 1.367
+   },
+   {
+    "src": "d_2026_11_24",
+    "from": 7.43,
+    "dur": 2.2,
+    "shot": 3,
+    "zoom": 1.37
+   },
+   {
+    "src": "d_2026_11_24",
+    "from": 71.1,
+    "dur": 1.75,
+    "shot": 28,
+    "zoom": 1.37
+   },
+   {
+    "src": "d_2026_11_24",
+    "from": 45.83,
+    "dur": 2.2,
+    "shot": 20,
+    "zoom": 1.37
+   },
+   {
+    "src": "d_2026_11_24",
+    "from": 20.43,
+    "dur": 1.36,
+    "shot": 6,
+    "zoom": 1.37
+   },
+   {
+    "src": "d_2026_11_24",
+    "from": 42.03,
+    "dur": 1.42,
+    "shot": 18,
+    "zoom": 1.37
+   },
+   {
+    "src": "d_2026_11_24",
+    "from": 66.5,
+    "dur": 2.2,
+    "shot": 26,
+    "zoom": 1.37
+   },
+   {
+    "src": "d_2026_11_24",
+    "from": 38.63,
+    "dur": 2.2,
+    "shot": 17,
+    "zoom": 1.37
+   },
+   {
+    "src": "d_2026_11_24",
+    "from": 68.97,
+    "dur": 1.2,
+    "shot": 27,
+    "zoom": 1.37
+   }
+  ],
   "cards": [
    {
     "kind": "pair",
     "line": "hook",
     "a": {
-     "value": "96¢/HR",
+     "value": "96\u00a2/HR",
      "label": "WITCHER 3"
     },
     "b": {
      "value": "$2.31/HR",
      "label": "CYBERPUNK 2077"
     },
-    "note": "Steam price ÷ HowLongToBeat main story · our math"
+    "note": "Steam price \u00f7 HowLongToBeat main story \u00b7 our math"
    },
    {
     "kind": "pair",
@@ -42,7 +106,7 @@
    {
     "kind": "bars",
     "line": "hours",
-    "title": "HOURS TO BEAT · MAIN STORY",
+    "title": "HOURS TO BEAT \u00b7 MAIN STORY",
     "unit": "h",
     "bars": [
      {
@@ -64,17 +128,17 @@
     "kind": "pair",
     "line": "full",
     "a": {
-     "value": "29¢/HR",
+     "value": "29\u00a2/HR",
      "label": "WITCHER 3 100%"
     },
     "b": {
-     "value": "55¢/HR",
+     "value": "55\u00a2/HR",
      "label": "CYBERPUNK 100%"
     },
-    "note": "175 h vs 109 h completionist · HowLongToBeat"
+    "note": "175 h vs 109 h completionist \u00b7 HowLongToBeat"
    }
   ],
-  "credit": "GAMEPLAY: CD PROJEKT RED · DATA: STEAM, HOWLONGTOBEAT",
+  "credit": "GAMEPLAY: CD PROJEKT RED \u00b7 DATA: STEAM, HOWLONGTOBEAT",
   "endLine": "COMMENT A GAME. WE PRICE IT NEXT.",
   "noCaptions": true
  }

@@ -1,24 +1,24 @@
-# Outlier gaming Shorts, last 72 h (2026-11-23): views ÷ channel's average views per video
+# Outlier gaming Shorts, last 72 h (2026-11-24): views ÷ channel's average views per video
 
 | x avg | views | channel subs | channel | title |
 |---|---|---|---|---|
-| 336.6x | 162,794 | 1,360 | Studio H | Gold Rate Today 21 November 2026 😱 | 22K & 24K Gold Price Today | Gold Price Update #gold #goldprice |
-| 30.3x | 137,283 | 21,100 | Shuhad the Explorer  | 2000 Sq.ft വീടിന് Foundation Cost എത്ര | Rubble Masonry vs RCC Foundation | Kerala |
-| 24.4x | 4,763,264 | 117,000 | JayWayyGaming | 5 Things You Didn’t Know About GTA 6 |
-| 15.7x | 51,777 | 41,300 | CBS 21 News | Township proposes increasing property taxes by over 80% |
-| 15.3x | 25,927,507 | 1,690,000 | GelNox | Map of all GTA 6 Players |
-| 13.6x | 1,083,271 | 64,900 | Tof Gamer  | TECHNO GIVE YOU SOKING NEWS #technogamerz #ujjwal #techno #gta6 #gta5 |
-| 8.7x | 10,591,433 | 713,000 | Zylok | Kai Cenat & IShowSpeed Got The Same GTA 6 Ending! 💔 |
-| 7.5x | 349,868 | 1,030 | Flagrant Gaming | GTA 6 Players Made Jason as Fat as Possible 🎮 |
-| 6.9x | 61,078 | 48,300 | CRIS TRAVELS | How Much A Puppy Costs In India |
-| 6.7x | 5,886,439 | 11,800 | ALEX VICE RUSH | ❤️🥏SAVE GTA 6 CHARACTERS BY STOPPING THE FALL OF DISKS | HOW TO STOP GAS? #shorts #gta6 |
-| 6.6x | 89,817 | 4,750 | Farm Stories | ₹40,000తో 30 మేకలకు షెడ్ నిర్మించవచ్చా?😱పూర్తి వివరాలు! #shorts #goatfarming #goat  #shed #telugu |
-| 6.3x | 11,028,348 | 3,250,000 | Santy con y | ME SACARON DE LA FILA DE GTA 6 |
-| 5.6x | 5,633,888 | 576,000 | Senpapi Gabe | Guys 20 minutes into GTA 6 |
-| 5.3x | 20,763,341 | 11,000,000 | YERRIKILLERXD | Cuando Vas al TACÓN de GTA 6👠⚠️#comedia |
-| 3.0x | 68,314 | 49,100 | 24 Канал Shorts | 🤩ПАЛЬНЕ в Україні ПОДЕШЕВШАЄ? |
-| 2.4x | 655,664 | 13,300 | Notefyi | Kenapa Makanan Ini Harganya Ratusan Juta per Kilo? |
-| 2.3x | 6,241,169 | 1,520,000 | Jay The Wrap Specialist | GTA6 Wrap in real life! #gta6 #gtavi #carwrapping |
-| 2.2x | 21,176,463 | 11,800,000 | Akku Patil2 | PLAYING GTA 6😭😱❤️#relatable #gaming #gta6 #ps5 #kids #fun #childhood #relatable #viral #trending |
-| 2.0x | 136,136 | 26,000 | LoreZone | تقييمات GTA 6 طلعت وحشة ومنفوخة ؟!  #gaming #gamingnews #gta6 |
-| 1.9x | 4,399,166 | 529,000 | Austin Sweatt | Another GTA 6 Update |
+| 283.7x | 4,224,915 | 10,000 | Caramel Hydra | How-to Date Mandy in GTA VI... #gta6 #gtavi  #gta |
+| 26.2x | 5,582,866 | 27,100 | IGR | GTA 6 VS RDR 2 VS GTA 5 - Train Comparison |
+| 25.7x | 5,104,522 | 117,000 | JayWayyGaming | 5 Things You Didn’t Know About GTA 6 |
+| 17.0x | 434,384 | 19,100 | FF Esport Zone  | Rocky Mamu REACTION on Upcoming Aviee 😱🔥 | WHAT A PLAYER! |
+| 15.0x | 1,205,533 | 65,600 | Tof Gamer  | TECHNO GIVE YOU SOKING NEWS #technogamerz #ujjwal #techno #gta6 #gta5 |
+| 13.3x | 6,265,940 | 4,630 | JB4Clips | Joe Bart Talks About NickEh30 Getting Out of Character in GTA 6! 😭💀 |
+| 9.4x | 11,456,820 | 714,000 | Zylok | Kai Cenat & IShowSpeed Got The Same GTA 6 Ending! 💔 |
+| 6.2x | 24,077,537 | 11,000,000 | YERRIKILLERXD | Cuando Vas al TACÓN de GTA 6👠⚠️#comedia |
+| 5.4x | 4,397,122 | 1,900,000 | Asmongold Clips | This is a nightmare for Rockstar.. |
+| 4.0x | 95,564 | 647,000 | Cortes do Davy Jones [OFICIAL] | PRESENTINHO SURPRESA na LIVE de GTA 6! |
+| 3.8x | 9,231,546 | 4,910,000 | TheAnimeMen | GTA 5 vs GTA 6 Cops😭 |
+| 3.6x | 187,803 | 205,000 | TGFGamerF | #GTA6 |
+| 3.6x | 42,131 | 133 | Price of Firepower | Excalibur (2008) vs Excalibur (2025) - Same Shell, Evolution Of Its Price (Cost Per Shot) #Shorts |
+| 2.9x | 33,512 | 133 | Price of Firepower | 60mm Mortar Round (2002) vs (2026) - Same Round, Evolution Of Its Price (Cost Per Shot) #Shorts |
+| 2.7x | 31,144 | 133 | Price of Firepower | Malyutka (1963) vs Kornet (1998) - Evolution Of Russian Anti-Tank Missiles (Cost Per Shot) #Shorts |
+| 2.5x | 6,879,792 | 1,520,000 | Jay The Wrap Specialist | GTA6 Wrap in real life! #gta6 #gtavi #carwrapping |
+| 2.3x | 6,279,821 | 50,100 | GrimaceClips | Dad GETS RID of His Family to Play GTA 6 😭 |
+| 2.3x | 22,017,173 | 11,800,000 | Akku Patil2 | PLAYING GTA 6😭😱❤️#relatable #gaming #gta6 #ps5 #kids #fun #childhood #relatable #viral #trending |
+| 2.3x | 23,877 | 31,800 | Tech Slayer  | Why Repainting an Airplane Costs Crores |
+| 2.0x | 139,661 | 26,100 | LoreZone | تقييمات GTA 6 طلعت وحشة ومنفوخة ؟!  #gaming #gamingnews #gta6 |

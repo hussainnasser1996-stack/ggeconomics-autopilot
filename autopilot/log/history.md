@@ -1,5 +1,6 @@
 # Post history (newest first)
 
+- 2026-11-24 · Witcher 3 vs Cyberpunk 2077: 96¢ vs $2.31 an Hour · footage: Cyberpunk 2077 — Cyberpunk 2077: Ultimate Edition — City of Dreams · VO similarity 1.00 ·  · due 23:00 UTC
 - 2026-11-23c · Terraria Costs You 19¢ an Hour. Worth It? · footage: Terraria — Steam screenshots · VO similarity 1.00 · youtube_short 6b041be0186a329b5e0cd623 · instagram_reel 6b041be05c07874ce5ebfb2d · tiktok_video 6b041be15c07874ce5ebfbcb · due 23:00 UTC
 - 2026-11-23b · Hades Costs You $1.06 an Hour. Worth It? · footage: Hades II — Hades II – v1.0 Launch Trailer · VO similarity 1.00 · youtube_short 6b038b7bd5eabfb8ccf11257 · instagram_reel 6b038b7ccc364169c199ae24 · tiktok_video 6b038b7dd5eabfb8ccf112a7 · due 23:00 UTC
 - 2026-11-23 · Elden Ring vs Dark Souls 3: $1 vs $1.92 an Hour · footage: ELDEN RING — ELDEN RING - Rise, Tarnished | Official Launch Trailer · VO similarity 1.00 · youtube_short 6b0389a0846b0ee907cd32f6 · instagram_reel 6b0389a1c72676f5e97143e2 · instagram_carousel 6b0389a1d5eabfb8ccf05b5e · tiktok_video 6b0389a2a6de38de9ea6a9d2 · due 23:00 UTC

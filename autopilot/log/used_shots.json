@@ -866,5 +866,43 @@
    "src_id": "steamshots:105600",
    "start": 8.4
   }
+ ],
+ "2026-11-24": [
+  {
+   "src_id": "steam:257082775",
+   "start": 30.4
+  },
+  {
+   "src_id": "steam:257082775",
+   "start": 7.3
+  },
+  {
+   "src_id": "steam:257082775",
+   "start": 71.0
+  },
+  {
+   "src_id": "steam:257082775",
+   "start": 45.7
+  },
+  {
+   "src_id": "steam:257082775",
+   "start": 20.3
+  },
+  {
+   "src_id": "steam:257082775",
+   "start": 41.9
+  },
+  {
+   "src_id": "steam:257082775",
+   "start": 66.4
+  },
+  {
+   "src_id": "steam:257082775",
+   "start": 38.5
+  },
+  {
+   "src_id": "steam:257082775",
+   "start": 68.8
+  }
  ]
 }
