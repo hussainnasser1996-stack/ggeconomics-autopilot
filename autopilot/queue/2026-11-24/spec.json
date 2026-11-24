@@ -1,0 +1,81 @@
+{
+ "spec": {
+  "tag": "COST PER HOUR #14",
+  "headline": "WITCHER 3 |96¢/HR| VS CYBERPUNK |$2.31|",
+  "topic": "Head-to-head (test slot), same studio (CD Projekt Red). Steam US, no discount, both checked 24 Nov 2026: The Witcher 3: Wild Hunt — Remastered $49.99 (appid 292030), Cyberpunk 2077 $59.99 (appid 1091500). HowLongToBeat main story (read directly on 22 Nov / 19 Nov): Witcher 3 52 h (185,989 s, 2,743 submissions, id 10270) = 96¢/h; Cyberpunk 2077 26 h = $2.31/h (2.4x). Completionist: Witcher 3 175 h = 29¢/h; Cyberpunk 109 h = 55¢/h. Our math.",
+  "vo": "vo/d_2026_11_24/vo.wav",
+  "timelinePath": "vo/d_2026_11_24/timeline.json",
+  "timeline": {
+   "duration": 1,
+   "lines": [],
+   "words": []
+  },
+  "noBed": true,
+  "clips": [],
+  "cards": [
+   {
+    "kind": "pair",
+    "line": "hook",
+    "a": {
+     "value": "96¢/HR",
+     "label": "WITCHER 3"
+    },
+    "b": {
+     "value": "$2.31/HR",
+     "label": "CYBERPUNK 2077"
+    },
+    "note": "Steam price ÷ HowLongToBeat main story · our math"
+   },
+   {
+    "kind": "pair",
+    "line": "price",
+    "a": {
+     "value": "$49.99",
+     "label": "WITCHER 3"
+    },
+    "b": {
+     "value": "$59.99",
+     "label": "CYBERPUNK 2077"
+    },
+    "note": "Steam US, no discount, 24 Nov 2026"
+   },
+   {
+    "kind": "bars",
+    "line": "hours",
+    "title": "HOURS TO BEAT · MAIN STORY",
+    "unit": "h",
+    "bars": [
+     {
+      "label": "WITCHER\n3",
+      "lo": 52,
+      "color": "#D4FF3A",
+      "text": "52 H"
+     },
+     {
+      "label": "CYBER-\nPUNK",
+      "lo": 26,
+      "color": "#3AE0FF",
+      "text": "26 H"
+     }
+    ],
+    "note": "HowLongToBeat"
+   },
+   {
+    "kind": "pair",
+    "line": "full",
+    "a": {
+     "value": "29¢/HR",
+     "label": "WITCHER 3 100%"
+    },
+    "b": {
+     "value": "55¢/HR",
+     "label": "CYBERPUNK 100%"
+    },
+    "note": "175 h vs 109 h completionist · HowLongToBeat"
+   }
+  ],
+  "credit": "GAMEPLAY: CD PROJEKT RED · DATA: STEAM, HOWLONGTOBEAT",
+  "endLine": "COMMENT A GAME. WE PRICE IT NEXT.",
+  "noCaptions": true
+ }
+}

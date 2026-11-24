@@ -1,0 +1,15 @@
+{
+ "candidates": [
+  {
+   "source": "steam",
+   "game": "The Witcher 3: Wild Hunt",
+   "prefer": "Launch"
+  },
+  {
+   "source": "steam",
+   "game": "Cyberpunk 2077",
+   "prefer": "City of Dreams"
+  }
+ ],
+ "credit": "GAMEPLAY: CD PROJEKT RED"
+}

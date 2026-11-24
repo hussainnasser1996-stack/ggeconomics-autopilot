@@ -1,0 +1,66 @@
+{
+ "title": "Sekiro Costs You $2 an Hour. Worth It?",
+ "caption": "Sekiro is $59.99 on Steam and takes about 30 hours to beat (HowLongToBeat averages, main story): $2 an hour. A $12 movie ticket for 2 hours is $6 an hour. Go 100% (about 70 hours) and it drops to 86¢ an hour. Our own math, and your deaths don't count as extra hours... or do they?\nWhich game should we price next?\n\nSources: Steam store (US price), HowLongToBeat averages",
+ "ig_first_line": "Send this to the friend who died 300 times to Genichiro. Sekiro costs $2 an hour.",
+ "hashtags": [
+  "#Sekiro",
+  "#gaming",
+  "#shorts",
+  "#gamingnews",
+  "#sekiroworthit"
+ ],
+ "title_candidates": [
+  {
+   "t": "Sekiro Costs You $2 an Hour. Worth It?",
+   "score": 9
+  },
+  {
+   "t": "Is Sekiro Worth It in 2026? $2 an Hour",
+   "score": 9
+  },
+  {
+   "t": "Sekiro: $59.99 for 70 Hours of Pain",
+   "score": 7
+  },
+  {
+   "t": "Sekiro Is 3x Cheaper Than a Movie",
+   "score": 6
+  },
+  {
+   "t": "Sekiro Cost per Hour",
+   "score": 4
+  }
+ ],
+ "localized": {
+  "es": {
+   "title": "Sekiro te cuesta $2 por hora. ¿Vale la pena?"
+  },
+  "pt-BR": {
+   "title": "Sekiro custa $2 por hora. Vale a pena?"
+  },
+  "ar": {
+   "title": "Sekiro تكلفك $2 في الساعة. هل تستحق؟"
+  },
+  "hi": {
+   "title": "Sekiro की कीमत $2 प्रति घंटा. क्या लायक है?"
+  },
+  "id": {
+   "title": "Sekiro Cuma $2 per Jam. Worth It?"
+  }
+ },
+ "keywords": [
+  "sekiro is it worth it",
+  "sekiro sale",
+  "sekiro vs elden ring"
+ ],
+ "hook_style": "number",
+ "series": "cost_per_hour",
+ "music": "game",
+ "carousel": false,
+ "publish_time_utc": "17:30",
+ "experiment": {
+  "E1": "A",
+  "E2": "COST PER HOUR #13",
+  "E3": "send_trigger"
+ }
+}

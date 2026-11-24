@@ -1,0 +1,66 @@
+{
+ "title": "Portal 2 Costs You $1.18 an Hour. Worth It?",
+ "caption": "Portal 2 is $9.99 on Steam and takes about 8.5 hours to beat (HowLongToBeat averages, main story): about $1.18 an hour. A $12 movie ticket for 2 hours is $6 an hour. Go 100% (about 22 hours) and it drops to 45¢ an hour. Our own math.\nWhich game should we price next?\n\nSources: Steam store (US price), HowLongToBeat averages",
+ "ig_first_line": "Send this to the friend who still quotes GLaDOS. Portal 2 costs about $1.18 an hour.",
+ "hashtags": [
+  "#Portal2",
+  "#gaming",
+  "#shorts",
+  "#gamingnews",
+  "#portal2worthit"
+ ],
+ "title_candidates": [
+  {
+   "t": "Portal 2 Costs You $1.18 an Hour. Worth It?",
+   "score": 9
+  },
+  {
+   "t": "Is Portal 2 Worth It in 2026? $1.18 an Hour",
+   "score": 9
+  },
+  {
+   "t": "Portal 2: $9.99 for 22 Hours of Your Life",
+   "score": 7
+  },
+  {
+   "t": "Portal 2 Is 5x Cheaper Than a Movie",
+   "score": 6
+  },
+  {
+   "t": "Portal 2 Cost per Hour",
+   "score": 4
+  }
+ ],
+ "localized": {
+  "es": {
+   "title": "Portal 2 te cuesta $1.18 por hora. ¿Vale la pena?"
+  },
+  "pt-BR": {
+   "title": "Portal 2 custa $1.18 por hora. Vale a pena?"
+  },
+  "ar": {
+   "title": "Portal 2 تكلفك $1.18 في الساعة. هل تستحق؟"
+  },
+  "hi": {
+   "title": "Portal 2 की कीमत $1.18 प्रति घंटा. क्या लायक है?"
+  },
+  "id": {
+   "title": "Portal 2 Cuma $1.18 per Jam. Worth It?"
+  }
+ },
+ "keywords": [
+  "portal 2 worth it",
+  "portal 2 pc gameplay",
+  "portal 2 vs portal 1"
+ ],
+ "hook_style": "question",
+ "series": "cost_per_hour",
+ "music": "library",
+ "carousel": false,
+ "publish_time_utc": "12:00",
+ "experiment": {
+  "E1": "B",
+  "E2": "COST PER HOUR #12",
+  "E3": "send_trigger"
+ }
+}

@@ -1,0 +1,50 @@
+{
+ "spec": {
+  "tag": "COST PER HOUR #13",
+  "headline": "SEKIRO COSTS |$2 AN HOUR|",
+  "topic": "Sekiro: Shadows Die Twice GOTY Edition $59.99 on Steam (US, appid 814380, no discount, checked 24 Nov 2026) ÷ ~30 h main story (29 h HowLongToBeat average via howlongto.gametimes mirror; ~30 h GamePressure and GameRant user-polled average; howlongtobeat.com blocked our fetch today) = $2.00/h ($2.07 at 29 h); completionist ~70 h (71 h mirror, 65-70 h GamePressure) = 86¢/h; vs ~$12 movie for 2 h = $6/h. E1 arm A.",
+  "vo": "vo/d_2026_11_24b/vo.wav",
+  "timelinePath": "vo/d_2026_11_24b/timeline.json",
+  "timeline": {
+   "duration": 1,
+   "lines": [],
+   "words": []
+  },
+  "noBed": true,
+  "clips": [],
+  "cards": [
+   {
+    "kind": "big",
+    "line": "hook",
+    "value": "$2/HR",
+    "label": "Sekiro, main story",
+    "note": "$59.99 Steam ÷ ~30 h to beat · our math",
+    "color": "#D4FF3A"
+   },
+   {
+    "kind": "pair",
+    "line": "movie",
+    "a": {
+     "value": "$2/HR",
+     "label": "SEKIRO"
+    },
+    "b": {
+     "value": "$6/HR",
+     "label": "MOVIE TICKET"
+    },
+    "note": "~$12 ticket for a 2-hour film"
+   },
+   {
+    "kind": "big",
+    "line": "full",
+    "value": "86¢/HR",
+    "label": "if you go 100%",
+    "note": "~70 h completionist · HowLongToBeat averages",
+    "color": "#D4FF3A"
+   }
+  ],
+  "credit": "GAMEPLAY: FROMSOFTWARE / ACTIVISION · DATA: STEAM, HOWLONGTOBEAT",
+  "endLine": "COMMENT A GAME. WE PRICE IT NEXT.",
+  "noCaptions": true
+ }
+}

@@ -1,0 +1,29 @@
+{
+ "id": "d_2026_11_24b",
+ "voice": "am_liam",
+ "speed": 1.25,
+ "gap": 0.12,
+ "mode": "edit",
+ "lines": [
+  {
+   "id": "hook",
+   "text": "Sekiro costs you $2 an hour"
+  },
+  {
+   "id": "math",
+   "text": "$59.99 ÷ 30 hours to beat"
+  },
+  {
+   "id": "movie",
+   "text": "A movie ticket: $6 an hour"
+  },
+  {
+   "id": "full",
+   "text": "Go 100%: 86¢ an hour"
+  },
+  {
+   "id": "out",
+   "text": "Comment a game. We price it next."
+  }
+ ]
+}

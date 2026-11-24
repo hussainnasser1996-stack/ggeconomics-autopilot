@@ -1,0 +1,14 @@
+{
+ "candidates": [
+  {
+   "source": "steam",
+   "game": "Portal 2",
+   "prefer": "Co-op"
+  },
+  {
+   "source": "steam",
+   "game": "Portal 2"
+  }
+ ],
+ "credit": "GAMEPLAY: VALVE"
+}

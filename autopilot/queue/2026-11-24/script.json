@@ -1,0 +1,29 @@
+{
+ "id": "d_2026_11_24",
+ "voice": "am_liam",
+ "speed": 1.25,
+ "gap": 0.12,
+ "mode": "edit",
+ "lines": [
+  {
+   "id": "hook",
+   "text": "Witcher 3: 96¢ an hour. Cyberpunk: $2.31"
+  },
+  {
+   "id": "price",
+   "text": "$49.99 vs $59.99 on Steam"
+  },
+  {
+   "id": "hours",
+   "text": "Witcher 3: 52 hours. Cyberpunk: 26"
+  },
+  {
+   "id": "full",
+   "text": "Go 100%: 29¢ vs 55¢ an hour"
+  },
+  {
+   "id": "out",
+   "text": "Comment a game. We price it next."
+  }
+ ]
+}

@@ -1,0 +1,65 @@
+{
+ "title": "Witcher 3 vs Cyberpunk 2077: 96¢ vs $2.31 an Hour",
+ "caption": "Same studio, very different value. The Witcher 3 is $49.99 on Steam and takes about 52 hours to beat; Cyberpunk 2077 is $59.99 and takes about 26 (HowLongToBeat main story). That's 96¢ an hour vs $2.31, 2.4x apart. Go 100% and it's 29¢ vs 55¢. Our own math.\nWhich one gave you more for your money? And which game should we price next?\n\nSources: Steam store (US price), HowLongToBeat",
+ "ig_first_line": "Send this to your Cyberpunk friend: same studio, but Witcher 3 costs 96¢ an hour vs $2.31.",
+ "hashtags": [
+  "#Witcher3",
+  "#gaming",
+  "#shorts",
+  "#Cyberpunk2077",
+  "#witcher3vscyberpunk2077"
+ ],
+ "title_candidates": [
+  {
+   "t": "Witcher 3 vs Cyberpunk 2077: 96¢ vs $2.31 an Hour",
+   "score": 10
+  },
+  {
+   "t": "Witcher 3 vs Cyberpunk 2077: Which Is Worth Your Money?",
+   "score": 7
+  },
+  {
+   "t": "Same Studio, 2.4x the Price per Hour",
+   "score": 6
+  },
+  {
+   "t": "Cyberpunk Costs You 2.4x More per Hour Than Witcher 3",
+   "score": 7
+  },
+  {
+   "t": "Witcher 3 or Cyberpunk? We Did the Math",
+   "score": 6
+  }
+ ],
+ "localized": {
+  "es": {
+   "title": "Witcher 3 vs Cyberpunk 2077: 96¢ vs $2.31 por hora"
+  },
+  "pt-BR": {
+   "title": "Witcher 3 vs Cyberpunk 2077: 96¢ vs $2.31 por hora"
+  },
+  "ar": {
+   "title": "Witcher 3 ضد Cyberpunk 2077: 96¢ مقابل $2.31 في الساعة"
+  },
+  "hi": {
+   "title": "Witcher 3 vs Cyberpunk 2077: 96¢ vs $2.31 प्रति घंटा"
+  },
+  "id": {
+   "title": "Witcher 3 vs Cyberpunk 2077: 96¢ vs $2.31 per Jam"
+  }
+ },
+ "keywords": [
+  "witcher 3 vs cyberpunk 2077",
+  "witcher 3 is it worth it",
+  "witcher 3 how many hours"
+ ],
+ "hook_style": "versus",
+ "series": "cost_per_hour",
+ "music": "game",
+ "carousel": false,
+ "experiment": {
+  "E2": "COST PER HOUR #14",
+  "E3": "send_trigger",
+  "format": "head_to_head"
+ }
+}
