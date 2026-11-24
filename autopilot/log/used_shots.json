@@ -942,5 +942,43 @@
    "src_id": "steam:256745081",
    "start": 91.6
   }
+ ],
+ "2026-11-24c": [
+  {
+   "src_id": "steam:5926",
+   "start": 16.1
+  },
+  {
+   "src_id": "steam:5926",
+   "start": 79.8
+  },
+  {
+   "src_id": "steam:5926",
+   "start": 8.4
+  },
+  {
+   "src_id": "steam:5926",
+   "start": 65.1
+  },
+  {
+   "src_id": "steam:5926",
+   "start": 29.4
+  },
+  {
+   "src_id": "steam:5926",
+   "start": 11.1
+  },
+  {
+   "src_id": "steam:5926",
+   "start": 27.9
+  },
+  {
+   "src_id": "steam:5926",
+   "start": 42.5
+  },
+  {
+   "src_id": "steam:5926",
+   "start": 82.5
+  }
  ]
 }

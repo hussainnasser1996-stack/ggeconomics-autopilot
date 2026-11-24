@@ -8,11 +8,12 @@ Followers: YouTube 10 subscribers · Instagram 0 followers
 (— = not sent yet / no metrics yet; carousel shows reach when Buffer gives no views)
 | post | YouTube Short | IG Reel | IG carousel | TikTok | total | title |
 |---|---|---|---|---|---|---|
+| 2026-11-24c | — | — | — | — | 0 | Portal 2 Costs You $1.18 an Hour. Worth It? |
 | 2026-11-24b | — | — | — | — | 0 | Sekiro Costs You $2 an Hour. Worth It? |
 | 2026-11-24 | — | — | — | — | 0 | Witcher 3 vs Cyberpunk 2077: 96¢ vs $2.31 an Hour |
 | 2026-11-23c | 958 | 125 | — | — | 1083 | Terraria Costs You 19¢ an Hour. Worth It? |
-| 2026-11-23b | — | 141 | — | — | 141 | Hades Costs You $1.06 an Hour. Worth It? |
-| 2026-11-23 | — | 166 | — | — | 166 | Elden Ring vs Dark Souls 3: $1 vs $1.92 an Hour |
+| 2026-11-23b | — | 142 | — | — | 142 | Hades Costs You $1.06 an Hour. Worth It? |
+| 2026-11-23 | — | 195 | — | — | 195 | Elden Ring vs Dark Souls 3: $1 vs $1.92 an Hour |
 | 2026-11-22c | — | 126 | — | — | 126 | Is Skyrim Worth It in 2026? $1.14 an Hour |
 | 2026-11-22b | 951 | 119 | — | — | 1070 | Witcher 3 Worth It in 2026? 96¢ an Hour |
 | 2026-11-22 | 851 | 127 | — | — | 978 | GTA 6 Sales Numbers: Week 1 in 4 Numbers |
@@ -38,9 +39,10 @@ Followers: YouTube 10 subscribers · Instagram 0 followers
 ## YouTube
 | published | views | avg view % | avg view s | kept 1s % | kept 3s % | 3s vs similar | likes | shares | subs+ | title |
 |---|---|---|---|---|---|---|---|---|---|---|
+| 2026-11-24 | 0 | — | — | — | — | — | 0 | — | — | Portal 2 Costs You $1.18 an Hour. Worth It? |
 | 2026-11-24 | 0 | — | — | — | — | — | 0 | — | — | Sekiro Costs You $2 an Hour. Worth It? |
 | 2026-11-24 | 0 | — | — | — | — | — | 0 | — | — | Witcher 3 vs Cyberpunk 2077: 96¢ vs $2.31 an Hour |
-| 2026-11-23 | 488 | — | — | — | — | — | 2 | — | — | Hades Costs You $1.06 an Hour. Worth It? |
+| 2026-11-23 | 490 | — | — | — | — | — | 2 | — | — | Hades Costs You $1.06 an Hour. Worth It? |
 | 2026-11-23 | 1021 | — | — | — | — | — | 11 | — | — | Is Skyrim Worth It in 2026? $1.14 an Hour |
 | 2026-11-23 | 958 | — | — | — | — | — | 3 | — | — | Terraria Costs You 19¢ an Hour. Worth It? |
 | 2026-11-23 | 951 | — | — | — | — | — | 6 | — | — | Witcher 3 Worth It in 2026? 96¢ an Hour |
@@ -75,8 +77,8 @@ Traffic sources (all time): SHORTS 14277, YT_SEARCH 809, YT_OTHER_PAGE 347, YT_C
 ## Instagram (from Instagram itself)
 | sent | type | views | reach | likes | comments | shares | saves | avg watch s | post |
 |---|---|---|---|---|---|---|---|---|---|
-| 2026-11-23 | reel | 166 | 131 | 1 | 0 | 0 | 0 | 6.4 | Send this to your Dark Souls friend: same $59.99, but Elden  |
-| 2026-11-23 | reel | 141 | 116 | 0 | 0 | 0 | 0 | 5.6 | Send this to the friend with 300 hours in Hades. Its main st |
+| 2026-11-23 | reel | 195 | 158 | 1 | 0 | 0 | 0 | 7.0 | Send this to your Dark Souls friend: same $59.99, but Elden  |
+| 2026-11-23 | reel | 142 | 116 | 0 | 0 | 0 | 0 | 5.6 | Send this to the friend with 300 hours in Hades. Its main st |
 | 2026-11-23 | post | 0 | 0 | 0 | 0 | 0 | 0 | — | We priced 11 games by the hour. Cheapest first: Terraria 19¢ |
 | 2026-11-23 | reel | 125 | 119 | 0 | 0 | 0 | 0 | 4.1 | Send this to the friend with 300 hours in Terraria. Its main |
 | 2026-11-22 | reel | 127 | 107 | 0 | 0 | 0 | 0 | 4.6 | 5.2x Red Dead 2's opening weekend. GTA 6's first week, in 4  |

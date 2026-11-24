@@ -2,7 +2,7 @@
  "spec": {
   "tag": "COST PER HOUR #12",
   "headline": "IS PORTAL 2 WORTH |$9.99|?",
-  "topic": "Portal 2 $9.99 on Steam (US, appid 620, no discount, checked 24 Nov 2026) ÷ ~8.5 h main story (HowLongToBeat as relayed by mirrors/aggregators: 8 h howlongto.gametimes, 8.5 h search aggregate, 9 h IsThereAnyDeal; howlongtobeat.com itself blocked our fetch today) = $1.18/h (range $1.11-1.25); completionist ~22 h (22 h mirror, 23 h ITAD) = 45¢/h; vs ~$12 movie for 2 h = $6/h. E1 arm B: no card on line 1, $/HR card on line 2.",
+  "topic": "Portal 2 $9.99 on Steam (US, appid 620, no discount, checked 24 Nov 2026) \u00f7 ~8.5 h main story (HowLongToBeat as relayed by mirrors/aggregators: 8 h howlongto.gametimes, 8.5 h search aggregate, 9 h IsThereAnyDeal; howlongtobeat.com itself blocked our fetch today) = $1.18/h (range $1.11-1.25); completionist ~22 h (22 h mirror, 23 h ITAD) = 45\u00a2/h; vs ~$12 movie for 2 h = $6/h. E1 arm B: no card on line 1, $/HR card on line 2.",
   "vo": "vo/d_2026_11_24c/vo.wav",
   "timelinePath": "vo/d_2026_11_24c/timeline.json",
   "timeline": {
@@ -11,14 +11,69 @@
    "words": []
   },
   "noBed": true,
-  "clips": [],
+  "clips": [
+   {
+    "src": "d_2026_11_24c",
+    "from": 16.17,
+    "dur": 1.42,
+    "shot": 8
+   },
+   {
+    "src": "d_2026_11_24c",
+    "from": 79.9,
+    "dur": 2.2,
+    "shot": 30
+   },
+   {
+    "src": "d_2026_11_24c",
+    "from": 8.5,
+    "dur": 2.2,
+    "shot": 3
+   },
+   {
+    "src": "d_2026_11_24c",
+    "from": 65.23,
+    "dur": 1.22,
+    "shot": 19
+   },
+   {
+    "src": "d_2026_11_24c",
+    "from": 29.57,
+    "dur": 2.2,
+    "shot": 12
+   },
+   {
+    "src": "d_2026_11_24c",
+    "from": 11.17,
+    "dur": 1.75,
+    "shot": 4
+   },
+   {
+    "src": "d_2026_11_24c",
+    "from": 27.97,
+    "dur": 1.42,
+    "shot": 11
+   },
+   {
+    "src": "d_2026_11_24c",
+    "from": 42.63,
+    "dur": 2.2,
+    "shot": 15
+   },
+   {
+    "src": "d_2026_11_24c",
+    "from": 82.57,
+    "dur": 1.2,
+    "shot": 31
+   }
+  ],
   "cards": [
    {
     "kind": "big",
     "line": "rate",
     "value": "$1.18/HR",
     "label": "Portal 2, main story",
-    "note": "$9.99 Steam ÷ ~8.5 h to beat · our math",
+    "note": "$9.99 Steam \u00f7 ~8.5 h to beat \u00b7 our math",
     "color": "#D4FF3A"
    },
    {
@@ -37,13 +92,13 @@
    {
     "kind": "big",
     "line": "full",
-    "value": "45¢/HR",
+    "value": "45\u00a2/HR",
     "label": "if you go 100%",
-    "note": "~22 h completionist · HowLongToBeat averages",
+    "note": "~22 h completionist \u00b7 HowLongToBeat averages",
     "color": "#D4FF3A"
    }
   ],
-  "credit": "GAMEPLAY: VALVE · DATA: STEAM, HOWLONGTOBEAT",
+  "credit": "GAMEPLAY: VALVE \u00b7 DATA: STEAM, HOWLONGTOBEAT",
   "endLine": "COMMENT A GAME. WE PRICE IT NEXT.",
   "noCaptions": true
  }
