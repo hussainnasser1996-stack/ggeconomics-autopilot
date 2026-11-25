@@ -1,8 +1,8 @@
 {
  "spec": {
   "tag": "COST PER HOUR #15",
-  "headline": "GOD OF WAR COSTS YOU |97¢/HR|",
-  "topic": "God of War (2018) on Steam (US, appid 1593500): $49.99 list, $19.99 now (60% off, 'Weekend Deal, offer ends December 1', checked 25 Nov 2026) ÷ HowLongToBeat main story 20.6 h (id 38050: 74,056 s, 3,370 submissions, read directly 25 Nov) = 97¢/h; at full price $2.43/h; completionist 51 h (183,852 s) = 39¢/h at sale price; vs ~$12 movie for 2 h = $6/h. E1 arm A.",
+  "headline": "GOD OF WAR COSTS YOU |97\u00a2/HR|",
+  "topic": "God of War (2018) on Steam (US, appid 1593500): $49.99 list, $19.99 now (60% off, 'Weekend Deal, offer ends December 1', checked 25 Nov 2026) \u00f7 HowLongToBeat main story 20.6 h (id 38050: 74,056 s, 3,370 submissions, read directly 25 Nov) = 97\u00a2/h; at full price $2.43/h; completionist 51 h (183,852 s) = 39\u00a2/h at sale price; vs ~$12 movie for 2 h = $6/h. E1 arm A.",
   "vo": "vo/d_2026_11_25c/vo.wav",
   "timelinePath": "vo/d_2026_11_25c/timeline.json",
   "timeline": {
@@ -11,34 +11,90 @@
    "words": []
   },
   "noBed": true,
-  "clips": [],
+  "clips": [
+   {
+    "src": "d_2026_11_25c",
+    "from": 65.02,
+    "dur": 2.2,
+    "shot": 10.06
+   },
+   {
+    "src": "d_2026_11_25c",
+    "from": 19.63,
+    "dur": 2.2,
+    "shot": 5.0
+   },
+   {
+    "src": "d_2026_11_25c",
+    "from": 33.03,
+    "dur": 1.36,
+    "shot": 7
+   },
+   {
+    "src": "d_2026_11_25c",
+    "from": 73.52,
+    "dur": 2.2,
+    "shot": 11.01
+   },
+   {
+    "src": "d_2026_11_25c",
+    "from": 45.52,
+    "dur": 1.87,
+    "shot": 8.02
+   },
+   {
+    "src": "d_2026_11_25c",
+    "from": 49.17,
+    "dur": 2.2,
+    "shot": 10.0
+   },
+   {
+    "src": "d_2026_11_25c",
+    "from": 77.62,
+    "dur": 1.24,
+    "shot": 11.03
+   },
+   {
+    "src": "d_2026_11_25c",
+    "from": 67.72,
+    "dur": 2.04,
+    "shot": 10.07
+   },
+   {
+    "src": "d_2026_11_25c",
+    "from": 59.02,
+    "dur": 1.51,
+    "shot": 10.04,
+    "zoom": 1.117
+   }
+  ],
   "cards": [
    {
     "kind": "big",
     "line": "hook",
-    "value": "97¢/HR",
+    "value": "97\u00a2/HR",
     "label": "God of War, main story",
-    "note": "$19.99 Steam sale ÷ 20.6 h to beat · our math",
+    "note": "$19.99 Steam sale \u00f7 20.6 h to beat \u00b7 our math",
     "color": "#D4FF3A"
    },
    {
     "kind": "pair",
     "line": "full",
     "a": {
-     "value": "97¢/HR",
+     "value": "97\u00a2/HR",
      "label": "ON SALE"
     },
     "b": {
      "value": "$2.43/HR",
      "label": "FULL $49.99"
     },
-    "note": "Steam US · sale ends 1 Dec"
+    "note": "Steam US \u00b7 sale ends 1 Dec"
    },
    {
     "kind": "pair",
     "line": "movie",
     "a": {
-     "value": "97¢/HR",
+     "value": "97\u00a2/HR",
      "label": "GOD OF WAR"
     },
     "b": {
@@ -48,7 +104,7 @@
     "note": "~$12 ticket for a 2-hour film"
    }
   ],
-  "credit": "GAMEPLAY: SANTA MONICA STUDIO / PLAYSTATION · DATA: STEAM, HOWLONGTOBEAT",
+  "credit": "GAMEPLAY: SANTA MONICA STUDIO / PLAYSTATION \u00b7 DATA: STEAM, HOWLONGTOBEAT",
   "endLine": "COMMENT A GAME. WE PRICE IT NEXT.",
   "noCaptions": true
  }

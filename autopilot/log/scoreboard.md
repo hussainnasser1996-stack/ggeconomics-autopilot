@@ -8,6 +8,7 @@ Followers: YouTube 10 subscribers · Instagram 0 followers
 (— = not sent yet / no metrics yet; carousel shows reach when Buffer gives no views)
 | post | YouTube Short | IG Reel | IG carousel | TikTok | total | title |
 |---|---|---|---|---|---|---|
+| 2026-11-25c | — | — | — | — | 0 | God of War Costs You 97¢ an Hour. Worth It? |
 | 2026-11-25b | — | — | — | — | 0 | Fallout 3 Costs You 19¢ an Hour. Worth It? |
 | 2026-11-25 | — | — | — | — | 0 | 5 Steam Black Friday Deals Under $1 an Hour |
 | 2026-11-24c | — | — | — | — | 0 | Portal 2 Costs You $1.18 an Hour. Worth It? |
@@ -24,7 +25,7 @@ Followers: YouTube 10 subscribers · Instagram 0 followers
 | 2026-11-21 | 1016 | 121 | — | — | 1137 | GTA 6 Sales: 32.5M Copies. Are You One? |
 | 2026-11-20c | 1640 | 151 | — | — | 1791 | Hollow Knight Costs You 56¢ an Hour. Worth It? |
 | 2026-11-20b | 1136 | 128 | — | — | 1264 | GTA 6 Got 8 Game Awards Nominations Before Launch |
-| 2026-11-20 | 1236 | 118 | — | — | 1354 | GTA 6 Sales: Est. 19M Copies. Did You Buy It? |
+| 2026-11-20 | 1234 | 118 | — | — | 1352 | GTA 6 Sales: Est. 19M Copies. Did You Buy It? |
 | 2026-11-19c | 1667 | 149 | — | — | 1816 | Cyberpunk 2077 Costs You $2.31 an Hour. Worth It? |
 | 2026-11-19b | 522 | 113 | — | — | 635 | GTA 6 vs GTA 5: You Waited 4,811 Days |
 | 2026-11-19 | 985 | 249 | — | — | 1234 | GTA 6 Is Out: Your Console Runs It at 30 FPS |
@@ -41,11 +42,12 @@ Followers: YouTube 10 subscribers · Instagram 0 followers
 ## YouTube
 | published | views | avg view % | avg view s | kept 1s % | kept 3s % | 3s vs similar | likes | shares | subs+ | title |
 |---|---|---|---|---|---|---|---|---|---|---|
+| 2026-11-25 | 0 | — | — | — | — | — | 0 | — | — | God of War Costs You 97¢ an Hour. Worth It? |
 | 2026-11-25 | 0 | — | — | — | — | — | 0 | — | — | Fallout 3 Costs You 19¢ an Hour. Worth It? |
 | 2026-11-25 | 0 | — | — | — | — | — | 0 | — | — | 5 Steam Black Friday Deals Under $1 an Hour |
-| 2026-11-24 | 245 | — | — | — | — | — | 1 | — | — | Witcher 3 vs Cyberpunk 2077: 96¢ vs $2.31 an Hour |
-| 2026-11-24 | 112 | — | — | — | — | — | 1 | — | — | Sekiro Costs You $2 an Hour. Worth It? |
-| 2026-11-24 | 1046 | — | — | — | — | — | 7 | — | — | Portal 2 Costs You $1.18 an Hour. Worth It? |
+| 2026-11-24 | 253 | — | — | — | — | — | 1 | — | — | Witcher 3 vs Cyberpunk 2077: 96¢ vs $2.31 an Hour |
+| 2026-11-24 | 138 | — | — | — | — | — | 1 | — | — | Sekiro Costs You $2 an Hour. Worth It? |
+| 2026-11-24 | 1049 | — | — | — | — | — | 7 | — | — | Portal 2 Costs You $1.18 an Hour. Worth It? |
 | 2026-11-23 | 502 | — | — | — | — | — | 2 | — | — | Hades Costs You $1.06 an Hour. Worth It? |
 | 2026-11-23 | 1234 | — | — | — | — | — | 12 | — | — | Is Skyrim Worth It in 2026? $1.14 an Hour |
 | 2026-11-23 | 970 | — | — | — | — | — | 3 | — | — | Terraria Costs You 19¢ an Hour. Worth It? |
@@ -55,7 +57,7 @@ Followers: YouTube 10 subscribers · Instagram 0 followers
 | 2026-11-21 | 1016 | 91.6 | 12 | 139 | 128 | 0.47 | 4 | 0 | 0 | GTA 6 Sales: 32.5M Copies. Are You One? |
 | 2026-11-21 | 1361 | 74.8 | 10 | 121 | 113 | 0.43 | 7 | 0 | 1 | Red Dead 2 Costs You $1.18 an Hour. Worth It? |
 | 2026-11-21 | 1282 | 83.8 | 11 | 134 | 122 | 0.57 | 4 | 1 | 1 | Stardew Valley Costs You 28¢ an Hour. Worth It? |
-| 2026-11-21 | 1236 | 61.5 | 10 | 114 | 113 | 0.31 | 6 | 0 | 1 | GTA 6 Sales: Est. 19M Copies. Did You Buy It? |
+| 2026-11-21 | 1234 | 61.5 | 10 | 114 | 113 | 0.31 | 6 | 0 | 1 | GTA 6 Sales: Est. 19M Copies. Did You Buy It? |
 | 2026-11-20 | 1136 | 62.9 | 11 | 116 | 114 | 0.36 | 7 | 1 | 0 | GTA 6 Got 8 Game Awards Nominations Before Launch |
 | 2026-11-20 | 1640 | 93.1 | 13 | 128 | 121 | 0.66 | 19 | 1 | 1 | Hollow Knight Costs You 56¢ an Hour. Worth It? |
 | 2026-11-19 | 985 | 70.9 | 16 | 114 | 110 | 0.32 | 14 | 0 | 0 | GTA 6 Is Out: Your Console Runs It at 30 FPS |
