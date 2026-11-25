@@ -1,5 +1,6 @@
 # Post history (newest first)
 
+- 2026-11-25 · 5 Steam Black Friday Deals Under $1 an Hour · footage: DARK SOULS™ III — DS3 _ The Movie (EN-ESRB) · VO similarity 1.00 ·  · due 23:00 UTC
 - 2026-11-24c · Portal 2 Costs You $1.18 an Hour. Worth It? · footage: Portal 2 — Portal 2 Co-op Trailer · VO similarity 1.00 ·  · due 23:00 UTC
 - 2026-11-24b · Sekiro Costs You $2 an Hour. Worth It? · footage: Sekiro™: Shadows Die Twice - GOTY Edition — Sekiro: Shadows Die Twice - Launch Trailer · VO similarity 1.00 ·  · due 23:00 UTC
 - 2026-11-24 · Witcher 3 vs Cyberpunk 2077: 96¢ vs $2.31 an Hour · footage: Cyberpunk 2077 — Cyberpunk 2077: Ultimate Edition — City of Dreams · VO similarity 1.00 ·  · due 23:00 UTC

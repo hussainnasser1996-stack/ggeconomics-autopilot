@@ -1,0 +1,22 @@
+{
+ "due": "2026-11-25T23:00:00.000Z",
+ "ids": {},
+ "urls": {
+  "video": "https://raw.githubusercontent.com/hussainnasser1996-stack/savestate-media/main/video/2026-11-25-a7d07fea.mp4",
+  "images": [
+   "https://raw.githubusercontent.com/hussainnasser1996-stack/savestate-media/main/img/2026-11-25-a7d07fea-slide_1.png",
+   "https://raw.githubusercontent.com/hussainnasser1996-stack/savestate-media/main/img/2026-11-25-a7d07fea-slide_2.png",
+   "https://raw.githubusercontent.com/hussainnasser1996-stack/savestate-media/main/img/2026-11-25-a7d07fea-slide_3.png",
+   "https://raw.githubusercontent.com/hussainnasser1996-stack/savestate-media/main/img/2026-11-25-a7d07fea-slide_4.png",
+   "https://raw.githubusercontent.com/hussainnasser1996-stack/savestate-media/main/img/2026-11-25-a7d07fea-slide_5.png"
+  ]
+ },
+ "direct": {
+  "youtube_short": "pqPrl4AgZwo"
+ },
+ "failed": {
+  "instagram_reel": "Buffer call failed: HTTP Error 429: Too Many Requests",
+  "instagram_carousel": "Buffer call failed: HTTP Error 429: Too Many Requests",
+  "tiktok_video": "Buffer call failed: HTTP Error 429: Too Many Requests"
+ }
+}

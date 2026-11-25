@@ -1,0 +1,3 @@
+VO similarity 1.00
+duration 14.3s
+PASS
