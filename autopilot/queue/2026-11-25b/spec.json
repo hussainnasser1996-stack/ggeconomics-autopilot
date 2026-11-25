@@ -2,7 +2,7 @@
  "spec": {
   "tag": "COST PER HOUR #16",
   "headline": "IS FALLOUT 3 WORTH |$4.99|?",
-  "topic": "Fallout 3: Game of the Year Edition on Steam (US, appid 22370): $19.99 list, $4.99 now (75% off, 'Special Promotion, offer ends November 30', checked 25 Nov 2026) ÷ HowLongToBeat main story 26 h (GOTY entry id 3342: 93,634 s, 406 submissions; base game id 3340: 22 h, read directly 25 Nov) = 19¢/h; full price 77¢/h; completionist 106 h (381,027 s) = 5¢/h; vs ~$12 movie for 2 h = $6/h. E1 arm B: no card on line 1, $/HR card on line 2.",
+  "topic": "Fallout 3: Game of the Year Edition on Steam (US, appid 22370): $19.99 list, $4.99 now (75% off, 'Special Promotion, offer ends November 30', checked 25 Nov 2026) \u00f7 HowLongToBeat main story 26 h (GOTY entry id 3342: 93,634 s, 406 submissions; base game id 3340: 22 h, read directly 25 Nov) = 19\u00a2/h; full price 77\u00a2/h; completionist 106 h (381,027 s) = 5\u00a2/h; vs ~$12 movie for 2 h = $6/h. E1 arm B: no card on line 1, $/HR card on line 2.",
   "vo": "vo/d_2026_11_25b/vo.wav",
   "timelinePath": "vo/d_2026_11_25b/timeline.json",
   "timeline": {
@@ -11,34 +11,89 @@
    "words": []
   },
   "noBed": true,
-  "clips": [],
+  "clips": [
+   {
+    "src": "d_2026_11_25b",
+    "from": 130.38,
+    "dur": 2.2,
+    "shot": 27.01
+   },
+   {
+    "src": "d_2026_11_25b",
+    "from": 148.63,
+    "dur": 2.2,
+    "shot": 33
+   },
+   {
+    "src": "d_2026_11_25b",
+    "from": 114.63,
+    "dur": 1.69,
+    "shot": 19
+   },
+   {
+    "src": "d_2026_11_25b",
+    "from": 140.75,
+    "dur": 1.24,
+    "shot": 28.02
+   },
+   {
+    "src": "d_2026_11_25b",
+    "from": 124.62,
+    "dur": 2.14,
+    "shot": 26.01
+   },
+   {
+    "src": "d_2026_11_25b",
+    "from": 152.57,
+    "dur": 1.35,
+    "shot": 35
+   },
+   {
+    "src": "d_2026_11_25b",
+    "from": 144.78,
+    "dur": 1.54,
+    "shot": 30.03
+   },
+   {
+    "src": "d_2026_11_25b",
+    "from": 151.17,
+    "dur": 1.22,
+    "shot": 34
+   },
+   {
+    "src": "d_2026_11_25b",
+    "from": 132.53,
+    "dur": 1.99,
+    "shot": 27.01
+   }
+  ],
   "cards": [
    {
     "kind": "big",
     "line": "rate",
-    "value": "19¢/HR",
+    "value": "19\u00a2/HR",
     "label": "Fallout 3 GOTY, main story",
-    "note": "$4.99 Steam sale ÷ 26 h to beat · our math",
+    "note": "$4.99 Steam sale \u00f7 26 h to beat \u00b7 our math",
     "color": "#D4FF3A"
    },
    {
     "kind": "pair",
     "line": "full",
     "a": {
-     "value": "19¢/HR",
+     "value": "19\u00a2/HR",
      "label": "ON SALE"
     },
     "b": {
-     "value": "77¢/HR",
+     "value": "77\u00a2/HR",
      "label": "FULL $19.99"
     },
-    "note": "Steam US · sale ends 30 Nov"
+    "note": "Steam US \u00b7 sale ends 30 Nov"
    },
    {
     "kind": "pair",
     "line": "movie",
     "a": {
-     "value": "19¢/HR",
+     "value": "19\u00a2/HR",
      "label": "FALLOUT 3"
     },
     "b": {
@@ -48,7 +103,7 @@
     "note": "~$12 ticket for a 2-hour film"
    }
   ],
-  "credit": "GAMEPLAY: BETHESDA · DATA: STEAM, HOWLONGTOBEAT",
+  "credit": "GAMEPLAY: BETHESDA \u00b7 DATA: STEAM, HOWLONGTOBEAT",
   "endLine": "COMMENT A GAME. WE PRICE IT NEXT.",
   "noCaptions": true
  }
