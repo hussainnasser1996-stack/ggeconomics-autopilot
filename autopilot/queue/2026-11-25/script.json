@@ -1,0 +1,33 @@
+{
+ "id": "d_2026_11_25",
+ "voice": "am_liam",
+ "speed": 1.25,
+ "gap": 0.12,
+ "mode": "edit",
+ "lines": [
+  {
+   "id": "hook",
+   "text": "5 Steam deals under $1 an hour"
+  },
+  {
+   "id": "r5",
+   "text": "#5 Dark Souls 3: 96¢ an hour"
+  },
+  {
+   "id": "r4",
+   "text": "#4 Baldur's Gate 3: 58¢"
+  },
+  {
+   "id": "r3",
+   "text": "#3 Skyrim: 47¢"
+  },
+  {
+   "id": "r2",
+   "text": "#2 Red Dead 2: 30¢"
+  },
+  {
+   "id": "r1",
+   "text": "#1 Hades: 26¢ an hour"
+  }
+ ]
+}

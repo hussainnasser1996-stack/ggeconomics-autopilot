@@ -1,0 +1,14 @@
+{
+ "candidates": [
+  {
+   "source": "steam",
+   "game": "Red Dead Redemption 2",
+   "prefer": "Launch"
+  },
+  {
+   "source": "steam",
+   "game": "Dark Souls III"
+  }
+ ],
+ "credit": "GAMEPLAY: ROCKSTAR GAMES"
+}

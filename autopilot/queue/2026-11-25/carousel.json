@@ -1,0 +1,168 @@
+{
+ "slides": [
+  {
+   "bg": {
+    "at": null
+   },
+   "kicker": "COST PER HOUR · BLACK FRIDAY WEEK",
+   "head": "WE PRICED |15 GAMES|\nBY THE HOUR",
+   "sub": "Today's Steam price ÷ hours to beat. A movie is $6 an hour. Cheapest first →"
+  },
+  {
+   "bg": {
+    "at": null
+   },
+   "kicker": "#1–5 · THE CHEAPEST",
+   "card": {
+    "kind": "bars",
+    "line": "",
+    "title": "PER HOUR · MAIN STORY",
+    "unit": "¢",
+    "bars": [
+     {
+      "label": "FALLOUT 3",
+      "lo": 19,
+      "color": "#D4FF3A",
+      "text": "19¢"
+     },
+     {
+      "label": "TERRARIA",
+      "lo": 19,
+      "color": "#D4FF3A",
+      "text": "19¢"
+     },
+     {
+      "label": "HADES",
+      "lo": 26,
+      "color": "#D4FF3A",
+      "text": "26¢"
+     },
+     {
+      "label": "STARDEW\nVALLEY",
+      "lo": 28,
+      "color": "#D4FF3A",
+      "text": "28¢"
+     },
+     {
+      "label": "RED DEAD\n2",
+      "lo": 30,
+      "color": "#D4FF3A",
+      "text": "30¢"
+     }
+    ],
+    "note": "Steam US price on 25 Nov ÷ HowLongToBeat main story"
+   }
+  },
+  {
+   "bg": {
+    "at": null
+   },
+   "kicker": "#6–10",
+   "card": {
+    "kind": "bars",
+    "line": "",
+    "title": "PER HOUR · MAIN STORY",
+    "unit": "¢",
+    "bars": [
+     {
+      "label": "SKYRIM",
+      "lo": 47,
+      "color": "#3AE0FF",
+      "text": "47¢"
+     },
+     {
+      "label": "HOLLOW\nKNIGHT",
+      "lo": 56,
+      "color": "#3AE0FF",
+      "text": "56¢"
+     },
+     {
+      "label": "BALDUR'S\nGATE 3",
+      "lo": 58,
+      "color": "#3AE0FF",
+      "text": "58¢"
+     },
+     {
+      "label": "THE\nWITCHER 3",
+      "lo": 96,
+      "color": "#3AE0FF",
+      "text": "96¢"
+     },
+     {
+      "label": "DARK\nSOULS 3",
+      "lo": 96,
+      "color": "#3AE0FF",
+      "text": "96¢"
+     }
+    ],
+    "note": "Steam US price on 25 Nov ÷ HowLongToBeat main story"
+   }
+  },
+  {
+   "bg": {
+    "at": null
+   },
+   "kicker": "#11–15 · THE PRICIEST",
+   "card": {
+    "kind": "bars",
+    "line": "",
+    "title": "PER HOUR · MAIN STORY",
+    "unit": "¢",
+    "bars": [
+     {
+      "label": "GOD OF\nWAR",
+      "lo": 97,
+      "color": "#3AE0FF",
+      "text": "97¢"
+     },
+     {
+      "label": "ELDEN\nRING",
+      "lo": 100,
+      "color": "#3AE0FF",
+      "text": "$1.00"
+     },
+     {
+      "label": "PORTAL 2",
+      "lo": 118,
+      "color": "#3AE0FF",
+      "text": "$1.18"
+     },
+     {
+      "label": "SEKIRO",
+      "lo": 200,
+      "color": "#3AE0FF",
+      "text": "$2.00"
+     },
+     {
+      "label": "CYBER-\nPUNK",
+      "lo": 229,
+      "color": "#3AE0FF",
+      "text": "$2.29"
+     }
+    ],
+    "note": "Steam US price on 25 Nov ÷ HowLongToBeat main story"
+   }
+  },
+  {
+   "bg": {
+    "at": null
+   },
+   "kicker": "THE TAKEAWAY",
+   "card": {
+    "kind": "pair",
+    "line": "",
+    "a": {
+     "value": "19¢",
+     "label": "CHEAPEST HOUR"
+    },
+    "b": {
+     "value": "$6",
+     "label": "MOVIE HOUR"
+    },
+    "note": "all 15 beat a movie ticket"
+   },
+   "sub": "Comment a game. We price it next. Follow for #18."
+  }
+ ],
+ "credit": "FOOTAGE: ROCKSTAR GAMES"
+}

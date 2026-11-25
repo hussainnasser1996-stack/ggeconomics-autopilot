@@ -1,0 +1,61 @@
+{
+ "spec": {
+  "tag": "COST PER HOUR #17",
+  "headline": "5 STEAM DEALS UNDER |$1 AN HOUR|",
+  "topic": "Ranked 5→1 (test slot): Black Friday-week Steam discounts (US, cc=us, checked 25 Nov 2026) ÷ HowLongToBeat main story (ids/seconds as read for our earlier posts). #5 Dark Souls III $29.99 (50% off, ends 7 Dec) ÷ 31.2 h = 96¢/h; #4 Baldur's Gate 3 $41.99 (30% off, ends 30 Nov) ÷ 73 h = 58¢/h; #3 Skyrim Special Edition $16.49 (67% off, ends 30 Nov) ÷ 35.3 h = 47¢/h; #2 Red Dead Redemption 2 $14.99 (75% off, ends 7 Dec) ÷ 50.7 h = 30¢/h; #1 Hades $6.24 (75% off, ends 1 Dec) ÷ 23.6 h = 26¢/h. Publisher promotions on Steam, not a storewide Steam sale. Our math.",
+  "vo": "vo/d_2026_11_25/vo.wav",
+  "timelinePath": "vo/d_2026_11_25/timeline.json",
+  "timeline": {
+   "duration": 1,
+   "lines": [],
+   "words": []
+  },
+  "noBed": true,
+  "clips": [],
+  "cards": [
+   {
+    "kind": "big",
+    "line": "r5",
+    "value": "96¢/HR",
+    "label": "#5 Dark Souls III",
+    "note": "$29.99 sale ÷ 31 h · ends 7 Dec",
+    "color": "#3AE0FF"
+   },
+   {
+    "kind": "big",
+    "line": "r4",
+    "value": "58¢/HR",
+    "label": "#4 Baldur's Gate 3",
+    "note": "$41.99 sale ÷ 73 h · ends 30 Nov",
+    "color": "#3AE0FF"
+   },
+   {
+    "kind": "big",
+    "line": "r3",
+    "value": "47¢/HR",
+    "label": "#3 Skyrim SE",
+    "note": "$16.49 sale ÷ 35 h · ends 30 Nov",
+    "color": "#3AE0FF"
+   },
+   {
+    "kind": "big",
+    "line": "r2",
+    "value": "30¢/HR",
+    "label": "#2 Red Dead 2",
+    "note": "$14.99 sale ÷ 51 h · ends 7 Dec",
+    "color": "#3AE0FF"
+   },
+   {
+    "kind": "big",
+    "line": "r1",
+    "value": "26¢/HR",
+    "label": "#1 Hades",
+    "note": "$6.24 sale ÷ 23.6 h · ends 1 Dec",
+    "color": "#D4FF3A"
+   }
+  ],
+  "credit": "GAMEPLAY: ROCKSTAR GAMES · DATA: STEAM, HOWLONGTOBEAT",
+  "endLine": "COMMENT A GAME. WE PRICE IT NEXT.",
+  "noCaptions": true
+ }
+}

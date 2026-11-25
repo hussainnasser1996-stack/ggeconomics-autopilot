@@ -1,0 +1,66 @@
+{
+ "title": "Fallout 3 Costs You 19¢ an Hour. Worth It?",
+ "caption": "Fallout 3 Game of the Year Edition is $4.99 on Steam until 30 Nov (75% off) and takes about 26 hours to beat (HowLongToBeat, main story): 19¢ an hour. Full price is 77¢ an hour. A $12 movie ticket for 2 hours is $6 an hour. Our own math.\nWhich game should we price next?\n\nSources: Steam store (US price, 25 Nov), HowLongToBeat",
+ "ig_first_line": "Send this to the friend who still talks about Megaton: Fallout 3 costs 19¢ an hour this week.",
+ "hashtags": [
+  "#Fallout3",
+  "#gaming",
+  "#shorts",
+  "#gamingnews",
+  "#fallout3worthit"
+ ],
+ "title_candidates": [
+  {
+   "t": "Fallout 3 Costs You 19¢ an Hour. Worth It?",
+   "score": 9
+  },
+  {
+   "t": "Is Fallout 3 Worth It in 2026? $4.99",
+   "score": 9
+  },
+  {
+   "t": "Fallout 3 Is $4.99: 19¢ an Hour",
+   "score": 7
+  },
+  {
+   "t": "Fallout 3 Is 30x Cheaper Than a Movie",
+   "score": 6
+  },
+  {
+   "t": "Fallout 3 Cost per Hour",
+   "score": 4
+  }
+ ],
+ "localized": {
+  "es": {
+   "title": "Fallout 3 te cuesta 19¢ por hora. ¿Vale la pena?"
+  },
+  "pt-BR": {
+   "title": "Fallout 3 custa 19¢ por hora. Vale a pena?"
+  },
+  "ar": {
+   "title": "Fallout 3 تكلفك 19¢ في الساعة. هل تستحق؟"
+  },
+  "hi": {
+   "title": "Fallout 3 की कीमत 19¢ प्रति घंटा. क्या लायक है?"
+  },
+  "id": {
+   "title": "Fallout 3 Cuma 19¢ per Jam. Worth It?"
+  }
+ },
+ "keywords": [
+  "fallout 3 is it worth it",
+  "fallout 3 worth playing",
+  "fallout 3 goty review"
+ ],
+ "hook_style": "question",
+ "series": "cost_per_hour",
+ "music": "game",
+ "carousel": false,
+ "publish_time_utc": "17:30",
+ "experiment": {
+  "E1": "B",
+  "E2": "COST PER HOUR #16",
+  "E3": "send_trigger"
+ }
+}

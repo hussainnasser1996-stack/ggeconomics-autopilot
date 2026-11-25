@@ -1,0 +1,29 @@
+{
+ "id": "d_2026_11_25c",
+ "voice": "am_liam",
+ "speed": 1.25,
+ "gap": 0.12,
+ "mode": "edit",
+ "lines": [
+  {
+   "id": "hook",
+   "text": "God of War costs you 97¢ an hour"
+  },
+  {
+   "id": "math",
+   "text": "$19.99 on sale ÷ 20.6 hours to beat"
+  },
+  {
+   "id": "full",
+   "text": "Full price: $2.43 an hour"
+  },
+  {
+   "id": "movie",
+   "text": "A movie ticket: $6 an hour"
+  },
+  {
+   "id": "out",
+   "text": "Comment a game. We price it next."
+  }
+ ]
+}

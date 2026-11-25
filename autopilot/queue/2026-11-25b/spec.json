@@ -1,0 +1,55 @@
+{
+ "spec": {
+  "tag": "COST PER HOUR #16",
+  "headline": "IS FALLOUT 3 WORTH |$4.99|?",
+  "topic": "Fallout 3: Game of the Year Edition on Steam (US, appid 22370): $19.99 list, $4.99 now (75% off, 'Special Promotion, offer ends November 30', checked 25 Nov 2026) ÷ HowLongToBeat main story 26 h (GOTY entry id 3342: 93,634 s, 406 submissions; base game id 3340: 22 h, read directly 25 Nov) = 19¢/h; full price 77¢/h; completionist 106 h (381,027 s) = 5¢/h; vs ~$12 movie for 2 h = $6/h. E1 arm B: no card on line 1, $/HR card on line 2.",
+  "vo": "vo/d_2026_11_25b/vo.wav",
+  "timelinePath": "vo/d_2026_11_25b/timeline.json",
+  "timeline": {
+   "duration": 1,
+   "lines": [],
+   "words": []
+  },
+  "noBed": true,
+  "clips": [],
+  "cards": [
+   {
+    "kind": "big",
+    "line": "rate",
+    "value": "19¢/HR",
+    "label": "Fallout 3 GOTY, main story",
+    "note": "$4.99 Steam sale ÷ 26 h to beat · our math",
+    "color": "#D4FF3A"
+   },
+   {
+    "kind": "pair",
+    "line": "full",
+    "a": {
+     "value": "19¢/HR",
+     "label": "ON SALE"
+    },
+    "b": {
+     "value": "77¢/HR",
+     "label": "FULL $19.99"
+    },
+    "note": "Steam US · sale ends 30 Nov"
+   },
+   {
+    "kind": "pair",
+    "line": "movie",
+    "a": {
+     "value": "19¢/HR",
+     "label": "FALLOUT 3"
+    },
+    "b": {
+     "value": "$6/HR",
+     "label": "MOVIE TICKET"
+    },
+    "note": "~$12 ticket for a 2-hour film"
+   }
+  ],
+  "credit": "GAMEPLAY: BETHESDA · DATA: STEAM, HOWLONGTOBEAT",
+  "endLine": "COMMENT A GAME. WE PRICE IT NEXT.",
+  "noCaptions": true
+ }
+}

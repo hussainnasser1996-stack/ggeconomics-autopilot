@@ -1,0 +1,66 @@
+{
+ "title": "God of War Costs You 97¢ an Hour. Worth It?",
+ "caption": "God of War is $19.99 on Steam this week (60% off until 1 Dec) and takes about 20.6 hours to beat (HowLongToBeat, main story): 97¢ an hour. At the full $49.99 it's $2.43 an hour. A $12 movie ticket for 2 hours is $6 an hour. Our own math.\nWhich game should we price next?\n\nSources: Steam store (US price, 25 Nov), HowLongToBeat",
+ "ig_first_line": "Send this to the friend who still hasn't played God of War: 97¢ an hour this week, $2.43 at full price.",
+ "hashtags": [
+  "#GodOfWar",
+  "#gaming",
+  "#shorts",
+  "#gamingnews",
+  "#godofwarworthit"
+ ],
+ "title_candidates": [
+  {
+   "t": "God of War Costs You 97¢ an Hour. Worth It?",
+   "score": 9
+  },
+  {
+   "t": "God of War Is $19.99: Worth It in 2026?",
+   "score": 8
+  },
+  {
+   "t": "God of War: 97¢ vs $2.43 an Hour",
+   "score": 7
+  },
+  {
+   "t": "God of War Is 6x Cheaper Than a Movie",
+   "score": 6
+  },
+  {
+   "t": "God of War Cost per Hour",
+   "score": 4
+  }
+ ],
+ "localized": {
+  "es": {
+   "title": "God of War te cuesta 97¢ por hora. ¿Vale la pena?"
+  },
+  "pt-BR": {
+   "title": "God of War custa 97¢ por hora. Vale a pena?"
+  },
+  "ar": {
+   "title": "God of War تكلفك 97¢ في الساعة. هل تستحق؟"
+  },
+  "hi": {
+   "title": "God of War की कीमत 97¢ प्रति घंटा. क्या लायक है?"
+  },
+  "id": {
+   "title": "God of War Cuma 97¢ per Jam. Worth It?"
+  }
+ },
+ "keywords": [
+  "god of war is it worth it",
+  "god of war worth it 2026",
+  "god of war pc gameplay"
+ ],
+ "hook_style": "number",
+ "series": "cost_per_hour",
+ "music": "game",
+ "carousel": false,
+ "publish_time_utc": "12:00",
+ "experiment": {
+  "E1": "A",
+  "E2": "COST PER HOUR #15",
+  "E3": "send_trigger"
+ }
+}

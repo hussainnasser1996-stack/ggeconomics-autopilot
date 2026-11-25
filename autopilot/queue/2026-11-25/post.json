@@ -1,0 +1,67 @@
+{
+ "title": "5 Steam Black Friday Deals Under $1 an Hour",
+ "caption": "Black Friday week on Steam, ranked by what an hour costs you: Dark Souls 3 96¢, Baldur's Gate 3 58¢, Skyrim 47¢, Red Dead 2 30¢, Hades 26¢. Sale price ÷ HowLongToBeat main-story hours, our own math. These are publisher deals on Steam (most end 30 Nov-7 Dec), not a storewide Steam sale.\nWhich deal are you grabbing? Comment a game and we price it next.\n\nSources: Steam store (US prices, 25 Nov), HowLongToBeat",
+ "ig_first_line": "Send this to the friend with $20 to spend this weekend: Hades is 26¢ an hour on Steam right now.",
+ "hashtags": [
+  "#SteamDeals",
+  "#gaming",
+  "#shorts",
+  "#BlackFriday",
+  "#steamblackfriday"
+ ],
+ "title_candidates": [
+  {
+   "t": "5 Steam Black Friday Deals Under $1 an Hour",
+   "score": 10
+  },
+  {
+   "t": "Steam Black Friday: Your $20 Buys 3 Games",
+   "score": 7
+  },
+  {
+   "t": "Top 5 Steam Black Friday Deals, Ranked by Hour",
+   "score": 8
+  },
+  {
+   "t": "Hades Is 26¢ an Hour This Black Friday",
+   "score": 7
+  },
+  {
+   "t": "Best Steam Deals This Week",
+   "score": 4
+  }
+ ],
+ "localized": {
+  "es": {
+   "title": "5 ofertas de Steam por Black Friday a menos de $1 la hora"
+  },
+  "pt-BR": {
+   "title": "5 ofertas da Steam na Black Friday por menos de $1 a hora"
+  },
+  "ar": {
+   "title": "5 عروض Steam للجمعة السوداء بأقل من $1 في الساعة"
+  },
+  "hi": {
+   "title": "Steam Black Friday: $1 प्रति घंटे से कम के 5 डील"
+  },
+  "id": {
+   "title": "5 Diskon Steam Black Friday di Bawah $1 per Jam"
+  }
+ },
+ "keywords": [
+  "steam black friday sale",
+  "steam black friday",
+  "steam black friday 2026"
+ ],
+ "hook_style": "ranking",
+ "series": "top5",
+ "music": "game",
+ "carousel": true,
+ "carousel_caption": "We priced 15 games by the hour at today's Steam prices. Cheapest first: Fallout 3 19¢, Terraria 19¢, Hades 26¢, Stardew Valley 28¢, Red Dead 2 30¢. The priciest, Cyberpunk 2077, is $2.29, still under a $6 movie hour. Save this for your weekend shopping.\nSteam US price on 25 Nov ÷ HowLongToBeat main-story hours, our own math. Sale prices end 30 Nov-7 Dec.\nWhich game should we price next? Comment it and we'll add it.\n\nSources: Steam store (US prices, 25 Nov), HowLongToBeat",
+ "experiment": {
+  "E2": "COST PER HOUR #17",
+  "E3": "send_trigger",
+  "E4": "leaderboard_2",
+  "format": "ranked_5_to_1"
+ }
+}
