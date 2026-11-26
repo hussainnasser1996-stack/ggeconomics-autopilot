@@ -1,0 +1,66 @@
+{
+ "title": "Detroit Costs You 33¢ an Hour. Worth It?",
+ "caption": "Detroit: Become Human is $3.99 on Steam this week (90% off $39.99) and the main story takes about 12 hours: 33¢ an hour. Full price is $3.33 an hour. A $12 movie ticket for 2 hours is $6 an hour. Our own math.\nWhich game should we price next?\n\nSources: Steam store (US price, 26 Nov), HowLongToBeat",
+ "ig_first_line": "Send this to the friend who got the worst ending in Detroit: it's $3.99 this week, 33¢ an hour.",
+ "hashtags": [
+  "#DetroitBecomeHuman",
+  "#gaming",
+  "#shorts",
+  "#gamingnews",
+  "#detroitbecomehuman"
+ ],
+ "title_candidates": [
+  {
+   "t": "Detroit Costs You 33¢ an Hour. Worth It?",
+   "score": 9
+  },
+  {
+   "t": "Detroit: Become Human Is $3.99. Worth It?",
+   "score": 8
+  },
+  {
+   "t": "Detroit Become Human Steam Sale: 33¢ an Hour",
+   "score": 8
+  },
+  {
+   "t": "Detroit Is 18x Cheaper Than a Movie",
+   "score": 6
+  },
+  {
+   "t": "Detroit Cost per Hour",
+   "score": 4
+  }
+ ],
+ "localized": {
+  "es": {
+   "title": "Detroit te cuesta 33¢ por hora. ¿Vale la pena?"
+  },
+  "pt-BR": {
+   "title": "Detroit custa 33¢ por hora. Vale a pena?"
+  },
+  "ar": {
+   "title": "Detroit تكلفك 33¢ في الساعة. هل تستحق؟"
+  },
+  "hi": {
+   "title": "Detroit की कीमत 33¢ प्रति घंटा. क्या लायक है?"
+  },
+  "id": {
+   "title": "Detroit Cuma 33¢ per Jam. Worth It?"
+  }
+ },
+ "keywords": [
+  "detroit become human is it worth it",
+  "detroit become human steam sale",
+  "detroit become human pc gameplay"
+ ],
+ "hook_style": "number",
+ "series": "cost_per_hour",
+ "music": "game",
+ "carousel": false,
+ "publish_time_utc": "17:30",
+ "experiment": {
+  "E1": "A",
+  "E2": "COST PER HOUR #19",
+  "E3": "send_trigger"
+ }
+}

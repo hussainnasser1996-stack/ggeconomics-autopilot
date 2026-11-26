@@ -13,6 +13,7 @@
   4. Keymailer, Terminals.io, Steam Curator page, Ubisoft Creators Program → free game keys. See PARTNERSHIPS.md. No milestone reached yet (22 Nov: 7 YouTube subscribers, log/metrics/2026-11-21.json; Instagram follower count is not recorded anywhere), so nothing new.
 
 ## Engineering backlog (from the 16 Nov tools scout; the engineering routine works top-down, measures each change)
+-1. (26 Nov brain, URGENT) Instagram + TikTok got nothing since 24 Nov: every post's buffer_ids.json shows `failed: Buffer call failed: HTTP Error 429` for instagram_reel/tiktok_video (24, 24b, 24c, 25, 25b, 25c, plus the 25 carousel). YouTube only went out through the direct API. Fix: on a Buffer 429, retry with backoff and fall back to the IG Graph token (publish.py --direct); make fixer.md/triage count a `failed` entry in buffer_ids.json as an open failure (it reported "no open failures" all of 25 Nov).
 0. (21 Nov review) Top tag chip: a long game name ("BALDUR'S GATE 3 · COST PER HOUR", 18c) wraps to 2 lines and crowds the GG ECONOMICS pill. Shrink or shorten the tag to one line (e.g. "BG3 · COST/HR") and add a gate check for a wrapped chip.
 1. Hook frame: score 20–30 candidate frames (aesthetic predictor v2.5 or LAION, + sharpness, no text) and open on the best; time it on the 2-core runner first (budget < 60 s).
 2. TransNetV2 (transnetv2-pytorch, MIT) in front of OpenCV shot scoring: cleaner shot boundaries, catches dissolves; pin device=cpu.

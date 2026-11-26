@@ -1,0 +1,65 @@
+{
+ "title": "GTA 5 vs GTA 6: 62¢ an Hour vs $79.99",
+ "caption": "GTA 5 Enhanced is $19.79 on Steam this week (56% off) and the story takes 32 hours (HowLongToBeat): 62¢ an hour. GTA 6 is $79.99, so you need 130 hours in it to match. Our own math.\nHow many hours will you put into GTA 6?\n\nSources: Steam store (US price, 26 Nov), HowLongToBeat, Rockstar Games",
+ "ig_first_line": "130 hours. That's how long you need in GTA 6 to make it as cheap as GTA 5 on sale this week.",
+ "hashtags": [
+  "#GTA6",
+  "#gaming",
+  "#shorts",
+  "#GTA5",
+  "#gta5vsgta6"
+ ],
+ "title_candidates": [
+  {
+   "t": "GTA 5 vs GTA 6: 62¢ an Hour vs $79.99",
+   "score": 9
+  },
+  {
+   "t": "GTA 5 Costs You 62¢ an Hour. GTA 6?",
+   "score": 8
+  },
+  {
+   "t": "You Need 130 Hours in GTA 6 to Beat GTA 5",
+   "score": 8
+  },
+  {
+   "t": "GTA 5 Is $19.79: Worth It Before GTA 6?",
+   "score": 7
+  },
+  {
+   "t": "GTA 5 Steam Sale Price",
+   "score": 4
+  }
+ ],
+ "localized": {
+  "es": {
+   "title": "GTA 5 vs GTA 6: 62¢ por hora vs $79.99"
+  },
+  "pt-BR": {
+   "title": "GTA 5 vs GTA 6: 62¢ por hora vs $79.99"
+  },
+  "ar": {
+   "title": "GTA 5 ضد GTA 6: ‏62¢ في الساعة مقابل $79.99"
+  },
+  "hi": {
+   "title": "GTA 5 vs GTA 6: 62¢ प्रति घंटा vs $79.99"
+  },
+  "id": {
+   "title": "GTA 5 vs GTA 6: 62¢ per Jam vs $79.99"
+  }
+ },
+ "keywords": [
+  "gta 5 vs gta 6",
+  "gta 5 is it worth buying",
+  "gta 5 sales this week"
+ ],
+ "hook_style": "number",
+ "series": "cost_per_hour",
+ "music": "library",
+ "carousel": false,
+ "experiment": {
+  "E1": "A",
+  "E2": "COST PER HOUR #20",
+  "E3": "send_trigger"
+ }
+}

@@ -1,0 +1,29 @@
+{
+ "id": "d_2026_11_26b",
+ "voice": "am_liam",
+ "speed": 1.25,
+ "gap": 0.12,
+ "mode": "edit",
+ "lines": [
+  {
+   "id": "hook",
+   "text": "Detroit: Become Human costs you 33¢ an hour"
+  },
+  {
+   "id": "math",
+   "text": "$3.99 on sale ÷ 12 hours to beat"
+  },
+  {
+   "id": "full",
+   "text": "Full price: $3.33 an hour"
+  },
+  {
+   "id": "movie",
+   "text": "A movie ticket: $6 an hour"
+  },
+  {
+   "id": "out",
+   "text": "Comment a game. We price it next."
+  }
+ ]
+}

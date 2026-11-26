@@ -1,0 +1,66 @@
+{
+ "title": "Hogwarts Legacy Costs You 22¢ an Hour. Worth It?",
+ "caption": "Hogwarts Legacy is $5.99 on Steam this week (90% off $59.99) and the main story takes about 27 hours (HowLongToBeat): 22¢ an hour. Full price is $2.22 an hour. A $12 movie ticket for 2 hours is $6 an hour. Our own math.\nWhich game should we price next?\n\nSources: Steam store (US price, 26 Nov), HowLongToBeat",
+ "ig_first_line": "Send this to the friend with 300 hours in Hogwarts Legacy: it's $5.99 this week, 22¢ an hour.",
+ "hashtags": [
+  "#HogwartsLegacy",
+  "#gaming",
+  "#shorts",
+  "#gamingnews",
+  "#hogwartslegacyworthit"
+ ],
+ "title_candidates": [
+  {
+   "t": "Hogwarts Legacy Costs You 22¢ an Hour. Worth It?",
+   "score": 9
+  },
+  {
+   "t": "Is Hogwarts Legacy Worth $5.99 in 2026?",
+   "score": 8
+  },
+  {
+   "t": "Hogwarts Legacy Is 90% Off: 22¢ an Hour",
+   "score": 7
+  },
+  {
+   "t": "Hogwarts Legacy Is 27x Cheaper Than a Movie",
+   "score": 6
+  },
+  {
+   "t": "Hogwarts Legacy Steam Sale",
+   "score": 4
+  }
+ ],
+ "localized": {
+  "es": {
+   "title": "Hogwarts Legacy te cuesta 22¢ por hora. ¿Vale la pena?"
+  },
+  "pt-BR": {
+   "title": "Hogwarts Legacy custa 22¢ por hora. Vale a pena?"
+  },
+  "ar": {
+   "title": "Hogwarts Legacy تكلفك 22¢ في الساعة. هل تستحق؟"
+  },
+  "hi": {
+   "title": "Hogwarts Legacy की कीमत 22¢ प्रति घंटा. क्या लायक है?"
+  },
+  "id": {
+   "title": "Hogwarts Legacy Cuma 22¢ per Jam. Worth It?"
+  }
+ },
+ "keywords": [
+  "hogwarts legacy is it worth it",
+  "hogwarts legacy worth it 2026",
+  "hogwarts legacy pc gameplay"
+ ],
+ "hook_style": "question",
+ "series": "cost_per_hour",
+ "music": "game",
+ "carousel": false,
+ "publish_time_utc": "12:00",
+ "experiment": {
+  "E1": "B",
+  "E2": "COST PER HOUR #18",
+  "E3": "send_trigger"
+ }
+}

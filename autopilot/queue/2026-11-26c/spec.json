@@ -1,0 +1,55 @@
+{
+ "spec": {
+  "tag": "COST PER HOUR #18",
+  "headline": "IS HOGWARTS LEGACY WORTH |$5.99|?",
+  "topic": "Hogwarts Legacy on Steam (US, appid 990080): $59.99 list, $5.99 now (90% off, appdetails cc=us + featured specials, checked 26 Nov 2026) ÷ main story about 27 h (HowLongToBeat 26.5 h as cited by press; HowFarAmI 27 h main / 72 h completionist; HLTB page not reachable by id today) = 22¢/h; full price $2.22/h; completionist 72 h = 8¢/h at sale price; vs ~$12 movie for 2 h = $6/h. E1 arm B: no card on line 1, $/HR card on line 2.",
+  "vo": "vo/d_2026_11_26c/vo.wav",
+  "timelinePath": "vo/d_2026_11_26c/timeline.json",
+  "timeline": {
+   "duration": 1,
+   "lines": [],
+   "words": []
+  },
+  "noBed": true,
+  "clips": [],
+  "cards": [
+   {
+    "kind": "big",
+    "line": "rate",
+    "value": "22¢/HR",
+    "label": "Hogwarts Legacy, main story",
+    "note": "$5.99 Steam sale ÷ ~27 h to beat · our math",
+    "color": "#D4FF3A"
+   },
+   {
+    "kind": "pair",
+    "line": "full",
+    "a": {
+     "value": "22¢/HR",
+     "label": "ON SALE"
+    },
+    "b": {
+     "value": "$2.22/HR",
+     "label": "FULL $59.99"
+    },
+    "note": "Steam US · 90% off this week"
+   },
+   {
+    "kind": "pair",
+    "line": "movie",
+    "a": {
+     "value": "22¢/HR",
+     "label": "HOGWARTS LEGACY"
+    },
+    "b": {
+     "value": "$6/HR",
+     "label": "MOVIE TICKET"
+    },
+    "note": "~$12 ticket for a 2-hour film"
+   }
+  ],
+  "credit": "GAMEPLAY: WARNER BROS. GAMES / AVALANCHE · DATA: STEAM, HOWLONGTOBEAT",
+  "endLine": "COMMENT A GAME. WE PRICE IT NEXT.",
+  "noCaptions": true
+ }
+}

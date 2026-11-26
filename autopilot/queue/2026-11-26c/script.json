@@ -1,0 +1,29 @@
+{
+ "id": "d_2026_11_26c",
+ "voice": "am_liam",
+ "speed": 1.25,
+ "gap": 0.12,
+ "mode": "edit",
+ "lines": [
+  {
+   "id": "hook",
+   "text": "Is Hogwarts Legacy worth $5.99?"
+  },
+  {
+   "id": "rate",
+   "text": "It costs you 22¢ an hour"
+  },
+  {
+   "id": "full",
+   "text": "Full price: $2.22 an hour"
+  },
+  {
+   "id": "movie",
+   "text": "A movie ticket: $6 an hour"
+  },
+  {
+   "id": "out",
+   "text": "Comment a game. We price it next."
+  }
+ ]
+}

@@ -1,0 +1,55 @@
+{
+ "spec": {
+  "tag": "COST PER HOUR #19",
+  "headline": "DETROIT COSTS YOU |33¢/HR|",
+  "topic": "Detroit: Become Human on Steam (US, appid 1222140): $39.99 list, $3.99 now (90% off, appdetails cc=us + featured specials, checked 26 Nov 2026) ÷ main story about 12 h (CBR ~12 h; HowFarAmI 12 h main / 31 h completionist; HLTB cited at 11.5 h) = 33¢/h; full price $3.33/h; completionist 31 h = 13¢/h; vs ~$12 movie for 2 h = $6/h. E1 arm A.",
+  "vo": "vo/d_2026_11_26b/vo.wav",
+  "timelinePath": "vo/d_2026_11_26b/timeline.json",
+  "timeline": {
+   "duration": 1,
+   "lines": [],
+   "words": []
+  },
+  "noBed": true,
+  "clips": [],
+  "cards": [
+   {
+    "kind": "big",
+    "line": "hook",
+    "value": "33¢/HR",
+    "label": "Detroit: Become Human, main story",
+    "note": "$3.99 Steam sale ÷ ~12 h to beat · our math",
+    "color": "#D4FF3A"
+   },
+   {
+    "kind": "pair",
+    "line": "full",
+    "a": {
+     "value": "33¢/HR",
+     "label": "ON SALE"
+    },
+    "b": {
+     "value": "$3.33/HR",
+     "label": "FULL $39.99"
+    },
+    "note": "Steam US · 90% off this week"
+   },
+   {
+    "kind": "pair",
+    "line": "movie",
+    "a": {
+     "value": "33¢/HR",
+     "label": "DETROIT"
+    },
+    "b": {
+     "value": "$6/HR",
+     "label": "MOVIE TICKET"
+    },
+    "note": "~$12 ticket for a 2-hour film"
+   }
+  ],
+  "credit": "GAMEPLAY: QUANTIC DREAM · DATA: STEAM, HOWLONGTOBEAT",
+  "endLine": "COMMENT A GAME. WE PRICE IT NEXT.",
+  "noCaptions": true
+ }
+}

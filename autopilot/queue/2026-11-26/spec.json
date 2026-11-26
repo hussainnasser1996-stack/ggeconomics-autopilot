@@ -1,0 +1,49 @@
+{
+ "spec": {
+  "tag": "COST PER HOUR #20",
+  "headline": "GTA 5 COSTS YOU |62¢/HR|",
+  "topic": "GTA V Enhanced on Steam (US, appid 3240220): $44.99 list, $19.79 now (56% off, appdetails cc=us + featured specials, checked 26 Nov 2026) ÷ HowLongToBeat main story 32.1 h (id 4064: 115,397 s, 3,411 submissions, read directly 26 Nov) = 62¢/h (full price $1.40/h). GTA VI Standard $79.99 (launch price, used since 16 Nov) ÷ 62¢ = 129.5 h → 130 h to match GTA 5's sale rate. No GTA VI hours claimed: HLTB main not settled (Rockstar's Rob Nelson ~80 h incl. optional goals; unverified 50 h reports).",
+  "vo": "vo/d_2026_11_26/vo.wav",
+  "timelinePath": "vo/d_2026_11_26/timeline.json",
+  "timeline": {
+   "duration": 1,
+   "lines": [],
+   "words": []
+  },
+  "noBed": true,
+  "clips": [],
+  "cards": [
+   {
+    "kind": "big",
+    "line": "hook",
+    "value": "62¢/HR",
+    "label": "GTA 5, main story",
+    "note": "$19.79 Steam sale ÷ 32 h to beat · our math",
+    "color": "#D4FF3A"
+   },
+   {
+    "kind": "pair",
+    "line": "gta6",
+    "a": {
+     "value": "$19.79",
+     "label": "GTA 5 ON SALE"
+    },
+    "b": {
+     "value": "$79.99",
+     "label": "GTA 6"
+    },
+    "note": "Steam US 26 Nov · GTA 6 Standard Edition"
+   },
+   {
+    "kind": "big",
+    "line": "need",
+    "value": "130 H",
+    "label": "GTA 6 hours to hit 62¢/hr",
+    "note": "$79.99 ÷ 62¢ · our math"
+   }
+  ],
+  "credit": "GAMEPLAY: ROCKSTAR GAMES · DATA: STEAM, HOWLONGTOBEAT",
+  "endLine": "COMMENT A GAME. WE PRICE IT NEXT.",
+  "noCaptions": true
+ }
+}

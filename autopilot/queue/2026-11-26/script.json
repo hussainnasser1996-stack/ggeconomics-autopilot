@@ -1,0 +1,29 @@
+{
+ "id": "d_2026_11_26",
+ "voice": "am_liam",
+ "speed": 1.25,
+ "gap": 0.12,
+ "mode": "edit",
+ "lines": [
+  {
+   "id": "hook",
+   "text": "GTA 5 costs you 62¢ an hour this week"
+  },
+  {
+   "id": "math",
+   "text": "$19.79 on Steam ÷ 32 hours to beat"
+  },
+  {
+   "id": "gta6",
+   "text": "GTA 6 costs $79.99"
+  },
+  {
+   "id": "need",
+   "text": "To match, you need 130 hours in GTA 6"
+  },
+  {
+   "id": "out",
+   "text": "Comment a game. We price it next."
+  }
+ ]
+}
