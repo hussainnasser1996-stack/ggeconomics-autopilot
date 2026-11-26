@@ -8,6 +8,7 @@ Followers: YouTube 11 subscribers · Instagram 0 followers
 (— = not sent yet / no metrics yet; carousel shows reach when Buffer gives no views)
 | post | YouTube Short | IG Reel | IG carousel | TikTok | total | title |
 |---|---|---|---|---|---|---|
+| 2026-11-26c | — | — | — | — | 0 | Hogwarts Legacy Costs You 22¢ an Hour. Worth It? |
 | 2026-11-26b | — | — | — | — | 0 | Detroit Costs You 33¢ an Hour. Worth It? |
 | 2026-11-26 | — | — | — | — | 0 | GTA 5 vs GTA 6: 62¢ an Hour vs $79.99 |
 | 2026-11-25c | — | — | — | — | 0 | God of War Costs You 97¢ an Hour. Worth It? |
@@ -44,14 +45,15 @@ Followers: YouTube 11 subscribers · Instagram 0 followers
 ## YouTube
 | published | views | avg view % | avg view s | kept 1s % | kept 3s % | 3s vs similar | likes | shares | subs+ | title |
 |---|---|---|---|---|---|---|---|---|---|---|
+| 2026-11-26 | 0 | — | — | — | — | — | 0 | — | — | Hogwarts Legacy Costs You 22¢ an Hour. Worth It? |
 | 2026-11-26 | 0 | — | — | — | — | — | 0 | — | — | Detroit Costs You 33¢ an Hour. Worth It? |
 | 2026-11-26 | 0 | — | — | — | — | — | 0 | — | — | GTA 5 vs GTA 6: 62¢ an Hour vs $79.99 |
 | 2026-11-25 | 7 | — | — | — | — | — | 0 | — | — | 5 Steam Black Friday Deals Under $1 an Hour |
-| 2026-11-25 | 985 | — | — | — | — | — | 12 | — | — | Fallout 3 Costs You 19¢ an Hour. Worth It? |
-| 2026-11-25 | 466 | — | — | — | — | — | 4 | — | — | God of War Costs You 97¢ an Hour. Worth It? |
-| 2026-11-24 | 352 | — | — | — | — | — | 1 | — | — | Witcher 3 vs Cyberpunk 2077: 96¢ vs $2.31 an Hour |
-| 2026-11-24 | 185 | — | — | — | — | — | 1 | — | — | Sekiro Costs You $2 an Hour. Worth It? |
-| 2026-11-24 | 1071 | — | — | — | — | — | 7 | — | — | Portal 2 Costs You $1.18 an Hour. Worth It? |
+| 2026-11-25 | 988 | — | — | — | — | — | 14 | — | — | Fallout 3 Costs You 19¢ an Hour. Worth It? |
+| 2026-11-25 | 498 | — | — | — | — | — | 4 | — | — | God of War Costs You 97¢ an Hour. Worth It? |
+| 2026-11-24 | 356 | — | — | — | — | — | 1 | — | — | Witcher 3 vs Cyberpunk 2077: 96¢ vs $2.31 an Hour |
+| 2026-11-24 | 184 | — | — | — | — | — | 1 | — | — | Sekiro Costs You $2 an Hour. Worth It? |
+| 2026-11-24 | 1070 | — | — | — | — | — | 7 | — | — | Portal 2 Costs You $1.18 an Hour. Worth It? |
 | 2026-11-23 | 507 | 74.5 | 9 | 120 | 116 | 0.38 | 2 | 0 | 0 | Hades Costs You $1.06 an Hour. Worth It? |
 | 2026-11-23 | 1318 | 81.4 | 10 | 123 | 117 | 0.47 | 12 | 0 | 0 | Is Skyrim Worth It in 2026? $1.14 an Hour |
 | 2026-11-23 | 1118 | 109.3 | 15 | 157 | 150 | 0.58 | 3 | 0 | 0 | Terraria Costs You 19¢ an Hour. Worth It? |
