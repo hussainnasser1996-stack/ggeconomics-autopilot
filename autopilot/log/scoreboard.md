@@ -8,6 +8,7 @@ Followers: YouTube 11 subscribers · Instagram 0 followers
 (— = not sent yet / no metrics yet; carousel shows reach when Buffer gives no views)
 | post | YouTube Short | IG Reel | IG carousel | TikTok | total | title |
 |---|---|---|---|---|---|---|
+| 2026-11-26b | — | — | — | — | 0 | Detroit Costs You 33¢ an Hour. Worth It? |
 | 2026-11-26 | — | — | — | — | 0 | GTA 5 vs GTA 6: 62¢ an Hour vs $79.99 |
 | 2026-11-25c | — | — | — | — | 0 | God of War Costs You 97¢ an Hour. Worth It? |
 | 2026-11-25b | — | — | — | — | 0 | Fallout 3 Costs You 19¢ an Hour. Worth It? |
@@ -19,7 +20,7 @@ Followers: YouTube 11 subscribers · Instagram 0 followers
 | 2026-11-23b | — | 171 | — | — | 171 | Hades Costs You $1.06 an Hour. Worth It? |
 | 2026-11-23 | — | 345 | — | — | 345 | Elden Ring vs Dark Souls 3: $1 vs $1.92 an Hour |
 | 2026-11-22c | — | 126 | — | — | 126 | Is Skyrim Worth It in 2026? $1.14 an Hour |
-| 2026-11-22b | 1050 | 120 | — | — | 1170 | Witcher 3 Worth It in 2026? 96¢ an Hour |
+| 2026-11-22b | 1049 | 120 | — | — | 1169 | Witcher 3 Worth It in 2026? 96¢ an Hour |
 | 2026-11-22 | 1008 | 127 | — | — | 1135 | GTA 6 Sales Numbers: Week 1 in 4 Numbers |
 | 2026-11-21c | 1282 | 173 | — | — | 1455 | Stardew Valley Costs You 28¢ an Hour. Worth It? |
 | 2026-11-21b | 1381 | 129 | — | — | 1510 | Red Dead 2 Costs You $1.18 an Hour. Worth It? |
@@ -33,7 +34,7 @@ Followers: YouTube 11 subscribers · Instagram 0 followers
 | 2026-11-18c | 861 | 100 | — | — | 961 | Baldur's Gate 3 Costs You 82¢ an Hour. Worth It? |
 | 2026-11-18b | 56 | — | — | — | 56 | GTA 6 Beat Cyberpunk's 8M Pre-Order Record? |
 | 2026-11-18 | 1041 | 178 | — | — | 1219 | GTA 6 Unlocks Tonight: You Need 212 GB Free |
-| 2026-11-17c | 1239 | 127 | — | — | 1366 | Elden Ring Costs You $1 an Hour. Worth It? |
+| 2026-11-17c | 1240 | 127 | — | — | 1367 | Elden Ring Costs You $1 an Hour. Worth It? |
 | 2026-11-17b | 23 | 126 | — | — | 149 | GTA 6: Take-Two Bets $8 Billion on Your $80 |
 | 2026-11-17 | 672 | 144 | — | — | 816 | Your 2013 Xbox One Can Play GTA 6 on Day One |
 | 2026-11-16c | 296 | 138 | — | — | 434 | Rockstar Made 2 of the 5 Best-Selling Games Ever |
@@ -43,17 +44,18 @@ Followers: YouTube 11 subscribers · Instagram 0 followers
 ## YouTube
 | published | views | avg view % | avg view s | kept 1s % | kept 3s % | 3s vs similar | likes | shares | subs+ | title |
 |---|---|---|---|---|---|---|---|---|---|---|
+| 2026-11-26 | 0 | — | — | — | — | — | 0 | — | — | Detroit Costs You 33¢ an Hour. Worth It? |
 | 2026-11-26 | 0 | — | — | — | — | — | 0 | — | — | GTA 5 vs GTA 6: 62¢ an Hour vs $79.99 |
 | 2026-11-25 | 7 | — | — | — | — | — | 0 | — | — | 5 Steam Black Friday Deals Under $1 an Hour |
-| 2026-11-25 | 982 | — | — | — | — | — | 12 | — | — | Fallout 3 Costs You 19¢ an Hour. Worth It? |
+| 2026-11-25 | 985 | — | — | — | — | — | 12 | — | — | Fallout 3 Costs You 19¢ an Hour. Worth It? |
 | 2026-11-25 | 466 | — | — | — | — | — | 4 | — | — | God of War Costs You 97¢ an Hour. Worth It? |
 | 2026-11-24 | 352 | — | — | — | — | — | 1 | — | — | Witcher 3 vs Cyberpunk 2077: 96¢ vs $2.31 an Hour |
 | 2026-11-24 | 185 | — | — | — | — | — | 1 | — | — | Sekiro Costs You $2 an Hour. Worth It? |
-| 2026-11-24 | 1070 | — | — | — | — | — | 7 | — | — | Portal 2 Costs You $1.18 an Hour. Worth It? |
+| 2026-11-24 | 1071 | — | — | — | — | — | 7 | — | — | Portal 2 Costs You $1.18 an Hour. Worth It? |
 | 2026-11-23 | 507 | 74.5 | 9 | 120 | 116 | 0.38 | 2 | 0 | 0 | Hades Costs You $1.06 an Hour. Worth It? |
-| 2026-11-23 | 1319 | 81.4 | 10 | 123 | 117 | 0.47 | 12 | 0 | 0 | Is Skyrim Worth It in 2026? $1.14 an Hour |
+| 2026-11-23 | 1318 | 81.4 | 10 | 123 | 117 | 0.47 | 12 | 0 | 0 | Is Skyrim Worth It in 2026? $1.14 an Hour |
 | 2026-11-23 | 1118 | 109.3 | 15 | 157 | 150 | 0.58 | 3 | 0 | 0 | Terraria Costs You 19¢ an Hour. Worth It? |
-| 2026-11-23 | 1050 | 79.6 | 11 | 121 | 115 | 0.43 | 6 | 1 | 2 | Witcher 3 Worth It in 2026? 96¢ an Hour |
+| 2026-11-23 | 1049 | 79.6 | 11 | 121 | 115 | 0.43 | 6 | 1 | 2 | Witcher 3 Worth It in 2026? 96¢ an Hour |
 | 2026-11-23 | 1008 | 80.6 | 10 | 121 | 118 | 0.5 | 3 | 0 | 0 | GTA 6 Sales Numbers: Week 1 in 4 Numbers |
 | 2026-11-22 | 7 | 31.5 | 153 | — | — | — | 0 | 0 | 0 | Top 10 Games on Steam This Week: Worth the Money? (Nov 2026) |
 | 2026-11-21 | 1016 | 91.8 | 12 | 139 | 128 | 0.47 | 4 | 0 | 0 | GTA 6 Sales: 32.5M Copies. Are You One? |
@@ -70,7 +72,7 @@ Followers: YouTube 11 subscribers · Instagram 0 followers
 | 2026-11-18 | 861 | 77.9 | 11 | 120 | 115 | 0.45 | 3 | 0 | 1 | Baldur's Gate 3 Costs You 82¢ an Hour. Worth It? |
 | 2026-11-17 | 672 | 71.1 | 17 | 119 | 113 | 0.39 | 12 | 4 | 0 | Your 2013 Xbox One Can Play GTA 6 on Day One |
 | 2026-11-17 | 23 | 51.9 | 12 | — | — | — | 0 | 0 | 0 | GTA 6: Take-Two Bets $8 Billion on Your $80 |
-| 2026-11-17 | 1239 | 82.7 | 12 | 124 | 118 | 0.48 | 9 | 1 | 1 | Elden Ring Costs You $1 an Hour. Worth It? |
+| 2026-11-17 | 1240 | 82.7 | 12 | 124 | 118 | 0.48 | 9 | 1 | 1 | Elden Ring Costs You $1 an Hour. Worth It? |
 | 2026-11-16 | 812 | 61.7 | 14 | 110 | 106 | 0.24 | 12 | 1 | 0 | GTA 6 Might Make $1 Billion Before You Can Even Play It |
 | 2026-11-16 | 333 | 53.3 | 12 | 106 | 101 | 0.18 | 0 | 0 | 0 | GTA 6 Costs You $79.99. GTA 5 Cost More |
 | 2026-11-16 | 296 | 68.6 | 17 | 109 | 109 | 0.3 | 2 | 1 | 0 | Rockstar Made 2 of the 5 Best-Selling Games Ever |

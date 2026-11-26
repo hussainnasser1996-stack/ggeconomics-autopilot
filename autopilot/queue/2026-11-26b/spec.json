@@ -1,8 +1,8 @@
 {
  "spec": {
   "tag": "COST PER HOUR #19",
-  "headline": "DETROIT COSTS YOU |33¢/HR|",
-  "topic": "Detroit: Become Human on Steam (US, appid 1222140): $39.99 list, $3.99 now (90% off, appdetails cc=us + featured specials, checked 26 Nov 2026) ÷ main story about 12 h (CBR ~12 h; HowFarAmI 12 h main / 31 h completionist; HLTB cited at 11.5 h) = 33¢/h; full price $3.33/h; completionist 31 h = 13¢/h; vs ~$12 movie for 2 h = $6/h. E1 arm A.",
+  "headline": "DETROIT COSTS YOU |33\u00a2/HR|",
+  "topic": "Detroit: Become Human on Steam (US, appid 1222140): $39.99 list, $3.99 now (90% off, appdetails cc=us + featured specials, checked 26 Nov 2026) \u00f7 main story about 12 h (CBR ~12 h; HowFarAmI 12 h main / 31 h completionist; HLTB cited at 11.5 h) = 33\u00a2/h; full price $3.33/h; completionist 31 h = 13\u00a2/h; vs ~$12 movie for 2 h = $6/h. E1 arm A.",
   "vo": "vo/d_2026_11_26b/vo.wav",
   "timelinePath": "vo/d_2026_11_26b/timeline.json",
   "timeline": {
@@ -11,34 +11,102 @@
    "words": []
   },
   "noBed": true,
-  "clips": [],
+  "clips": [
+   {
+    "src": "d_2026_11_26b",
+    "from": 62.7,
+    "dur": 1.42,
+    "shot": 27
+   },
+   {
+    "src": "d_2026_11_26b",
+    "from": 27.23,
+    "dur": 2.09,
+    "shot": 14
+   },
+   {
+    "src": "d_2026_11_26b",
+    "from": 8.77,
+    "dur": 1.28,
+    "shot": 4
+   },
+   {
+    "src": "d_2026_11_26b",
+    "from": 14.9,
+    "dur": 1.82,
+    "shot": 8
+   },
+   {
+    "src": "d_2026_11_26b",
+    "from": 35.7,
+    "dur": 1.22,
+    "shot": 20
+   },
+   {
+    "src": "d_2026_11_26b",
+    "from": 5.7,
+    "dur": 2.2,
+    "shot": 3
+   },
+   {
+    "src": "d_2026_11_26b",
+    "from": 12.97,
+    "dur": 1.75,
+    "shot": 7,
+    "zoom": 1.552
+   },
+   {
+    "src": "d_2026_11_26b",
+    "from": 30.63,
+    "dur": 1.29,
+    "shot": 16
+   },
+   {
+    "src": "d_2026_11_26b",
+    "from": 66.03,
+    "dur": 1.22,
+    "shot": 30
+   },
+   {
+    "src": "d_2026_11_26b",
+    "from": 11.57,
+    "dur": 1.22,
+    "shot": 6
+   },
+   {
+    "src": "d_2026_11_26b",
+    "from": 6.0,
+    "dur": 1.9000000000000001,
+    "shot": 3
+   }
+  ],
   "cards": [
    {
     "kind": "big",
     "line": "hook",
-    "value": "33¢/HR",
+    "value": "33\u00a2/HR",
     "label": "Detroit: Become Human, main story",
-    "note": "$3.99 Steam sale ÷ ~12 h to beat · our math",
+    "note": "$3.99 Steam sale \u00f7 ~12 h to beat \u00b7 our math",
     "color": "#D4FF3A"
    },
    {
     "kind": "pair",
     "line": "full",
     "a": {
-     "value": "33¢/HR",
+     "value": "33\u00a2/HR",
      "label": "ON SALE"
     },
     "b": {
      "value": "$3.33/HR",
      "label": "FULL $39.99"
     },
-    "note": "Steam US · 90% off this week"
+    "note": "Steam US \u00b7 90% off this week"
    },
    {
     "kind": "pair",
     "line": "movie",
     "a": {
-     "value": "33¢/HR",
+     "value": "33\u00a2/HR",
      "label": "DETROIT"
     },
     "b": {
@@ -48,7 +116,7 @@
     "note": "~$12 ticket for a 2-hour film"
    }
   ],
-  "credit": "GAMEPLAY: QUANTIC DREAM · DATA: STEAM, HOWLONGTOBEAT",
+  "credit": "GAMEPLAY: QUANTIC DREAM \u00b7 DATA: STEAM, HOWLONGTOBEAT",
   "endLine": "COMMENT A GAME. WE PRICE IT NEXT.",
   "noCaptions": true
  }

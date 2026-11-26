@@ -1,0 +1,18 @@
+SCORE 74.3/100 (12/17)
+  PASS [major   ] VALUE_BIMODAL          mean midtone mass 0.150 (want <0.30)
+  PASS [major   ] FOCAL_PRESENT          mean bright fraction 0.0606 (want 0.004–0.14)
+  PASS [critical] CONTRAST_MIN           0/10 content frames below 4.5:1
+  PASS [major   ] CAPTION_LEGIBLE        0/10 content frames have sub-text under 3:1 (mean 17.34:1)
+  FAIL [minor   ] PALETTE_LOCK           worst content frame 16.79% off-palette (want <2%)
+  PASS [critical] SAFE_BOTTOM            bottom zone ink 0.45% (want <1%)
+  FAIL [critical] SAFE_RIGHT             right zone ink 17.66% (want <1%)
+  FAIL [major   ] HOLDS_EXIST            0.0% of frames are holds (0 holds)
+  FAIL [major   ] IMPACTS_PUNCTUATED     3/3 impacts not punctuated: [105, 303, 392]
+  PASS [major   ] NO_LINEAR_EASING       23 frames (5.3%) in constant-velocity moves, 1 segments
+  PASS [major   ] NO_DEAD_AIR            0 stalls: []
+  PASS [major   ] NO_MICRO_CHURN         39 frames (8.9%) of micro-churn in 1 runs: [(150, 188)]
+  PASS [major   ] HOOK_ENERGY            hook energy 3.04× median (want >1.15)
+  PASS [critical] NO_SCENE_TAIL_STALL    0 scenes stall for 0.0s total (0% of runtime): 
+  PASS [major   ] NO_DEAD_OPENING        0 scenes open dead: 
+  PASS [minor   ] OPENS_POPULATED        0/10 sampled frames have <0.4% bright content
+  FAIL [minor   ] USES_FRAME_HEIGHT      lowest focal centroid across content frames is 0.49 of frame height (want some content past 0.55)

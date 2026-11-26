@@ -1,5 +1,6 @@
 # Post history (newest first)
 
+- 2026-11-26b · Detroit Costs You 33¢ an Hour. Worth It? · footage: Detroit: Become Human — Detroit: Become Human - Steam Launch Trailer · VO similarity 1.00 ·  · due 23:00 UTC
 - 2026-11-26 · GTA 5 vs GTA 6: 62¢ an Hour vs $79.99 · footage: gta6_official_launch.mp4 · VO similarity 1.00 ·  · due 23:00 UTC
 - 2026-11-25c · God of War Costs You 97¢ an Hour. Worth It? · footage: God of War — Features Trailer · VO similarity 1.00 ·  · due 23:00 UTC
 - 2026-11-25b · Fallout 3 Costs You 19¢ an Hour. Worth It? · footage: Fallout 3: Game of the Year Edition — Fallout 3 Bloodless Trailer · VO similarity 1.00 ·  · due 23:00 UTC
