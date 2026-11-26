@@ -1,8 +1,8 @@
 {
  "spec": {
   "tag": "COST PER HOUR #20",
-  "headline": "GTA 5 COSTS YOU |62¢/HR|",
-  "topic": "GTA V Enhanced on Steam (US, appid 3240220): $44.99 list, $19.79 now (56% off, appdetails cc=us + featured specials, checked 26 Nov 2026) ÷ HowLongToBeat main story 32.1 h (id 4064: 115,397 s, 3,411 submissions, read directly 26 Nov) = 62¢/h (full price $1.40/h). GTA VI Standard $79.99 (launch price, used since 16 Nov) ÷ 62¢ = 129.5 h → 130 h to match GTA 5's sale rate. No GTA VI hours claimed: HLTB main not settled (Rockstar's Rob Nelson ~80 h incl. optional goals; unverified 50 h reports).",
+  "headline": "GTA 5 COSTS YOU |62\u00a2/HR|",
+  "topic": "GTA V Enhanced on Steam (US, appid 3240220): $44.99 list, $19.79 now (56% off, appdetails cc=us + featured specials, checked 26 Nov 2026) \u00f7 HowLongToBeat main story 32.1 h (id 4064: 115,397 s, 3,411 submissions, read directly 26 Nov) = 62\u00a2/h (full price $1.40/h). GTA VI Standard $79.99 (launch price, used since 16 Nov) \u00f7 62\u00a2 = 129.5 h \u2192 130 h to match GTA 5's sale rate. No GTA VI hours claimed: HLTB main not settled (Rockstar's Rob Nelson ~80 h incl. optional goals; unverified 50 h reports).",
   "vo": "vo/d_2026_11_26/vo.wav",
   "timelinePath": "vo/d_2026_11_26/timeline.json",
   "timeline": {
@@ -11,14 +11,99 @@
    "words": []
   },
   "noBed": true,
-  "clips": [],
+  "clips": [
+   {
+    "src": "d_2026_11_26",
+    "from": 27.3,
+    "dur": 1.35,
+    "shot": 10,
+    "zoom": 1.147
+   },
+   {
+    "src": "d_2026_11_26",
+    "from": 20.63,
+    "dur": 1.39,
+    "shot": 8.0,
+    "zoom": 1.147
+   },
+   {
+    "src": "d_2026_11_26",
+    "from": 46.55,
+    "dur": 2.2,
+    "shot": 21.01,
+    "zoom": 1.147
+   },
+   {
+    "src": "d_2026_11_26",
+    "from": 66.5,
+    "dur": 1.29,
+    "shot": 33,
+    "zoom": 1.147
+   },
+   {
+    "src": "d_2026_11_26",
+    "from": 9.43,
+    "dur": 1.76,
+    "shot": 3,
+    "zoom": 1.147
+   },
+   {
+    "src": "d_2026_11_26",
+    "from": 67.97,
+    "dur": 1.22,
+    "shot": 34,
+    "zoom": 1.152
+   },
+   {
+    "src": "d_2026_11_26",
+    "from": 38.43,
+    "dur": 1.29,
+    "shot": 17,
+    "zoom": 1.147
+   },
+   {
+    "src": "d_2026_11_26",
+    "from": 35.9,
+    "dur": 1.35,
+    "shot": 15,
+    "zoom": 1.147
+   },
+   {
+    "src": "d_2026_11_26",
+    "from": 6.43,
+    "dur": 2.2,
+    "shot": 2,
+    "zoom": 1.147
+   },
+   {
+    "src": "d_2026_11_26",
+    "from": 25.83,
+    "dur": 1.29,
+    "shot": 9,
+    "zoom": 1.147
+   },
+   {
+    "src": "d_2026_11_26",
+    "from": 57.97,
+    "dur": 1.22,
+    "shot": 26,
+    "zoom": 1.147
+   },
+   {
+    "src": "d_2026_11_26",
+    "from": 18.43,
+    "dur": 1.2,
+    "shot": 7,
+    "zoom": 1.147
+   }
+  ],
   "cards": [
    {
     "kind": "big",
     "line": "hook",
-    "value": "62¢/HR",
+    "value": "62\u00a2/HR",
     "label": "GTA 5, main story",
-    "note": "$19.79 Steam sale ÷ 32 h to beat · our math",
+    "note": "$19.79 Steam sale \u00f7 32 h to beat \u00b7 our math",
     "color": "#D4FF3A"
    },
    {
@@ -32,17 +117,17 @@
      "value": "$79.99",
      "label": "GTA 6"
     },
-    "note": "Steam US 26 Nov · GTA 6 Standard Edition"
+    "note": "Steam US 26 Nov \u00b7 GTA 6 Standard Edition"
    },
    {
     "kind": "big",
     "line": "need",
     "value": "130 H",
-    "label": "GTA 6 hours to hit 62¢/hr",
-    "note": "$79.99 ÷ 62¢ · our math"
+    "label": "GTA 6 hours to hit 62\u00a2/hr",
+    "note": "$79.99 \u00f7 62\u00a2 \u00b7 our math"
    }
   ],
-  "credit": "GAMEPLAY: ROCKSTAR GAMES · DATA: STEAM, HOWLONGTOBEAT",
+  "credit": "GAMEPLAY: ROCKSTAR GAMES \u00b7 DATA: STEAM, HOWLONGTOBEAT",
   "endLine": "COMMENT A GAME. WE PRICE IT NEXT.",
   "noCaptions": true
  }
