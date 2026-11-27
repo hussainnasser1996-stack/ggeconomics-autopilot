@@ -2,7 +2,7 @@
  "spec": {
   "tag": "COST PER HOUR #22",
   "headline": "IS SILENT HILL F WORTH |$19.59|?",
-  "topic": "SILENT HILL f on Steam (US, appid 2947440): $69.99 list, $19.59 now (72% off, appdetails cc=us, checked 27 Nov 2026) ÷ main story about 11 h (HowLongToBeat 10 h 54 min average as cited by Stevivor; DBLTAP 10-12 h first playthrough) = $1.78/h; full price $6.36/h, more than a $6/h movie; completionist ~35 h (HLTB via Stevivor) = 56¢/h on sale. E1 arm B (odd day: b = B): no card on line 1, $/HR card on line 2.",
+  "topic": "SILENT HILL f on Steam (US, appid 2947440): $69.99 list, $19.59 now (72% off, appdetails cc=us, checked 27 Nov 2026) \u00f7 main story about 11 h (HowLongToBeat 10 h 54 min average as cited by Stevivor; DBLTAP 10-12 h first playthrough) = $1.78/h; full price $6.36/h, more than a $6/h movie; completionist ~35 h (HLTB via Stevivor) = 56\u00a2/h on sale. E1 arm B (odd day: b = B): no card on line 1, $/HR card on line 2.",
   "vo": "vo/d_2026_11_27b/vo.wav",
   "timelinePath": "vo/d_2026_11_27b/timeline.json",
   "timeline": {
@@ -11,14 +11,67 @@
    "words": []
   },
   "noBed": true,
-  "clips": [],
+  "clips": [
+   {
+    "src": "d_2026_11_27b",
+    "from": 25.3,
+    "dur": 1.2,
+    "shot": 6
+   },
+   {
+    "src": "d_2026_11_27b",
+    "from": 8.5,
+    "dur": 2.2,
+    "shot": 2
+   },
+   {
+    "src": "d_2026_11_27b",
+    "from": 29.5,
+    "dur": 2.2,
+    "shot": 7
+   },
+   {
+    "src": "d_2026_11_27b",
+    "from": 12.7,
+    "dur": 2.2,
+    "shot": 3,
+    "zoom": 1.174
+   },
+   {
+    "src": "d_2026_11_27b",
+    "from": 33.7,
+    "dur": 2.2,
+    "shot": 8,
+    "zoom": 1.216
+   },
+   {
+    "src": "d_2026_11_27b",
+    "from": 16.9,
+    "dur": 2.2,
+    "shot": 4,
+    "zoom": 1.07
+   },
+   {
+    "src": "d_2026_11_27b",
+    "from": 0.1,
+    "dur": 2.2,
+    "shot": 0,
+    "zoom": 1.37
+   },
+   {
+    "src": "d_2026_11_27b",
+    "from": 21.1,
+    "dur": 2.1,
+    "shot": 5
+   }
+  ],
   "cards": [
    {
     "kind": "big",
     "line": "rate",
     "value": "$1.78/HR",
     "label": "Silent Hill f, main story",
-    "note": "$19.59 Steam sale ÷ ~11 h to beat · our math",
+    "note": "$19.59 Steam sale \u00f7 ~11 h to beat \u00b7 our math",
     "color": "#D4FF3A"
    },
    {
@@ -32,7 +85,7 @@
      "value": "$6.36/HR",
      "label": "FULL $69.99"
     },
-    "note": "Steam US · 72% off this week"
+    "note": "Steam US \u00b7 72% off this week"
    },
    {
     "kind": "pair",
@@ -48,7 +101,7 @@
     "note": "at full price it cost more per hour than a film"
    }
   ],
-  "credit": "GAMEPLAY: KONAMI · DATA: STEAM, HOWLONGTOBEAT",
+  "credit": "GAMEPLAY: KONAMI \u00b7 DATA: STEAM, HOWLONGTOBEAT",
   "endLine": "COMMENT A GAME. WE PRICE IT NEXT.",
   "noCaptions": true
  }
