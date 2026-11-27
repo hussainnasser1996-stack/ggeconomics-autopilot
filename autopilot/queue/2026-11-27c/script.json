@@ -1,0 +1,29 @@
+{
+ "id": "d_2026_11_27c",
+ "voice": "am_liam",
+ "speed": 1.25,
+ "gap": 0.12,
+ "mode": "edit",
+ "lines": [
+  {
+   "id": "hook",
+   "text": "Death Stranding costs you 25¢ an hour"
+  },
+  {
+   "id": "math",
+   "text": "$9.99 on sale ÷ 40 hours to beat"
+  },
+  {
+   "id": "full",
+   "text": "Full price: $1 an hour"
+  },
+  {
+   "id": "movie",
+   "text": "A movie ticket: $6 an hour"
+  },
+  {
+   "id": "out",
+   "text": "Comment a game. We price it next."
+  }
+ ]
+}

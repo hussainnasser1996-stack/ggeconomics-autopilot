@@ -1,0 +1,33 @@
+{
+ "id": "d_2026_11_27",
+ "voice": "am_liam",
+ "speed": 1.25,
+ "gap": 0.12,
+ "mode": "edit",
+ "lines": [
+  {
+   "id": "hook",
+   "text": "Your $80 buys one GTA 6"
+  },
+  {
+   "id": "alt",
+   "text": "Or 3 games on Steam today"
+  },
+  {
+   "id": "rdr",
+   "text": "Red Dead 2: $14.99"
+  },
+  {
+   "id": "obl",
+   "text": "Oblivion Remastered: $29.99"
+  },
+  {
+   "id": "bond",
+   "text": "007 First Light: $34.99"
+  },
+  {
+   "id": "out",
+   "text": "All 3: $79.97. Which would you buy?"
+  }
+ ]
+}

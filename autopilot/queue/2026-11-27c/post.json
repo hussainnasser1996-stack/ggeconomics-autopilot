@@ -1,0 +1,66 @@
+{
+ "title": "Death Stranding Costs You 25¢ an Hour. Worth It?",
+ "caption": "Death Stranding Director's Cut is $9.99 on Steam this week (75% off $39.99) and the main story takes about 40 hours (HowLongToBeat): 25¢ an hour. Full price is $1 an hour. A $12 movie ticket for 2 hours is $6 an hour. Our own math.\nWhich game should we price next?\n\nSources: Steam store (US price, 27 Nov), HowLongToBeat",
+ "ig_first_line": "Send this to the friend with 300 hours in Death Stranding: it's $9.99 this week, 25¢ an hour.",
+ "hashtags": [
+  "#DeathStranding",
+  "#gaming",
+  "#shorts",
+  "#gamingnews",
+  "#deathstrandingworthit"
+ ],
+ "title_candidates": [
+  {
+   "t": "Death Stranding Costs You 25¢ an Hour. Worth It?",
+   "score": 9
+  },
+  {
+   "t": "Is Death Stranding Worth It in 2026? 25¢ an Hour",
+   "score": 8
+  },
+  {
+   "t": "Death Stranding Is 75% Off: 25¢ an Hour",
+   "score": 7
+  },
+  {
+   "t": "Death Stranding Is 24x Cheaper Than a Movie",
+   "score": 6
+  },
+  {
+   "t": "Death Stranding Steam Sale",
+   "score": 4
+  }
+ ],
+ "localized": {
+  "es": {
+   "title": "Death Stranding te cuesta 25¢ por hora. ¿Vale la pena?"
+  },
+  "pt-BR": {
+   "title": "Death Stranding custa 25¢ por hora. Vale a pena?"
+  },
+  "ar": {
+   "title": "Death Stranding تكلفك 25¢ في الساعة. هل تستحق؟"
+  },
+  "hi": {
+   "title": "Death Stranding की कीमत 25¢ प्रति घंटा. क्या लायक है?"
+  },
+  "id": {
+   "title": "Death Stranding Cuma 25¢ per Jam. Worth It?"
+  }
+ },
+ "keywords": [
+  "death stranding is it worth it",
+  "death stranding pc gameplay",
+  "steam deals right now"
+ ],
+ "hook_style": "number",
+ "series": "cost_per_hour",
+ "music": "game",
+ "carousel": false,
+ "publish_time_utc": "12:00",
+ "experiment": {
+  "E1": "A",
+  "E2": "COST PER HOUR #21",
+  "E3": "send_trigger"
+ }
+}

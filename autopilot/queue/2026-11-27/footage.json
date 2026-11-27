@@ -1,0 +1,14 @@
+{
+ "candidates": [
+  {
+   "source": "steam",
+   "game": "Red Dead Redemption 2",
+   "prefer": "60 FPS"
+  },
+  {
+   "source": "library",
+   "file": "gta6_"
+  }
+ ],
+ "credit": "GAMEPLAY: ROCKSTAR GAMES"
+}

@@ -1,0 +1,55 @@
+{
+ "spec": {
+  "tag": "COST PER HOUR #21",
+  "headline": "DEATH STRANDING COSTS YOU |25¢/HR|",
+  "topic": "Death Stranding Director's Cut on Steam (US, appid 1850570): $39.99 list, $9.99 now (75% off, appdetails cc=us, checked 27 Nov 2026) ÷ main story about 40 h (HowLongToBeat 40.5 h as cited by TheGamer; other guides 30-36 h, so the range is 25-33¢) = 25¢/h; full price $1.00/h (39.99/40); completionist 112 h (HLTB via TheGamer) = 9¢/h; vs ~$12 movie for 2 h = $6/h. E1 arm A (odd day: c = A).",
+  "vo": "vo/d_2026_11_27c/vo.wav",
+  "timelinePath": "vo/d_2026_11_27c/timeline.json",
+  "timeline": {
+   "duration": 1,
+   "lines": [],
+   "words": []
+  },
+  "noBed": true,
+  "clips": [],
+  "cards": [
+   {
+    "kind": "big",
+    "line": "hook",
+    "value": "25¢/HR",
+    "label": "Death Stranding, main story",
+    "note": "$9.99 Steam sale ÷ ~40 h to beat · our math",
+    "color": "#D4FF3A"
+   },
+   {
+    "kind": "pair",
+    "line": "full",
+    "a": {
+     "value": "25¢/HR",
+     "label": "ON SALE"
+    },
+    "b": {
+     "value": "$1/HR",
+     "label": "FULL $39.99"
+    },
+    "note": "Steam US · 75% off this week"
+   },
+   {
+    "kind": "pair",
+    "line": "movie",
+    "a": {
+     "value": "25¢/HR",
+     "label": "DEATH STRANDING"
+    },
+    "b": {
+     "value": "$6/HR",
+     "label": "MOVIE TICKET"
+    },
+    "note": "~$12 ticket for a 2-hour film"
+   }
+  ],
+  "credit": "GAMEPLAY: KOJIMA PRODUCTIONS / 505 GAMES · DATA: STEAM, HOWLONGTOBEAT",
+  "endLine": "COMMENT A GAME. WE PRICE IT NEXT.",
+  "noCaptions": true
+ }
+}
