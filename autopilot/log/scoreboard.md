@@ -9,6 +9,7 @@ Followers: YouTube 13 subscribers · Instagram 0 followers
 | post | YouTube Short | IG Reel | IG carousel | TikTok | total | title |
 |---|---|---|---|---|---|---|
 | 2026-11-27b | — | — | — | — | 0 | Silent Hill f Costs You $1.78 an Hour. Worth It? |
+| 2026-11-27 | — | — | — | — | 0 | Black Friday: Your $80 Buys 1 GTA 6 or 3 Games |
 | 2026-11-26c | — | — | — | — | 0 | Hogwarts Legacy Costs You 22¢ an Hour. Worth It? |
 | 2026-11-26b | — | — | — | — | 0 | Detroit Costs You 33¢ an Hour. Worth It? |
 | 2026-11-26 | — | — | — | — | 0 | GTA 5 vs GTA 6: 62¢ an Hour vs $79.99 |
@@ -46,10 +47,11 @@ Followers: YouTube 13 subscribers · Instagram 0 followers
 ## YouTube
 | published | views | avg view % | avg view s | kept 1s % | kept 3s % | 3s vs similar | likes | shares | subs+ | title |
 |---|---|---|---|---|---|---|---|---|---|---|
+| 2026-11-27 | 0 | — | — | — | — | — | 0 | — | — | Black Friday: Your $80 Buys 1 GTA 6 or 3 Games |
 | 2026-11-27 | 0 | — | — | — | — | — | 0 | — | — | Silent Hill f Costs You $1.78 an Hour. Worth It? |
 | 2026-11-26 | 95 | — | — | — | — | — | 1 | — | — | GTA 5 vs GTA 6: 62¢ an Hour vs $79.99 |
 | 2026-11-26 | 149 | — | — | — | — | — | 1 | — | — | Detroit Costs You 33¢ an Hour. Worth It? |
-| 2026-11-26 | 951 | — | — | — | — | — | 4 | — | — | Hogwarts Legacy Costs You 22¢ an Hour. Worth It? |
+| 2026-11-26 | 978 | — | — | — | — | — | 4 | — | — | Hogwarts Legacy Costs You 22¢ an Hour. Worth It? |
 | 2026-11-25 | 139 | — | — | — | — | — | 0 | — | — | 5 Steam Black Friday Deals Under $1 an Hour |
 | 2026-11-25 | 1251 | — | — | — | — | — | 19 | — | — | Fallout 3 Costs You 19¢ an Hour. Worth It? |
 | 2026-11-25 | 822 | — | — | — | — | — | 6 | — | — | God of War Costs You 97¢ an Hour. Worth It? |

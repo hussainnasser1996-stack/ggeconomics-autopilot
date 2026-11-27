@@ -1,6 +1,6 @@
 {
  "spec": {
-  "tag": "BLACK FRIDAY · YOUR $80",
+  "tag": "BLACK FRIDAY \u00b7 YOUR $80",
   "headline": "YOUR $80: ONE GTA 6 OR |3 GAMES|",
   "topic": "Black Friday 27 Nov 2026, Steam US prices (appdetails cc=us, checked 27 Nov): Red Dead Redemption 2 $14.99 (75% off $59.99, appid 1174180), The Elder Scrolls IV: Oblivion Remastered $29.99 (40% off $49.99, appid 2623190), 007 First Light $34.99 (50% off $69.99, appid 3768760) = $79.97 total, vs GTA VI Standard Edition $79.99 (launch price, used since 16 Nov; $80 Standard / $100 Ultimate per GTABoom + search summaries). Take-Two's Zelnick (CNBC, Aug 2026): 'We establish our pricing and then storefronts can do what they wish' (no official holiday discount promised; not used on screen). Music-only edit, wallet format, the day's only GTA mention.",
   "vo": "vo/d_2026_11_27/vo.wav",
@@ -11,37 +11,101 @@
    "words": []
   },
   "noBed": true,
-  "clips": [],
+  "clips": [
+   {
+    "src": "d_2026_11_27",
+    "from": 140.17,
+    "dur": 1.62,
+    "shot": 65,
+    "zoom": 1.275
+   },
+   {
+    "src": "d_2026_11_27",
+    "from": 49.97,
+    "dur": 1.82,
+    "shot": 16,
+    "zoom": 1.275
+   },
+   {
+    "src": "d_2026_11_27",
+    "from": 18.97,
+    "dur": 1.42,
+    "shot": 6,
+    "zoom": 1.275
+   },
+   {
+    "src": "d_2026_11_27",
+    "from": 41.7,
+    "dur": 2.2,
+    "shot": 14,
+    "zoom": 1.275
+   },
+   {
+    "src": "d_2026_11_27",
+    "from": 92.1,
+    "dur": 2.2,
+    "shot": 35,
+    "zoom": 1.275
+   },
+   {
+    "src": "d_2026_11_27",
+    "from": 111.43,
+    "dur": 2.2,
+    "shot": 50,
+    "zoom": 1.275
+   },
+   {
+    "src": "d_2026_11_27",
+    "from": 83.23,
+    "dur": 1.82,
+    "shot": 28,
+    "zoom": 1.275
+   },
+   {
+    "src": "d_2026_11_27",
+    "from": 96.23,
+    "dur": 1.36,
+    "shot": 36,
+    "zoom": 1.275
+   },
+   {
+    "src": "d_2026_11_27",
+    "from": 115.7,
+    "dur": 1.2,
+    "shot": 51,
+    "zoom": 1.275
+   }
+  ],
   "cards": [
    {
     "kind": "big",
     "line": "hook",
     "value": "$79.99",
     "label": "GTA 6 Standard Edition",
-    "note": "launch price · consoles"
+    "note": "launch price \u00b7 consoles"
    },
    {
     "kind": "big",
     "line": "rdr",
     "value": "$14.99",
-    "label": "Red Dead 2 · 75% off",
-    "note": "Steam US · 27 Nov",
+    "label": "Red Dead 2 \u00b7 75% off",
+    "note": "Steam US \u00b7 27 Nov",
     "color": "#D4FF3A"
    },
    {
     "kind": "big",
     "line": "obl",
     "value": "$29.99",
-    "label": "Oblivion Remastered · 40% off",
-    "note": "Steam US · 27 Nov",
+    "label": "Oblivion Remastered \u00b7 40% off",
+    "note": "Steam US \u00b7 27 Nov",
     "color": "#D4FF3A"
    },
    {
     "kind": "big",
     "line": "bond",
     "value": "$34.99",
-    "label": "007 First Light · 50% off",
-    "note": "Steam US · 27 Nov",
+    "label": "007 First Light \u00b7 50% off",
+    "note": "Steam US \u00b7 27 Nov",
     "color": "#D4FF3A"
    },
    {
@@ -58,7 +122,7 @@
     "note": "Black Friday prices, Steam US"
    }
   ],
-  "credit": "GAMEPLAY: ROCKSTAR GAMES · DATA: STEAM, ROCKSTAR GAMES",
+  "credit": "GAMEPLAY: ROCKSTAR GAMES \u00b7 DATA: STEAM, ROCKSTAR GAMES",
   "endLine": "WHICH WOULD YOU BUY? COMMENT IT.",
   "noCaptions": true
  }
