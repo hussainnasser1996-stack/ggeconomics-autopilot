@@ -1,24 +1,24 @@
-# Outlier gaming Shorts, last 72 h (2026-11-26): views ÷ channel's average views per video
+# Outlier gaming Shorts, last 72 h (2026-11-27): views ÷ channel's average views per video
 
 | x avg | views | channel subs | channel | title |
 |---|---|---|---|---|
-| 25.2x | 9,983,846 | 86,500 | TogiToon  | Togi plays GTA6 🎮 #togi |
-| 22.3x | 17,229,426 | 2,580,000 | Mu Mu Life Diary | #gta  #gta6  #shorts #kpop |
-| 13.5x | 1,411,590 | 396,000 | Nateland Entertainment | How Much Does A Horse Cost? | Nate Bargatze - Good For Nathan |
-| 11.3x | 134,991 | 4,070,000 | YOYO TV Channel | Today Gold Price | Latest Gold Rate | 23-11-2026 | Gold Price Today Hyderabad | #GoldRate | YOYO TV |
-| 10.2x | 19,210,419 | 6,940,000 | 猎魔的契约 | 选择喜欢的东西#gta  #gta6  #shorts |
-| 8.9x | 6,605,023 | 467,000 | Anna Kursakina | What Happens When I Try GTA 6 Lipstick?🤯🌴💄 |
-| 8.8x | 6,690,184 | 4,080,000 | E Agora? | Ela destruiu o PS5 por ciúmes do GTA 6 e o pior aconteceu... #shorts #gta #arthur |
-| 6.9x | 3,192,426 | 2,510,000 | Apple TV | TIMBERLAKE — Official Trailer | Apple TV |
-| 6.3x | 381,479 | 105,000 | NANDAN_NADAN OFFiCAL | Chhota TV news live | comedy #trending 🔥#video #viral #funny #music #gaming #ytshorts #dance #reels |
-| 5.2x | 5,922,016 | 332,000 | Stuntfart | Tree climbing in GTA 6 |
-| 3.9x | 170,133 | 37,400 | Crash_Cash | 600 MPH vs NOKIA 3310 💸 INSANE Damage Cost! | BeamNG.drive #1 #beamngcrashes #carcrash #crash |
-| 3.8x | 8,027,628 | 4,850,000 | gta2025 | si caemos sobre el cableado electrico en #gta6 |
-| 3.1x | 27,163,657 | 25,100,000 | GOLU008 | PS5 मेरे लिए आया था, खेलने मम्मी लगी 😂 #funny #gta6 #golu008 #youtubeshorts #comedy #shorts #viral |
-| 3.0x | 4,198,810 | 159,000 | Dev create | He Went to Play GTA 6 for Just ₹200... But One Crazy Mistake Got Him Kicked Out!🤡 |
-| 2.4x | 5,113,035 | 4,850,000 | gta2025 | si el personaje come demasiado en #gta6 |
-| 2.2x | 5,306,808 | 2,370,000 | jacobweeby | GTA 6 FILES ARE NOW ON PC #shorts |
-| 2.0x | 375,067 | 157,000 | THE GTA GUY | Can a Giant Dump Truck Stop the Train in GTA Games...? 💥 |
-| 1.8x | 13,764,962 | 17,500,000 | Kuldeep Singhania Shorts | When you Finally take a Break from GTA 6 💀💔 | Kuldeep Singhaniaa #shorts #gta6 |
-| 1.6x | 9,069,525 | 10,600,000 | mmmjoemele | I’m sleeping on the couch 😂 #Gta6 #Mandy #Shorts |
-| 1.4x | 228,376 | 20,300 | Un Sorriso Subito | I bei vecchi tempi delle lire... quando tutto costava meno😂 |
+| 73.7x | 8,661,411 | 117,000 | CONZO ZX | " YOU FINALLY FINISHED GTA 6 " |
+| 30.2x | 5,257,014 | 24,500 | Pentoplanya | GTA 6 vs RDR 2 | Meat Cutting Animation Comparison |
+| 27.5x | 13,423,883 | 94,800 | TogiToon  | Togi plays GTA6 🎮 #togi |
+| 10.7x | 5,760,992 | 118,000 | Game Forensics | Evolution of Physics: GTA 6 VS GTA 4 VS GTA 5 |
+| 10.5x | 8,127,368 | 2,580,000 | Mu Mu Life Diary | 寻找自己的门#gta  #gta6  #shorts #kpop |
+| 10.1x | 624,828 | 109,000 | NANDAN_NADAN OFFiCAL | Chhota TV news live | comedy #trending 🔥#video #viral #funny #music #gaming #ytshorts #dance #reels |
+| 9.3x | 6,936,488 | 468,000 | Anna Kursakina | What Happens When I Try GTA 6 Lipstick?🤯🌴💄 |
+| 8.4x | 4,640,629 | 6,030 | RedEye.mp4 | КАК БУДЕТ ВЫГЛЯДЕТЬ ТОЛСТАЯ ЛЮСИЯ В GTA 6? #gta6 #gta |
+| 4.6x | 5,192,609 | 4,250,000 | EdgarFtw | NUNCA MOLESTES A LUCIA EN GTA 6! |
+| 4.2x | 290,082 | 14,600 | LolzZzOnTop | GodL ZGod❌ TAG ZGoD✅Name Change😍Join TAG #ZgodjoinTAG  #zgodleavegodlike #zgodjonathan #LolzzZGod |
+| 3.6x | 5,413,823 | 118,000 | VerrTV | Cabinet Glitch 🗄️ For Free GTA 6 🎮 #GTA #GTA6 #YouTubeShorts |
+| 3.3x | 717,912 | 122,000 | Expenzive Everything Network  | GTA 6 evil or not?!!🤯🚨 #gta6 #gamingnews #simulation #psychosis #demonic |
+| 3.3x | 59,215 | 6,770 | Sakura Gamer  | Why Does This Haircut Cost $500?! 😂 #shorts |
+| 3.2x | 27,536,110 | 25,100,000 | GOLU008 | PS5 मेरे लिए आया था, खेलने मम्मी लगी 😂 #funny #gta6 #golu008 #youtubeshorts #comedy #shorts #viral |
+| 2.5x | 122,675 | 6,240 | 느린우체통 | 쪽파 한 단에 250원을 부른 상인한테 안 팔고, 저는 밭 앞에 팻말을 하나 세웠습니다 |
+| 2.5x | 16,243,748 | 228,000 | GTA6‑狂野世界 | 什么在叫#gta  #gta6  #shorts |
+| 1.8x | 404,833 | 151,000 | TonyCeno | I ALWAYS knew #gaming #gta6 #nickeh30 #gta #gamingnews |
+| 1.7x | 12,177,483 | 573,000 | GTA6-罪恶都市 | #gta  #gta6  #shorts |
+| 1.7x | 379,122 | 151,000 | TonyCeno | I LIKE IT IN HERE #gaming #gta6 #gta #gamingshorts #gamingnews |
+| 1.7x | 1,424,998 | 60,900 | Unseen Facts Yash  | 🤯GTA 6 Is Creating HISTORY! Schools, Companies & IShowSpeed Go Crazy 🎮🔥 #shorts |
