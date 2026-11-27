@@ -1,0 +1,4 @@
+duration 442.5 s
+loudness -14.2 LUFS
+black runs 0
+PASS
