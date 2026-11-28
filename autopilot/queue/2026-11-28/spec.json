@@ -1,8 +1,8 @@
 {
  "spec": {
-  "tag": "MASS EFFECT · YOUR $12",
+  "tag": "MASS EFFECT \u00b7 YOUR $12",
   "headline": "3 MASS EFFECT GAMES FOR |$8.99|",
-  "topic": "Mass Effect Legendary Edition (ME1-3 remastered) on Steam US (appid 1328670): $59.99 list, $8.99 now (85% off, appdetails cc=us, checked 28 Nov 2026). Main stories about 68 h combined (SVG, from Attack of the Fanboy figures; HLTB per game ME1 17 h, ME2 ~24.5 h, ME3 ~24 h = ~66 h; a HLTB mirror lists 86 h for the LE entry, which would make it 10¢/h). 8.99/68 = 13¢/h. Full price 59.99/68 = 88¢/h. vs ~$12 movie for 2 h = $6/h. Test slot: versus/wallet hook (price vs movie ticket), not tagged cost per hour.",
+  "topic": "Mass Effect Legendary Edition (ME1-3 remastered) on Steam US (appid 1328670): $59.99 list, $8.99 now (85% off, appdetails cc=us, checked 28 Nov 2026). Main stories about 68 h combined (SVG, from Attack of the Fanboy figures; HLTB per game ME1 17 h, ME2 ~24.5 h, ME3 ~24 h = ~66 h; a HLTB mirror lists 86 h for the LE entry, which would make it 10\u00a2/h). 8.99/68 = 13\u00a2/h. Full price 59.99/68 = 88\u00a2/h. vs ~$12 movie for 2 h = $6/h. Test slot: versus/wallet hook (price vs movie ticket), not tagged cost per hour.",
   "vo": "vo/d_2026_11_28/vo.wav",
   "timelinePath": "vo/d_2026_11_28/timeline.json",
   "timeline": {
@@ -11,14 +11,69 @@
    "words": []
   },
   "noBed": true,
-  "clips": [],
+  "clips": [
+   {
+    "src": "d_2026_11_28",
+    "from": 20.17,
+    "dur": 3.4,
+    "shot": 6
+   },
+   {
+    "src": "d_2026_11_28",
+    "from": 60.1,
+    "dur": 1.29,
+    "shot": 29.0
+   },
+   {
+    "src": "d_2026_11_28",
+    "from": 13.45,
+    "dur": 2.27,
+    "shot": 3.01
+   },
+   {
+    "src": "d_2026_11_28",
+    "from": 53.17,
+    "dur": 1.49,
+    "shot": 26.0
+   },
+   {
+    "src": "d_2026_11_28",
+    "from": 90.68,
+    "dur": 2.44,
+    "shot": 52.04
+   },
+   {
+    "src": "d_2026_11_28",
+    "from": 69.83,
+    "dur": 1.36,
+    "shot": 36
+   },
+   {
+    "src": "d_2026_11_28",
+    "from": 24.03,
+    "dur": 3.4,
+    "shot": 7
+   },
+   {
+    "src": "d_2026_11_28",
+    "from": 22.09,
+    "dur": 1.76,
+    "shot": 6
+   },
+   {
+    "src": "d_2026_11_28",
+    "from": 25.86,
+    "dur": 1.67,
+    "shot": 7
+   }
+  ],
   "cards": [
    {
     "kind": "big",
     "line": "hook",
     "value": "$8.99",
     "label": "3 games: Mass Effect trilogy",
-    "note": "Legendary Edition · Steam US, 85% off",
+    "note": "Legendary Edition \u00b7 Steam US, 85% off",
     "color": "#D4FF3A"
    },
    {
@@ -38,14 +93,14 @@
     "kind": "pair",
     "line": "rate",
     "a": {
-     "value": "13¢/HR",
+     "value": "13\u00a2/HR",
      "label": "MASS EFFECT"
     },
     "b": {
      "value": "$6/HR",
      "label": "MOVIE TICKET"
     },
-    "note": "$8.99 ÷ 68 h vs $12 ÷ 2 h · our math"
+    "note": "$8.99 \u00f7 68 h vs $12 \u00f7 2 h \u00b7 our math"
    },
    {
     "kind": "big",
@@ -55,7 +110,8 @@
     "note": "Steam US, 28 Nov"
    }
   ],
-  "credit": "GAMEPLAY: BIOWARE / ELECTRONIC ARTS · DATA: STEAM, HOWLONGTOBEAT, SVG",
-  "endLine": "TRILOGY OR ONE MOVIE?"
+  "credit": "GAMEPLAY: BIOWARE / ELECTRONIC ARTS \u00b7 DATA: STEAM, HOWLONGTOBEAT, SVG",
+  "endLine": "TRILOGY OR ONE MOVIE?",
+  "noCaptions": true
  }
 }

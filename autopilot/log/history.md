@@ -1,5 +1,6 @@
 # Post history (newest first)
 
+- 2026-11-28 · Mass Effect Trilogy: $8.99 vs Your $12 Movie · footage: Mass Effect™ Legendary Edition — Reveal trailer · VO similarity 1.00 ·  · due 23:00 UTC
 - 2026-11-27c · Death Stranding Costs You 25¢ an Hour. Worth It? · footage: DEATH STRANDING 2: ON THE BEACH — Launch trailer EN US  · VO similarity 1.00 ·  · due 23:00 UTC
 - 2026-11-27 · Black Friday: Your $80 Buys 1 GTA 6 or 3 Games · footage: gta6_trailer_VQRLujxTm3c.mp4 · VO similarity 1.00 ·  · due 23:00 UTC
 - 2026-11-27b · Silent Hill f Costs You $1.78 an Hour. Worth It? · footage: SILENT HILL f — Steam screenshots · VO similarity 1.00 ·  · due 23:00 UTC
