@@ -1,0 +1,54 @@
+{
+ "spec": {
+  "tag": "COST PER HOUR #23",
+  "headline": "PERSONA 5 ROYAL COSTS YOU |17¢/HR|",
+  "topic": "Persona 5 Royal on Steam US (appid 1687950): $59.99 list, $17.99 now (70% off, appdetails cc=us, checked 28 Nov 2026) ÷ main story about 105 h (HowLongToBeat 106 h 5 min as cited by SVG; HLTB mirror 103 h) = 17¢/h; full price 57¢/h (59.99/105); completionist ~141 h (mirror) = 13¢/h; vs ~$12 movie for 2 h = $6/h. E1 closed 28 Nov (A default). E6 arm A (even day: b = A, 5 lines ~13-14 s).",
+  "vo": "vo/d_2026_11_28b/vo.wav",
+  "timelinePath": "vo/d_2026_11_28b/timeline.json",
+  "timeline": {
+   "duration": 1,
+   "lines": [],
+   "words": []
+  },
+  "noBed": true,
+  "clips": [],
+  "cards": [
+   {
+    "kind": "big",
+    "line": "hook",
+    "value": "17¢/HR",
+    "label": "Persona 5 Royal, main story",
+    "note": "$17.99 Steam sale ÷ ~105 h to beat · our math",
+    "color": "#D4FF3A"
+   },
+   {
+    "kind": "pair",
+    "line": "full",
+    "a": {
+     "value": "17¢/HR",
+     "label": "ON SALE"
+    },
+    "b": {
+     "value": "57¢/HR",
+     "label": "FULL $59.99"
+    },
+    "note": "Steam US · 70% off right now"
+   },
+   {
+    "kind": "pair",
+    "line": "movie",
+    "a": {
+     "value": "17¢/HR",
+     "label": "PERSONA 5 ROYAL"
+    },
+    "b": {
+     "value": "$6/HR",
+     "label": "MOVIE TICKET"
+    },
+    "note": "~$12 ticket for a 2-hour film"
+   }
+  ],
+  "credit": "GAMEPLAY: ATLUS / SEGA · DATA: STEAM, HOWLONGTOBEAT",
+  "endLine": "COMMENT A GAME. WE PRICE IT NEXT."
+ }
+}

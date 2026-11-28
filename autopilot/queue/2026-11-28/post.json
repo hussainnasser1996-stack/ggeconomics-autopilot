@@ -1,0 +1,63 @@
+{
+ "title": "Mass Effect Trilogy: $8.99 vs Your $12 Movie",
+ "caption": "Mass Effect Legendary Edition (all 3 games, remastered) is $8.99 on Steam right now, 85% off $59.99. The three main stories take about 68 hours, so that's about 13¢ an hour. A $12 movie ticket for 2 hours is $6 an hour. Our own math.\nTrilogy or one movie night: which would you take?\n\nSources: Steam store (US price, 28 Nov), HowLongToBeat, SVG",
+ "ig_first_line": "Send this to your friend who still hasn't played Mass Effect: 3 games, $8.99, about 68 hours.",
+ "hashtags": [
+  "#MassEffect",
+  "#gaming",
+  "#shorts",
+  "#gamingnews",
+  "#masseffectlegendaryedition"
+ ],
+ "title_candidates": [
+  {
+   "t": "Mass Effect Trilogy: $8.99 vs Your $12 Movie",
+   "score": 9
+  },
+  {
+   "t": "Mass Effect Legendary Edition Is $8.99: Worth It?",
+   "score": 8
+  },
+  {
+   "t": "3 Mass Effect Games for Less Than a Movie",
+   "score": 7
+  },
+  {
+   "t": "Mass Effect Costs You 13¢ an Hour",
+   "score": 7
+  },
+  {
+   "t": "Mass Effect Steam Sale 85% Off",
+   "score": 5
+  }
+ ],
+ "localized": {
+  "es": {
+   "title": "Trilogía Mass Effect: $8.99 vs tu película de $12"
+  },
+  "pt-BR": {
+   "title": "Trilogia Mass Effect: $8.99 vs seu filme de $12"
+  },
+  "ar": {
+   "title": "ثلاثية Mass Effect: ‏$8.99 مقابل فيلم بـ $12"
+  },
+  "hi": {
+   "title": "Mass Effect ट्रिलॉजी: $8.99 बनाम आपकी $12 वाली फ़िल्म"
+  },
+  "id": {
+   "title": "Trilogi Mass Effect: $8.99 vs Film $12 Kamu"
+  }
+ },
+ "keywords": [
+  "mass effect legendary edition",
+  "mass effect legendary edition is it worth it",
+  "steam deals right now"
+ ],
+ "hook_style": "versus",
+ "series": "news",
+ "music": "library",
+ "carousel": false,
+ "experiment": {
+  "test_slot": "versus_movie_price_hook"
+ }
+}

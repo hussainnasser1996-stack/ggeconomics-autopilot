@@ -31,13 +31,14 @@ or EXTEND once with a reason. "Too early" is not allowed once an experiment has 
 Measure from scoreboard.md (YouTube retention lands 2-3 days late) and log/metrics/<date>.json. Record each post's variant in
 post.json `"experiment": {"E1": "A"}` so analytics can be joined later.
 
-### E1 · Hook: answer-first (A) vs question-first (B), cost-per-hour posts. Started 22 Nov. Decide 28 Nov.
-- A (control, current): line 1 = "<Game> costs you $X an hour", headline = same claim, hook card = $X/HR.
-- B: line 1 = "Is <Game> worth $<price>?" (the price the viewer pays). NO card on line 1 (it shows as a text card).
-  Headline = "IS <GAME> WORTH |$<PRICE>|?". The $X/HR card lands on line 2 (~3 s). Rest identical.
-- Assignment: alternate by day. Even days of the month: b = A, c = B. Odd days: b = B, c = A. (Main slot joins after 23 Nov, as A.)
-- Metric: "3s vs similar" (primary), YouTube views at 48 h, IG avg watch s. Sample: 3 posts per arm with retention data.
-- Rule: B wins if its median "3s vs similar" beats A by >= 0.05 AND views are not lower by > 20%. Then B becomes the default.
+### E6 · Length: 5 lines (~13-14 s, A, control) vs 4 lines (~10-11 s, B), cost-per-hour posts. Started 28 Nov. Decide 4 Dec.
+- A: hook / math / full price / movie / "Comment a game. We price it next." (as now).
+- B: hook / math / movie / CTA: drop the full-price line; lines of 5-7 words so the render stays >= 10 s (gates.py floor).
+- Assignment by day: even days b = A, c = B; odd days b = B, c = A. Main slot not in the test.
+- Metric: YouTube views at 48 h (primary), avg view % (loops), "3s vs similar". Sample: 3 posts per arm with views at 48 h.
+- Rule: B wins if its median 48 h views beat A by >= 10% AND avg view % is higher. Then 4 lines becomes the default.
+- (Picked over "opening frame motion", the top Next-up item, because that one needs a code change to autopick.py's hook rule;
+  it stays first in Next up for engineering.)
 
 ### E2 · Request loop + numbered series. Started 22 Nov. Decide 29 Nov.
 - Every cost-per-hour Short: tag "COST PER HOUR #N" (N = count of cost-per-hour posts ever, from history.md + queue).
@@ -73,10 +74,10 @@ post.json `"experiment": {"E1": "A"}` so analytics can be joined later.
 - (21 Nov) 3 posts a day stays after the launch window: each Short is a ~1,000-view test; more tests, faster learning.
 
 ## Killed
+- (28 Nov) E1 arm B, the question-first hook ("Is <Game> worth $X?", no card on line 1). With 3 posts per arm with retention, median "3s vs similar" was A 0.53 (22b 0.43, 23c 0.56, 24b 0.53) vs B 0.39 (22c 0.49, 23b 0.39, 24c 0.35); B needed +0.05. Views were close (A 1,059 / 1,118 / 205 vs B 1,358 / 513 / 1,086). Answer-first stays the default for every cost-per-hour opener.
 - (20 Nov) Rumour and company-earnings angles (5-53 views).
 
 ## Next up (start one when a live experiment closes)
-- Opening frame motion: the first clip must be the highest-motion shot, not just the highest score (autopick hook rule).
-- Length: 9-10 s cut vs 13 s (more loops; Shorts reward views per viewer over 100%).
+- Opening frame motion: the first clip must be the highest-motion shot, not just the highest score (autopick hook rule). NEEDS ENGINEERING (autopick.py line ~228).
 - Head-to-head cost per hour ("Elden Ring vs Dark Souls 3: which is cheaper per hour?") as the test-slot format.
 - Pinned comment on YouTube with the request prompt (yt_engage.py) once E2 has data.

@@ -1,0 +1,67 @@
+{
+ "title": "Celeste Costs You 59¢ an Hour. Worth It?",
+ "caption": "Celeste is $4.99 on Steam right now (75% off $19.99) and the main story takes about 8.5 hours (HowLongToBeat): 59¢ an hour. A $12 movie ticket for 2 hours is $6 an hour. Our own math.\nWhich game should we price next?\n\nSources: Steam store (US price, 28 Nov), HowLongToBeat",
+ "ig_first_line": "Send this to the friend with 300 deaths in Celeste: it's $4.99 right now, 59¢ an hour.",
+ "hashtags": [
+  "#Celeste",
+  "#gaming",
+  "#shorts",
+  "#gamingnews",
+  "#iscelesteworthit"
+ ],
+ "title_candidates": [
+  {
+   "t": "Celeste Costs You 59¢ an Hour. Worth It?",
+   "score": 10
+  },
+  {
+   "t": "Is Celeste Worth Buying? 59¢ an Hour",
+   "score": 9
+  },
+  {
+   "t": "Celeste Is $4.99: 59¢ an Hour",
+   "score": 7
+  },
+  {
+   "t": "Celeste Is 10x Cheaper Than a Movie",
+   "score": 6
+  },
+  {
+   "t": "Celeste Steam Sale",
+   "score": 4
+  }
+ ],
+ "localized": {
+  "es": {
+   "title": "Celeste te cuesta 59¢ por hora. ¿Vale la pena?"
+  },
+  "pt-BR": {
+   "title": "Celeste custa 59¢ por hora. Vale a pena?"
+  },
+  "ar": {
+   "title": "Celeste تكلفك 59¢ في الساعة. هل تستحق؟"
+  },
+  "hi": {
+   "title": "Celeste की कीमत 59¢ प्रति घंटा. क्या लायक है?"
+  },
+  "id": {
+   "title": "Celeste Cuma 59¢ per Jam. Worth It?"
+  }
+ },
+ "keywords": [
+  "is celeste worth buying",
+  "is celeste worth it",
+  "steam deals right now"
+ ],
+ "hook_style": "number",
+ "series": "cost_per_hour",
+ "music": "game",
+ "carousel": false,
+ "publish_time_utc": "12:00",
+ "experiment": {
+  "E1": "A",
+  "E2": "COST PER HOUR #24",
+  "E3": "send_trigger",
+  "E6": "B"
+ }
+}

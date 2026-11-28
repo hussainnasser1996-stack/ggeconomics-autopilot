@@ -1,0 +1,33 @@
+{
+ "id": "d_2026_11_28",
+ "voice": "am_liam",
+ "speed": 1.25,
+ "gap": 0.12,
+ "mode": "edit",
+ "lines": [
+  {
+   "id": "hook",
+   "text": "$8.99 buys you 3 Mass Effect games"
+  },
+  {
+   "id": "movie",
+   "text": "A movie ticket costs you $12"
+  },
+  {
+   "id": "hours",
+   "text": "68 hours of story vs 2 hours"
+  },
+  {
+   "id": "rate",
+   "text": "13¢ an hour vs $6 an hour"
+  },
+  {
+   "id": "sale",
+   "text": "85% off on Steam right now"
+  },
+  {
+   "id": "out",
+   "text": "Trilogy or one movie? Your call."
+  }
+ ]
+}

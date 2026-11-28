@@ -1,0 +1,67 @@
+{
+ "title": "Persona 5 Royal Costs You 17¢ an Hour. Worth It?",
+ "caption": "Persona 5 Royal is $17.99 on Steam right now (70% off $59.99) and the main story takes about 105 hours (HowLongToBeat): 17¢ an hour. Full price is 57¢ an hour. A $12 movie ticket for 2 hours is $6 an hour. Our own math.\nWhich game should we price next?\n\nSources: Steam store (US price, 28 Nov), HowLongToBeat",
+ "ig_first_line": "Send this to the friend with 300 hours in Persona 5 Royal: it's $17.99 right now, 17¢ an hour.",
+ "hashtags": [
+  "#Persona5Royal",
+  "#gaming",
+  "#shorts",
+  "#gamingnews",
+  "#persona5royalworthit"
+ ],
+ "title_candidates": [
+  {
+   "t": "Persona 5 Royal Costs You 17¢ an Hour. Worth It?",
+   "score": 10
+  },
+  {
+   "t": "Persona 5 Royal Is It Worth It? 17¢ an Hour",
+   "score": 9
+  },
+  {
+   "t": "Persona 5 Royal: 105 Hours for $17.99",
+   "score": 7
+  },
+  {
+   "t": "Persona 5 Royal Is 35x Cheaper Than a Movie",
+   "score": 6
+  },
+  {
+   "t": "Persona 5 Royal Steam Sale",
+   "score": 4
+  }
+ ],
+ "localized": {
+  "es": {
+   "title": "Persona 5 Royal te cuesta 17¢ por hora. ¿Vale la pena?"
+  },
+  "pt-BR": {
+   "title": "Persona 5 Royal custa 17¢ por hora. Vale a pena?"
+  },
+  "ar": {
+   "title": "Persona 5 Royal تكلفك 17¢ في الساعة. هل تستحق؟"
+  },
+  "hi": {
+   "title": "Persona 5 Royal की कीमत 17¢ प्रति घंटा. क्या लायक है?"
+  },
+  "id": {
+   "title": "Persona 5 Royal Cuma 17¢ per Jam. Worth It?"
+  }
+ },
+ "keywords": [
+  "persona 5 royal is it worth it",
+  "persona 5 royal price",
+  "steam deals right now"
+ ],
+ "hook_style": "number",
+ "series": "cost_per_hour",
+ "music": "game",
+ "carousel": false,
+ "publish_time_utc": "17:30",
+ "experiment": {
+  "E1": "A",
+  "E2": "COST PER HOUR #23",
+  "E3": "send_trigger",
+  "E6": "A"
+ }
+}
