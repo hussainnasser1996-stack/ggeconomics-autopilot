@@ -1,8 +1,8 @@
 {
  "spec": {
   "tag": "COST PER HOUR #23",
-  "headline": "PERSONA 5 ROYAL COSTS YOU |17¢/HR|",
-  "topic": "Persona 5 Royal on Steam US (appid 1687950): $59.99 list, $17.99 now (70% off, appdetails cc=us, checked 28 Nov 2026) ÷ main story about 105 h (HowLongToBeat 106 h 5 min as cited by SVG; HLTB mirror 103 h) = 17¢/h; full price 57¢/h (59.99/105); completionist ~141 h (mirror) = 13¢/h; vs ~$12 movie for 2 h = $6/h. E1 closed 28 Nov (A default). E6 arm A (even day: b = A, 5 lines ~13-14 s).",
+  "headline": "PERSONA 5 ROYAL COSTS YOU |17\u00a2/HR|",
+  "topic": "Persona 5 Royal on Steam US (appid 1687950): $59.99 list, $17.99 now (70% off, appdetails cc=us, checked 28 Nov 2026) \u00f7 main story about 105 h (HowLongToBeat 106 h 5 min as cited by SVG; HLTB mirror 103 h) = 17\u00a2/h; full price 57\u00a2/h (59.99/105); completionist ~141 h (mirror) = 13\u00a2/h; vs ~$12 movie for 2 h = $6/h. E1 closed 28 Nov (A default). E6 arm A (even day: b = A, 5 lines ~13-14 s).",
   "vo": "vo/d_2026_11_28b/vo.wav",
   "timelinePath": "vo/d_2026_11_28b/timeline.json",
   "timeline": {
@@ -11,34 +11,95 @@
    "words": []
   },
   "noBed": true,
-  "clips": [],
+  "clips": [
+   {
+    "src": "d_2026_11_28b",
+    "from": 74.78,
+    "dur": 2.07,
+    "shot": 29.04
+   },
+   {
+    "src": "d_2026_11_28b",
+    "from": 65.37,
+    "dur": 1.79,
+    "shot": 26.0
+   },
+   {
+    "src": "d_2026_11_28b",
+    "from": 53.3,
+    "dur": 1.75,
+    "shot": 24
+   },
+   {
+    "src": "d_2026_11_28b",
+    "from": 94.62,
+    "dur": 1.5,
+    "shot": 32.01
+   },
+   {
+    "src": "d_2026_11_28b",
+    "from": 12.25,
+    "dur": 2.2,
+    "shot": 1.07
+   },
+   {
+    "src": "d_2026_11_28b",
+    "from": 68.12,
+    "dur": 1.2,
+    "shot": 26.04
+   },
+   {
+    "src": "d_2026_11_28b",
+    "from": 83.88,
+    "dur": 1.54,
+    "shot": 30.04
+   },
+   {
+    "src": "d_2026_11_28b",
+    "from": 13.9,
+    "dur": 1.49,
+    "shot": 1.07
+   },
+   {
+    "src": "d_2026_11_28b",
+    "from": 79.48,
+    "dur": 1.74,
+    "shot": 30.01
+   },
+   {
+    "src": "d_2026_11_28b",
+    "from": 75.08,
+    "dur": 1.7699999999999998,
+    "shot": 29.04
+   }
+  ],
   "cards": [
    {
     "kind": "big",
     "line": "hook",
-    "value": "17¢/HR",
+    "value": "17\u00a2/HR",
     "label": "Persona 5 Royal, main story",
-    "note": "$17.99 Steam sale ÷ ~105 h to beat · our math",
+    "note": "$17.99 Steam sale \u00f7 ~105 h to beat \u00b7 our math",
     "color": "#D4FF3A"
    },
    {
     "kind": "pair",
     "line": "full",
     "a": {
-     "value": "17¢/HR",
+     "value": "17\u00a2/HR",
      "label": "ON SALE"
     },
     "b": {
-     "value": "57¢/HR",
+     "value": "57\u00a2/HR",
      "label": "FULL $59.99"
     },
-    "note": "Steam US · 70% off right now"
+    "note": "Steam US \u00b7 70% off right now"
    },
    {
     "kind": "pair",
     "line": "movie",
     "a": {
-     "value": "17¢/HR",
+     "value": "17\u00a2/HR",
      "label": "PERSONA 5 ROYAL"
     },
     "b": {
@@ -48,7 +109,8 @@
     "note": "~$12 ticket for a 2-hour film"
    }
   ],
-  "credit": "GAMEPLAY: ATLUS / SEGA · DATA: STEAM, HOWLONGTOBEAT",
-  "endLine": "COMMENT A GAME. WE PRICE IT NEXT."
+  "credit": "GAMEPLAY: ATLUS / SEGA \u00b7 DATA: STEAM, HOWLONGTOBEAT",
+  "endLine": "COMMENT A GAME. WE PRICE IT NEXT.",
+  "noCaptions": true
  }
 }

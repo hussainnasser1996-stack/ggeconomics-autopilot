@@ -8,6 +8,7 @@ Followers: YouTube 13 subscribers · Instagram 0 followers
 (— = not sent yet / no metrics yet; carousel shows reach when Buffer gives no views)
 | post | YouTube Short | IG Reel | IG carousel | TikTok | total | title |
 |---|---|---|---|---|---|---|
+| 2026-11-28b | — | — | — | — | 0 | Persona 5 Royal Costs You 17¢ an Hour. Worth It? |
 | 2026-11-28 | — | — | — | — | 0 | Mass Effect Trilogy: $8.99 vs Your $12 Movie |
 | 2026-11-27c | — | — | — | — | 0 | Death Stranding Costs You 25¢ an Hour. Worth It? |
 | 2026-11-27b | — | — | — | — | 0 | Silent Hill f Costs You $1.78 an Hour. Worth It? |
@@ -27,7 +28,7 @@ Followers: YouTube 13 subscribers · Instagram 0 followers
 | 2026-11-22c | — | 126 | — | — | 126 | Is Skyrim Worth It in 2026? $1.14 an Hour |
 | 2026-11-22b | 1060 | 120 | — | — | 1180 | Witcher 3 Worth It in 2026? 96¢ an Hour |
 | 2026-11-22 | 1013 | 127 | — | — | 1140 | GTA 6 Sales Numbers: Week 1 in 4 Numbers |
-| 2026-11-21c | 1287 | 173 | — | — | 1460 | Stardew Valley Costs You 28¢ an Hour. Worth It? |
+| 2026-11-21c | 1289 | 173 | — | — | 1462 | Stardew Valley Costs You 28¢ an Hour. Worth It? |
 | 2026-11-21b | 1397 | 129 | — | — | 1526 | Red Dead 2 Costs You $1.18 an Hour. Worth It? |
 | 2026-11-21 | 1019 | 121 | — | — | 1140 | GTA 6 Sales: 32.5M Copies. Are You One? |
 | 2026-11-20c | 1647 | 151 | — | — | 1798 | Hollow Knight Costs You 56¢ an Hour. Worth It? |
@@ -49,8 +50,9 @@ Followers: YouTube 13 subscribers · Instagram 0 followers
 ## YouTube
 | published | views | avg view % | avg view s | kept 1s % | kept 3s % | 3s vs similar | likes | shares | subs+ | title |
 |---|---|---|---|---|---|---|---|---|---|---|
+| 2026-11-28 | 0 | — | — | — | — | — | 0 | — | — | Persona 5 Royal Costs You 17¢ an Hour. Worth It? |
 | 2026-11-28 | 0 | — | — | — | — | — | 0 | — | — | Mass Effect Trilogy: $8.99 vs Your $12 Movie |
-| 2026-11-27 | 316 | — | — | — | — | — | 1 | — | — | Black Friday: Your $80 Buys 1 GTA 6 or 3 Games |
+| 2026-11-27 | 334 | — | — | — | — | — | 1 | — | — | Black Friday: Your $80 Buys 1 GTA 6 or 3 Games |
 | 2026-11-27 | 206 | — | — | — | — | — | 2 | — | — | Silent Hill f Costs You $1.78 an Hour. Worth It? |
 | 2026-11-27 | 0 | — | — | — | — | — | 0 | — | — | Top 10 Games on Steam This Week: Worth the Money? (Nov 2026) |
 | 2026-11-27 | 124 | — | — | — | — | — | 0 | — | — | Death Stranding Costs You 25¢ an Hour. Worth It? |
@@ -58,7 +60,7 @@ Followers: YouTube 13 subscribers · Instagram 0 followers
 | 2026-11-26 | 194 | — | — | — | — | — | 1 | — | — | Detroit Costs You 33¢ an Hour. Worth It? |
 | 2026-11-26 | 1063 | — | — | — | — | — | 3 | — | — | Hogwarts Legacy Costs You 22¢ an Hour. Worth It? |
 | 2026-11-25 | 259 | 117.3 | 17 | 167 | 156 | 0.65 | 0 | 0 | 0 | 5 Steam Black Friday Deals Under $1 an Hour |
-| 2026-11-25 | 1313 | 84.0 | 10 | 125 | 121 | 0.49 | 19 | 0 | 2 | Fallout 3 Costs You 19¢ an Hour. Worth It? |
+| 2026-11-25 | 1323 | 84.0 | 10 | 125 | 121 | 0.49 | 19 | 0 | 2 | Fallout 3 Costs You 19¢ an Hour. Worth It? |
 | 2026-11-25 | 857 | 64.6 | 9 | 114 | 108 | 0.3 | 7 | 0 | 0 | God of War Costs You 97¢ an Hour. Worth It? |
 | 2026-11-24 | 379 | 78.1 | 10 | 121 | 113 | 0.4 | 1 | 0 | 0 | Witcher 3 vs Cyberpunk 2077: 96¢ vs $2.31 an Hour |
 | 2026-11-24 | 210 | 105.2 | 14 | 152 | 145 | 0.55 | 1 | 0 | 0 | Sekiro Costs You $2 an Hour. Worth It? |
@@ -71,7 +73,7 @@ Followers: YouTube 13 subscribers · Instagram 0 followers
 | 2026-11-22 | 7 | 31.5 | 153 | — | — | — | 0 | 0 | 0 | Top 10 Games on Steam This Week: Worth the Money? (Nov 2026) |
 | 2026-11-21 | 1019 | 91.8 | 12 | 139 | 128 | 0.47 | 4 | 0 | 0 | GTA 6 Sales: 32.5M Copies. Are You One? |
 | 2026-11-21 | 1397 | 73.9 | 10 | 120 | 112 | 0.42 | 7 | 0 | 1 | Red Dead 2 Costs You $1.18 an Hour. Worth It? |
-| 2026-11-21 | 1287 | 83.8 | 11 | 134 | 122 | 0.57 | 4 | 1 | 1 | Stardew Valley Costs You 28¢ an Hour. Worth It? |
+| 2026-11-21 | 1289 | 83.8 | 11 | 134 | 122 | 0.57 | 4 | 1 | 1 | Stardew Valley Costs You 28¢ an Hour. Worth It? |
 | 2026-11-21 | 1236 | 61.3 | 10 | 114 | 112 | 0.31 | 6 | 0 | 1 | GTA 6 Sales: Est. 19M Copies. Did You Buy It? |
 | 2026-11-20 | 1138 | 62.8 | 11 | 116 | 114 | 0.35 | 7 | 1 | 0 | GTA 6 Got 8 Game Awards Nominations Before Launch |
 | 2026-11-20 | 1647 | 92.9 | 13 | 128 | 121 | 0.66 | 19 | 1 | 1 | Hollow Knight Costs You 56¢ an Hour. Worth It? |
