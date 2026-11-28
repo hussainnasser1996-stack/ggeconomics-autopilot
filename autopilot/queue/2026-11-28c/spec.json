@@ -1,8 +1,8 @@
 {
  "spec": {
   "tag": "COST PER HOUR #24",
-  "headline": "CELESTE COSTS YOU |59¢/HR|",
-  "topic": "Celeste on Steam US (appid 504230): $19.99 list, $4.99 now (75% off, appdetails cc=us, checked 28 Nov 2026) ÷ main story about 8.5 h (HowLongToBeat 8.5 h as listed by Dekudeals; HLTB mirror 8 h = 62¢) = 59¢/h; full price $2.35/h; completionist ~37-39 h = 13¢/h; vs ~$12 movie for 2 h = $6/h. E6 arm B (even day: c = B, 4 lines ~10-11 s, no full-price line).",
+  "headline": "CELESTE COSTS YOU |59\u00a2/HR|",
+  "topic": "Celeste on Steam US (appid 504230): $19.99 list, $4.99 now (75% off, appdetails cc=us, checked 28 Nov 2026) \u00f7 main story about 8.5 h (HowLongToBeat 8.5 h as listed by Dekudeals; HLTB mirror 8 h = 62\u00a2) = 59\u00a2/h; full price $2.35/h; completionist ~37-39 h = 13\u00a2/h; vs ~$12 movie for 2 h = $6/h. E6 arm B (even day: c = B, 4 lines ~10-11 s, no full-price line).",
   "vo": "vo/d_2026_11_28c/vo.wav",
   "timelinePath": "vo/d_2026_11_28c/timeline.json",
   "timeline": {
@@ -11,21 +11,59 @@
    "words": []
   },
   "noBed": true,
-  "clips": [],
+  "clips": [
+   {
+    "src": "d_2026_11_28c",
+    "from": 46.3,
+    "dur": 2.2,
+    "shot": 11
+   },
+   {
+    "src": "d_2026_11_28c",
+    "from": 16.9,
+    "dur": 2.2,
+    "shot": 4
+   },
+   {
+    "src": "d_2026_11_28c",
+    "from": 29.5,
+    "dur": 2.2,
+    "shot": 7,
+    "zoom": 1.252
+   },
+   {
+    "src": "d_2026_11_28c",
+    "from": 21.1,
+    "dur": 2.2,
+    "shot": 5
+   },
+   {
+    "src": "d_2026_11_28c",
+    "from": 4.3,
+    "dur": 2.2,
+    "shot": 1
+   },
+   {
+    "src": "d_2026_11_28c",
+    "from": 33.7,
+    "dur": 1.87,
+    "shot": 8
+   }
+  ],
   "cards": [
    {
     "kind": "big",
     "line": "hook",
-    "value": "59¢/HR",
+    "value": "59\u00a2/HR",
     "label": "Celeste, main story",
-    "note": "$4.99 Steam sale ÷ ~8.5 h to beat · our math",
+    "note": "$4.99 Steam sale \u00f7 ~8.5 h to beat \u00b7 our math",
     "color": "#D4FF3A"
    },
    {
     "kind": "pair",
     "line": "movie",
     "a": {
-     "value": "59¢/HR",
+     "value": "59\u00a2/HR",
      "label": "CELESTE"
     },
     "b": {
@@ -35,7 +73,8 @@
     "note": "~$12 ticket for a 2-hour film"
    }
   ],
-  "credit": "GAMEPLAY: MADDY MAKES GAMES · DATA: STEAM, HOWLONGTOBEAT",
-  "endLine": "COMMENT A GAME. WE PRICE IT NEXT."
+  "credit": "GAMEPLAY: MADDY MAKES GAMES \u00b7 DATA: STEAM, HOWLONGTOBEAT",
+  "endLine": "COMMENT A GAME. WE PRICE IT NEXT.",
+  "noCaptions": true
  }
 }

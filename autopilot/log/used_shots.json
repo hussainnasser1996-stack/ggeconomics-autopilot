@@ -1414,5 +1414,31 @@
    "src_id": "steam:256911919",
    "start": 74.7
   }
+ ],
+ "2026-11-28c": [
+  {
+   "src_id": "steamshots:504230",
+   "start": 46.2
+  },
+  {
+   "src_id": "steamshots:504230",
+   "start": 16.8
+  },
+  {
+   "src_id": "steamshots:504230",
+   "start": 29.4
+  },
+  {
+   "src_id": "steamshots:504230",
+   "start": 21.0
+  },
+  {
+   "src_id": "steamshots:504230",
+   "start": 4.2
+  },
+  {
+   "src_id": "steamshots:504230",
+   "start": 33.6
+  }
  ]
 }

@@ -1,5 +1,6 @@
 # Post history (newest first)
 
+- 2026-11-28c · Celeste Costs You 59¢ an Hour. Worth It? · footage: Celeste — Steam screenshots · VO similarity 1.00 ·  · due 23:00 UTC
 - 2026-11-28b · Persona 5 Royal Costs You 17¢ an Hour. Worth It? · footage: Persona 5 Royal — Launch Trailer (Unrated) · VO similarity 1.00 ·  · due 23:00 UTC
 - 2026-11-28 · Mass Effect Trilogy: $8.99 vs Your $12 Movie · footage: Mass Effect™ Legendary Edition — Reveal trailer · VO similarity 1.00 ·  · due 23:00 UTC
 - 2026-11-27c · Death Stranding Costs You 25¢ an Hour. Worth It? · footage: DEATH STRANDING 2: ON THE BEACH — Launch trailer EN US  · VO similarity 1.00 ·  · due 23:00 UTC

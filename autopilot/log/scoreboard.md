@@ -8,6 +8,7 @@ Followers: YouTube 13 subscribers · Instagram 0 followers
 (— = not sent yet / no metrics yet; carousel shows reach when Buffer gives no views)
 | post | YouTube Short | IG Reel | IG carousel | TikTok | total | title |
 |---|---|---|---|---|---|---|
+| 2026-11-28c | — | — | — | — | 0 | Celeste Costs You 59¢ an Hour. Worth It? |
 | 2026-11-28b | — | — | — | — | 0 | Persona 5 Royal Costs You 17¢ an Hour. Worth It? |
 | 2026-11-28 | — | — | — | — | 0 | Mass Effect Trilogy: $8.99 vs Your $12 Movie |
 | 2026-11-27c | — | — | — | — | 0 | Death Stranding Costs You 25¢ an Hour. Worth It? |
@@ -50,20 +51,21 @@ Followers: YouTube 13 subscribers · Instagram 0 followers
 ## YouTube
 | published | views | avg view % | avg view s | kept 1s % | kept 3s % | 3s vs similar | likes | shares | subs+ | title |
 |---|---|---|---|---|---|---|---|---|---|---|
+| 2026-11-28 | 0 | — | — | — | — | — | 0 | — | — | Celeste Costs You 59¢ an Hour. Worth It? |
 | 2026-11-28 | 0 | — | — | — | — | — | 0 | — | — | Persona 5 Royal Costs You 17¢ an Hour. Worth It? |
 | 2026-11-28 | 0 | — | — | — | — | — | 0 | — | — | Mass Effect Trilogy: $8.99 vs Your $12 Movie |
-| 2026-11-27 | 334 | — | — | — | — | — | 1 | — | — | Black Friday: Your $80 Buys 1 GTA 6 or 3 Games |
+| 2026-11-27 | 340 | — | — | — | — | — | 1 | — | — | Black Friday: Your $80 Buys 1 GTA 6 or 3 Games |
 | 2026-11-27 | 206 | — | — | — | — | — | 2 | — | — | Silent Hill f Costs You $1.78 an Hour. Worth It? |
 | 2026-11-27 | 0 | — | — | — | — | — | 0 | — | — | Top 10 Games on Steam This Week: Worth the Money? (Nov 2026) |
-| 2026-11-27 | 124 | — | — | — | — | — | 0 | — | — | Death Stranding Costs You 25¢ an Hour. Worth It? |
-| 2026-11-26 | 204 | — | — | — | — | — | 1 | — | — | GTA 5 vs GTA 6: 62¢ an Hour vs $79.99 |
-| 2026-11-26 | 194 | — | — | — | — | — | 1 | — | — | Detroit Costs You 33¢ an Hour. Worth It? |
+| 2026-11-27 | 128 | — | — | — | — | — | 0 | — | — | Death Stranding Costs You 25¢ an Hour. Worth It? |
+| 2026-11-26 | 210 | — | — | — | — | — | 1 | — | — | GTA 5 vs GTA 6: 62¢ an Hour vs $79.99 |
+| 2026-11-26 | 201 | — | — | — | — | — | 1 | — | — | Detroit Costs You 33¢ an Hour. Worth It? |
 | 2026-11-26 | 1063 | — | — | — | — | — | 3 | — | — | Hogwarts Legacy Costs You 22¢ an Hour. Worth It? |
-| 2026-11-25 | 259 | 117.3 | 17 | 167 | 156 | 0.65 | 0 | 0 | 0 | 5 Steam Black Friday Deals Under $1 an Hour |
-| 2026-11-25 | 1323 | 84.0 | 10 | 125 | 121 | 0.49 | 19 | 0 | 2 | Fallout 3 Costs You 19¢ an Hour. Worth It? |
+| 2026-11-25 | 255 | 117.3 | 17 | 167 | 156 | 0.65 | 0 | 0 | 0 | 5 Steam Black Friday Deals Under $1 an Hour |
+| 2026-11-25 | 1320 | 84.0 | 10 | 125 | 121 | 0.49 | 19 | 0 | 2 | Fallout 3 Costs You 19¢ an Hour. Worth It? |
 | 2026-11-25 | 857 | 64.6 | 9 | 114 | 108 | 0.3 | 7 | 0 | 0 | God of War Costs You 97¢ an Hour. Worth It? |
 | 2026-11-24 | 379 | 78.1 | 10 | 121 | 113 | 0.4 | 1 | 0 | 0 | Witcher 3 vs Cyberpunk 2077: 96¢ vs $2.31 an Hour |
-| 2026-11-24 | 210 | 105.2 | 14 | 152 | 145 | 0.55 | 1 | 0 | 0 | Sekiro Costs You $2 an Hour. Worth It? |
+| 2026-11-24 | 211 | 105.2 | 14 | 152 | 145 | 0.55 | 1 | 0 | 0 | Sekiro Costs You $2 an Hour. Worth It? |
 | 2026-11-24 | 1096 | 76.6 | 9 | 114 | 110 | 0.34 | 7 | 0 | 0 | Portal 2 Costs You $1.18 an Hour. Worth It? |
 | 2026-11-23 | 513 | 74.9 | 9 | 120 | 116 | 0.38 | 2 | 0 | 0 | Hades Costs You $1.06 an Hour. Worth It? |
 | 2026-11-23 | 1368 | 86 | 11 | 127 | 121 | 0.52 | 12 | 0 | 0 | Is Skyrim Worth It in 2026? $1.14 an Hour |
